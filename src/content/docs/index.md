@@ -1,6 +1,6 @@
 ---
 title: FELIX FELICIS
-description: Prototipo tecnico del nuovo sito-libro del Regolamento.
+description: Regolamento consultabile di FELIX FELICIS GdR.
 felixId: "66666666-6666-4666-8666-666666666661"
 contentType: landing
 searchAliases: [regolamento, manuale, felix]
@@ -10,23 +10,26 @@ migration:
 prototypeExcerpt: false
 ---
 
+Benvenuto nel **Regolamento di FELIX FELICIS**.
 
-Questo repository è la prima **fetta verticale funzionante** del futuro sito-libro del Regolamento.
+Puoi consultarlo seguendo le sezioni nella barra laterale oppure usare la **ricerca globale** per trovare rapidamente una regola, una Creatura, un Incantesimo, una Pozione, una Razza o un altro contenuto.
 
-Il prototipo verifica soprattutto quattro cose: **modifica tramite CMS, contenuti strutturati, relazioni automatiche e consultazione rapida**. La grafica è volutamente provvisoria: verrà affrontata quando avremo analizzato l'HTML e il CSS attuali del sito.
+## Accessi rapidi
 
-## Prova subito
+- [Il Personaggio](il-personaggio/)
+- [Giocare](giocare/)
+- [Conoscenze e Sapienze](conoscenze-e-sapienze/)
+- [Manuali](manuali/)
+- [Mondo Magico](mondo-magico/)
+
+## Consultazione diretta
 
 - [Manuale degli Incantesimi](manuali/incantesimi/)
-- [Fiducia](manuali/magizoologia/fiducia/)
 - [Bestiario](manuali/magizoologia/bestiario/)
-- [Nundu](manuali/magizoologia/bestiario/nundu/)
-- [Nundacea](manuali/medimagia/malattie/nundacea/)
-- [Saliva di Nundu](manuali/ingredienti/saliva-di-nundu/)
+- [Erbario](manuali/erbologia/erbario/)
 - [Pozionario](manuali/pozionistica/pozionario/)
-- [Vaccino AntiNundux +](manuali/pozionistica/pozionario/vaccino-antinundux/)
-- [Maestrie — nuova aggiunta](conoscenze-e-sapienze/maestrie/)
+- [Ingredienti](manuali/ingredienti/)
+- [Razze](il-personaggio/razze/)
+- [Leggi Magiche](mondo-magico/leggi/)
 
-> **Importante:** i contenuti testuali inclusi qui sono un campione tecnico e non sostituiscono la migrazione completa e verificata del Regolamento.
-
-- [Erbario](./manuali/erbologia/erbario/)
+> Il sito è ancora in fase di migrazione dal Regolamento attuale. Le pagine già presenti possono essere complete oppure costituire estratti in attesa della migrazione integrale; quando necessario, questa condizione è indicata direttamente nella pagina.
