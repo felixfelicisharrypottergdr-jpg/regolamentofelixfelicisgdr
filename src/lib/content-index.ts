@@ -8,7 +8,9 @@ type IndexedFelixContent = {
   url: string;
 };
 
-export async function buildFelixIndex() {
+let felixIndexPromise: Promise<Map<string, IndexedFelixContent>> | undefined;
+
+async function createFelixIndex() {
   const index = new Map<string, IndexedFelixContent>();
 
   const docs = await getCollection('docs');
@@ -104,4 +106,9 @@ export async function buildFelixIndex() {
   }
 
   return index;
+}
+
+export function buildFelixIndex() {
+  felixIndexPromise ??= createFelixIndex();
+  return felixIndexPromise;
 }
