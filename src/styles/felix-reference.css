@@ -820,3 +820,136 @@ body:has(.felix-home-content) .main-frame{
     min-height:0!important;
   }
 }
+
+
+/* ===== v3: pagine editoriali e landing del Regolamento ===== */
+
+/* Il titolo è già generato dal layout: gli H1 duplicati nel Markdown non si mostrano. */
+.felix-content-wrap .sl-markdown-content > h1:first-child{
+  display:none!important;
+}
+
+/* Ritmo editoriale comune a tutte le normali pagine del Regolamento. */
+.felix-content-wrap .sl-markdown-content{
+  max-width:64rem;
+  margin-inline:auto;
+}
+.felix-content-wrap .sl-markdown-content>p:first-of-type{
+  max-width:57rem;
+  color:#4f4439;
+  font-size:1.01rem;
+  line-height:1.68;
+}
+.felix-content-wrap .sl-markdown-content>h2{
+  margin-top:2rem!important;
+}
+.felix-content-wrap .sl-markdown-content>ul,
+.felix-content-wrap .sl-markdown-content>ol{
+  padding-left:1.2rem;
+}
+.felix-content-wrap .sl-markdown-content strong{
+  color:#463326;
+}
+
+/* Landing: sono porte d'ingresso, quindi più navigazione e meno "pagina di testo". */
+.felix-content-wrap.is-landing .sl-markdown-content{
+  max-width:68rem;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>p:first-of-type{
+  max-width:60rem;
+  margin-bottom:1.5rem;
+  color:#594b3d;
+  font-size:1.05rem;
+  line-height:1.65;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>h2{
+  margin:1.55rem 0 .65rem!important;
+  padding-bottom:.42rem!important;
+  font-size:1.55rem!important;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>h2+ul{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:.48rem;
+  margin:.7rem 0 1.15rem!important;
+  padding:0!important;
+  list-style:none!important;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>h2+ul>li{
+  position:relative;
+  margin:0!important;
+  padding:.72rem .8rem .74rem 2.1rem!important;
+  border:1px solid rgba(111,75,31,.13);
+  border-radius:3px;
+  background:rgba(255,255,255,.13);
+  line-height:1.35;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>h2+ul>li::before{
+  content:'→';
+  position:absolute;
+  left:.78rem;
+  top:.72rem;
+  color:#ad782d;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>h2+ul>li:hover{
+  border-color:rgba(149,99,34,.30);
+  background:rgba(255,255,255,.27);
+}
+.felix-content-wrap.is-landing .sl-markdown-content>h2+ul>li a{
+  color:#65411f!important;
+  font-weight:700;
+  text-decoration:none!important;
+}
+
+/* Call to action singole tipiche delle landing di Mondo Magico. */
+.felix-content-wrap.is-landing .sl-markdown-content>p:has(>a:first-child:last-child){
+  margin:.45rem 0 .7rem!important;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>p:has(>a:first-child:last-child)>a{
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;
+  min-height:2.25rem;
+  padding:.42rem .72rem;
+  border:1px solid rgba(126,85,31,.18);
+  border-radius:3px;
+  background:rgba(255,255,255,.18);
+  color:#6b471f!important;
+  font-family:'Federo',sans-serif;
+  font-size:.78rem;
+  text-decoration:none!important;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>p:has(>a:first-child:last-child)>a:hover{
+  border-color:rgba(151,102,36,.35);
+  background:rgba(255,255,255,.34);
+}
+
+/* Estratti/prototipi e note finali non devono dominare la lettura. */
+.felix-content-wrap .sl-markdown-content>blockquote:last-child{
+  margin-top:2rem!important;
+  color:#706254!important;
+  font-size:.84rem;
+}
+
+/* Pagine procedurali: titoli più compatti e scansione verticale regolare. */
+.felix-content-wrap.is-rule .sl-markdown-content h2{
+  margin-top:2.1rem!important;
+}
+.felix-content-wrap.is-rule .sl-markdown-content h3{
+  margin-top:1.45rem!important;
+}
+.felix-content-wrap.is-rule .sl-markdown-content table{
+  margin:1rem 0 1.4rem!important;
+}
+
+/* Link interni in elenchi: leggibilità e target più chiaro. */
+.felix-content-wrap .sl-markdown-content li>a{
+  text-underline-offset:.18em;
+}
+
+/* Landing su schermi stretti. */
+@media(max-width:760px){
+  .felix-content-wrap.is-landing .sl-markdown-content>h2+ul{
+    grid-template-columns:1fr;
+  }
+}
