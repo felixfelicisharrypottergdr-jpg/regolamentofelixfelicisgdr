@@ -5,6 +5,18 @@ description: "I Parametri Magici, Fisici e Sociali del PG e i percorsi per consu
 contentType: landing
 searchAliases: [parametri pg, statistiche pg, valori pg, caratteristiche pg]
 applicability: [student, adult]
+quickFacts:
+  - label: "Gruppi"
+    value: "Magici · Fisici · Sociali"
+  - label: "Applicabilità"
+    value: "PG Studenti e PG Adulti"
+quickLinks:
+  - label: "Parametri Magici"
+    href: "/il-personaggio/parametri/parametri-magici/"
+  - label: "Parametri Fisici"
+    href: "/il-personaggio/parametri/parametri-fisici/"
+  - label: "Parametri Sociali"
+    href: "/il-personaggio/parametri/parametri-sociali/"
 prototypeExcerpt: true
 migration:
   status: migrated
