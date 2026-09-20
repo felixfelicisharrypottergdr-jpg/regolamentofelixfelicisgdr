@@ -10,7 +10,7 @@ type FactItem = { label: string; value: string };
 
 const path = Astro.url.pathname.replace(/\/+$/, '');
 const slug = path.split('/').filter(Boolean).at(-1) ?? '';
-const routeData = Astro.locals.starlightRoute.entry.data as Record<string, any>;
+const routeData = (((Astro.locals as any).starlightRoute?.entry?.data) ?? {}) as Record<string, any>;
 const resolveHref = (href: string) => {
   if (/^(https?:|mailto:|#)/.test(href)) return href;
   return href.startsWith('/') ? withBase(href.slice(1)) : withBase(href);
