@@ -2,6 +2,7 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection } from 'astro:content';
 import FelixBadges from '../../../../components/FelixBadges.astro';
+import FelixCatalog from '../../../../components/FelixCatalog.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { routeForStructured } from '../../../../config/routes';
 
@@ -12,151 +13,43 @@ const creatures = (await getCollection('creatures'))
 <StarlightPage frontmatter={{ title: 'Bestiario', description: 'Consulta e filtra le Creature Magiche.' }}>
   <SearchMetadata type="Catalogo" macroarea="Manuali" aliases={['creature', 'magizoologia', 'bestiario']} />
 
-  <div class="felix-catalog" data-catalog="creatures">
-    <section class="felix-catalog-main">
-      <div class="felix-catalog-toolbar">
-        <label class="felix-catalog-search">
-          <span>Cerca nel Bestiario</span>
-          <input type="search" data-filter="query" placeholder="Nome, descrizione o alias..." />
-        </label>
-        <strong class="felix-catalog-count"><span data-count>{creatures.length}</span> Creature</strong>
-      </div>
+  <FelixCatalog searchLabel="Cerca nel Bestiario" count={creatures.length} countLabel="Creature">
+    <label class="felix-filter-control" slot="filters">
+      <span>Classificazione</span>
+      <select data-filter="classification" data-filter-label="Classificazione">
+        <option value="">Tutte</option>
+        <option>X</option><option>XX</option><option>XXX</option><option>XXXX</option><option>XXXXX</option>
+      </select>
+    </label>
+    <label class="felix-filter-control" slot="filters">
+      <span>Ostilità</span>
+      <select data-filter="hostility" data-filter-label="Ostilità">
+        <option value="">Tutte</option>
+        <option>Mai ostile</option><option>Neutrale</option><option>Sempre ostile</option>
+      </select>
+    </label>
+    <label class="felix-filter-toggle" slot="filters">
+      <input type="checkbox" data-filter="exotic" data-filter-label="Esotica" data-active-label="Solo esotiche" />
+      <span>Solo esotiche</span>
+    </label>
 
-      <div class="felix-catalog-controls" aria-label="Filtri Bestiario">
-        <span class="felix-catalog-controls-title">Filtri</span>
-        <label class="felix-filter-control">
-          <span>Classificazione</span>
-          <select data-filter="classification">
-            <option value="">Tutte</option>
-            <option>X</option><option>XX</option><option>XXX</option><option>XXXX</option><option>XXXXX</option>
-          </select>
-        </label>
-        <label class="felix-filter-control">
-          <span>Ostilità</span>
-          <select data-filter="hostility">
-            <option value="">Tutte</option>
-            <option>Mai ostile</option><option>Neutrale</option><option>Sempre ostile</option>
-          </select>
-        </label>
-        <label class="felix-filter-toggle"><input type="checkbox" data-filter="exotic" /> <span>Solo esotiche</span></label>
-        <button type="button" class="felix-filter-reset" data-reset>Azzera</button>
-        <button type="button" class="felix-filter-share" data-copy-filter-link>Copia link</button>
-        <span data-copy-status role="status" aria-live="polite"></span>
-      </div>
-
-      <div class="felix-active-filters" data-active-filters hidden></div>
-
-      <div class="felix-catalog-list" data-pagefind-ignore>
-        {creatures.map((entry) => (
-          <article
-            class="felix-creature-row"
-            data-card
-            data-name={entry.data.name.toLowerCase()}
-            data-description={entry.data.description.toLowerCase()}
-            data-aliases={entry.data.searchAliases.join(' ').toLowerCase()}
-            data-classification={entry.data.classification ?? ''}
-            data-hostility={entry.data.hostility ?? ''}
-            data-exotic={entry.data.exotic ? 'true' : 'false'}
-          >
-            <div>
-              <h2><a href={routeForStructured('creatures', entry.data.slug)}>{entry.data.name}</a></h2>
-              <FelixBadges items={[entry.data.classification ?? '', entry.data.hostility ?? '', entry.data.exotic ? 'Esotica' : '']} />
-              <p>{entry.data.description}</p>
-            </div>
-          </article>
-        ))}
-      </div>
-    </section>
-  </div>
-
-  <script>
-    const root = document.querySelector('[data-catalog="creatures"]');
-    if (root) {
-      const cards = [...root.querySelectorAll('[data-card]')];
-      const fields = Object.fromEntries([...root.querySelectorAll('[data-filter]')].map((el) => [el.dataset.filter, el]));
-      const count = root.querySelector('[data-count]');
-      const activeFilters = root.querySelector('[data-active-filters]');
-      const copyStatus = root.querySelector('[data-copy-status]');
-      const copyButton = root.querySelector('[data-copy-filter-link]');
-
-      const params = new URLSearchParams(window.location.search);
-      if (fields.query) fields.query.value = params.get('q') || '';
-      if (fields.classification) fields.classification.value = params.get('classification') || '';
-      if (fields.hostility) fields.hostility.value = params.get('hostility') || '';
-      if (fields.exotic) fields.exotic.checked = params.get('exotic') === '1';
-
-      const currentState = () => ({
-        query: (fields.query?.value || '').trim(),
-        classification: fields.classification?.value || '',
-        hostility: fields.hostility?.value || '',
-        exotic: Boolean(fields.exotic?.checked),
-      });
-
-      const syncUrl = (state) => {
-        const next = new URLSearchParams();
-        if (state.query) next.set('q', state.query);
-        if (state.classification) next.set('classification', state.classification);
-        if (state.hostility) next.set('hostility', state.hostility);
-        if (state.exotic) next.set('exotic', '1');
-        const queryString = next.toString();
-        history.replaceState(null, '', `${location.pathname}${queryString ? `?${queryString}` : ''}`);
-      };
-
-      const renderActive = (state) => {
-        if (!activeFilters) return;
-        const labels = [];
-        if (state.query) labels.push(`Ricerca: ${state.query}`);
-        if (state.classification) labels.push(`Classificazione: ${state.classification}`);
-        if (state.hostility) labels.push(`Ostilità: ${state.hostility}`);
-        if (state.exotic) labels.push('Esotica');
-        activeFilters.replaceChildren(...labels.map((label) => {
-          const span = document.createElement('span');
-          span.className = 'felix-filter-chip';
-          span.textContent = label;
-          return span;
-        }));
-        activeFilters.hidden = labels.length === 0;
-      };
-
-      const apply = (updateUrl = true) => {
-        const state = currentState();
-        const query = state.query.toLowerCase();
-        let visible = 0;
-        cards.forEach((card) => {
-          const haystack = `${card.dataset.name || ''} ${card.dataset.description || ''} ${card.dataset.aliases || ''}`;
-          const matchesQuery = !query || haystack.includes(query);
-          const matchesClassification = !state.classification || card.dataset.classification === state.classification;
-          const matchesHostility = !state.hostility || card.dataset.hostility === state.hostility;
-          const matchesExotic = !state.exotic || card.dataset.exotic === 'true';
-          const show = matchesQuery && matchesClassification && matchesHostility && matchesExotic;
-          card.hidden = !show;
-          if (show) visible += 1;
-        });
-        if (count) count.textContent = String(visible);
-        renderActive(state);
-        if (updateUrl) syncUrl(state);
-      };
-
-      Object.values(fields).forEach((el) => el.addEventListener('input', () => apply(true)));
-      root.querySelector('[data-reset]')?.addEventListener('click', () => {
-        if (fields.query) fields.query.value = '';
-        if (fields.classification) fields.classification.value = '';
-        if (fields.hostility) fields.hostility.value = '';
-        if (fields.exotic) fields.exotic.checked = false;
-        apply(true);
-      });
-
-      copyButton?.addEventListener('click', async () => {
-        try {
-          await navigator.clipboard.writeText(window.location.href);
-          if (copyStatus) copyStatus.textContent = 'Link copiato.';
-          window.setTimeout(() => { if (copyStatus) copyStatus.textContent = ''; }, 1800);
-        } catch {
-          if (copyStatus) copyStatus.textContent = 'Copia non disponibile: usa la barra del browser.';
-        }
-      });
-
-      apply(false);
-    }
-  </script>
+    {creatures.map((entry) => (
+      <article
+        class="felix-creature-row"
+        data-card
+        data-name={entry.data.name.toLowerCase()}
+        data-description={entry.data.description.toLowerCase()}
+        data-aliases={entry.data.searchAliases.join(' ').toLowerCase()}
+        data-classification={entry.data.classification ?? ''}
+        data-hostility={entry.data.hostility ?? ''}
+        data-exotic={entry.data.exotic ? 'true' : 'false'}
+      >
+        <div>
+          <h2><a href={routeForStructured('creatures', entry.data.slug)}>{entry.data.name}</a></h2>
+          <FelixBadges items={[entry.data.classification ?? '', entry.data.hostility ?? '', entry.data.exotic ? 'Esotica' : '']} />
+          <p>{entry.data.description}</p>
+        </div>
+      </article>
+    ))}
+  </FelixCatalog>
 </StarlightPage>
