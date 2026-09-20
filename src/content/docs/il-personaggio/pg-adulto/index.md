@@ -5,6 +5,22 @@ description: "Regole e possibilità di gioco dedicate ai PG Adulti nel Mondo Mag
 contentType: landing
 searchAliases: [adulto, personaggio adulto, pg adulto, adulto mondo magico]
 applicability: [adult]
+quickFacts:
+  - label: "Età"
+    value: "Più di 17 anni"
+  - label: "Ambito"
+    value: "Società magica e Mondo Magico"
+  - label: "Hogwarts"
+    value: "Normalmente inaccessibile senza autorizzazione"
+quickLinks:
+  - label: "Creare un PG Adulto"
+    href: "/il-personaggio/pg-adulto/creare-un-pg-adulto/"
+  - label: "Lavorare nel Mondo Magico"
+    href: "/il-personaggio/pg-adulto/lavorare/"
+  - label: "Modalità di gioco"
+    href: "/il-personaggio/pg-adulto/modalita-di-gioco/"
+  - label: "Quidditch tra PG Adulti"
+    href: "/mondo-magico/quidditch/quidditch-tra-pg-adulti/"
 prototypeExcerpt: true
 migration:
   status: migrated
