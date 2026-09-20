@@ -2,15 +2,19 @@
 import Default from '@astrojs/starlight/components/MarkdownContent.astro';
 import FelixHome from '../FelixHome.astro';
 
-const routeId = Astro.locals.starlightRoute.id || '';
+const route = Astro.locals.starlightRoute;
+const routeId = route.id || '';
 const isHome = routeId === '' || routeId === 'index';
+const contentType = (route.entry.data as Record<string, any>).contentType ?? 'rule';
 ---
 {isHome ? (
   <div class="sl-markdown-content felix-home-content">
     <FelixHome />
   </div>
 ) : (
-  <Default>
-    <slot />
-  </Default>
+  <div class:list={['felix-content-wrap', `is-${contentType}`]}>
+    <Default>
+      <slot />
+    </Default>
+  </div>
 )}
