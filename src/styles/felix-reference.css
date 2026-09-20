@@ -1876,3 +1876,207 @@ body:has(.felix-home-content) .main-frame{
     min-height:0!important;
   }
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — v7
+   Riallineamento al render approvato:
+   shell scura, foglio interno chiaro continuo.
+   ========================================================== */
+
+/* Le pagine interne devono apparire come un unico foglio chiaro incastonato nella shell. */
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane{
+  background:#071012!important;
+}
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane>.content-panel:first-child{
+  position:relative;
+  color:#33271e!important;
+  background:
+    linear-gradient(rgba(245,236,218,.985),rgba(239,227,203,.985)),
+    url('https://i.imgur.com/JSW0PaI.png')!important;
+  background-size:auto,520px!important;
+  border-bottom:1px solid rgba(113,76,31,.18)!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(96,62,25,.045),
+    0 8px 22px rgba(0,0,0,.055)!important;
+}
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane>.content-panel:first-child::after{
+  content:''!important;
+  position:absolute;
+  left:0;right:0;bottom:-1px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(119,80,31,.18),transparent)!important;
+}
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane>.content-panel:first-child .sl-container{
+  padding-top:1.15rem!important;
+  padding-bottom:1.1rem!important;
+}
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane>.content-panel:first-child .felix-page-title{
+  margin:.28rem 0 .08rem!important;
+  color:#6b3e1d!important;
+  text-shadow:none!important;
+}
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane>.content-panel:first-child .felix-breadcrumbs{
+  color:#9b876c!important;
+}
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane>.content-panel:first-child .felix-breadcrumbs a{
+  color:#8b6b3a!important;
+}
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane>.content-panel:not(:first-child){
+  background:
+    linear-gradient(rgba(246,237,219,.982),rgba(239,226,201,.988)),
+    url('https://i.imgur.com/JSW0PaI.png')!important;
+  background-size:auto,520px!important;
+  color:var(--felix-ref-ink)!important;
+  box-shadow:inset 0 0 0 1px rgba(96,62,25,.045)!important;
+}
+
+/* La transizione titolo -> contenuto è continua: niente effetto di due card sovrapposte. */
+body:not(:has(.felix-home-content)) .felix-two-column .main-pane>.content-panel+ .content-panel{
+  border-top:0!important;
+}
+
+/* Contenitore centrale più vicino al render: largo ma non dispersivo. */
+body:not(:has(.felix-home-content)) .main-pane .sl-container{
+  width:min(100%,68rem)!important;
+  max-width:68rem!important;
+  margin-inline:auto!important;
+}
+body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-container{
+  width:min(100%,68rem)!important;
+  max-width:68rem!important;
+}
+
+/* Le testate delle entità mantengono l'immagine importante ma senza rubare spazio al testo. */
+.felix-entry-header.has-image{
+  grid-template-columns:minmax(0,1fr) clamp(245px,28vw,300px)!important;
+  column-gap:1.35rem!important;
+  row-gap:.9rem!important;
+}
+.felix-entry-header{
+  padding:1rem 1.05rem!important;
+}
+.felix-entry-copy .felix-lead{
+  max-width:62ch;
+  font-size:.96rem!important;
+  line-height:1.58!important;
+}
+.felix-entry-visual{
+  justify-self:end;
+  width:100%;
+  max-width:300px;
+}
+.felix-entry-image{
+  width:100%!important;
+  aspect-ratio:4 / 3;
+  object-fit:cover;
+}
+
+/* "In breve": una fascia unica e perfettamente regolare, come uno specchietto di gioco. */
+.felix-entry-brief{
+  padding-top:.72rem!important;
+}
+.felix-entry-brief h2{
+  margin-bottom:.5rem!important;
+  font-size:1.25rem!important;
+}
+.felix-entry-facts{
+  width:100%;
+}
+.felix-entry-facts>div{
+  justify-content:flex-start!important;
+}
+.felix-entry-facts dt{
+  min-height:1.05rem!important;
+}
+.felix-entry-facts dd{
+  margin-top:.22rem!important;
+  align-items:flex-start!important;
+}
+
+/* Statistiche: stessa larghezza e stessa altezza per ciascun valore. */
+.felix-stats-grid{
+  display:grid!important;
+  align-items:stretch!important;
+}
+.felix-stat{
+  height:100%!important;
+  justify-content:flex-start!important;
+  gap:.42rem;
+}
+.felix-stat strong{
+  margin-top:auto;
+  align-items:flex-end!important;
+}
+
+/* Il rail destro resta parte della shell, ma i blocchi importanti emergono subito. */
+.felix-right-sidebar{
+  background:
+    linear-gradient(180deg,rgba(198,146,57,.025),transparent 14rem),
+    rgba(5,13,15,.985)!important;
+}
+.felix-page-sidebar-title{
+  color:#d7b16c!important;
+}
+.felix-related-rail{
+  border-color:rgba(198,146,57,.32)!important;
+  background:rgba(9,17,18,.72)!important;
+}
+.felix-related-rail-title{
+  color:#e8cf9f!important;
+}
+.felix-related-rail-group h3{
+  color:#c09a55!important;
+}
+
+/* L'indice è subordinato ai collegamenti operativi, non in competizione con loro. */
+.felix-page-toc{
+  opacity:.88;
+}
+.felix-page-toc:hover{
+  opacity:1;
+}
+
+/* Home: uniformità matematica delle sei macro-card. */
+.felix-home-areas{
+  align-items:stretch!important;
+}
+.felix-area-card{
+  height:100%!important;
+}
+.felix-area-card strong{
+  line-height:1.12!important;
+}
+.felix-area-card>span:not(.felix-area-icon){
+  line-height:1.38!important;
+}
+
+/* Landing e pagine lunghe: superficie unica e meno scatole decorative. */
+.felix-content-wrap.is-landing .sl-markdown-content>h2+ul>li,
+.felix-content-wrap.is-rule .sl-markdown-content blockquote,
+.felix-entry blockquote{
+  border-radius:3px!important;
+}
+
+/* Desktop ampio: titolo e contenuto seguono la stessa colonna ottica. */
+@media(min-width:72rem){
+  body:not(:has(.felix-home-content)) .felix-two-column.has-toc .main-pane>.content-panel .sl-container{
+    padding-inline:clamp(1.3rem,2.2vw,2rem)!important;
+  }
+}
+
+/* Tablet/mobile: il foglio resta pieno, l'immagine scende senza creare una colonna stretta. */
+@media(max-width:900px){
+  .felix-entry-header.has-image{
+    grid-template-columns:1fr!important;
+    grid-template-areas:"copy" "visual" "brief"!important;
+  }
+  .felix-entry-visual{
+    justify-self:stretch;
+    max-width:none;
+  }
+  .felix-entry-image{
+    max-height:24rem;
+    aspect-ratio:16 / 9;
+  }
+}
