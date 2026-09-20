@@ -2,7 +2,6 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection, render } from 'astro:content';
 import FelixBadges from '../../../../components/FelixBadges.astro';
-import RelationList from '../../../../components/RelationList.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { routeForStructured } from '../../../../config/routes';
@@ -13,11 +12,9 @@ const articles=(await getCollection('legalArticles')).filter(a=>a.data.status===
 <StarlightPage frontmatter={{title:entry.data.title,description:entry.data.description}} headings={headings}>
   <SearchMetadata type="Documento normativo" macroarea="Mondo Magico" aliases={entry.data.searchAliases} filters={{ legal_status: entry.data.onGameStatus }} />
   <article class="felix-entry" data-pagefind-body>
-    <p class="felix-kicker">Mondo Magico › Leggi Magiche</p>
     <p class="felix-lead">{entry.data.description}</p>
     <FelixBadges items={[entry.data.onGameStatus]} />
     <Content />
     <section><h2>Articoli nel prototipo</h2><ul class="felix-related-list">{articles.map(a=><li><a href={routeForStructured('legalArticles',a.data.slug)}>Art. {a.data.articleNumber}{a.data.title?` — ${a.data.title}`:''}</a>{a.data.section?` · ${a.data.section}`:''}</li>)}</ul></section>
-    <RelationList title="Collegamenti" items={related} />
   </article>
 </StarlightPage>
