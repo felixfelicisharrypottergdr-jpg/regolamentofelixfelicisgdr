@@ -87,6 +87,8 @@ export default defineConfig({
                     { label: 'Vivere ad Hogwarts', slug: 'il-personaggio/pg-studente/modalita-di-gioco/vivere-ad-hogwarts' },
                     { label: 'Luoghi di Hogwarts', slug: 'il-personaggio/pg-studente/modalita-di-gioco/luoghi-di-hogwarts' },
                     { label: 'Ottenere informazioni', slug: 'il-personaggio/pg-studente/modalita-di-gioco/ottenere-informazioni' },
+                    { label: 'Conoscenze dai PNG', slug: 'il-personaggio/pg-studente/modalita-di-gioco/ottenere-conoscenze-png' },
+                    { label: 'Trovare Oggetti', slug: 'il-personaggio/pg-studente/modalita-di-gioco/trovare-oggetti-magici' },
                   ],
                 },
               ],
