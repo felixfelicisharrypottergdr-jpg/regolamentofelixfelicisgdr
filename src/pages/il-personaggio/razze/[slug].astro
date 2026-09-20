@@ -3,7 +3,6 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
 import FelixBadges from '../../../components/FelixBadges.astro';
-import RelationList from '../../../components/RelationList.astro';
 import SearchMetadata from '../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../lib/content-index';
 
@@ -23,7 +22,6 @@ const pageHeadings = [...headings, { depth: 2, slug: 'posti-disponibili', text: 
   <article class="felix-entry" data-pagefind-body>
     <div class="felix-entry-header">
       <div>
-        <p class="felix-kicker">Il Personaggio › Razze › Elenco delle Razze</p>
         <p class="felix-lead">{entry.data.description}</p>
         <FelixBadges items={['PG Studente', 'PG Adulto', entry.data.availablePlaces ? `Posti disponibili: ${entry.data.availablePlaces}` : '']} />
       </div>
@@ -37,7 +35,5 @@ const pageHeadings = [...headings, { depth: 2, slug: 'posti-disponibili', text: 
       <p>{entry.data.availablePlaces ? `${entry.data.availablePlaces} secondo la fonte migrata nel prototipo.` : 'Dato non ancora inserito.'}</p>
       <p class="felix-note-small">Il sito resta consultativo: questo dato è aggiornabile dallo Staff nel CMS e non viene calcolato automaticamente in base ai PG esistenti.</p>
     </section>
-
-    <RelationList title="Percorsi collegati" items={related} />
   </article>
 </StarlightPage>
