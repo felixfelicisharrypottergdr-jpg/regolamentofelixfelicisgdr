@@ -1524,3 +1524,355 @@ body:has(.felix-home-content) .main-frame{
     grid-column:auto;
   }
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — v6
+   Sistema trasversale: densità, simmetria, rail operativo,
+   tabelle e componenti lunghi per l'intero Regolamento.
+   ========================================================== */
+
+/* ----- Rail destro: gerarchia netta tra orientamento e dati operativi ----- */
+.felix-page-sidebar-desktop{
+  padding:.95rem .72rem 1.2rem!important;
+}
+.felix-page-sidebar-title{
+  margin:0 0 .72rem!important;
+  padding:0 0 .58rem;
+  border-bottom:1px solid rgba(198,146,57,.24);
+  color:#ddbc7a!important;
+  font-family:'magic','Federo',serif;
+  font-size:1.18rem;
+  line-height:1;
+}
+.felix-page-sidebar-desktop starlight-toc nav>h2{
+  display:none!important;
+}
+.felix-page-sidebar-desktop .felix-page-toc{
+  margin-top:.8rem;
+  padding-top:.72rem;
+  border-top:1px solid rgba(198,146,57,.16);
+  border-bottom:0!important;
+}
+.felix-page-sidebar-desktop .felix-page-toc::before{
+  content:'Indice della pagina';
+  display:block;
+  margin:0 0 .48rem;
+  color:#8f7954;
+  font-family:'Federo',sans-serif;
+  font-size:.59rem;
+  letter-spacing:.075em;
+  text-transform:uppercase;
+}
+.felix-related-rail{
+  margin:0!important;
+  padding:.78rem!important;
+  border-color:rgba(198,146,57,.42)!important;
+  background:
+    linear-gradient(180deg,rgba(198,146,57,.075),rgba(198,146,57,.018)),
+    rgba(5,14,16,.86)!important;
+}
+.felix-related-rail-title{
+  margin:0 0 .7rem!important;
+  color:#efd5a1!important;
+  font-size:1.28rem!important;
+}
+.felix-related-rail-facts{
+  display:grid;
+  gap:.32rem;
+  margin:0 0 .72rem;
+}
+.felix-related-rail-facts>div{
+  display:grid;
+  grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);
+  gap:.45rem;
+  padding:.42rem .46rem;
+  border-left:2px solid rgba(198,146,57,.30);
+  background:rgba(255,255,255,.018);
+}
+.felix-related-rail-facts dt,
+.felix-related-rail-facts dd{
+  margin:0;
+}
+.felix-related-rail-facts dt{
+  color:#a88958;
+  font-family:'Federo',sans-serif;
+  font-size:.56rem;
+  letter-spacing:.045em;
+  text-transform:uppercase;
+}
+.felix-related-rail-facts dd{
+  color:#d5c9b7;
+  font-family:'Antic Slab',serif;
+  font-size:.69rem;
+  line-height:1.28;
+}
+.felix-related-rail-group{
+  padding-top:.58rem;
+  border-top:1px solid rgba(198,146,57,.12);
+}
+.felix-related-rail-group h3{
+  margin-bottom:.38rem!important;
+}
+.felix-related-rail-group a{
+  min-height:2rem;
+}
+
+/* ----- "In breve": una vera matrice, nessuna cella più alta o stretta casualmente ----- */
+.felix-entry-facts{
+  grid-auto-rows:minmax(4.1rem,1fr)!important;
+}
+.felix-entry-facts>div{
+  height:100%!important;
+  min-height:4.1rem!important;
+  display:flex!important;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:.28rem;
+  padding:.58rem .68rem!important;
+}
+.felix-entry-facts dt{
+  min-height:1rem;
+  display:flex;
+  align-items:flex-start;
+  white-space:normal!important;
+}
+.felix-entry-facts dd{
+  min-height:1.45rem;
+  display:flex!important;
+  align-items:flex-end!important;
+  font-size:.76rem!important;
+}
+@media(min-width:1251px){
+  .felix-entry-facts>div{
+    border-top:0!important;
+  }
+}
+
+/* ----- Statistiche: stessa logica visiva delle facts, ma più leggibili ----- */
+.felix-stats-grid{
+  gap:0!important;
+  overflow:hidden;
+  border:1px solid rgba(113,76,31,.15);
+  border-radius:3px;
+  background:rgba(255,255,255,.10);
+}
+.felix-stat{
+  min-height:5.6rem!important;
+  margin:0!important;
+  border:0!important;
+  border-right:1px solid rgba(113,76,31,.11)!important;
+  border-radius:0!important;
+  background:transparent!important;
+  padding:.65rem .72rem!important;
+  box-shadow:none!important;
+}
+.felix-stat:last-child{
+  border-right:0!important;
+}
+.felix-stat::after{
+  left:.72rem!important;
+  right:.72rem!important;
+}
+.felix-stat strong{
+  font-size:1.58rem!important;
+}
+
+/* ----- Corpo delle pagine: ritmo comune a tutto il Regolamento ----- */
+.felix-content-wrap .sl-markdown-content,
+.felix-entry{
+  --felix-reading-width:76ch;
+}
+.felix-content-wrap .sl-markdown-content>p,
+.felix-entry>p{
+  max-width:var(--felix-reading-width);
+}
+.felix-content-wrap .sl-markdown-content h2,
+.felix-entry h2{
+  scroll-margin-top:calc(var(--sl-nav-height) + 1.2rem);
+}
+.felix-content-wrap .sl-markdown-content h2{
+  margin-top:2.15rem!important;
+}
+.felix-content-wrap .sl-markdown-content h3{
+  margin-top:1.5rem!important;
+}
+
+/* Elenchi lunghi: meno muro di testo e più scansione. */
+.felix-content-wrap .sl-markdown-content>ul,
+.felix-content-wrap .sl-markdown-content>ol,
+.felix-entry>ul,
+.felix-entry>ol{
+  max-width:72ch;
+}
+.felix-content-wrap .sl-markdown-content li,
+.felix-entry li{
+  margin-block:.24rem;
+}
+
+/* Details/summary: specchietti richiudibili, coerenti con il vecchio Regolamento ma più leggibili. */
+.felix-content-wrap details,
+.felix-entry details{
+  margin:1rem 0;
+  overflow:hidden;
+  border:1px solid rgba(113,76,31,.15);
+  border-radius:3px;
+  background:rgba(255,255,255,.10);
+}
+.felix-content-wrap details>summary,
+.felix-entry details>summary{
+  position:relative;
+  padding:.68rem 2.35rem .68rem .78rem;
+  color:#65401d;
+  background:rgba(133,91,35,.045);
+  font-family:'Federo',sans-serif;
+  font-size:.82rem;
+  cursor:pointer;
+  list-style:none;
+}
+.felix-content-wrap details>summary::-webkit-details-marker,
+.felix-entry details>summary::-webkit-details-marker{
+  display:none;
+}
+.felix-content-wrap details>summary::after,
+.felix-entry details>summary::after{
+  content:'+';
+  position:absolute;
+  right:.8rem;
+  top:50%;
+  transform:translateY(-50%);
+  color:#a8732b;
+  font-size:1.1rem;
+}
+.felix-content-wrap details[open]>summary::after,
+.felix-entry details[open]>summary::after{
+  content:'–';
+}
+.felix-content-wrap details>*:not(summary),
+.felix-entry details>*:not(summary){
+  margin-inline:.8rem;
+}
+.felix-content-wrap details>*:last-child,
+.felix-entry details>*:last-child{
+  margin-bottom:.8rem;
+}
+
+/* Tabelle lunghe: importanti in Sapienze, Valute, Scontri, Trasporti, ecc. */
+.felix-content-wrap .sl-markdown-content table,
+.felix-entry table{
+  width:100%;
+  max-width:100%;
+  table-layout:auto;
+}
+.felix-content-wrap .sl-markdown-content table th,
+.felix-entry table th{
+  vertical-align:bottom;
+}
+.felix-content-wrap .sl-markdown-content table td,
+.felix-entry table td{
+  vertical-align:top;
+}
+@media(max-width:900px){
+  .felix-content-wrap .sl-markdown-content table,
+  .felix-entry table{
+    display:block;
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+}
+
+/* Callout/blockquote: un unico linguaggio, utile per note, esempi e avvisi. */
+.felix-content-wrap .sl-markdown-content blockquote,
+.felix-entry blockquote{
+  max-width:74ch;
+  margin:1rem 0;
+  padding:.72rem .9rem;
+  border-left:2px solid #b78335;
+  border-radius:0 3px 3px 0;
+  background:rgba(183,131,53,.055);
+  color:#55493d;
+}
+.felix-content-wrap .sl-markdown-content blockquote p:last-child,
+.felix-entry blockquote p:last-child{
+  margin-bottom:0;
+}
+
+/* ----- Landing: equilibrio verticale delle card/list-link ----- */
+.felix-content-wrap.is-landing .sl-markdown-content>h2+ul{
+  align-items:stretch;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>h2+ul>li{
+  display:flex;
+  min-height:4.2rem;
+  align-items:center;
+  height:100%;
+}
+
+/* ----- Cataloghi: barra controllo sempre sopra, risultati allineati ----- */
+.felix-catalog-toolbar{
+  align-items:end!important;
+}
+.felix-catalog-controls{
+  align-items:end!important;
+}
+.felix-catalog-list>article,
+[data-ingredient-list]>.felix-creature-row,
+[data-race-list]>.felix-creature-row{
+  min-height:7.4rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+.felix-catalog-list>article h2,
+[data-race-list]>.felix-creature-row h3{
+  min-height:1.7rem;
+}
+.felix-catalog-list>article p,
+[data-ingredient-list]>.felix-creature-row p,
+[data-race-list]>.felix-creature-row p{
+  margin-top:auto;
+}
+
+/* ----- Home: card perfettamente simmetriche anche con titoli su due righe ----- */
+.felix-area-card{
+  grid-template-rows:3.7rem 3rem 4.15rem 2rem!important;
+}
+.felix-area-card strong{
+  width:100%;
+  height:3rem;
+  display:flex!important;
+  align-items:center;
+  justify-content:center;
+}
+.felix-area-card>span:not(.felix-area-icon){
+  width:100%;
+  height:4.15rem;
+  display:flex!important;
+  align-items:flex-start;
+  justify-content:center;
+}
+
+/* ----- Responsive ----- */
+@media(max-width:1100px){
+  .felix-stats-grid{
+    border:0;
+    background:transparent;
+    gap:.4rem!important;
+  }
+  .felix-stat{
+    border:1px solid rgba(113,76,31,.13)!important;
+    border-radius:3px!important;
+    background:rgba(255,255,255,.12)!important;
+  }
+}
+@media(max-width:760px){
+  .felix-page-sidebar-desktop{display:none!important}
+  .felix-area-card{
+    grid-template-rows:3.7rem auto auto 2rem!important;
+  }
+  .felix-area-card strong,
+  .felix-area-card>span:not(.felix-area-icon){
+    height:auto;
+    min-height:0!important;
+  }
+}
