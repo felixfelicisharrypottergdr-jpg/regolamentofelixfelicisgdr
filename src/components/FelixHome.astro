@@ -1,4 +1,6 @@
 ---
+import FelixMacroIcon from './starlight/FelixMacroIcon.astro';
+
 const base = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
 const href = (path = '') => `${base}${path}`;
 ---
@@ -22,51 +24,41 @@ const href = (path = '') => `${base}${path}`;
       <button type="button" data-home-search-query="Nundu">Nundu</button>
     </div>
   </div>
-
-  <div class="felix-home-sigil" aria-hidden="true">
-    <svg viewBox="0 0 180 180">
-      <circle cx="90" cy="90" r="62" />
-      <circle cx="90" cy="90" r="44" />
-      <path d="M90 23l10 28 29 2-23 18 7 29-23-16-23 16 7-29-23-18 29-2 10-28Z" />
-      <path d="M90 45v90M45 90h90" />
-      <circle cx="90" cy="90" r="7" />
-    </svg>
-  </div>
 </section>
 
 <section class="felix-home-areas" aria-label="Aree del Regolamento">
   <a href={href('')} class="felix-area-card">
-    <span class="felix-area-icon">✦</span>
+    <span class="felix-area-icon"><FelixMacroIcon name="start" /></span>
     <strong>Inizia da qui</strong>
     <span>Scopri come funziona il gioco e come muovere i primi passi.</span>
     <i>→</i>
   </a>
   <a href={href('il-personaggio/')} class="felix-area-card">
-    <span class="felix-area-icon">♙</span>
+    <span class="felix-area-icon"><FelixMacroIcon name="character" /></span>
     <strong>Il Personaggio</strong>
     <span>Crea, sviluppa e personalizza il tuo PG.</span>
     <i>→</i>
   </a>
   <a href={href('giocare/')} class="felix-area-card">
-    <span class="felix-area-icon">⚔</span>
+    <span class="felix-area-icon"><FelixMacroIcon name="play" /></span>
     <strong>Giocare</strong>
     <span>Regole di gioco, Azioni, Scontri, Role e molto altro.</span>
     <i>→</i>
   </a>
   <a href={href('conoscenze-e-sapienze/')} class="felix-area-card">
-    <span class="felix-area-icon">✣</span>
+    <span class="felix-area-icon"><FelixMacroIcon name="knowledge" /></span>
     <strong>Conoscenze e Sapienze</strong>
     <span>Come si acquisiscono, si usano e si migliorano.</span>
     <i>→</i>
   </a>
   <a href={href('manuali/')} class="felix-area-card">
-    <span class="felix-area-icon">▤</span>
+    <span class="felix-area-icon"><FelixMacroIcon name="manuals" /></span>
     <strong>Manuali</strong>
     <span>Incantesimi, Bestiario, Erbario, Pozionario e discipline.</span>
     <i>→</i>
   </a>
   <a href={href('mondo-magico/')} class="felix-area-card">
-    <span class="felix-area-icon">⌘</span>
+    <span class="felix-area-icon"><FelixMacroIcon name="world" /></span>
     <strong>Mondo Magico</strong>
     <span>Leggi, istituzioni, Trasporti, Quidditch e vita magica.</span>
     <i>→</i>
