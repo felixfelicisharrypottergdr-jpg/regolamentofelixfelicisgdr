@@ -3,7 +3,6 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection, render } from 'astro:content';
 import { buildBacklinkIndex } from '../../../lib/backlinks';
 import { buildFelixIndex } from '../../../lib/content-index';
-import RelationList from '../../../components/RelationList.astro';
 import FelixBadges from '../../../components/FelixBadges.astro';
 import SearchMetadata from '../../../components/search/SearchMetadata.astro';
 
@@ -32,14 +31,11 @@ const usedInPotions = entryBacklinks
     filters={{ classification: entry.data.classification, exotic: entry.data.exotic }}
   />
   <article class="felix-entry" data-pagefind-body>
-    <p class="felix-kicker">Manuali › Ingredienti</p>
     <FelixBadges items={[entry.data.classification, entry.data.goodsClass, entry.data.legality, entry.data.exotic ? 'Esotico' : '']} />
     <dl class="felix-definition-list">
       <dt>Provenienza</dt><dd>{entry.data.provenance}</dd>
       <dt>Effetto</dt><dd>{entry.data.effect}</dd>
     </dl>
     <Content />
-    <RelationList title="Ottenibile da" items={sources} />
-    <RelationList title="Utilizzato in" items={usedInPotions} />
   </article>
 </StarlightPage>
