@@ -1,0 +1,16 @@
+---
+import Default from '@astrojs/starlight/components/MarkdownContent.astro';
+import FelixHome from '../FelixHome.astro';
+
+const routeId = Astro.locals.starlightRoute.id || '';
+const isHome = routeId === '' || routeId === 'index';
+---
+{isHome ? (
+  <div class="sl-markdown-content felix-home-content">
+    <FelixHome />
+  </div>
+) : (
+  <Default>
+    <slot />
+  </Default>
+)}
