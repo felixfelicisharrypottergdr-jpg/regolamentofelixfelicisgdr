@@ -42,11 +42,11 @@ migration:
 
 ## Gli Studenti ad Hogwarts
 
-I Personaggi Studenti (**PG Studenti**) sono tutti quei PG che, ancora in età scolare, frequentano la Scuola di Magia e di Stregoneria di Hogwarts. In quanto tali, essi possono utilizzare la magia in maniera limitata poiché la Legge Magica, al contrario degli adulti, prevede che non si possa utilizzare la magia nel Mondo Babbano o nei luoghi non magici fino al compimento del **17° anno d'età**: possono quindi utilizzare la magia solamente nei luoghi magici quali foreste, città, locande, villaggi, coste magiche, eccetera.
+I Personaggi Studenti (**PG Studenti**) sono tutti quei PG che, ancora in età scolare, frequentano la Scuola di Magia e di Stregoneria di Hogwarts. In quanto tali, essi possono utilizzare la magia in maniera limitata poiché la Legge Magica, al contrario degli adulti, prevede che non si possa utilizzare la magia nel Mondo Babbano o nei luoghi non magici fino al compimento del **17esimo anno d'età**: possono quindi utilizzare la magia solamente nei luoghi magici quali foreste, città, locande, villaggi, coste magiche, eccetera.
 
 L'arrivo ad Hogwarts avviene ad **undici anni**, ed all'inizio del primo anno ogni PG Studente viene smistato in una delle quattro Casate (**Grifondoro, Tassorosso, Serpeverde e Corvonero**): da quel momento e fino alla conclusione del settimo anno di studi ed al conseguimento del diploma, la Casata è la casa dello studente, che insieme ai propri compagni concorre alla vittoria dell'ambita [Coppa delle Case](./coppa-delle-case/), accumulando punti per meriti scolastici o perdendone a seguito di infrazioni.
 
-L'anno scolastico, e quindi la permanenza nella Scuola di Magia, dura **10 mesi all'anno, dal 1° settembre al 30 giugno**.
+L'anno scolastico, e quindi la permanenza nella Scuola di Magia, dura **10 mesi all'anno, dal 1° Settembre al 30 Giugno**.
 
 Ad Hogwarts si studiano **12 materie, più Volo esclusivamente al I anno**, di cui **8 obbligatorie e 4 facoltative**.
 
@@ -56,7 +56,7 @@ Le materie facoltative vengono invece introdotte al III anno e sono: **Aritmanzi
 
 Al termine del V anno si svolgono gli esami **G.U.F.O.** (*Giudizio Unico per Fattucchieri Ordinari*) che concludono la prima parte degli studi e danno il via ai corsi **M.A.G.O.** (*Magie Avanzate Grado Ottimale*), che terminano con la fine del VII anno ed il conseguimento del diploma.
 
-Secondo le nuove normative scolastiche emanate dal Ministro della Magia Granger, a tutti gli studenti del corso M.A.G.O. è consentito frequentare tutti i corsi seguiti durante il proprio V anno, sebbene l'accesso all'esame finale M.A.G.O. venga deciso dal docente in base alla media raggiunta dallo studente durante l'anno.
+Secondo le nuove normative scolastiche emanate dal Ministro della Magia Granger, a tutti gli studenti del corso M.A.G.O. è consentito frequentare tutti i corsi seguiti durante il proprio V anno, sebbene l'accesso all'esame finale M.A.G.O. venga deciso del docente in base alla media raggiunta dallo studente durante l'anno.
 
 Al termine del V e del VII anno, quindi a conclusione dei percorsi G.U.F.O. e M.A.G.O., gli studenti competono per una delle [Borse di Studio](./studiare-ad-hogwarts/) istituite dal Ministero della Magia.
 
@@ -67,7 +67,7 @@ Dopo gli eventi del **7 luglio 2022** il Ministro della Magia Granger e i suoi c
 Esso prevede:
 
 - che lo studio della **Babbanologia sia obbligatorio**, per venire incontro alle attuali esigenze mondiali;
-- che ad ogni studente M.A.G.O. venga dato l'accesso a tutti i corsi G.U.F.O. seguiti dal III anno, a prescindere dall'esito dei relativi esami G.U.F.O., per aumentare il livello generale di conoscenze; il docente ha una riserva finale sulla partecipazione agli esami M.A.G.O. della sua materia;
+- che ad ogni studente M.A.G.O. venga dato l'accesso a tutti i corsi G.U.F.O. seguiti dal III anno, a prescindere dall'esito dai relativi esami G.U.F.O., per aumentare il livello generale di conoscenze; il docente ha una riserva finale sulla partecipazione agli esami M.A.G.O. della sua materia;
 - l'istituzione di **tre Borse di Studio** per Studenti a conclusione dei percorsi G.U.F.O. e M.A.G.O.;
 - che per i primi tre mesi di scuola il **Coprifuoco venga anticipato dalle 23:00 alle 20:00**, per evitare che l'esistenza della Scuola di Magia venga rivelata durante le ore più buie;
 - che al termine dei sette anni di studi, dopo gli esami M.A.G.O., gli Studenti eseguano automaticamente il **Test W.O.M.B.A.T.** (*Magia Ordinaria e Attitudine di Base dei Maghi e delle Streghe*) per essere inclusi in una Categoria Magica.
