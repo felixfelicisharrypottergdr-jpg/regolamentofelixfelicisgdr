@@ -1339,3 +1339,188 @@ body:has(.felix-home-content) .main-frame{
   }
   .felix-entry-facts>div:first-child{border-top:0!important}
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — catalog system
+   Porta Pozionario, Incantesimi, Erbario e cataloghi legacy
+   allo stesso pattern orizzontale del Bestiario.
+   ========================================================== */
+
+.felix-catalog{
+  display:block!important;
+  width:100%;
+}
+.felix-catalog>aside.felix-filters{
+  position:static!important;
+  top:auto!important;
+  display:grid!important;
+  grid-template-columns:auto repeat(5,minmax(125px,1fr)) auto;
+  gap:.52rem;
+  align-items:end;
+  width:100%;
+  margin:0 0 .8rem!important;
+  padding:.58rem .65rem!important;
+  border:1px solid rgba(113,76,31,.13)!important;
+  border-radius:4px!important;
+  background:rgba(111,75,31,.035)!important;
+  box-shadow:none!important;
+  color:#5d4935!important;
+  backdrop-filter:none!important;
+}
+.felix-catalog>aside.felix-filters h2{
+  align-self:center;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  color:#6a411f!important;
+  font-family:'magic','Federo',serif!important;
+  font-size:1.2rem!important;
+  line-height:1!important;
+}
+.felix-catalog>aside.felix-filters h2::after{display:none!important}
+.felix-catalog>aside.felix-filters label{
+  display:grid!important;
+  gap:.2rem!important;
+  margin:0!important;
+  color:#78644e!important;
+  font-family:'Federo',sans-serif!important;
+  font-size:.57rem!important;
+  letter-spacing:.035em;
+  text-transform:uppercase;
+}
+.felix-catalog>aside.felix-filters select,
+.felix-catalog>aside.felix-filters input[type='search']{
+  min-height:2.2rem;
+  width:100%;
+  padding:.38rem .5rem;
+  border:1px solid rgba(113,76,31,.15)!important;
+  border-radius:4px!important;
+  background:rgba(255,255,255,.5)!important;
+  color:#46372c!important;
+  font:.74rem 'Antic Slab',serif!important;
+}
+.felix-catalog>aside.felix-filters .felix-check{
+  display:flex!important;
+  min-height:2.2rem;
+  align-items:center;
+  gap:.4rem!important;
+  padding:.35rem .5rem;
+  border:1px solid rgba(113,76,31,.12);
+  border-radius:4px;
+  background:rgba(255,255,255,.2);
+  text-transform:none;
+  white-space:nowrap;
+}
+.felix-catalog>aside.felix-filters button{
+  min-height:2.2rem;
+  margin:0!important;
+  padding:.38rem .55rem!important;
+  border:1px solid rgba(113,76,31,.16)!important;
+  border-radius:4px!important;
+  background:rgba(255,255,255,.28)!important;
+  color:#66513e!important;
+  font:.66rem 'Federo',sans-serif!important;
+}
+.felix-catalog>section{
+  min-width:0;
+}
+.felix-catalog .felix-filter-actions{
+  justify-content:flex-end;
+  min-height:0;
+  margin:-.18rem 0 .55rem!important;
+}
+.felix-catalog .felix-filter-actions button{
+  border:0!important;
+  background:transparent!important;
+  color:#826743!important;
+  font-size:.65rem!important;
+  text-decoration:underline;
+  text-decoration-color:rgba(130,103,67,.28);
+  text-underline-offset:.16em;
+}
+.felix-catalog .felix-filter-actions button:hover{color:#5f431e!important}
+
+/* Cataloghi semplici e liste strutturate condividono la stessa superficie. */
+.felix-catalog-simple,
+[data-ingredient-list],
+[data-race-list]{
+  width:100%;
+}
+[data-ingredient-list],
+[data-race-list],
+.felix-catalog-list{
+  display:grid!important;
+  gap:.46rem!important;
+}
+[data-ingredient-list]>.felix-creature-row,
+[data-race-list]>.felix-creature-row{
+  margin:0!important;
+  padding:.78rem .88rem .82rem!important;
+  border:1px solid rgba(113,76,31,.12)!important;
+  border-radius:3px!important;
+  background:rgba(255,255,255,.10)!important;
+}
+[data-race-list]>.felix-creature-row h3{
+  margin:0 0 .25rem!important;
+  color:#603718!important;
+  font-family:'magic','Federo',serif!important;
+  font-size:1.38rem!important;
+}
+
+/* Liste senza ricerca: Oggetti e Leggi mantengono lo stesso ritmo. */
+.felix-entry>.felix-catalog-list{
+  margin-top:.85rem;
+}
+.felix-entry>.felix-catalog-list>.felix-creature-row{
+  position:relative;
+}
+.felix-entry>.felix-catalog-list>.felix-creature-row::before{
+  content:'';
+  position:absolute;
+  left:0;top:.65rem;bottom:.65rem;
+  width:2px;
+  background:transparent;
+}
+.felix-entry>.felix-catalog-list>.felix-creature-row:hover::before{
+  background:#bd8732;
+}
+
+/* I badge dentro i cataloghi non devono creare altezze casuali. */
+.felix-catalog-list .felix-badges,
+[data-ingredient-list] .felix-badges,
+[data-race-list] .felix-badges{
+  min-height:1.65rem;
+  align-items:center;
+  margin:.3rem 0 .42rem!important;
+}
+.felix-catalog-list .felix-badge,
+[data-ingredient-list] .felix-badge,
+[data-race-list] .felix-badge{
+  min-height:1.45rem!important;
+  padding:.12rem .46rem!important;
+  font-size:.66rem!important;
+}
+
+/* Responsive dei cataloghi complessi. */
+@media(max-width:1380px){
+  .felix-catalog>aside.felix-filters{
+    grid-template-columns:auto repeat(3,minmax(130px,1fr)) auto;
+  }
+}
+@media(max-width:980px){
+  .felix-catalog>aside.felix-filters{
+    grid-template-columns:1fr 1fr!important;
+  }
+  .felix-catalog>aside.felix-filters h2{
+    grid-column:1 / -1;
+  }
+}
+@media(max-width:620px){
+  .felix-catalog>aside.felix-filters{
+    grid-template-columns:1fr!important;
+  }
+  .felix-catalog>aside.felix-filters h2{
+    grid-column:auto;
+  }
+}
