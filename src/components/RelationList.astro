@@ -7,7 +7,14 @@ const { title, items } = Astro.props;
   <section class="felix-relations">
     <h2>{title}</h2>
     <ul>
-      {items.map((item) => <li><a href={item.url}>{item.title}</a></li>)}
+      {items.map((item) => (
+        <li>
+          <a href={item.url}>
+            <span>{item.title}</span>
+            <span class="felix-relation-arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+      ))}
     </ul>
   </section>
 )}
