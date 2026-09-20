@@ -5,6 +5,20 @@ description: "Regole per utilizzare i Trasporti Magici nel Regno Unito e fuori d
 contentType: landing
 searchAliases: [trasporti, viaggiare, viaggio, spostarsi, mezzi di trasporto, trasporti magici]
 applicability: [student, adult]
+quickFacts:
+  - label: "Nel Regno Unito"
+    value: "Uso di colore normalmente autoconclusivo"
+  - label: "Fuori dal Regno Unito"
+    value: "Tempi e malus dipendono anche dalla distanza"
+quickLinks:
+  - label: "Metropolvere"
+    href: "/mondo-magico/trasporti/metropolvere/"
+  - label: "Passaporta"
+    href: "/mondo-magico/trasporti/passaporta/"
+  - label: "Scope Volanti"
+    href: "/mondo-magico/trasporti/scope-volanti/"
+  - label: "Smaterializzazione"
+    href: "/mondo-magico/trasporti/smaterializzazione/"
 prototypeExcerpt: true
 migration:
   status: migrated
