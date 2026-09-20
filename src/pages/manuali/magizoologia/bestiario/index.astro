@@ -13,37 +13,38 @@ const creatures = (await getCollection('creatures'))
   <SearchMetadata type="Catalogo" macroarea="Manuali" aliases={['creature', 'magizoologia', 'bestiario']} />
 
   <div class="felix-catalog" data-catalog="creatures">
-    <aside class="felix-filters" aria-label="Filtri Bestiario">
-      <h2>Filtri</h2>
-      <label>
-        Classificazione
-        <select data-filter="classification">
-          <option value="">Tutte</option>
-          <option>X</option><option>XX</option><option>XXX</option><option>XXXX</option><option>XXXXX</option>
-        </select>
-      </label>
-      <label>
-        Ostilità
-        <select data-filter="hostility">
-          <option value="">Tutte</option>
-          <option>Mai ostile</option><option>Neutrale</option><option>Sempre ostile</option>
-        </select>
-      </label>
-      <label class="felix-check"><input type="checkbox" data-filter="exotic" /> Solo Creature esotiche</label>
-      <button type="button" data-reset>Azzera filtri</button>
-    </aside>
-
-    <section>
+    <section class="felix-catalog-main">
       <div class="felix-catalog-toolbar">
-        <label>Cerca nel Bestiario <input type="search" data-filter="query" placeholder="Nome, descrizione o alias..." /></label>
-        <strong><span data-count>{creatures.length}</span> Creature</strong>
+        <label class="felix-catalog-search">
+          <span>Cerca nel Bestiario</span>
+          <input type="search" data-filter="query" placeholder="Nome, descrizione o alias..." />
+        </label>
+        <strong class="felix-catalog-count"><span data-count>{creatures.length}</span> Creature</strong>
+      </div>
+
+      <div class="felix-catalog-controls" aria-label="Filtri Bestiario">
+        <span class="felix-catalog-controls-title">Filtri</span>
+        <label class="felix-filter-control">
+          <span>Classificazione</span>
+          <select data-filter="classification">
+            <option value="">Tutte</option>
+            <option>X</option><option>XX</option><option>XXX</option><option>XXXX</option><option>XXXXX</option>
+          </select>
+        </label>
+        <label class="felix-filter-control">
+          <span>Ostilità</span>
+          <select data-filter="hostility">
+            <option value="">Tutte</option>
+            <option>Mai ostile</option><option>Neutrale</option><option>Sempre ostile</option>
+          </select>
+        </label>
+        <label class="felix-filter-toggle"><input type="checkbox" data-filter="exotic" /> <span>Solo esotiche</span></label>
+        <button type="button" class="felix-filter-reset" data-reset>Azzera</button>
+        <button type="button" class="felix-filter-share" data-copy-filter-link>Copia link</button>
+        <span data-copy-status role="status" aria-live="polite"></span>
       </div>
 
       <div class="felix-active-filters" data-active-filters hidden></div>
-      <div class="felix-filter-actions">
-        <button type="button" data-copy-filter-link>Copia link ai filtri</button>
-        <span data-copy-status role="status" aria-live="polite"></span>
-      </div>
 
       <div class="felix-catalog-list" data-pagefind-ignore>
         {creatures.map((entry) => (
