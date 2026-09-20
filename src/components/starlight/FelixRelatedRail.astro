@@ -180,10 +180,11 @@ if (path.includes('/mondo-magico/leggi/articoli/')) {
 }
 
 groups = groups.filter((group) => group.items.length > 0);
+const railTitle = quickFacts.length > 0 ? 'In breve' : 'Collegamenti';
 ---
 {(quickFacts.length > 0 || groups.length > 0 || parent) && (
   <section class="felix-related-rail" aria-label="Informazioni e collegamenti utili">
-    <p class="felix-related-rail-title">Da sapere subito</p>
+    <p class="felix-related-rail-title">{railTitle}</p>
 
     {quickFacts.length > 0 && (
       <dl class="felix-related-rail-facts">
