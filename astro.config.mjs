@@ -138,7 +138,7 @@ export default defineConfig({
                 { label: 'Sapienze Sociali', slug: 'conoscenze-e-sapienze/sapienze/sociali' },
               ],
             },
-            { label: 'Maestrie — nuova aggiunta', slug: 'conoscenze-e-sapienze/maestrie' },
+            { label: 'Maestrie', slug: 'conoscenze-e-sapienze/maestrie' },
           ],
         },
         {
