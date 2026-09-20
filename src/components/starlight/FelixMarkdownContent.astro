@@ -1,11 +1,14 @@
 ---
 import Default from '@astrojs/starlight/components/MarkdownContent.astro';
 import FelixHome from '../FelixHome.astro';
+import FelixLandingDirectory from '../FelixLandingDirectory.astro';
 
 const route = Astro.locals.starlightRoute;
 const routeId = route.id || '';
 const isHome = routeId === '' || routeId === 'index';
-const contentType = (route.entry.data as Record<string, any>).contentType ?? 'rule';
+const data = route.entry.data as Record<string, any>;
+const contentType = data.contentType ?? 'rule';
+const quickLinks = Array.isArray(data.quickLinks) ? data.quickLinks : [];
 ---
 {isHome ? (
   <div class="sl-markdown-content felix-home-content">
@@ -13,6 +16,7 @@ const contentType = (route.entry.data as Record<string, any>).contentType ?? 'ru
   </div>
 ) : (
   <div class:list={['felix-content-wrap', `is-${contentType}`]}>
+    {contentType === 'landing' && <FelixLandingDirectory links={quickLinks} />}
     <Default>
       <slot />
     </Default>
