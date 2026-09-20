@@ -89,6 +89,7 @@ export default defineConfig({
                     { label: 'Ottenere informazioni', slug: 'il-personaggio/pg-studente/modalita-di-gioco/ottenere-informazioni' },
                     { label: 'Conoscenze dai PNG', slug: 'il-personaggio/pg-studente/modalita-di-gioco/ottenere-conoscenze-png' },
                     { label: 'Trovare Oggetti', slug: 'il-personaggio/pg-studente/modalita-di-gioco/trovare-oggetti-magici' },
+                    { label: 'Stanze e Passaggi', slug: 'il-personaggio/pg-studente/modalita-di-gioco/scoprire-stanze-passaggi' },
                   ],
                 },
               ],

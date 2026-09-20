@@ -21,6 +21,9 @@ quickLinks:
   - label: "Trovare Oggetti Magici"
     href: "/il-personaggio/pg-studente/modalita-di-gioco/trovare-oggetti-magici/"
     description: "Cercare Oggetti, Scherzi Magici e Oggetti Oscuri nel castello."
+  - label: "Stanze e Passaggi Segreti"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/scoprire-stanze-passaggi/"
+    description: "Scoprire accessi nascosti, memorizzarne la posizione e trovare le Stanze Segrete Speciali."
 migration:
   status: revised
   sources:
