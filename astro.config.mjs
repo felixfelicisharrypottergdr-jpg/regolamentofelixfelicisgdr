@@ -60,7 +60,16 @@ export default defineConfig({
               label: 'PG Studente',
               items: [
                 { label: 'Il gioco dei PG Studenti', slug: 'il-personaggio/pg-studente' },
-                { label: 'Creare un PG Studente', slug: 'il-personaggio/pg-studente/creare-un-pg-studente' },
+                {
+                  label: 'Creare un PG Studente',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/pg-studente/creare-un-pg-studente' },
+                    { label: 'Parametri Magici', slug: 'il-personaggio/pg-studente/creare-un-pg-studente/parametri-magici' },
+                    { label: 'Parametri Fisici', slug: 'il-personaggio/pg-studente/creare-un-pg-studente/parametri-fisici' },
+                    { label: 'Parametri Sociali', slug: 'il-personaggio/pg-studente/creare-un-pg-studente/parametri-sociali' },
+                    { label: 'Cariche scolastiche', slug: 'il-personaggio/pg-studente/creare-un-pg-studente/cariche-scolastiche' },
+                  ],
+                },
                 { label: 'Studiare ad Hogwarts', slug: 'il-personaggio/pg-studente/studiare-ad-hogwarts' },
                 { label: 'Coppa delle Case', slug: 'il-personaggio/pg-studente/coppa-delle-case' },
                 { label: 'Modalità di gioco', slug: 'il-personaggio/pg-studente/modalita-di-gioco' },
