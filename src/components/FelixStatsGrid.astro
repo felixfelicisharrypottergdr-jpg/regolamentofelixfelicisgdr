@@ -1,0 +1,14 @@
+---
+type Item = { label: string; value?: string | number | null };
+type Props = { items: Item[]; ariaLabel?: string };
+const { items, ariaLabel = 'Valori' } = Astro.props;
+const visible = items.filter((item) => item.value !== undefined && item.value !== null && String(item.value).trim() !== '');
+---
+<div class="felix-stats-grid" role="list" aria-label={ariaLabel} style={`--felix-stat-count:${Math.min(visible.length, 6)}`}>
+  {visible.map((item) => (
+    <div class="felix-stat" role="listitem">
+      <span>{item.label}</span>
+      <strong>{item.value}</strong>
+    </div>
+  ))}
+</div>
