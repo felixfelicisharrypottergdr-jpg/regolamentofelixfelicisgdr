@@ -1,27 +1,33 @@
 ---
-id: "22222222-2222-4222-8222-222222222221"
+id: 22222222-2222-4222-8222-222222222221
 slug: nundu
 name: Nundu
-description: "Gigantesca Creatura felina originaria dell'Africa orientale, capace di muoversi con grande silenzio e dotata di un Fiato tossico estremamente pericoloso."
-image: "https://i.postimg.cc/3wZXj13x/Chat-GPT-Image-27-ago-2026-11-51-43.png"
+description: Gigantesca Creatura felina originaria dell'Africa orientale, capace
+  di muoversi con grande silenzio e dotata di un Fiato tossico estremamente
+  pericoloso.
+image: https://i.postimg.cc/3wZXj13x/Chat-GPT-Image-27-ago-2026-11-51-43.png
 category: Bestia
 classification: XXXXX
 legality: Legale
 hostility: Sempre ostile
 exotic: true
-affectedParameters: [Salute, Resistenza, Fatica, Destrezza]
+affectedParameters:
+  - Salute
+  - Resistenza
+  - Fatica
+  - Destrezza
 values:
   force: 250
   health: 300
   resistance: 50
   dexterity: 35
 producesIngredients:
-  - "44444444-4444-4444-8444-444444444441"
+  - 44444444-4444-4444-8444-444444444441
 causesDiseases:
-  - "33333333-3333-4333-8333-333333333331"
+  - 33333333-3333-4333-8333-333333333331
 relatedFelixIds:
-  - "11111111-1111-4111-8111-111111111111"
-  - "11111111-1111-4111-8111-111111111112"
+  - 11111111-1111-4111-8111-111111111111
+  - 11111111-1111-4111-8111-111111111112
 searchAliases:
   - grande felino magico
   - fiato tossico
@@ -29,11 +35,10 @@ status: published
 migration:
   status: migrated
   sources:
-    - document: "10.6 Magizoologia"
-      section: "Bestiario"
-      item: "Nundu"
+    - document: 10.6 Magizoologia
+      section: Bestiario
+      item: Nundu
 ---
-
 Il Nundu è una gigantesca Creatura felina originaria dell'Africa orientale, dove vive soprattutto nelle savane, nelle boscaglie e nelle aree forestali più isolate. Nell'aspetto ricorda un enorme leopardo, ma nonostante le dimensioni è capace di muoversi con straordinario silenzio e di avvicinarsi alle proprie prede senza essere facilmente individuato.
 
 È considerato una delle Creature più pericolose conosciute dal mondo magico. Il suo fiato è fortemente tossico e può diffondersi rapidamente nell'area circostante, provocando una violenta malattia non contagiosa. Oltre al Fiato tossico, il Nundu possiede una notevole forza fisica e può attaccare attraverso morsi e artigli.
@@ -69,3 +74,4 @@ Per ogni nuovo attacco di Fiato tossico che raggiunge effettivamente il PG si la
 Effetti capaci di controllare temporaneamente il Nundu seguono esclusivamente le rispettive regole: il controllo temporaneo non equivale all'ottenimento della Fiducia e non permette di considerare superata la Domesticazione.
 
 > **Nota di prototipo:** la scheda dimostra la migrazione di dati strutturati + testo editoriale. La verifica frase per frase verrà svolta nella migrazione definitiva.
+
