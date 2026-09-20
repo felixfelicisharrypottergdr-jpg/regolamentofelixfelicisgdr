@@ -1,0 +1,64 @@
+---
+type Entry = any;
+type Props = {
+  entries: Entry[];
+  currentPath: string;
+  macroLabel: string;
+  depth?: number;
+};
+const { entries, currentPath, macroLabel, depth = 0 } = Astro.props;
+
+const normalized = (href = '') => {
+  try {
+    const u = new URL(href, Astro.url.origin);
+    return u.pathname.replace(/\/+$/, '/') || '/';
+  } catch {
+    return href.replace(/\/+$/, '/') || '/';
+  }
+};
+
+const current = currentPath.replace(/\/+$/, '/') || '/';
+const activeLink = (entry: Entry) => {
+  if (entry.type !== 'link') return false;
+  const href = normalized(entry.href);
+  if (entry.isCurrent || current === href) return true;
+  if (href !== '/' && current.startsWith(href)) return true;
+  return false;
+};
+
+const containsActive = (entry: Entry): boolean => {
+  if (entry.type === 'link') return activeLink(entry);
+  return Array.isArray(entry.entries) && entry.entries.some(containsActive);
+};
+
+const displayLabel = (entry: Entry) =>
+  depth === 0 && entry.type === 'link' && entry.label === macroLabel ? 'Panoramica' : entry.label;
+---
+<ul class:list={['felix-sidebar-list', `depth-${depth}`]}>
+  {entries.map((entry) => (
+    <li class:list={['felix-sidebar-item', entry.type === 'group' ? 'is-group' : 'is-link']}>
+      {entry.type === 'link' ? (
+        <a
+          href={entry.href}
+          {...entry.attrs}
+          class:list={[
+            'felix-sidebar-link',
+            { 'is-current': entry.isCurrent || current === normalized(entry.href), 'is-ancestor': !entry.isCurrent && activeLink(entry) },
+          ]}
+          aria-current={entry.isCurrent || current === normalized(entry.href) ? 'page' : undefined}
+        >
+          <span class="felix-sidebar-node"></span>
+          <span>{displayLabel(entry)}</span>
+        </a>
+      ) : (
+        <details class="felix-sidebar-group" open={containsActive(entry) || depth === 0}>
+          <summary>
+            <span>{entry.label}</span>
+            <span class="felix-sidebar-chevron" aria-hidden="true">⌄</span>
+          </summary>
+          <Astro.self entries={entry.entries} currentPath={currentPath} macroLabel={macroLabel} depth={depth + 1} />
+        </details>
+      )}
+    </li>
+  ))}
+</ul>
