@@ -1,0 +1,8 @@
+---
+const configuredBase = import.meta.env.BASE_URL || '/';
+const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/`;
+---
+<a class="site-title felix-site-title" href={base} aria-label="FELIX FELICIS — Regolamento">
+  <span class="felix-site-title-main">FELIX FELICIS</span>
+  <span class="felix-site-title-sub">Regolamento</span>
+</a>
