@@ -5,7 +5,6 @@ const [githubOwner, githubRepo] = (process.env.GITHUB_REPOSITORY || '/').split('
 const githubUserSite = githubOwner && githubRepo === `${githubOwner}.github.io`;
 const site = process.env.SITE_URL || (githubOwner ? `https://${githubOwner}.github.io` : 'https://example.github.io');
 const base = process.env.BASE_PATH || (githubOwner && githubRepo && !githubUserSite ? `/${githubRepo}` : '/');
-const basePrefix = base === '/' ? '' : base.replace(/\/$/, '');
 
 export default defineConfig({
   site,
@@ -34,7 +33,7 @@ export default defineConfig({
         PageTitle: './src/components/starlight/FelixPageTitle.astro',
       },
       sidebar: [
-        { label: 'Inizia da qui', items: [{ label: 'Home', link: `${basePrefix}/` || '/' }] },
+        { label: 'Inizia da qui', items: [{ label: 'Home', link: '/' }] },
         {
           label: 'Il Personaggio',
           items: [
@@ -53,7 +52,7 @@ export default defineConfig({
                 { label: 'Creare un PG Adulto', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto' },
               ],
             },
-            { label: 'Razze', link: `${basePrefix}/il-personaggio/razze/` },
+            { label: 'Razze', link: '/il-personaggio/razze/' },
             {
               label: 'Parametri',
               items: [
@@ -146,29 +145,29 @@ export default defineConfig({
           label: 'Manuali',
           items: [
             { label: 'Manuali', slug: 'manuali' },
-            { label: 'Manuale degli Incantesimi', link: `${basePrefix}/manuali/incantesimi/` },
+            { label: 'Manuale degli Incantesimi', link: '/manuali/incantesimi/' },
             {
               label: 'Magizoologia',
               items: [
                 { label: 'Introduzione', slug: 'manuali/magizoologia' },
                 { label: 'Fiducia', slug: 'manuali/magizoologia/fiducia' },
                 { label: 'Domesticazione', slug: 'manuali/magizoologia/domesticazione' },
-                { label: 'Bestiario', link: `${basePrefix}/manuali/magizoologia/bestiario/` },
+                { label: 'Bestiario', link: '/manuali/magizoologia/bestiario/' },
               ],
             },
             {
               label: 'Erbologia',
               items: [
                 { label: 'Introduzione', slug: 'manuali/erbologia' },
-                { label: 'Erbario', link: `${basePrefix}/manuali/erbologia/erbario/` },
+                { label: 'Erbario', link: '/manuali/erbologia/erbario/' },
               ],
             },
             {
               label: 'Pozionistica',
               items: [
                 { label: 'Introduzione', slug: 'manuali/pozionistica' },
-                { label: 'Pozionario', link: `${basePrefix}/manuali/pozionistica/pozionario/` },
-                { label: 'Ingredienti', link: `${basePrefix}/manuali/ingredienti/` },
+                { label: 'Pozionario', link: '/manuali/pozionistica/pozionario/' },
+                { label: 'Ingredienti', link: '/manuali/ingredienti/' },
               ],
             },
           ],
@@ -204,10 +203,10 @@ export default defineConfig({
                 { label: 'Vendere Merci Magiche', slug: 'mondo-magico/commercio/vendere-merci-magiche' },
                 { label: 'La Gringott', slug: 'mondo-magico/commercio/gringott' },
                 { label: 'I Negozi', slug: 'mondo-magico/commercio/negozi' },
-                { label: 'Oggetti', link: `${basePrefix}/mondo-magico/commercio/oggetti/` },
+                { label: 'Oggetti', link: '/mondo-magico/commercio/oggetti/' },
               ],
             },
-            { label: 'Leggi Magiche', link: `${basePrefix}/mondo-magico/leggi/` },
+            { label: 'Leggi Magiche', link: '/mondo-magico/leggi/' },
             {
               label: 'Magisprudenza',
               items: [
