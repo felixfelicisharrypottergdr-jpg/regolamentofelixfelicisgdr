@@ -1,6 +1,11 @@
 ---
 const toc = Astro.locals.starlightRoute.toc;
 const hasUsefulToc = Boolean(toc && (toc.items?.length ?? 0) > 1);
+const routeData = (((Astro.locals as any).starlightRoute?.entry?.data) ?? {}) as Record<string, any>;
+const hasQuickRail = Boolean(
+  (Array.isArray(routeData.quickFacts) && routeData.quickFacts.length) ||
+  (Array.isArray(routeData.quickLinks) && routeData.quickLinks.length)
+);
 const path = Astro.url.pathname.replace(/\/+$/, '');
 const structuredPatterns = [
   '/manuali/magizoologia/bestiario/',
@@ -15,7 +20,7 @@ const structuredPatterns = [
   '/mondo-magico/leggi/articoli/',
 ];
 const isStructuredEntity = structuredPatterns.some((pattern) => path.includes(pattern) && !path.endsWith(pattern.slice(0, -1)));
-const hasRightRail = hasUsefulToc || isStructuredEntity;
+const hasRightRail = hasUsefulToc || isStructuredEntity || hasQuickRail;
 ---
 <div class:list={['felix-two-column', { 'has-toc': hasRightRail, 'no-toc': !hasRightRail }]}>
   {hasRightRail && (

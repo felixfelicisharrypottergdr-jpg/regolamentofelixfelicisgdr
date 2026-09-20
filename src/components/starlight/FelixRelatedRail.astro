@@ -10,7 +10,7 @@ type FactItem = { label: string; value: string };
 
 const path = Astro.url.pathname.replace(/\/+$/, '');
 const slug = path.split('/').filter(Boolean).at(-1) ?? '';
-const routeData = Astro.locals.starlightRoute.entry.data as Record<string, any>;
+const routeData = (((Astro.locals as any).starlightRoute?.entry?.data) ?? {}) as Record<string, any>;
 const resolveHref = (href: string) => {
   if (/^(https?:|mailto:|#)/.test(href)) return href;
   return href.startsWith('/') ? withBase(href.slice(1)) : withBase(href);
@@ -35,7 +35,9 @@ const isStructuredRoute = structuredRoots.some((root) => path.includes(root));
 const index = isStructuredRoute ? await buildFelixIndex() : new Map();
 const backlinks = isStructuredRoute ? await buildBacklinkIndex() : new Map();
 
-const clean = <T>(items: (T | undefined | null)[]) => items.filter(Boolean) as T[];
+function clean<T>(items: (T | undefined | null)[]): T[] {
+  return items.filter(Boolean) as T[];
+}
 const linkForId = (id: string | undefined) => id ? index.get(id) : undefined;
 const toLink = (item: any): LinkItem | undefined => item ? { title: item.title, url: item.url } : undefined;
 

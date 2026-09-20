@@ -84,6 +84,26 @@ content:
               values:
                 - { name: student, label: PG Studente }
                 - { name: adult, label: PG Adulto }
+          - name: quickFacts
+            label: Da sapere subito
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}: {value}"
+            fields:
+              - { name: label, label: Etichetta, type: string, required: true }
+              - { name: value, label: Valore, type: string, required: true }
+          - name: quickLinks
+            label: Collegamenti utili
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}"
+            fields:
+              - { name: label, label: Etichetta, type: string, required: true }
+              - { name: href, label: Percorso o URL, type: string, required: true }
           - { name: migration, component: migration }
           - { name: prototypeExcerpt, label: Estratto di prototipo, type: boolean }
           - name: body
