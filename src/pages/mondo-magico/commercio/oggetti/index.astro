@@ -1,17 +1,43 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection } from 'astro:content';
+import FelixCatalog from '../../../../components/FelixCatalog.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import FelixBadges from '../../../../components/FelixBadges.astro';
 import { routeForStructured } from '../../../../config/routes';
+
 const objects=(await getCollection('objects')).filter(e=>e.data.status==='published').sort((a,b)=>a.data.name.localeCompare(b.data.name,'it'));
+const functions=[...new Set(objects.map((entry)=>entry.data.function).filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),'it'));
+const legalities=[...new Set(objects.map((entry)=>entry.data.legality).filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),'it'));
 ---
-<StarlightPage frontmatter={{title:'Oggetti',description:'Elenco degli Oggetti del Commercio Magico nel prototipo.'}}>
+<StarlightPage frontmatter={{title:'Oggetti',description:'Consulta e filtra gli Oggetti del Commercio Magico.'}}>
   <SearchMetadata type="Catalogo" macroarea="Mondo Magico" aliases={['oggetti magici','prezzari','merce']} />
-  <article class="felix-entry" data-pagefind-body>
-    <p class="felix-lead">Il futuro Catalogo Oggetti sarà alimentato dai dati strutturati del Commercio. In questa fase contiene solo alcune voci reali utili a testare Prezzo, Funzione, Attivazione, Usi, Effetti OFF e varianti di vendita.</p>
-    <div class="felix-catalog-list">
-      {objects.map(obj => <section class="felix-creature-row"><h2><a href={routeForStructured('objects',obj.data.slug)}>{obj.data.name}</a></h2><FelixBadges items={[obj.data.function??'',obj.data.legality??'']} /><p>{obj.data.description}</p><p><strong>Prezzo:</strong> {obj.data.price??'—'}</p></section>)}
-    </div>
-  </article>
+
+  <FelixCatalog searchLabel="Cerca negli Oggetti" count={objects.length} countLabel="Oggetti">
+    <label class="felix-filter-control" slot="filters">
+      <span>Funzione</span>
+      <select data-filter="function" data-filter-label="Funzione"><option value="">Tutte</option>{functions.map((value)=><option>{value}</option>)}</select>
+    </label>
+    <label class="felix-filter-control" slot="filters">
+      <span>Legalità</span>
+      <select data-filter="legality" data-filter-label="Legalità"><option value="">Tutte</option>{legalities.map((value)=><option>{value}</option>)}</select>
+    </label>
+
+    {objects.map((obj) => (
+      <article
+        class="felix-creature-row"
+        data-card
+        data-haystack={`${obj.data.name} ${obj.data.description ?? ''} ${obj.data.searchAliases.join(' ')} ${obj.data.sellers.map((seller)=>seller.shop).join(' ')}`.toLowerCase()}
+        data-function={obj.data.function ?? ''}
+        data-legality={obj.data.legality ?? ''}
+      >
+        <div>
+          <h2><a href={routeForStructured('objects',obj.data.slug)}>{obj.data.name}</a></h2>
+          <FelixBadges items={[obj.data.function??'',obj.data.legality??'']} />
+          <p>{obj.data.description}</p>
+          <p class="felix-note-small"><strong>Prezzo:</strong> {obj.data.price??'—'}</p>
+        </div>
+      </article>
+    ))}
+  </FelixCatalog>
 </StarlightPage>

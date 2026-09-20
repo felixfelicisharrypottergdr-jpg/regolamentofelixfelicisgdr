@@ -2,42 +2,53 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection } from 'astro:content';
 import FelixBadges from '../../../components/FelixBadges.astro';
+import FelixCatalog from '../../../components/FelixCatalog.astro';
 import SearchMetadata from '../../../components/search/SearchMetadata.astro';
 import { routeForStructured } from '../../../config/routes';
 
 const ingredients = (await getCollection('ingredients'))
   .filter((entry) => entry.data.status === 'published')
   .sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
+const classes = [...new Set(ingredients.map((entry) => entry.data.goodsClass))].sort((a,b) => a.localeCompare(b,'it'));
+const legalities = [...new Set(ingredients.map((entry) => entry.data.legality))].sort((a,b) => a.localeCompare(b,'it'));
 ---
-<StarlightPage frontmatter={{ title: 'Ingredienti', description: 'Consulta le schede Ingredienti migrate nel prototipo.' }}>
+<StarlightPage frontmatter={{ title: 'Ingredienti', description: 'Consulta e filtra gli Ingredienti.' }}>
   <SearchMetadata type="Catalogo" macroarea="Manuali" aliases={['ingredienti', 'glossario ingredienti']} />
-  <section>
-    <p class="felix-kicker">Manuali › Ingredienti</p>
-    <p class="felix-lead">Glossario degli Ingredienti — campione tecnico del prototipo.</p>
-    <div class="felix-catalog-toolbar">
-      <label>Cerca negli Ingredienti <input type="search" data-ingredient-query placeholder="Nome, provenienza o alias..." /></label>
-      <strong><span data-ingredient-count>{ingredients.length}</span> Ingredienti</strong>
-    </div>
-    <div data-ingredient-list data-pagefind-ignore>
-      {ingredients.map((entry) => (
-        <article class="felix-creature-row" data-ingredient-card data-haystack={`${entry.data.name} ${entry.data.description} ${entry.data.provenance} ${entry.data.searchAliases.join(' ')}`.toLowerCase()}>
+
+  <FelixCatalog searchLabel="Cerca negli Ingredienti" searchPlaceholder="Nome, provenienza o alias..." count={ingredients.length} countLabel="Ingredienti">
+    <label class="felix-filter-control" slot="filters">
+      <span>Classificazione</span>
+      <select data-filter="classification" data-filter-label="Classificazione"><option value="">Tutte</option><option>X</option><option>XX</option><option>XXX</option><option>XXXX</option><option>XXXXX</option></select>
+    </label>
+    <label class="felix-filter-control" slot="filters">
+      <span>Classe merce</span>
+      <select data-filter="goodsClass" data-param="class" data-filter-label="Classe merce"><option value="">Tutte</option>{classes.map((value) => <option>{value}</option>)}</select>
+    </label>
+    <label class="felix-filter-control" slot="filters">
+      <span>Legalità</span>
+      <select data-filter="legality" data-filter-label="Legalità"><option value="">Tutte</option>{legalities.map((value) => <option>{value}</option>)}</select>
+    </label>
+    <label class="felix-filter-toggle" slot="filters">
+      <input type="checkbox" data-filter="exotic" data-filter-label="Esotico" data-active-label="Solo esotici" />
+      <span>Solo esotici</span>
+    </label>
+
+    {ingredients.map((entry) => (
+      <article
+        class="felix-creature-row"
+        data-card
+        data-haystack={`${entry.data.name} ${entry.data.description ?? ''} ${entry.data.provenance} ${entry.data.searchAliases.join(' ')}`.toLowerCase()}
+        data-classification={entry.data.classification}
+        data-goods-class={entry.data.goodsClass}
+        data-legality={entry.data.legality}
+        data-exotic={entry.data.exotic ? 'true' : 'false'}
+      >
+        <div>
           <h2><a href={routeForStructured('ingredients', entry.data.slug)}>{entry.data.name}</a></h2>
           <FelixBadges items={[entry.data.classification, entry.data.goodsClass, entry.data.legality, entry.data.exotic ? 'Esotico' : '']} />
           <p>{entry.data.description || entry.data.provenance}</p>
-        </article>
-      ))}
-    </div>
-  </section>
-  <script>
-    const input = document.querySelector('[data-ingredient-query]');
-    const cards = [...document.querySelectorAll('[data-ingredient-card]')];
-    const count = document.querySelector('[data-ingredient-count]');
-    const apply = () => {
-      const q = (input?.value || '').trim().toLowerCase();
-      let visible = 0;
-      cards.forEach((card) => { const show = !q || (card.dataset.haystack || '').includes(q); card.hidden = !show; if (show) visible += 1; });
-      if (count) count.textContent = String(visible);
-    };
-    input?.addEventListener('input', apply);
-  </script>
+        </div>
+      </article>
+    ))}
+  </FelixCatalog>
 </StarlightPage>

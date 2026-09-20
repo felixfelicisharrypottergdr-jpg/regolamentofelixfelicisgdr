@@ -2080,3 +2080,412 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
     aspect-ratio:16 / 9;
   }
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — v8
+   Cataloghi condivisi e pattern di consultazione trasversali.
+   ========================================================== */
+
+.felix-catalog-system{
+  width:100%;
+  margin-top:.35rem;
+}
+.felix-catalog-system .felix-catalog-toolbar{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  align-items:end!important;
+  gap:1rem!important;
+  margin:0!important;
+  padding:0 0 .72rem!important;
+}
+.felix-catalog-system .felix-catalog-search{
+  display:grid!important;
+  gap:.3rem!important;
+}
+.felix-catalog-system .felix-catalog-search span{
+  color:#6a5139!important;
+  font-family:'Federo',sans-serif!important;
+  font-size:.68rem!important;
+  letter-spacing:.035em;
+}
+.felix-catalog-system .felix-catalog-search input{
+  width:100%!important;
+  min-height:3rem!important;
+  padding:.65rem .8rem!important;
+  border:1px solid rgba(112,78,32,.19)!important;
+  border-radius:4px!important;
+  outline:none;
+  background:rgba(255,255,255,.42)!important;
+  color:#392d24!important;
+  font: .86rem 'Antic Slab',serif!important;
+  box-shadow:inset 0 1px 1px rgba(91,61,26,.035);
+}
+.felix-catalog-system .felix-catalog-search input:focus{
+  border-color:rgba(156,108,43,.58)!important;
+  box-shadow:0 0 0 2px rgba(177,124,48,.08)!important;
+}
+.felix-catalog-system .felix-catalog-count{
+  min-width:7rem;
+  padding:0 0 .7rem!important;
+  color:#5f4935!important;
+  font: .75rem 'Federo',sans-serif!important;
+  text-align:right;
+  white-space:nowrap;
+}
+
+/* Un’unica barra di controllo, mai una seconda sidebar. */
+.felix-catalog-system .felix-catalog-controls{
+  display:flex!important;
+  flex-wrap:wrap!important;
+  align-items:end!important;
+  gap:.5rem!important;
+  margin:0 0 .65rem!important;
+  padding:.55rem .62rem!important;
+  border:1px solid rgba(112,78,32,.13)!important;
+  border-radius:4px!important;
+  background:rgba(116,79,32,.035)!important;
+}
+.felix-catalog-system .felix-catalog-controls-title{
+  align-self:center!important;
+  margin-right:.15rem;
+  color:#6a411f!important;
+  font:1.08rem 'magic','Federo',serif!important;
+  white-space:nowrap;
+}
+.felix-catalog-system .felix-filter-control{
+  display:grid!important;
+  flex:0 1 11rem;
+  min-width:9.2rem;
+  gap:.2rem!important;
+}
+.felix-catalog-system .felix-filter-control>span{
+  color:#80694f!important;
+  font: .56rem 'Federo',sans-serif!important;
+  letter-spacing:.05em!important;
+  text-transform:uppercase!important;
+}
+.felix-catalog-system .felix-filter-control select{
+  width:100%;
+  min-height:2.25rem!important;
+  padding:.38rem .5rem!important;
+  border:1px solid rgba(112,78,32,.15)!important;
+  border-radius:4px!important;
+  background:rgba(255,255,255,.50)!important;
+  color:#44362b!important;
+  font:.74rem 'Antic Slab',serif!important;
+}
+.felix-catalog-system .felix-filter-toggle{
+  display:flex!important;
+  min-height:2.25rem!important;
+  align-items:center!important;
+  gap:.38rem!important;
+  padding:.38rem .52rem!important;
+  border:1px solid rgba(112,78,32,.13)!important;
+  border-radius:4px!important;
+  background:rgba(255,255,255,.16)!important;
+  color:#5a493a!important;
+  font-size:.72rem!important;
+  white-space:nowrap;
+}
+.felix-catalog-system .felix-filter-toggle input{
+  accent-color:#9b6b2e;
+}
+.felix-catalog-system .felix-catalog-actions{
+  display:flex;
+  gap:.38rem;
+  margin-left:auto;
+}
+.felix-catalog-system .felix-filter-reset,
+.felix-catalog-system .felix-filter-share{
+  min-height:2.25rem!important;
+  padding:.4rem .6rem!important;
+  border:1px solid rgba(112,78,32,.16)!important;
+  border-radius:4px!important;
+  background:rgba(255,255,255,.30)!important;
+  color:#654f3b!important;
+  font:.66rem 'Federo',sans-serif!important;
+  cursor:pointer;
+}
+.felix-catalog-system .felix-filter-reset:hover,
+.felix-catalog-system .felix-filter-share:hover{
+  border-color:rgba(143,96,34,.36)!important;
+  background:rgba(255,255,255,.52)!important;
+}
+.felix-catalog-system .felix-copy-status{
+  align-self:center;
+  min-width:0;
+  color:#866f53;
+  font-size:.63rem;
+}
+.felix-catalog-system .felix-catalog-controls.has-no-filters{
+  justify-content:flex-end!important;
+  padding-block:.42rem!important;
+}
+
+/* Chip attivi: utili ma visivamente secondari. */
+.felix-catalog-system .felix-active-filters{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.32rem;
+  margin:0 0 .58rem!important;
+}
+.felix-catalog-system .felix-active-filters[hidden]{
+  display:none!important;
+}
+.felix-catalog-system .felix-filter-chip{
+  padding:.25rem .42rem;
+  border:1px solid rgba(139,95,37,.15);
+  border-radius:999px;
+  background:rgba(139,95,37,.05);
+  color:#735837;
+  font-size:.62rem;
+}
+
+/* Risultati: allineamento unico per ogni catalogo. */
+.felix-catalog-system .felix-catalog-list{
+  display:grid!important;
+  gap:.48rem!important;
+}
+.felix-catalog-system .felix-creature-row{
+  min-height:7.15rem!important;
+  padding:.78rem .88rem!important;
+  border:1px solid rgba(112,78,32,.12)!important;
+  border-radius:3px!important;
+  background:rgba(255,255,255,.10)!important;
+  box-shadow:none!important;
+}
+.felix-catalog-system .felix-creature-row:hover{
+  transform:none!important;
+  border-color:rgba(142,94,31,.26)!important;
+  background:rgba(255,255,255,.26)!important;
+}
+.felix-catalog-system .felix-creature-row h2,
+.felix-catalog-system .felix-creature-row h3{
+  min-height:1.55rem!important;
+  margin:0 0 .2rem!important;
+  padding:0 0 .32rem!important;
+  border-bottom:1px solid rgba(112,78,32,.10)!important;
+  font-family:'magic','Federo',serif!important;
+  font-weight:400!important;
+}
+.felix-catalog-system .felix-creature-row h2{
+  font-size:1.38rem!important;
+}
+.felix-catalog-system .felix-creature-row h3{
+  font-size:1.28rem!important;
+}
+.felix-catalog-system .felix-creature-row p{
+  margin:.42rem 0 0!important;
+  color:#5c5146!important;
+  font-size:.79rem!important;
+  line-height:1.46!important;
+}
+.felix-catalog-system .felix-creature-row .felix-note-small{
+  margin-top:.35rem!important;
+  color:#7b6d5e!important;
+  font-size:.68rem!important;
+}
+
+/* Specchietto riutilizzabile per landing che hanno poche regole-cardine. */
+.felix-reference-strip{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:0;
+  margin:1rem 0 1.6rem;
+  overflow:hidden;
+  border:1px solid rgba(112,78,32,.14);
+  border-radius:3px;
+  background:rgba(255,255,255,.10);
+}
+.felix-reference-strip>div{
+  display:flex;
+  min-height:4.3rem;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:.35rem;
+  padding:.65rem .75rem;
+  border-right:1px solid rgba(112,78,32,.11);
+}
+.felix-reference-strip>div:last-child{
+  border-right:0;
+}
+.felix-reference-strip span{
+  color:#8c704c;
+  font:.56rem 'Federo',sans-serif;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
+.felix-reference-strip strong{
+  color:#68401f;
+  font:400 1.18rem 'magic','Federo',serif;
+}
+
+/* Mobile: ricerca sopra, controlli a piena larghezza e azioni leggibili. */
+@media(max-width:760px){
+  .felix-catalog-system .felix-catalog-toolbar{
+    grid-template-columns:1fr!important;
+    gap:.35rem!important;
+  }
+  .felix-catalog-system .felix-catalog-count{
+    min-width:0;
+    padding:0!important;
+    text-align:left;
+  }
+  .felix-catalog-system .felix-catalog-controls{
+    align-items:stretch!important;
+  }
+  .felix-catalog-system .felix-catalog-controls-title{
+    width:100%;
+  }
+  .felix-catalog-system .felix-filter-control{
+    flex:1 1 100%;
+    min-width:100%;
+  }
+  .felix-catalog-system .felix-filter-toggle{
+    width:100%;
+  }
+  .felix-catalog-system .felix-catalog-actions{
+    width:100%;
+    margin-left:0;
+  }
+  .felix-catalog-system .felix-filter-reset,
+  .felix-catalog-system .felix-filter-share{
+    flex:1;
+  }
+  .felix-reference-strip{
+    grid-template-columns:1fr;
+  }
+  .felix-reference-strip>div{
+    border-right:0;
+    border-bottom:1px solid rgba(112,78,32,.11);
+  }
+  .felix-reference-strip>div:last-child{
+    border-bottom:0;
+  }
+}
+
+
+/* ==========================================================
+   FELIX FELICIS — v9
+   Tabelle operative condivise.
+   ========================================================== */
+
+.felix-table-shell{
+  width:100%;
+  margin:.75rem 0 1rem;
+  overflow:hidden;
+  border:1px solid rgba(112,78,32,.14);
+  border-radius:3px;
+  background:rgba(255,255,255,.10);
+}
+.felix-data-table{
+  width:100%;
+  margin:0!important;
+  border-collapse:collapse!important;
+  table-layout:auto;
+}
+.felix-data-table thead{
+  background:rgba(172,128,60,.12);
+}
+.felix-data-table th,
+.felix-data-table td{
+  padding:.58rem .68rem!important;
+  border:0!important;
+  border-right:1px solid rgba(112,78,32,.10)!important;
+  border-bottom:1px solid rgba(112,78,32,.10)!important;
+  color:#4f4337!important;
+  font-size:.76rem!important;
+  line-height:1.4!important;
+}
+.felix-data-table th:last-child,
+.felix-data-table td:last-child{
+  border-right:0!important;
+}
+.felix-data-table tbody tr:last-child td{
+  border-bottom:0!important;
+}
+.felix-data-table th{
+  color:#6e4a24!important;
+  font-family:'Federo',sans-serif!important;
+  font-size:.61rem!important;
+  font-weight:400!important;
+  letter-spacing:.045em!important;
+  text-transform:uppercase!important;
+}
+.felix-data-table tbody tr:nth-child(even){
+  background:rgba(255,255,255,.09);
+}
+.felix-data-table tbody tr:hover{
+  background:rgba(166,115,45,.045);
+}
+.felix-data-table a{
+  color:#7a5525!important;
+  text-decoration-color:rgba(122,85,37,.28)!important;
+  text-underline-offset:.15em;
+}
+.felix-data-table .is-muted{
+  color:#8d8173!important;
+}
+.felix-data-table .is-center{text-align:center!important}
+.felix-data-table .is-right{text-align:right!important}
+.felix-table-shell.is-compact .felix-data-table th,
+.felix-table-shell.is-compact .felix-data-table td{
+  padding:.45rem .55rem!important;
+}
+
+/* Su mobile la tabella diventa una sequenza di schede leggibili. */
+@media(max-width:760px){
+  .felix-table-shell{
+    overflow:visible;
+    border:0;
+    background:transparent;
+  }
+  .felix-data-table,
+  .felix-data-table tbody,
+  .felix-data-table tr,
+  .felix-data-table td{
+    display:block!important;
+    width:100%!important;
+  }
+  .felix-data-table thead{
+    position:absolute!important;
+    width:1px!important;
+    height:1px!important;
+    padding:0!important;
+    overflow:hidden!important;
+    clip:rect(0 0 0 0)!important;
+    white-space:nowrap!important;
+    border:0!important;
+  }
+  .felix-data-table tbody{
+    display:grid!important;
+    gap:.55rem;
+  }
+  .felix-data-table tr{
+    overflow:hidden;
+    border:1px solid rgba(112,78,32,.14);
+    border-radius:3px;
+    background:rgba(255,255,255,.10);
+  }
+  .felix-data-table td{
+    display:grid!important;
+    grid-template-columns:minmax(7.5rem,.42fr) minmax(0,1fr)!important;
+    gap:.65rem;
+    align-items:start;
+    padding:.5rem .62rem!important;
+    border-right:0!important;
+    border-bottom:1px solid rgba(112,78,32,.09)!important;
+    text-align:left!important;
+  }
+  .felix-data-table td:last-child{
+    border-bottom:0!important;
+  }
+  .felix-data-table td::before{
+    content:attr(data-label);
+    color:#82643f;
+    font:.56rem 'Federo',sans-serif;
+    letter-spacing:.045em;
+    text-transform:uppercase;
+  }
+}

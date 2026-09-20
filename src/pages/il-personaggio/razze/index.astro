@@ -2,6 +2,7 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection } from 'astro:content';
 import FelixBadges from '../../../components/FelixBadges.astro';
+import FelixCatalog from '../../../components/FelixCatalog.astro';
 import SearchMetadata from '../../../components/search/SearchMetadata.astro';
 import { routeForStructured } from '../../../config/routes';
 
@@ -11,39 +12,33 @@ const races = (await getCollection('races'))
 ---
 <StarlightPage frontmatter={{ title: 'Razze', description: 'Regole sulle Razze ed Elenco delle Razze giocabili.' }}>
   <SearchMetadata type="Elenco" macroarea="Il Personaggio" aliases={['razze', 'razze giocabili', 'pg razziato', 'razziati']} filters={{ applicability: ['PG Studente', 'PG Adulto'] }} />
+
   <article data-pagefind-body>
-    <p class="felix-kicker">Il Personaggio › Razze</p>
-    <p class="felix-lead">Regole comuni per i PG appartenenti a una Razza Speciale e accesso diretto all'Elenco delle Razze.</p>
+    <p class="felix-lead">Le Razze Speciali prevedono Privilegi, Svantaggi e regole proprie. Le peculiarità narrative non sostituiscono né ampliano i Tratti Razziali previsti dalla relativa scheda.</p>
 
-    <h2>Regole sulle Razze</h2>
-    <p>Il Mondo Magico è popolato anche da maghi e streghe che sono nati — o hanno ottenuto — Razze o mezze Razze con caratteristiche peculiari. L'appartenenza a una Razza non conferisce poteri maggiori in senso assoluto: ogni Razza prevede <strong>Privilegi</strong> e <strong>Svantaggi</strong>.</p>
-    <p>Nel Regolamento attuale sono disponibili <strong>3 posti per Razza</strong>, ripartiti indifferentemente tra PG Studenti e PG Adulti. Ogni Player può muovere al massimo <strong>2 PG razziati</strong>. La versione definitiva conserverà integralmente tutte le regole su occupazione dei posti, inattività, congelamento e creazione.</p>
-
-    <h3>Guida all'uso</h3>
-    <p>Le peculiarità narrative di una Razza non possono essere utilizzate per ottenere vantaggi ulteriori rispetto a quelli espressamente previsti dai relativi <strong>Tratti Razziali</strong>.</p>
-
-    <h3>Razze e distribuzione</h3>
-    <p>Salvo quando indicato diversamente, un PG appartenente a una Razza Speciale distribuisce inizialmente i propri Parametri secondo le normali regole previste per la propria età. Gli eventuali bonus razziali permanenti vengono applicati dopo la distribuzione ordinaria.</p>
+    <section class="felix-reference-strip" aria-label="Regole rapide sulle Razze">
+      <div><span>Posti</span><strong>3 per Razza</strong></div>
+      <div><span>Per Player</span><strong>max 2 PG razziati</strong></div>
+      <div><span>Applicabilità</span><strong>Studenti e Adulti</strong></div>
+    </section>
 
     <h2>Elenco delle Razze</h2>
-    <div class="felix-catalog-toolbar"><label>Cerca nell'Elenco delle Razze <input type="search" data-race-query placeholder="Nome, descrizione o alias..." /></label><strong><span data-race-count>{races.length}</span> Razze</strong></div>
-    <div class="felix-catalog-list" data-race-list data-pagefind-ignore>
+    <FelixCatalog searchLabel="Cerca nell'Elenco delle Razze" count={races.length} countLabel="Razze">
       {races.map((entry) => (
-        <article class="felix-creature-row" data-race-card data-name={entry.data.name.toLowerCase()} data-description={entry.data.description.toLowerCase()} data-aliases={entry.data.searchAliases.join(' ').toLowerCase()}>
+        <article
+          class="felix-creature-row"
+          data-card
+          data-name={entry.data.name.toLowerCase()}
+          data-description={entry.data.description.toLowerCase()}
+          data-aliases={entry.data.searchAliases.join(' ').toLowerCase()}
+        >
           <div>
             <h3><a href={routeForStructured('races', entry.data.slug)}>{entry.data.name}</a></h3>
-            <FelixBadges items={['PG Studente', 'PG Adulto', entry.data.availablePlaces ? `Posti disponibili: ${entry.data.availablePlaces}` : '']} />
+            <FelixBadges items={entry.data.applicability.map((item) => item === 'student' ? 'PG Studente' : 'PG Adulto').concat(entry.data.availablePlaces ? [`Posti disponibili: ${entry.data.availablePlaces}`] : [])} />
             <p>{entry.data.description}</p>
           </div>
         </article>
       ))}
-    </div>
+    </FelixCatalog>
   </article>
-  <script>
-    const input=document.querySelector('[data-race-query]');
-    const cards=[...document.querySelectorAll('[data-race-card]')];
-    const count=document.querySelector('[data-race-count]');
-    const apply=()=>{const q=(input?.value||'').trim().toLowerCase();let n=0;cards.forEach(card=>{const hay=`${card.dataset.name||''} ${card.dataset.description||''} ${card.dataset.aliases||''}`;const show=!q||hay.includes(q);card.hidden=!show;if(show)n++});if(count)count.textContent=String(n)};
-    input?.addEventListener('input',apply);
-  </script>
 </StarlightPage>

@@ -3,11 +3,19 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
 import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
+import FelixDataTable from '../../../../components/FelixDataTable.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 export async function getStaticPaths(){return (await getCollection('objects')).filter(e=>e.data.status==='published').map(entry=>({params:{slug:entry.data.slug},props:{entry}}));}
 const {entry}=Astro.props; const {Content,headings}=await render(entry); const index=await buildFelixIndex();
 const related=entry.data.relatedFelixIds.map(id=>index.get(id)).filter(Boolean);
+const sellerRows=entry.data.sellers.map((seller)=>({
+  shop:seller.shop,
+  alignment:seller.shopAlignment??'—',
+  price:seller.price??'—',
+  uses:seller.uses??'—',
+  legality:seller.legality??'—',
+}));
 const pageHeadings=entry.data.sellers.length
   ? [...headings,{depth:2,slug:'punti-vendita',text:'Punti vendita'}]
   : headings;
@@ -32,7 +40,17 @@ const pageHeadings=entry.data.sellers.length
     {entry.data.sellers.length>0 && (
       <section>
         <AnchorHeading level="2" id="punti-vendita">Punti vendita</AnchorHeading>
-        <table class="felix-values"><thead><tr><th>Negozio</th><th>Allineamento</th><th>Prezzo</th><th>Usi</th><th>Legalità</th></tr></thead><tbody>{entry.data.sellers.map(s=><tr><td>{s.shop}</td><td>{s.shopAlignment??'—'}</td><td>{s.price??'—'}</td><td>{s.uses??'—'}</td><td>{s.legality??'—'}</td></tr>)}</tbody></table>
+        <FelixDataTable
+          ariaLabel="Punti vendita"
+          columns={[
+            { key:'shop', label:'Negozio' },
+            { key:'alignment', label:'Allineamento' },
+            { key:'price', label:'Prezzo' },
+            { key:'uses', label:'Usi' },
+            { key:'legality', label:'Legalità' },
+          ]}
+          rows={sellerRows}
+        />
       </section>
     )}
   </article>
