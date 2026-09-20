@@ -9,8 +9,6 @@ const objects=(await getCollection('objects')).filter(e=>e.data.status==='publis
 <StarlightPage frontmatter={{title:'Oggetti',description:'Elenco degli Oggetti del Commercio Magico nel prototipo.'}}>
   <SearchMetadata type="Catalogo" macroarea="Mondo Magico" aliases={['oggetti magici','prezzari','merce']} />
   <article class="felix-entry" data-pagefind-body>
-    <p class="felix-kicker">Mondo Magico › Commercio › Oggetti</p>
-    <h1>Oggetti</h1>
     <p class="felix-lead">Il futuro Catalogo Oggetti sarà alimentato dai dati strutturati del Commercio. In questa fase contiene solo alcune voci reali utili a testare Prezzo, Funzione, Attivazione, Usi, Effetti OFF e varianti di vendita.</p>
     <div class="felix-catalog-list">
       {objects.map(obj => <section class="felix-creature-row"><h2><a href={routeForStructured('objects',obj.data.slug)}>{obj.data.name}</a></h2><FelixBadges items={[obj.data.function??'',obj.data.legality??'']} /><p>{obj.data.description}</p><p><strong>Prezzo:</strong> {obj.data.price??'—'}</p></section>)}
