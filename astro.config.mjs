@@ -152,13 +152,13 @@ export default defineConfig({
           items: [
             { label: 'Manuali', slug: 'manuali' },
             { label: 'Manuale degli Incantesimi', link: '/manuali/incantesimi/' },
+            { label: 'Altre Conoscenze Scolastiche', slug: 'manuali/conoscenze-scolastiche' },
+            { label: 'Divinazione', slug: 'manuali/divinazione' },
             {
-              label: 'Magizoologia',
+              label: 'Medimagia',
               items: [
-                { label: 'Introduzione', slug: 'manuali/magizoologia' },
-                { label: 'Fiducia', slug: 'manuali/magizoologia/fiducia' },
-                { label: 'Domesticazione', slug: 'manuali/magizoologia/domesticazione' },
-                { label: 'Bestiario', link: '/manuali/magizoologia/bestiario/' },
+                { label: 'Enciclopedia Medimagica', slug: 'manuali/medimagia' },
+                { label: 'Malattie Magiche', link: '/manuali/medimagia/malattie/' },
               ],
             },
             {
@@ -169,13 +169,23 @@ export default defineConfig({
               ],
             },
             {
+              label: 'Magizoologia',
+              items: [
+                { label: 'Introduzione', slug: 'manuali/magizoologia' },
+                { label: 'Fiducia', slug: 'manuali/magizoologia/fiducia' },
+                { label: 'Domesticazione', slug: 'manuali/magizoologia/domesticazione' },
+                { label: 'Bestiario', link: '/manuali/magizoologia/bestiario/' },
+              ],
+            },
+            {
               label: 'Pozionistica',
               items: [
                 { label: 'Introduzione', slug: 'manuali/pozionistica' },
                 { label: 'Pozionario', link: '/manuali/pozionistica/pozionario/' },
-                { label: 'Ingredienti', link: '/manuali/ingredienti/' },
               ],
             },
+            { label: 'Tracciatura', slug: 'manuali/tracciatura' },
+            { label: 'Ingredienti', link: '/manuali/ingredienti/' },
           ],
         },
         {
