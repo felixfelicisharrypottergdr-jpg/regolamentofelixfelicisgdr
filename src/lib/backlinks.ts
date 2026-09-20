@@ -5,7 +5,9 @@ export type Backlink = {
   relation: 'causesDisease' | 'producesIngredient' | 'usesIngredient' | 'preventsDisease' | 'counteractsSpell' | 'generic';
 };
 
-export async function buildBacklinkIndex() {
+let backlinkIndexPromise: Promise<Map<string, Backlink[]>> | undefined;
+
+async function createBacklinkIndex() {
   const result = new Map<string, Backlink[]>();
   const add = (target: string, backlink: Backlink) => {
     const existing = result.get(target) ?? [];
@@ -71,4 +73,9 @@ export async function buildBacklinkIndex() {
   }
 
   return result;
+}
+
+export function buildBacklinkIndex() {
+  backlinkIndexPromise ??= createBacklinkIndex();
+  return backlinkIndexPromise;
 }
