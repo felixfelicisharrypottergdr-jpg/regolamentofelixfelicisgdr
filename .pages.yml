@@ -104,6 +104,7 @@ content:
             fields:
               - { name: label, label: Etichetta, type: string, required: true }
               - { name: href, label: Percorso o URL, type: string, required: true }
+              - { name: description, label: Descrizione breve, type: text }
           - { name: migration, component: migration }
           - { name: prototypeExcerpt, label: Estratto di prototipo, type: boolean }
           - name: body
