@@ -5,6 +5,22 @@ description: "Regole e possibilità di gioco dedicate ai PG Studenti di Hogwarts
 contentType: landing
 searchAliases: [studente, studente hogwarts, personaggio studente, pg studente]
 applicability: [student]
+quickFacts:
+  - label: "Percorso"
+    value: "Hogwarts"
+  - label: "Ingresso"
+    value: "11 anni"
+  - label: "Anno scolastico"
+    value: "1 settembre → 30 giugno"
+quickLinks:
+  - label: "Creare un PG Studente"
+    href: "/il-personaggio/pg-studente/creare-un-pg-studente/"
+  - label: "Studiare ad Hogwarts"
+    href: "/il-personaggio/pg-studente/studiare-ad-hogwarts/"
+  - label: "Coppa delle Case"
+    href: "/il-personaggio/pg-studente/coppa-delle-case/"
+  - label: "Modalità di gioco"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/"
 prototypeExcerpt: true
 migration:
   status: migrated
