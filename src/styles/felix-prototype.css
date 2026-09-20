@@ -1703,3 +1703,474 @@ h1#_top,
     grid-template-columns: 1fr 1fr;
   }
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — refinement v5
+   UX/UI: Home piena, card simmetriche, cataloghi orizzontali,
+   statistiche leggibili e relazioni compatte.
+   ========================================================== */
+
+/* HOME: elimina il pannello vuoto prodotto dal titolo nascosto e usa davvero il viewport. */
+body:has(.felix-home-content) .content-panel:has(.felix-pagefind-meta) {
+  display: none !important;
+}
+body:has(.felix-home-content) .main-frame,
+body:has(.felix-home-content) .main-pane,
+body:has(.felix-home-content) .content-panel,
+body:has(.felix-home-content) .sl-container {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+body:has(.felix-home-content) .content-panel,
+body:has(.felix-home-content) .sl-container {
+  padding: 0 !important;
+}
+body:has(.felix-home-content) .main-pane {
+  padding: 0 !important;
+}
+
+.felix-home-splash {
+  display: block;
+  min-height: 0;
+  padding: 3rem clamp(2rem, 6vw, 7rem) 2.35rem;
+}
+.felix-home-splash-copy {
+  width: min(100%, 80rem);
+  max-width: none;
+  margin: 0 auto;
+}
+.felix-home-splash h1 {
+  max-width: 16ch;
+  margin-bottom: .45rem;
+}
+.felix-home-tagline {
+  max-width: 52rem;
+}
+.felix-home-search {
+  width: min(100%, 67rem);
+}
+.felix-home-sigil {
+  display: none !important;
+}
+
+.felix-home-areas {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-items: stretch;
+  gap: .65rem;
+  padding-inline: clamp(1.4rem, 4vw, 3.4rem);
+}
+.felix-area-card {
+  display: grid;
+  grid-template-rows: 3.9rem minmax(3.2rem, auto) minmax(3.4rem, 1fr) 2rem;
+  place-items: center;
+  align-content: start;
+  min-height: 14rem;
+  padding: 1.05rem .8rem .9rem;
+  gap: .42rem;
+}
+.felix-area-icon {
+  width: 3.45rem;
+  height: 3.45rem;
+  margin: 0;
+}
+.felix-area-icon .felix-macro-icon {
+  width: 1.48rem;
+  height: 1.48rem;
+}
+.felix-area-card strong {
+  display: grid;
+  min-height: 3.1rem;
+  place-items: center;
+  margin: 0;
+  font-size: 1.28rem;
+  line-height: 1.05;
+}
+.felix-area-card > span:not(.felix-area-icon) {
+  display: block;
+  align-self: start;
+  max-width: 14rem;
+  margin: 0 auto;
+  line-height: 1.38;
+}
+.felix-area-card i {
+  margin: 0;
+  align-self: end;
+}
+
+.felix-home-lower {
+  gap: .65rem;
+  padding-inline: clamp(1.4rem, 4vw, 3.4rem);
+}
+
+/* BREADCRUMB: una sola fonte per l'orientamento. */
+.felix-kicker {
+  display: none !important;
+}
+
+/* TESTATA ENTITÀ */
+.felix-entry-header {
+  grid-template-columns: minmax(0, 1fr) minmax(250px, 300px);
+  align-items: stretch;
+  gap: 1.5rem;
+  padding: 1.1rem 1.15rem;
+}
+.felix-entry-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+.felix-entry-copy .felix-lead {
+  max-width: 62ch;
+  margin: .15rem 0 .7rem;
+  color: #52483c;
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
+.felix-entry-copy > .felix-badges {
+  margin: 0 0 .7rem;
+}
+.felix-entry-brief {
+  margin-top: auto;
+}
+.felix-entry-facts {
+  grid-template-columns: repeat(4, minmax(0,1fr));
+}
+.felix-entry-visual {
+  min-height: 13rem;
+}
+.felix-entry-image {
+  width: 100%;
+  height: 100%;
+  min-height: 13rem;
+}
+
+/* VALORI: da tabella tradizionale a pannello statistico leggibile. */
+.felix-values-section {
+  margin-top: 2.25rem;
+}
+.felix-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0,1fr));
+  gap: .6rem;
+  margin-top: .85rem;
+}
+.felix-stat {
+  position: relative;
+  min-width: 0;
+  padding: .8rem .8rem .85rem;
+  overflow: hidden;
+  border: 1px solid rgba(112,78,32,.15);
+  border-radius: 7px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.46), rgba(238,224,196,.28));
+  box-shadow: 0 5px 16px rgba(83,58,25,.04);
+}
+.felix-stat::after {
+  content: '';
+  position: absolute;
+  left: .8rem;
+  right: .8rem;
+  top: 1.85rem;
+  height: 1px;
+  background: rgba(140,96,35,.10);
+}
+.felix-stat span {
+  display: block;
+  min-height: 1.2rem;
+  color: #8a704e;
+  font-family: 'Federo', sans-serif;
+  font-size: .58rem;
+  line-height: 1.1;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+.felix-stat strong {
+  display: block;
+  margin-top: .72rem;
+  color: #5c3619;
+  font-family: 'magic', 'Federo', serif;
+  font-size: 1.55rem;
+  font-weight: 400;
+  line-height: 1;
+}
+:root[data-theme='dark'] .felix-stat {
+  border-color: rgba(214,170,86,.15);
+  background: rgba(255,255,255,.02);
+}
+:root[data-theme='dark'] .felix-stat strong {
+  color: #e1be78;
+}
+
+/* COLLEGAMENTI: tre blocchi omogenei, niente grandi fasce verticali. */
+.felix-related-section {
+  margin-top: 2.3rem;
+}
+.felix-relations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: .65rem;
+  margin-top: .85rem;
+}
+.felix-relations {
+  min-width: 0;
+  margin: 0;
+  padding: .8rem .85rem .9rem;
+  border: 1px solid rgba(112,78,32,.13);
+  border-left: 1px solid rgba(112,78,32,.13);
+  border-radius: 7px;
+  background: rgba(255,255,255,.16);
+}
+.felix-relations h2 {
+  width: auto !important;
+  margin: 0 0 .55rem !important;
+  padding: 0 0 .42rem !important;
+  border-bottom: 1px solid rgba(112,78,32,.12) !important;
+  color: #6d431f !important;
+  font-family: 'magic', 'Federo', serif !important;
+  font-size: 1.18rem !important;
+  line-height: 1 !important;
+}
+.felix-relations h2::after {
+  display: none !important;
+}
+.felix-relations ul {
+  display: grid;
+  gap: .25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.felix-relations li {
+  margin: 0;
+  padding: 0;
+}
+.felix-relations a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+  padding: .42rem .5rem;
+  border-radius: 5px;
+  color: #745329 !important;
+  background: rgba(130,91,37,.035);
+  text-decoration: none !important;
+  transition: background .15s ease, color .15s ease;
+}
+.felix-relations a:hover {
+  color: #4f3215 !important;
+  background: rgba(130,91,37,.08);
+}
+.felix-relation-arrow {
+  color: #b28035;
+  flex: none;
+}
+
+/* BESTIARIO / CATALOGHI: ricerca e filtri appartengono allo stesso blocco di controllo. */
+.felix-catalog {
+  display: block;
+}
+.felix-catalog-main {
+  min-width: 0;
+}
+.felix-catalog-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto;
+  align-items: end;
+  gap: 1rem;
+  margin: 0;
+  padding: 0 0 .7rem;
+  border-bottom: 0;
+}
+.felix-catalog-search {
+  display: grid;
+  gap: .32rem;
+  margin: 0;
+  color: #5f4b39;
+  font-family: 'Federo', sans-serif;
+  font-size: .72rem;
+}
+.felix-catalog-search input {
+  min-height: 2.75rem;
+  padding: .62rem .8rem;
+  border: 1px solid rgba(112,78,32,.18);
+  border-radius: 7px;
+  background: rgba(255,255,255,.42);
+  color: #3e3128;
+  font-family: 'Antic Slab', serif;
+}
+.felix-catalog-count {
+  min-width: 6.5rem;
+  padding-bottom: .7rem;
+  color: #5c4532 !important;
+  font-size: .76rem !important;
+  text-align: right;
+}
+.felix-catalog-controls {
+  display: grid;
+  grid-template-columns: auto minmax(150px, 190px) minmax(150px, 190px) auto auto auto 1fr;
+  align-items: end;
+  gap: .55rem;
+  margin: .15rem 0 .7rem;
+  padding: .62rem .7rem;
+  border: 1px solid rgba(112,78,32,.12);
+  border-radius: 7px;
+  background: rgba(131,91,36,.035);
+}
+.felix-catalog-controls-title {
+  align-self: center;
+  color: #6d431f;
+  font-family: 'magic', 'Federo', serif;
+  font-size: 1.15rem;
+}
+.felix-filter-control {
+  display: grid;
+  gap: .2rem;
+  margin: 0;
+  color: #78644e;
+  font-family: 'Federo', sans-serif;
+  font-size: .58rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.felix-filter-control select {
+  min-height: 2.2rem;
+  border: 1px solid rgba(112,78,32,.15);
+  border-radius: 6px;
+  background: rgba(255,255,255,.52);
+  color: #46372c;
+  padding: .4rem .55rem;
+  font: .76rem 'Antic Slab', serif;
+}
+.felix-filter-toggle {
+  display: flex;
+  min-height: 2.2rem;
+  align-items: center;
+  gap: .42rem;
+  margin: 0;
+  padding: .35rem .5rem;
+  border: 1px solid rgba(112,78,32,.12);
+  border-radius: 6px;
+  color: #594839;
+  font-size: .72rem;
+  white-space: nowrap;
+}
+.felix-filter-toggle input {
+  accent-color: #9c6e2e;
+}
+.felix-filter-reset,
+.felix-filter-share {
+  min-height: 2.2rem;
+  padding: .38rem .58rem;
+  border: 1px solid rgba(112,78,32,.16);
+  border-radius: 6px;
+  background: rgba(255,255,255,.30);
+  color: #66513e;
+  font: .68rem 'Federo', sans-serif;
+  cursor: pointer;
+}
+.felix-filter-reset:hover,
+.felix-filter-share:hover {
+  border-color: rgba(139,92,31,.34);
+  background: rgba(255,255,255,.52);
+}
+.felix-catalog-controls [data-copy-status] {
+  align-self: center;
+  color: #87745c;
+  font-size: .65rem;
+}
+.felix-active-filters {
+  margin: 0 0 .7rem;
+}
+.felix-catalog-list {
+  display: grid;
+  gap: .55rem;
+}
+.felix-catalog-list > article {
+  margin: 0;
+  padding: .78rem .88rem .82rem;
+  border: 1px solid rgba(112,78,32,.12);
+  border-radius: 7px;
+  background: rgba(255,255,255,.15);
+}
+.felix-catalog-list > article:hover {
+  border-color: rgba(139,92,31,.24);
+  background: rgba(255,255,255,.30);
+  transform: none;
+}
+.felix-catalog-list > article h2 {
+  margin: 0 0 .22rem !important;
+  padding: 0 0 .35rem !important;
+  border-bottom-color: rgba(112,78,32,.10) !important;
+  font-size: 1.42rem !important;
+}
+.felix-catalog-list > article .felix-badges {
+  margin: .38rem 0 .5rem;
+}
+.felix-catalog-list > article p {
+  margin: 0;
+  color: #5b5146;
+  font-size: .8rem;
+  line-height: 1.45;
+}
+
+/* Responsive dei nuovi componenti */
+@media (max-width: 1220px) {
+  .felix-catalog-controls {
+    grid-template-columns: auto minmax(140px,1fr) minmax(140px,1fr) auto auto auto;
+  }
+  .felix-catalog-controls [data-copy-status] {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 1000px) {
+  .felix-home-areas {
+    grid-template-columns: repeat(3, minmax(0,1fr));
+  }
+  .felix-catalog-controls {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
+  .felix-catalog-controls-title,
+  .felix-catalog-controls [data-copy-status] {
+    grid-column: 1 / -1;
+  }
+  .felix-filter-toggle,
+  .felix-filter-reset,
+  .felix-filter-share {
+    min-height: 2.45rem;
+  }
+  .felix-relations-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 760px) {
+  .felix-home-areas,
+  .felix-relations-grid {
+    grid-template-columns: 1fr;
+  }
+  .felix-area-card {
+    min-height: 10.5rem;
+  }
+  .felix-stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .felix-entry-facts {
+    grid-template-columns: 1fr 1fr;
+  }
+  .felix-catalog-toolbar {
+    grid-template-columns: 1fr;
+  }
+  .felix-catalog-count {
+    padding: 0;
+    text-align: left;
+  }
+  .felix-catalog-controls {
+    grid-template-columns: 1fr;
+  }
+  .felix-catalog-controls-title,
+  .felix-catalog-controls [data-copy-status] {
+    grid-column: auto;
+  }
+}
