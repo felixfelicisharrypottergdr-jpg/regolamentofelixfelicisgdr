@@ -2,7 +2,6 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection, render } from 'astro:content';
 import FelixBadges from '../../../../components/FelixBadges.astro';
-import RelationList from '../../../../components/RelationList.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 export async function getStaticPaths(){return (await getCollection('legalArticles')).filter(e=>e.data.status==='published').map(entry=>({params:{slug:entry.data.slug},props:{entry}}));}
@@ -11,11 +10,8 @@ const {entry}=Astro.props; const {Content,headings}=await render(entry); const i
 <StarlightPage frontmatter={{title:`Art. ${entry.data.articleNumber}${entry.data.title?` — ${entry.data.title}`:''}`,description:entry.data.description}} headings={headings}>
   <SearchMetadata type="Articolo" macroarea="Mondo Magico" aliases={entry.data.searchAliases} filters={{ legal_status: entry.data.onGameStatus }} />
   <article class="felix-entry" data-pagefind-body>
-    <p class="felix-kicker">Mondo Magico › Leggi Magiche{document?<> › <a href={document.url}>{document.title}</a></>:''}</p>
     <FelixBadges items={[entry.data.onGameStatus,entry.data.section??'']} />
-    <h1>Art. {entry.data.articleNumber}{entry.data.title?` — ${entry.data.title}`:''}</h1>
     <Content />
-    <RelationList title="Collegamenti" items={related} />
     {document&&<p><a href={document.url}>← Torna a {document.title}</a></p>}
   </article>
 </StarlightPage>
