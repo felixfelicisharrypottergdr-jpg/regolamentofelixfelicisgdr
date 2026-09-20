@@ -6,9 +6,19 @@ import { withBase } from '../../config/routes';
 
 type LinkItem = { title: string; url: string };
 type Group = { label: string; items: LinkItem[] };
+type FactItem = { label: string; value: string };
 
 const path = Astro.url.pathname.replace(/\/+$/, '');
 const slug = path.split('/').filter(Boolean).at(-1) ?? '';
+const routeData = Astro.locals.starlightRoute.entry.data as Record<string, any>;
+const resolveHref = (href: string) => {
+  if (/^(https?:|mailto:|#)/.test(href)) return href;
+  return href.startsWith('/') ? withBase(href.slice(1)) : withBase(href);
+};
+const quickFacts: FactItem[] = Array.isArray(routeData.quickFacts) ? routeData.quickFacts : [];
+const quickLinks: LinkItem[] = Array.isArray(routeData.quickLinks)
+  ? routeData.quickLinks.map((item: any) => ({ title: item.label, url: resolveHref(item.href) }))
+  : [];
 const structuredRoots = [
   '/manuali/magizoologia/bestiario/',
   '/manuali/erbologia/erbario/',
@@ -31,6 +41,8 @@ const toLink = (item: any): LinkItem | undefined => item ? { title: item.title, 
 
 let groups: Group[] = [];
 let parent: LinkItem | undefined;
+
+if (quickLinks.length) groups.push({ label: 'Collegamenti utili', items: quickLinks });
 
 const creatures = isStructuredRoute ? await getCollection('creatures') : [];
 const plants = isStructuredRoute ? await getCollection('plants') : [];
@@ -167,9 +179,21 @@ if (path.includes('/mondo-magico/leggi/articoli/')) {
 
 groups = groups.filter((group) => group.items.length > 0);
 ---
-{(groups.length > 0 || parent) && (
-  <section class="felix-related-rail" aria-label="Collegamenti contestuali">
-    <p class="felix-related-rail-title">Collegamenti</p>
+{(quickFacts.length > 0 || groups.length > 0 || parent) && (
+  <section class="felix-related-rail" aria-label="Informazioni e collegamenti utili">
+    <p class="felix-related-rail-title">Da sapere subito</p>
+
+    {quickFacts.length > 0 && (
+      <dl class="felix-related-rail-facts">
+        {quickFacts.map((fact) => (
+          <div>
+            <dt>{fact.label}</dt>
+            <dd>{fact.value}</dd>
+          </div>
+        ))}
+      </dl>
+    )}
+
     {groups.map((group) => (
       <div class="felix-related-rail-group">
         <h3>{group.label}</h3>
