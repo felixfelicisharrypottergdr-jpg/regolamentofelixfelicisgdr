@@ -1056,3 +1056,19 @@ body:has(.felix-home-content) .main-frame{
     max-width:none!important;
   }
 }
+
+
+/* Home task grid: 10 azioni in due righe equilibrate come nel render. */
+@media(min-width:1001px){
+  .felix-task-grid{
+    grid-template-columns:repeat(5,minmax(0,1fr))!important;
+  }
+}
+.felix-task-grid a{
+  justify-content:flex-start!important;
+}
+.felix-task-grid a>span{
+  width:2.15rem!important;
+  height:2.15rem!important;
+  font-size:1rem!important;
+}
