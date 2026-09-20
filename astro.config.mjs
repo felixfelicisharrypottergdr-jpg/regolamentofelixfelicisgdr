@@ -80,7 +80,15 @@ export default defineConfig({
                   ],
                 },
                 { label: 'Coppa delle Case', slug: 'il-personaggio/pg-studente/coppa-delle-case' },
-                { label: 'Modalità di gioco', slug: 'il-personaggio/pg-studente/modalita-di-gioco' },
+                {
+                  label: 'Modalità di gioco',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/pg-studente/modalita-di-gioco' },
+                    { label: 'Vivere ad Hogwarts', slug: 'il-personaggio/pg-studente/modalita-di-gioco/vivere-ad-hogwarts' },
+                    { label: 'Luoghi di Hogwarts', slug: 'il-personaggio/pg-studente/modalita-di-gioco/luoghi-di-hogwarts' },
+                    { label: 'Ottenere informazioni', slug: 'il-personaggio/pg-studente/modalita-di-gioco/ottenere-informazioni' },
+                  ],
+                },
               ],
             },
             {
