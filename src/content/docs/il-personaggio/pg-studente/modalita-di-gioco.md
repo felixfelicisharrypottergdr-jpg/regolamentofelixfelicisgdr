@@ -24,6 +24,9 @@ quickLinks:
   - label: "Stanze e Passaggi Segreti"
     href: "/il-personaggio/pg-studente/modalita-di-gioco/scoprire-stanze-passaggi/"
     description: "Scoprire accessi nascosti, memorizzarne la posizione e trovare le Stanze Segrete Speciali."
+  - label: "Intervento delle Cariche"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/intervento-cariche-scolastiche/"
+    description: "Essere scoperti, difendersi, perdere Punti Casa e ricevere Punizioni ONGame."
 migration:
   status: revised
   sources:

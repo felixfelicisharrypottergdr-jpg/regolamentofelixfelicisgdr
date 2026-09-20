@@ -90,6 +90,7 @@ export default defineConfig({
                     { label: 'Conoscenze dai PNG', slug: 'il-personaggio/pg-studente/modalita-di-gioco/ottenere-conoscenze-png' },
                     { label: 'Trovare Oggetti', slug: 'il-personaggio/pg-studente/modalita-di-gioco/trovare-oggetti-magici' },
                     { label: 'Stanze e Passaggi', slug: 'il-personaggio/pg-studente/modalita-di-gioco/scoprire-stanze-passaggi' },
+                    { label: 'Intervento delle Cariche', slug: 'il-personaggio/pg-studente/modalita-di-gioco/intervento-cariche-scolastiche' },
                   ],
                 },
               ],
