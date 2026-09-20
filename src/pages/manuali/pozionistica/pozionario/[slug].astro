@@ -2,7 +2,7 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
-import FelixBadges from '../../../../components/FelixBadges.astro';
+import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 
@@ -32,13 +32,19 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text:
     filters={{ classification: entry.data.classification, potion_type: entry.data.type, administration: entry.data.administration }}
   />
   <article class="felix-entry" data-pagefind-body>
-    <div class="felix-entry-header">
-      <div>
-        <p class="felix-lead">{entry.data.description}</p>
-        <FelixBadges items={[entry.data.classification, entry.data.type, entry.data.administration ?? '', entry.data.legality ?? '']} />
-      </div>
-      {entry.data.image && <img class="felix-entry-image" src={entry.data.image} alt={`Illustrazione: ${entry.data.name}`} />}
-    </div>
+    <FelixEntityHeader
+      description={entry.data.description}
+      image={entry.data.image}
+      imageAlt={`Illustrazione: ${entry.data.name}`}
+      badges={[entry.data.knowledgeGrade ?? '', entry.data.schoolYear ? `Anno ${entry.data.schoolYear}` : '']}
+      facts={[
+        { label: 'Classificazione', value: entry.data.classification },
+        { label: 'Tipologia', value: entry.data.type },
+        { label: 'Somministrazione', value: entry.data.administration ?? '—' },
+        { label: 'Legalità', value: entry.data.legality ?? '—' },
+        { label: 'Forza standard', value: entry.data.standardStrength ?? '—' },
+      ]}
+    />
 
     <Content />
 
