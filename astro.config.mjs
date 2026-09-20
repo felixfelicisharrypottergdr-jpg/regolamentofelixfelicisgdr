@@ -16,7 +16,7 @@ export default defineConfig({
       locales: {
         root: { label: 'Italiano', lang: 'it' },
       },
-      customCss: ['./src/styles/felix-prototype.css'],
+      customCss: ['./src/styles/felix-prototype.css', './src/styles/felix-reference.css'],
       pagefind: {
         ranking: {
           metaWeights: {
