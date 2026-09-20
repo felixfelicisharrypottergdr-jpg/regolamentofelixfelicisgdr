@@ -3,6 +3,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
 import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
+import FelixDataTable from '../../../../components/FelixDataTable.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 
@@ -22,6 +23,11 @@ const ingredientRows = entry.data.ingredients.map((item) => ({
   linked: item.ingredientId ? index.get(item.ingredientId) : undefined,
 }));
 const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
+const ingredientTableRows = ingredientRows.map((item) => ({
+  ingredient: item.linked ? { text: item.name, href: item.linked.url } : { text: item.name, muted: true },
+  amount: item.amount ?? '—',
+  classification: item.classification ?? '—',
+}));
 const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text: 'Ingredienti e dosi' }];
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
@@ -50,19 +56,18 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text:
 
     <section>
       <AnchorHeading level="2" id="ingredienti-e-dosi">Ingredienti e dosi</AnchorHeading>
-      <table class="felix-values">
-        <thead><tr><th>Ingrediente</th><th>Dosi</th><th>Classificazione</th></tr></thead>
-        <tbody>
-          {ingredientRows.map((item) => (
-            <tr>
-              <td>{item.linked ? <a href={item.linked.url}>{item.name}</a> : item.name}</td>
-              <td>{item.amount ?? '—'}</td>
-              <td>{item.classification ?? '—'}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      <p class="felix-note-small">Le voci senza collegamento sono conservate nella ricetta ma non sono ancora state migrate come schede Ingredienti nel prototipo.</p>
+      <FelixDataTable
+        ariaLabel="Ingredienti e dosi"
+        columns={[
+          { key: 'ingredient', label: 'Ingrediente' },
+          { key: 'amount', label: 'Dosi' },
+          { key: 'classification', label: 'Classificazione' },
+        ]}
+        rows={ingredientTableRows}
+      />
+      {ingredientRows.some((item) => !item.linked) && (
+        <p class="felix-note-small">Le voci non ancora collegate restano comunque leggibili nella ricetta.</p>
+      )}
     </section>
   </article>
 </StarlightPage>
