@@ -15,6 +15,12 @@ quickLinks:
   - label: "Ottenere informazioni"
     href: "/il-personaggio/pg-studente/modalita-di-gioco/ottenere-informazioni/"
     description: "Indagare tramite Quadri, Fantasmi e PNG Impiccioni."
+  - label: "Ottenere Conoscenze dai PNG"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/ottenere-conoscenze-png/"
+    description: "Apprendere Conoscenze Scolastiche, Extra o Avanzate dai PNG di Hogwarts."
+  - label: "Trovare Oggetti Magici"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/trovare-oggetti-magici/"
+    description: "Cercare Oggetti, Scherzi Magici e Oggetti Oscuri nel castello."
 migration:
   status: revised
   sources:
