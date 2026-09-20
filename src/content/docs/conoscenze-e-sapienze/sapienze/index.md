@@ -5,6 +5,26 @@ description: "Sapienze Magiche, Fisiche e Sociali dei PG Adulti."
 contentType: landing
 searchAliases: [sapienza, sapienze pg adulto, abilità pg adulto]
 applicability: [adult]
+quickFacts:
+  - label: "Applicabilità"
+    value: "PG Adulti"
+  - label: "Massimo complessivo"
+    value: "6 Sapienze"
+  - label: "Sapienze Magiche"
+    value: "12 disponibili · max 4"
+  - label: "Fisiche / Sociali"
+    value: "4 + 4 disponibili · max 2 per tipo"
+quickLinks:
+  - label: "Sapienze Magiche"
+    href: "/conoscenze-e-sapienze/sapienze/magiche/"
+  - label: "Sapienze Fisiche"
+    href: "/conoscenze-e-sapienze/sapienze/fisiche/"
+  - label: "Sapienze Sociali"
+    href: "/conoscenze-e-sapienze/sapienze/sociali/"
+  - label: "Crescita a Debito"
+    href: "/conoscenze-e-sapienze/sapienze/crescita-a-debito/"
+  - label: "Maestrie"
+    href: "/conoscenze-e-sapienze/maestrie/"
 prototypeExcerpt: true
 migration:
   status: migrated
