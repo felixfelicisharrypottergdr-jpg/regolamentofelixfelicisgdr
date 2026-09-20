@@ -2,30 +2,38 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
-import FelixBadges from '../../../../components/FelixBadges.astro';
+import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 export async function getStaticPaths(){return (await getCollection('objects')).filter(e=>e.data.status==='published').map(entry=>({params:{slug:entry.data.slug},props:{entry}}));}
 const {entry}=Astro.props; const {Content,headings}=await render(entry); const index=await buildFelixIndex();
 const related=entry.data.relatedFelixIds.map(id=>index.get(id)).filter(Boolean);
-const pageHeadings=[...headings,{depth:2,slug:'dati-oggetto',text:'Dati dell’Oggetto'}];
+const pageHeadings=entry.data.sellers.length
+  ? [...headings,{depth:2,slug:'punti-vendita',text:'Punti vendita'}]
+  : headings;
 ---
 <StarlightPage frontmatter={{title:entry.data.name,description:entry.data.description}} headings={pageHeadings}>
   <SearchMetadata type="Oggetto" macroarea="Mondo Magico" aliases={entry.data.searchAliases} filters={{ object_function: entry.data.function, legality: entry.data.legality }} />
   <article class="felix-entry" data-pagefind-body>
-    <p class="felix-lead">{entry.data.description}</p>
-    <FelixBadges items={[entry.data.function??'',entry.data.legality??'']} />
+    <FelixEntityHeader
+      description={entry.data.description}
+      image={entry.data.image}
+      imageAlt={`Oggetto: ${entry.data.name}`}
+      facts={[
+        { label: 'Prezzo', value: entry.data.price ?? '—' },
+        { label: 'Funzione', value: entry.data.function ?? '—' },
+        { label: 'Attivazione', value: entry.data.activation ?? '—' },
+        { label: 'Usi', value: entry.data.uses ?? '—' },
+        { label: 'Legalità', value: entry.data.legality ?? '—' },
+      ]}
+    />
+    {entry.data.offEffects && <p class="felix-entry-effect"><strong>Effetti OFF:</strong> {entry.data.offEffects}</p>}
     <Content />
-    <section>
-      <AnchorHeading level="2" id="dati-oggetto">Dati dell’Oggetto</AnchorHeading>
-      <dl class="felix-definition-list">
-        <dt>Prezzo</dt><dd>{entry.data.price??'—'}</dd>
-        <dt>Funzione</dt><dd>{entry.data.function??'—'}</dd>
-        <dt>Attivazione</dt><dd>{entry.data.activation??'—'}</dd>
-        <dt>Usi</dt><dd>{entry.data.uses??'—'}</dd>
-        <dt>Effetti OFF</dt><dd>{entry.data.offEffects??'—'}</dd>
-      </dl>
-      {entry.data.sellers.length>0 && <><h3>Punti vendita / varianti</h3><table class="felix-values"><thead><tr><th>Negozio</th><th>Allineamento</th><th>Prezzo</th><th>Usi</th><th>Legalità</th></tr></thead><tbody>{entry.data.sellers.map(s=><tr><td>{s.shop}</td><td>{s.shopAlignment??'—'}</td><td>{s.price??'—'}</td><td>{s.uses??'—'}</td><td>{s.legality??'—'}</td></tr>)}</tbody></table></>}
-    </section>
+    {entry.data.sellers.length>0 && (
+      <section>
+        <AnchorHeading level="2" id="punti-vendita">Punti vendita</AnchorHeading>
+        <table class="felix-values"><thead><tr><th>Negozio</th><th>Allineamento</th><th>Prezzo</th><th>Usi</th><th>Legalità</th></tr></thead><tbody>{entry.data.sellers.map(s=><tr><td>{s.shop}</td><td>{s.shopAlignment??'—'}</td><td>{s.price??'—'}</td><td>{s.uses??'—'}</td><td>{s.legality??'—'}</td></tr>)}</tbody></table>
+      </section>
+    )}
   </article>
 </StarlightPage>
