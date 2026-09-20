@@ -91,6 +91,7 @@ export default defineConfig({
                     { label: 'Trovare Oggetti', slug: 'il-personaggio/pg-studente/modalita-di-gioco/trovare-oggetti-magici' },
                     { label: 'Stanze e Passaggi', slug: 'il-personaggio/pg-studente/modalita-di-gioco/scoprire-stanze-passaggi' },
                     { label: 'Intervento delle Cariche', slug: 'il-personaggio/pg-studente/modalita-di-gioco/intervento-cariche-scolastiche' },
+                    { label: 'Orario e Regolamento', slug: 'il-personaggio/pg-studente/modalita-di-gioco/orario-regolamento-scolastico' },
                     { label: 'Campionato di Quidditch', slug: 'il-personaggio/pg-studente/modalita-di-gioco/campionato-quidditch' },
                     { label: 'Club Scolastici', slug: 'il-personaggio/pg-studente/modalita-di-gioco/club-scolastici' },
                     { label: 'Trama dell’Anno', slug: 'il-personaggio/pg-studente/modalita-di-gioco/trama-dell-anno' },
