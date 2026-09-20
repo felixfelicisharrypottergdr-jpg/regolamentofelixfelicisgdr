@@ -1,35 +1,83 @@
 ---
-import Default from '@astrojs/starlight/components/PageTitle.astro';
-
 const route = Astro.locals.starlightRoute;
 const data = route.entry.data as Record<string, any>;
 const aliases = Array.isArray(data.searchAliases) ? data.searchAliases : [];
 const applicability = Array.isArray(data.applicability) ? data.applicability : [];
+const title = data.title ?? 'Regolamento';
+const isHome = route.id === '' || route.id === 'index';
+
 const typeMap: Record<string, string> = {
   landing: 'Pagina di ingresso',
   rule: 'Regola',
   free: 'Pagina',
 };
 const type = data.contentType ? (typeMap[data.contentType] ?? 'Pagina') : undefined;
+
 const firstSegment = route.id.split('/').filter(Boolean)[0] ?? '';
 const macroareaMap: Record<string, string> = {
-  'inizia-da-qui': 'Inizia da qui',
   'il-personaggio': 'Il Personaggio',
   giocare: 'Giocare',
   'conoscenze-e-sapienze': 'Conoscenze e Sapienze',
   manuali: 'Manuali',
   'mondo-magico': 'Mondo Magico',
 };
-const macroarea = route.id === '' || route.id === 'index' ? 'Inizia da qui' : (macroareaMap[firstSegment] ?? 'Regolamento');
+const macroarea = isHome ? 'Inizia da qui' : (macroareaMap[firstSegment] ?? 'Regolamento');
+
 const applicabilityLabels = applicability.length === 2
   ? ['Tutti i PG']
   : applicability.map((item: string) => item === 'student' ? 'PG Studente' : 'PG Adulto');
+
+const currentPath = Astro.url.pathname.replace(/\/+$/, '/') || '/';
+const normalize = (href = '') => {
+  try { return new URL(href, Astro.url.origin).pathname.replace(/\/+$/, '/') || '/'; }
+  catch { return href.replace(/\/+$/, '/') || '/'; }
+};
+
+const linkMatches = (entry: any) => {
+  if (entry.type !== 'link') return false;
+  const href = normalize(entry.href);
+  return entry.isCurrent || currentPath === href || (href !== '/' && currentPath.startsWith(href));
+};
+
+const findTrail = (entries: any[], parents: { label: string; href?: string }[] = []): { label: string; href?: string }[] | null => {
+  for (const entry of entries) {
+    if (entry.type === 'link' && linkMatches(entry)) {
+      return [...parents, { label: entry.label, href: entry.href }];
+    }
+    if (entry.type === 'group') {
+      const nested = findTrail(entry.entries ?? [], [...parents, { label: entry.label }]);
+      if (nested) return nested;
+    }
+  }
+  return null;
+};
+
+let trail = findTrail(route.sidebar) ?? [];
+if (!isHome && (trail.length === 0 || trail[trail.length - 1]?.label !== title)) {
+  trail = [...trail, { label: title }];
+}
 ---
-<Default />
-{applicabilityLabels.length > 0 && (
-  <div class="felix-applicability" aria-label="Applicabilità della regola">
-    {applicabilityLabels.map((label: string) => <span class="felix-badge">{label}</span>)}
-  </div>
+{!isHome && (
+  <>
+    {trail.length > 1 && (
+      <nav class="felix-breadcrumbs" aria-label="Percorso">
+        {trail.map((item, index) => (
+          <>
+            {index > 0 && <span class="felix-breadcrumb-sep" aria-hidden="true">›</span>}
+            {item.href && index < trail.length - 1
+              ? <a href={item.href}>{item.label}</a>
+              : <span aria-current={index === trail.length - 1 ? 'page' : undefined}>{item.label}</span>}
+          </>
+        ))}
+      </nav>
+    )}
+    <h1 id="_top" class="felix-page-title">{title}</h1>
+    {applicabilityLabels.length > 0 && (
+      <div class="felix-applicability" aria-label="Applicabilità della regola">
+        {applicabilityLabels.map((label: string) => <span class="felix-badge">{label}</span>)}
+      </div>
+    )}
+  </>
 )}
 {type && (
   <div class="felix-pagefind-meta" aria-hidden="true" data-pagefind-ignore>
