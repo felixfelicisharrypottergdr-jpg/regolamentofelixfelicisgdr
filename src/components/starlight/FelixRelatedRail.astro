@@ -1,0 +1,172 @@
+---
+import { getCollection } from 'astro:content';
+import { buildFelixIndex } from '../../lib/content-index';
+import { buildBacklinkIndex } from '../../lib/backlinks';
+import { withBase } from '../../config/routes';
+
+type LinkItem = { title: string; url: string };
+type Group = { label: string; items: LinkItem[] };
+
+const path = Astro.url.pathname.replace(/\/+$/, '');
+const slug = path.split('/').filter(Boolean).at(-1) ?? '';
+const index = await buildFelixIndex();
+const backlinks = await buildBacklinkIndex();
+
+const clean = <T>(items: (T | undefined | null)[]) => items.filter(Boolean) as T[];
+const linkForId = (id: string | undefined) => id ? index.get(id) : undefined;
+const toLink = (item: any): LinkItem | undefined => item ? { title: item.title, url: item.url } : undefined;
+
+let groups: Group[] = [];
+let parent: LinkItem | undefined;
+
+const creatures = await getCollection('creatures');
+const plants = await getCollection('plants');
+const potions = await getCollection('potions');
+const spells = await getCollection('spells');
+const ingredients = await getCollection('ingredients');
+const diseases = await getCollection('diseases');
+const races = await getCollection('races');
+const objects = await getCollection('objects');
+const legalDocuments = await getCollection('legalDocuments');
+const legalArticles = await getCollection('legalArticles');
+
+if (path.includes('/manuali/magizoologia/bestiario/') && slug !== 'bestiario') {
+  const entry = creatures.find((e) => e.data.slug === slug);
+  if (entry) {
+    const produced = clean(entry.data.producesIngredients.map((id) => toLink(linkForId(id))));
+    const causes = clean(entry.data.causesDiseases.map((id) => toLink(linkForId(id))));
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (produced.length) groups.push({ label: 'Ingredienti ottenibili', items: produced });
+    if (causes.length) groups.push({ label: 'Può causare', items: causes });
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna al Bestiario', url: withBase('manuali/magizoologia/bestiario/') };
+  }
+}
+
+if (path.includes('/manuali/erbologia/erbario/') && slug !== 'erbario') {
+  const entry = plants.find((e) => e.data.slug === slug);
+  if (entry) {
+    const produced = clean(entry.data.producedIngredients.map((item) => item.ingredientId ? toLink(linkForId(item.ingredientId)) : undefined));
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (produced.length) groups.push({ label: 'Ingredienti ottenibili', items: produced });
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna all’Erbario', url: withBase('manuali/erbologia/erbario/') };
+  }
+}
+
+if (path.includes('/manuali/pozionistica/pozionario/') && slug !== 'pozionario') {
+  const entry = potions.find((e) => e.data.slug === slug);
+  if (entry) {
+    const used = clean(entry.data.ingredients.map((item) => item.ingredientId ? toLink(linkForId(item.ingredientId)) : undefined));
+    const prevents = clean(entry.data.preventsDiseases.map((id) => toLink(linkForId(id))));
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (used.length) groups.push({ label: 'Ingredienti', items: used });
+    if (prevents.length) groups.push({ label: 'Previene', items: prevents });
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna al Pozionario', url: withBase('manuali/pozionistica/pozionario/') };
+  }
+}
+
+if (path.includes('/manuali/incantesimi/') && slug !== 'incantesimi') {
+  const entry = spells.find((e) => e.data.slug === slug);
+  if (entry) {
+    const counteracts = clean(entry.data.counteractsSpells.map((id) => toLink(linkForId(id))));
+    const reverse = clean((backlinks.get(entry.id) ?? []).filter((x) => x.relation === 'counteractsSpell').map((x) => toLink(linkForId(x.sourceId))));
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (counteracts.length) groups.push({ label: 'Annulla', items: counteracts });
+    if (reverse.length) groups.push({ label: 'Annullato da', items: reverse });
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna agli Incantesimi', url: withBase('manuali/incantesimi/') };
+  }
+}
+
+if (path.includes('/manuali/ingredienti/') && slug !== 'ingredienti') {
+  const entry = ingredients.find((e) => e.data.slug === slug);
+  if (entry) {
+    const incoming = backlinks.get(entry.id) ?? [];
+    const sources = clean(incoming.filter((x) => x.relation === 'producesIngredient').map((x) => toLink(linkForId(x.sourceId))));
+    const potionsUsing = clean(incoming.filter((x) => x.relation === 'usesIngredient').map((x) => toLink(linkForId(x.sourceId))));
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (sources.length) groups.push({ label: 'Ottenibile da', items: sources });
+    if (potionsUsing.length) groups.push({ label: 'Utilizzato in', items: potionsUsing });
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna agli Ingredienti', url: withBase('manuali/ingredienti/') };
+  }
+}
+
+if (path.includes('/manuali/medimagia/malattie/') && slug !== 'malattie') {
+  const entry = diseases.find((e) => e.data.slug === slug);
+  if (entry) {
+    const incoming = backlinks.get(entry.id) ?? [];
+    const causes = clean(incoming.filter((x) => x.relation === 'causesDisease').map((x) => toLink(linkForId(x.sourceId))));
+    const preventedBy = clean(incoming.filter((x) => x.relation === 'preventsDisease').map((x) => toLink(linkForId(x.sourceId))));
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (causes.length) groups.push({ label: 'Può essere causata da', items: causes });
+    if (preventedBy.length) groups.push({ label: 'Prevenuta da', items: preventedBy });
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna alle Malattie', url: withBase('manuali/medimagia/malattie/') };
+  }
+}
+
+if (path.includes('/il-personaggio/razze/') && slug !== 'razze') {
+  const entry = races.find((e) => e.data.slug === slug);
+  if (entry) {
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (related.length) groups.push({ label: 'Percorsi collegati', items: related });
+    parent = { title: 'Torna alle Razze', url: withBase('il-personaggio/razze/') };
+  }
+}
+
+if (path.includes('/mondo-magico/commercio/oggetti/') && slug !== 'oggetti') {
+  const entry = objects.find((e) => e.data.slug === slug);
+  if (entry) {
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna agli Oggetti', url: withBase('mondo-magico/commercio/oggetti/') };
+  }
+}
+
+if (path.includes('/mondo-magico/leggi/documenti/')) {
+  const entry = legalDocuments.find((e) => e.data.slug === slug);
+  if (entry) {
+    const articles = legalArticles
+      .filter((a) => a.data.status === 'published' && a.data.documentId === entry.id)
+      .sort((a,b) => Number(a.data.articleNumber) - Number(b.data.articleNumber))
+      .slice(0, 8)
+      .map((a) => toLink(linkForId(a.id)));
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (articles.length) groups.push({ label: 'Articoli', items: clean(articles) });
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna alle Leggi Magiche', url: withBase('mondo-magico/leggi/') };
+  }
+}
+
+if (path.includes('/mondo-magico/leggi/articoli/')) {
+  const entry = legalArticles.find((e) => e.data.slug === slug);
+  if (entry) {
+    const doc = toLink(linkForId(entry.data.documentId));
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (doc) groups.push({ label: 'Documento', items: [doc] });
+    if (related.length) groups.push({ label: 'Collegamenti', items: related });
+    parent = { title: 'Torna alle Leggi Magiche', url: withBase('mondo-magico/leggi/') };
+  }
+}
+
+groups = groups.filter((group) => group.items.length > 0);
+---
+{(groups.length > 0 || parent) && (
+  <section class="felix-related-rail" aria-label="Collegamenti contestuali">
+    <p class="felix-related-rail-title">Collegamenti</p>
+    {groups.map((group) => (
+      <div class="felix-related-rail-group">
+        <h3>{group.label}</h3>
+        <ul>
+          {group.items.map((item) => (
+            <li><a href={item.url}><span>{item.title}</span><span aria-hidden="true">→</span></a></li>
+          ))}
+        </ul>
+      </div>
+    ))}
+    {parent && <a class="felix-related-rail-parent" href={parent.url}>← {parent.title}</a>}
+  </section>
+)}
