@@ -145,9 +145,7 @@ content:
         path: src/content/creatures
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename:
-          template: "{name}.md"
-          field: create
+        filename: "{fields.slug}.md"
         view:
           primary: name
           fields: [name, classification, hostility, exotic, status]
