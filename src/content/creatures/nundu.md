@@ -4,7 +4,7 @@ slug: nundu
 name: Nundu
 description: Gigantesca Creatura felina originaria dell'Africa orientale, capace
   di muoversi con grande silenzio e dotata di un Fiato tossico estremamente
-  pericoloso.
+  pericoloso. [TEST CMS]
 image: https://i.postimg.cc/3wZXj13x/Chat-GPT-Image-27-ago-2026-11-51-43.png
 category: Bestia
 classification: XXXXX
