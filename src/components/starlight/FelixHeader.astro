@@ -1,0 +1,36 @@
+---
+import Search from 'virtual:starlight/components/Search';
+import SiteTitle from 'virtual:starlight/components/SiteTitle';
+import ThemeSelect from 'virtual:starlight/components/ThemeSelect';
+import FelixMacroIcon from './FelixMacroIcon.astro';
+
+const base = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
+const routeId = Astro.locals.starlightRoute.id || '';
+const first = routeId.split('/').filter(Boolean)[0] || '';
+
+const items = [
+  { label: 'Inizia da qui', path: '', icon: 'start', active: first === '' || routeId === 'index' },
+  { label: 'Il Personaggio', path: 'il-personaggio/', icon: 'character', active: first === 'il-personaggio' },
+  { label: 'Giocare', path: 'giocare/', icon: 'play', active: first === 'giocare' },
+  { label: 'Conoscenze e Sapienze', path: 'conoscenze-e-sapienze/', icon: 'knowledge', active: first === 'conoscenze-e-sapienze' },
+  { label: 'Manuali', path: 'manuali/', icon: 'manuals', active: first === 'manuali' },
+  { label: 'Mondo Magico', path: 'mondo-magico/', icon: 'world', active: first === 'mondo-magico' },
+] as const;
+---
+<div class="felix-header">
+  <div class="felix-header-brand"><SiteTitle /></div>
+
+  <nav class="felix-header-nav" aria-label="Macroaree del Regolamento">
+    {items.map((item) => (
+      <a href={`${base}${item.path}`} class:list={['felix-header-nav-item', { 'is-active': item.active }]}>
+        <FelixMacroIcon name={item.icon} />
+        <span>{item.label}</span>
+      </a>
+    ))}
+  </nav>
+
+  <div class="felix-header-actions">
+    <Search />
+    <div class="felix-theme-control" title="Tema"><ThemeSelect /></div>
+  </div>
+</div>
