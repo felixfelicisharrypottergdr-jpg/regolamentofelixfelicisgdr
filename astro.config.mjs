@@ -31,6 +31,7 @@ export default defineConfig({
       components: {
         Search: './src/components/starlight/FelixSearch.astro',
         PageTitle: './src/components/starlight/FelixPageTitle.astro',
+        SiteTitle: './src/components/starlight/FelixSiteTitle.astro',
       },
       sidebar: [
         { label: 'Inizia da qui', items: [{ label: 'Home', link: '/' }] },
