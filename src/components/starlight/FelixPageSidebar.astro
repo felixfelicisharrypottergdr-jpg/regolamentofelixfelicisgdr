@@ -4,9 +4,12 @@ import MobileTableOfContents from 'virtual:starlight/components/MobileTableOfCon
 import FelixRelatedRail from './FelixRelatedRail.astro';
 ---
 <div class="felix-page-sidebar-desktop">
-  <TableOfContents />
+  <p class="felix-page-sidebar-title">In questa pagina</p>
+  <FelixRelatedRail />
+  <div class="felix-page-toc">
+    <TableOfContents />
+  </div>
 </div>
 <div class="felix-page-sidebar-mobile">
   <MobileTableOfContents />
 </div>
-<FelixRelatedRail />
