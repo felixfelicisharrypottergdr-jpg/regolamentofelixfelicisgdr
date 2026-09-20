@@ -28,6 +28,9 @@ quickLinks:
   - label: "Ottenere informazioni"
     href: "/il-personaggio/pg-studente/modalita-di-gioco/ottenere-informazioni/"
     description: "Utile per scoprire accessi, combinazioni e parole d'ordine."
+  - label: "Stanze e Passaggi Segreti"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/scoprire-stanze-passaggi/"
+    description: "Prima di cercare Oggetti è necessario scoprire i luoghi che li nascondono."
 migration:
   status: revised
   sources:
@@ -54,7 +57,7 @@ Il PG che trova un Oggetto o uno Scherzo deve avvisare il Narratore perché decr
 
 Ogni qualvolta che il PG trova un Oggetto Oscuro e **decide di tenerlo**, rischia di essere scoperto da una delle Cariche Scolastiche. Deve quindi avvisare nuovamente il Narratore perché lanci i dadi per il PG.
 
-Per trovare Oggetti in questi luoghi, però, **è necessario prima scoprirli**, seguendo le regole per scoprire Stanze Segrete o Passaggi Segreti.
+Per trovare Oggetti in questi luoghi, però, **è necessario prima scoprirli**, seguendo le regole per [scoprire Stanze Segrete o Passaggi Segreti](./scoprire-stanze-passaggi/).
 
 ## Armadio Oscuro
 
