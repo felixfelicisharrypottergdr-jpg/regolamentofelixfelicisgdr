@@ -9,7 +9,7 @@ const routeId = Astro.locals.starlightRoute.id || '';
 const first = routeId.split('/').filter(Boolean)[0] || '';
 
 const items = [
-  { label: 'Inizia da qui', path: '', icon: 'start', active: first === '' || routeId === 'index' },
+  { label: 'Inizia da qui', path: '', icon: 'start', active: first === '' || first === 'inizia-da-qui' || routeId === 'index' },
   { label: 'Il Personaggio', path: 'il-personaggio/', icon: 'character', active: first === 'il-personaggio' },
   { label: 'Giocare', path: 'giocare/', icon: 'play', active: first === 'giocare' },
   { label: 'Conoscenze e Sapienze', path: 'conoscenze-e-sapienze/', icon: 'knowledge', active: first === 'conoscenze-e-sapienze' },
