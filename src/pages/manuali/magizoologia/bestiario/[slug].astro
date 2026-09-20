@@ -3,6 +3,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
+import FelixStatsGrid from '../../../../components/FelixStatsGrid.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 
@@ -53,13 +54,16 @@ const facts = [
     {entry.data.values && (
       <section class="felix-values-section">
         <AnchorHeading level="2" id="valori">Valori</AnchorHeading>
-        <div class="felix-stats-grid" role="list" aria-label="Valori della Creatura">
-          <div class="felix-stat" role="listitem"><span>Classificazione</span><strong>{entry.data.classification}</strong></div>
-          <div class="felix-stat" role="listitem"><span>Forza</span><strong>{entry.data.values.force}</strong></div>
-          <div class="felix-stat" role="listitem"><span>Salute</span><strong>{entry.data.values.health}</strong></div>
-          <div class="felix-stat" role="listitem"><span>Resistenza</span><strong>{entry.data.values.resistance}</strong></div>
-          <div class="felix-stat" role="listitem"><span>Destrezza</span><strong>{entry.data.values.dexterity}</strong></div>
-        </div>
+        <FelixStatsGrid
+          ariaLabel="Valori della Creatura"
+          items={[
+            { label: 'Classificazione', value: entry.data.classification },
+            { label: 'Forza', value: entry.data.values.force },
+            { label: 'Salute', value: entry.data.values.health },
+            { label: 'Resistenza', value: entry.data.values.resistance },
+            { label: 'Destrezza', value: entry.data.values.dexterity },
+          ]}
+        />
       </section>
     )}
   </article>
