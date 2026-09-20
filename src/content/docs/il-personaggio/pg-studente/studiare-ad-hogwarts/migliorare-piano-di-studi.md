@@ -64,6 +64,16 @@ Più il voto di partenza è basso, maggiore è lo sforzo e la spesa necessaria p
 
 > Questo schema si applica anche al miglioramento delle **Conoscenze Scolastiche non in Piano di Studi, Conoscenze Extra e Avanzate** acquistate da PG Studenti. Tuttavia, il miglioramento al voto Eccezionale, **per queste Conoscenze**, ha un costo fisso di 4 Punti Post senza aggiunte.
 
+> **Esempio:** Un PG vuole migliorare i Desolante nelle 10 Conoscenze di Incantesimi per raggiungere Eccezionale in 9 di queste 10, lasciando l'ultima al voto di Oltre Ogni Previsione. Ha già in piano di studi 20 E.  
+> In totale, migliorare tutte le D fino a E, tranne per una che resta ad 0, costa:
+>
+> - 100 Galeoni oppure 1 role (da D a S, tutte insieme);
+> - 150 Galeoni (da S ad A, 15 Galeoni per ciascuna delle 10);
+> - 30 Punti Post (da A a O, 3 Punti Post per ciascuna delle 10);
+> - 48 Punti Post (da O a E., 4+2 Punti Post per ciascuna delle 8 scelte, +2 perché ha già 20 E in piano di studi).
+>
+> In totale, spende **250 Galeoni** (oppure 150 Galeoni e 1 role di studio) e **78 Punti Post**.
+
 ## Lista delle Conoscenze Scolastiche anno per anno
 
 Hanno 10 Conoscenze per anno: **Cura delle Creature Magiche, Difesa Contro le Arti Oscure, Divinazione, Erbologia, Incantesimi, Pozioni, Trasfigurazione**.
@@ -72,7 +82,7 @@ Hanno 1 Conoscenza per anno: **Antiche Rune, Aritmanzia, Astronomia, Babbanologi
 
 In totale, le materie obbligatorie garantiscono **52 Conoscenze all'anno**. Le materie facoltative garantiscono da **2** (scelta: Antiche Rune, Aritmanzia) a **20** (scelta: Cura delle Creature Magiche, Divinazione) Conoscenze all'anno.
 
-La lista completa delle singole Conoscenze, con descrizioni e anno, appartiene al [Manuale delle Conoscenze Scolastiche](/manuali/conoscenze-scolastiche/).
+La lista completa delle singole Conoscenze, con descrizioni e anno, appartiene al [Manuale delle Conoscenze Scolastiche](../../../../manuali/conoscenze-scolastiche/).
 
 > - Le Conoscenze Magiche di un PG del IV anno sono limitate agli Incantesimi autoconclusivi, alle pozioni autoconclusive e agli "incantesimi degli anni precedenti" riportati nelle singole materie della lista.
 > - Un PG del Sesto Anno che non ha giocato il Quinto, o un PG del Settimo Anno che non ha giocato il Quinto e il Sesto, possiede le conoscenze dell'anno/degli anni precedenti ma la loro riuscita ONGame è subordinata alla media attuale della disciplina di riferimento.
