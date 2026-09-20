@@ -12,6 +12,9 @@ quickLinks:
   - label: "Luoghi di Hogwarts"
     href: "/il-personaggio/pg-studente/modalita-di-gioco/luoghi-di-hogwarts/"
     description: "Luoghi Affollati, Isolati, Vietati e Personali, con accessi e parole d'ordine."
+  - label: "Ottenere informazioni"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/ottenere-informazioni/"
+    description: "Indagare tramite Quadri, Fantasmi e PNG Impiccioni."
 migration:
   status: revised
   sources:
