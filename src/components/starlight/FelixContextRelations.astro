@@ -1,0 +1,132 @@
+---
+import { getCollection } from 'astro:content';
+import { buildFelixIndex } from '../../lib/content-index';
+import { buildBacklinkIndex } from '../../lib/backlinks';
+import { collectionBases } from '../../config/routes';
+
+type LinkItem = { title: string; url: string };
+type Group = { label: string; items: LinkItem[] };
+
+const base = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
+const path = Astro.url.pathname.startsWith(base)
+  ? Astro.url.pathname.slice(base.length).replace(/^\/+|\/+$/g, '')
+  : Astro.url.pathname.replace(/^\/+|\/+$/g, '');
+
+const index = await buildFelixIndex();
+const backlinks = await buildBacklinkIndex();
+
+const groups: Group[] = [];
+const addGroup = (label: string, items: Array<any>) => {
+  const normalized = items
+    .filter(Boolean)
+    .map((item: any) => ({ title: item.title, url: item.url }))
+    .filter((item: LinkItem, i: number, arr: LinkItem[]) => item.url && arr.findIndex((x) => x.url === item.url) === i);
+  if (normalized.length) groups.push({ label, items: normalized });
+};
+
+const structured = Object.entries(collectionBases).find(([, collectionBase]) => {
+  const clean = collectionBase.replace(/^\/+|\/+$/g, '');
+  return path.startsWith(clean + '/');
+});
+
+if (structured) {
+  const [collectionName, collectionBase] = structured as [keyof typeof collectionBases, string];
+  const cleanBase = collectionBase.replace(/^\/+|\/+$/g, '');
+  const slug = path.slice(cleanBase.length + 1).split('/')[0];
+
+  if (collectionName === 'creatures') {
+    const entry = (await getCollection('creatures')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) {
+      addGroup('Ingredienti ottenibili', entry.data.producesIngredients.map((id) => index.get(id)));
+      addGroup('Può causare', entry.data.causesDiseases.map((id) => index.get(id)));
+      addGroup('Regole collegate', entry.data.relatedFelixIds.map((id) => index.get(id)));
+    }
+  }
+
+  if (collectionName === 'ingredients') {
+    const entry = (await getCollection('ingredients')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) {
+      const entryBacklinks = backlinks.get(entry.id) ?? [];
+      addGroup('Si ottiene da', entryBacklinks.filter((b) => b.relation === 'producesIngredient').map((b) => index.get(b.sourceId)));
+      addGroup('Usato in', entryBacklinks.filter((b) => b.relation === 'usesIngredient').map((b) => index.get(b.sourceId)));
+    }
+  }
+
+  if (collectionName === 'diseases') {
+    const entry = (await getCollection('diseases')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) {
+      const entryBacklinks = backlinks.get(entry.id) ?? [];
+      addGroup('Può essere causata da', entryBacklinks.filter((b) => b.relation === 'causesDisease').map((b) => index.get(b.sourceId)));
+      addGroup('Prevenzione', entryBacklinks.filter((b) => b.relation === 'preventsDisease').map((b) => index.get(b.sourceId)));
+    }
+  }
+
+  if (collectionName === 'potions') {
+    const entry = (await getCollection('potions')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) {
+      addGroup('Ingredienti', entry.data.ingredients.map((item) => item.ingredientId ? index.get(item.ingredientId) : undefined));
+      addGroup('Previene', entry.data.preventsDiseases.map((id) => index.get(id)));
+      addGroup('Regole collegate', entry.data.relatedFelixIds.map((id) => index.get(id)));
+    }
+  }
+
+  if (collectionName === 'plants') {
+    const entry = (await getCollection('plants')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) {
+      addGroup('Ingredienti ottenibili', entry.data.producedIngredients.map((item) => item.ingredientId ? index.get(item.ingredientId) : undefined));
+      addGroup('Regole collegate', entry.data.relatedFelixIds.map((id) => index.get(id)));
+    }
+  }
+
+  if (collectionName === 'spells') {
+    const entry = (await getCollection('spells')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) {
+      const entryBacklinks = backlinks.get(entry.id) ?? [];
+      addGroup('Contrasta', entry.data.counteractsSpells.map((id) => index.get(id)));
+      addGroup('Contrastato da', entryBacklinks.filter((b) => b.relation === 'counteractsSpell').map((b) => index.get(b.sourceId)));
+      addGroup('Regole collegate', entry.data.relatedFelixIds.map((id) => index.get(id)));
+    }
+  }
+
+  if (collectionName === 'races') {
+    const entry = (await getCollection('races')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) addGroup('Regole collegate', entry.data.relatedFelixIds.map((id) => index.get(id)));
+  }
+
+  if (collectionName === 'objects') {
+    const entry = (await getCollection('objects')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) addGroup('Collegamenti', entry.data.relatedFelixIds.map((id) => index.get(id)));
+  }
+
+  if (collectionName === 'legalDocuments') {
+    const entry = (await getCollection('legalDocuments')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) addGroup('Collegamenti', entry.data.relatedFelixIds.map((id) => index.get(id)));
+  }
+
+  if (collectionName === 'legalArticles') {
+    const entry = (await getCollection('legalArticles')).find((item) => item.data.slug === slug && item.data.status === 'published');
+    if (entry) {
+      addGroup('Documento', [index.get(entry.data.documentId)]);
+      addGroup('Collegamenti', entry.data.relatedFelixIds.map((id) => index.get(id)));
+    }
+  }
+}
+---
+{groups.length > 0 && (
+  <section class="felix-context-relations" aria-label="Informazioni collegate">
+    <p class="felix-context-eyebrow">Da questa voce</p>
+    <h2>Collegamenti</h2>
+    <div class="felix-context-groups">
+      {groups.map((group) => (
+        <section class="felix-context-group">
+          <h3>{group.label}</h3>
+          <ul>
+            {group.items.map((item) => (
+              <li><a href={item.url}><span>{item.title}</span><span aria-hidden="true">→</span></a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </section>
+)}
