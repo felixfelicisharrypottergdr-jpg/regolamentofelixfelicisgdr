@@ -470,3 +470,353 @@ body:has(.felix-home-content) .main-frame{
   .felix-stats-grid{grid-template-columns:1fr 1fr!important}
   .felix-relations-grid{grid-template-columns:1fr!important}
 }
+
+
+/* ===== v2: coerenza di sistema, rail contestuale e cataloghi legacy ===== */
+
+/* "In breve": celle sempre della stessa altezza e stessa metrica interna. */
+.felix-entry-facts{
+  display:grid!important;
+  grid-template-columns:repeat(var(--felix-fact-count,4),minmax(0,1fr))!important;
+  grid-auto-rows:1fr!important;
+  align-items:stretch!important;
+  gap:.42rem!important;
+}
+.felix-entry-facts>div{
+  display:grid!important;
+  grid-template-rows:1.15rem minmax(1.55rem,auto)!important;
+  align-content:start!important;
+  min-height:3.65rem!important;
+  height:100%!important;
+  padding:.56rem .62rem!important;
+  margin:0!important;
+}
+.felix-entry-facts dt,
+.felix-entry-facts dd{
+  margin:0!important;
+}
+.felix-entry-facts dt{
+  align-self:start!important;
+}
+.felix-entry-facts dd{
+  align-self:start!important;
+  display:flex;
+  align-items:flex-start;
+  line-height:1.18!important;
+}
+
+/* Le testate senza immagine non simulano una colonna vuota. */
+.felix-entry-header.no-image{
+  grid-template-columns:minmax(0,1fr)!important;
+}
+.felix-entry-header.no-image .felix-entry-copy{
+  max-width:none!important;
+}
+.felix-entry-effect{
+  margin:1rem 0 1.35rem!important;
+  padding:.75rem .9rem!important;
+  border-left:2px solid #b88434;
+  background:rgba(145,94,35,.055);
+  color:#55483a!important;
+}
+
+/* Rail contestuale: le relazioni importanti devono saltare all'occhio. */
+.felix-related-rail{
+  margin:1.05rem .8rem 1.5rem!important;
+  padding:1rem .82rem .82rem!important;
+  border-top:1px solid rgba(198,146,57,.28);
+  border-bottom:1px solid rgba(198,146,57,.14);
+  background:
+    linear-gradient(180deg,rgba(198,146,57,.045),rgba(198,146,57,.015));
+}
+.felix-related-rail-title{
+  margin:0 0 .75rem!important;
+  color:#d9b36d!important;
+  font-family:'magic','Federo',serif!important;
+  font-size:1.14rem!important;
+  letter-spacing:.025em!important;
+}
+.felix-related-rail-group{
+  margin:.72rem 0 0!important;
+}
+.felix-related-rail-group:first-of-type{
+  margin-top:0!important;
+}
+.felix-related-rail-group h3{
+  margin:0 0 .34rem!important;
+  color:#9f8a6e!important;
+  font-family:'Federo',sans-serif!important;
+  font-size:.58rem!important;
+  line-height:1.15!important;
+  letter-spacing:.085em!important;
+  text-transform:uppercase!important;
+}
+.felix-related-rail-group ul{
+  display:grid;
+  gap:.24rem;
+  margin:0!important;
+  padding:0!important;
+  list-style:none!important;
+}
+.felix-related-rail-group li{
+  margin:0!important;
+  padding:0!important;
+}
+.felix-related-rail-group a{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  gap:.55rem!important;
+  align-items:center!important;
+  padding:.4rem .48rem!important;
+  border:1px solid rgba(198,146,57,.10)!important;
+  border-radius:3px!important;
+  background:rgba(255,255,255,.015)!important;
+  color:#c4b7a5!important;
+  font-size:.7rem!important;
+  line-height:1.22!important;
+  text-decoration:none!important;
+}
+.felix-related-rail-group a:hover{
+  border-color:rgba(214,171,91,.34)!important;
+  background:rgba(198,146,57,.06)!important;
+  color:#edd7ad!important;
+}
+.felix-related-rail-group a span:last-child{
+  color:#c58e37!important;
+}
+.felix-related-rail-parent{
+  display:block!important;
+  margin-top:.85rem!important;
+  padding-top:.72rem!important;
+  border-top:1px solid rgba(198,146,57,.12)!important;
+  color:#a98754!important;
+  font-size:.68rem!important;
+  text-decoration:none!important;
+}
+.felix-related-rail-parent:hover{
+  color:#e0bc7a!important;
+}
+.felix-page-sidebar-mobile{
+  display:none;
+}
+@media(max-width:71.99rem){
+  .felix-page-sidebar-desktop{display:none}
+  .felix-page-sidebar-mobile{display:block}
+  .felix-related-rail{
+    margin:.6rem 0 1rem!important;
+    border:1px solid rgba(198,146,57,.18)!important;
+    border-radius:4px!important;
+  }
+}
+
+/* Valori: numero di colonne adattivo e allineamento identico. */
+.felix-stats-grid{
+  grid-template-columns:repeat(var(--felix-stat-count,5),minmax(0,1fr))!important;
+  align-items:stretch!important;
+}
+.felix-stat{
+  min-height:5.25rem!important;
+  height:100%!important;
+}
+.felix-stat span{
+  min-height:1.25rem!important;
+}
+.felix-stat strong{
+  margin-top:.8rem!important;
+}
+
+/* Tabelle vere: più leggere e leggibili, con colonne coerenti. */
+.felix-values{
+  table-layout:auto!important;
+  border-radius:3px!important;
+  border-color:rgba(112,76,31,.14)!important;
+  box-shadow:none!important;
+}
+.felix-values th{
+  padding:.6rem .7rem!important;
+  color:#68441f!important;
+  background:rgba(205,178,126,.42)!important;
+  font-size:.67rem!important;
+  letter-spacing:.035em!important;
+  text-transform:uppercase!important;
+}
+.felix-values td{
+  padding:.65rem .7rem!important;
+  color:#4b4035!important;
+  background:rgba(255,255,255,.14)!important;
+  vertical-align:top!important;
+}
+.felix-values tbody tr+tr td{
+  border-top:1px solid rgba(112,76,31,.08)!important;
+}
+
+/* Le vecchie liste di definizioni vengono rese come specchietti coerenti. */
+.felix-definition-list{
+  grid-template-columns:minmax(130px,180px) minmax(0,1fr)!important;
+  gap:0!important;
+  margin:1rem 0 1.4rem!important;
+  overflow:hidden;
+  border:1px solid rgba(112,76,31,.14);
+  border-radius:3px;
+}
+.felix-definition-list dt,
+.felix-definition-list dd{
+  margin:0!important;
+  padding:.6rem .72rem!important;
+  border-bottom:1px solid rgba(112,76,31,.08);
+}
+.felix-definition-list dt{
+  color:#725531!important;
+  background:rgba(196,160,104,.14);
+  font-family:'Federo',sans-serif!important;
+  font-size:.68rem!important;
+}
+.felix-definition-list dd{
+  color:#4e4338!important;
+  background:rgba(255,255,255,.12);
+}
+.felix-definition-list dt:last-of-type,
+.felix-definition-list dd:last-of-type{
+  border-bottom:0;
+}
+
+/* Tutti i cataloghi legacy passano da "filtri in seconda sidebar"
+   a controlli orizzontali sopra l'elenco. */
+.felix-catalog>.felix-filters{
+  position:static!important;
+  display:grid!important;
+  grid-template-columns:auto repeat(5,minmax(130px,1fr)) auto!important;
+  align-items:end!important;
+  gap:.55rem!important;
+  margin:0 0 .75rem!important;
+  padding:.58rem .65rem!important;
+  border:1px solid rgba(112,76,31,.13)!important;
+  border-radius:4px!important;
+  background:rgba(111,75,31,.035)!important;
+  box-shadow:none!important;
+  color:#5f4e3c!important;
+}
+.felix-catalog>.felix-filters h2{
+  align-self:center!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  color:#69411f!important;
+  font-size:1.15rem!important;
+  white-space:nowrap!important;
+}
+.felix-catalog>.felix-filters h2::after{display:none!important}
+.felix-catalog>.felix-filters label{
+  display:grid!important;
+  gap:.2rem!important;
+  margin:0!important;
+  color:#78644e!important;
+  font-family:'Federo',sans-serif!important;
+  font-size:.57rem!important;
+  letter-spacing:.045em!important;
+  text-transform:uppercase!important;
+}
+.felix-catalog>.felix-filters select,
+.felix-catalog>.felix-filters input{
+  min-height:2.2rem!important;
+  padding:.38rem .5rem!important;
+  border:1px solid rgba(112,76,31,.15)!important;
+  border-radius:4px!important;
+  background:rgba(255,255,255,.48)!important;
+  color:#44362c!important;
+  font:normal .74rem 'Antic Slab',serif!important;
+  text-transform:none!important;
+}
+.felix-catalog>.felix-filters .felix-check{
+  display:flex!important;
+  min-height:2.2rem!important;
+  align-items:center!important;
+  gap:.4rem!important;
+  padding:.35rem .45rem!important;
+  border:1px solid rgba(112,76,31,.12)!important;
+  border-radius:4px!important;
+  white-space:nowrap!important;
+}
+.felix-catalog>.felix-filters button{
+  min-height:2.2rem!important;
+  padding:.38rem .56rem!important;
+  border:1px solid rgba(112,76,31,.16)!important;
+  border-radius:4px!important;
+  background:rgba(255,255,255,.30)!important;
+  color:#66513e!important;
+  font:.66rem 'Federo',sans-serif!important;
+}
+.felix-catalog>.felix-filters+section{
+  min-width:0!important;
+}
+
+/* Cataloghi: barra ricerca/count e cards con ritmo uniforme. */
+.felix-catalog-toolbar{
+  min-height:3.8rem!important;
+}
+.felix-catalog-toolbar label{
+  display:grid!important;
+  gap:.3rem!important;
+  color:#5d4937!important;
+  font-family:'Federo',sans-serif!important;
+  font-size:.68rem!important;
+}
+.felix-catalog-list>article,
+.felix-catalog-list>section{
+  min-height:7.3rem!important;
+  display:flex!important;
+  align-items:center!important;
+  padding:.82rem .92rem!important;
+}
+.felix-catalog-list>article>div,
+.felix-catalog-list>section>div{
+  width:100%!important;
+}
+.felix-catalog-list h2,
+.felix-catalog-list h3{
+  width:100%!important;
+}
+.felix-catalog-list .felix-badges{
+  margin:.38rem 0 .48rem!important;
+}
+
+/* Le liste correlate non strutturate restano sobrie. */
+.felix-related-list{
+  display:grid!important;
+  gap:.35rem!important;
+  margin:.7rem 0 1.2rem!important;
+  padding:0!important;
+  list-style:none!important;
+}
+.felix-related-list li{
+  margin:0!important;
+  padding:.45rem .58rem!important;
+  border-left:2px solid rgba(184,132,52,.48);
+  background:rgba(143,94,35,.04);
+}
+
+/* Breakpoint per specchietti numerosi. */
+@media(max-width:1250px){
+  .felix-entry-facts{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+  .felix-stats-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  }
+  .felix-catalog>.felix-filters{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  }
+  .felix-catalog>.felix-filters h2{
+    grid-column:1/-1;
+  }
+}
+@media(max-width:760px){
+  .felix-entry-facts,
+  .felix-stats-grid,
+  .felix-catalog>.felix-filters{
+    grid-template-columns:1fr!important;
+  }
+  .felix-entry-facts>div{
+    min-height:0!important;
+  }
+}
