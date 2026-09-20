@@ -5,6 +5,20 @@ description: "Regole per scontri, turnazione, Destrezza e Forza delle Conoscenze
 contentType: landing
 searchAliases: [scontro, scontri, combattimento, duello, battaglia, turnazione]
 applicability: [student, adult]
+quickFacts:
+  - label: "Applicabilità"
+    value: "Tutti i PG"
+  - label: "Uso"
+    value: "Scontri e pericoli contrapposti"
+quickLinks:
+  - label: "Regole pratiche"
+    href: "/giocare/guida-agli-scontri/regole-pratiche/"
+  - label: "Turnazione"
+    href: "/giocare/guida-agli-scontri/turnazione/"
+  - label: "Destrezza"
+    href: "/giocare/guida-agli-scontri/destrezza/"
+  - label: "Forza delle Conoscenze"
+    href: "/giocare/guida-agli-scontri/forza-delle-conoscenze/"
 prototypeExcerpt: true
 migration:
   status: migrated
