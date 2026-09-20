@@ -43,7 +43,6 @@ const facts = [
   <article class="felix-entry" data-pagefind-body>
     <div class="felix-entry-header">
       <div class="felix-entry-copy">
-        <p class="felix-kicker">Manuali › Magizoologia › Bestiario</p>
         <p class="felix-lead">{entry.data.description}</p>
         <FelixBadges items={badges} />
 
@@ -70,17 +69,25 @@ const facts = [
     <Content />
 
     {entry.data.values && (
-      <section>
+      <section class="felix-values-section">
         <AnchorHeading level="2" id="valori">Valori</AnchorHeading>
-        <table class="felix-values">
-          <thead><tr><th>Classificazione</th><th>Forza</th><th>Salute</th><th>Resistenza</th><th>Destrezza</th></tr></thead>
-          <tbody><tr><td>{entry.data.classification}</td><td>{entry.data.values.force}</td><td>{entry.data.values.health}</td><td>{entry.data.values.resistance}</td><td>{entry.data.values.dexterity}</td></tr></tbody>
-        </table>
+        <div class="felix-stats-grid" role="list" aria-label="Valori della Creatura">
+          <div class="felix-stat" role="listitem"><span>Classificazione</span><strong>{entry.data.classification}</strong></div>
+          <div class="felix-stat" role="listitem"><span>Forza</span><strong>{entry.data.values.force}</strong></div>
+          <div class="felix-stat" role="listitem"><span>Salute</span><strong>{entry.data.values.health}</strong></div>
+          <div class="felix-stat" role="listitem"><span>Resistenza</span><strong>{entry.data.values.resistance}</strong></div>
+          <div class="felix-stat" role="listitem"><span>Destrezza</span><strong>{entry.data.values.dexterity}</strong></div>
+        </div>
       </section>
     )}
 
-    <RelationList title="Può causare" items={diseases} />
-    <RelationList title="Ingredienti" items={ingredients} />
-    <RelationList title="Regole collegate" items={related} />
+    <section class="felix-related-section" aria-label="Collegamenti">
+      <AnchorHeading level="2" id="collegamenti">Collegamenti</AnchorHeading>
+      <div class="felix-relations-grid">
+        <RelationList title="Può causare" items={diseases} />
+        <RelationList title="Ingredienti" items={ingredients} />
+        <RelationList title="Regole collegate" items={related} />
+      </div>
+    </section>
   </article>
 </StarlightPage>
