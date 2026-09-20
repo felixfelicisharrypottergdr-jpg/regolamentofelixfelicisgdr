@@ -3,7 +3,6 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
 import FelixBadges from '../../../../components/FelixBadges.astro';
-import RelationList from '../../../../components/RelationList.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 
@@ -29,7 +28,6 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti', text: 'Ingre
   <article class="felix-entry" data-pagefind-body>
     <div class="felix-entry-header">
       <div>
-        <p class="felix-kicker">Manuali › Erbologia › Erbario</p>
         <p class="felix-lead">{entry.data.description}</p>
         <FelixBadges items={[entry.data.classification ?? '', entry.data.hostility ?? '', entry.data.knowledgeGrade ?? '', entry.data.schoolYear ? `Anno ${entry.data.schoolYear}` : '', entry.data.exotic ? 'Esotica' : '', entry.data.legality ?? '']} />
       </div>
@@ -54,7 +52,5 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti', text: 'Ingre
         <tbody><tr><td>{entry.data.classification ?? '—'}</td><td>{entry.data.values?.force ?? '//'}</td><td>{entry.data.values?.health ?? '//'}</td><td>{entry.data.values?.resistance ?? '//'}</td><td>{entry.data.values?.dexterity ?? '//'}</td></tr></tbody>
       </table>
     </section>
-
-    <RelationList title="Regole collegate" items={related} />
   </article>
 </StarlightPage>
