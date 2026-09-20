@@ -70,7 +70,15 @@ export default defineConfig({
                     { label: 'Cariche scolastiche', slug: 'il-personaggio/pg-studente/creare-un-pg-studente/cariche-scolastiche' },
                   ],
                 },
-                { label: 'Studiare ad Hogwarts', slug: 'il-personaggio/pg-studente/studiare-ad-hogwarts' },
+                {
+                  label: 'Studiare ad Hogwarts',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/pg-studente/studiare-ad-hogwarts' },
+                    { label: 'Piano di Studi', slug: 'il-personaggio/pg-studente/studiare-ad-hogwarts/piano-di-studi' },
+                    { label: 'Migliorare il Piano', slug: 'il-personaggio/pg-studente/studiare-ad-hogwarts/migliorare-piano-di-studi' },
+                    { label: 'Borse di Studio', slug: 'il-personaggio/pg-studente/studiare-ad-hogwarts/borse-di-studio' },
+                  ],
+                },
                 { label: 'Coppa delle Case', slug: 'il-personaggio/pg-studente/coppa-delle-case' },
                 { label: 'Modalità di gioco', slug: 'il-personaggio/pg-studente/modalita-di-gioco' },
               ],
