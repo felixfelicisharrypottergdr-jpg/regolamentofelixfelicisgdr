@@ -2,7 +2,7 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
-import FelixBadges from '../../../components/FelixBadges.astro';
+import FelixEntityHeader from '../../../components/FelixEntityHeader.astro';
 import SearchMetadata from '../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../lib/content-index';
 
@@ -15,25 +15,21 @@ const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 const index = await buildFelixIndex();
 const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
-const pageHeadings = [...headings, { depth: 2, slug: 'posti-disponibili', text: 'Posti disponibili' }];
+const pageHeadings = headings;
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
   <SearchMetadata type="Razza" macroarea="Il Personaggio" aliases={entry.data.searchAliases} filters={{ applicability: ['PG Studente', 'PG Adulto'] }} />
   <article class="felix-entry" data-pagefind-body>
-    <div class="felix-entry-header">
-      <div>
-        <p class="felix-lead">{entry.data.description}</p>
-        <FelixBadges items={['PG Studente', 'PG Adulto', entry.data.availablePlaces ? `Posti disponibili: ${entry.data.availablePlaces}` : '']} />
-      </div>
-      {entry.data.image && <img class="felix-entry-image" src={entry.data.image} alt={`Illustrazione: ${entry.data.name}`} />}
-    </div>
+    <FelixEntityHeader
+      description={entry.data.description}
+      image={entry.data.image}
+      imageAlt={`Illustrazione: ${entry.data.name}`}
+      badges={entry.data.applicability.map((item) => item === 'student' ? 'PG Studente' : 'PG Adulto')}
+      facts={[
+        { label: 'Posti disponibili', value: entry.data.availablePlaces ?? '—' },
+      ]}
+    />
 
     <Content />
-
-    <section>
-      <AnchorHeading level="2" id="posti-disponibili">Posti disponibili</AnchorHeading>
-      <p>{entry.data.availablePlaces ? `${entry.data.availablePlaces} secondo la fonte migrata nel prototipo.` : 'Dato non ancora inserito.'}</p>
-      <p class="felix-note-small">Il sito resta consultativo: questo dato è aggiornabile dallo Staff nel CMS e non viene calcolato automaticamente in base ai PG esistenti.</p>
-    </section>
   </article>
 </StarlightPage>
