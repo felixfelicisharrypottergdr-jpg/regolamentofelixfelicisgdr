@@ -32,6 +32,7 @@ const docs = defineCollection({
   quickLinks: z.array(z.object({
     label: z.string(),
     href: z.string(),
+    description: z.string().optional(),
   })).default([]),
   migration: migrationSchema.optional(),
   prototypeExcerpt: z.boolean().default(false),

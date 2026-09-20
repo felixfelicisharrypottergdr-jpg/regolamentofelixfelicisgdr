@@ -5,6 +5,31 @@ description: "Vita, attività, servizi, istituzioni e ordinamento del Mondo Magi
 contentType: landing
 searchAliases: [vivere nel mondo magico]
 applicability: []
+quickLinks:
+  - label: "Trasporti Magici"
+    href: "/mondo-magico/trasporti/"
+    description: "Muoversi nel Regno Unito e all'estero con i diversi Trasporti disponibili."
+  - label: "Quidditch"
+    href: "/mondo-magico/quidditch/"
+    description: "Quidditch ad Hogwarts, tra PG Adulti e regole di gioco."
+  - label: "Giochi Magici"
+    href: "/mondo-magico/giochi-magici/"
+    description: "Attività ludiche e giochi regolamentati del Mondo Magico."
+  - label: "Commercio Magico"
+    href: "/mondo-magico/commercio/"
+    description: "Merci, Negozi, Gringott e Catalogo Oggetti."
+  - label: "Medimagia"
+    href: "/mondo-magico/medimagia/"
+    description: "Salute, cura e pratica medimagica."
+  - label: "Leggi Magiche"
+    href: "/mondo-magico/leggi/"
+    description: "Ordinamento, documenti normativi e Articoli."
+  - label: "Magisprudenza"
+    href: "/mondo-magico/magisprudenza/"
+    description: "Principi e pratica della giustizia magica."
+  - label: "Wizengamot"
+    href: "/mondo-magico/wizengamot/"
+    description: "Istituzione giudiziaria e attività collegate."
 prototypeExcerpt: true
 migration:
   status: migrated
@@ -17,48 +42,8 @@ migration:
 
 Questa macroarea raccoglie ciò che definisce **come si vive, ci si muove e si partecipa alle attività del Mondo Magico**, oltre a commercio, leggi, istituzioni e altri sistemi dell'ambientazione regolamentata.
 
-## Trasporti Magici
+## Consultazione trasversale
 
-[Consulta **Trasporti Magici** →](./trasporti/)
+Le singole sezioni mantengono le proprie regole e i propri compendi, ma restano collegate fra loro. Un Trasporto può rimandare a costi o malus, una regola di Commercio al Catalogo Oggetti, una Malattia alle cure o alle Pozioni che la prevengono.
 
-La sezione comprende le regole generali per viaggiare nel Regno Unito e all'estero e, nel sito definitivo, tutte le modalità previste dal Regolamento: Carrozza Volante, Cavalcata o Volo su Creatura, Metropolvere, Nottetempo, Passaporta, Scope Volanti, Smaterializzazione, Vascello Magico e Veicoli Volanti.
-
-## Quidditch
-
-[Consulta **Il Quidditch** →](./quidditch/)
-
-La sezione distingue chiaramente **Quidditch ad Hogwarts**, **Quidditch tra PG Adulti** e le regole operative di **Come si gioca**, mantenendo i rimandi a Scope, Incidenti da Manufatti, PG/PNG/PPNG e alle altre regole collegate.
-
-## Giochi Magici
-
-[Consulta **Giochi Magici** →](./giochi-magici/).
-
-## Commercio Magico
-
-[Consulta **Commercio Magico** →](./commercio/).
-
-La sezione include acquisto e vendita di Merci, Gringott, Negozi e un primo Catalogo Oggetti strutturato. La **Fabbricazione ONGame** rimane esclusa dalla migrazione.
-
-## Medimagia
-
-[Consulta **La Medimagia** →](./medimagia/).
-
-Questa sezione ospita le regole di Salute e cura; l'[Enciclopedia Medimagica](../manuali/medimagia/) resta il compendio strutturato delle afflizioni e delle tecniche.
-
-## Leggi Magiche
-
-[Consulta **Leggi Magiche** →](./leggi/).
-
-## Magisprudenza
-
-[Consulta **La Magisprudenza** →](./magisprudenza/).
-
-## Wizengamot
-
-[Consulta **Il Wizengamot** →](./wizengamot/).
-
-## Ancora da rappresentare nel prototipo
-
-La migrazione completa di questa macroarea comprenderà inoltre **Popolometro, Hogwarts, Ministero della Magia, servizi, istituzioni e tutte le altre attività oggi presenti nel Regolamento**.
-
-> **Estratto di prototipo:** questa landing serve a testare l'organizzazione di Mondo Magico. La migrazione finale manterrà integralmente il contenuto delle fonti attuali, con le sole eccezioni già concordate.
+La **Fabbricazione ONGame** resta esclusa dalla migrazione, mentre le schede e il catalogo dei PNG rimangono sul sito attuale come già stabilito.

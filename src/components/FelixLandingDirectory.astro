@@ -1,0 +1,34 @@
+---
+import { withBase } from '../config/routes';
+
+type Link = {
+  label: string;
+  href: string;
+  description?: string;
+};
+
+type Props = {
+  links?: Link[];
+};
+
+const { links = [] } = Astro.props;
+
+const resolveHref = (href: string) => {
+  if (/^(https?:|mailto:|#)/.test(href)) return href;
+  return href.startsWith('/') ? withBase(href.slice(1)) : withBase(href);
+};
+---
+{links.length > 0 && (
+  <nav class="felix-landing-directory" aria-label="Percorsi principali">
+    <p class="felix-landing-directory-label">Consulta</p>
+    <div class="felix-landing-directory-grid">
+      {links.map((item) => (
+        <a href={resolveHref(item.href)} class="felix-landing-directory-card">
+          <strong>{item.label}</strong>
+          {item.description && <span>{item.description}</span>}
+          <i aria-hidden="true">→</i>
+        </a>
+      ))}
+    </div>
+  </nav>
+)}

@@ -2489,3 +2489,131 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
     text-transform:uppercase;
   }
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — v10
+   Landing di sezione: percorsi principali chiari e riutilizzabili.
+   ========================================================== */
+
+.felix-content-wrap.is-landing{
+  width:100%;
+}
+.felix-landing-directory{
+  width:100%;
+  margin:0 0 1.55rem;
+  padding:0;
+}
+.felix-landing-directory-label{
+  margin:0 0 .55rem!important;
+  color:#8b6a3e!important;
+  font-family:'Federo',sans-serif!important;
+  font-size:.58rem!important;
+  letter-spacing:.095em!important;
+  text-transform:uppercase!important;
+}
+.felix-landing-directory-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:.55rem;
+}
+.felix-landing-directory-card{
+  position:relative;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto;
+  grid-template-rows:auto 1fr;
+  gap:.22rem .85rem;
+  min-height:6.4rem;
+  padding:.78rem .88rem!important;
+  overflow:hidden;
+  border:1px solid rgba(112,78,32,.14)!important;
+  border-radius:3px!important;
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.24),rgba(210,183,136,.07))!important;
+  color:#4d3d2e!important;
+  text-decoration:none!important;
+  box-shadow:none!important;
+  transition:border-color .16s ease,background .16s ease,transform .16s ease;
+}
+.felix-landing-directory-card::before{
+  content:'';
+  position:absolute;
+  left:0;
+  top:.7rem;
+  bottom:.7rem;
+  width:2px;
+  background:rgba(183,128,47,.55);
+}
+.felix-landing-directory-card:hover{
+  border-color:rgba(145,95,31,.34)!important;
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.38),rgba(210,183,136,.11))!important;
+  transform:translateY(-1px);
+}
+.felix-landing-directory-card strong{
+  align-self:end;
+  color:#6a401e!important;
+  font:400 1.32rem/1.05 'magic','Federo',serif!important;
+}
+.felix-landing-directory-card span{
+  grid-column:1;
+  align-self:start;
+  max-width:45ch;
+  color:#6e6255!important;
+  font:.75rem/1.42 'Antic Slab',serif!important;
+}
+.felix-landing-directory-card i{
+  grid-column:2;
+  grid-row:1 / span 2;
+  align-self:center;
+  display:grid;
+  width:2rem;
+  height:2rem;
+  place-items:center;
+  border:1px solid rgba(170,116,41,.24);
+  border-radius:50%;
+  color:#a66f27;
+  font-style:normal;
+}
+.felix-landing-directory-card:hover i{
+  border-color:rgba(170,116,41,.48);
+}
+
+/* Le landing devono sembrare indici editoriali, non pagine piene di riquadri. */
+.felix-content-wrap.is-landing .sl-markdown-content{
+  padding-top:.1rem;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>h1{
+  display:none!important;
+}
+.felix-content-wrap.is-landing .sl-markdown-content>p:first-child{
+  max-width:72ch;
+  margin-top:.2rem;
+  color:#55493d;
+  font-size:.94rem;
+  line-height:1.62;
+}
+.felix-content-wrap.is-landing .sl-markdown-content h2{
+  margin-top:1.75rem!important;
+  font-size:1.55rem!important;
+}
+
+/* Rail delle landing: solo informazioni rapide, niente duplicazione dei percorsi principali. */
+.felix-content-wrap.is-landing ~ * .felix-related-rail-group{
+  display:none;
+}
+
+@media(max-width:900px){
+  .felix-landing-directory-grid{
+    grid-template-columns:1fr;
+  }
+}
+@media(max-width:560px){
+  .felix-landing-directory-card{
+    min-height:5.7rem;
+    padding:.7rem .75rem!important;
+  }
+  .felix-landing-directory-card strong{
+    font-size:1.18rem!important;
+  }
+}

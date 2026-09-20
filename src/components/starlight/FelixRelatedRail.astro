@@ -15,6 +15,7 @@ const resolveHref = (href: string) => {
   if (/^(https?:|mailto:|#)/.test(href)) return href;
   return href.startsWith('/') ? withBase(href.slice(1)) : withBase(href);
 };
+const contentType = routeData.contentType ?? 'rule';
 const quickFacts: FactItem[] = Array.isArray(routeData.quickFacts) ? routeData.quickFacts : [];
 const quickLinks: LinkItem[] = Array.isArray(routeData.quickLinks)
   ? routeData.quickLinks.map((item: any) => ({ title: item.label, url: resolveHref(item.href) }))
@@ -44,7 +45,7 @@ const toLink = (item: any): LinkItem | undefined => item ? { title: item.title, 
 let groups: Group[] = [];
 let parent: LinkItem | undefined;
 
-if (quickLinks.length) groups.push({ label: 'Collegamenti utili', items: quickLinks });
+if (quickLinks.length && contentType !== 'landing') groups.push({ label: 'Collegamenti utili', items: quickLinks });
 
 const creatures = isStructuredRoute ? await getCollection('creatures') : [];
 const plants = isStructuredRoute ? await getCollection('plants') : [];
