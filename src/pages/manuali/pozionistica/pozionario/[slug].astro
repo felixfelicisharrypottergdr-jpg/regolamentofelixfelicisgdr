@@ -22,7 +22,7 @@ const ingredientRows = entry.data.ingredients.map((item) => ({
   linked: item.ingredientId ? index.get(item.ingredientId) : undefined,
 }));
 const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
-const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text: 'Ingredienti e dosi' }, { depth: 2, slug: 'valori', text: 'Valori' }];
+const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text: 'Ingredienti e dosi' }];
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
   <SearchMetadata
@@ -63,14 +63,6 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text:
         </tbody>
       </table>
       <p class="felix-note-small">Le voci senza collegamento sono conservate nella ricetta ma non sono ancora state migrate come schede Ingredienti nel prototipo.</p>
-    </section>
-
-    <section>
-      <AnchorHeading level="2" id="valori">Valori</AnchorHeading>
-      <table class="felix-values">
-        <thead><tr><th>Classificazione</th><th>Tipologia</th><th>Forza Standard</th><th>Somministrazione</th></tr></thead>
-        <tbody><tr><td>{entry.data.classification}</td><td>{entry.data.type}</td><td>{entry.data.standardStrength ?? '—'}</td><td>{entry.data.administration ?? '—'}</td></tr></tbody>
-      </table>
     </section>
   </article>
 </StarlightPage>
