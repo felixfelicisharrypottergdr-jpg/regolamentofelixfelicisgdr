@@ -1,0 +1,63 @@
+---
+type Cell = string | number | null | undefined | {
+  text: string | number;
+  href?: string;
+  muted?: boolean;
+};
+
+type Column = {
+  key: string;
+  label: string;
+  align?: 'left' | 'center' | 'right';
+};
+
+type Props = {
+  columns: Column[];
+  rows: Record<string, Cell>[];
+  ariaLabel?: string;
+  compact?: boolean;
+};
+
+const {
+  columns,
+  rows,
+  ariaLabel = 'Tabella dati',
+  compact = false,
+} = Astro.props;
+
+const valueText = (cell: Cell) => {
+  if (cell === null || cell === undefined || cell === '') return '—';
+  if (typeof cell === 'object') return cell.text;
+  return cell;
+};
+---
+<div class:list={['felix-table-shell', { 'is-compact': compact }]}>
+  <table class="felix-data-table" aria-label={ariaLabel}>
+    <thead>
+      <tr>
+        {columns.map((column) => <th class={'is-' + (column.align ?? 'left')}>{column.label}</th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => (
+        <tr>
+          {columns.map((column) => {
+            const cell = row[column.key];
+            const isObject = typeof cell === 'object' && cell !== null;
+            const href = isObject && 'href' in cell ? cell.href : undefined;
+            const muted = isObject && 'muted' in cell ? cell.muted : false;
+            const text = valueText(cell);
+            return (
+              <td
+                class:list={['is-' + (column.align ?? 'left'), { 'is-muted': muted }]}
+                data-label={column.label}
+              >
+                {href ? <a href={href}>{text}</a> : text}
+              </td>
+            );
+          })}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
