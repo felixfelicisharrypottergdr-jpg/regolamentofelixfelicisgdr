@@ -1,0 +1,75 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
+import { getCollection, render } from 'astro:content';
+import FelixBadges from '../../../../components/FelixBadges.astro';
+import RelationList from '../../../../components/RelationList.astro';
+import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
+import { buildFelixIndex } from '../../../../lib/content-index';
+
+export async function getStaticPaths() {
+  return (await getCollection('potions')).filter((entry) => entry.data.status === 'published').map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const index = await buildFelixIndex();
+const diseases = entry.data.preventsDiseases.map((id) => index.get(id)).filter(Boolean);
+const ingredientRows = entry.data.ingredients.map((item) => ({
+  ...item,
+  linked: item.ingredientId ? index.get(item.ingredientId) : undefined,
+}));
+const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
+const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text: 'Ingredienti e dosi' }, { depth: 2, slug: 'valori', text: 'Valori' }];
+---
+<StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
+  <SearchMetadata
+    type="Pozione"
+    macroarea="Manuali"
+    aliases={entry.data.searchAliases}
+    filters={{ classification: entry.data.classification, potion_type: entry.data.type, administration: entry.data.administration }}
+  />
+  <article class="felix-entry" data-pagefind-body>
+    <div class="felix-entry-header">
+      <div>
+        <p class="felix-kicker">Manuali › Pozionistica › Pozionario</p>
+        <p class="felix-lead">{entry.data.description}</p>
+        <FelixBadges items={[entry.data.classification, entry.data.type, entry.data.administration ?? '', entry.data.legality ?? '']} />
+      </div>
+      {entry.data.image && <img class="felix-entry-image" src={entry.data.image} alt={`Illustrazione: ${entry.data.name}`} />}
+    </div>
+
+    <Content />
+
+    <section>
+      <AnchorHeading level="2" id="ingredienti-e-dosi">Ingredienti e dosi</AnchorHeading>
+      <table class="felix-values">
+        <thead><tr><th>Ingrediente</th><th>Dosi</th><th>Classificazione</th></tr></thead>
+        <tbody>
+          {ingredientRows.map((item) => (
+            <tr>
+              <td>{item.linked ? <a href={item.linked.url}>{item.name}</a> : item.name}</td>
+              <td>{item.amount ?? '—'}</td>
+              <td>{item.classification ?? '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="felix-note-small">Le voci senza collegamento sono conservate nella ricetta ma non sono ancora state migrate come schede Ingredienti nel prototipo.</p>
+    </section>
+
+    <section>
+      <AnchorHeading level="2" id="valori">Valori</AnchorHeading>
+      <table class="felix-values">
+        <thead><tr><th>Classificazione</th><th>Tipologia</th><th>Forza Standard</th><th>Somministrazione</th></tr></thead>
+        <tbody><tr><td>{entry.data.classification}</td><td>{entry.data.type}</td><td>{entry.data.standardStrength ?? '—'}</td><td>{entry.data.administration ?? '—'}</td></tr></tbody>
+      </table>
+    </section>
+
+    <RelationList title="Previene" items={diseases} />
+    <RelationList title="Regole collegate" items={related} />
+  </article>
+</StarlightPage>
