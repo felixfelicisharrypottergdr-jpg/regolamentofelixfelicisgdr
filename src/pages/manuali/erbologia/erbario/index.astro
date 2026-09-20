@@ -2,39 +2,70 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection } from 'astro:content';
 import FelixBadges from '../../../../components/FelixBadges.astro';
+import FelixCatalog from '../../../../components/FelixCatalog.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { routeForStructured } from '../../../../config/routes';
 
-const plants = (await getCollection('plants')).filter((entry) => entry.data.status === 'published').sort((a,b) => a.data.name.localeCompare(b.data.name, 'it'));
+const plants = (await getCollection('plants'))
+  .filter((entry) => entry.data.status === 'published')
+  .sort((a,b) => a.data.name.localeCompare(b.data.name, 'it'));
 ---
 <StarlightPage frontmatter={{ title: 'Erbario', description: 'Consulta e filtra le Piante Magiche.' }}>
   <SearchMetadata type="Catalogo" macroarea="Manuali" aliases={['piante', 'erbologia', 'erbario']} />
-  <div class="felix-catalog" data-catalog="plants">
-    <aside class="felix-filters" aria-label="Filtri Erbario">
-      <h2>Filtri</h2>
-      <label>Classificazione<select data-filter="classification"><option value="">Tutte</option><option>X</option><option>XX</option><option>XXX</option><option>XXXX</option><option>XXXXX</option></select></label>
-      <label>Ostilità<select data-filter="hostility"><option value="">Tutte</option><option>Mai ostile</option><option>Neutrale</option><option>Sempre ostile</option></select></label>
-      <label>Grado di Conoscenza<select data-filter="grade"><option value="">Tutti</option><option>Scolastica</option><option>Extra</option></select></label>
-      <label>Anno scolastico<select data-filter="year"><option value="">Tutti</option><option>V</option><option>VI</option><option>VII</option></select></label>
-      <label class="felix-check"><input type="checkbox" data-filter="exotic" /> Solo Piante esotiche</label>
-      <button type="button" data-reset>Azzera filtri</button>
-    </aside>
-    <section>
-      <div class="felix-catalog-toolbar"><label>Cerca nell'Erbario <input type="search" data-filter="query" placeholder="Nome, descrizione o alias..." /></label><strong><span data-count>{plants.length}</span> Piante</strong></div>
-      <div class="felix-active-filters" data-active-filters hidden></div>
-      <div class="felix-filter-actions"><button type="button" data-copy-filter-link>Copia link ai filtri</button><span data-copy-status role="status" aria-live="polite"></span></div>
-      <div class="felix-catalog-list" data-pagefind-ignore>
-        {plants.map((entry) => <article class="felix-creature-row" data-card data-name={entry.data.name.toLowerCase()} data-description={entry.data.description.toLowerCase()} data-aliases={entry.data.searchAliases.join(' ').toLowerCase()} data-classification={entry.data.classification ?? ''} data-hostility={entry.data.hostility ?? ''} data-grade={entry.data.knowledgeGrade ?? ''} data-year={entry.data.schoolYear ?? ''} data-exotic={entry.data.exotic ? 'true':'false'}>
-          <div><h2><a href={routeForStructured('plants', entry.data.slug)}>{entry.data.name}</a></h2><FelixBadges items={[entry.data.classification ?? '', entry.data.hostility ?? '', entry.data.knowledgeGrade ?? '', entry.data.schoolYear ? `Anno ${entry.data.schoolYear}` : '', entry.data.exotic ? 'Esotica' : '']} /><p>{entry.data.description}</p></div>
-        </article>)}
-      </div>
-    </section>
-  </div>
-  <script>
-    const root=document.querySelector('[data-catalog="plants"]');
-    if(root){const cards=[...root.querySelectorAll('[data-card]')];const fields=Object.fromEntries([...root.querySelectorAll('[data-filter]')].map(el=>[el.dataset.filter,el]));const count=root.querySelector('[data-count]');const active=root.querySelector('[data-active-filters]');const status=root.querySelector('[data-copy-status]');const params=new URLSearchParams(location.search);for(const key of ['classification','hostility','grade','year']) if(fields[key]) fields[key].value=params.get(key)||'';if(fields.query)fields.query.value=params.get('q')||'';if(fields.exotic)fields.exotic.checked=params.get('exotic')==='1';
-      const state=()=>({query:(fields.query?.value||'').trim(),classification:fields.classification?.value||'',hostility:fields.hostility?.value||'',grade:fields.grade?.value||'',year:fields.year?.value||'',exotic:Boolean(fields.exotic?.checked)});
-      const apply=(sync=true)=>{const s=state(),q=s.query.toLowerCase();let n=0;cards.forEach(c=>{const hay=`${c.dataset.name||''} ${c.dataset.description||''} ${c.dataset.aliases||''}`;const show=(!q||hay.includes(q))&&(!s.classification||c.dataset.classification===s.classification)&&(!s.hostility||c.dataset.hostility===s.hostility)&&(!s.grade||c.dataset.grade===s.grade)&&(!s.year||c.dataset.year===s.year)&&(!s.exotic||c.dataset.exotic==='true');c.hidden=!show;if(show)n++});if(count)count.textContent=String(n);const labels=[];if(s.query)labels.push(`Ricerca: ${s.query}`);for(const k of ['classification','hostility','grade','year'])if(s[k])labels.push(`${k}: ${s[k]}`);if(s.exotic)labels.push('Esotica');active?.replaceChildren(...labels.map(x=>{const e=document.createElement('span');e.className='felix-filter-chip';e.textContent=x;return e}));if(active)active.hidden=!labels.length;if(sync){const p=new URLSearchParams();if(s.query)p.set('q',s.query);for(const k of ['classification','hostility','grade','year'])if(s[k])p.set(k,s[k]);if(s.exotic)p.set('exotic','1');history.replaceState(null,'',`${location.pathname}${p.toString()?`?${p}`:''}`)}};
-      Object.values(fields).forEach(el=>el.addEventListener('input',()=>apply(true)));root.querySelector('[data-reset]')?.addEventListener('click',()=>{Object.entries(fields).forEach(([k,e])=>k==='exotic'?e.checked=false:e.value='');apply(true)});root.querySelector('[data-copy-filter-link]')?.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);if(status)status.textContent='Link copiato.'}catch{if(status)status.textContent='Copia non disponibile: usa la barra del browser.'}});apply(false)}
-  </script>
+
+  <FelixCatalog searchLabel="Cerca nell'Erbario" count={plants.length} countLabel="Piante">
+    <label class="felix-filter-control" slot="filters">
+      <span>Classificazione</span>
+      <select data-filter="classification" data-filter-label="Classificazione">
+        <option value="">Tutte</option>
+        <option>X</option><option>XX</option><option>XXX</option><option>XXXX</option><option>XXXXX</option>
+      </select>
+    </label>
+    <label class="felix-filter-control" slot="filters">
+      <span>Ostilità</span>
+      <select data-filter="hostility" data-filter-label="Ostilità">
+        <option value="">Tutte</option>
+        <option>Mai ostile</option><option>Neutrale</option><option>Sempre ostile</option>
+      </select>
+    </label>
+    <label class="felix-filter-control" slot="filters">
+      <span>Grado di Conoscenza</span>
+      <select data-filter="knowledgeGrade" data-param="grade" data-filter-label="Conoscenza">
+        <option value="">Tutti</option>
+        <option>Scolastica</option><option>Extra</option>
+      </select>
+    </label>
+    <label class="felix-filter-control" slot="filters">
+      <span>Anno scolastico</span>
+      <select data-filter="schoolYear" data-param="year" data-filter-label="Anno">
+        <option value="">Tutti</option>
+        <option>V</option><option>VI</option><option>VII</option>
+      </select>
+    </label>
+    <label class="felix-filter-toggle" slot="filters">
+      <input type="checkbox" data-filter="exotic" data-filter-label="Esotica" data-active-label="Solo esotiche" />
+      <span>Solo esotiche</span>
+    </label>
+
+    {plants.map((entry) => (
+      <article
+        class="felix-creature-row"
+        data-card
+        data-name={entry.data.name.toLowerCase()}
+        data-description={entry.data.description.toLowerCase()}
+        data-aliases={entry.data.searchAliases.join(' ').toLowerCase()}
+        data-classification={entry.data.classification ?? ''}
+        data-hostility={entry.data.hostility ?? ''}
+        data-knowledge-grade={entry.data.knowledgeGrade ?? ''}
+        data-school-year={entry.data.schoolYear ?? ''}
+        data-exotic={entry.data.exotic ? 'true' : 'false'}
+      >
+        <div>
+          <h2><a href={routeForStructured('plants', entry.data.slug)}>{entry.data.name}</a></h2>
+          <FelixBadges items={[entry.data.classification ?? '', entry.data.hostility ?? '', entry.data.knowledgeGrade ?? '', entry.data.schoolYear ? `Anno ${entry.data.schoolYear}` : '', entry.data.exotic ? 'Esotica' : '']} />
+          <p>{entry.data.description}</p>
+        </div>
+      </article>
+    ))}
+  </FelixCatalog>
 </StarlightPage>
