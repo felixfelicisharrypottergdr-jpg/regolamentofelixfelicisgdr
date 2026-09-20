@@ -29,11 +29,21 @@ La sezione comprende le regole generali per viaggiare nel Regno Unito e all'este
 
 La sezione distingue chiaramente **Quidditch ad Hogwarts**, **Quidditch tra PG Adulti** e le regole operative di **Come si gioca**, mantenendo i rimandi a Scope, Incidenti da Manufatti, PG/PNG/PPNG e alle altre regole collegate.
 
+## Giochi Magici
+
+[Consulta **Giochi Magici** →](./giochi-magici/).
+
 ## Commercio Magico
 
 [Consulta **Commercio Magico** →](./commercio/).
 
 La sezione include acquisto e vendita di Merci, Gringott, Negozi e un primo Catalogo Oggetti strutturato. La **Fabbricazione ONGame** rimane esclusa dalla migrazione.
+
+## Medimagia
+
+[Consulta **La Medimagia** →](./medimagia/).
+
+Questa sezione ospita le regole di Salute e cura; l'[Enciclopedia Medimagica](../manuali/medimagia/) resta il compendio strutturato delle afflizioni e delle tecniche.
 
 ## Leggi Magiche
 
@@ -49,6 +59,6 @@ La sezione include acquisto e vendita di Merci, Gringott, Negozi e un primo Cata
 
 ## Ancora da rappresentare nel prototipo
 
-La migrazione completa di questa macroarea comprenderà inoltre **Popolometro, Hogwarts, Ministero della Magia, San Mungo, servizi, istituzioni, Giochi Magici e tutte le altre attività oggi presenti nel Regolamento**.
+La migrazione completa di questa macroarea comprenderà inoltre **Popolometro, Hogwarts, Ministero della Magia, servizi, istituzioni e tutte le altre attività oggi presenti nel Regolamento**.
 
 > **Estratto di prototipo:** questa landing serve a testare l'organizzazione di Mondo Magico. La migrazione finale manterrà integralmente il contenuto delle fonti attuali, con le sole eccezioni già concordate.
