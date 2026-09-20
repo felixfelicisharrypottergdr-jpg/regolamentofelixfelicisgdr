@@ -5,6 +5,25 @@ description: "Role, Azioni, dadi, Scontri, Ricerche Casuali e regole operative d
 contentType: landing
 searchAliases: [come si gioca, role, azioni, dadi, scontri]
 applicability: []
+quickLinks:
+  - label: "Le Role"
+    href: "/giocare/le-role/"
+    description: "Free Role, Role Masterate e struttura delle giocate."
+  - label: "Le Azioni"
+    href: "/giocare/le-azioni/"
+    description: "Cosa può fare un PG e come vengono gestite le Azioni."
+  - label: "Dadi e risultati"
+    href: "/giocare/dadi-e-risultati/"
+    description: "Quando si tira, come si leggono i risultati e come si applicano."
+  - label: "Guida agli Scontri"
+    href: "/giocare/guida-agli-scontri/"
+    description: "Turnazione, Destrezza, Reazioni e regole operative degli Scontri."
+  - label: "Ricerche Casuali"
+    href: "/giocare/ricerche-casuali/"
+    description: "Piante, Creature, Ingredienti, Pazienti, Missioni e altre Ricerche."
+  - label: "Azioni Illegali"
+    href: "/giocare/azioni-illegali/"
+    description: "Procedure e conseguenze delle Azioni Illegali."
 prototypeExcerpt: true
 migration:
   status: native
@@ -15,17 +34,6 @@ migration:
 
 Questa macroarea raccoglie le regole che servono **mentre si gioca**: come funzionano le Role, che cosa viene considerato un'Azione, quando si usano i dadi e come si gestiscono gli Scontri.
 
-## Percorso rapido
+## Regole operative e attività
 
-- [Le Role](./le-role/)
-- [Le Azioni](./le-azioni/)
-- [Dadi e risultati](./dadi-e-risultati/)
-- [Guida agli Scontri](./guida-agli-scontri/)
-- [Ricerche Casuali](./ricerche-casuali/)
-- [Compiere Azioni Illegali](./azioni-illegali/)
-
-## Attività con una propria casa
-
-**Trasporti Magici** e **Quidditch** vivono in [Mondo Magico](../mondo-magico/), ma saranno raggiungibili anche da qui attraverso percorsi orientati a ciò che il Player vuole fare. **Commercio e Oggetti** verrà integrato qui nella migrazione completa. **Ricerche Casuali** e **Azioni Illegali** sono già rappresentate nel prototipo come percorsi autonomi.
-
-> Questo contenuto è un estratto di prototipo: la migrazione definitiva conserverà integralmente tutto il testo regolamentare pertinente.
+Le regole generali di gioco restano separate dalle attività che hanno una propria collocazione nel compendio. **Trasporti Magici**, **Quidditch** e **Commercio** si trovano quindi in [Mondo Magico](../mondo-magico/), ma possono essere raggiunti anche attraverso la ricerca e i collegamenti contestuali quando servono durante una Role.
