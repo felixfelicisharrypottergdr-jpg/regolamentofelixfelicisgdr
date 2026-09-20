@@ -118,3 +118,436 @@ html{scroll-padding-top:calc(var(--sl-nav-height) + 1rem);background:#0f0d0b}bod
 @media(max-width:900px){.felix-entry-header,.felix-catalog,.felix-home-grid{grid-template-columns:1fr}.felix-filters{position:static}.felix-entry-image{max-width:430px}.felix-home-card{min-height:0}.felix-search-trigger{min-width:0;width:2.65rem;justify-content:center;overflow:hidden;white-space:nowrap}.felix-search-trigger span{font-size:0}.felix-search-trigger span::before{content:'⌕';font-size:1.1rem}.felix-search-trigger kbd{display:none}}
 @media(max-width:520px){.felix-site-title-sub{display:none}.felix-site-title-main{font-size:.98rem;letter-spacing:.09em}.felix-catalog-toolbar{align-items:stretch;flex-direction:column}.felix-filter-actions{align-items:flex-start;flex-direction:column}.felix-home-hero{padding:1rem}.felix-home-hero::after{font-size:3rem;right:.8rem}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+
+/* ==========================================================
+   FELIX FELICIS — visual refinement v2
+   Obiettivo: shell scura + superficie di lettura calma,
+   più vicina al primo concept e meno "pergamena ovunque".
+   ========================================================== */
+
+/* Palette più controllata */
+:root {
+  --felix-shell: #171411;
+  --felix-shell-2: #201b17;
+  --felix-shell-3: #2a231d;
+  --felix-paper: #f1e8d5;
+  --felix-paper-2: #e8dcc3;
+  --felix-paper-text: #30261f;
+  --felix-paper-muted: #756858;
+  --felix-accent: #b88c3a;
+  --felix-accent-soft: #d8bd80;
+  --felix-border: rgba(184, 140, 58, .28);
+}
+
+/* Il chrome del sito resta scuro anche se il sistema è in light mode.
+   Light/Dark continua a modificare soprattutto la superficie di lettura. */
+.header {
+  background:
+    linear-gradient(90deg, rgba(184,140,58,.05), transparent 26%, transparent 74%, rgba(184,140,58,.05)),
+    rgba(20,17,14,.97) !important;
+  border-bottom: 1px solid rgba(184,140,58,.24) !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,.24);
+}
+:root[data-theme='light'] .header {
+  background:
+    linear-gradient(90deg, rgba(184,140,58,.05), transparent 26%, transparent 74%, rgba(184,140,58,.05)),
+    rgba(20,17,14,.97) !important;
+}
+
+.felix-site-title-main {
+  color: #d4aa55;
+  font-family: 'Federo', Arial, sans-serif;
+  font-size: 1.08rem;
+  letter-spacing: .16em;
+  text-shadow: 0 1px 0 #000;
+}
+.felix-site-title-sub {
+  color: #9d9183;
+  letter-spacing: .22em;
+}
+
+/* Ricerca: più "command palette", meno scatola marrone */
+.felix-search-trigger {
+  min-height: 2.75rem;
+  border: 1px solid rgba(216,189,128,.24);
+  border-radius: 9px;
+  background: #2b251f;
+  color: #e8dfcf;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.025);
+}
+.felix-search-trigger:hover {
+  border-color: rgba(216,189,128,.52);
+  background: #302820;
+}
+.felix-search-trigger kbd {
+  color: #9d9183;
+  background: #201b17;
+}
+
+/* Sidebar: vera area di navigazione scura */
+.sidebar-pane,
+:root[data-theme='light'] .sidebar-pane {
+  background:
+    linear-gradient(180deg, rgba(184,140,58,.025), transparent 12rem),
+    rgba(18,15,13,.97) !important;
+  border-inline-end: 1px solid rgba(184,140,58,.18) !important;
+  box-shadow: 8px 0 28px rgba(0,0,0,.08);
+}
+.sidebar-content {
+  color: #bdb2a4;
+}
+.sidebar-content summary,
+.sidebar-content .large {
+  color: #cba55e !important;
+  font-size: .86rem;
+  letter-spacing: .055em;
+}
+.sidebar-content a {
+  color: #b9afa2 !important;
+  font-size: .86rem;
+}
+.sidebar-content a:hover {
+  color: #f0e3c7 !important;
+  background: rgba(184,140,58,.055);
+}
+.sidebar-content a[aria-current='page'],
+:root[data-theme='light'] .sidebar-content a[aria-current='page'] {
+  color: #f0e3c7 !important;
+  background: linear-gradient(90deg, rgba(184,140,58,.2), rgba(184,140,58,.035));
+  box-shadow: inset 2px 0 0 #bd8d35;
+}
+.sidebar-content ul ul {
+  border-inline-start-color: rgba(184,140,58,.13) !important;
+}
+
+/* Sfondo esterno: molto più discreto */
+body::before,
+:root[data-theme='light'] body::before {
+  background-image:
+    radial-gradient(circle at 55% -15%, rgba(184,140,58,.07), transparent 34rem),
+    linear-gradient(rgba(12,10,9,.82), rgba(12,10,9,.92)),
+    url('https://i.imgur.com/0nAiv9e.png');
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: top center, center, top center;
+}
+
+/* Area principale: "pagina" leggibile, non tutto il viewport color crema */
+.main-pane {
+  background: transparent !important;
+}
+.content-panel {
+  background: var(--felix-paper);
+  color: var(--felix-paper-text);
+}
+.content-panel + .content-panel {
+  border-top-color: rgba(95,69,32,.10) !important;
+}
+:root[data-theme='dark'] .content-panel {
+  background: #191613;
+  color: #e5dccd;
+}
+
+/* In light mode la zona lettura ha una texture quasi impercettibile */
+:root[data-theme='light'] .content-panel {
+  background-image:
+    linear-gradient(rgba(241,232,213,.965), rgba(241,232,213,.965)),
+    url('https://i.imgur.com/JSW0PaI.png');
+  background-size: auto, 560px;
+}
+
+/* Titoli: il font magico resta un accento, non l'intera interfaccia */
+h1#_top {
+  font-family: 'Federo', Arial, sans-serif;
+  color: #6b431f;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: .055em;
+  text-shadow: none;
+}
+:root[data-theme='dark'] h1#_top {
+  color: #e3c384;
+}
+.sl-markdown-content h2,
+.felix-entry h2,
+.felix-catalog h2 {
+  position: relative;
+  width: auto;
+  max-width: 100%;
+  padding: 0 0 .38rem;
+  font-family: 'Federo', Arial, sans-serif;
+  color: #6f431f;
+  font-size: 1.65rem;
+  letter-spacing: .035em;
+  background: none;
+  border-bottom: 1px solid rgba(133,97,6,.18);
+}
+.sl-markdown-content h2::after,
+.felix-entry h2::after,
+.felix-catalog h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 4.25rem;
+  height: 1px;
+  background: #b88c3a;
+}
+:root[data-theme='dark'] .sl-markdown-content h2,
+:root[data-theme='dark'] .felix-entry h2,
+:root[data-theme='dark'] .felix-catalog h2 {
+  color: #e1c07d;
+  border-bottom-color: rgba(216,189,128,.15);
+}
+.sl-markdown-content h3,
+.felix-entry h3 {
+  font-family: 'Federo', Arial, sans-serif;
+  color: #80521f;
+}
+:root[data-theme='dark'] .sl-markdown-content h3,
+:root[data-theme='dark'] .felix-entry h3 {
+  color: #caa55d;
+}
+
+/* Testo: leggermente meno "libro antico", più manuale editoriale */
+.sl-markdown-content {
+  font-family: 'Antic Slab', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.72;
+}
+:root[data-theme='light'] .sl-markdown-content {
+  color: #392e26;
+}
+:root[data-theme='light'] .sl-markdown-content p,
+:root[data-theme='light'] .sl-markdown-content li {
+  color: #392e26;
+}
+:root[data-theme='light'] .sl-markdown-content a {
+  color: #805b20;
+}
+:root[data-theme='light'] .sl-markdown-content a:hover {
+  color: #5f3b12;
+}
+
+/* Header delle entità: più simile a una scheda editoriale */
+.felix-entry-header {
+  margin: .35rem 0 2.2rem;
+  padding: 1.2rem 1.25rem;
+  border: 1px solid rgba(133,97,6,.16);
+  border-radius: 10px;
+  background:
+    linear-gradient(115deg, rgba(184,140,58,.075), transparent 48%),
+    rgba(255,255,255,.16);
+  box-shadow: 0 10px 30px rgba(82,58,26,.07);
+}
+:root[data-theme='dark'] .felix-entry-header {
+  border-color: rgba(216,189,128,.16);
+  background:
+    linear-gradient(115deg, rgba(184,140,58,.07), transparent 48%),
+    rgba(255,255,255,.015);
+}
+.felix-kicker {
+  color: #9a7132;
+  font-size: .72rem;
+  letter-spacing: .14em;
+}
+.felix-lead {
+  color: #665b4d;
+  font-family: 'Antic Slab', Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+:root[data-theme='dark'] .felix-lead {
+  color: #bdb2a4;
+}
+.felix-entry-image {
+  border: 1px solid rgba(133,97,6,.25);
+  border-radius: 6px;
+  box-shadow: 0 10px 26px rgba(67,45,20,.16);
+  transform: none;
+}
+
+/* Badge: piccoli metadati editoriali */
+.felix-badge {
+  min-height: 1.6rem;
+  padding: .15rem .52rem;
+  border-color: rgba(133,97,6,.28);
+  background: rgba(184,140,58,.065);
+  color: #76501c;
+  font-size: .71rem;
+  letter-spacing: .035em;
+}
+:root[data-theme='dark'] .felix-badge {
+  border-color: rgba(216,189,128,.28);
+  color: #d5b674;
+}
+
+/* Tabelle più sobrie e più leggibili */
+.sl-markdown-content table,
+.felix-values {
+  border: 1px solid rgba(110,79,35,.15);
+  border-radius: 10px;
+  background: rgba(255,255,255,.30);
+  box-shadow: 0 8px 22px rgba(65,45,20,.06);
+}
+.sl-markdown-content th,
+.felix-values th {
+  font-family: 'Federo', Arial, sans-serif;
+  color: #5b3a17;
+  background: #dfcda8;
+  border-color: rgba(110,79,35,.12) !important;
+}
+.sl-markdown-content td,
+.felix-values td {
+  border-color: rgba(110,79,35,.09) !important;
+}
+:root[data-theme='dark'] .sl-markdown-content table,
+:root[data-theme='dark'] .felix-values {
+  background: rgba(255,255,255,.018);
+  border-color: rgba(216,189,128,.15);
+}
+:root[data-theme='dark'] .sl-markdown-content th,
+:root[data-theme='dark'] .felix-values th {
+  color: #e2c27f;
+  background: #30271f;
+}
+
+/* Relazioni: niente grossi riquadri beige */
+.felix-relations {
+  margin-top: 1.65rem;
+  padding: .85rem 1rem .9rem 1.15rem;
+  border: 0;
+  border-left: 2px solid #b88c3a;
+  border-radius: 0;
+  background: linear-gradient(90deg, rgba(184,140,58,.055), transparent 72%);
+}
+.felix-relations h2 {
+  margin-top: 0;
+  margin-bottom: .55rem;
+  font-size: 1.35rem;
+}
+
+/* Note: più discrete */
+.sl-markdown-content blockquote {
+  border-inline-start: 2px solid #b88c3a;
+  border-radius: 0 7px 7px 0;
+  background: rgba(184,140,58,.055);
+  color: #665a4c;
+}
+:root[data-theme='dark'] .sl-markdown-content blockquote {
+  color: #b9afa2;
+}
+
+/* Cataloghi: pannello filtri nel chrome scuro, risultati sulla pagina */
+.felix-filters,
+:root[data-theme='light'] .felix-filters {
+  border-color: rgba(216,189,128,.18);
+  background: #211c18;
+  color: #d8cec0;
+  box-shadow: 0 12px 30px rgba(0,0,0,.16);
+}
+.felix-filters h2 {
+  color: #d5b674 !important;
+}
+.felix-filters label {
+  color: #bdb2a4;
+}
+.felix-filters select,
+.felix-filters input[type='search'] {
+  border-color: rgba(216,189,128,.2);
+  background: #171411;
+  color: #e8dfcf;
+}
+.felix-filters button {
+  border-color: rgba(216,189,128,.25);
+  background: #2a231d;
+  color: #ded4c6;
+}
+.felix-creature-row,
+.felix-catalog-list > article,
+:root[data-theme='light'] .felix-creature-row,
+:root[data-theme='light'] .felix-catalog-list > article {
+  border-color: rgba(110,79,35,.12);
+  border-radius: 9px;
+  background: rgba(255,255,255,.18);
+  box-shadow: none;
+}
+.felix-creature-row:hover,
+.felix-catalog-list > article:hover {
+  transform: translateY(-1px);
+  border-color: rgba(133,97,6,.30);
+  background: rgba(184,140,58,.045);
+}
+
+/* Home: più editoriale, meno dashboard */
+.felix-home-hero,
+:root[data-theme='light'] .felix-home-hero {
+  border-color: rgba(110,79,35,.15);
+  border-radius: 12px;
+  background:
+    radial-gradient(circle at 90% 0, rgba(184,140,58,.08), transparent 23rem),
+    rgba(255,255,255,.14);
+  box-shadow: 0 14px 34px rgba(64,43,17,.06);
+}
+.felix-home-hero::after {
+  color: rgba(128,82,31,.10);
+}
+.felix-home-card,
+:root[data-theme='light'] .felix-home-card {
+  border-color: rgba(110,79,35,.12);
+  border-radius: 10px;
+  background: rgba(255,255,255,.16);
+  box-shadow: none;
+}
+.felix-home-card:hover {
+  border-color: rgba(133,97,6,.30);
+  background: rgba(184,140,58,.045);
+}
+.felix-home-card strong,
+:root[data-theme='light'] .felix-home-card strong {
+  font-family: 'Federo', Arial, sans-serif;
+  color: #70451c;
+}
+.felix-home-card span {
+  color: #6c6154;
+}
+:root[data-theme='dark'] .felix-home-card strong {
+  color: #dfbf7d;
+}
+:root[data-theme='dark'] .felix-home-card span {
+  color: #b9afa2;
+}
+
+/* Toc desktop: più sobrio */
+.right-sidebar-panel {
+  border-inline-start-color: rgba(184,140,58,.12) !important;
+}
+.right-sidebar-panel h2,
+.right-sidebar-panel summary {
+  font-family: 'Federo', Arial, sans-serif;
+}
+.right-sidebar a {
+  font-size: .81rem;
+}
+
+/* Su larghezze medie la barra "In questa pagina" non deve sembrare un popup */
+@media (max-width: 1150px) {
+  mobile-starlight-toc nav {
+    border: 1px solid rgba(110,79,35,.13) !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Mobile: la superficie di lettura resta piena e pulita */
+@media (max-width: 900px) {
+  .content-panel {
+    border-inline: 0;
+  }
+  .felix-entry-header {
+    padding: 1rem;
+  }
+  .felix-relations {
+    padding-left: .85rem;
+  }
+}
+
