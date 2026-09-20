@@ -3,7 +3,6 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
 import FelixBadges from '../../../../components/FelixBadges.astro';
-import RelationList from '../../../../components/RelationList.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 
@@ -35,7 +34,6 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text:
   <article class="felix-entry" data-pagefind-body>
     <div class="felix-entry-header">
       <div>
-        <p class="felix-kicker">Manuali › Pozionistica › Pozionario</p>
         <p class="felix-lead">{entry.data.description}</p>
         <FelixBadges items={[entry.data.classification, entry.data.type, entry.data.administration ?? '', entry.data.legality ?? '']} />
       </div>
@@ -68,8 +66,5 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text:
         <tbody><tr><td>{entry.data.classification}</td><td>{entry.data.type}</td><td>{entry.data.standardStrength ?? '—'}</td><td>{entry.data.administration ?? '—'}</td></tr></tbody>
       </table>
     </section>
-
-    <RelationList title="Previene" items={diseases} />
-    <RelationList title="Regole collegate" items={related} />
   </article>
 </StarlightPage>
