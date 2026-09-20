@@ -1,0 +1,182 @@
+---
+type Props = {
+  searchLabel: string;
+  searchPlaceholder?: string;
+  count: number;
+  countLabel: string;
+  filtersLabel?: string;
+};
+
+const {
+  searchLabel,
+  searchPlaceholder = 'Nome, descrizione o alias...',
+  count,
+  countLabel,
+  filtersLabel = 'Filtri',
+} = Astro.props;
+
+const hasFilters = Astro.slots.has('filters');
+---
+<div class="felix-catalog felix-catalog-system" data-felix-catalog>
+  <section class="felix-catalog-main">
+    <div class="felix-catalog-toolbar">
+      <label class="felix-catalog-search">
+        <span>{searchLabel}</span>
+        <input
+          type="search"
+          data-filter="query"
+          data-filter-label="Ricerca"
+          data-param="q"
+          placeholder={searchPlaceholder}
+        />
+      </label>
+      <strong class="felix-catalog-count"><span data-count>{count}</span> {countLabel}</strong>
+    </div>
+
+    <div class:list={['felix-catalog-controls', { 'has-no-filters': !hasFilters }]} aria-label={filtersLabel}>
+      {hasFilters && <span class="felix-catalog-controls-title">{filtersLabel}</span>}
+      {hasFilters && <slot name="filters" />}
+      <div class="felix-catalog-actions">
+        <button type="button" class="felix-filter-reset" data-reset>Azzera</button>
+        <button type="button" class="felix-filter-share" data-copy-filter-link>Copia link</button>
+      </div>
+      <span class="felix-copy-status" data-copy-status role="status" aria-live="polite"></span>
+    </div>
+
+    <div class="felix-active-filters" data-active-filters hidden></div>
+
+    <div class="felix-catalog-list" data-pagefind-ignore>
+      <slot />
+    </div>
+  </section>
+</div>
+
+<script>
+  const initCatalog = (root) => {
+    if (!(root instanceof HTMLElement) || root.dataset.catalogReady === 'true') return;
+    root.dataset.catalogReady = 'true';
+
+    const cards = [...root.querySelectorAll('[data-card]')];
+    const fields = [...root.querySelectorAll('[data-filter]')];
+    const count = root.querySelector('[data-count]');
+    const active = root.querySelector('[data-active-filters]');
+    const copyStatus = root.querySelector('[data-copy-status]');
+    const params = new URLSearchParams(window.location.search);
+
+    const paramName = (field) => field.dataset.param || (field.dataset.filter === 'query' ? 'q' : field.dataset.filter || '');
+
+    fields.forEach((field) => {
+      const key = paramName(field);
+      if (!key) return;
+      const raw = params.get(key);
+      if (field instanceof HTMLInputElement && field.type === 'checkbox') {
+        field.checked = raw === '1' || raw === 'true';
+      } else if (raw !== null && 'value' in field) {
+        field.value = raw;
+      }
+    });
+
+    const fieldValue = (field) => {
+      if (field instanceof HTMLInputElement && field.type === 'checkbox') {
+        return field.checked ? (field.dataset.value || 'true') : '';
+      }
+      return 'value' in field ? String(field.value || '').trim() : '';
+    };
+
+    const labelFor = (field, value) => {
+      if (!value) return '';
+      if (field instanceof HTMLInputElement && field.type === 'checkbox') {
+        return field.dataset.activeLabel || field.dataset.filterLabel || 'Attivo';
+      }
+      const label = field.dataset.filterLabel || field.dataset.filter || '';
+      return `${label}: ${value}`;
+    };
+
+    const currentState = () => fields.map((field) => ({
+      field,
+      filter: field.dataset.filter || '',
+      param: paramName(field),
+      value: fieldValue(field),
+    }));
+
+    const renderActive = (state) => {
+      if (!(active instanceof HTMLElement)) return;
+      const labels = state.map(({ field, value }) => labelFor(field, value)).filter(Boolean);
+      active.replaceChildren(...labels.map((label) => {
+        const span = document.createElement('span');
+        span.className = 'felix-filter-chip';
+        span.textContent = label;
+        return span;
+      }));
+      active.hidden = labels.length === 0;
+    };
+
+    const syncUrl = (state) => {
+      const next = new URLSearchParams();
+      state.forEach(({ field, param, value }) => {
+        if (!param || !value) return;
+        if (field instanceof HTMLInputElement && field.type === 'checkbox') next.set(param, '1');
+        else next.set(param, value);
+      });
+      const query = next.toString();
+      history.replaceState(null, '', `${location.pathname}${query ? `?${query}` : ''}`);
+    };
+
+    const apply = (updateUrl = true) => {
+      const state = currentState();
+      let visible = 0;
+
+      cards.forEach((card) => {
+        if (!(card instanceof HTMLElement)) return;
+        let show = true;
+
+        state.forEach(({ filter, value }) => {
+          if (!show || !value) return;
+
+          if (filter === 'query') {
+            const haystack = (card.dataset.haystack || `${card.dataset.name || ''} ${card.dataset.description || ''} ${card.dataset.aliases || ''}`).toLowerCase();
+            show = haystack.includes(value.toLowerCase());
+            return;
+          }
+
+          const cardValue = card.dataset[filter] || '';
+          show = cardValue === value;
+        });
+
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+
+      if (count) count.textContent = String(visible);
+      renderActive(state);
+      if (updateUrl) syncUrl(state);
+    };
+
+    fields.forEach((field) => field.addEventListener('input', () => apply(true)));
+
+    root.querySelector('[data-reset]')?.addEventListener('click', () => {
+      fields.forEach((field) => {
+        if (field instanceof HTMLInputElement && field.type === 'checkbox') field.checked = false;
+        else if ('value' in field) field.value = '';
+      });
+      apply(true);
+    });
+
+    root.querySelector('[data-copy-filter-link]')?.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        if (copyStatus) copyStatus.textContent = 'Link copiato.';
+        window.setTimeout(() => { if (copyStatus) copyStatus.textContent = ''; }, 1800);
+      } catch {
+        if (copyStatus) copyStatus.textContent = 'Copia non disponibile: usa la barra del browser.';
+      }
+    });
+
+    apply(false);
+  };
+
+  document.querySelectorAll('[data-felix-catalog]').forEach(initCatalog);
+  document.addEventListener('astro:page-load', () => {
+    document.querySelectorAll('[data-felix-catalog]').forEach(initCatalog);
+  });
+</script>
