@@ -2,7 +2,7 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, getEntry, render } from 'astro:content';
-import FelixBadges from '../../../../components/FelixBadges.astro';
+import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 
@@ -21,10 +21,10 @@ const ingredients = entry.data.producesIngredients.map((id) => index.get(id)).fi
 const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
 const badges = [entry.data.exotic ? 'Esotica' : ''].filter(Boolean);
 const facts = [
-  ['Categoria', entry.data.category ?? '—'],
-  ['Classificazione', entry.data.classification ?? '—'],
-  ['Ostilità', entry.data.hostility ?? '—'],
-  ['Legalità', entry.data.legality ?? '—'],
+  { label: 'Categoria', value: entry.data.category ?? '—' },
+  { label: 'Classificazione', value: entry.data.classification ?? '—' },
+  { label: 'Ostilità', value: entry.data.hostility ?? '—' },
+  { label: 'Legalità', value: entry.data.legality ?? '—' },
 ];
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={headings}>
@@ -40,30 +40,13 @@ const facts = [
     }}
   />
   <article class="felix-entry" data-pagefind-body>
-    <div class="felix-entry-header">
-      <div class="felix-entry-copy">
-        <p class="felix-lead">{entry.data.description}</p>
-        <FelixBadges items={badges} />
-
-        <section class="felix-entry-brief" aria-label="In breve">
-          <h2>In breve</h2>
-          <dl class="felix-entry-facts">
-            {facts.map(([label, value]) => (
-              <div>
-                <dt>{label}</dt>
-                <dd>{value}</dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-      </div>
-      {entry.data.image && (
-        <figure class="felix-entry-visual">
-          <img class="felix-entry-image" src={entry.data.image} alt={`Illustrazione: ${entry.data.name}`} />
-        </figure>
-      )}
-    </div>
-
+    <FelixEntityHeader
+      description={entry.data.description}
+      image={entry.data.image}
+      imageAlt={`Illustrazione: ${entry.data.name}`}
+      badges={badges}
+      facts={facts}
+    />
 
     <Content />
 
