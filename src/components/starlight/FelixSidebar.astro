@@ -1,0 +1,39 @@
+---
+import MobileMenuFooter from 'virtual:starlight/components/MobileMenuFooter';
+import FelixMacroIcon from './FelixMacroIcon.astro';
+import FelixSidebarTree from './FelixSidebarTree.astro';
+
+const route = Astro.locals.starlightRoute;
+const path = Astro.url.pathname.replace(/\/+$/, '/') || '/';
+const id = route.id || '';
+const first = id.split('/').filter(Boolean)[0] || '';
+
+const areas: Record<string, { label: string; icon: 'start' | 'character' | 'play' | 'knowledge' | 'manuals' | 'world' }> = {
+  '': { label: 'Inizia da qui', icon: 'start' },
+  'il-personaggio': { label: 'Il Personaggio', icon: 'character' },
+  giocare: { label: 'Giocare', icon: 'play' },
+  'conoscenze-e-sapienze': { label: 'Conoscenze e Sapienze', icon: 'knowledge' },
+  manuali: { label: 'Manuali', icon: 'manuals' },
+  'mondo-magico': { label: 'Mondo Magico', icon: 'world' },
+};
+
+const area = areas[first] ?? areas[''];
+const currentGroup = route.sidebar.find((entry: any) => entry.type === 'group' && entry.label === area.label);
+const entries = currentGroup?.entries ?? route.sidebar;
+---
+<div class="felix-sidebar-shell">
+  <div class="felix-sidebar-heading">
+    <FelixMacroIcon name={area.icon} />
+    <span>{area.label}</span>
+  </div>
+
+  <FelixSidebarTree entries={entries} currentPath={path} macroLabel={area.label} />
+
+  <a class="felix-sidebar-home" href={Astro.locals.starlightRoute.siteTitleHref}>
+    <span aria-hidden="true">←</span> Tutte le aree
+  </a>
+</div>
+
+<div class="md:sl-hidden felix-mobile-footer">
+  <MobileMenuFooter />
+</div>
