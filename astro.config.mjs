@@ -34,6 +34,7 @@ export default defineConfig({
         Sidebar: './src/components/starlight/FelixSidebar.astro',
         TwoColumnContent: './src/components/starlight/FelixTwoColumnContent.astro',
         PageTitle: './src/components/starlight/FelixPageTitle.astro',
+        MarkdownContent: './src/components/starlight/FelixMarkdownContent.astro',
         SiteTitle: './src/components/starlight/FelixSiteTitle.astro',
       },
       sidebar: [
