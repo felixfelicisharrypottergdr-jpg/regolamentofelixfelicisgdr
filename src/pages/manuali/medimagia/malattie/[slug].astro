@@ -4,7 +4,6 @@ import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
 import { buildBacklinkIndex } from '../../../../lib/backlinks';
 import { buildFelixIndex } from '../../../../lib/content-index';
-import RelationList from '../../../../components/RelationList.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 
 export async function getStaticPaths() {
@@ -28,7 +27,6 @@ const preventionPotions = entryBacklinks
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
   <SearchMetadata type="Malattia Magica" macroarea="Manuali" aliases={entry.data.searchAliases} />
   <article class="felix-entry" data-pagefind-body>
-    <p class="felix-kicker">Manuali › Medimagia › Malattie</p>
     <p class="felix-lead">{entry.data.description}</p>
     <Content />
     {entry.data.malus && <p><strong>Malus:</strong> {entry.data.malus}</p>}
@@ -40,8 +38,5 @@ const preventionPotions = entryBacklinks
       <thead><tr><th>Salute persa</th><th>Sintomi</th></tr></thead>
       <tbody>{entry.data.symptomBands.map((band) => <tr><td>{band.range}</td><td>{band.symptoms.join(', ')}</td></tr>)}</tbody>
     </table>
-
-    <RelationList title="Può essere causata da" items={causes} />
-    <RelationList title="Prevenuta da" items={preventionPotions} />
   </article>
 </StarlightPage>
