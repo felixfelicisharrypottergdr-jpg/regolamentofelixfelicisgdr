@@ -20,14 +20,14 @@ const idFromFrontmatter = ({ data, entry }: { data: Record<string, unknown>; ent
 const docs = defineCollection({
   loader: docsLoader(),
   schema: docsSchema({
-    extend: z.object({
-      felixId: uuidSchema,
-      contentType: z.enum(['landing', 'rule', 'free']).default('rule'),
-      searchAliases: z.array(z.string()).default([]),
-      applicability: z.array(z.enum(['student', 'adult'])).default([]),
-      migration: migrationSchema,
-      prototypeExcerpt: z.boolean().default(false),
-    }),
+  extend: z.object({
+  felixId: uuidSchema.optional(),
+  contentType: z.enum(['landing', 'rule', 'free']).default('rule'),
+  searchAliases: z.array(z.string()).default([]),
+  applicability: z.array(z.enum(['student', 'adult'])).default([]),
+  migration: migrationSchema.optional(),
+  prototypeExcerpt: z.boolean().default(false),
+}),
   }),
 });
 
