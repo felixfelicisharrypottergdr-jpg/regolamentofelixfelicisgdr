@@ -35,7 +35,7 @@ const visibleFacts = facts.filter((fact) => fact.value !== undefined && fact.val
   {visibleFacts.length > 0 && (
     <section class="felix-entry-brief" aria-label="In breve">
       <h2>In breve</h2>
-      <dl class="felix-entry-facts" style={`--felix-fact-count:${Math.min(visibleFacts.length, 6)}`}>
+      <dl class="felix-entry-facts" style={`--felix-fact-count:${Math.max(1, Math.min(visibleFacts.length, 6))}`}>
         {visibleFacts.map((fact) => (
           <div>
             <dt>{fact.label}</dt>
