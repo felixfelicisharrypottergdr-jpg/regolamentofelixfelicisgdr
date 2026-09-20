@@ -33,26 +33,35 @@ const normalize = (href = '') => {
   catch { return href.replace(/\/+$/, '/') || '/'; }
 };
 
-const linkMatches = (entry: any) => {
-  if (entry.type !== 'link') return false;
+const matchingHref = (entry: any) => {
+  if (entry.type !== 'link') return '';
   const href = normalize(entry.href);
-  return entry.isCurrent || currentPath === href || (href !== '/' && currentPath.startsWith(href));
+  if (currentPath === href) return href;
+  if (href !== '/' && currentPath.startsWith(href)) return href;
+  return '';
 };
 
-const findTrail = (entries: any[], parents: { label: string; href?: string }[] = []): { label: string; href?: string }[] | null => {
+type TrailCandidate = { trail: { label: string; href?: string }[]; score: number };
+
+const collectTrails = (
+  entries: any[],
+  parents: { label: string; href?: string }[] = [],
+  out: TrailCandidate[] = [],
+) => {
   for (const entry of entries) {
-    if (entry.type === 'link' && linkMatches(entry)) {
-      return [...parents, { label: entry.label, href: entry.href }];
-    }
-    if (entry.type === 'group') {
-      const nested = findTrail(entry.entries ?? [], [...parents, { label: entry.label }]);
-      if (nested) return nested;
+    if (entry.type === 'link') {
+      const href = matchingHref(entry);
+      if (href) out.push({ trail: [...parents, { label: entry.label, href: entry.href }], score: href.length });
+    } else if (entry.type === 'group') {
+      collectTrails(entry.entries ?? [], [...parents, { label: entry.label }], out);
     }
   }
-  return null;
+  return out;
 };
 
-let trail = findTrail(route.sidebar) ?? [];
+const candidates = collectTrails(route.sidebar);
+const best = candidates.sort((a, b) => b.score - a.score)[0];
+let trail = best?.trail ?? [];
 if (!isHome && (trail.length === 0 || trail[trail.length - 1]?.label !== title)) {
   trail = [...trail, { label: title }];
 }
