@@ -953,3 +953,106 @@ body:has(.felix-home-content) .main-frame{
     grid-template-columns:1fr;
   }
 }
+
+
+/* ===== v4: testata entità come nel render di riferimento ===== */
+.felix-entry-header.has-image{
+  grid-template-columns:minmax(0,1fr) minmax(240px,300px)!important;
+  grid-template-areas:
+    "copy visual"
+    "brief brief"!important;
+}
+.felix-entry-header.no-image{
+  grid-template-columns:minmax(0,1fr)!important;
+  grid-template-areas:
+    "copy"
+    "brief"!important;
+}
+.felix-entry-copy{
+  grid-area:copy!important;
+  align-self:start!important;
+}
+.felix-entry-visual{
+  grid-area:visual!important;
+  align-self:start!important;
+}
+.felix-entry-brief{
+  grid-area:brief!important;
+  width:100%!important;
+  margin:.2rem 0 0!important;
+  padding:.82rem 0 0!important;
+  border-top:1px solid rgba(119,80,31,.18)!important;
+}
+.felix-entry-brief h2{
+  display:flex!important;
+  align-items:center!important;
+  gap:.55rem!important;
+  margin:0 0 .58rem!important;
+  padding:0!important;
+  border:0!important;
+  color:#64401f!important;
+  font-size:1.32rem!important;
+}
+.felix-entry-brief h2::before{
+  content:'';
+  width:.34rem;
+  height:.34rem;
+  border:1px solid #a8752f;
+  border-radius:50%;
+  box-shadow:0 0 0 3px rgba(168,117,47,.08);
+}
+.felix-entry-brief h2::after{
+  content:''!important;
+  display:block!important;
+  flex:1;
+  height:1px!important;
+  background:linear-gradient(90deg,rgba(136,91,34,.22),transparent)!important;
+}
+.felix-entry-facts{
+  gap:0!important;
+  overflow:hidden;
+  border:1px solid rgba(112,76,31,.14);
+  border-radius:3px;
+  background:rgba(255,255,255,.11);
+}
+.felix-entry-facts>div{
+  min-height:4.15rem!important;
+  border:0!important;
+  border-right:1px solid rgba(112,76,31,.10)!important;
+  border-radius:0!important;
+  background:transparent!important;
+}
+.felix-entry-facts>div:last-child{
+  border-right:0!important;
+}
+.felix-entry-facts dt{
+  color:#896a43!important;
+}
+.felix-entry-facts dd{
+  color:#4a3729!important;
+  font-size:.78rem!important;
+}
+@media(max-width:1250px){
+  .felix-entry-facts{
+    gap:.35rem!important;
+    border:0!important;
+    background:transparent!important;
+  }
+  .felix-entry-facts>div{
+    border:1px solid rgba(112,76,31,.12)!important;
+    border-radius:3px!important;
+    background:rgba(255,255,255,.13)!important;
+  }
+}
+@media(max-width:760px){
+  .felix-entry-header.has-image{
+    grid-template-columns:1fr!important;
+    grid-template-areas:
+      "copy"
+      "visual"
+      "brief"!important;
+  }
+  .felix-entry-visual{
+    max-width:none!important;
+  }
+}
