@@ -3,6 +3,13 @@ const configuredBase = import.meta.env.BASE_URL || '/';
 const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/`;
 ---
 <a class="site-title felix-site-title" href={base} aria-label="FELIX FELICIS — Regolamento">
-  <span class="felix-site-title-main">FELIX FELICIS</span>
-  <span class="felix-site-title-sub">Regolamento</span>
+  <svg class="felix-brand-mark" viewBox="0 0 32 48" aria-hidden="true">
+    <path d="M12 3h8M11 7h10M13 8.5v7.5l-5 8v10c0 6 3.7 10 8 10s8-4 8-10V24l-5-8V8.5" />
+    <path d="M10 27h12M12 32c2.7-1.8 5.3-1.8 8 0M14 38h4" />
+    <circle cx="16" cy="25" r="2" />
+  </svg>
+  <span class="felix-brand-copy">
+    <span class="felix-site-title-main">FELIX FELICIS</span>
+    <span class="felix-site-title-sub">GDR nel Mondo Magico</span>
+  </span>
 </a>
