@@ -25,6 +25,14 @@ const docs = defineCollection({
   contentType: z.enum(['landing', 'rule', 'free']).default('rule'),
   searchAliases: z.array(z.string()).default([]),
   applicability: z.array(z.enum(['student', 'adult'])).default([]),
+  quickFacts: z.array(z.object({
+    label: z.string(),
+    value: z.string(),
+  })).default([]),
+  quickLinks: z.array(z.object({
+    label: z.string(),
+    href: z.string(),
+  })).default([]),
   migration: migrationSchema.optional(),
   prototypeExcerpt: z.boolean().default(false),
 }),
