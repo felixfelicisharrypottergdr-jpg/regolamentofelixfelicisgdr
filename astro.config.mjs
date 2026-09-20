@@ -29,7 +29,10 @@ export default defineConfig({
         },
       },
       components: {
+        Header: './src/components/starlight/FelixHeader.astro',
         Search: './src/components/starlight/FelixSearch.astro',
+        Sidebar: './src/components/starlight/FelixSidebar.astro',
+        TwoColumnContent: './src/components/starlight/FelixTwoColumnContent.astro',
         PageTitle: './src/components/starlight/FelixPageTitle.astro',
         SiteTitle: './src/components/starlight/FelixSiteTitle.astro',
       },
