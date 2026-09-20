@@ -3,7 +3,6 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
 import FelixBadges from '../../../components/FelixBadges.astro';
-import RelationList from '../../../components/RelationList.astro';
 import SearchMetadata from '../../../components/search/SearchMetadata.astro';
 import { buildBacklinkIndex } from '../../../lib/backlinks';
 import { buildFelixIndex } from '../../../lib/content-index';
@@ -43,7 +42,6 @@ const pageHeadings = [...headings, { depth: 2, slug: 'valori', text: 'Valori' }]
   <article class="felix-entry" data-pagefind-body>
     <div class="felix-entry-header">
       <div>
-        <p class="felix-kicker">Manuali › Manuale degli Incantesimi › {entry.data.family}</p>
         <p class="felix-lead">{entry.data.description}</p>
         <FelixBadges items={[
           entry.data.family,
@@ -75,9 +73,5 @@ const pageHeadings = [...headings, { depth: 2, slug: 'valori', text: 'Valori' }]
         </tbody>
       </table>
     </section>
-
-    <RelationList title="Annulla" items={counteracts} />
-    <RelationList title="Può essere annullato da" items={counteractedBy} />
-    <RelationList title="Regole e contenuti collegati" items={related} />
   </article>
 </StarlightPage>
