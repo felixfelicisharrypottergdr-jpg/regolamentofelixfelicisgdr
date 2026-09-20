@@ -61,7 +61,7 @@ Tutti gli studenti meritevoli possono ottenere le borse, senza limiti di numero.
 
 ## Borse di Studio M.A.G.O.
 
-Le Borse di Studio M.A.G.O. vengono assegnate al raggiungimento di determinate condizioni **alla fine del VII anno** e consistono in un sostanzioso premio in denaro utile per sviluppare le [Sapienze](/conoscenze-e-sapienze/sapienze/).
+Le Borse di Studio M.A.G.O. vengono assegnate al raggiungimento di determinate condizioni **alla fine del VII anno** e consistono in un sostanzioso premio in denaro utile per sviluppare le [Sapienze](../../../../conoscenze-e-sapienze/sapienze/).
 
 ### P.I.U.M.A.
 
