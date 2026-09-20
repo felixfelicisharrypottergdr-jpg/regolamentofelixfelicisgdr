@@ -1,0 +1,9 @@
+---
+type Props = {
+  items: string[];
+};
+const { items } = Astro.props;
+---
+<div class="felix-badges" aria-label="Classificazioni">
+  {items.filter(Boolean).map((item) => <span class="felix-badge">{item}</span>)}
+</div>
