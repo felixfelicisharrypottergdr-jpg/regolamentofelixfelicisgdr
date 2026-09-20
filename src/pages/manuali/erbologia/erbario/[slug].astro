@@ -3,6 +3,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
 import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
+import FelixStatsGrid from '../../../../components/FelixStatsGrid.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 
@@ -16,7 +17,8 @@ const { Content, headings } = await render(entry);
 const index = await buildFelixIndex();
 const ingredients = entry.data.producedIngredients.map((item) => ({ ...item, linked: item.ingredientId ? index.get(item.ingredientId) : undefined }));
 const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
-const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti', text: 'Ingredienti' }, { depth: 2, slug: 'valori', text: 'Valori' }];
+const unlinkedIngredients = ingredients.filter((item) => !item.linked);
+const pageHeadings = [...headings, ...(unlinkedIngredients.length ? [{ depth: 2, slug: 'ingredienti-non-collegati', text: 'Ingredienti non collegati' }] : []), { depth: 2, slug: 'valori', text: 'Valori' }];
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
   <SearchMetadata
@@ -41,22 +43,26 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti', text: 'Ingre
     />
 
     <Content />
-
-    <section>
-      <AnchorHeading level="2" id="ingredienti">Ingredienti</AnchorHeading>
-      {ingredients.length ? (
-        <ul class="felix-related-list">
-          {ingredients.map((item) => <li>{item.linked ? <a href={item.linked.url}>{item.name}</a> : item.name}</li>)}
-        </ul>
-      ) : <p>Nessun Ingrediente indicato nella scheda.</p>}
-      {ingredients.some((item) => !item.linked) && <p class="felix-note-small">Le voci senza collegamento sono conservate integralmente ma non sono ancora state migrate come schede Ingredienti nel prototipo.</p>}
-    </section>
+    {unlinkedIngredients.length > 0 && (
+      <section>
+        <AnchorHeading level="2" id="ingredienti-non-collegati">Ingredienti non collegati</AnchorHeading>
+        <ul class="felix-related-list">{unlinkedIngredients.map((item) => <li>{item.name}</li>)}</ul>
+        <p class="felix-note-small">Queste voci sono conservate nella scheda ma non sono ancora state migrate come Ingredienti strutturati.</p>
+      </section>
+    )}
 
     <section>
       <AnchorHeading level="2" id="valori">Valori</AnchorHeading>
-      <table class="felix-values"><thead><tr><th>Classificazione</th><th>Forza</th><th>Salute</th><th>Resistenza</th><th>Destrezza</th></tr></thead>
-        <tbody><tr><td>{entry.data.classification ?? '—'}</td><td>{entry.data.values?.force ?? '//'}</td><td>{entry.data.values?.health ?? '//'}</td><td>{entry.data.values?.resistance ?? '//'}</td><td>{entry.data.values?.dexterity ?? '//'}</td></tr></tbody>
-      </table>
+      <FelixStatsGrid
+        ariaLabel="Valori della Pianta"
+        items={[
+          { label: 'Classificazione', value: entry.data.classification ?? '—' },
+          { label: 'Forza', value: entry.data.values?.force ?? '//' },
+          { label: 'Salute', value: entry.data.values?.health ?? '//' },
+          { label: 'Resistenza', value: entry.data.values?.resistance ?? '//' },
+          { label: 'Destrezza', value: entry.data.values?.dexterity ?? '//' },
+        ]}
+      />
     </section>
   </article>
 </StarlightPage>
