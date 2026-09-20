@@ -9,8 +9,21 @@ type Group = { label: string; items: LinkItem[] };
 
 const path = Astro.url.pathname.replace(/\/+$/, '');
 const slug = path.split('/').filter(Boolean).at(-1) ?? '';
-const index = await buildFelixIndex();
-const backlinks = await buildBacklinkIndex();
+const structuredRoots = [
+  '/manuali/magizoologia/bestiario/',
+  '/manuali/erbologia/erbario/',
+  '/manuali/pozionistica/pozionario/',
+  '/manuali/incantesimi/',
+  '/manuali/ingredienti/',
+  '/manuali/medimagia/malattie/',
+  '/il-personaggio/razze/',
+  '/mondo-magico/commercio/oggetti/',
+  '/mondo-magico/leggi/documenti/',
+  '/mondo-magico/leggi/articoli/',
+];
+const isStructuredRoute = structuredRoots.some((root) => path.includes(root));
+const index = isStructuredRoute ? await buildFelixIndex() : new Map();
+const backlinks = isStructuredRoute ? await buildBacklinkIndex() : new Map();
 
 const clean = <T>(items: (T | undefined | null)[]) => items.filter(Boolean) as T[];
 const linkForId = (id: string | undefined) => id ? index.get(id) : undefined;
@@ -19,16 +32,16 @@ const toLink = (item: any): LinkItem | undefined => item ? { title: item.title, 
 let groups: Group[] = [];
 let parent: LinkItem | undefined;
 
-const creatures = await getCollection('creatures');
-const plants = await getCollection('plants');
-const potions = await getCollection('potions');
-const spells = await getCollection('spells');
-const ingredients = await getCollection('ingredients');
-const diseases = await getCollection('diseases');
-const races = await getCollection('races');
-const objects = await getCollection('objects');
-const legalDocuments = await getCollection('legalDocuments');
-const legalArticles = await getCollection('legalArticles');
+const creatures = isStructuredRoute ? await getCollection('creatures') : [];
+const plants = isStructuredRoute ? await getCollection('plants') : [];
+const potions = isStructuredRoute ? await getCollection('potions') : [];
+const spells = isStructuredRoute ? await getCollection('spells') : [];
+const ingredients = isStructuredRoute ? await getCollection('ingredients') : [];
+const diseases = isStructuredRoute ? await getCollection('diseases') : [];
+const races = isStructuredRoute ? await getCollection('races') : [];
+const objects = isStructuredRoute ? await getCollection('objects') : [];
+const legalDocuments = isStructuredRoute ? await getCollection('legalDocuments') : [];
+const legalArticles = isStructuredRoute ? await getCollection('legalArticles') : [];
 
 if (path.includes('/manuali/magizoologia/bestiario/') && slug !== 'bestiario') {
   const entry = creatures.find((e) => e.data.slug === slug);
