@@ -23,7 +23,7 @@ const counteractedBy = (backlinks.get(entry.id) ?? [])
   .map((item) => index.get(item.sourceId))
   .filter(Boolean);
 const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
-const pageHeadings = [...headings, { depth: 2, slug: 'valori', text: 'Valori' }];
+const pageHeadings = headings;
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
   <SearchMetadata
@@ -51,28 +51,11 @@ const pageHeadings = [...headings, { depth: 2, slug: 'valori', text: 'Valori' }]
         { label: 'Parametro', value: entry.data.parameter },
         { label: 'Forza', value: entry.data.force ?? '—' },
         { label: 'Fatica', value: entry.data.fatigue ?? '—' },
+        { label: 'Bersaglio', value: entry.data.target ?? '—' },
+        { label: 'Gittata', value: entry.data.range ?? '—' },
       ]}
     />
 
     <Content />
-
-    <section>
-      <AnchorHeading level="2" id="valori">Valori</AnchorHeading>
-      <table class="felix-values">
-        <thead>
-          <tr><th>Tipo</th><th>Parametro</th><th>Forza</th><th>Fatica</th><th>Bersaglio</th><th>Gittata</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>{entry.data.type}</td>
-            <td>{entry.data.parameter}</td>
-            <td>{entry.data.force ?? '—'}</td>
-            <td>{entry.data.fatigue ?? '—'}</td>
-            <td>{entry.data.target ?? '—'}</td>
-            <td>{entry.data.range ?? '—'}</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
   </article>
 </StarlightPage>
