@@ -39,7 +39,19 @@ export default defineConfig({
         SiteTitle: './src/components/starlight/FelixSiteTitle.astro',
       },
       sidebar: [
-        { label: 'Inizia da qui', items: [{ label: 'Home', link: '/' }] },
+        {
+          label: 'Inizia da qui',
+          items: [
+            { label: 'Home', link: '/' },
+            { label: 'Cosa siamo', slug: 'inizia-da-qui/cosa-siamo' },
+            { label: 'Regole Generali', slug: 'inizia-da-qui/regole-generali' },
+            { label: 'Valute di Gioco', slug: 'inizia-da-qui/valute' },
+            { label: 'Allineamenti', slug: 'inizia-da-qui/allineamenti' },
+            { label: 'Popolometro', slug: 'inizia-da-qui/popolometro' },
+            { label: 'Personaggi Non Giocanti', slug: 'inizia-da-qui/png' },
+            { label: 'Lo Staff', slug: 'inizia-da-qui/staff' },
+          ],
+        },
         {
           label: 'Il Personaggio',
           items: [
@@ -49,6 +61,9 @@ export default defineConfig({
               items: [
                 { label: 'Il gioco dei PG Studenti', slug: 'il-personaggio/pg-studente' },
                 { label: 'Creare un PG Studente', slug: 'il-personaggio/pg-studente/creare-un-pg-studente' },
+                { label: 'Studiare ad Hogwarts', slug: 'il-personaggio/pg-studente/studiare-ad-hogwarts' },
+                { label: 'Coppa delle Case', slug: 'il-personaggio/pg-studente/coppa-delle-case' },
+                { label: 'Modalità di gioco', slug: 'il-personaggio/pg-studente/modalita-di-gioco' },
               ],
             },
             {
@@ -56,6 +71,8 @@ export default defineConfig({
               items: [
                 { label: 'Il gioco dei PG Adulti', slug: 'il-personaggio/pg-adulto' },
                 { label: 'Creare un PG Adulto', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto' },
+                { label: 'Lavorare nel Mondo Magico', slug: 'il-personaggio/pg-adulto/lavorare' },
+                { label: 'Modalità di gioco', slug: 'il-personaggio/pg-adulto/modalita-di-gioco' },
               ],
             },
             { label: 'Razze', link: '/il-personaggio/razze/' },
@@ -75,6 +92,7 @@ export default defineConfig({
           label: 'Giocare',
           items: [
             { label: 'Giocare', slug: 'giocare' },
+            { label: 'Modalità di Gioco', slug: 'giocare/modalita-di-gioco' },
             {
               label: 'Le Role',
               items: [
@@ -85,6 +103,7 @@ export default defineConfig({
             },
             { label: 'Le Azioni', slug: 'giocare/le-azioni' },
             { label: 'Dadi e risultati', slug: 'giocare/dadi-e-risultati' },
+            { label: 'Meccaniche di gioco', slug: 'giocare/meccaniche-di-gioco' },
             {
               label: 'Guida agli Scontri',
               items: [
@@ -134,6 +153,9 @@ export default defineConfig({
                 { label: 'Extra', slug: 'conoscenze-e-sapienze/conoscenze/extra' },
                 { label: 'Avanzate', slug: 'conoscenze-e-sapienze/conoscenze/avanzate' },
                 { label: 'Usare le Conoscenze', slug: 'conoscenze-e-sapienze/conoscenze/usare-le-conoscenze' },
+                { label: 'Ottenere nuove Conoscenze', slug: 'conoscenze-e-sapienze/conoscenze/ottenere-nuove-conoscenze' },
+                { label: 'Creare nuove Conoscenze', slug: 'conoscenze-e-sapienze/conoscenze/creare-conoscenze' },
+                { label: 'Glossario', slug: 'conoscenze-e-sapienze/conoscenze/glossario' },
               ],
             },
             {
@@ -143,6 +165,7 @@ export default defineConfig({
                 { label: 'Sapienze Magiche', slug: 'conoscenze-e-sapienze/sapienze/magiche' },
                 { label: 'Sapienze Fisiche', slug: 'conoscenze-e-sapienze/sapienze/fisiche' },
                 { label: 'Sapienze Sociali', slug: 'conoscenze-e-sapienze/sapienze/sociali' },
+                { label: 'Crescita a Debito', slug: 'conoscenze-e-sapienze/sapienze/crescita-a-debito' },
               ],
             },
             { label: 'Maestrie', slug: 'conoscenze-e-sapienze/maestrie' },
