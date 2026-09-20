@@ -1,0 +1,48 @@
+---
+import FelixBadges from './FelixBadges.astro';
+
+type Fact = { label: string; value?: string | number | null };
+type Props = {
+  description?: string;
+  image?: string;
+  imageAlt: string;
+  badges?: string[];
+  facts?: Fact[];
+};
+
+const {
+  description = '',
+  image,
+  imageAlt,
+  badges = [],
+  facts = [],
+} = Astro.props;
+
+const visibleFacts = facts.filter((fact) => fact.value !== undefined && fact.value !== null && String(fact.value).trim() !== '');
+---
+<div class:list={['felix-entry-header', { 'has-image': Boolean(image), 'no-image': !image }]}>
+  <div class="felix-entry-copy">
+    {description && <p class="felix-lead">{description}</p>}
+    <FelixBadges items={badges.filter(Boolean)} />
+
+    {visibleFacts.length > 0 && (
+      <section class="felix-entry-brief" aria-label="In breve">
+        <h2>In breve</h2>
+        <dl class="felix-entry-facts" style={`--felix-fact-count:${Math.min(visibleFacts.length, 4)}`}>
+          {visibleFacts.map((fact) => (
+            <div>
+              <dt>{fact.label}</dt>
+              <dd>{fact.value}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )}
+  </div>
+
+  {image && (
+    <figure class="felix-entry-visual">
+      <img class="felix-entry-image" src={image} alt={imageAlt} />
+    </figure>
+  )}
+</div>
