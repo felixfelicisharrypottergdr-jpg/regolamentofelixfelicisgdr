@@ -16,6 +16,9 @@ quickLinks:
   - label: "Vivere ad Hogwarts"
     href: "/il-personaggio/pg-studente/modalita-di-gioco/vivere-ad-hogwarts/"
     description: "Come utilizzare il castello nelle modalità di gioco."
+  - label: "Ottenere informazioni"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/ottenere-informazioni/"
+    description: "Quadri, Fantasmi e indagini sui PG Giocanti."
 migration:
   status: revised
   sources:
