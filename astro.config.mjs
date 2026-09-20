@@ -211,6 +211,7 @@ export default defineConfig({
                 { label: 'Come si gioca', slug: 'mondo-magico/quidditch/come-si-gioca' },
               ],
             },
+            { label: 'Giochi Magici', slug: 'mondo-magico/giochi-magici' },
             {
               label: 'Commercio Magico',
               items: [
@@ -222,6 +223,7 @@ export default defineConfig({
                 { label: 'Oggetti', link: '/mondo-magico/commercio/oggetti/' },
               ],
             },
+            { label: 'Medimagia', slug: 'mondo-magico/medimagia' },
             { label: 'Leggi Magiche', link: '/mondo-magico/leggi/' },
             {
               label: 'Magisprudenza',
