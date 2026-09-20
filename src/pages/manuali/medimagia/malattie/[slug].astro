@@ -5,6 +5,7 @@ import { getCollection, render } from 'astro:content';
 import { buildBacklinkIndex } from '../../../../lib/backlinks';
 import { buildFelixIndex } from '../../../../lib/content-index';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
+import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
 
 export async function getStaticPaths() {
   return (await getCollection('diseases')).filter((entry) => entry.data.status === 'published').map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
@@ -27,11 +28,16 @@ const preventionPotions = entryBacklinks
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
   <SearchMetadata type="Malattia Magica" macroarea="Manuali" aliases={entry.data.searchAliases} />
   <article class="felix-entry" data-pagefind-body>
-    <p class="felix-lead">{entry.data.description}</p>
+    <FelixEntityHeader
+      description={entry.data.description}
+      imageAlt={`Malattia: ${entry.data.name}`}
+      facts={[
+        { label: 'Malus', value: entry.data.malus ?? '—' },
+        { label: 'PG a rischio', value: entry.data.atRisk ?? '—' },
+        { label: 'Prevenzione', value: entry.data.prevention.length ? entry.data.prevention.join(', ') : '—' },
+      ]}
+    />
     <Content />
-    {entry.data.malus && <p><strong>Malus:</strong> {entry.data.malus}</p>}
-    {entry.data.atRisk && <p><strong>PG a rischio:</strong> {entry.data.atRisk}</p>}
-    {entry.data.prevention.length > 0 && <p><strong>Prevenzione:</strong> {entry.data.prevention.join(', ')}</p>}
 
     <AnchorHeading level="2" id="sintomi">Sintomi</AnchorHeading>
     <table class="felix-values">
