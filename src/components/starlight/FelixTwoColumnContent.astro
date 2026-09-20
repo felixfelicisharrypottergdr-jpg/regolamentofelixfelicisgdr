@@ -1,9 +1,24 @@
 ---
 const toc = Astro.locals.starlightRoute.toc;
 const hasUsefulToc = Boolean(toc && (toc.items?.length ?? 0) > 1);
+const path = Astro.url.pathname.replace(/\/+$/, '');
+const structuredPatterns = [
+  '/manuali/magizoologia/bestiario/',
+  '/manuali/erbologia/erbario/',
+  '/manuali/pozionistica/pozionario/',
+  '/manuali/incantesimi/',
+  '/manuali/ingredienti/',
+  '/manuali/medimagia/malattie/',
+  '/il-personaggio/razze/',
+  '/mondo-magico/commercio/oggetti/',
+  '/mondo-magico/leggi/documenti/',
+  '/mondo-magico/leggi/articoli/',
+];
+const isStructuredEntity = structuredPatterns.some((pattern) => path.includes(pattern) && !path.endsWith(pattern.slice(0, -1)));
+const hasRightRail = hasUsefulToc || isStructuredEntity;
 ---
-<div class:list={['felix-two-column', { 'has-toc': hasUsefulToc, 'no-toc': !hasUsefulToc }]}>
-  {hasUsefulToc && (
+<div class:list={['felix-two-column', { 'has-toc': hasRightRail, 'no-toc': !hasRightRail }]}>
+  {hasRightRail && (
     <aside class="felix-right-sidebar print:hidden">
       <slot name="right-sidebar" />
     </aside>
