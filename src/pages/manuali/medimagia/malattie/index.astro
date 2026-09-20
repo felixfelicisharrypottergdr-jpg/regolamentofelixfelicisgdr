@@ -1,0 +1,64 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { getCollection } from 'astro:content';
+import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
+import { routeForStructured } from '../../../../config/routes';
+
+const diseases = (await getCollection('diseases'))
+  .filter((entry) => entry.data.status === 'published')
+  .sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
+---
+<StarlightPage frontmatter={{ title: 'Malattie Magiche', description: 'Consulta le Malattie Magiche dell’Enciclopedia Medimagica.' }}>
+  <SearchMetadata type="Catalogo" macroarea="Manuali" aliases={['malattie magiche', 'medimagia', 'malattie']} />
+
+  <div class="felix-catalog felix-catalog-simple" data-catalog="diseases">
+    <section class="felix-catalog-main">
+      <div class="felix-catalog-toolbar">
+        <label class="felix-catalog-search">
+          <span>Cerca nelle Malattie Magiche</span>
+          <input type="search" data-disease-query placeholder="Nome, descrizione o alias..." />
+        </label>
+        <strong class="felix-catalog-count"><span data-disease-count>{diseases.length}</span> Malattie</strong>
+      </div>
+
+      <div class="felix-catalog-list" data-pagefind-ignore>
+        {diseases.map((entry) => (
+          <article
+            class="felix-creature-row"
+            data-disease-card
+            data-haystack={`${entry.data.name} ${entry.data.description} ${entry.data.searchAliases.join(' ')}`.toLowerCase()}
+          >
+            <div>
+              <h2><a href={routeForStructured('diseases', entry.data.slug)}>{entry.data.name}</a></h2>
+              <p>{entry.data.description}</p>
+              {(entry.data.malus || entry.data.atRisk) && (
+                <p class="felix-note-small">
+                  {entry.data.malus && <><strong>Malus:</strong> {entry.data.malus}</>}
+                  {entry.data.malus && entry.data.atRisk && <> · </>}
+                  {entry.data.atRisk && <><strong>PG a rischio:</strong> {entry.data.atRisk}</>}
+                </p>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const input = document.querySelector('[data-disease-query]');
+    const cards = [...document.querySelectorAll('[data-disease-card]')];
+    const count = document.querySelector('[data-disease-count]');
+    const apply = () => {
+      const query = (input?.value || '').trim().toLowerCase();
+      let visible = 0;
+      cards.forEach((card) => {
+        const show = !query || (card.dataset.haystack || '').includes(query);
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+      if (count) count.textContent = String(visible);
+    };
+    input?.addEventListener('input', apply);
+  </script>
+</StarlightPage>
