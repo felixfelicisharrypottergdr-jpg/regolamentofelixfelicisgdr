@@ -3,7 +3,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection, render } from 'astro:content';
 import { buildBacklinkIndex } from '../../../lib/backlinks';
 import { buildFelixIndex } from '../../../lib/content-index';
-import FelixBadges from '../../../components/FelixBadges.astro';
+import FelixEntityHeader from '../../../components/FelixEntityHeader.astro';
 import SearchMetadata from '../../../components/search/SearchMetadata.astro';
 
 export async function getStaticPaths() {
@@ -31,11 +31,18 @@ const usedInPotions = entryBacklinks
     filters={{ classification: entry.data.classification, exotic: entry.data.exotic }}
   />
   <article class="felix-entry" data-pagefind-body>
-    <FelixBadges items={[entry.data.classification, entry.data.goodsClass, entry.data.legality, entry.data.exotic ? 'Esotico' : '']} />
-    <dl class="felix-definition-list">
-      <dt>Provenienza</dt><dd>{entry.data.provenance}</dd>
-      <dt>Effetto</dt><dd>{entry.data.effect}</dd>
-    </dl>
+    <FelixEntityHeader
+      description={entry.data.description || entry.data.provenance}
+      imageAlt={`Ingrediente: ${entry.data.name}`}
+      badges={[entry.data.exotic ? 'Esotico' : '']}
+      facts={[
+        { label: 'Classificazione', value: entry.data.classification },
+        { label: 'Classe merce', value: entry.data.goodsClass },
+        { label: 'Legalità', value: entry.data.legality },
+        { label: 'Provenienza', value: entry.data.provenance },
+      ]}
+    />
+    {entry.data.effect && <p class="felix-entry-effect"><strong>Effetto:</strong> {entry.data.effect}</p>}
     <Content />
   </article>
 </StarlightPage>
