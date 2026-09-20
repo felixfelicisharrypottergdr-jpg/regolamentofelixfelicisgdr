@@ -59,6 +59,7 @@ export default defineConfig({
               ],
             },
             { label: 'Razze', link: '/il-personaggio/razze/' },
+            { label: 'Bagaglio e Oggetti', slug: 'il-personaggio/bagaglio' },
             {
               label: 'Parametri',
               items: [
