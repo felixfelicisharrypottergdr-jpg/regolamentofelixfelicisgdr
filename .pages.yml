@@ -53,16 +53,14 @@ content:
           create: true
           rename: false
           delete: false
-        filename:
-          template: "{title}.md"
-          field: create
+        filename: "{title}.md"
         view:
           primary: title
           fields: [title, contentType]
           search: [title, description, searchAliases]
           sort: [title]
         fields:
-          - { name: felixId, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: felixId, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: title, label: Titolo, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text }
           - name: contentType
@@ -105,14 +103,14 @@ content:
         path: src/content/races
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "{name}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: name
           fields: [name, availablePlaces, status]
           search: [name, description, searchAliases]
           sort: [name]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: name, label: Nome, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text, required: true }
@@ -152,7 +150,7 @@ content:
           search: [name, description, searchAliases]
           sort: [name, classification]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: name, label: Nome, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text, required: true }
@@ -228,13 +226,13 @@ content:
         path: src/content/diseases
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "{name}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: name
           fields: [name, malus, status]
           search: [name, description, searchAliases]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: name, label: Nome, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text, required: true }
@@ -266,13 +264,13 @@ content:
         path: src/content/ingredients
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "{name}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: name
           fields: [name, classification, goodsClass, legality, status]
           search: [name, description, searchAliases]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: name, label: Nome, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text }
@@ -301,14 +299,14 @@ content:
         path: src/content/plants
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "{name}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: name
           fields: [name, classification, hostility, knowledgeGrade, schoolYear, exotic, status]
           search: [name, description, searchAliases]
           sort: [name, classification]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: name, label: Nome, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text, required: true }
@@ -372,14 +370,14 @@ content:
         path: src/content/spells
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "{name}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: name
           fields: [name, family, type, parameter, knowledgeGrade, schoolYear, status]
           search: [name, description, searchAliases]
           sort: [name, family]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: name, label: Nome, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text, required: true }
@@ -430,14 +428,14 @@ content:
         path: src/content/potions
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "{name}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: name
           fields: [name, classification, type, administration, status]
           search: [name, description, searchAliases]
           sort: [name, classification]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: name, label: Nome, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text, required: true }
@@ -500,14 +498,14 @@ content:
         path: src/content/objects
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "{name}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: name
           fields: [name, price, function, legality, status]
           search: [name, description, searchAliases, sellers]
           sort: [name]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: name, label: Nome, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text }
@@ -547,13 +545,13 @@ content:
         path: src/content/legal-documents
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "{title}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: title
           fields: [title, onGameStatus, status]
           search: [title, description, searchAliases]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - { name: title, label: Titolo ufficiale, type: string, required: true }
           - { name: description, label: Descrizione breve, type: text, required: true }
@@ -580,13 +578,13 @@ content:
         path: src/content/legal-articles
         format: yaml-frontmatter
         operations: { create: true, rename: false, delete: false }
-        filename: { template: "art-{articleNumber}.md", field: create }
+        filename: "{slug}.md"
         view:
           primary: articleNumber
           fields: [articleNumber, documentId, section, onGameStatus, status]
           search: [articleNumber, title, description, searchAliases, topics]
         fields:
-          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
           - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
           - name: documentId
             label: Documento normativo
