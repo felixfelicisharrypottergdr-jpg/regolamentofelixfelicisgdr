@@ -6,6 +6,7 @@ import { buildBacklinkIndex } from '../../../../lib/backlinks';
 import { buildFelixIndex } from '../../../../lib/content-index';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
+import FelixDataTable from '../../../../components/FelixDataTable.astro';
 
 export async function getStaticPaths() {
   return (await getCollection('diseases')).filter((entry) => entry.data.status === 'published').map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
@@ -24,6 +25,10 @@ const preventionPotions = entryBacklinks
   .filter((item) => item.relation === 'preventsDisease')
   .map((item) => index.get(item.sourceId))
   .filter(Boolean);
+const symptomRows = entry.data.symptomBands.map((band) => ({
+  range: band.range,
+  symptoms: band.symptoms.join(', '),
+}));
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
   <SearchMetadata type="Malattia Magica" macroarea="Manuali" aliases={entry.data.searchAliases} />
@@ -40,9 +45,13 @@ const preventionPotions = entryBacklinks
     <Content />
 
     <AnchorHeading level="2" id="sintomi">Sintomi</AnchorHeading>
-    <table class="felix-values">
-      <thead><tr><th>Salute persa</th><th>Sintomi</th></tr></thead>
-      <tbody>{entry.data.symptomBands.map((band) => <tr><td>{band.range}</td><td>{band.symptoms.join(', ')}</td></tr>)}</tbody>
-    </table>
+    <FelixDataTable
+      ariaLabel="Sintomi per Salute persa"
+      columns={[
+        { key: 'range', label: 'Salute persa' },
+        { key: 'symptoms', label: 'Sintomi' },
+      ]}
+      rows={symptomRows}
+    />
   </article>
 </StarlightPage>
