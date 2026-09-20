@@ -24,25 +24,25 @@ const visibleFacts = facts.filter((fact) => fact.value !== undefined && fact.val
   <div class="felix-entry-copy">
     {description && <p class="felix-lead">{description}</p>}
     <FelixBadges items={badges.filter(Boolean)} />
-
-    {visibleFacts.length > 0 && (
-      <section class="felix-entry-brief" aria-label="In breve">
-        <h2>In breve</h2>
-        <dl class="felix-entry-facts" style={`--felix-fact-count:${Math.min(visibleFacts.length, 4)}`}>
-          {visibleFacts.map((fact) => (
-            <div>
-              <dt>{fact.label}</dt>
-              <dd>{fact.value}</dd>
-            </div>
-          ))}
-        </dl>
-      </section>
-    )}
   </div>
 
   {image && (
     <figure class="felix-entry-visual">
       <img class="felix-entry-image" src={image} alt={imageAlt} />
     </figure>
+  )}
+
+  {visibleFacts.length > 0 && (
+    <section class="felix-entry-brief" aria-label="In breve">
+      <h2>In breve</h2>
+      <dl class="felix-entry-facts" style={`--felix-fact-count:${Math.min(visibleFacts.length, 6)}`}>
+        {visibleFacts.map((fact) => (
+          <div>
+            <dt>{fact.label}</dt>
+            <dd>{fact.value}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
   )}
 </div>
