@@ -3,7 +3,6 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 import FelixBadges from '../../../../components/FelixBadges.astro';
-import RelationList from '../../../../components/RelationList.astro';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import { buildFelixIndex } from '../../../../lib/content-index';
 
@@ -80,14 +79,5 @@ const facts = [
         </div>
       </section>
     )}
-
-    <section class="felix-related-section" aria-label="Collegamenti">
-      <AnchorHeading level="2" id="collegamenti">Collegamenti</AnchorHeading>
-      <div class="felix-relations-grid">
-        <RelationList title="Può causare" items={diseases} />
-        <RelationList title="Ingredienti" items={ingredients} />
-        <RelationList title="Regole collegate" items={related} />
-      </div>
-    </section>
   </article>
 </StarlightPage>
