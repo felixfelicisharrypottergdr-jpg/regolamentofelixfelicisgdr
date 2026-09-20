@@ -1,0 +1,629 @@
+media:
+  input: public/media
+  output: /media
+
+settings:
+  content:
+    merge: true
+
+components:
+  migration:
+    type: object
+    label: Provenienza e migrazione
+    fields:
+      - name: status
+        label: Stato migrazione
+        type: select
+        required: true
+        options:
+          values:
+            - { name: to_migrate, label: Da migrare }
+            - { name: migrated, label: Migrato }
+            - { name: revised, label: Revisionato }
+            - { name: verified, label: Verificato }
+            - { name: excluded_crafting, label: Escluso — Fabbricazione ONGame }
+            - { name: external_png_v1, label: Esterno V1 — Scheda PNG }
+            - { name: native, label: Nativo del nuovo sito }
+      - name: sources
+        label: Fonti
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{document} — {section}"
+        fields:
+          - { name: document, label: Documento, type: string, required: true }
+          - { name: section, label: Sezione, type: string }
+          - { name: item, label: Voce / paragrafo, type: string }
+          - { name: sourceUrl, label: URL fonte, type: string }
+          - { name: note, label: Nota, type: text }
+
+content:
+  - name: regulation
+    label: Regolamento e pagine
+    type: group
+    items:
+      - name: docs
+        label: Pagine e Regole
+        type: collection
+        path: src/content/docs
+        subfolders: true
+        format: yaml-frontmatter
+        operations:
+          create: true
+          rename: false
+          delete: false
+        filename:
+          template: "{title}.md"
+          field: create
+        view:
+          primary: title
+          fields: [title, contentType]
+          search: [title, description, searchAliases]
+          sort: [title]
+        fields:
+          - { name: felixId, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: title, label: Titolo, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text }
+          - name: contentType
+            label: Tipo
+            type: select
+            required: true
+            options:
+              values:
+                - { name: landing, label: Pagina di ingresso }
+                - { name: rule, label: Regola }
+                - { name: free, label: Pagina libera / Altro contenuto }
+          - name: searchAliases
+            label: Alias di ricerca
+            type: string
+            list: true
+          - name: applicability
+            label: Applicabilità
+            type: select
+            options:
+              multiple: true
+              values:
+                - { name: student, label: PG Studente }
+                - { name: adult, label: PG Adulto }
+          - { name: migration, component: migration }
+          - { name: prototypeExcerpt, label: Estratto di prototipo, type: boolean }
+          - name: body
+            label: Contenuto
+            type: rich-text
+            options:
+              media: false
+
+
+  - name: character
+    label: Il Personaggio
+    type: group
+    items:
+      - name: races
+        label: Razze — Elenco delle Razze
+        type: collection
+        path: src/content/races
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "{name}.md", field: create }
+        view:
+          primary: name
+          fields: [name, availablePlaces, status]
+          search: [name, description, searchAliases]
+          sort: [name]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - { name: image, label: Immagine, type: string }
+          - name: applicability
+            label: Applicabilità
+            type: select
+            options:
+              multiple: true
+              values:
+                - { name: student, label: PG Studente }
+                - { name: adult, label: PG Adulto }
+          - { name: availablePlaces, label: Posti disponibili, type: string, description: "Dato consultativo aggiornabile dallo Staff; non viene calcolato dal sito." }
+          - { name: relatedFelixIds, label: Percorsi collegati (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Descrizione, Distribuzione e Tratti Razziali, type: rich-text, options: { media: false } }
+
+  - name: manuals
+    label: Manuali strutturati
+    type: group
+    items:
+      - name: creatures
+        label: Creature
+        type: collection
+        path: src/content/creatures
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename:
+          template: "{name}.md"
+          field: create
+        view:
+          primary: name
+          fields: [name, classification, hostility, exotic, status]
+          search: [name, description, searchAliases]
+          sort: [name, classification]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - { name: image, label: Immagine, type: string }
+          - { name: category, label: Categoria, type: string }
+          - name: classification
+            label: Classificazione
+            type: select
+            options: { values: [X, XX, XXX, XXXX, XXXXX] }
+          - { name: legality, label: Legalità, type: string }
+          - name: hostility
+            label: Ostilità
+            type: select
+            options: { values: [Mai ostile, Neutrale, Sempre ostile] }
+          - { name: exotic, label: Esotica, type: boolean }
+          - { name: schoolYear, label: Anno scolastico, type: string }
+          - name: affectedParameters
+            label: Parametri del bersaglio intaccati
+            type: string
+            list: true
+          - name: values
+            label: Valori
+            type: object
+            fields:
+              - { name: force, label: Forza, type: number }
+              - { name: health, label: Salute, type: number }
+              - { name: resistance, label: Resistenza, type: number }
+              - { name: dexterity, label: Destrezza, type: number }
+          - name: producesIngredients
+            label: Ingredienti
+            type: reference
+            options:
+              collection: ingredients
+              multiple: true
+              search: "name,searchAliases"
+              value: "{id}"
+              label: "{name}"
+          - name: causesDiseases
+            label: Può causare
+            type: reference
+            options:
+              collection: diseases
+              multiple: true
+              search: "name,searchAliases"
+              value: "{id}"
+              label: "{name}"
+          - name: relatedFelixIds
+            label: Altri collegamenti (UUID)
+            type: string
+            list: true
+            description: "Campo temporaneo del prototipo per collegamenti tra tipi diversi."
+          - name: searchAliases
+            label: Alias di ricerca
+            type: string
+            list: true
+          - name: status
+            label: Stato editoriale
+            type: select
+            options:
+              values:
+                - { name: draft, label: Bozza }
+                - { name: published, label: Pubblicato }
+                - { name: archived, label: Archiviato }
+          - { name: migration, component: migration }
+          - name: body
+            label: Descrizione completa e Specifiche
+            type: rich-text
+            options: { media: false }
+
+      - name: diseases
+        label: Malattie Magiche
+        type: collection
+        path: src/content/diseases
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "{name}.md", field: create }
+        view:
+          primary: name
+          fields: [name, malus, status]
+          search: [name, description, searchAliases]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - { name: malus, label: Malus, type: string }
+          - { name: atRisk, label: PG a rischio, type: text }
+          - { name: prevention, label: Prevenzione, type: string, list: true }
+          - name: symptomBands
+            label: Sintomi per Salute persa
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{range}"
+            fields:
+              - { name: range, label: Fascia, type: string, required: true }
+              - { name: symptoms, label: Sintomi, type: string, list: true }
+          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Testo completo, type: rich-text, options: { media: false } }
+
+      - name: ingredients
+        label: Ingredienti
+        type: collection
+        path: src/content/ingredients
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "{name}.md", field: create }
+        view:
+          primary: name
+          fields: [name, classification, goodsClass, legality, status]
+          search: [name, description, searchAliases]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text }
+          - name: classification
+            label: Classificazione
+            type: select
+            required: true
+            options: { values: [X, XX, XXX, XXXX, XXXXX] }
+          - { name: goodsClass, label: Classe bene, type: string, required: true }
+          - { name: legality, label: Legalità, type: string, required: true }
+          - { name: exotic, label: Esotico, type: boolean }
+          - { name: provenance, label: Provenienza, type: string, required: true }
+          - { name: effect, label: Effetto, type: text }
+          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Testo completo, type: rich-text, options: { media: false } }
+
+      - name: plants
+        label: Piante
+        type: collection
+        path: src/content/plants
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "{name}.md", field: create }
+        view:
+          primary: name
+          fields: [name, classification, hostility, knowledgeGrade, schoolYear, exotic, status]
+          search: [name, description, searchAliases]
+          sort: [name, classification]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - { name: image, label: Immagine, type: string }
+          - name: classification
+            label: Classificazione
+            type: select
+            options: { values: [X, XX, XXX, XXXX, XXXXX] }
+          - { name: legality, label: Legalità, type: string }
+          - name: hostility
+            label: Ostilità
+            type: select
+            options: { values: [Mai ostile, Neutrale, Sempre ostile] }
+          - { name: exotic, label: Esotica, type: boolean }
+          - name: knowledgeGrade
+            label: Grado di Conoscenza
+            type: select
+            options: { values: [Scolastica, Extra] }
+          - name: schoolYear
+            label: Anno scolastico
+            type: select
+            options: { values: [V, VI, VII] }
+          - { name: affectedParameters, label: Parametri del bersaglio intaccati, type: string, list: true }
+          - name: values
+            label: Valori
+            type: object
+            fields:
+              - { name: force, label: Forza, type: number }
+              - { name: health, label: Salute, type: number }
+              - { name: resistance, label: Resistenza, type: number }
+              - { name: dexterity, label: Destrezza, type: number }
+          - name: producedIngredients
+            label: Ingredienti prodotti
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - name: ingredientId
+                label: Scheda Ingrediente collegata
+                type: reference
+                options:
+                  collection: ingredients
+                  search: "name,searchAliases"
+                  value: "{id}"
+                  label: "{name}"
+              - { name: name, label: Nome Ingrediente, type: string, required: true }
+          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Descrizione completa e Specifiche, type: rich-text, options: { media: false } }
+
+      - name: spells
+        label: Incantesimi
+        type: collection
+        path: src/content/spells
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "{name}.md", field: create }
+        view:
+          primary: name
+          fields: [name, family, type, parameter, knowledgeGrade, schoolYear, status]
+          search: [name, description, searchAliases]
+          sort: [name, family]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - { name: image, label: Immagine, type: string }
+          - name: family
+            label: Famiglia del Manuale
+            type: select
+            required: true
+            options:
+              values: [Arcaici, Autoconclusivi, Difensivi, Elementali, Mentali ed Illusioni, Offensivi, Oscuri, Trasfigurativi]
+          - { name: type, label: Tipo, type: string, required: true }
+          - { name: parameter, label: Parametro, type: string, required: true }
+          - { name: force, label: Forza, type: string }
+          - { name: fatigue, label: Fatica, type: string }
+          - { name: target, label: Bersaglio, type: string }
+          - { name: range, label: Gittata, type: string }
+          - name: knowledgeGrade
+            label: Grado di Conoscenza
+            type: select
+            options:
+              values: [Autoconclusiva, Scolastica, Extra, Avanzata]
+          - name: schoolYear
+            label: Anno scolastico
+            type: select
+            options: { values: [V, VI, VII] }
+          - { name: affectedParameters, label: Parametri del bersaglio intaccati, type: string, list: true }
+          - name: counteractsSpells
+            label: Annulla / controincantesimo di
+            type: reference
+            options:
+              collection: spells
+              multiple: true
+              search: "name,searchAliases"
+              value: "{id}"
+              label: "{name}"
+          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Descrizione, Specifiche e note, type: rich-text, options: { media: false } }
+
+      - name: potions
+        label: Pozioni
+        type: collection
+        path: src/content/potions
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "{name}.md", field: create }
+        view:
+          primary: name
+          fields: [name, classification, type, administration, status]
+          search: [name, description, searchAliases]
+          sort: [name, classification]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - { name: image, label: Immagine, type: string }
+          - name: classification
+            label: Classificazione
+            type: select
+            required: true
+            options: { values: [X, XX, XXX, XXXX, XXXXX] }
+          - { name: type, label: Tipologia, type: string, required: true }
+          - { name: knowledgeGrade, label: Grado di conoscenza, type: string }
+          - { name: schoolYear, label: Anno scolastico, type: string }
+          - { name: standardStrength, label: Forza Standard, type: number }
+          - { name: administration, label: Somministrazione, type: string }
+          - { name: legality, label: Legalità, type: string }
+          - name: ingredients
+            label: Ingredienti e dosi
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name} — {amount}"
+            fields:
+              - name: ingredientId
+                label: Scheda Ingrediente collegata
+                type: reference
+                options:
+                  collection: ingredients
+                  search: "name,searchAliases"
+                  value: "{id}"
+                  label: "{name}"
+              - { name: name, label: Nome in ricetta, type: string, required: true }
+              - { name: amount, label: Dosi / quantità, type: string }
+              - { name: classification, label: Classificazione indicata, type: string }
+          - name: preventsDiseases
+            label: Previene
+            type: reference
+            options:
+              collection: diseases
+              multiple: true
+              search: "name,searchAliases"
+              value: "{id}"
+              label: "{name}"
+          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Descrizione, Specifiche e Ricetta, type: rich-text, options: { media: false } }
+
+  - name: world
+    label: Mondo Magico
+    type: group
+    items:
+      - name: objects
+        label: Oggetti
+        type: collection
+        path: src/content/objects
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "{name}.md", field: create }
+        view:
+          primary: name
+          fields: [name, price, function, legality, status]
+          search: [name, description, searchAliases, sellers]
+          sort: [name]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text }
+          - { name: image, label: Immagine, type: string }
+          - { name: price, label: Prezzo principale, type: string }
+          - { name: function, label: Funzione, type: string }
+          - { name: activation, label: Attivazione, type: string }
+          - { name: uses, label: Usi, type: string }
+          - { name: offEffects, label: Effetti OFF, type: text }
+          - { name: legality, label: Legalità, type: string }
+          - name: sellers
+            label: Punti vendita / varianti
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{shop} — {price}"
+            fields:
+              - { name: shop, label: Negozio, type: string, required: true }
+              - { name: shopAlignment, label: Allineamento Negozio, type: string }
+              - { name: price, label: Prezzo, type: string }
+              - { name: uses, label: Usi / durata, type: string }
+              - { name: legality, label: Legalità, type: string }
+              - { name: notes, label: Note, type: text }
+          - { name: relatedFelixIds, label: Collegamenti (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Descrizione ON e testo completo, type: rich-text, options: { media: false } }
+
+      - name: legalDocuments
+        label: Documenti normativi
+        type: collection
+        path: src/content/legal-documents
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "{title}.md", field: create }
+        view:
+          primary: title
+          fields: [title, onGameStatus, status]
+          search: [title, description, searchAliases]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: title, label: Titolo ufficiale, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - name: onGameStatus
+            label: Stato ONGame
+            type: select
+            required: true
+            options: { values: [Vigente, Abrogato, Sostituito] }
+          - { name: effectiveDate, label: Entrata in vigore, type: string }
+          - { name: endDate, label: Cessazione, type: string }
+          - { name: supersedes, label: Sostituisce (UUID), type: string, list: true }
+          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Testo del documento / introduzione, type: rich-text, options: { media: false } }
+
+      - name: legalArticles
+        label: Articoli
+        type: collection
+        path: src/content/legal-articles
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: { template: "art-{articleNumber}.md", field: create }
+        view:
+          primary: articleNumber
+          fields: [articleNumber, documentId, section, onGameStatus, status]
+          search: [articleNumber, title, description, searchAliases, topics]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - name: documentId
+            label: Documento normativo
+            type: reference
+            required: true
+            options:
+              collection: legalDocuments
+              search: "title,searchAliases"
+              value: "{id}"
+              label: "{title}"
+          - { name: articleNumber, label: Numero Articolo, type: string, required: true }
+          - { name: title, label: Titolo eventuale, type: string }
+          - { name: section, label: Sezione / Libro, type: string }
+          - { name: description, label: Descrizione breve, type: text }
+          - name: onGameStatus
+            label: Stato ONGame
+            type: select
+            required: true
+            options: { values: [Vigente, Abrogato, Sostituito] }
+          - { name: effectiveDate, label: Entrata in vigore, type: string }
+          - { name: endDate, label: Cessazione, type: string }
+          - name: supersededBy
+            label: Sostituito da
+            type: reference
+            options:
+              collection: legalArticles
+              search: "articleNumber,title,searchAliases"
+              value: "{id}"
+              label: "Art. {articleNumber} {title}"
+          - { name: topics, label: Temi, type: string, list: true }
+          - { name: relatedFelixIds, label: Regole collegate (UUID), type: string, list: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Testo dell'Articolo, type: rich-text, options: { media: false } }
