@@ -1,0 +1,45 @@
+---
+type Props = { name: 'start' | 'character' | 'play' | 'knowledge' | 'manuals' | 'world'; class?: string };
+const { name, class: className = '' } = Astro.props;
+---
+<svg class={`felix-macro-icon ${className}`} viewBox="0 0 24 24" aria-hidden="true">
+  {name === 'start' && (
+    <>
+      <path d="M12 3l2.15 5.35L20 10.5l-5.85 2.15L12 18l-2.15-5.35L4 10.5l5.85-2.15L12 3Z" />
+      <circle cx="12" cy="10.5" r="8.5" />
+    </>
+  )}
+  {name === 'character' && (
+    <>
+      <circle cx="12" cy="8" r="3.2" />
+      <path d="M5 20c.7-4.1 3.1-6.2 7-6.2s6.3 2.1 7 6.2M8.2 3.8c1-.7 2.3-1.1 3.8-1.1s2.8.4 3.8 1.1" />
+    </>
+  )}
+  {name === 'play' && (
+    <>
+      <path d="M4 19L18.7 4.3M5.2 5.2l13.6 13.6M3 7l4-4 2 2-4 4M15 17l2-2 4 4-4 2-2-4ZM15 7l2 2 4-4-2-2-4 4ZM3 17l4-2 2 2-4 4-2-4Z" />
+    </>
+  )}
+  {name === 'knowledge' && (
+    <>
+      <path d="M5 4.5h5.2c1.1 0 1.8.5 1.8 1.6V20c0-1.2-.8-1.8-2-1.8H5V4.5Zm14 0h-5.2c-1.1 0-1.8.5-1.8 1.6V20c0-1.2.8-1.8 2-1.8h5V4.5Z" />
+      <path d="M7 8h2M15 8h2M7 11h2M15 11h2" />
+    </>
+  )}
+  {name === 'manuals' && (
+    <>
+      <path d="M4.5 4.5h6c1 0 1.5.5 1.5 1.5v13c0-1.1-.7-1.7-1.8-1.7H4.5V4.5Zm15 0h-6c-1 0-1.5.5-1.5 1.5v13c0-1.1.7-1.7 1.8-1.7h5.7V4.5Z" />
+      <path d="M7 7.5h2.5M14.5 7.5H17M7 10.5h2.5M14.5 10.5H17" />
+    </>
+  )}
+  {name === 'world' && (
+    <>
+      <circle cx="12" cy="12" r="8.5" />
+      <path d="M3.8 12h16.4M12 3.5c2.2 2.1 3.3 5 3.3 8.5S14.2 18.4 12 20.5M12 3.5C9.8 5.6 8.7 8.5 8.7 12s1.1 6.4 3.3 8.5" />
+    </>
+  )}
+</svg>
+
+<style>
+  .felix-macro-icon{width:1.35rem;height:1.35rem;fill:none;stroke:currentColor;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round}
+</style>
