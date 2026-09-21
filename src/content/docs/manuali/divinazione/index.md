@@ -23,9 +23,6 @@ quickFacts:
   - label: "Bonus fuori da Trama/Ambientazione"
     value: "+10 al risultato"
 quickLinks:
-  - label: "Conoscenze e Tecniche Divinatorie"
-    href: "/manuali/divinazione/tecniche/"
-    description: "Catalogo di tutte le Tecniche Scolastiche, Extra e Avanzate."
   - label: "Usare le Conoscenze"
     href: "/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/"
     description: "Regole generali delle Conoscenze."
@@ -156,9 +153,7 @@ Il PG Consultante può però venire a conoscenza del risultato del dado se, lanc
 
 ## Conoscenze e Tecniche Divinatorie
 
-Le singole Conoscenze sono state migrate come schede autonome per preservare Specifiche, Simbologie, note, valori ed eventuali dadi secondari senza rendere questa pagina ingestibile.
-
-[Consulta il catalogo completo delle Tecniche Divinatorie →](/manuali/divinazione/tecniche/)
+La struttura delle 43 schede individuali è stata predisposta nel nuovo sistema. Le singole schede vengono pubblicate soltanto dopo la migrazione integrale di Specifiche, Simbologie, note, valori ed eventuali dadi secondari dalla fonte, evitando di esporre schede parziali come se fossero complete.
 
 > **Perché le Conoscenze Avanzate Divinatorie non hanno il bonus per Sapienza Divinatoria 25 previsto per altre Conoscenze Avanzate?**  
 > La fonte spiega che le Conoscenze Divinatorie Avanzate forniscono già vantaggi particolarmente importanti: possono dare informazioni esclusive su Trame, PG, PNG e altri spunti di gioco normalmente preclusi agli altri PG.
