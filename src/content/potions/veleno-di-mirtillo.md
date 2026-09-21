@@ -11,7 +11,9 @@ standardStrength: 200
 administration: "Orale"
 legality: "Illegale"
 ingredients:
-  - name: "Mirtilli (ottenimento autoconclusivo) Bacca di Vischio"
+  - name: "Mirtilli (ottenimento autoconclusivo)"
+  - name: "Bacca di Vischio"
+    ingredientId: "4e0d23b9-cd46-53f5-a43d-7194ea644cfe"
     amount: "2"
     classification: "X"
   - name: "Zanna di Drakul"
