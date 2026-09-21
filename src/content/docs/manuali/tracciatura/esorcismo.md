@@ -41,7 +41,7 @@ L'Esorcismo avviene attraverso la pratica di tecniche maggiori che prevedono una
 
 L'Esorcismo corrisponde all'omonima Conoscenza Avanzata **Esorcista**.
 
-#### Le Tecniche Maggiori
+## Le Tecniche Maggiori
 
 **Meccanica**
 
