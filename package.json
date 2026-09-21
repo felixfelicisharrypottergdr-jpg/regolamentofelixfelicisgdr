@@ -1,5 +1,5 @@
 {
-  "name": "felix-felicis-regolamento-prototype",
+  "name": "felix-felicis-regolamento",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "preflight": "node --check astro.config.mjs && node scripts/preflight.mjs",
-    "build:ci": "npm run preflight && astro build"
+    "build:ci": "npm run preflight && npm run audit && astro build",
+    "audit": "node scripts/audit-content.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "0.42.2",
