@@ -33,31 +33,31 @@ Per ogni Mestiere Istituzionale e Non Istituzionale esistono quattro diversi gra
 
 I PG di alto grado possono essere riconosciuti nel proprio ambito come più esperti e possono essere chiamati a svolgere azioni particolarmente delicate. I nomi concreti dei gradi cambiano da Mestiere a Mestiere; **Neo, Esperto, Notevole e Veterano** sono le denominazioni generiche.
 
-### Neo
+## Neo
 
 Sono i PG, neodiplomati ad Hogwarts o Adulti, che si cimentano per la prima volta con un nuovo Mestiere. Devono apprenderne le basi e imparare a svolgerlo da zero.
 
 **Requisiti:** 5/25 Sapienza affine al Mestiere, se esiste.
 
-### Esperto
+## Esperto
 
 Una volta apprese le basi del Mestiere iniziano a lavorare come operatori, senza responsabilità verso altri colleghi ma rispondendo del proprio operato.
 
 **Requisiti indicati dalla fonte:** 15/25 Sapienza affine al Mestiere, se esiste; Prestigio 36.
 
-### Notevole
+## Notevole
 
 Sono posti a sorveglianza di Neo ed Esperti e hanno quindi responsabilità sul proprio operato e su quello dei colleghi di grado inferiore. Nei Mestieri Istituzionali questo grado è limitato a **3 posti per Mestiere**.
 
 **Requisiti:** 20/25 Sapienza affine al Mestiere, se esiste; Prestigio 71.
 
-### Veterano
+## Veterano
 
 Sono il braccio destro del Capo e l'esecutivo delle operazioni del Mestiere di riferimento. I colleghi di grado inferiore si rivolgono a loro per dubbi e decisioni; nei Mestieri Istituzionali il grado è limitato a **1 posto per Mestiere**.
 
 **Requisiti:** 25/25 Sapienza affine al Mestiere, se esiste; Prestigio 100.
 
-### Capo
+## Capo
 
 Il grado di Capo può essere ricoperto soltanto da **PNG**, con l'eccezione dei Locandieri che possono essere anche PG. È una scelta di struttura del gioco legata alla stabilità narrativa nel tempo e alla necessità di non concentrare in un singolo giocatore il controllo permanente di un'intera istituzione.
 
