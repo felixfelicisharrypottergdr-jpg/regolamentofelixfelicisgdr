@@ -13,6 +13,7 @@ import { legalDocumentSchema, legalArticleSchema } from './schemas/legal';
 import { raceSchema } from './schemas/races';
 import { objectSchema } from './schemas/objects';
 import { missionSchema, adultMissionSchema } from './schemas/missions';
+import { masterySchema } from './schemas/masteries';
 import { migrationSchema, uuidSchema } from './schemas/common';
 
 const idFromFrontmatter = ({ data, entry }: { data: Record<string, unknown>; entry: string }) =>
@@ -123,6 +124,15 @@ const adultMissions = defineCollection({
   schema: adultMissionSchema,
 });
 
+const masteries = defineCollection({
+  loader: glob({
+    pattern: '**/*.{md,mdx}',
+    base: './src/content/masteries',
+    generateId: idFromFrontmatter,
+  }),
+  schema: masterySchema,
+});
+
 const legalDocuments = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/legal-documents', generateId: idFromFrontmatter }),
   schema: legalDocumentSchema,
@@ -142,4 +152,4 @@ const ingredients = defineCollection({
   schema: ingredientSchema,
 });
 
-export const collections = { docs, creatures, diseases, ingredients, potions, spells, plants, races, objects, missions, adultMissions, legalDocuments, legalArticles };
+export const collections = { docs, creatures, diseases, ingredients, potions, spells, plants, races, objects, missions, adultMissions, masteries, legalDocuments, legalArticles };

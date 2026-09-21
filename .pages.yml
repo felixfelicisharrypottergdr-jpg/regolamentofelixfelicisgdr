@@ -259,6 +259,54 @@ content:
           - { name: migration, component: migration }
           - { name: body, label: Note e dettagli aggiuntivi, type: rich-text, options: { media: false } }
 
+
+  - name: masterySystem
+    label: Conoscenze e Sapienze — Maestrie
+    type: group
+    items:
+      - name: masteries
+        label: Maestrie
+        type: collection
+        path: src/content/masteries
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: "{slug}.md"
+        view:
+          primary: name
+          fields: [name, wisdom, parameter, status]
+          search: [name, description, searchAliases]
+          sort: [wisdom, name]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - name: wisdom
+            label: Sapienza Magica
+            type: select
+            required: true
+            options:
+              values: [Arcaica, Difensiva, Divinatoria, Elementale, Erbologica, Magizoologica, Medimagica, Mentale, Offensiva, Oscura, Pozionistica, Trasfigurativa]
+          - { name: parameter, label: Parametro di riferimento, type: string, required: true }
+          - { name: image, label: Immagine, type: string }
+          - name: values
+            label: Valori
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}: {value}"
+            fields:
+              - { name: label, label: Voce, type: string, required: true }
+              - { name: value, label: Valore, type: string, required: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Specifiche ed effetti, type: rich-text, options: { media: false } }
+
   - name: manuals
     label: Manuali strutturati
     type: group

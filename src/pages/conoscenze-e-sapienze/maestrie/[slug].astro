@@ -1,0 +1,54 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
+import { getCollection, render } from 'astro:content';
+import FelixEntityHeader from '../../../components/FelixEntityHeader.astro';
+import FelixDataTable from '../../../components/FelixDataTable.astro';
+import SearchMetadata from '../../../components/search/SearchMetadata.astro';
+
+export async function getStaticPaths(){
+  return (await getCollection('masteries'))
+    .filter((entry)=>entry.data.status==='published')
+    .map((entry)=>({params:{slug:entry.data.slug},props:{entry}}));
+}
+const {entry}=Astro.props;
+const {Content,headings}=await render(entry);
+const pageHeadings=entry.data.values.length?[...headings,{depth:2,slug:'valori',text:'Valori'}]:headings;
+---
+<StarlightPage frontmatter={{title:entry.data.name,description:entry.data.description}} headings={pageHeadings}>
+  <SearchMetadata
+    type="Maestria"
+    macroarea="Conoscenze e Sapienze"
+    aliases={entry.data.searchAliases}
+    filters={{wisdom:entry.data.wisdom,parameter:entry.data.parameter}}
+  />
+  <article class="felix-entry" data-pagefind-body>
+    <FelixEntityHeader
+      description={entry.data.description}
+      image={entry.data.image}
+      imageAlt={`Illustrazione: ${entry.data.name}`}
+      badges={['Maestria',entry.data.wisdom]}
+      facts={[
+        {label:'Sapienza',value:entry.data.wisdom},
+        {label:'Parametro',value:entry.data.parameter},
+        {label:'Livelli',value:'I · II · III'},
+      ]}
+    />
+
+    <Content />
+
+    {entry.data.values.length>0 && (
+      <section class="felix-values-section">
+        <AnchorHeading level="2" id="valori">Valori</AnchorHeading>
+        <FelixDataTable
+          ariaLabel="Valori della Maestria"
+          columns={[
+            { key: 'label', label: 'Voce' },
+            { key: 'value', label: 'Valore' },
+          ]}
+          rows={entry.data.values}
+        />
+      </section>
+    )}
+  </article>
+</StarlightPage>
