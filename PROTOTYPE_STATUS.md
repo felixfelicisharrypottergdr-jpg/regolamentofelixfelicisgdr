@@ -27,9 +27,7 @@
 - Distinzione PG Studente / PG Adulto testata anche in una sezione del Mondo Magico.
 - Il Personaggio esteso con percorsi separati PG Studente / PG Adulto, pagine di creazione dedicate e applicabilità visibile.
 - Razze introdotte come collection strutturata sotto Il Personaggio, con Regole sulle Razze + Elenco delle Razze.
-- Campione Razze: Mezzogigante o Mezzagigante, Mezzelfo o Mezzelfa, Mezzoveela o Mezzaveela, Metamorfomagus, Lupi Mannari.
 - Ricerca globale estesa con filtro per PG Studente / PG Adulto e tipo Razza.
-- Matrice/stato di migrazione nei contenuti del campione.
 - Il Personaggio esteso con Parametri Magici, Fisici e Sociali, con applicabilità comune e differenze Studente/Adulto esposte nel testo.
 - Conoscenze e Sapienze esteso con Conoscenze Autoconclusive, Scolastiche, Extra e Avanzate; pagina Usare le Conoscenze.
 - Sapienze correttamente marcate come sistema dei PG Adulti, con pagine Magiche, Fisiche e Sociali.
@@ -89,3 +87,5 @@ Il prototipo è ora pronto per il **primo caricamento e primo build-test su GitH
 - Altre Conoscenze Scolastiche complete: 15 schede strutturate (3 per ciascuna di 5 materie), catalogo per Materia/Anno e integrazione completa delle Sapienze Fisiche e Sociali a 5 Livelli.
 - Vivere nel Mondo Magico completo: Trasporti, Commercio e Fabbricazione, 229 voci Prezzario, Quidditch, Giochi Magici, Azioni Illegali, Medimagia e Leggi Magiche.
 - Il test dell'iframe full-viewport su ForumFree resta una verifica obbligatoria dopo il primo deploy.
+
+- Le Regole del Gioco completa: premessa, Valute, Dadi, Allineamenti, Modalità condivise, Meccaniche, Popolometro, Razze, Bagaglio/Oggetti, PNG, Staff e Staff Token.
