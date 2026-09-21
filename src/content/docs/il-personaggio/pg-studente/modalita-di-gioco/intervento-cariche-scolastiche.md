@@ -96,10 +96,10 @@ Più il luogo è grande e affollato, meno sono le possibilità di essere scopert
 
 | Luogo | Modifica |
 | --- | ---: |
-| [Luoghi Affollati](./luoghi-di-hogwarts/) | -1 possibilità |
-| [Luoghi Isolati](./luoghi-di-hogwarts/) | +1 possibilità |
-| [Luoghi Vietati](./luoghi-di-hogwarts/) | +2 possibilità |
-| [Luoghi Personali](./luoghi-di-hogwarts/) | +3 possibilità |
+| [Luoghi Affollati](../luoghi-di-hogwarts/) | -1 possibilità |
+| [Luoghi Isolati](../luoghi-di-hogwarts/) | +1 possibilità |
+| [Luoghi Vietati](../luoghi-di-hogwarts/) | +2 possibilità |
+| [Luoghi Personali](../luoghi-di-hogwarts/) | +3 possibilità |
 
 La **Stanza delle Necessità**, pur essendo un Luogo Isolato, fornisce ai PG che compiono Azioni Illegali al suo interno **-2 possibilità** per essere scoperti invece di +1. Questo perché è di difficile accesso per le Cariche Scolastiche, ma ciò non rende loro impossibile scovare PG Colpevoli: svolgere Azioni Illegali al suo interno è comunque vietato e punibile.
 
