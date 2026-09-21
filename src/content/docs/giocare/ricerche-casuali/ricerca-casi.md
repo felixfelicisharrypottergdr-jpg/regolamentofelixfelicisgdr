@@ -29,7 +29,7 @@ prestigio, retorica e, se necessario, mezzi straordinari come persuasione, intim
 corruzione. Come avviene in ogni meccanismo di Ricerca Casuale all'interno di Felix Felicis,il successo o fallimento dei PG è determinato da lanci di dado e influenza direttamente
 l’evoluzione della storia narrata.
 
-### Ricerca Casi: in che modalità?
+## Ricerca Casi: in che modalità?
 
 Con il termine "Ricerca Casi" si intende l’insieme delle attività svolte dai PG Difensori, volte
 a preparare e condurre la difesa o l’accusa in procedimenti legali, arbitrati, appelli,
@@ -82,7 +82,7 @@ più favorevole e trasforma il confronto a vantaggio del Difensore. *Giocabile i
 Processo, Appello e Revisione, Custodia Cautelare, Inchiesta Ministeriale, Redazione atti e
 documenti legali
 
-### Le Fasi: cosa sono e come funzionano
+## Le Fasi: cosa sono e come funzionano
 
 La Ricerca Casi è strutturata in grandi Fasi narrative e operative che raggruppano tre
 momenti specifici della gestione di un Caso. Ogni Fase ha uno scopo chiaro e può
@@ -109,7 +109,7 @@ bonus per tutta la durata della role:
 • Ogni divisione prevista nelle formule (ad esempio Prestigio/4 o Popolarità/2) viene
 arrotondata per difetto.
 
-### Avvio della Ricerca: come e dove
+## Avvio della Ricerca: come e dove
 
 I PG Difensori vengono sempre coinvolti in una nuova Ricerca Casi, senza bisogno di
 lanciare un dado per essere chiamati in causa, diversamente da altre tipologie di Ricerche
@@ -122,7 +122,7 @@ esclusivamente per lo svolgimento della Ricerca. Se i PG decidono di approfittar
 viaggio per altre giocate, dovranno comunque sostenere le spese secondo le
 modalità scelte.
 
-### Quale Caso viene assegnato ai PG?
+## Quale Caso viene assegnato ai PG?
 
 Per stabilire la natura dell’incarico, è necessario tirare **1d7** per definire il tipo di Caso
 da affrontare.
@@ -157,7 +157,7 @@ da intraprendere.
 atti e documenti legali”, possono avviare direttamente il “Processo” sullo stesso Caso. In
 questo modo, i Casi si susseguono come segmenti coerenti di un unico blocco narrativo.
 
-### Determinazione dell’Assistito
+## Determinazione dell’Assistito
 
 Dopo aver stabilito quale Caso seguire, il Difensore deve determinare il **profilo
 processuale dell’Assistito** che rappresenterà durante le Fasi del procedimento. Questavalutazione si basa su due elementi principali: il reato di cui l’Assistito è accusato e la
@@ -252,7 +252,7 @@ Reclusione/Restrizioni: 6 mesi – 10 anni Azkaban
 Limitazioni: privazione definitiva bacchetta, interdizione perpetua Reclusione/Restrizioni:
 Azkaban a vita o esilio definitivo
 
-### Determinazione del Difensore Rivale
+## Determinazione del Difensore Rivale
 
 Nei Casi gestiti dai PG Difensori, è possibile che la controparte sia rappresentata da
 Difensori Avversari PNG. Per determinare le loro capacità, si effettua un lancio di dadi che
