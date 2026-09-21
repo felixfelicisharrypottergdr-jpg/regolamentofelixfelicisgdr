@@ -20,7 +20,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Magizoologica"
+      section: "Maestrie Magizoologiche"
       item: "Alleato dei Centauri"
 ---
 

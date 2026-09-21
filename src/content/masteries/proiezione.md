@@ -28,7 +28,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Mentale"
+      section: "Maestrie Mentali"
       item: "Proiezione Mentale"
 ---
 
@@ -37,15 +37,9 @@ migration:
 ## Effetti
 
 L'evocatore può interrompere volontariamente la Proiezione in qualsiasi momento.
-• *Livello I:* la Maestria viene considerata riuscita al
-### Livello I
-. La connessione è fragile e permette di trasmettere soltanto brevi frasi o singole immagini statiche; non è possibile trasmettere sensazioni fisiche. La comunicazione può durare fino a 1 post dell'evocatore.
-• *Livello II:* la Maestria viene considerata riuscita al
-### Livello II
-. La connessione è stabile ma limitata: è possibile trasmettere parole, brevi frasi e immagini, mentre le sensazioni fisiche risultano attenuate o confuse. La comunicazione può durare fino a 2 post consecutivi dell'evocatore.
-• *Livello III:* la Maestria viene considerata riuscita al
-### Livello III
-. La connessione è completa ed è possibile trasmettere pensieri complessi, immagini nitide e intere gamme di sensazioni fisiche senza distorsioni. La comunicazione può durare fino a 3 post consecutivi dell'evocatore.
+• *Livello I:* la Maestria viene considerata riuscita al Livello I. La connessione è fragile e permette di trasmettere soltanto brevi frasi o singole immagini statiche; non è possibile trasmettere sensazioni fisiche. La comunicazione può durare fino a 1 post dell'evocatore.
+• *Livello II:* la Maestria viene considerata riuscita al Livello II. La connessione è stabile ma limitata: è possibile trasmettere parole, brevi frasi e immagini, mentre le sensazioni fisiche risultano attenuate o confuse. La comunicazione può durare fino a 2 post consecutivi dell'evocatore.
+• *Livello III:* la Maestria viene considerata riuscita al Livello III. La connessione è completa ed è possibile trasmettere pensieri complessi, immagini nitide e intere gamme di sensazioni fisiche senza distorsioni. La comunicazione può durare fino a 3 post consecutivi dell'evocatore.
 
 **Attivazione**
 Ogni utilizzo della Proiezione Mentale richiede 1 Azione Principale per stabilire la connessione con il Bersaglio.

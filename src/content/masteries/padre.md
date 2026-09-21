@@ -22,7 +22,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Oscura"
+      section: "Maestrie Oscure"
       item: "Padre dell'Increato"
 ---
 

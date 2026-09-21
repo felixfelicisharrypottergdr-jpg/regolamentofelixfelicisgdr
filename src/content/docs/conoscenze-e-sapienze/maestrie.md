@@ -36,16 +36,14 @@ prototypeExcerpt: false
 
 # Maestrie
 
-Le Maestrie
-
-Cosa sono
+## Cosa sono
 
 Le Maestrie sono forme di magia estremamente avanzata, arcana e perlopiù sconosciuta, accessibili soltanto ai maghi e alle streghe che possiedono un'impareggiabile padronanza del campo magico a cui appartengono.
 Esistono complessivamente 36 Maestrie, 3 per ciascuna delle 12 Sapienze Magiche.
 Il loro scopo è permettere ai PG di specializzarsi ulteriormente anche all'interno di una stessa branca della magia: due personaggi possono infatti possedere la medesima Sapienza al massimo livello ed essere entrambi estremamente competenti, ma aver sviluppato capacità eccezionali completamente differenti.
 Per esempio, più Magizoologi esperti possono essere perfettamente in grado di rapportarsi con Draghi, Maridi e Centauri; soltanto chi possiede la Maestria *Guardiano dei Draghi*, tuttavia, avrà sviluppato con i Draghi un'affinità e una capacità di interazione fuori dal comune.
 
-Acquisto delle Maestrie e limitazioni
+## Acquisto delle Maestrie e limitazioni
 
 Una Maestria può essere acquistata soltanto da un PG che possiede:
 • **25/25** nella relativa Sapienza Magica;
@@ -91,9 +89,7 @@ Può infatti avere:
 
 - 1 Livello III, 1 Livello II e 1 Livello I (III-II-I)
 
-La Maestria portata al
-### Livello III
- rappresenta quindi la vera e propria specializzazione del PG all'interno di quella Sapienza: la capacità nella quale, pur essendo già un esperto dell'intera branca, ha raggiunto una padronanza eccezionale.
+La Maestria portata al Livello III rappresenta quindi la vera e propria specializzazione del PG all'interno di quella Sapienza: la capacità nella quale, pur essendo già un esperto dell'intera branca, ha raggiunto una padronanza eccezionale.
 
 Queste limitazioni si applicano separatamente alle diverse Sapienze Magiche: per le Maestrie di un'altra Sapienza Magica può possedere un altro Livello III e così via.
 
@@ -111,7 +107,7 @@ Il loro scopo è differenziare il più possibile i PG e permettere che anche per
 Per fare un'analogia con un Babbano, se esistesse la Sapienza Musicale, e le Maestrie fossero "Pianoforte", "Violino" e "Batteria", possedere tutte e tre al Livello III significherebbe essere contemporaneamente un pianista, un violinista e un batterista di livello mondiale. Sicuramente si può conoscere e padroneggiare tutti e tre gli strumenti, ma è impossibile raggiungere lo stesso livello assoluto di perfezione in ciascuno.
 Per questo un PG può possedere tutte e tre le Maestrie della propria Sapienza, ma soltanto una può raggiungere il Livello III e rappresentare la sua specializzazione assoluta; una seconda può raggiungere il Livello II, mentre l'eventuale terza resterà sempre al Livello I.
 
-Funzionamento di una Maestria
+## Funzionamento di una Maestria
 
 Ogni Maestria possiede un funzionamento specifico, descritto nel relativo specchietto.
 A seconda della Maestria possono quindi cambiare il tipo di Azione richiesta, l'eventuale consumo di Fatica o Salute, la Durata, i Bersagli, le condizioni necessarie, i limiti e le conseguenze del suo utilizzo.
@@ -128,7 +124,7 @@ Questo non rende tuttavia autoconclusive le conseguenze narrative del suo utiliz
 Durante Role Masterate, Eventi, Quest o altre situazioni gestite dal Narratore, sarà infatti quest'ultimo a fornire gli eventuali dettagli contestuali e a stabilire in che modo la Maestria interagisce con PNG, creature, ambiente, avversari, fenomeni magici o altri elementi sotto il suo controllo.
 Il Player può quindi autoconcludere ciò che il proprio PG è in grado di fare attraverso la Maestria, ma non eventuali conseguenze che dipendono da elementi esterni gestiti dal Narratore.
 
-Elenco delle Maestrie disponibili
+## Elenco delle Maestrie disponibili
 
 Maestrie Arcaiche
 
@@ -202,7 +198,7 @@ Maestrie Trasfigurative
  Limbo Vectis
  Transitus
 
-Altre Maestrie
+## Altre Maestrie
 
  Difensive - Divinatorie - Elementali - Erbologiche - Magizoologiche - Medimagiche - Mentali - Offensive - Oscure - Pozionistiche - Trasfigurative
 

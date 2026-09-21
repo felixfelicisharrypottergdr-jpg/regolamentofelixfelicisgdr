@@ -20,7 +20,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Pozionistica"
+      section: "Maestrie Pozionistiche"
       item: "Creazione di Homuncoli"
 ---
 

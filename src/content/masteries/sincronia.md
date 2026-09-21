@@ -26,7 +26,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Mentale"
+      section: "Maestrie Mentali"
       item: "Sincronia Sensoriale"
 ---
 
@@ -34,14 +34,10 @@ migration:
 
 ## Effetti
 
-• *Livello I:* la Maestria viene considerata riuscita al
-### Livello I
-. L'Evocatore riceve soltanto sprazzi visivi intermittenti e sfocati di ciò che vede il Bersaglio. L'audio e gli altri sensi sono assenti.
+• *Livello I:* la Maestria viene considerata riuscita al Livello I. L'Evocatore riceve soltanto sprazzi visivi intermittenti e sfocati di ciò che vede il Bersaglio. L'audio e gli altri sensi sono assenti.
 Se utilizzata da vicino, la Sincronia dura fino a 1 post dell'Evocatore.
 
-• *Livello II:* la Maestria viene considerata riuscita al
-### Livello II
-. L'Evocatore vede e sente attraverso il Bersaglio, ma le immagini possono risultare leggermente disturbate e i suoni ovattati. Non percepisce tatto, olfatto né eventuali percezioni magiche.
+• *Livello II:* la Maestria viene considerata riuscita al Livello II. L'Evocatore vede e sente attraverso il Bersaglio, ma le immagini possono risultare leggermente disturbate e i suoni ovattati. Non percepisce tatto, olfatto né eventuali percezioni magiche.
 Se utilizzata da vicino, la Sincronia dura fino a 2 post consecutivi dell'Evocatore.
 
 • *Livello III:* la Maestria viene considerata riuscita al 100%. L'Evocatore percepisce ciò che il Bersaglio vede, sente, tocca e odora. Può inoltre cogliere eventuali percezioni magiche che il Bersaglio stia ottenendo in quel momento attraverso Conoscenze o capacità attive.

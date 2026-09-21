@@ -30,7 +30,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Difensiva"
+      section: "Maestrie Difensive"
       item: "Protego Aura"
 ---
 

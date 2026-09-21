@@ -24,7 +24,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Erbologica"
+      section: "Maestrie Erbologiche"
       item: "Genesi Primordiale"
 ---
 

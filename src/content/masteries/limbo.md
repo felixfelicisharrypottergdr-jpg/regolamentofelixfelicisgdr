@@ -28,7 +28,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Trasfigurativa"
+      section: "Maestrie Trasfigurative"
       item: "Limbo Vectis"
 ---
 

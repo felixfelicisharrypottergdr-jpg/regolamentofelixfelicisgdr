@@ -22,7 +22,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Elementale"
+      section: "Maestrie Elementali"
       item: "Favore del Cielo"
 ---
 

@@ -24,7 +24,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Divinatoria"
+      section: "Maestrie Divinatorie"
       item: "Sesto Senso"
 ---
 

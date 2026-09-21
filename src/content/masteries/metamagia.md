@@ -22,7 +22,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Arcaica"
+      section: "Maestrie Arcaiche"
       item: "Metamagia"
 ---
 

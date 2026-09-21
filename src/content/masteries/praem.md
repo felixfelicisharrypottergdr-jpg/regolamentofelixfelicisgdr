@@ -26,7 +26,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Medimagica"
+      section: "Maestrie Medimagiche"
       item: "Praemunitio"
 ---
 

@@ -28,7 +28,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Offensiva"
+      section: "Maestrie Offensive"
       item: "Manipolazione dell'Energia Magica"
 ---
 

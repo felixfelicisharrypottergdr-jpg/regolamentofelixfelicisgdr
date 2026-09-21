@@ -28,7 +28,7 @@ migration:
   status: migrated
   sources:
     - document: "Maestrie"
-      section: "Maestrie Mentale"
+      section: "Maestrie Mentali"
       item: "Emulazione Temporanea"
 ---
 
