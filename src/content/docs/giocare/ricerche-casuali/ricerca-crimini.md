@@ -28,7 +28,7 @@ individuati.
 A questo scopo nasce la **Ricerca Crimini**: una modalità di gioco utile ai PG Malvagi
 e Intracciabili per agire sul campo in autonomia, senza intervento diretto del Narratore.
 
-### Regole generali
+## Regole generali
 
 • **Bonus e limiti per post:** si può usare al massimo **1 Conoscenza** e **1
 Pozione** per post. I due effetti possono essere utilizzati contemporaneamente, se
@@ -63,7 +63,7 @@ Se il Crimine è commissionato all’estero, il **mandante PNG/PPNG** copre il v
 Se i PG decidono di sfruttare lo spostamento per altre giocate, dovranno sostenere le spese
 di Trasporto secondo le modalità disponibili.
 
-### Premi e limitazioni
+## Premi e limitazioni
 
 Se la Ricerca Crimini viene completata con successo **senza essere identificati**, i PG
 ottengono:
@@ -82,7 +82,7 @@ PG ottengono soltanto:
 In caso di fallimento, la fuga/uscita di scena è **autoconclusiva** (i PG riescono a
 dileguarsi, ma l’incarico risulta fallito o compromesso).
 
-### Quale Crimine svolgo?
+## Quale Crimine svolgo?
 
 I Crimini vengono assegnati da PNG o PPNG. I PG lanciano **1d5** per stabilire quale
 Crimine viene commissionato (il compenso del mandante è **solo narrativo**).
