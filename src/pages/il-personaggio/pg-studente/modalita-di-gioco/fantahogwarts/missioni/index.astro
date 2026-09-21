@@ -1,10 +1,10 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection } from 'astro:content';
-import FelixCatalog from '../../../../../../../components/FelixCatalog.astro';
-import FelixBadges from '../../../../../../../components/FelixBadges.astro';
-import SearchMetadata from '../../../../../../../components/search/SearchMetadata.astro';
-import { routeForStructured } from '../../../../../../../config/routes';
+import FelixCatalog from '../../../../../../components/FelixCatalog.astro';
+import FelixBadges from '../../../../../../components/FelixBadges.astro';
+import SearchMetadata from '../../../../../../components/search/SearchMetadata.astro';
+import { routeForStructured } from '../../../../../../config/routes';
 
 const missions=(await getCollection('missions'))
   .filter((entry)=>entry.data.status==='published')
