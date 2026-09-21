@@ -273,7 +273,13 @@ export default defineConfig({
           items: [
             { label: 'Manuali', slug: 'manuali' },
             { label: 'Manuale degli Incantesimi', link: '/manuali/incantesimi/' },
-            { label: 'Altre Conoscenze Scolastiche', slug: 'manuali/conoscenze-scolastiche' },
+            {
+              label: 'Altre Conoscenze Scolastiche',
+              items: [
+                { label: 'Panoramica', slug: 'manuali/conoscenze-scolastiche' },
+                { label: 'Catalogo delle 15 Conoscenze', link: '/manuali/conoscenze-scolastiche/conoscenze/' },
+              ],
+            },
             { label: 'Divinazione', slug: 'manuali/divinazione' },
             {
               label: 'Medimagia',
