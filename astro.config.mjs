@@ -6,9 +6,31 @@ const githubUserSite = githubOwner && githubRepo === `${githubOwner}.github.io`;
 const site = process.env.SITE_URL || (githubOwner ? `https://${githubOwner}.github.io` : 'https://example.github.io');
 const base = process.env.BASE_PATH || (githubOwner && githubRepo && !githubUserSite ? `/${githubRepo}` : '/');
 
+function remarkFelixBaseLinks(options = {}) {
+  const configured = options.base || '/';
+  const prefix = configured.endsWith('/') ? configured : `${configured}/`;
+
+  return (tree) => {
+    const walk = (node) => {
+      if (!node || typeof node !== 'object') return;
+      if ((node.type === 'link' || node.type === 'image') && typeof node.url === 'string') {
+        const url = node.url;
+        if (url.startsWith('/') && !url.startsWith('//') && !url.startsWith(prefix)) {
+          node.url = `${prefix}${url.replace(/^\\/+/, '')}`;
+        }
+      }
+      if (Array.isArray(node.children)) node.children.forEach(walk);
+    };
+    walk(tree);
+  };
+}
+
 export default defineConfig({
   site,
   base,
+  markdown: {
+    remarkPlugins: [[remarkFelixBaseLinks, { base }]],
+  },
   integrations: [
     starlight({
       title: 'FELIX FELICIS',
