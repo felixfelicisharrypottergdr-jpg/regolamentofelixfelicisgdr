@@ -207,6 +207,58 @@ content:
           - { name: migration, component: migration }
           - { name: body, label: Note e dettagli aggiuntivi, type: rich-text, options: { media: false } }
 
+
+  - name: adultGameplay
+    label: PG Adulto — FantaWiz
+    type: group
+    items:
+      - name: adultMissions
+        label: Missioni
+        type: collection
+        path: src/content/adult-missions
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: "{slug}.md"
+        view:
+          primary: name
+          fields: [name, category, illegal, completion, status]
+          search: [name, description, searchAliases]
+          sort: [category, name]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome Missione, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - name: category
+            label: Categoria
+            type: select
+            required: true
+            options: { values: [Sinistra, Neutrale, Virtuosa] }
+          - { name: illegal, label: Richiede Narratore / rischio di essere scoperto, type: boolean }
+          - { name: completion, label: Missione o livello a completamento, type: boolean }
+          - name: levels
+            label: Livelli
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - { name: name, label: Livello, type: string, required: true }
+              - { name: action, label: Cosa bisogna fare, type: text, required: true }
+              - { name: requirements, label: Requisiti, type: string, list: true }
+              - { name: rewards, label: Premi, type: string, list: true }
+              - { name: ifCaught, label: Se scoperto, type: string, list: true }
+              - { name: illegal, label: Richiede Narratore / rischio, type: boolean }
+              - { name: completion, label: Livello a completamento, type: boolean }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Note e dettagli aggiuntivi, type: rich-text, options: { media: false } }
+
   - name: manuals
     label: Manuali strutturati
     type: group
