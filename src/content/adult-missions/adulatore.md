@@ -3,7 +3,7 @@ id: "c24c3c31-6314-5061-96cc-9030607b161d"
 slug: "adulatore"
 name: "L'Adulatore"
 description: "Il PG esalta esageratamente la reputazione o il prestigio di un altro PG, con notizie oggettivamente false, diffondendo lodi non veritiere tramite dialoghi con altri PG o articoli della Gazzetta del Profeta."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: false
 completion: false
 levels:
@@ -34,7 +34,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Adulatore"
+      item: "FantaWiz — Missioni Sinistra — L'Adulatore"
 ---
 
 ## Note e condizioni

@@ -3,7 +3,7 @@ id: "d3d4f072-6b54-5e62-9c4d-e957486e5b06"
 slug: "tossico"
 name: "Il Tossico"
 description: "Il PG fa uso personale di Piante o Pozioni Sensoriali Illegali per alterare i propri sensi. L’uso può avvenire attraverso acquisto OFF Game, tramite ricezione ONGame o produzione/coltivazione dei PG stessi."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -46,5 +46,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Tossico"
+      item: "FantaWiz — Missioni Sinistra — Il Tossico"
 ---

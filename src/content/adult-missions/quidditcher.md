@@ -3,7 +3,7 @@ id: "5c60bebe-7077-50ce-b72b-d7b3f8d89352"
 slug: "quidditcher"
 name: "Il Quidditcher"
 description: "Il PG Adulto gioca almeno una o più partite di Quidditch."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -43,5 +43,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Quidditcher"
+      item: "FantaWiz — Missioni Neutrale — Il Quidditcher"
 ---

@@ -3,7 +3,7 @@ id: "44de6da5-83eb-5835-9bd4-dd12b3b29249"
 slug: "randagio"
 name: "Il Randagio"
 description: "Il PG è un Lupo Mannaro non registrato al Ministero della Magia."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: true
 levels:
@@ -26,5 +26,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Randagio"
+      item: "FantaWiz — Missioni Sinistra — Il Randagio"
 ---

@@ -3,7 +3,7 @@ id: "63fed3e0-bd9d-5510-97d6-2ba5b062bc84"
 slug: "intrepido"
 name: "L'Intrepido"
 description: "Il PG cerca e incontra il Profeta fra le fogne di Notturn Alley; se sfortunato, viene aggredito e rapinato dalle Megere."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: false
 completion: false
 levels:
@@ -43,5 +43,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Intrepido"
+      item: "FantaWiz — Missioni Sinistra — L'Intrepido"
 ---

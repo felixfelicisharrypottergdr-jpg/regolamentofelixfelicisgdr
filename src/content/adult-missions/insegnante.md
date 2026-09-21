@@ -3,7 +3,7 @@ id: "6df91228-f686-5458-a641-d3339c60d104"
 slug: "insegnante"
 name: "L'Insegnante"
 description: "Il PG insegna ONGame una Conoscenza Magica in suo possesso."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Insegnante"
+      item: "FantaWiz — Missioni Neutrale — L'Insegnante"
 ---
 
 ## Note e condizioni

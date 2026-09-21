@@ -3,7 +3,7 @@ id: "4be8e13e-2812-53ce-a578-d061d13b6a32"
 slug: "giocatoreincallito"
 name: "Il Giocatore Incallito"
 description: "Il PG gioca in compagnia di un altro o più PG ad uno dei Giochi Magici."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -43,7 +43,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Giocatore Incallito"
+      item: "FantaWiz — Missioni Neutrale — Il Giocatore Incallito"
 ---
 
 ## Note e condizioni

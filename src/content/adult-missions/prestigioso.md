@@ -3,7 +3,7 @@ id: "69575632-4de8-5da2-85d9-68bf06f66af6"
 slug: "prestigioso"
 name: "Il Prestigioso"
 description: "Il PG, che dimostra di essere bravo nel suo lavoro, assume un certo prestigio agli occhi di maghi e streghe."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -43,5 +43,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Prestigioso"
+      item: "FantaWiz — Missioni Neutrale — Il Prestigioso"
 ---

@@ -3,7 +3,7 @@ id: "1452703c-566d-5bec-9374-26b7cb8669b0"
 slug: "avventuriero"
 name: "L'Avventuriero"
 description: "Il PG è spesso protagonista di Avventure alternative nelle speciali sezioni di Felix Felicis GDR: Giratempo, Trix Tristis e Linea dell'Età."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Avventuriero"
+      item: "FantaWiz — Missioni Neutrale — L'Avventuriero"
 ---

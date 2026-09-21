@@ -3,7 +3,7 @@ id: "600f21a6-31e7-59b6-a69c-266f49c8d222"
 slug: "esotico"
 name: "L'Esotico"
 description: "Il PG si sposta in giro per il mondo utilizzando uno dei Trasporti Magici."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Esotico"
+      item: "FantaWiz — Missioni Neutrale — L'Esotico"
 ---

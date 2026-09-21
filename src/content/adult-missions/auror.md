@@ -3,7 +3,7 @@ id: "81246b93-ceec-5843-ae18-30ae41f4ac0f"
 slug: "auror"
 name: "L'Auror"
 description: "Il PG è un Auror e porta a termine delle Role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,5 +34,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Auror"
+      item: "FantaWiz — Missioni Neutrale — L'Auror"
 ---

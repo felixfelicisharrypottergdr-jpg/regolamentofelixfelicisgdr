@@ -3,7 +3,7 @@ id: "982352bb-e6e3-5ccb-974a-25e22d134967"
 slug: "rivoltoso"
 name: "Il Rivoltoso"
 description: "Il PG compie azioni che possono mettere in crisi lo Statuto di Non-Troppa-Segretezza, per esempio utilizzando la magia in maniera vistosa in luoghi babbani o rivelando dettagli sul Mondo Magico."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -26,5 +26,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Rivoltoso"
+      item: "FantaWiz — Missioni Sinistra — Il Rivoltoso"
 ---

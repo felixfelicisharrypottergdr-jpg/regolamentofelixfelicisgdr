@@ -3,7 +3,7 @@ id: "f96b5f8f-08bd-54bf-9272-2bae1c25a9bb"
 slug: "magizoologo"
 name: "Il Magizoologo"
 description: "Il PG è un Magizoologo e porta a termine delle role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Magizoologo"
+      item: "FantaWiz — Missioni Neutrale — Il Magizoologo"
 ---

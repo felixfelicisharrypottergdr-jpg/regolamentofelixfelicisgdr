@@ -3,7 +3,7 @@ id: "9a6edb5d-e563-540d-989e-615a2f9645c1"
 slug: "infido"
 name: "L'Infido"
 description: "Il PG attacca un altro PG alle spalle."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -26,7 +26,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Infido"
+      item: "FantaWiz — Missioni Sinistra — L'Infido"
 ---
 
 ## Note e condizioni

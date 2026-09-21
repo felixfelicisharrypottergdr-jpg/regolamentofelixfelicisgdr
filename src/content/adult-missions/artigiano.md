@@ -3,7 +3,7 @@ id: "c3cc2b02-ea01-5e92-b3e2-683be2d7f1de"
 slug: "artigiano"
 name: "L'Artigiano"
 description: "Il PG sfrutta la sua Tecnica e le sue competenze Livelli per creare oggetti che normalmente è possibile trovare anche in vendita."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Artigiano"
+      item: "FantaWiz — Missioni Neutrale — L'Artigiano"
 ---

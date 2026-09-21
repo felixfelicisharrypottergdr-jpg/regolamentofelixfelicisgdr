@@ -3,7 +3,7 @@ id: "c4ef629c-9e83-52ec-ba4f-35c90ecaa4a8"
 slug: "intracciabile"
 name: "L'Intracciabile"
 description: "Il PG è un Intracciabile e porta a termine delle role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Intracciabile"
+      item: "FantaWiz — Missioni Neutrale — L'Intracciabile"
 ---

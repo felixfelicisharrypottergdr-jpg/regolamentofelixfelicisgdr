@@ -3,7 +3,7 @@ id: "a8b40253-93a9-5183-8240-389a50db6bb7"
 slug: "curiosone"
 name: "Il Curiosone"
 description: "Il PG Adulto spia di nascosto e volontariamente uno o più PG."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -56,7 +56,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Curiosone"
+      item: "FantaWiz — Missioni Sinistra — Il Curiosone"
 ---
 
 ## Note e condizioni

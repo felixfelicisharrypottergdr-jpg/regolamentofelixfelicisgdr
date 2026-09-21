@@ -3,7 +3,7 @@ id: "50472ac6-9d2f-5716-9810-f3cf214f1d0a"
 slug: "clienteneutrale"
 name: "Il Cliente Neutrale"
 description: "Il PG è un assiduo frequentatore di Hogsmeade e delle sue Locande."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -43,5 +43,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Cliente Neutrale"
+      item: "FantaWiz — Missioni Neutrale — Il Cliente Neutrale"
 ---

@@ -3,7 +3,7 @@ id: "823a0f35-dc00-57a5-96a7-773e00d14bc9"
 slug: "rapinatore"
 name: "Il Rapinatore"
 description: "Il PG, da solo o con dei complici, esegue una rapina ai danni di un luogo o di una persona."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Rapinatore"
+      item: "FantaWiz — Missioni Sinistra — Il Rapinatore"
 ---

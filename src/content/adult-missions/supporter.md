@@ -3,7 +3,7 @@ id: "4b98945e-8d76-520e-b88e-f4d32a40940a"
 slug: "supporter"
 name: "Il Supporter"
 description: "Il PG Adulto partecipa ad una partita di Quidditch (anche scolastica) come spettatore e/o tifoso per una delle due squadre."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -43,7 +43,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Supporter"
+      item: "FantaWiz — Missioni Neutrale — Il Supporter"
 ---
 
 ## Note e condizioni

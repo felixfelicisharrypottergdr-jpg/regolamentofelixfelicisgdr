@@ -3,7 +3,7 @@ id: "1e049995-ad1d-5e45-afba-bcec32605d79"
 slug: "giornalista"
 name: "Il Giornalista"
 description: "Il PG è un Giornalista e porta a termine delle role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -43,5 +43,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Giornalista"
+      item: "FantaWiz — Missioni Neutrale — Il Giornalista"
 ---

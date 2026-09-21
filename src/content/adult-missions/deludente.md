@@ -3,7 +3,7 @@ id: "1de04d72-dcaf-5e42-b99e-e3731ff3af36"
 slug: "deludente"
 name: "Il Deludente"
 description: "Il PG perde Prestigio ONGame."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -52,7 +52,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Deludente"
+      item: "FantaWiz — Missioni Neutrale — Il Deludente"
 ---
 
 ## Note e condizioni

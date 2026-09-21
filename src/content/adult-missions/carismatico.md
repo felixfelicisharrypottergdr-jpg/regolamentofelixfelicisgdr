@@ -3,7 +3,7 @@ id: "2920afb3-67d1-5c23-904d-0016dda5dca7"
 slug: "carismatico"
 name: "Il Carismatico"
 description: "Il PG, utilizzando la propria Dialettica, riesce a vincere un duello verbale contro un altro PG Giocante o un PNG che abbia più o meno Dialettica della sua."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: false
 completion: false
 levels:
@@ -52,5 +52,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Carismatico"
+      item: "FantaWiz — Missioni Sinistra — Il Carismatico"
 ---

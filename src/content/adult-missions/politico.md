@@ -3,7 +3,7 @@ id: "1be21b31-2115-56e1-8ee5-b6fed3416645"
 slug: "politico"
 name: "Il Politico"
 description: "Il PG ricopre spesso i panni di Onorevole del Wizengamot, partecipando a Sedute Straordinarie e Processi."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -52,5 +52,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Politico"
+      item: "FantaWiz — Missioni Neutrale — Il Politico"
 ---

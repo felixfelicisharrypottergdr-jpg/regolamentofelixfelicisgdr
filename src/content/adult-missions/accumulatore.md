@@ -3,7 +3,7 @@ id: "066598c7-6061-5cb7-9d55-f2d8d179ea63"
 slug: "accumulatore"
 name: "L'Accumulatore"
 description: "Il PG, proprietario di un Laboratorio, di una Serra o di una Riserva, crea, coltiva o alleva un certo numero di Pozioni, Piante e Creature."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Accumulatore"
+      item: "FantaWiz — Missioni Neutrale — L'Accumulatore"
 ---

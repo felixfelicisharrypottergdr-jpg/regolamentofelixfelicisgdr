@@ -3,7 +3,7 @@ id: "8505d1e0-cc33-5a10-ac21-7e318ebc4394"
 slug: "venditore"
 name: "Il Venditore (Adulto)"
 description: "Il PG Adulto frequenta spesso lo Zoppo per vendere merce Legale e Illegale."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -34,7 +34,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Venditore (Adulto)"
+      item: "FantaWiz — Missioni Neutrale — Il Venditore (Adulto)"
 ---
 
 ## Note e condizioni

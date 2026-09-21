@@ -3,7 +3,7 @@ id: "7f1b4028-30b9-5f38-9d6c-ae3788bb3ecc"
 slug: "popolare"
 name: "Il Popolare"
 description: "Il PG amplia le proprie conoscenze all’interno della Comunità Magica: frequenta locande e luoghi di ritrovo, intreccia rapporti con nuove persone e lascia circolare il proprio nome, fino a diventare via via più riconoscibile e conosciuto."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -52,7 +52,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Popolare"
+      item: "FantaWiz — Missioni Neutrale — Il Popolare"
 ---
 
 ## Note e condizioni

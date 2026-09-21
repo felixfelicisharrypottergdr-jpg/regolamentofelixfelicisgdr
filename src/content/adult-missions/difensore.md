@@ -3,7 +3,7 @@ id: "01cc7541-2aaf-5b11-bf47-1d84f495c62d"
 slug: "difensore"
 name: "Il Difensore"
 description: "Il PG è un Difensore e porta a termine delle Role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Difensore"
+      item: "FantaWiz — Missioni Neutrale — Il Difensore"
 ---

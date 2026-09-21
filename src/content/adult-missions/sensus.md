@@ -3,7 +3,7 @@ id: "94a8f89d-207f-5fcd-add2-9dc2c4a1b8c9"
 slug: "sensus"
 name: "Il Sensus"
 description: "Il PG, Sensus o Divinatore, svolge una serie di mansioni cui è chiamato a rispondere da parte del Ministero della Magia in quanto esperto del settore."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Sensus"
+      item: "FantaWiz — Missioni Neutrale — Il Sensus"
 ---
 
 ## Note e condizioni

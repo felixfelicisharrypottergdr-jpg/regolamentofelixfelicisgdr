@@ -3,7 +3,7 @@ id: "cf54f486-b402-52b6-b65a-c17fe8549372"
 slug: "viaggiatore"
 name: "Il Viaggiatore"
 description: "Il PG viaggia dentro e fuori dal Regno Unito, visitando uno o più posti del mondo grazie ai Trasporti Magici."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -43,7 +43,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Viaggiatore"
+      item: "FantaWiz — Missioni Neutrale — Il Viaggiatore"
 ---
 
 ## Note e condizioni

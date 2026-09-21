@@ -3,7 +3,7 @@ id: "64462bbe-6110-532e-a302-aaab390b4302"
 slug: "nottempista"
 name: "Il Nottempista"
 description: "Il PG viaggia sul Nottetempo."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Nottempista"
+      item: "FantaWiz — Missioni Neutrale — Il Nottempista"
 ---

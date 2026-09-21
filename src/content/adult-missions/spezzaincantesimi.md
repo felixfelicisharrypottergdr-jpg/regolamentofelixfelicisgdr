@@ -3,7 +3,7 @@ id: "5d39fe3b-250a-54cb-8f8f-26c6de7ad207"
 slug: "spezzaincantesimi"
 name: "Lo Spezzaincantesimi"
 description: "Il PG è uno Spezzaincantesimi e porta a termine delle Role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,5 +34,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Lo Spezzaincantesimi"
+      item: "FantaWiz — Missioni Neutrale — Lo Spezzaincantesimi"
 ---

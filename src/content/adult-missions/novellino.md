@@ -3,7 +3,7 @@ id: "9139e8bc-e533-5cec-befd-8c41f73c7758"
 slug: "novellino"
 name: "Il Novellino"
 description: "Il PG è un Neo o Esperto Lavoratore e gioca un con altro PG Notevole o Veterano dello stesso Mestiere."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Novellino"
+      item: "FantaWiz — Missioni Neutrale — Il Novellino"
 ---

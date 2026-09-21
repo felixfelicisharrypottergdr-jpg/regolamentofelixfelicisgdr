@@ -3,7 +3,7 @@ id: "fb106092-05ae-5442-aab3-fc63315c87d6"
 slug: "guida"
 name: "La Guida"
 description: "Il PG Notevole o Veterano ruola con un Neo o Esperto Lavoratore dello stesso Mestiere."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — La Guida"
+      item: "FantaWiz — Missioni Neutrale — La Guida"
 ---

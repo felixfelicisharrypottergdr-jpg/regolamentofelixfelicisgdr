@@ -3,7 +3,7 @@ id: "5d67113d-0ae5-500d-83e0-6c48c9970959"
 slug: "bracconiere"
 name: "Il Bracconiere"
 description: "Il PG alleva Creature Magiche Illegale, maltratta e/o sperimenta incantesimi, pozioni ed altro su di esse."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -56,5 +56,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Bracconiere"
+      item: "FantaWiz — Missioni Sinistra — Il Bracconiere"
 ---

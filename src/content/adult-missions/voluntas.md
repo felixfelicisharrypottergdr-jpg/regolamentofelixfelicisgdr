@@ -3,7 +3,7 @@ id: "69108cc8-0504-5038-a9bd-735f09c0a7bc"
 slug: "voluntas"
 name: "Il Voluntas"
 description: "Il PG Voluntas svolge una serie di mansioni cui è chiamato a rispondere da parte del Ministero della Magia in quanto esperto del settore."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Voluntas"
+      item: "FantaWiz — Missioni Neutrale — Il Voluntas"
 ---
 
 ## Note e condizioni

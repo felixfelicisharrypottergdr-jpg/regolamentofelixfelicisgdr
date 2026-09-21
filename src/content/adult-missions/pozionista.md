@@ -3,7 +3,7 @@ id: "eadf1ef0-205a-52a0-a208-908b5dd1c764"
 slug: "pozionista"
 name: "Il Pozionista"
 description: "Il PG è un Pozionista e porta a termine delle role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Pozionista"
+      item: "FantaWiz — Missioni Neutrale — Il Pozionista"
 ---

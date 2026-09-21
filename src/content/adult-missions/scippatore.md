@@ -3,7 +3,7 @@ id: "7f9167fe-ecf1-5e8e-91a4-2721beab09da"
 slug: "scippatore"
 name: "Lo Scippatore"
 description: "Il PG esegue uno scippo su un altro PG presente in una role."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -26,5 +26,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Lo Scippatore"
+      item: "FantaWiz — Missioni Sinistra — Lo Scippatore"
 ---

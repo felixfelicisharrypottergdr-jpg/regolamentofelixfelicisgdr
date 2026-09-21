@@ -3,7 +3,7 @@ id: "ca487f58-0bc6-5468-862f-362b425c9394"
 slug: "indiscreto"
 name: "L'Indiscreto"
 description: "Il PG Adulto si imbatte per caso in una situazione privata, di uno o tra due o più PG, in cui decide di ficcanasare."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -56,7 +56,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Indiscreto"
+      item: "FantaWiz — Missioni Sinistra — L'Indiscreto"
 ---
 
 ## Note e condizioni

@@ -3,7 +3,7 @@ id: "8042dff5-a505-5665-b9c5-29b25db6d249"
 slug: "nostalgico"
 name: "Il Nostalgico"
 description: "Il PG Adulto ambienta una role ad Hogwarts - spinto da valide ragioni - o nelle sue Valli."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Nostalgico"
+      item: "FantaWiz — Missioni Neutrale — Il Nostalgico"
 ---
 
 ## Note e condizioni

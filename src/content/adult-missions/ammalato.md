@@ -3,7 +3,7 @@ id: "26f3a8f0-e152-55c0-b704-b04b82dbc72c"
 slug: "ammalato"
 name: "L'Ammalato"
 description: "Il PG Adulto, ammalato o ferito, ruola la propria convalescenza al San Mungo o altrove in compagnia di un altro o più PG."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -43,5 +43,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Ammalato"
+      item: "FantaWiz — Missioni Neutrale — L'Ammalato"
 ---

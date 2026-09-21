@@ -3,7 +3,7 @@ id: "1b4b81d4-ff2b-5a24-8df5-6bb16a06dbf8"
 slug: "cercasi"
 name: "Il Cercasi Freelance"
 description: "Il PG paga un Lavoratore Non-Istituzionale per svolgere una mansione ONGame."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Cercasi Freelance"
+      item: "FantaWiz — Missioni Neutrale — Il Cercasi Freelance"
 ---
 
 ## Note e condizioni

@@ -3,7 +3,7 @@ id: "c2a62d70-e02c-51a0-b3c8-1b0780d20e0c"
 slug: "intervistato"
 name: "L'Intervistato"
 description: "Il PG Adulto viene intervistato da un PG Giornalista, oppure viene nominato in un articolo di giornale pubblicato dal Narratore o da un PG Giornalista."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,5 +34,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Intervistato"
+      item: "FantaWiz — Missioni Neutrale — L'Intervistato"
 ---

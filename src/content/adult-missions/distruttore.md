@@ -3,7 +3,7 @@ id: "4f655659-13b6-5b89-a5b7-28807d12816d"
 slug: "distruttore"
 name: "Il Distruttore"
 description: "Il PG danneggia o distrugge volutamente un edificio pubblico, un negozio, una locanda o una proprietà privata."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -46,7 +46,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Distruttore"
+      item: "FantaWiz — Missioni Sinistra — Il Distruttore"
 ---
 
 ## Note e condizioni

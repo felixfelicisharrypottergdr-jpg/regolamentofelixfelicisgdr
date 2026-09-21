@@ -3,7 +3,7 @@ id: "f248847f-53d4-532f-b137-3e18feb76ceb"
 slug: "animus"
 name: "L'Animus"
 description: "Il PG, Animus o Erbologo o Magizoologo, svolge una serie di mansioni cui è chiamato a rispondere da parte del Ministero della Magia in quanto esperto del settore."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Animus"
+      item: "FantaWiz — Missioni Neutrale — L'Animus"
 ---
 
 ## Note e condizioni

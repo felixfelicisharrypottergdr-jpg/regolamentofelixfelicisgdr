@@ -3,7 +3,7 @@ id: "ef09cf12-8980-5342-a9be-9ca5cb5620f6"
 slug: "accusatore"
 name: "L'Accusatore"
 description: "Il PG fa causa ad un altro PG oppure un PNG da cui ha subito un torto."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,7 +34,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Accusatore"
+      item: "FantaWiz — Missioni Neutrale — L'Accusatore"
 ---
 
 ## Note e condizioni

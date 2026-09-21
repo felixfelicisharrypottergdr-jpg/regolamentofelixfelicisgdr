@@ -3,7 +3,7 @@ id: "89c71d64-8ca4-5fb4-af41-309183e88b68"
 slug: "decisamente"
 name: "\"Il PG voleva decisamente mutilare o ferire gravemente\""
 description: "Il PG compie un’aggressione diretta contro un altro PG, usando la magia o mezzi fisici, con l’intento di ferirlo o causandone il decesso."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -66,7 +66,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — \"Il PG voleva decisamente mutilare o ferire gravemente\""
+      item: "FantaWiz — Missioni Sinistra — \"Il PG voleva decisamente mutilare o ferire gravemente\""
 ---
 
 ## Note e condizioni

@@ -3,7 +3,7 @@ id: "2fde3923-ce60-5793-9773-494226077eef"
 slug: "arbitro"
 name: "L'Arbitro"
 description: "Il PG arbitra una partita di Quidditch tra PG Adulti o Studenti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -43,7 +43,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Arbitro"
+      item: "FantaWiz — Missioni Neutrale — L'Arbitro"
 ---
 
 ## Note e condizioni

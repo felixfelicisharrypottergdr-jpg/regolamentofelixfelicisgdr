@@ -3,7 +3,7 @@ id: "1cc6fd00-f2cd-5110-b640-9aa9dd3527fc"
 slug: "viandante"
 name: "Il Viandante"
 description: "Il PG è un assiduo frequentatore delle vie di Notturn Alley."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: false
 completion: true
 levels:
@@ -52,7 +52,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Viandante"
+      item: "FantaWiz — Missioni Sinistra — Il Viandante"
 ---
 
 ## Note e condizioni

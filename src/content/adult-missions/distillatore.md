@@ -3,7 +3,7 @@ id: "324b99fc-6343-546c-a7a0-eeff6478c058"
 slug: "distillatore"
 name: "Il Distillatore Fuorilegge"
 description: "Il PG crea Pozioni Illegali."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -26,5 +26,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Distillatore Fuorilegge"
+      item: "FantaWiz — Missioni Sinistra — Il Distillatore Fuorilegge"
 ---

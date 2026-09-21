@@ -3,7 +3,7 @@ id: "214184d2-b7f0-5222-b2c1-bbc375c91aa6"
 slug: "diffamatore"
 name: "Il Diffamatore"
 description: "Il PG danneggia gravemente la reputazione o il prestigio di un PG diffondendo notizie disonorevoli e false tramite dialoghi con altri PG o articoli della Gazzetta del Profeta."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -36,7 +36,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Diffamatore"
+      item: "FantaWiz — Missioni Sinistra — Il Diffamatore"
 ---
 
 ## Note e condizioni

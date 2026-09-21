@@ -3,7 +3,7 @@ id: "0c1caa70-8dd0-5aa0-ad95-a77f8e725d94"
 slug: "commerciantesinistro"
 name: "Il Commerciante Sinistro"
 description: "Il PG frequenta spesso l'Alchimista; al contempo, è solito comprare articoli dai negozi di Notturn Alley."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: true
 levels:
@@ -43,7 +43,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Commerciante Sinistro"
+      item: "FantaWiz — Missioni Sinistra — Il Commerciante Sinistro"
 ---
 
 ## Note e condizioni

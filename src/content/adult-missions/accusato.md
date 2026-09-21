@@ -3,7 +3,7 @@ id: "387db823-9e93-5573-b95e-5fc417df7b1f"
 slug: "accusato"
 name: "L'Accusato"
 description: "Il PG finisce nei guai con la Legge, sia esso colpevole o innocente: viene denunciato ONGame, finisce a Patteggiamento o addirittura a Processo."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,5 +34,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Accusato"
+      item: "FantaWiz — Missioni Neutrale — L'Accusato"
 ---

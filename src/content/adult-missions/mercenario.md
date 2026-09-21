@@ -3,7 +3,7 @@ id: "b29347ef-4676-5e5f-8d44-a06053b5b20b"
 slug: "mercenario"
 name: "Il Mercenario"
 description: "Il PG si fa pagare per compiere Azioni Illegali o fare del male a qualcuno, offrendo servigi alla persona che li richiede."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -26,5 +26,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Mercenario"
+      item: "FantaWiz — Missioni Sinistra — Il Mercenario"
 ---

@@ -3,7 +3,7 @@ id: "57654734-b5fe-5b24-8531-3333318f21f0"
 slug: "epistolare"
 name: "L'Epistolare"
 description: "Il PG porta a termine una role epistolare."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Epistolare"
+      item: "FantaWiz — Missioni Neutrale — L'Epistolare"
 ---
 
 ## Note e condizioni

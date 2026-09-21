@@ -3,7 +3,7 @@ id: "0fa0fa8b-8b8b-507b-9432-f6a63a89c117"
 slug: "evasore"
 name: "L'Evasore Fiscale"
 description: "Il PG di rifiuta di pagare le tasse, nel caso in cui esse vengano imposte dal Ministero della Magia."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -26,7 +26,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Evasore Fiscale"
+      item: "FantaWiz — Missioni Sinistra — L'Evasore Fiscale"
 ---
 
 ## Note e condizioni

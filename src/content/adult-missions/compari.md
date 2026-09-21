@@ -3,7 +3,7 @@ id: "44fa7811-35b1-5da1-a38f-b1e48f01e22d"
 slug: "compari"
 name: "I Compari"
 description: "Nell'arco della sua esistenza, il PG Adulto ruola diverse volte con lo stesso PG."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -52,7 +52,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — I Compari"
+      item: "FantaWiz — Missioni Neutrale — I Compari"
 ---
 
 ## Note e condizioni

@@ -3,7 +3,7 @@ id: "e7d81ec3-b5b7-5493-b422-22bc73ef8bb7"
 slug: "acumen"
 name: "L'Acumen"
 description: "Il PG, Acumen o Spezzaincantesimi, svolge una serie di mansioni cui è chiamato a rispondere da parte del Ministero della Magia in quanto esperto del settore."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Acumen"
+      item: "FantaWiz — Missioni Neutrale — L'Acumen"
 ---
 
 ## Note e condizioni

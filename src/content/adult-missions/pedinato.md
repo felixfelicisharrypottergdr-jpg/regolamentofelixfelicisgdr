@@ -3,7 +3,7 @@ id: "79c12046-ee1c-5f36-8172-383d933088c2"
 slug: "pedinato"
 name: "Il Pedinato"
 description: "Il PG completa questa missione quando viene spiato o ficcanasato da un altro PG durante una free role."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Pedinato"
+      item: "FantaWiz — Missioni Neutrale — Il Pedinato"
 ---
 
 ## Note e condizioni

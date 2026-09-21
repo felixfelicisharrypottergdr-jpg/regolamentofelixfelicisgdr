@@ -3,7 +3,7 @@ id: "753a0ff8-ea20-5428-8fe5-0fdf3026e9f4"
 slug: "negoziante"
 name: "Il Negoziante"
 description: "Il PG è un Negoziante e porta a termine delle role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Negoziante"
+      item: "FantaWiz — Missioni Neutrale — Il Negoziante"
 ---

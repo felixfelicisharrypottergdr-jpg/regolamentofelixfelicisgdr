@@ -3,7 +3,7 @@ id: "2014031a-1254-506a-abac-0ccfba6e2396"
 slug: "ars"
 name: "L'Ars"
 description: "Il PG, Ars o Pozionista o Medimago, svolge una serie di mansioni cui è chiamato a rispondere da parte del Ministero della Magia in quanto esperto del settore."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Ars"
+      item: "FantaWiz — Missioni Neutrale — L'Ars"
 ---
 
 ## Note e condizioni

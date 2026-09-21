@@ -3,7 +3,7 @@ id: "7be79c5b-92cb-548b-a9ed-7742fc5ee157"
 slug: "freelance"
 name: "Il Freelance"
 description: "Il PG è un Lavoratore Non-Istituzionale e porta a termine delle role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Freelance"
+      item: "FantaWiz — Missioni Neutrale — Il Freelance"
 ---

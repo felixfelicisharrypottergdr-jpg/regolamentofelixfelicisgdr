@@ -3,7 +3,7 @@ id: "c12dfb19-14ff-5749-a0fe-5794072191f5"
 slug: "clientesinistro"
 name: "Il Cliente Sinistro"
 description: "Il PG è un assiduo frequentatore delle Locande di Notturn Alley."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: false
 completion: true
 levels:
@@ -43,5 +43,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Cliente Sinistro"
+      item: "FantaWiz — Missioni Sinistra — Il Cliente Sinistro"
 ---

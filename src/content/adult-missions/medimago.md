@@ -3,7 +3,7 @@ id: "944c2b7f-b33a-5cef-a5c5-8c3c68f85da3"
 slug: "medimago"
 name: "Il Medimago"
 description: "Il PG è un Medimago e porta a termine delle Role utilizzando uno degli spunti di gioco proposti o la [url=]Ricerca Pazienti[/url]."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,5 +34,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Medimago"
+      item: "FantaWiz — Missioni Neutrale — Il Medimago"
 ---

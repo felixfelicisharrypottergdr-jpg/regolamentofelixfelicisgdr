@@ -3,7 +3,7 @@ id: "bbe1af51-01e5-5341-ae07-a6eee5e74dd5"
 slug: "bugiardo"
 name: "Bugiardo vs Intuitivo"
 description: "Il PG Adulto mente ad un altro PG o intuisce che il PG con cui sta parlando gli sta mentendo."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: true
 completion: false
 levels:
@@ -35,5 +35,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Bugiardo vs Intuitivo"
+      item: "FantaWiz — Missioni Neutrale — Bugiardo vs Intuitivo"
 ---

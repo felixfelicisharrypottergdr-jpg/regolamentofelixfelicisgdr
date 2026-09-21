@@ -3,7 +3,7 @@ id: "47fd1687-12f8-5637-bb1a-799aa507164b"
 slug: "terzoocchio"
 name: "Il Terzo Occhio"
 description: "Il PG Adulto si reca da un PG Divinatore per sottoporsi a una lettura, ottenendo attraverso una qualsiasi Conoscenza Divinatoria visioni, intuizioni o rivelazioni legate a eventi passati, presenti o futuri."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,7 +34,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Terzo Occhio"
+      item: "FantaWiz — Missioni Neutrale — Il Terzo Occhio"
 ---
 
 ## Note e condizioni

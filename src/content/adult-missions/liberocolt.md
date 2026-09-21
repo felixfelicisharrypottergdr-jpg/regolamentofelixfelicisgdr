@@ -3,7 +3,7 @@ id: "0b7c4f45-75db-56f5-88bf-e29a7316d7b9"
 slug: "liberocolt"
 name: "Il Libero Coltivatore"
 description: "Il PG coltiva Piante Magiche Illegali."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -26,5 +26,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Libero Coltivatore"
+      item: "FantaWiz — Missioni Sinistra — Il Libero Coltivatore"
 ---

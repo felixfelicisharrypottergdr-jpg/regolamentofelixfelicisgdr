@@ -3,7 +3,7 @@ id: "1b942279-aa30-5909-b51e-50cafd2c1a1d"
 slug: "divinatore"
 name: "Il Divinatore"
 description: "Il PG è un Divinatore e porta a termine delle role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Divinatore"
+      item: "FantaWiz — Missioni Neutrale — Il Divinatore"
 ---

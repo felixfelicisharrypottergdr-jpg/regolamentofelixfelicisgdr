@@ -3,7 +3,7 @@ id: "003f49a8-1717-53f8-8392-5ef31b095d24"
 slug: "visitatore"
 name: "Il Visitatore"
 description: "Il PG ambienta una role al Ministero della Magia Inglese pur non essendone dipendente."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Visitatore"
+      item: "FantaWiz — Missioni Neutrale — Il Visitatore"
 ---

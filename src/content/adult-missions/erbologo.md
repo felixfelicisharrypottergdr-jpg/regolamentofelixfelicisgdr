@@ -3,7 +3,7 @@ id: "5ef81e2d-4aa5-5dfd-a09b-654ad4a32c41"
 slug: "erbologo"
 name: "L'Erbologo"
 description: "Il PG è un Erbologo e porta a termine delle role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Erbologo"
+      item: "FantaWiz — Missioni Neutrale — L'Erbologo"
 ---

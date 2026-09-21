@@ -3,7 +3,7 @@ id: "dc844c55-a34b-5485-9eaa-cfd6c98756d9"
 slug: "corruttore"
 name: "Il Corruttore"
 description: "Il PG corrompe, senza l'uso della Magia Oscura (Imperio), un PNG o PG che svolge un mestiere Istituzionale offrendogli dei servigi, dei vantaggi o Galeoni."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: false
 completion: false
 levels:
@@ -43,5 +43,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Corruttore"
+      item: "FantaWiz — Missioni Sinistra — Il Corruttore"
 ---

@@ -3,7 +3,7 @@ id: "3654364e-cd5c-5a1e-b08f-726b28fe5c02"
 slug: "escursionista"
 name: "L'Escursionista"
 description: "Il PG segue le tracce di Creature Magiche o Piante Magiche. E' anche molto abile nel trovare e raccogliere ingredienti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: true
 levels:
@@ -52,5 +52,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Escursionista"
+      item: "FantaWiz — Missioni Neutrale — L'Escursionista"
 ---

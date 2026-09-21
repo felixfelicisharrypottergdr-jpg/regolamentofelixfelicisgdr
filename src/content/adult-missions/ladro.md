@@ -3,7 +3,7 @@ id: "39450264-8976-5654-8035-e54deee197a8"
 slug: "ladro"
 name: "Il Ladro"
 description: "Il PG commette un furto ai danni di qualcuno o qualcosa, rubando Oggetti Magici o Galeoni."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -56,5 +56,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Ladro"
+      item: "FantaWiz — Missioni Sinistra — Il Ladro"
 ---

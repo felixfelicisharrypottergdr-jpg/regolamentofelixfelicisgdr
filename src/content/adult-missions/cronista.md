@@ -3,7 +3,7 @@ id: "5a5b0a4d-83b4-561d-bb7e-324682ee8649"
 slug: "cronista"
 name: "Il Cronista"
 description: "Il PG sfrutta una o più Notizie dal Mondo come spunto di gioco. Se le notizie vengono giocate da un certo numero di PG, il Narratore potrebbe aprire eventi o quest a tema. Esempio: x"
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,5 +34,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Cronista"
+      item: "FantaWiz — Missioni Neutrale — Il Cronista"
 ---

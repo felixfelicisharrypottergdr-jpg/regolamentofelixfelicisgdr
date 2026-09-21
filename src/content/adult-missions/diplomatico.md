@@ -3,7 +3,7 @@ id: "a1389f55-e813-5c65-8d29-43148feb5101"
 slug: "diplomatico"
 name: "Il Diplomatico"
 description: "Il PG è un Diplomatico e porta a termine delle Role utilizzando uno degli spunti di gioco proposti."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -34,5 +34,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Diplomatico"
+      item: "FantaWiz — Missioni Neutrale — Il Diplomatico"
 ---

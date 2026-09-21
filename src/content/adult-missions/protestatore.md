@@ -3,7 +3,7 @@ id: "27b259b0-e502-5fc0-bde0-1a639dbcbe2c"
 slug: "protestatore"
 name: "Il Protestatore"
 description: "Il PG manifesta il proprio dissenso o prende posizione in merito a una decisione, legge o provvedimento ufficiale, esprimendosi e protestando pubblicamente senza ricorrere ad alcuna forma di violenza."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Protestatore"
+      item: "FantaWiz — Missioni Neutrale — Il Protestatore"
 ---
 
 ## Note e condizioni

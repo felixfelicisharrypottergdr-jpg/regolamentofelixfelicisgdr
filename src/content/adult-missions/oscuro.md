@@ -3,7 +3,7 @@ id: "92940987-19cb-58d7-a5bb-db7077bda233"
 slug: "oscuro"
 name: "L'Oscuro"
 description: "Il PG utilizza le Arti Oscure o Pozioni Illegali contro un altro PG."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -55,7 +55,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Oscuro"
+      item: "FantaWiz — Missioni Sinistra — L'Oscuro"
 ---
 
 ## Note e condizioni

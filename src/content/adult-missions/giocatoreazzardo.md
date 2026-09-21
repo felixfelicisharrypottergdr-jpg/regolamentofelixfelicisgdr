@@ -3,7 +3,7 @@ id: "972fa490-463d-5220-89ae-f6239b74fd2c"
 slug: "giocatoreazzardo"
 name: "Il Giocatore d'Azzardo"
 description: "Il PG gestisce o partecipa a scommesse illegali su qualsiasi cosa."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -55,7 +55,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Giocatore d'Azzardo"
+      item: "FantaWiz — Missioni Sinistra — Il Giocatore d'Azzardo"
 ---
 
 ## Note e condizioni

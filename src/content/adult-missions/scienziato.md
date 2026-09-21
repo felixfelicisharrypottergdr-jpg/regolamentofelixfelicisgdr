@@ -3,7 +3,7 @@ id: "2e47ef15-1bad-5325-b4df-85268906c649"
 slug: "scienziato"
 name: "Lo Scienziato"
 description: "Il PG modifica un Oggetto Babbano per renderlo magico; lo usa e lo vende."
-category: "Virtuosa"
+category: "Sinistra"
 illegal: true
 completion: false
 levels:
@@ -46,5 +46,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Lo Scienziato"
+      item: "FantaWiz — Missioni Sinistra — Lo Scienziato"
 ---

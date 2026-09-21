@@ -3,7 +3,7 @@ id: "edadf0a5-bd61-5395-88aa-5660bb9f56b9"
 slug: "numen"
 name: "Il Numen"
 description: "Il PG, Numen o Auror, svolge una serie di mansioni a cui è chiamato a rispondere dal Ministero della Magia."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,7 +25,7 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — Il Numen"
+      item: "FantaWiz — Missioni Neutrale — Il Numen"
 ---
 
 ## Note e condizioni

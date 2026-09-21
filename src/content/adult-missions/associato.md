@@ -3,7 +3,7 @@ id: "cad78b32-56fc-5662-9a1d-310313bc2b96"
 slug: "associato"
 name: "L'Associato"
 description: "Il PG, a Diagon Alley, frequenta i Goblin e interagisce con loro."
-category: "Virtuosa"
+category: "Neutrale"
 illegal: false
 completion: false
 levels:
@@ -25,5 +25,5 @@ migration:
   sources:
     - document: "7. Giocare un PG Adulto"
       section: "Modalità di gioco per PG Adulti"
-      item: "FantaWiz — Missioni Virtuosa — L'Associato"
+      item: "FantaWiz — Missioni Neutrale — L'Associato"
 ---
