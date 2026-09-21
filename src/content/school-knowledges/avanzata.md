@@ -21,29 +21,32 @@ migration:
 > **Nota.**
 
 • E' possibile utilizzare contemporaneamente soltanto un Talismano Astronomico.  
-• Nel Bagaglio si può avere soltanto un unico Talismano Astronomico per volta; sarà possibile possederne un altro alla scadenza o al consumo di quello presente.  
+• Nel Bagaglio si può avere soltanto un unico Talismano Astronomico per volta. Sarà possibile possederne un altro alla scadenza o al consumo di quello presente.  
 • E' possibile eseguire il processo di creazione in un post unico o in più post, senza l'intervento del Narratore.  
-• E' possibile ruolare la creazione di colore dei Talismani: in questo caso il Talismano viene fornito dalla scuola se Studenti o recuperato in qualsiasi modo se Adulti. Non fornisce Bonus o Malus e non viene inserito nel Bagaglio alla fine della role.
+• E' possibile ruolare la creazione di colore dei Talismani: in questo caso il Talismano viene fornito dalla scuola se Studenti o recuperati in qualsiasi modo se Adulti. Non fornisce nessun tipo di Bonus o Malus e pertanto non viene inserito nel Bagaglio alla fine della role.
 
 ## Specifiche
 
 **Creazione del Talismano Astronomico**
 
-• Recuperare un Talismano acquistandolo da Wiseacre's.  
-• Scegliere quale abilità magica incanalare nel Talismano e incidervi il simbolo di un solo astro:
-- *Mercurio e Plutone*: Acume, ☿ e ♇;
-- *Venere e Terra*: Empatia, ♀ e 🜨;
-- *Nettuno e Luna Nuova*: Percezione, ♆ e ☽;
-- *Sole e Giove*: Potenza, ☉ e ♃;
-- *Urano e Luna Piena*: Tecnica, ♅ e ◉;
-- *Marte e Saturno*: Volontà, ♂ e ♄.
-• Tracciare sul terreno il simbolo del proprio Segno Zodiacale, adagiando il Talismano al centro.  
-• Poggiare la punta della bacchetta sul Talismano e concentrarsi per evocare il potere dell'astro scelto.  
-• Se il rito è eseguito correttamente, il Talismano si illumina di bianco per pochi secondi.
+• Recuperare un Talismano acquistandolo da Wiseacre's;  
+• Scegliere quale abilità magica incanalare nel Talismano (Parametro) e prendere il Talismano, incidendovi il simbolo del Pianeta scelto (uno soltanto) secondo questa lista:
+- *Mercurio e Plutone:* Acume, simboli ☿ e ♇;
+- *Venere e Terra:* Empatia, simboli ♀ e 🜨;
+- *Nettuno e Luna Nuova:* Percezione, simboli ♆ e ☽;
+- *Sole e Giove:* Potenza, simboli ☉ e ♃;
+- *Urano e Luna Piena:* Tecnica, simboli ♅ e ◉;
+- *Marte e Saturno:* Volontà, simboli ♂ e ♄.
+• Tracciare sul terreno il simbolo del proprio Segno Zodiacale, adagiando il Talismano al suo interno e proprio al centro;  
+• Poggiare la punta della propria bacchetta sulla gemma e concentrarsi per evocare il potere dell'astro scelto;  
+• Una volta concluso il rito, se eseguito nel modo corretto, il Talismano si illuminerà di bianco per soli pochi secondi.
 
-**Malus:** -3 Fatica.
+**Malus:**
+-3 Fatica
 
-**Bonus:** fornisce un bonus ad un Parametro Magico per 3 usi. Il potere del Talismano, a prescindere dagli usi consumati, scade dopo 3 mesi OFFGame e viene inserito nel Bagaglio con la data di scadenza.
+**Bonus**
+
+Fornisce un bonus ad un Parametro Magico per 3 usi. Il potere del Talismano, a prescindere dagli usi consumati, scadrà dopo 3 mesi OFFGame, pertanto verrà inserita nel Bagaglio con la data di scadenza.
 
 *Conoscenza usata da PG Studenti:*
 - 100%: +2 Parametro Magico; 3 usi
@@ -58,35 +61,70 @@ migration:
 
 ## Manuale di Astronomia
 
-### Mercurio ☿ — Acume
-È il pianeta più interno del sistema solare; piccolo e roccioso, con temperature estreme fra giorno e notte. È associato alla comunicazione, all'intelletto e alla magia rituale e rappresenta velocità, versatilità e capacità di adattamento.
+I PG che vogliono arricchire le loro role di elementi teorici di colore riguardo i Talismani Astronomici possono basarsi sulle seguenti informazioni.
 
-### Plutone ♇ — Acume
-È il pianeta nano più grande e massiccio conosciuto nella fascia di Kuiper. È composto principalmente da ghiacci e roccia, con un'atmosfera molto sottile. È associato a trasformazione, potere e rigenerazione e può essere invocato per trasformazione personale, superamento delle sfide e potere interiore.
+### Mercurio ☿ Acume
 
-### Venere ♀ — Empatia
-Secondo pianeta del sistema solare, è roccioso e possiede una densa atmosfera composta soprattutto da anidride carbonica, responsabile di un effetto serra estremo. È associato all'amore, alla bellezza e all'armonia.
+Si tratta del pianeta più interno del sistema solare; è piccolo e roccioso, con temperature estreme tra il giorno e la notte a causa della sua orbita vicina al Sole.
 
-### Terra 🜨 — Empatia
-Pianeta roccioso con un'atmosfera ricca di ossigeno e una grande varietà di ecosistemi. È considerata sacra in molte tradizioni spirituali ed è associata a fertilità, stabilità e radicamento; in ambito magico può essere invocata per connessione con la natura, guarigione della terra e lavoro di terra.
+Mercurio è associato alla comunicazione, all'intelletto e alla magia rituale. Rappresenta la velocità, la versatilità e la capacità di adattamento.
 
-### Nettuno ♆ — Percezione
-È il pianeta più esterno del sistema solare e un gigante gassoso dalla caratteristica colorazione blu. È associato a illusione, ispirazione e profondità emotiva e può essere invocato per intuizione, ispirazione artistica ed evoluzione spirituale.
+### Plutone ♇ Acume
 
-### Luna Nuova ☽ — Percezione
-La fonte associa questa voce alla Percezione e la descrive collegandola alla forza, alla vitalità e all'illuminazione spirituale.
+Plutone è il pianeta nano più grande e il più massiccio conosciuto finora nella fascia di Kuiper, una regione del sistema solare popolata da corpi minori.
 
-### Sole ☉ e Giove ♃ — Potenza
-Il Sole è la stella centrale del sistema solare e fornisce luce e calore ai pianeti; simboleggia vita, luce e potere. Giove, il pianeta più grande, è associato ad abbondanza, fortuna, crescita, saggezza ed espansione spirituale.
+È composto principalmente da ghiacci e roccia, con un'atmosfera molto sottile composta principalmente da azoto, metano e monossido di carbonio. La sua superficie è caratterizzata da grandi distese di ghiaccio e alcune regioni di terreno roccioso.
 
-### Urano ♅ — Tecnica
-Gigante gassoso inclinato sul proprio asse, associato a innovazione, rivoluzione e libertà. Può essere invocato per creatività, ribellione costruttiva e cambiamento positivo.
+Anche se tecnicamente considerato un pianeta nano, Plutone è associato alla trasformazione, al potere e alla rigenerazione. Nel contesto magico, può essere invocato per il lavoro di trasformazione personale, il superamento delle sfide e il potere interiore.
 
-### Luna Piena ◉ — Tecnica
-La Luna è il satellite naturale della Terra. La Luna Piena è la fase in cui appare completamente illuminata ed è associata a pienezza, rivelazione e culmine dell'energia lunare.
+### Venere ♀ Empatia
 
-### Marte ♂ — Volontà
-Il “pianeta rosso” è associato alla guerra, alla determinazione e all'energia. Nel simbolismo magico può essere invocato per protezione, forza e coraggio, oltre che per il controllo della rabbia e delle passioni.
+Venere, secondo pianeta del sistema solare, è un pianeta roccioso con una densa atmosfera composta principalmente da anidride carbonica, che causa un effetto serra estremo e temperature molto elevate sulla sua superficie. E' associato all'amore, alla bellezza e all'armonia.
 
-### Saturno ♄ — Volontà
-Il secondo pianeta più grande, noto per i suoi anelli, è associato a tempo, disciplina e struttura. Nel simbolismo magico può essere invocato per protezione, stabilità, obiettivi a lungo termine, auto-disciplina ed evoluzione spirituale.
+### Terra 🜨 Empatia
+
+La Terra è un pianeta roccioso con un'atmosfera ricca di ossigeno che supporta una vasta gamma di ecosistemi. Ha una superficie segnata da montagne, oceani, deserti e foreste.
+
+La Terra è considerata sacra in molte tradizioni spirituali ed è associata alla fertilità, alla stabilità e al radicamento. Nel contesto magico, può essere invocata per la connessione con la natura, la guarigione della terra e il lavoro di terra.
+
+### Nettuno ♆ Percezione
+
+Nettuno è il pianeta più esterno del sistema solare e un altro gigante gassoso. Ha una caratteristica colorazione blu a causa dell'atmosfera di metano e un sistema di lune, tra cui Tritone, che è un oggetto molto interessante.
+
+Nettuno è il pianeta dell'illusione, dell'ispirazione e della profondità emotiva. Nel simbolismo magico, può essere invocato per l'intuizione, l'ispirazione artistica e il lavoro di evoluzione spirituale.
+
+### Luna Nuova ☽ Percezione
+
+Il Sole è la stella centrale del sistema solare, che fornisce luce e calore a tutti i pianeti. È una sfera di gas incandescente che genera energia attraverso la fusione nucleare.
+
+E'un simbolo di vita, luce e potere. Nel simbolismo magico, può essere invocato per la forza, la vitalità e l'illuminazione spirituale.
+
+### Giove ♃ Potenza
+
+Il più grande pianeta del sistema solare, Giove è un gigante gassoso dominato da una vasta atmosfera di idrogeno ed elio. Ha una serie di lune e un impressionante sistema di anelli.
+
+Giove è associato all'abbondanza, alla fortuna e alla crescita. Nel contesto magico, può essere invocato per attirare fortuna, prosperità e successo, così come per aumentare la saggezza e l'espansione spirituale.
+
+### Urano ♅ Tecnica
+
+Urano è un gigante gassoso inclinato sul suo asse, il che lo rende unico nel sistema solare. Ha una composizione simile a Nettuno, ma è di colore blu-verde a causa dell'atmosfera di metano.
+
+Urano è associato all'innovazione, alla rivoluzione e alla libertà. Nel contesto magico, può essere invocato per promuovere la creatività, la ribellione costruttiva e il cambiamento positivo.
+
+### Luna Piena ◉ Tecnica
+
+Il nostro satellite naturale, la Luna orbita attorno alla Terra ed è il corpo celeste più vicino a noi. Ha una superficie segnata da crateri, montagne e mari lunari.
+
+La Luna Piena è la fase lunare in cui la Luna appare completamente illuminata nel cielo notturno. È associata alla pienezza, alla rivelazione e al culmine dell'energia lunare.
+
+### Marte ♂ Volontà
+
+Conosciuto come il "pianeta rosso", Marte è il quarto pianeta dal Sole ed è caratterizzato da un terreno roccioso e desertico. Ha stagioni simili alla Terra e polarità di ghiaccio ai suoi poli.
+
+Marte è il pianeta della guerra, della determinazione e dell'energia. Nel simbolismo magico, può essere invocato per la protezione, la forza e il coraggio, così come per il controllo della rabbia e delle passioni.
+
+### Saturno ♄ Volontà
+
+Con i suoi anelli spettacolari, Saturno è il secondo più grande pianeta del sistema solare. È anch'esso un gigante gassoso, con un nucleo roccioso circondato da strati di gas.
+
+Saturno è il pianeta del tempo, della disciplina e della struttura. Nel simbolismo magico, può essere invocato per la protezione, la stabilità e la manifestazione di obiettivi a lungo termine, così come per il lavoro di auto-disciplina e di evoluzione spirituale.
