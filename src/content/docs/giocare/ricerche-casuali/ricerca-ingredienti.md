@@ -71,7 +71,7 @@ acquistare i vostri ingredienti in cambio di Galeoni.
 garantiscono specifici effetti sui PG come stabilito dalle specifiche di ciascuna
 Pianta Magica.
 
-### Ricerca casuale degli Ingredienti
+## Ricerca casuale degli Ingredienti
 
 Per completare la raccolta di Ingredienti al termine della role bisogna lanciare due gruppi di
 dadi:
@@ -156,7 +156,7 @@ basso) e ottiene 35, che in lista corrisponde a una dose di Radice di Mandragola
 Una volta completati i lanci il PG può compilare in autonomia la propria
 Dispensa.
 
-### Lista degli ingredienti trovabili nel Regno Unito
+## Lista degli ingredienti trovabili nel Regno Unito
 
 #### Ingredienti X : 1d92
 
@@ -465,7 +465,7 @@ Mandragola;
 Bubotubero;
 - 1 ingrediente di classificazione XX: Bulbo di Bulbo Balzellante.
 
-### Aiutante per la Ricerca Casuale di Ingredienti
+## Aiutante per la Ricerca Casuale di Ingredienti
 
 Questo Aiutante interattivo ti aiuterà a generare i codici per lanciare dadi perfetti per la
 Ricerca Ingredienti e a scoprire facilmente quali ingredienti hai trovato nella tua role.**Aiutante:** LINK QUI
