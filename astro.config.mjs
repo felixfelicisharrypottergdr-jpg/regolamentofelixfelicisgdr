@@ -321,8 +321,8 @@ export default defineConfig({
             {
               label: 'Pozionistica',
               items: [
-                { label: 'Introduzione', slug: 'manuali/pozionistica' },
-                { label: 'Pozionario', link: '/manuali/pozionistica/pozionario/' },
+                { label: 'Guida completa', slug: 'manuali/pozionistica' },
+                { label: 'Pozionario — 136 Pozioni', link: '/manuali/pozionistica/pozionario/' },
               ],
             },
             {

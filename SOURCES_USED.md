@@ -11,8 +11,8 @@ Il sito usa le fonti reali del regolamento FELIX FELICIS. Alcune aree sono ormai
   - Guida completa, 11 Tecniche/Incantesimi Magizoologici e 141 Creature del Bestiario; Bezoar integrato nella scheda Ingrediente canonica.
 
 - 10.7 Pozionistica
-  - Vaccino AntiNundux +.
-  - Kappaccino +.
+  - Guida completa, regole per PG Pozionisti e creazione, Conoscenze/Tecniche e Pozionario integrale di 136 Pozioni.
+
 - 10.9 Ingredienti
   - guida generale completa e Glossario integrale di 317 Ingredienti.
 
