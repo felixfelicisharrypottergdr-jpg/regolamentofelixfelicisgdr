@@ -115,7 +115,7 @@ Il Mondo Magico è pieno di Creature Magiche che aspettano di essere trovate!Nel
 degli Spiriti e dei Non-Esseri notoriamente presenti in queste zone, insieme alla relativa
 Classificazione o Categoria.
 
-#### Zone di Ricerca
+### Zone di Ricerca
 
 Lago Nero
 Foresta Proibita
@@ -264,7 +264,7 @@ post.
 Consultare la lista delle Creature presenti nella Zona di Ricerca interessata, lanciando il
 dado corrispondente alla Classificazione o Categoria estratta con il dado precedente.
 
-#### Zone di Ricerca
+### Zone di Ricerca
 
 Lago Nero
 Foresta Proibita
@@ -430,7 +430,7 @@ tabella.
 Consultare la lista delle Creature presenti nella Zona di Ricerca interessata, lanciando il
 dado corrispondente alla Classificazione o Categoria estratta con il dado precedente.
 
-#### Zone di Ricerca
+### Zone di Ricerca
 
 Lago Nero
 Foresta Proibita
@@ -570,7 +570,7 @@ tabella.
 Consultare la lista delle Creature presenti nella Zona di Ricerca interessata, lanciando il
 dado corrispondente alla Classificazione o Categoria estratta con il dado precedente.
 
-#### Zone di Ricerca
+### Zone di Ricerca
 Lago Nero
 Foresta Proibita
 Valle di Hogwarts
