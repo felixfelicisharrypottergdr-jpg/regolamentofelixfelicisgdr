@@ -1,0 +1,83 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
+import { getCollection, render } from 'astro:content';
+import FelixEntityHeader from '../../../../../../../components/FelixEntityHeader.astro';
+import FelixBadges from '../../../../../../../components/FelixBadges.astro';
+import SearchMetadata from '../../../../../../../components/search/SearchMetadata.astro';
+
+export async function getStaticPaths(){
+  return (await getCollection('missions'))
+    .filter((entry)=>entry.data.status==='published')
+    .map((entry)=>({params:{slug:entry.data.slug},props:{entry}}));
+}
+
+const {entry}=Astro.props;
+const {Content,headings}=await render(entry);
+const pageHeadings=[...headings,{depth:2,slug:'livelli-e-premi',text:'Livelli e premi'}];
+const flagBadges=[
+  entry.data.category,
+  entry.data.illegal ? 'Intervento Cariche' : '',
+  entry.data.completion ? 'A completamento' : '',
+  entry.data.schoolYearOnly ? 'Solo anno scolastico' : '',
+].filter(Boolean);
+---
+<StarlightPage frontmatter={{title:entry.data.name,description:entry.data.description}} headings={pageHeadings}>
+  <SearchMetadata
+    type="Missione FantaHogwarts"
+    macroarea="Il Personaggio"
+    aliases={entry.data.searchAliases}
+    filters={{ mission_category:entry.data.category }}
+  />
+  <article class="felix-entry felix-mission-entry" data-pagefind-body>
+    <FelixEntityHeader
+      description={entry.data.description}
+      imageAlt={`Missione FantaHogwarts: ${entry.data.name}`}
+      badges={flagBadges}
+      facts={[
+        {label:'Categoria',value:entry.data.category},
+        {label:'Livelli',value:entry.data.levels.length},
+        {label:'Intervento Cariche',value:entry.data.illegal ? 'Previsto in almeno un livello' : 'Non segnalato'},
+        {label:'A completamento',value:entry.data.completion ? 'Sì, almeno un livello' : 'No'},
+        {label:'Solo anno scolastico',value:entry.data.schoolYearOnly ? 'Sì, almeno un livello' : 'No'},
+      ]}
+    />
+
+    <Content />
+
+    <section class="felix-mission-levels">
+      <AnchorHeading level="2" id="livelli-e-premi">Livelli e premi</AnchorHeading>
+      <div class="felix-mission-level-grid">
+        {entry.data.levels.map((level)=>(
+          <section class="felix-mission-level">
+            <header>
+              <h3>{level.name}</h3>
+              <FelixBadges items={[
+                level.illegal ? 'Intervento Cariche' : '',
+                level.completion ? 'A completamento' : '',
+                level.schoolYearOnly ? 'Anno scolastico' : '',
+              ]} />
+            </header>
+            {level.action && <p class="felix-mission-action">{level.action}</p>}
+            <dl>
+              <div>
+                <dt>Requisiti</dt>
+                <dd>{level.requirements.length ? <ul>{level.requirements.map((item)=><li>{item}</li>)}</ul> : '—'}</dd>
+              </div>
+              <div>
+                <dt>Premi</dt>
+                <dd>{level.rewards.length ? <ul>{level.rewards.map((item)=><li>{item}</li>)}</ul> : '—'}</dd>
+              </div>
+              {level.ifCaught.length>0 && (
+                <div>
+                  <dt>Se scoperto</dt>
+                  <dd><ul>{level.ifCaught.map((item)=><li>{item}</li>)}</ul></dd>
+                </div>
+              )}
+            </dl>
+          </section>
+        ))}
+      </div>
+    </section>
+  </article>
+</StarlightPage>
