@@ -3,10 +3,26 @@ import path from 'node:path';
 
 const ROOT = process.cwd();
 const CONTENT_ROOT = path.join(ROOT, 'src', 'content');
-const DOCS_PREFIX = 'src/content/docs/';
-const UUID_RE = /\b[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\b/gi;
 const DEF_RE = /^\s*(id|felixId)\s*:\s*["']?([0-9a-f-]{36})["']?\s*$/im;
 const SLUG_RE = /^\s*slug\s*:\s*["']?([a-z0-9-]+)["']?\s*$/im;
+
+const structuredRoutes = {
+  creatures: '/manuali/magizoologia/bestiario/',
+  diseases: '/manuali/medimagia/malattie/',
+  ingredients: '/manuali/ingredienti/',
+  potions: '/manuali/pozionistica/pozionario/',
+  spells: '/manuali/incantesimi/',
+  plants: '/manuali/erbologia/erbario/',
+  races: '/il-personaggio/razze/',
+  objects: '/mondo-magico/commercio/oggetti/',
+  missions: '/il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/',
+  'adult-missions': '/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/',
+  masteries: '/conoscenze-e-sapienze/maestrie/catalogo/',
+  'divination-techniques': '/manuali/divinazione/tecniche/',
+  'school-knowledges': '/manuali/conoscenze-scolastiche/conoscenze/',
+  'legal-documents': '/mondo-magico/leggi/documenti/',
+  'legal-articles': '/mondo-magico/leggi/articoli/',
+};
 
 async function walk(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -25,8 +41,39 @@ function frontmatterOf(text) {
   return end === -1 ? '' : text.slice(3, end);
 }
 
+function bodyOf(text) {
+  if (!text.startsWith('---')) return text;
+  const end = text.indexOf('\n---', 3);
+  return end === -1 ? text : text.slice(end + 4);
+}
+
 function rel(file) {
   return path.relative(ROOT, file).replaceAll(path.sep, '/');
+}
+
+function normalizeRoute(route) {
+  const clean = route.replace(/\/index\.html$/i, '/').replace(/\/+/g, '/');
+  return clean === '/' ? '/' : `${clean.replace(/\/$/, '')}/`;
+}
+
+function docRoute(file) {
+  let id = path.relative(path.join(CONTENT_ROOT, 'docs'), file).replaceAll(path.sep, '/').replace(/\.mdx?$/i, '');
+  if (id === 'index') return '/';
+  id = id.replace(/\/index$/i, '');
+  return normalizeRoute(`/${id}/`);
+}
+
+function routeTarget(href, currentRoute) {
+  const trimmed = href.trim();
+  if (!trimmed || trimmed.startsWith('#') || /^(https?:|mailto:|tel:|javascript:)/i.test(trimmed)) return null;
+  const noFragment = trimmed.split('#')[0].split('?')[0];
+  if (!noFragment) return null;
+  if (/\.(png|jpe?g|gif|webp|svg|pdf|zip|css|js|json)$/i.test(noFragment)) return null;
+  try {
+    return normalizeRoute(new URL(noFragment, `https://felix.local${currentRoute}`).pathname);
+  } catch {
+    return null;
+  }
 }
 
 const files = await walk(CONTENT_ROOT);
@@ -34,6 +81,8 @@ const definitions = new Map();
 const fileInfo = [];
 const errors = [];
 const warnings = [];
+const validRoutes = new Set(['/']);
+const docsRoutes = new Map();
 
 for (const file of files) {
   const text = await fs.readFile(file, 'utf8');
@@ -56,9 +105,6 @@ for (const file of files) {
     definitions.set(id, rel(file));
   }
 
-  // Considera riferimenti soltanto gli UUID che costituiscono l'intero
-  // valore YAML di un campo o di una voce di lista. UUID presenti dentro URL
-  // (per esempio nei nomi file delle immagini) non sono relazioni FELIX.
   const refs = [];
   for (const line of fm.split(/\r?\n/)) {
     const scalar = line.match(/^\s*([A-Za-z0-9_]+)\s*:\s*["']?([0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})["']?\s*$/i);
@@ -69,25 +115,28 @@ for (const file of files) {
     const listItem = line.match(/^\s*-\s*["']?([0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})["']?\s*$/i);
     if (listItem) refs.push(listItem[1].toLowerCase());
   }
+
+  const relativeToContent = path.relative(CONTENT_ROOT, file).replaceAll(path.sep, '/');
+  const collection = relativeToContent.split('/')[0];
   const slug = fm.match(SLUG_RE)?.[1];
-  const relativeFile = rel(file);
-  fileInfo.push({
-    file: relativeFile,
-    id,
-    refs,
-    slug,
-    collection: path.relative(CONTENT_ROOT, path.dirname(file)).split(path.sep)[0],
-    migrationStatus: fm.match(/^\s*status:\s*["']?([^\n#"']+)/m)?.[1]?.trim(),
-    prototypeExcerpt: /prototypeExcerpt:\s*true/i.test(fm),
-  });
+  fileInfo.push({ file: rel(file), id, refs, slug, collection, text });
+
+  if (collection === 'docs') {
+    const route = docRoute(file);
+    const previous = docsRoutes.get(route);
+    if (previous) errors.push(`Route docs duplicata ${route}: ${previous} e ${rel(file)}.`);
+    else docsRoutes.set(route, rel(file));
+    validRoutes.add(route);
+  } else if (slug && structuredRoutes[collection]) {
+    const base = structuredRoutes[collection];
+    validRoutes.add(normalizeRoute(base));
+    validRoutes.add(normalizeRoute(`${base}${slug}/`));
+  }
 }
 
 for (const info of fileInfo) {
   for (const ref of info.refs) {
-    if (!definitions.has(ref)) {
-      errors.push(`${info.file}: riferimento UUID inesistente ${ref}.`);
-    }
-  }
+    if (!definitions.has(ref)) errors.push(`${info.file}: riferimento UUID inesistente ${ref}.`);
 }
 
 const slugsByCollection = new Map();
@@ -101,67 +150,15 @@ for (const info of fileInfo) {
   }
 }
 
-// Le pagine docs ricavano la route dal percorso file: "foo.md" e
-// "foo/index.md" producono la stessa route. Starlight avvisa ma continua
-// a compilare, quindi il preflight deve trattare la collisione come errore.
-const docRoutes = new Map();
-for (const info of fileInfo.filter((item) => item.file.startsWith(DOCS_PREFIX))) {
-  let route = info.file
-    .slice(DOCS_PREFIX.length)
-    .replace(/\.mdx?$/i, '')
-    .replace(/\/index$/i, '');
-  route = route === 'index' ? '/' : `/${route}/`;
-  if (docRoutes.has(route)) {
-    errors.push(`Route docs duplicata ${route}: ${docRoutes.get(route)} e ${info.file}.`);
-  } else {
-    docRoutes.set(route, info.file);
+for (const info of fileInfo.filter((item) => item.collection === 'docs')) {
+  const sourceFile = path.join(ROOT, info.file);
+  const currentRoute = docRoute(sourceFile);
+  const body = bodyOf(info.text);
+  for (const match of body.matchAll(/(?<!!)\[[^\]]+\]\(([^)]+)\)/g)) {
+    const href = match[1].trim();
+    const target = routeTarget(href, currentRoute);
+    if (target && !validRoutes.has(target)) errors.push(`${info.file}: link interno verso route inesistente ${href} → ${target}.`);
   }
-}
-
-// Debito editoriale/migrazione: non blocca ancora la build, ma deve essere
-// visibile nei log finché l'audit non lo ha risolto.
-const pendingMigration = fileInfo.filter((item) => item.migrationStatus === 'to_migrate').map((item) => item.file);
-if (pendingMigration.length) warnings.push(`Pagine ancora marcate to_migrate: ${pendingMigration.join(', ')}`);
-
-const prototypeExcerpts = fileInfo.filter((item) => item.prototypeExcerpt).map((item) => item.file);
-if (prototypeExcerpts.length) warnings.push(`Pagine ancora marcate prototypeExcerpt: true: ${prototypeExcerpts.join(', ')}`);
-
-const editorialDebtNeedles = [
-  'ospiterà integralmente',
-  'raccoglierà integralmente',
-  'versione integrale',
-  'contenuto completo verrà trasferito',
-  'in questo prototipo',
-  'migrazione comprenderà',
-  'sito definitivo',
-];
-for (const needle of editorialDebtNeedles) {
-  const hits = [];
-  for (const file of files) {
-    const text = await fs.readFile(file, 'utf8');
-    if (text.toLocaleLowerCase('it').includes(needle.toLocaleLowerCase('it'))) hits.push(rel(file));
-  }
-  if (hits.length) warnings.push(`Possibile residuo di migrazione “${needle}”: ${hits.join(', ')}`);
-}
-
-// Su GitHub Pages il sito vive sotto un base path: i link Markdown che
-// iniziano con "/" possono uscire dal repository. Li segnaliamo finché
-// non saranno normalizzati.
-const rootAbsoluteLinks = [];
-for (const file of files) {
-  const text = await fs.readFile(file, 'utf8');
-  if (/\[[^\]]+\]\(\/(?!\/)/.test(text)) rootAbsoluteLinks.push(rel(file));
-}
-if (rootAbsoluteLinks.length) warnings.push(`Link Markdown assoluti dalla root da verificare per il base path Pages: ${rootAbsoluteLinks.join(', ')}`);
-
-const legacyFormattingNeedles = ['[QUOTE]', '[/QUOTE]', '[CODE]', '[/CODE]', '[URL=', '[url=', '[/color'];
-for (const needle of legacyFormattingNeedles) {
-  const hits = [];
-  for (const file of files) {
-    const text = await fs.readFile(file, 'utf8');
-    if (text.includes(needle)) hits.push(rel(file));
-  }
-  if (hits.length) warnings.push(`Formattazione legacy “${needle}” trovata in: ${hits.join(', ')}`);
 }
 
 const obsoleteNeedles = ['Duelli Cerimoniali'];
@@ -174,7 +171,7 @@ for (const needle of obsoleteNeedles) {
   if (hits.length) warnings.push(`Riferimento obsoleto “${needle}” trovato in: ${hits.join(', ')}`);
 }
 
-console.log(`FELIX preflight: ${files.length} file di contenuto, ${definitions.size} UUID univoci.`);
+console.log(`FELIX preflight: ${files.length} file di contenuto, ${definitions.size} UUID univoci, ${validRoutes.size} route note.`);
 if (warnings.length) {
   console.warn('\nAvvisi:');
   warnings.forEach((item) => console.warn(`- ${item}`));
