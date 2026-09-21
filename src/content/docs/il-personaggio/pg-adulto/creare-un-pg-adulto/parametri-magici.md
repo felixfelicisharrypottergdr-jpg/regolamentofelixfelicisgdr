@@ -33,7 +33,7 @@ migration:
 
 # I Parametri Magici
 
-Le [Categorie Magiche](./categorie-magiche/) hanno valenza ONGame, poiché gestite dal Ministero della Magia, che è a conoscenza dei maghi e delle streghe che ne fanno parte vista la necessità di richiedere specifici servigi agli eruditi di ogni Categoria.
+Le [Categorie Magiche](../categorie-magiche/) hanno valenza ONGame, poiché gestite dal Ministero della Magia, che è a conoscenza dei maghi e delle streghe che ne fanno parte vista la necessità di richiedere specifici servigi agli eruditi di ogni Categoria.
 
 Ogni Categoria Magica ha un Parametro affine che, nella distribuzione, deve avere un valore pari o superiore agli altri:
 
