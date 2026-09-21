@@ -1,5 +1,7 @@
 # Fonti del Regolamento migrate
 
+> **Aggiornamento audit — 21 settembre 2026:** la precedente certificazione di completezza è sospesa durante l’audit editoriale e funzionale. Il repository contiene gran parte del testo sorgente, ma sono emerse sottopagine parziali/placeholder e duplicazioni fra guide monolitiche e pagine granulari. Fare riferimento a `AUDIT_EDITORIALE_FUNZIONALE.md` per lo stato corrente.
+
 Questa pagina registra le fonti canoniche usate per costruire il sito-regolamento FELIX FELICIS.
 
 Per lo stato analitico e la matrice fonte → lotto di migrazione, vedere `MIGRATION_STATUS.md`.
