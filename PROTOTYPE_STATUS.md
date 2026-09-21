@@ -85,5 +85,6 @@ Il prototipo è ora pronto per il **primo caricamento e primo build-test su GitH
 - Ingredienti completi: 317 schede strutturate + guida generale della fonte 10.9.
 - Erbologia completa: guida, 12 Tecniche/Incantesimi e 92 Piante dell'Erbario dalla fonte 10.5.
 - Magizoologia completa: guida, 11 Tecniche/Incantesimi e 141 Creature del Bestiario dalla fonte 10.6; Bezoar mantenuto nella collection Ingredienti.
+- Pozionistica completa: guida generale, regole di creazione/Tecniche e 136 Pozioni del Pozionario dalla fonte 10.7.
 - Altre Conoscenze Scolastiche complete: 15 schede strutturate (3 per ciascuna di 5 materie), catalogo per Materia/Anno e integrazione completa delle Sapienze Fisiche e Sociali a 5 Livelli.
 - Il test dell'iframe full-viewport su ForumFree resta una verifica obbligatoria dopo il primo deploy.
