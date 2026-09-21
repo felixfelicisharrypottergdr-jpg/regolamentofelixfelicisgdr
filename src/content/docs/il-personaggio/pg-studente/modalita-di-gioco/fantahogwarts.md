@@ -14,6 +14,8 @@ quickFacts:
     value: "Entro 1 mese"
   - label: "Categorie"
     value: "Caotiche · Neutrali · Legali"
+  - label: "Missioni Caotiche"
+    value: "17 migrate"
   - label: "Premi cumulabili"
     value: "Solo il più alto per tipologia, salvo Missioni a completamento"
 quickLinks:
