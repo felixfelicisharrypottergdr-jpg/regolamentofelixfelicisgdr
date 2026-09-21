@@ -43,6 +43,7 @@ export default defineConfig({
           label: 'Inizia da qui',
           items: [
             { label: 'Home', link: '/' },
+            { label: 'Orientamento', slug: 'inizia-da-qui' },
             { label: 'Cosa siamo', slug: 'inizia-da-qui/cosa-siamo' },
             { label: 'Regole Generali', slug: 'inizia-da-qui/regole-generali' },
             { label: 'Valute di Gioco', slug: 'inizia-da-qui/valute' },

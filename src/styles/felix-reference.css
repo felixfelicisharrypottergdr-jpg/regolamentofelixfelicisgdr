@@ -2820,3 +2820,33 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
   padding-top:.72rem!important;
   border-top:1px solid rgba(198,146,57,.12);
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — onboarding utility
+   Accesso persistente allo Staff.
+   ========================================================== */
+.felix-header-staff{
+  display:inline-flex;
+  min-height:2.8rem;
+  align-items:center;
+  justify-content:center;
+  padding:.45rem .72rem;
+  border:1px solid rgba(198,146,57,.28);
+  border-radius:4px;
+  background:rgba(198,146,57,.055);
+  color:#cfb47f!important;
+  font:.62rem 'Federo',sans-serif;
+  letter-spacing:.055em;
+  text-decoration:none!important;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+.felix-header-staff:hover{
+  border-color:rgba(198,146,57,.48);
+  background:rgba(198,146,57,.10);
+  color:#e0c38b!important;
+}
+@media(max-width:980px){
+  .felix-header-staff{padding-inline:.55rem}
+}

@@ -9,7 +9,7 @@ const routeId = Astro.locals.starlightRoute.id || '';
 const first = routeId.split('/').filter(Boolean)[0] || '';
 
 const items = [
-  { label: 'Inizia da qui', path: '', icon: 'start', active: first === '' || first === 'inizia-da-qui' || routeId === 'index' },
+  { label: 'Inizia da qui', path: 'inizia-da-qui/', icon: 'start', active: first === 'inizia-da-qui' },
   { label: 'Il Personaggio', path: 'il-personaggio/', icon: 'character', active: first === 'il-personaggio' },
   { label: 'Giocare', path: 'giocare/', icon: 'play', active: first === 'giocare' },
   { label: 'Conoscenze e Sapienze', path: 'conoscenze-e-sapienze/', icon: 'knowledge', active: first === 'conoscenze-e-sapienze' },
@@ -30,6 +30,7 @@ const items = [
   </nav>
 
   <div class="felix-header-actions">
+    <a class="felix-header-staff" href={`${base}inizia-da-qui/staff/`} aria-label="Vai alla pagina dello Staff">Staff</a>
     <Search />
     <div class="felix-theme-control" title="Tema"><ThemeSelect /></div>
   </div>
