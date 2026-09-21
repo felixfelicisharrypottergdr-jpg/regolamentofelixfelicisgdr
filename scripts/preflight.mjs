@@ -3,6 +3,7 @@ import path from 'node:path';
 
 const ROOT = process.cwd();
 const CONTENT_ROOT = path.join(ROOT, 'src', 'content');
+const DOCS_PREFIX = 'src/content/docs/';
 const UUID_RE = /\b[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\b/gi;
 const DEF_RE = /^\s*(id|felixId)\s*:\s*["']?([0-9a-f-]{36})["']?\s*$/im;
 const SLUG_RE = /^\s*slug\s*:\s*["']?([a-z0-9-]+)["']?\s*$/im;
@@ -69,7 +70,16 @@ for (const file of files) {
     if (listItem) refs.push(listItem[1].toLowerCase());
   }
   const slug = fm.match(SLUG_RE)?.[1];
-  fileInfo.push({ file: rel(file), id, refs, slug, collection: path.relative(CONTENT_ROOT, path.dirname(file)).split(path.sep)[0] });
+  const relativeFile = rel(file);
+  fileInfo.push({
+    file: relativeFile,
+    id,
+    refs,
+    slug,
+    collection: path.relative(CONTENT_ROOT, path.dirname(file)).split(path.sep)[0],
+    migrationStatus: fm.match(/^\s*status:\s*["']?([^\n#"']+)/m)?.[1]?.trim(),
+    prototypeExcerpt: /prototypeExcerpt:\s*true/i.test(fm),
+  });
 }
 
 for (const info of fileInfo) {
@@ -90,6 +100,59 @@ for (const info of fileInfo) {
     slugsByCollection.set(key, info.file);
   }
 }
+
+// Le pagine docs ricavano la route dal percorso file: "foo.md" e
+// "foo/index.md" producono la stessa route. Starlight avvisa ma continua
+// a compilare, quindi il preflight deve trattare la collisione come errore.
+const docRoutes = new Map();
+for (const info of fileInfo.filter((item) => item.file.startsWith(DOCS_PREFIX))) {
+  let route = info.file
+    .slice(DOCS_PREFIX.length)
+    .replace(/\.mdx?$/i, '')
+    .replace(/\/index$/i, '');
+  route = route === 'index' ? '/' : `/${route}/`;
+  if (docRoutes.has(route)) {
+    errors.push(`Route docs duplicata ${route}: ${docRoutes.get(route)} e ${info.file}.`);
+  } else {
+    docRoutes.set(route, info.file);
+  }
+}
+
+// Debito editoriale/migrazione: non blocca ancora la build, ma deve essere
+// visibile nei log finché l'audit non lo ha risolto.
+const pendingMigration = fileInfo.filter((item) => item.migrationStatus === 'to_migrate').map((item) => item.file);
+if (pendingMigration.length) warnings.push(`Pagine ancora marcate to_migrate: ${pendingMigration.join(', ')}`);
+
+const prototypeExcerpts = fileInfo.filter((item) => item.prototypeExcerpt).map((item) => item.file);
+if (prototypeExcerpts.length) warnings.push(`Pagine ancora marcate prototypeExcerpt: true: ${prototypeExcerpts.join(', ')}`);
+
+const editorialDebtNeedles = [
+  'ospiterà integralmente',
+  'raccoglierà integralmente',
+  'versione integrale',
+  'contenuto completo verrà trasferito',
+  'in questo prototipo',
+  'migrazione comprenderà',
+  'sito definitivo',
+];
+for (const needle of editorialDebtNeedles) {
+  const hits = [];
+  for (const file of files) {
+    const text = await fs.readFile(file, 'utf8');
+    if (text.toLocaleLowerCase('it').includes(needle.toLocaleLowerCase('it'))) hits.push(rel(file));
+  }
+  if (hits.length) warnings.push(`Possibile residuo di migrazione “${needle}”: ${hits.join(', ')}`);
+}
+
+// Su GitHub Pages il sito vive sotto un base path: i link Markdown che
+// iniziano con "/" possono uscire dal repository. Li segnaliamo finché
+// non saranno normalizzati.
+const rootAbsoluteLinks = [];
+for (const file of files) {
+  const text = await fs.readFile(file, 'utf8');
+  if (/\[[^\]]+\]\(\/(?!\/)/.test(text)) rootAbsoluteLinks.push(rel(file));
+}
+if (rootAbsoluteLinks.length) warnings.push(`Link Markdown assoluti dalla root da verificare per il base path Pages: ${rootAbsoluteLinks.join(', ')}`);
 
 const obsoleteNeedles = ['Duelli Cerimoniali'];
 for (const needle of obsoleteNeedles) {
