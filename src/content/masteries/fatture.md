@@ -47,48 +47,48 @@ Salvo dove specificato diversamente, ogni singola evocazione o preparazione può
 
 La modifica riguarda esclusivamente quella singola evocazione e non può essere applicata più di una volta alla stessa Fattura.
 
-[QUOTE]
-**Potenziante**
-Il PG forza la Fattura oltre la sua normale intensità, scegliendo uno solo dei seguenti effetti.
-Se la Fattura produce più Malus differenti, il PG deve scegliere quale singolo valore potenziare.
 
-Livello I:
-• +10 Forza
-• oppure aumenta di 1 punto l'entità di un singolo Malus numerico prodotto dalla Fattura.
+> **Potenziante**
+> Il PG forza la Fattura oltre la sua normale intensità, scegliendo uno solo dei seguenti effetti.
+> Se la Fattura produce più Malus differenti, il PG deve scegliere quale singolo valore potenziare.
+>
+> Livello I:
+> • +10 Forza
+> • oppure aumenta di 1 punto l'entità di un singolo Malus numerico prodotto dalla Fattura.
+>
+> Livello II:
+> • +30 Forza
+> • oppure aumenta di 3 punti l'entità di un singolo Malus numerico prodotto dalla Fattura.
+>
+> Livello III:
+> • +50 Forza
+> • oppure aumenta di 5 punti l'entità di un singolo Malus numerico prodotto dalla Fattura.
 
-Livello II:
-• +30 Forza
-• oppure aumenta di 3 punti l'entità di un singolo Malus numerico prodotto dalla Fattura.
 
-Livello III:
-• +50 Forza
-• oppure aumenta di 5 punti l'entità di un singolo Malus numerico prodotto dalla Fattura.
-[/QUOTE]
-[QUOTE]
-**Prolungata**
-Il PG mantiene artificialmente attiva la Fattura più a lungo del normale. Può essere utilizzata soltanto su Fatture che possiedono già una Durata espressa in post e non può essere applicata a effetti istantanei.
-Livello I: +1 post alla Durata.
-Livello II: +2 post alla Durata.
-Livello III: +3 post alla Durata.
-[/QUOTE]
-[QUOTE]
-**Rapida**
-La Fattura che normalmente richiederebbe un'*Azione Principale* può essere evocata come *Azione Bonus*.
-In questo caso la stessa Azione Bonus comprende sia l'utilizzo di *Maestro delle Fatture* sia l'evocazione della Fattura.
-Livello I: non disponibile
-Livello II: riesce se 1 di 1d3
-Livello III: riuscita certa
-[/QUOTE]
-[QUOTE]
-**Parassitaria**
-Il PG alimenta la Fattura attraverso la propria energia vitale e ne assorbe in cambio lo sforzo fisico normalmente prodotto.
-La Fattura consuma normalmente la Fatica indicata nelle proprie Specifiche ma, se Parassitaria riesce, il PG recupera immediatamente un numero di Punti Fatica pari all'intero costo base sostenuto.
-Il recupero non può portare la Fatica oltre il massimo posseduto dal PG.
-Si considera esclusivamente la Fatica base della Fattura: eventuali costi aggiuntivi dovuti ad altre condizioni o modalità di lancio vengono normalmente consumati e non aumentano il recupero.
-Livello I: riesce se 1 di 1d5
-Livello II: riesce se 1-2 di 1d5
-Livello III: riuscita certa
-[/QUOTE]
+> **Prolungata**
+> Il PG mantiene artificialmente attiva la Fattura più a lungo del normale. Può essere utilizzata soltanto su Fatture che possiedono già una Durata espressa in post e non può essere applicata a effetti istantanei.
+> Livello I: +1 post alla Durata.
+> Livello II: +2 post alla Durata.
+> Livello III: +3 post alla Durata.
+
+
+> **Rapida**
+> La Fattura che normalmente richiederebbe un'*Azione Principale* può essere evocata come *Azione Bonus*.
+> In questo caso la stessa Azione Bonus comprende sia l'utilizzo di *Maestro delle Fatture* sia l'evocazione della Fattura.
+> Livello I: non disponibile
+> Livello II: riesce se 1 di 1d3
+> Livello III: riuscita certa
+
+
+> **Parassitaria**
+> Il PG alimenta la Fattura attraverso la propria energia vitale e ne assorbe in cambio lo sforzo fisico normalmente prodotto.
+> La Fattura consuma normalmente la Fatica indicata nelle proprie Specifiche ma, se Parassitaria riesce, il PG recupera immediatamente un numero di Punti Fatica pari all'intero costo base sostenuto.
+> Il recupero non può portare la Fatica oltre il massimo posseduto dal PG.
+> Si considera esclusivamente la Fatica base della Fattura: eventuali costi aggiuntivi dovuti ad altre condizioni o modalità di lancio vengono normalmente consumati e non aumentano il recupero.
+> Livello I: riesce se 1 di 1d5
+> Livello II: riesce se 1-2 di 1d5
+> Livello III: riuscita certa
+
 
 ## Pozioni Fatturanti
 
@@ -97,37 +97,37 @@ La modifica viene impressa durante la fase di Uso della Bacchetta, quando il PG 
 L'applicazione della modifica non richiede un'Azione Bonus aggiuntiva.
 Ogni preparazione può ricevere una sola delle modifiche seguenti.
 
-[QUOTE]
-**Concentrata**
-Il PG infonde nella Pozione una quantità maggiore di energia oscura, aumentando la sua Forza finale. Il bonus viene applicato alla Forza finale ottenuta attraverso il normale procedimento di creazione della Pozione.
 
-Livello I: +10% Forza
-Livello II: +20% Forza
-Livello III: +30% Forza
-[/QUOTE]
-[QUOTE]
-**Persistente**
-Gli effetti della Pozione permangono più a lungo del normale. Può essere utilizzata soltanto su Pozioni Fatturanti che possiedono già una Durata espressa in post.
-Livello I: +1 post alla Durata
-Livello II: +2 post alla Durata
-Livello III: +3 post alla Durata
-[/QUOTE]
-[QUOTE]
-**Volatile**
-Può essere utilizzata esclusivamente sulle Pozioni Fatturanti a Somministrazione Aerea.
-Quando viene utilizzata una dose, il numero di bersagli complessivamente raggiungibili diventa:
-Livello I: 1+1d2
-Livello II: 2+1d3
-Livello III: 3+1d4
-[/QUOTE]
-[QUOTE]
-**Insidiosa**
-Il Maestro altera la firma magica della Pozione, rendendone più difficile l'individuazione. Il Malus si applica a ogni PG che effettua il tentativo, compresa la vittima stessa.
-Quando la vittima o qualsiasi altro PG tenta attraverso la *Tracciatura* di accorgersi che il bersaglio è sotto l'effetto della Pozione, diminuiscono le possibilità di riuscita del tentativo di:
-Livello I: -1 Possibilità
-Livello II: -3 Possibilità
-Livello III: -5 Possibilità
-[/QUOTE]
+> **Concentrata**
+> Il PG infonde nella Pozione una quantità maggiore di energia oscura, aumentando la sua Forza finale. Il bonus viene applicato alla Forza finale ottenuta attraverso il normale procedimento di creazione della Pozione.
+>
+> Livello I: +10% Forza
+> Livello II: +20% Forza
+> Livello III: +30% Forza
+
+
+> **Persistente**
+> Gli effetti della Pozione permangono più a lungo del normale. Può essere utilizzata soltanto su Pozioni Fatturanti che possiedono già una Durata espressa in post.
+> Livello I: +1 post alla Durata
+> Livello II: +2 post alla Durata
+> Livello III: +3 post alla Durata
+
+
+> **Volatile**
+> Può essere utilizzata esclusivamente sulle Pozioni Fatturanti a Somministrazione Aerea.
+> Quando viene utilizzata una dose, il numero di bersagli complessivamente raggiungibili diventa:
+> Livello I: 1+1d2
+> Livello II: 2+1d3
+> Livello III: 3+1d4
+
+
+> **Insidiosa**
+> Il Maestro altera la firma magica della Pozione, rendendone più difficile l'individuazione. Il Malus si applica a ogni PG che effettua il tentativo, compresa la vittima stessa.
+> Quando la vittima o qualsiasi altro PG tenta attraverso la *Tracciatura* di accorgersi che il bersaglio è sotto l'effetto della Pozione, diminuiscono le possibilità di riuscita del tentativo di:
+> Livello I: -1 Possibilità
+> Livello II: -3 Possibilità
+> Livello III: -5 Possibilità
+
 
 **Prezzo della Maestria**
 Maestro delle Fatture non consuma Fatica per la propria attivazione.
