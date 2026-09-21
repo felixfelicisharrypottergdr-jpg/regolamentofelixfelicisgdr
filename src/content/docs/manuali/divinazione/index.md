@@ -153,7 +153,9 @@ Il PG Consultante può però venire a conoscenza del risultato del dado se, lanc
 
 ## Conoscenze e Tecniche Divinatorie
 
-La struttura delle 43 schede individuali è stata predisposta nel nuovo sistema. Le singole schede vengono pubblicate soltanto dopo la migrazione integrale di Specifiche, Simbologie, note, valori ed eventuali dadi secondari dalla fonte, evitando di esporre schede parziali come se fossero complete.
+Le **43 Conoscenze e Tecniche Divinatorie** sono migrate integralmente come schede autonome, con Simbologie, Specifiche, note, valori ed eventuali dadi secondari conservati dalla fonte.
+
+[Consulta il catalogo completo delle Tecniche Divinatorie →](/manuali/divinazione/tecniche/)
 
 > **Perché le Conoscenze Avanzate Divinatorie non hanno il bonus per Sapienza Divinatoria 25 previsto per altre Conoscenze Avanzate?**  
 > La fonte spiega che le Conoscenze Divinatorie Avanzate forniscono già vantaggi particolarmente importanti: possono dare informazioni esclusive su Trame, PG, PNG e altri spunti di gioco normalmente preclusi agli altri PG.

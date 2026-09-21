@@ -286,7 +286,13 @@ export default defineConfig({
                 { label: 'Catalogo delle 15 Conoscenze', link: '/manuali/conoscenze-scolastiche/conoscenze/' },
               ],
             },
-            { label: 'Divinazione', slug: 'manuali/divinazione' },
+            {
+              label: 'Divinazione',
+              items: [
+                { label: 'Guida alla Divinazione', slug: 'manuali/divinazione' },
+                { label: 'Catalogo delle 43 Tecniche', link: '/manuali/divinazione/tecniche/' },
+              ],
+            },
             {
               label: 'Medimagia',
               items: [
