@@ -40,22 +40,22 @@ Non generano Punti Metamagia Pozioni, Piante, Creature, Oggetti Magici, effetti 
 Non è inoltre possibile accumulare Punti attraverso evocazioni prive di un effettivo scopo ONGame effettuate esclusivamente per generare Energia Metamagica.
 L'utilizzo di altre Maestrie sull'Incantesimo non impedisce di generare Punti Metamagia, salvo quando diversamente specificato dalle rispettive regole.
 
-[QUOTE]
-Incantesimi Scolastici:
-• +0,5 Punti Metamagia
 
-Incantesimi Extra:
-• 100%: +1 Punto Metamagia
-• 66%: +0,5 Punti Metamagia
-• 33%: nessun Punto Metamagia
-• 0%: nessun Punto Metamagia
+> Incantesimi Scolastici:
+> • +0,5 Punti Metamagia
+>
+> Incantesimi Extra:
+> • 100%: +1 Punto Metamagia
+> • 66%: +0,5 Punti Metamagia
+> • 33%: nessun Punto Metamagia
+> • 0%: nessun Punto Metamagia
+>
+> Incantesimi Avanzati:
+> • 100%: +1,5 Punti Metamagia
+> • 66%: +1 Punto Metamagia
+> • 33%: +0,5 Punti Metamagia
+> • 0%: nessun Punto Metamagia
 
-Incantesimi Avanzati:
-• 100%: +1,5 Punti Metamagia
-• 66%: +1 Punto Metamagia
-• 33%: +0,5 Punti Metamagia
-• 0%: nessun Punto Metamagia
-[/QUOTE]
 **Limite di accumulo**
 Il PG può conservare contemporaneamente un massimo di:
 *Livello I:* 4 Punti Metamagia
@@ -75,49 +75,49 @@ Le modifiche disponibili dipendono dal Livello della Maestria:
 *Livello II:* può utilizzare anche le modifiche dal costo di 4 Punti.
 *Livello III:* può utilizzare tutte le modifiche, compresa Doppia Metamagia.
 
-[QUOTE]
-**2 Punti**
 
-Durata Estesa: aumenta di +1 Post la Durata dell'Incantesimo.
-Può essere utilizzata soltanto su Incantesimi che possiedono già una Durata espressa in Post e non può essere applicata agli Incantesimi istantanei.
+> **2 Punti**
+>
+> Durata Estesa: aumenta di +1 Post la Durata dell'Incantesimo.
+> Può essere utilizzata soltanto su Incantesimi che possiedono già una Durata espressa in Post e non può essere applicata agli Incantesimi istantanei.
+>
+> Gittata Estesa: un Incantesimo con Gittata Corta viene considerato a Gittata Lunga.
+> Non può essere applicata a Incantesimi che possiedono già Gittata Lunga o la cui natura richiede necessariamente il Contatto o una distanza specifica.
+>
+> Area Estesa: aumenta di +2 PG il numero massimo di PG che possono essere compresi nell'Area dell'Incantesimo.
+> Può essere utilizzata soltanto quando le Specifiche dell'Incantesimo quantificano la propria Area attraverso un numero massimo di PG.
+>
+> **3 Punti**
+>
+> Potenziante: il PG sceglie uno solo dei seguenti potenziamenti compatibili con l'Incantesimo:
+> • +20 Forza
+> • aumenta di +2 punti un Bonus numerico prodotto dall'Incantesimo (es. +3 diventa +5)
+> • aumenta di 2 punti l'entità di un Malus numerico inflitto dall'Incantesimo (es. -3 diventa -5)
+> Se l'Incantesimo produce più Bonus o Malus differenti, il PG deve scegliere quale singolo valore potenziare.
+> Possono essere potenziati tutti i Bonus o Malus numerici prodotti direttamente dall'Incantesimo, compresi quelli applicati alla Destrezza.
+> Bonus o Malus espressi in percentuale non possono essere modificati tramite Potenziante.
+>
+> Economica: la Fatica propria dell'Incantesimo viene ridotta del 50%, anche qualora il risultato produca un valore frazionario.
+> Eventuali costi di Fatica aggiuntivi e indipendenti dall'Incantesimo non vengono ridotti.
+> Se viene evocato in forma Non Verbale, viene determinato prima il costo ridotto tramite Metamagia e soltanto successivamente viene applicato l'eventuale aumento di Fatica previsto per gli Incantesimi Non Verbali.
+>
+> **4 Punti**
+>
+> Rapida: un Incantesimo che normalmente richiede 1 Azione Principale può essere evocato come *Azione Bonus*.
+> In questo caso l'Azione Bonus utilizzata per Metamagia coincide con quella con cui viene evocato l'Incantesimo e non è necessario disporre di una seconda Azione Bonus.
+> Rapida può essere utilizzata soltanto su Incantesimi la cui evocazione possa essere interamente risolta attraverso una singola Azione Principale e non modifica eventuali altre condizioni, costi o limitazioni dell'Incantesimo.
+> L'utilizzo di Rapida permette quindi al PG di utilizzare normalmente la propria Azione Principale nello stesso Post, anche per evocare un altro Incantesimo qualora non esistano altre limitazioni che lo impediscano.
+>
+> Instancabile: la Fatica propria dell'Incantesimo viene ridotta a 0.
+> Eventuali costi di Fatica aggiuntivi e indipendenti dall'Incantesimo continuano ad applicarsi normalmente.
+> Se viene evocato in forma Non Verbale, l'eventuale aumento percentuale della Fatica viene calcolato sul costo finale di 0 e rimane pertanto pari a 0.
+>
+> **5 Punti**
+>
+> Doppia Metamagia: il PG può applicare contemporaneamente due modifiche differenti e compatibili tra quelle dal costo di 2, 3 o 4 Punti allo stesso Incantesimo, spendendo complessivamente 5 Punti Metamagia anziché il costo individuale delle due modifiche scelte.
+> Non è possibile applicare due volte la stessa modifica né scegliere Doppia Metamagia come una delle modifiche da applicare.
+> Le due modifiche devono essere entrambe compatibili con l'Incantesimo e le rispettive Specifiche continuano ad applicarsi normalmente.
+> *Economica* e *Instancabile* non possono essere utilizzate contemporaneamente, poiché intervengono entrambe sul medesimo costo di Fatica.
+> Se una delle modifiche scelte è *Rapida*, l'Azione Bonus utilizzata per Doppia Metamagia coincide con quella con cui viene evocato l'Incantesimo.
+> L'Incantesimo modificato tramite Doppia Metamagia non genera Punti Metamagia.
 
-Gittata Estesa: un Incantesimo con Gittata Corta viene considerato a Gittata Lunga.
-Non può essere applicata a Incantesimi che possiedono già Gittata Lunga o la cui natura richiede necessariamente il Contatto o una distanza specifica.
-
-Area Estesa: aumenta di +2 PG il numero massimo di PG che possono essere compresi nell'Area dell'Incantesimo.
-Può essere utilizzata soltanto quando le Specifiche dell'Incantesimo quantificano la propria Area attraverso un numero massimo di PG.
-
-**3 Punti**
-
-Potenziante: il PG sceglie uno solo dei seguenti potenziamenti compatibili con l'Incantesimo:
-• +20 Forza
-• aumenta di +2 punti un Bonus numerico prodotto dall'Incantesimo (es. +3 diventa +5)
-• aumenta di 2 punti l'entità di un Malus numerico inflitto dall'Incantesimo (es. -3 diventa -5)
-Se l'Incantesimo produce più Bonus o Malus differenti, il PG deve scegliere quale singolo valore potenziare.
-Possono essere potenziati tutti i Bonus o Malus numerici prodotti direttamente dall'Incantesimo, compresi quelli applicati alla Destrezza.
-Bonus o Malus espressi in percentuale non possono essere modificati tramite Potenziante.
-
-Economica: la Fatica propria dell'Incantesimo viene ridotta del 50%, anche qualora il risultato produca un valore frazionario.
-Eventuali costi di Fatica aggiuntivi e indipendenti dall'Incantesimo non vengono ridotti.
-Se viene evocato in forma Non Verbale, viene determinato prima il costo ridotto tramite Metamagia e soltanto successivamente viene applicato l'eventuale aumento di Fatica previsto per gli Incantesimi Non Verbali.
-
-**4 Punti**
-
-Rapida: un Incantesimo che normalmente richiede 1 Azione Principale può essere evocato come *Azione Bonus*.
-In questo caso l'Azione Bonus utilizzata per Metamagia coincide con quella con cui viene evocato l'Incantesimo e non è necessario disporre di una seconda Azione Bonus.
-Rapida può essere utilizzata soltanto su Incantesimi la cui evocazione possa essere interamente risolta attraverso una singola Azione Principale e non modifica eventuali altre condizioni, costi o limitazioni dell'Incantesimo.
-L'utilizzo di Rapida permette quindi al PG di utilizzare normalmente la propria Azione Principale nello stesso Post, anche per evocare un altro Incantesimo qualora non esistano altre limitazioni che lo impediscano.
-
-Instancabile: la Fatica propria dell'Incantesimo viene ridotta a 0.
-Eventuali costi di Fatica aggiuntivi e indipendenti dall'Incantesimo continuano ad applicarsi normalmente.
-Se viene evocato in forma Non Verbale, l'eventuale aumento percentuale della Fatica viene calcolato sul costo finale di 0 e rimane pertanto pari a 0.
-
-**5 Punti**
-
-Doppia Metamagia: il PG può applicare contemporaneamente due modifiche differenti e compatibili tra quelle dal costo di 2, 3 o 4 Punti allo stesso Incantesimo, spendendo complessivamente 5 Punti Metamagia anziché il costo individuale delle due modifiche scelte.
-Non è possibile applicare due volte la stessa modifica né scegliere Doppia Metamagia come una delle modifiche da applicare.
-Le due modifiche devono essere entrambe compatibili con l'Incantesimo e le rispettive Specifiche continuano ad applicarsi normalmente.
-*Economica* e *Instancabile* non possono essere utilizzate contemporaneamente, poiché intervengono entrambe sul medesimo costo di Fatica.
-Se una delle modifiche scelte è *Rapida*, l'Azione Bonus utilizzata per Doppia Metamagia coincide con quella con cui viene evocato l'Incantesimo.
-L'Incantesimo modificato tramite Doppia Metamagia non genera Punti Metamagia.
-[/QUOTE]
