@@ -31,7 +31,7 @@ per agire sul campo, in autonomia, senza intervento diretto del Narratore.
 Questa Ricerca consente ai PG di completare il Livello Difficile della Missione
 "L'Auror" del FantaWiz.
 
-### Trovare una Missione: in che modalità?
+## Trovare una Missione: in che modalità?
 
 Con il termine "Missione" si fa riferimento a incarichi operativi affidati agli Auror o Numen con
 lo scopo di contrastare crimini, contenere minacce, proteggere persone o oggetti magici e
@@ -44,7 +44,7 @@ ufficialmente in campo dai loro diretti superiori; i secondi in quanto assistent
 Ministero della Magia per esubero di missioni o mancanza di personale.
 La Ricerca Missioni si svolge sempre in Gran Bretagna, magica e non magica.
 
-### Arrivo di una Missione: come e dove
+## Arrivo di una Missione: come e dove
 
 I PG vengono *sempre* coinvolti in una nuova Missione, senza bisogno di lanciare un
 dado per essere chiamati in causa, come invece accade in altre Ricerche del nostro gioco.
@@ -54,7 +54,7 @@ inutilmente lungo e poco scorrevole.
 Ciò che invece viene lasciato al caso in questa prima parte, è il tipo di Missione per la quale
 si viene convocati.
 
-### Quale Missione viene assegnata ai PG?
+## Quale Missione viene assegnata ai PG?
 
 Si lancia un dado per stabilire di che genere di incarico si tratta.
 • È possibile tentare nuove Missioni rinunciando a quella ricevuta (assegnata all’ultimo
