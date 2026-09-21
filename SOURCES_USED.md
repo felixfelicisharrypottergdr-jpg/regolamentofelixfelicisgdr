@@ -17,8 +17,8 @@ Il sito usa le fonti reali del regolamento FELIX FELICIS. Alcune aree sono ormai
   - guida generale completa e Glossario integrale di 317 Ingredienti.
 
 - 10.4 Enciclopedia Medimagica
-  - Nundacea.
-  - Kappalitosi.
+  - guida e Tecniche complete; Sintomatologia; 44 Malattie Magiche; Lesioni e Traumi; Incidenti da Manufatti; Avvelenamenti; Ferite da Creature e Piante.
+
 - 10.1 Manuale di Incantesimi
   - migrazione integrale di 212 Incantesimi, catalogo strutturato, relazioni, Specifiche e note generali.
 - 8. Vivere nel Mondo Magico
