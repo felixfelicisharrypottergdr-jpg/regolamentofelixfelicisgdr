@@ -2,38 +2,46 @@
 id: "daac6fc6-7004-4ca0-a64b-a93b4c12716f"
 slug: "mezzelfo"
 name: "Mezzelfo o Mezzelfa"
-description: "Mezzosangue di ascendenza elfica, dotato di naturale potenza magica ma più vulnerabile alle conseguenze dei traumi."
+description: "Mezzosangue di ascendenza elfica."
 applicability: [student, adult]
 availablePlaces: "2/3"
 relatedFelixIds:
   - "72a6d6de-6662-462a-a309-effe80e42576"
   - "3331581d-ffa4-4198-bbce-443b761438df"
-searchAliases: [mezzelfo, mezzelfa, mezzo elfo]
+searchAliases:
+  - "mezzelfo"
+  - "mezzelfa"
+  - "mezzo elfo"
 status: published
 migration:
-  status: migrated
+  status: revised
   sources:
     - document: "1. Le Regole del Gioco"
       section: "Razze > Mezzelfo o Mezzelfa"
-      note: "Estratto di prototipo; la scheda definitiva conterrà integralmente il testo attuale."
 ---
 
+### Mezzelfo o Mezzelfa
 I Mezzelfi sono mezzosangue che hanno un genitore mago/strega e l'altro elfo/elfa. Possono essere sia maschi che femmine.
+Gli Elfi sono fra le Creature più potenti del Mondo Magico e, di conseguenza, la principale caratteristica dei Mezzelfi è quella di possedere una naturale potenza magica fuori dal comune. Il loro corpo, tuttavia, conserva una struttura più minuta e delicata rispetto a quella umana: non necessariamente meno resistente in termini di Parametri, ma più vulnerabile alle conseguenze dei traumi e più lento nel recuperare dalle ferite.
+Un PG che incontra un Mezzelfo può autoconcludere il riconoscimento della sua razza per via della sua corporatura fuori dalla norma.
 
-La loro principale caratteristica è una naturale potenza magica fuori dal comune; il corpo conserva però una struttura più minuta e delicata, più vulnerabile alle conseguenze dei traumi.
-
-Il riconoscimento della Razza può essere autoconcluso per via della corporatura fuori dalla norma.
-
-## Distribuzione
-
+**DISTRIBUZIONE**
 Distribuzione normale secondo l'età del PG, poi **+3 Potenza**.
 
-## Tratti Razziali
+**TRATTI RAZZIALI**
+**Privilegio - Magia Istintiva:** il retaggio elfico permette al PG di utilizzare la magia con una naturalezza fuori dal comune. **Una volta per role**, quando utilizza una Conoscenza, il PG può scegliere uno dei seguenti benefici:
+• evocare la Conoscenza **automaticamente con riuscita al 100%**, sostenendone il normale consumo di Fatica;
+• effettuare normalmente il lancio previsto dalla Conoscenza, ma **senza consumare Fatica** per quella singola evocazione.
+I due benefici non possono essere applicati contemporaneamente alla stessa Conoscenza.
+La Conoscenza scelta deve essere normalmente posseduta e utilizzabile dal PG, che deve soddisfarne tutti gli eventuali requisiti. La riuscita automatica al 100% riguarda esclusivamente l'evocazione della Conoscenza e **non permette di ignorare eventuali Scontri, difese o altre meccaniche già previste dal Regolamento per determinarne gli effetti su altri PG/PNG**.
+**Svantaggio - Fragilità Elfica:** il corpo minuto del Mezzelfo è particolarmente vulnerabile alle conseguenze dei traumi. La prima volta in ogni role in cui il PG sviluppa uno o più **Sintomi in seguito alla perdita di Salute**, il Sintomo di gravità maggiore aumenta di **un grado**, fino al massimo previsto dalla relativa Classificazione.
 
-### Privilegio — Magia Istintiva
+> **Esempio.**
+> Se il danno subito provocherebbe un Sintomo di gravità XX, per il Mezzelfo viene considerato di gravità XXX.
 
-Una volta per Role, quando utilizza una Conoscenza, il PG può scegliere fra riuscita automatica al 100% con normale consumo di Fatica oppure normale lancio senza consumo di Fatica. I due benefici non possono essere applicati contemporaneamente alla stessa Conoscenza.
+Quando per i Sintomi derivanti da danno è previsto un periodo di Guarigione Passiva o di Convalescenza ONGame, la relativa durata aumenta inoltre del **50%**, arrotondando per eccesso quando necessario.
 
-### Svantaggio — Fragilità Elfica
-
-La prima volta in ogni Role in cui il PG sviluppa uno o più Sintomi in seguito alla perdita di Salute, il Sintomo di gravità maggiore aumenta di un grado, fino al massimo previsto dalla relativa Classificazione. I tempi di Guarigione Passiva o Convalescenza previsti aumentano inoltre del **50%**.
+**POSTI DISPONIBILI:** 2/3
+• ...
+• ...
+• ...

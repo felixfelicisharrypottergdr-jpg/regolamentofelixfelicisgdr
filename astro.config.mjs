@@ -157,7 +157,13 @@ export default defineConfig({
                 },
               ],
             },
-            { label: 'Razze', link: '/il-personaggio/razze/' },
+            {
+              label: 'Razze',
+              items: [
+                { label: 'Guida e distribuzione', slug: 'il-personaggio/razze-guida' },
+                { label: 'Elenco delle Razze', link: '/il-personaggio/razze/' },
+              ],
+            },
             { label: 'Bagaglio e Oggetti', slug: 'il-personaggio/bagaglio' },
             {
               label: 'Parametri',
