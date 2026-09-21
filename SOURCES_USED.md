@@ -8,7 +8,7 @@ Il sito usa le fonti reali del regolamento FELIX FELICIS. Alcune aree sono ormai
   - Guida completa, 12 Tecniche/Incantesimi Erbologici e 92 Piante dell'Erbario.
 
 - 10.6 Magizoologia
-  - Guida completa, 11 Tecniche/Incantesimi Magizoologici e 113 Creature del Bestiario.
+  - Guida completa, 11 Tecniche/Incantesimi Magizoologici e 141 Creature del Bestiario; Bezoar integrato nella scheda Ingrediente canonica.
 
 - 10.7 Pozionistica
   - Vaccino AntiNundux +.

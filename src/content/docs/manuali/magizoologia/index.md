@@ -1448,4 +1448,4 @@ Creatura è di colore, l'acquisto non va effettuato.
 
 - [Tecniche e Incantesimi Magizoologici](/manuali/magizoologia/tecniche/)
 - [Come leggere il Bestiario](/manuali/magizoologia/bestiario-guida/)
-- [Bestiario completo — 113 Creature](/manuali/magizoologia/bestiario/)
+- [Bestiario completo — 141 Creature](/manuali/magizoologia/bestiario/)
