@@ -28,7 +28,7 @@ const ingredientTableRows = ingredientRows.map((item) => ({
   amount: item.amount ?? '—',
   classification: item.classification ?? '—',
 }));
-const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text: 'Ingredienti e dosi' }];
+const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi-tabella', text: 'Ingredienti e dosi — tabella' }];
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
   <SearchMetadata
@@ -55,7 +55,7 @@ const pageHeadings = [...headings, { depth: 2, slug: 'ingredienti-e-dosi', text:
     <Content />
 
     <section>
-      <AnchorHeading level="2" id="ingredienti-e-dosi">Ingredienti e dosi</AnchorHeading>
+      <AnchorHeading level="2" id="ingredienti-e-dosi-tabella">Ingredienti e dosi — tabella</AnchorHeading>
       <FelixDataTable
         ariaLabel="Ingredienti e dosi"
         columns={[
