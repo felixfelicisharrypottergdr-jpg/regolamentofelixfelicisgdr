@@ -1,5 +1,5 @@
 ---
-id: "b438caa1-b31a-540d-87e5-9a14fc0c7392"
+id: "72d72470-86be-5b36-9e62-8b3f5fa2ad19"
 slug: "fungo-saltellante"
 name: "Fungo Saltellante"
 description: "Lanciato in purezza, emette fumo giallastro pieno di spore che causa nei PG colpiti -2 Resistenza e Destrezza per 3 loro post."
