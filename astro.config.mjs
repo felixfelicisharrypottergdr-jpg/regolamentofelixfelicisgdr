@@ -132,7 +132,26 @@ export default defineConfig({
                     { label: 'PG Locandieri', slug: 'il-personaggio/pg-adulto/lavorare/locandieri' },
                   ],
                 },
-                { label: 'Modalità di gioco', slug: 'il-personaggio/pg-adulto/modalita-di-gioco' },
+                {
+                  label: 'Modalità di gioco',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/pg-adulto/modalita-di-gioco' },
+                    { label: 'Luoghi del Mondo Magico', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/luoghi-mondo-magico' },
+                    { label: 'Luoghi di Maestria e Magione', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/luoghi-maestria-magione' },
+                    { label: 'Trama, Enclave e Aurora', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/trama-fazioni' },
+                    { label: 'PG Protagonisti', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/protagonisti' },
+                    { label: 'Eventi e CroNoTroSe', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/eventi-categoria-mestiere' },
+                    { label: 'Mille e una Nottetempo', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/mille-e-una-nottetempo' },
+                    { label: 'Notizie dal Mondo Magico', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/notizie-mondo-magico' },
+                    {
+                      label: 'FantaWiz',
+                      items: [
+                        { label: 'Regole', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/fantawiz' },
+                        { label: 'Missioni', link: '/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/' },
+                      ],
+                    },
+                  ],
+                },
               ],
             },
             { label: 'Razze', link: '/il-personaggio/razze/' },
