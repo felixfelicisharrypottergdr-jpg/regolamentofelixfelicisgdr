@@ -16,6 +16,10 @@ quickFacts:
     value: "Caotiche · Neutrali · Legali"
   - label: "Missioni Caotiche"
     value: "17"
+  - label: "Missioni Neutrali"
+    value: "37"
+  - label: "Missioni Legali"
+    value: "15"
   - label: "Premi cumulabili"
     value: "Solo il più alto per tipologia, salvo Missioni a completamento"
 quickLinks:
