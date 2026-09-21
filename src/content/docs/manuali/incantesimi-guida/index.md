@@ -106,25 +106,25 @@ ecceda individualmente le dimensioni di un elefante.
 La riuscita della trasfigurazione dipende anche dalla potenzialità dell’incantesimo e
 dall’esperienza dell’incantatore, secondo il seguente schema:
 **Categorie di dimensione dei bersagli:**
-[QUOTE]
-**Piccoli** → fino a un gatto
-**Medi** → fino a una persona
-**Grandi** → fino a un elefante
-**Enormi** → fino a un drago
-**"Una parte di un Bersaglio"**
-Quando si fa riferimento alla possibilità di trasfigurare **una parte di un bersaglio**, si
-intende un elemento singolo, fisicamente distinto e delimitabile, come ad esempio un arto,una zampa, un’ala, la coda, la testa o un corno. La parte in questione deve comunque
-rispettare i limiti dimensionali massimi: non deve superare la dimensione di un elefante.
-Questo significa che, anche qualora il bersaglio complessivo sia troppo grande per essere
-colpito interamente, l’incantatore può comunque agire su una sua parte, come una zampa o
-un’ala, a condizione che questa parte sia gestibile in termini di massa e volume.
-**Rispettare le Specifiche dell'Incantesimo**
-Si ricorda che, indipendentemente dalla Potenza dell’incantesimo e dall’esperienza
-dell’incantatore, un incantesimo resta vincolato alle sue specifiche regole d’applicazione. Se
-un incantesimo è concepito per colpire solo bersagli di dimensioni piccole o medie, non sarà
-possibile utilizzarlo su bersagli più grandi, anche qualora l’incantatore possieda teoricamente
-le capacità per farlo.
-[/QUOTE]
+
+> **Piccoli** → fino a un gatto
+> **Medi** → fino a una persona
+> **Grandi** → fino a un elefante
+> **Enormi** → fino a un drago
+> **"Una parte di un Bersaglio"**
+> Quando si fa riferimento alla possibilità di trasfigurare **una parte di un bersaglio**, si
+> intende un elemento singolo, fisicamente distinto e delimitabile, come ad esempio un arto,una zampa, un’ala, la coda, la testa o un corno. La parte in questione deve comunque
+> rispettare i limiti dimensionali massimi: non deve superare la dimensione di un elefante.
+> Questo significa che, anche qualora il bersaglio complessivo sia troppo grande per essere
+> colpito interamente, l’incantatore può comunque agire su una sua parte, come una zampa o
+> un’ala, a condizione che questa parte sia gestibile in termini di massa e volume.
+> **Rispettare le Specifiche dell'Incantesimo**
+> Si ricorda che, indipendentemente dalla Potenza dell’incantesimo e dall’esperienza
+> dell’incantatore, un incantesimo resta vincolato alle sue specifiche regole d’applicazione. Se
+> un incantesimo è concepito per colpire solo bersagli di dimensioni piccole o medie, non sarà
+> possibile utilizzarlo su bersagli più grandi, anche qualora l’incantatore possieda teoricamente
+> le capacità per farlo.
+
 **Incantesimo lanciato da PG Studenti con Voto:**
 **Eccezionale** → fino a bersagli di media dimensione, oppure una parte di un
 bersaglio di grande dimensione
