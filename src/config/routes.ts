@@ -18,6 +18,7 @@ export const collectionBases = {
   missions: 'il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/',
   adultMissions: 'il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/',
   masteries: 'conoscenze-e-sapienze/maestrie/',
+  divinationTechniques: 'manuali/divinazione/tecniche/',
   legalDocuments: 'mondo-magico/leggi/documenti/',
   legalArticles: 'mondo-magico/leggi/articoli/',
 } as const;
