@@ -1,25 +1,50 @@
-# Fonti migrate
+# Fonti del Regolamento migrate
 
-Il sito usa le fonti reali del regolamento FELIX FELICIS. Questo file viene mantenuto come matrice di copertura durante la migrazione totale.
+Questa pagina registra le fonti canoniche usate per costruire il sito-regolamento FELIX FELICIS.
 
-## Fonti complete
+Per lo stato analitico e la matrice fonte → lotto di migrazione, vedere `MIGRATION_STATUS.md`.
 
-- 10.1 Manuale di Incantesimi — 212 Incantesimi, relazioni, Specifiche e materiale generale.
-- 10.2 Altre Conoscenze Scolastiche — 15 Conoscenze + Sapienze Fisiche/Sociali integrate.
-- 10.3 Manuale di Divinazione — guida + 43 Tecniche.
-- 10.4 Enciclopedia Medimagica
-  - guida completa, 18 Incantesimi/Tecniche Medimagiche, 102 Sintomi, 44 Malattie, lesioni da Incantesimi/Pozioni, incidenti da Manufatti, avvelenamenti e ferite da Creature/Piante.
+## Fonti principali
 
-- 10.5 Erbologia — guida, 12 Tecniche/Incantesimi, 92 Piante.
-- 10.6 Magizoologia — guida, 11 Tecniche/Incantesimi, 141 Creature; Bezoar nella scheda Ingrediente.
-- 10.7 Pozionistica — guida, Tecniche e 136 Pozioni.
-- 10.8 Tracciatura — guida, Sensi Magici, Spezzamento ed Esorcismo.
-- 10.9 Ingredienti — guida + 317 Ingredienti.
-- Maestrie — 36 Maestrie complete.
-- 8. Vivere nel Mondo Magico — Trasporti, Commercio, Fabbricazione, Prezzari (229 voci uniche; la fonte contiene una duplicazione letterale del blocco), Quidditch, partite da background, Giochi Magici, Azioni Illegali, Medimagia e Leggi Magiche.
+- **1. Le Regole del Gioco** — migrazione integrale.
+- **2. Parametri** — migrazione integrale.
+- **3. Le Conoscenze** — migrazione integrale.
+- **4. Guida agli Scontri** — migrazione integrale.
+- **5. Le Sapienze** — migrazione integrale.
+- **6. Modalità di Gioco** — migrazione integrale.
+- **6. Giocare un PG Studente** — migrazione integrale.
+- **7. Giocare un PG Adulto** — migrazione integrale.
+- **8. Vivere nel Mondo Magico** — migrazione completa per la V1.
+- **9. Ricerche Casuali** — migrazione integrale.
+- **10.1 Manuale di Incantesimi** — migrazione integrale.
+- **10.2 Altre Conoscenze Scolastiche** — migrazione integrale.
+- **10.3 Manuale di Divinazione** — migrazione integrale.
+- **10.4 Enciclopedia Medimagica** — migrazione integrale.
+- **10.5 Erbologia** — migrazione integrale.
+- **10.6 Magizoologia** — migrazione integrale.
+- **10.7 Pozionistica** — migrazione integrale.
+- **10.8 Tracciatura** — migrazione integrale.
+- **10.9 Ingredienti** — migrazione integrale.
+- **Maestrie** — migrazione integrale della fonte corrente.
 
-## Fonti 1–9
+## Eccezioni deliberate della V1
 
-- 1. Le Regole del Gioco — **completa**: premessa, Valute, Dadi, Allineamenti, Modalità di Gioco (canonica nella fonte 6), Meccaniche, Popolometro, Razze, Bagaglio/Oggetti, PNG, Staff e Staff Token.
-- 9. Ricerche Casuali — **completa**: tutte le nove Ricerche con procedure, dadi, tabelle, fasi, premi, limiti ed eccezioni.
-- 2–7 — audit finale di copertura in corso.
+Il brief di progetto esclude dalla migrazione:
+
+1. la **Fabbricazione/Crafting generico di Oggetti ONGame**;
+2. il **catalogo dettagliato delle schede PNG**.
+
+Le normali regole sui PNG e sulle loro interazioni sono invece parte del sito.
+
+## Criterio di migrazione
+
+Il testo completo resta editoriale. I campi strutturati servono a:
+
+- ricerca;
+- filtri;
+- cataloghi;
+- relazioni;
+- backlink;
+- navigazione.
+
+Le normalizzazioni non devono inventare regole. Le anomalie della fonte che richiedono una decisione Staff restano conservate fino all'audit editoriale.
