@@ -123,6 +123,7 @@ export default defineConfig({
                     { label: 'Parametri Sociali', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto/parametri-sociali' },
                   ],
                 },
+                { label: 'Luoghi di Maestria', slug: 'il-personaggio/pg-adulto/luoghi-di-maestria' },
                 {
                   label: 'Lavorare nel Mondo Magico',
                   items: [
@@ -132,7 +133,28 @@ export default defineConfig({
                     { label: 'PG Locandieri', slug: 'il-personaggio/pg-adulto/lavorare/locandieri' },
                   ],
                 },
-                { label: 'Modalità di gioco', slug: 'il-personaggio/pg-adulto/modalita-di-gioco' },
+                {
+                  label: 'Modalità di gioco',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/pg-adulto/modalita-di-gioco' },
+                    { label: 'Luoghi del Mondo Magico', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/luoghi-del-mondo-magico' },
+                    { label: 'Trama dell’Anno', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/trama-dell-anno' },
+                    { label: 'Enclave', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/enclave' },
+                    { label: 'Aurora', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/aurora' },
+                    { label: 'PG Protagonisti — in revisione', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/pg-protagonisti' },
+                    { label: 'Eventi di Categoria e Mestiere', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/eventi-categoria-mestiere' },
+                    { label: 'CroNoTroSe', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/cronotrose' },
+                    { label: 'Mille e una Nottetempo', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/mille-e-una-nottetempo' },
+                    { label: 'Notizie dal Mondo Magico', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/notizie-dal-mondo-magico' },
+                    {
+                      label: 'FantaWiz',
+                      items: [
+                        { label: 'Regole', slug: 'il-personaggio/pg-adulto/modalita-di-gioco/fantawiz' },
+                        { label: 'Missioni', link: '/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/' },
+                      ],
+                    },
+                  ],
+                },
               ],
             },
             { label: 'Razze', link: '/il-personaggio/razze/' },
