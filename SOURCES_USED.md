@@ -5,8 +5,8 @@ Il sito usa le fonti reali del regolamento FELIX FELICIS. Alcune aree sono ormai
 ## Campioni principali
 
 - 10.5 Erbologia
-  - Guida all'Erbologia: Riconoscimento, Interazione, Trattamento, Coltivazione e Riproduzione.
-  - Erbario: Artemisia, Cespuglio Spinoso, Geranio Zannuto.
+  - Guida completa, 12 Tecniche/Incantesimi Erbologici e 92 Piante dell'Erbario.
+
 - 10.6 Magizoologia
   - Bestiario: Nundu e altre Creature del campione.
 - 10.7 Pozionistica
