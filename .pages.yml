@@ -307,6 +307,56 @@ content:
           - { name: migration, component: migration }
           - { name: body, label: Specifiche ed effetti, type: rich-text, options: { media: false } }
 
+
+  - name: divinationSystem
+    label: Manuali — Divinazione
+    type: group
+    items:
+      - name: divinationTechniques
+        label: Tecniche Divinatorie
+        type: collection
+        path: src/content/divination-techniques
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: "{slug}.md"
+        view:
+          primary: name
+          fields: [name, kind, schoolYear, status]
+          search: [name, description, searchAliases]
+          sort: [kind, name]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - name: kind
+            label: Tipo
+            type: select
+            required: true
+            options: { values: [Scolastica, Extra, Avanzata] }
+          - name: schoolYear
+            label: Anno scolastico
+            type: select
+            options: { values: [V, VI, VII] }
+          - { name: image, label: Immagine, type: string }
+          - name: values
+            label: Valori
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}: {value}"
+            fields:
+              - { name: label, label: Voce, type: string, required: true }
+              - { name: value, label: Valore, type: string, required: true }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Simbologia, Specifiche e note, type: rich-text, options: { media: false } }
+
   - name: manuals
     label: Manuali strutturati
     type: group
