@@ -41,8 +41,12 @@ const pageHeadings=entry.data.values.length?[...headings,{depth:2,slug:'valori',
       <section class="felix-values-section">
         <AnchorHeading level="2" id="valori">Valori</AnchorHeading>
         <FelixDataTable
-          headers={['Voce','Valore']}
-          rows={entry.data.values.map((item)=>[item.label,item.value])}
+          ariaLabel="Valori della Maestria"
+          columns={[
+            { key: 'label', label: 'Voce' },
+            { key: 'value', label: 'Valore' },
+          ]}
+          rows={entry.data.values}
         />
       </section>
     )}
