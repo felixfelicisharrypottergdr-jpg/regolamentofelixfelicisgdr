@@ -35,7 +35,7 @@ prototypeExcerpt: false
 
 ## Guida alla Tracciatura
 
-#### Da Harry Potter e il Principe Mezzosangue, Cap. X
+### Da Harry Potter e il Principe Mezzosangue, Cap. X
 
 **Pag. X**
 > Silente era al centro della caverna, la bacchetta levata, e girava piano su se stesso,
