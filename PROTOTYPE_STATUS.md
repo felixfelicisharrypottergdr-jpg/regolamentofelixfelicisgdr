@@ -89,3 +89,8 @@ Il prototipo è ora pronto per il **primo caricamento e primo build-test su GitH
 - Medimagia completa: guida/Tecniche, Sintomatologia, 44 Malattie, Lesioni/Traumi, Incidenti, Avvelenamenti e Ferite da Creature/Piante dalla fonte 10.4.
 - Altre Conoscenze Scolastiche complete: 15 schede strutturate (3 per ciascuna di 5 materie), catalogo per Materia/Anno e integrazione completa delle Sapienze Fisiche e Sociali a 5 Livelli.
 - Il test dell'iframe full-viewport su ForumFree resta una verifica obbligatoria dopo il primo deploy.
+
+- Parametri completi: fonte 2 migrata integralmente nelle tre famiglie Magici/Fisici/Sociali.
+- Conoscenze complete: fonte 3 migrata integralmente negli otto capitoli canonici.
+- Guida agli Scontri completa: fonte 4 migrata integralmente nelle cinque pagine operative.
+- Sapienze complete: fonte 5 migrata integralmente, comprese condizioni di crescita.

@@ -39,18 +39,16 @@ Le pagine contrassegnate come `prototypeExcerpt: true` sono volutamente parziali
 
 ## Parametri, Conoscenze e Sapienze
 
-- `2. Parametri` — Parametri Magici, Parametri Fisici, Parametri Sociali.
-- `3. Le Conoscenze` — Conoscenze Autoconclusive, Scolastiche, Extra, Avanzate; Usare le Conoscenze.
-- `5. Le Sapienze` — definizione; Sapienze Magiche, Fisiche e Sociali.
-- `Maestrie` — contenuto nativo del nuovo sito, derivato dalla nuova aggiunta progettuale e non da una fonte del regolamento attuale.
+- `2. Parametri` — migrazione integrale di Parametri Magici, Fisici e Sociali, comprese regole di guadagno/perdita/recupero e casi specifici.
+- `3. Le Conoscenze` — migrazione integrale di Autoconclusive, Scolastiche, Extra, Avanzate, uso, ottenimento, creazione e Glossario.
+- `5. Le Sapienze` — migrazione integrale di definizione, Sapienze Magiche/Fisiche/Sociali e condizioni di crescita.
+- `Maestrie` — sistema completo aggiunto sopra le Sapienze.
 
 ## Giocare e Guida agli Scontri
 
-- `1. Le Regole del Gioco` — Free Role, Role Masterate, Richieste al Narratore, definizione di Azione, Perché i dadi e Lancio dei dadi.
-- `4. Guida agli Scontri` — Cosa si intende per scontro, Regole pratiche degli scontri, Turnazione, Destrezza negli scontri, Forza delle Conoscenze negli scontri e Forza reale delle Conoscenze.
-- `2. Parametri` — Destrezza e Parametri Fisici richiamati dalla Guida agli Scontri.
-
-Le pagine inserite in questa fase sono estratti strutturali del prototipo e non sostituiscono la migrazione integrale delle fonti.
+- `1. Le Regole del Gioco` — regole generali e sistema delle role in corso di completamento per capitoli.
+- `4. Guida agli Scontri` — migrazione integrale: definizione di scontro, regole pratiche, turnazione, Destrezza e Forza delle Conoscenze.
+- `6. Modalità di Gioco` — modalità comuni migrate; audit finale della fonte ancora in corso.
 
 ## Ricerche Casuali e Azioni Illegali
 
