@@ -113,7 +113,16 @@ export default defineConfig({
               label: 'PG Adulto',
               items: [
                 { label: 'Il gioco dei PG Adulti', slug: 'il-personaggio/pg-adulto' },
-                { label: 'Creare un PG Adulto', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto' },
+                {
+                  label: 'Creare un PG Adulto',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto' },
+                    { label: 'Categorie Magiche', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto/categorie-magiche' },
+                    { label: 'Parametri Magici', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto/parametri-magici' },
+                    { label: 'Parametri Fisici', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto/parametri-fisici' },
+                    { label: 'Parametri Sociali', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto/parametri-sociali' },
+                  ],
+                },
                 { label: 'Lavorare nel Mondo Magico', slug: 'il-personaggio/pg-adulto/lavorare' },
                 { label: 'Modalità di gioco', slug: 'il-personaggio/pg-adulto/modalita-di-gioco' },
               ],
