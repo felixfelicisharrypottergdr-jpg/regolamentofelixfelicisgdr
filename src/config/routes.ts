@@ -19,6 +19,7 @@ export const collectionBases = {
   adultMissions: 'il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/',
   masteries: 'conoscenze-e-sapienze/maestrie/',
   divinationTechniques: 'manuali/divinazione/tecniche/',
+  schoolKnowledges: 'manuali/conoscenze-scolastiche/conoscenze/',
   legalDocuments: 'mondo-magico/leggi/documenti/',
   legalArticles: 'mondo-magico/leggi/articoli/',
 } as const;
