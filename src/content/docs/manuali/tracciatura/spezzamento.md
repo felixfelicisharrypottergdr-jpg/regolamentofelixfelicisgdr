@@ -41,7 +41,7 @@ Lo Spezzamento avviene attraverso la pratica di tecniche minori specifiche. Tutt
 
 Lo Spezzamento corrisponde all'omonima Conoscenza Avanzata **Spezzaincantesimi**.
 
-#### Le Tecniche Minori
+## Le Tecniche Minori
 
 **Meccanica**
 
