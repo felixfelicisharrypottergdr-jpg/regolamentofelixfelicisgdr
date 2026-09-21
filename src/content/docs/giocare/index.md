@@ -24,7 +24,7 @@ quickLinks:
   - label: "Azioni Illegali"
     href: "/giocare/azioni-illegali/"
     description: "Procedure e conseguenze delle Azioni Illegali."
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: native
   sources: []
