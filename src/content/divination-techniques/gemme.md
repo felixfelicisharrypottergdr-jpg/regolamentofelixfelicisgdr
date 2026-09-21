@@ -87,8 +87,7 @@ Gemmomanzia, il Lapislazzuli può indicare la ricerca della verità e della sagg
 di esplorare la propria conoscenza interiore e la capacità di discernere la realtà dalle
 illusioni.
 
-[IMG=Voluntas-emoji]https://i.postimg.cc/hjtwW6rf/Voluntas-emoji.png[
-/IMG]** 3.
+![Voluntas](https://i.postimg.cc/hjtwW6rf/Voluntas-emoji.png)** 3.
 Volontà**
 **1. Granato:** simboleggia la passione e la
 determinazione, offrendo energia vitale per perseguire gli obiettivi con forza. Nella
@@ -103,8 +102,7 @@ la determinazione e la volontà. Nella Gemmomanzia, il Cristallo di rocca può i
 chiarezza mentale, guarigione a livello fisico e spirituale, e un equilibrio armonioso tra
 mente, corpo e spirito.
 
-[IMG=Numen-emoji]https://i.postimg.cc/VkbrLhdH/Numen-emoji.png[/I
-MG]** 4.
+![Numen](https://i.postimg.cc/VkbrLhdH/Numen-emoji.png)** 4.
 Potenza**
 ****1. Occhio di tigre:**** simboleggia la
 protezione e la forza interiore, aiutando a mantenere la determinazione e a superare le sfide.
