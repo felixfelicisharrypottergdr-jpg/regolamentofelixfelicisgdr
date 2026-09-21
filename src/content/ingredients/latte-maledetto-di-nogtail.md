@@ -1,23 +1,38 @@
 ---
 id: "44444444-4444-4444-8444-444444444443"
-slug: latte-maledetto-di-nogtail
-name: Latte maledetto di Nogtail
-description: "Ingrediente associato al Nogtail."
-classification: XXX
-goodsClass: "Da verificare in migrazione"
-legality: "Da verificare in migrazione"
+slug: "latte-maledetto-di-nogtail"
+name: "Latte maledetto di Nogtail"
+description: "Se bevuto in purezza causa un malus di -2 a tutti i Parametri Magici per 4 post del PG."
+classification: "XXX"
+goodsClass: "Non Commerciabile di Classe C"
+legality: "Illegale per tutti"
 exotic: false
-provenance: "Nogtail"
-effect: "Da migrare integralmente dalla fonte"
+provenance: "Bestie XXX"
+effect: "Se bevuto in purezza causa un malus di -2 a tutti i Parametri Magici per 4 post del PG."
 relatedFelixIds: []
-searchAliases: []
-status: draft
+searchAliases:
+  - "lattemaledettodinogtail"
+  - "latte maledetto di nogtail"
+status: published
 migration:
-  status: to_migrate
+  status: migrated
   sources:
     - document: "10.9 Ingredienti"
       section: "Glossario degli Ingredienti"
       item: "Latte maledetto di Nogtail"
 ---
 
-Questa voce esiste nel prototipo per testare **stato Bozza / Da migrare**. I campi non verificati sono volutamente marcati come tali anziché inventati.
+# Latte maledetto di Nogtail
+
+| Voce | Valore |
+| --- | --- |
+| Classificazione | XXX |
+| Classe bene | Non Commerciabile di Classe C |
+| Legalità | Illegale per tutti |
+| Provenienza | Bestie XXX |
+| Esotico | No |
+| Effetto | Se bevuto in purezza causa un malus di -2 a tutti i Parametri Magici per 4 post del PG. |
+
+## Effetto in purezza
+
+Se bevuto in purezza causa un malus di -2 a tutti i Parametri Magici per 4 post del PG.

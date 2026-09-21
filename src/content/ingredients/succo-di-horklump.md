@@ -1,16 +1,18 @@
 ---
 id: "15a76bc3-5025-4b4e-8aff-955cb77fc3ae"
-slug: succo-di-horklump
-name: Succo di Horklump
-description: "Ingrediente di origine animale classificato X."
-classification: X
+slug: "succo-di-horklump"
+name: "Succo di Horklump"
+description: "Ingrediente di provenienza Bestie X."
+classification: "X"
 goodsClass: "Commerciabile di Classe B"
-legality: "Commerciabile"
+legality: "Legale per tutti"
 exotic: false
 provenance: "Bestie X"
 effect: "//"
 relatedFelixIds: []
-searchAliases: []
+searchAliases:
+  - "succodihorklump"
+  - "succo di horklump"
 status: published
 migration:
   status: migrated
@@ -20,4 +22,15 @@ migration:
       item: "Succo di Horklump"
 ---
 
-Nel Glossario degli Ingredienti il Succo di Horklump è classificato **X**, è un bene **Commerciabile di Classe B** e ha provenienza **Bestie X**. L'Effetto indicato in purezza è `//`.
+# Succo di Horklump
+
+| Voce | Valore |
+| --- | --- |
+| Classificazione | X |
+| Classe bene | Commerciabile di Classe B |
+| Legalità | Legale per tutti |
+| Provenienza | Bestie X |
+| Esotico | No |
+| Effetto | // |
+
+La fonte indica `//` alla voce Effetto: l'Ingrediente non presenta un effetto diretto in purezza ed è utilizzabile negli altri impieghi previsti dalla Guida agli Ingredienti.

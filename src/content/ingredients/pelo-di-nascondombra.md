@@ -1,16 +1,18 @@
 ---
 id: "44444444-4444-4444-8444-444444444442"
-slug: pelo-di-nascondombra
-name: Pelo di Nascondombra
-description: "Ingrediente esotico ottenibile dal Nascondombra."
-classification: XXXX
+slug: "pelo-di-nascondombra"
+name: "Pelo di Nascondombra"
+description: "Ingrediente di provenienza Bestie XXXX."
+classification: "XXXX"
 goodsClass: "Commerciabile di Classe B"
-legality: "Commerciabile"
+legality: "Legale per tutti"
 exotic: true
 provenance: "Bestie XXXX"
 effect: "//"
 relatedFelixIds: []
-searchAliases: [peli nascondombra]
+searchAliases:
+  - "pelodinascondombra"
+  - "pelo di nascondombra"
 status: published
 migration:
   status: migrated
@@ -20,4 +22,15 @@ migration:
       item: "Pelo di Nascondombra"
 ---
 
-Voce di prova per dimostrare i backlink **Creatura → Ingrediente → Creatura**.
+# Pelo di Nascondombra
+
+| Voce | Valore |
+| --- | --- |
+| Classificazione | XXXX |
+| Classe bene | Commerciabile di Classe B |
+| Legalità | Legale per tutti |
+| Provenienza | Bestie XXXX |
+| Esotico | Sì |
+| Effetto | // |
+
+La fonte indica `//` alla voce Effetto: l'Ingrediente non presenta un effetto diretto in purezza ed è utilizzabile negli altri impieghi previsti dalla Guida agli Ingredienti.

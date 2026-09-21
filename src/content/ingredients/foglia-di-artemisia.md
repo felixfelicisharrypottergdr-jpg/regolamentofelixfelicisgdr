@@ -1,16 +1,18 @@
 ---
 id: "65914a54-8ef0-4d82-8732-ff6df1a93e07"
-slug: foglia-di-artemisia
-name: Foglia di Artemisia
-description: "Ingrediente vegetale di Classificazione X ottenuto dall'Artemisia."
-classification: X
+slug: "foglia-di-artemisia"
+name: "Foglia di Artemisia"
+description: "Mangiata in purezza fornisce +5 Salute."
+classification: "X"
 goodsClass: "Commerciabile di Classe B"
-legality: "Commerciabile"
+legality: "Legale per tutti"
 exotic: false
 provenance: "Piante X"
 effect: "Mangiata in purezza fornisce +5 Salute."
 relatedFelixIds: []
-searchAliases: []
+searchAliases:
+  - "fogliadiartemisia"
+  - "foglia di artemisia"
 status: published
 migration:
   status: migrated
@@ -20,4 +22,17 @@ migration:
       item: "Foglia di Artemisia"
 ---
 
-Nel Glossario degli Ingredienti la Foglia di Artemisia è classificata **X**, è un bene **Commerciabile di Classe B**, ha provenienza **Piante X** e mangiata in purezza fornisce **+5 Salute**.
+# Foglia di Artemisia
+
+| Voce | Valore |
+| --- | --- |
+| Classificazione | X |
+| Classe bene | Commerciabile di Classe B |
+| Legalità | Legale per tutti |
+| Provenienza | Piante X |
+| Esotico | No |
+| Effetto | Mangiata in purezza fornisce +5 Salute. |
+
+## Effetto in purezza
+
+Mangiata in purezza fornisce +5 Salute.
