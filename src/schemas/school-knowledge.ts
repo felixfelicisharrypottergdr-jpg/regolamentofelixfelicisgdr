@@ -1,5 +1,5 @@
 import { z } from 'astro/zod';
-import { commonStructuredSchema } from './common';
+import { commonStructuredSchema, uuidSchema } from './common';
 
 export const schoolKnowledgeSchema = commonStructuredSchema.extend({
   name: z.string().min(1),
@@ -7,4 +7,5 @@ export const schoolKnowledgeSchema = commonStructuredSchema.extend({
   subject: z.enum(['Antiche Rune', 'Aritmanzia', 'Astronomia', 'Babbanologia', 'Storia della Magia']),
   schoolYear: z.enum(['V', 'VI', 'VII']),
   image: z.string().optional(),
+  relatedFelixIds: z.array(uuidSchema).default([]),
 });

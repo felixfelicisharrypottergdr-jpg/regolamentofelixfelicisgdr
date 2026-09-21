@@ -72,6 +72,60 @@ async function createBacklinkIndex() {
     }
   }
 
+  for (const ingredient of (await getCollection('ingredients')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of ingredient.data.relatedFelixIds) {
+      add(target, { sourceId: ingredient.id, relation: 'generic' });
+    }
+  }
+
+  for (const disease of (await getCollection('diseases')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of disease.data.relatedFelixIds) {
+      add(target, { sourceId: disease.id, relation: 'generic' });
+    }
+  }
+
+  for (const mastery of (await getCollection('masteries')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of mastery.data.relatedFelixIds) {
+      add(target, { sourceId: mastery.id, relation: 'generic' });
+    }
+  }
+
+  for (const technique of (await getCollection('divinationTechniques')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of technique.data.relatedFelixIds) {
+      add(target, { sourceId: technique.id, relation: 'generic' });
+    }
+  }
+
+  for (const knowledge of (await getCollection('schoolKnowledges')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of knowledge.data.relatedFelixIds) {
+      add(target, { sourceId: knowledge.id, relation: 'generic' });
+    }
+  }
+
+  for (const mission of (await getCollection('missions')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of mission.data.relatedFelixIds) {
+      add(target, { sourceId: mission.id, relation: 'generic' });
+    }
+  }
+
+  for (const mission of (await getCollection('adultMissions')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of mission.data.relatedFelixIds) {
+      add(target, { sourceId: mission.id, relation: 'generic' });
+    }
+  }
+
+  for (const document of (await getCollection('legalDocuments')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of document.data.relatedFelixIds) {
+      add(target, { sourceId: document.id, relation: 'generic' });
+    }
+  }
+
+  for (const article of (await getCollection('legalArticles')).filter((entry) => entry.data.status === 'published')) {
+    for (const target of article.data.relatedFelixIds) {
+      add(target, { sourceId: article.id, relation: 'generic' });
+    }
+  }
+
   return result;
 }
 

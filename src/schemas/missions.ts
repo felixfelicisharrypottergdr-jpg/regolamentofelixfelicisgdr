@@ -1,5 +1,5 @@
 import { z } from 'astro/zod';
-import { commonStructuredSchema } from './common';
+import { commonStructuredSchema, uuidSchema } from './common';
 
 const sharedMissionLevelSchema = z.object({
   name: z.string().min(1),
@@ -25,6 +25,7 @@ export const missionSchema = commonStructuredSchema.extend({
   completion: z.boolean().default(false),
   schoolYearOnly: z.boolean().default(false),
   levels: z.array(missionLevelSchema).min(1),
+  relatedFelixIds: z.array(uuidSchema).default([]),
 });
 
 export const adultMissionSchema = commonStructuredSchema.extend({
@@ -34,4 +35,5 @@ export const adultMissionSchema = commonStructuredSchema.extend({
   illegal: z.boolean().default(false),
   completion: z.boolean().default(false),
   levels: z.array(adultMissionLevelSchema).min(1),
+  relatedFelixIds: z.array(uuidSchema).default([]),
 });

@@ -33,6 +33,11 @@ const structuredRoots = [
   '/mondo-magico/commercio/oggetti/',
   '/mondo-magico/leggi/documenti/',
   '/mondo-magico/leggi/articoli/',
+  '/conoscenze-e-sapienze/maestrie/',
+  '/manuali/divinazione/tecniche/',
+  '/manuali/conoscenze-scolastiche/conoscenze/',
+  '/il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/',
+  '/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/',
 ];
 const isStructuredRoute = structuredRoots.some((root) => path.includes(root));
 const index = isStructuredRoute ? await buildFelixIndex() : new Map();
@@ -57,6 +62,11 @@ const races = isStructuredRoute ? await getCollection('races') : [];
 const objects = isStructuredRoute ? await getCollection('objects') : [];
 const legalDocuments = isStructuredRoute ? await getCollection('legalDocuments') : [];
 const legalArticles = isStructuredRoute ? await getCollection('legalArticles') : [];
+const masteries = isStructuredRoute ? await getCollection('masteries') : [];
+const divinationTechniques = isStructuredRoute ? await getCollection('divinationTechniques') : [];
+const schoolKnowledges = isStructuredRoute ? await getCollection('schoolKnowledges') : [];
+const missions = isStructuredRoute ? await getCollection('missions') : [];
+const adultMissions = isStructuredRoute ? await getCollection('adultMissions') : [];
 
 if (path.includes('/manuali/magizoologia/bestiario/') && slug !== 'bestiario') {
   const entry = creatures.find((e) => e.data.slug === slug);
@@ -177,6 +187,52 @@ if (path.includes('/mondo-magico/leggi/articoli/')) {
     if (doc) groups.push({ label: 'Documento', items: [doc], tone: 'legal', priority: 100 });
     if (related.length) groups.push({ label: 'Collegamenti', items: related, tone: 'neutral', priority: 20 });
     parent = { title: 'Torna alle Leggi Magiche', url: withBase('mondo-magico/leggi/') };
+  }
+}
+
+
+if (path.includes('/conoscenze-e-sapienze/maestrie/') && slug !== 'catalogo') {
+  const entry = masteries.find((e) => e.data.slug === slug);
+  if (entry) {
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (related.length) groups.push({ label: 'Collegamenti', items: related, tone: 'neutral', priority: 40 });
+    parent = { title: 'Torna al Catalogo delle Maestrie', url: withBase('conoscenze-e-sapienze/maestrie/catalogo/') };
+  }
+}
+
+if (path.includes('/manuali/divinazione/tecniche/')) {
+  const entry = divinationTechniques.find((e) => e.data.slug === slug);
+  if (entry) {
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (related.length) groups.push({ label: 'Collegamenti', items: related, tone: 'neutral', priority: 40 });
+    parent = { title: 'Torna alle Tecniche Divinatorie', url: withBase('manuali/divinazione/tecniche/') };
+  }
+}
+
+if (path.includes('/manuali/conoscenze-scolastiche/conoscenze/')) {
+  const entry = schoolKnowledges.find((e) => e.data.slug === slug);
+  if (entry) {
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (related.length) groups.push({ label: 'Collegamenti', items: related, tone: 'neutral', priority: 40 });
+    parent = { title: 'Torna alle Conoscenze Scolastiche', url: withBase('manuali/conoscenze-scolastiche/conoscenze/') };
+  }
+}
+
+if (path.includes('/il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/')) {
+  const entry = missions.find((e) => e.data.slug === slug);
+  if (entry) {
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (related.length) groups.push({ label: 'Collegamenti', items: related, tone: 'neutral', priority: 40 });
+    parent = { title: 'Torna alle Missioni FantaHogwarts', url: withBase('il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/') };
+  }
+}
+
+if (path.includes('/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/')) {
+  const entry = adultMissions.find((e) => e.data.slug === slug);
+  if (entry) {
+    const related = clean(entry.data.relatedFelixIds.map((id) => toLink(linkForId(id))));
+    if (related.length) groups.push({ label: 'Collegamenti', items: related, tone: 'neutral', priority: 40 });
+    parent = { title: 'Torna alle Missioni FantaWiz', url: withBase('il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/') };
   }
 }
 

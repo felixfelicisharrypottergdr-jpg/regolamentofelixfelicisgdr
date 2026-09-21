@@ -200,6 +200,7 @@ content:
               - { name: completion, label: Livello a completamento, type: boolean }
               - { name: schoolYearOnly, label: Solo anno scolastico, type: boolean }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true, description: "UUID di altre voci del Regolamento collegate a questa scheda." }
           - name: status
             label: Stato editoriale
             type: select
@@ -252,6 +253,7 @@ content:
               - { name: illegal, label: Richiede Narratore / rischio, type: boolean }
               - { name: completion, label: Livello a completamento, type: boolean }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true, description: "UUID di altre voci del Regolamento collegate a questa scheda." }
           - name: status
             label: Stato editoriale
             type: select
@@ -300,6 +302,7 @@ content:
               - { name: label, label: Voce, type: string, required: true }
               - { name: value, label: Valore, type: string, required: true }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true, description: "UUID di altre voci del Regolamento collegate a questa scheda." }
           - name: status
             label: Stato editoriale
             type: select
@@ -350,6 +353,7 @@ content:
               - { name: label, label: Voce, type: string, required: true }
               - { name: value, label: Valore, type: string, required: true }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true, description: "UUID di altre voci del Regolamento collegate a questa scheda." }
           - name: status
             label: Stato editoriale
             type: select
@@ -391,6 +395,7 @@ content:
             options: { values: [V, VI, VII] }
           - { name: image, label: Immagine, type: string }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true, description: "UUID di altre voci del Regolamento collegate a questa scheda." }
           - name: status
             label: Stato editoriale
             type: select
@@ -459,10 +464,10 @@ content:
               value: "{id}"
               label: "{name}"
           - name: relatedFelixIds
-            label: Altri collegamenti (UUID)
+            label: Collegamenti correlati (UUID)
             type: string
             list: true
-            description: "Campo temporaneo del prototipo per collegamenti tra tipi diversi."
+            description: "UUID di altre voci del Regolamento collegate a questa scheda."
           - name: searchAliases
             label: Alias di ricerca
             type: string
@@ -510,7 +515,7 @@ content:
             fields:
               - { name: range, label: Fascia, type: string, required: true }
               - { name: symptoms, label: Sintomi, type: string, list: true }
-          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
           - name: status
             label: Stato editoriale
@@ -545,7 +550,7 @@ content:
           - { name: exotic, label: Esotico, type: boolean }
           - { name: provenance, label: Provenienza, type: string, required: true }
           - { name: effect, label: Effetto, type: text }
-          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
           - name: status
             label: Stato editoriale
@@ -616,7 +621,7 @@ content:
                   value: "{id}"
                   label: "{name}"
               - { name: name, label: Nome Ingrediente, type: string, required: true }
-          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
           - name: status
             label: Stato editoriale
@@ -674,7 +679,7 @@ content:
               search: "name,searchAliases"
               value: "{id}"
               label: "{name}"
-          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
           - name: status
             label: Stato editoriale
@@ -740,7 +745,7 @@ content:
               search: "name,searchAliases"
               value: "{id}"
               label: "{name}"
-          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
           - name: status
             label: Stato editoriale
@@ -824,7 +829,7 @@ content:
           - { name: effectiveDate, label: Entrata in vigore, type: string }
           - { name: endDate, label: Cessazione, type: string }
           - { name: supersedes, label: Sostituisce (UUID), type: string, list: true }
-          - { name: relatedFelixIds, label: Altri collegamenti (UUID), type: string, list: true }
+          - { name: relatedFelixIds, label: Collegamenti correlati (UUID), type: string, list: true }
           - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
           - name: status
             label: Stato editoriale

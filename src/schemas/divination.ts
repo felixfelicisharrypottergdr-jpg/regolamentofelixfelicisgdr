@@ -1,5 +1,5 @@
 import { z } from 'astro/zod';
-import { commonStructuredSchema } from './common';
+import { commonStructuredSchema, uuidSchema } from './common';
 
 export const divinationTechniqueSchema = commonStructuredSchema.extend({
   name: z.string().min(1),
@@ -11,4 +11,5 @@ export const divinationTechniqueSchema = commonStructuredSchema.extend({
     label: z.string().min(1),
     value: z.string().min(1),
   })).default([]),
+  relatedFelixIds: z.array(uuidSchema).default([]),
 });
