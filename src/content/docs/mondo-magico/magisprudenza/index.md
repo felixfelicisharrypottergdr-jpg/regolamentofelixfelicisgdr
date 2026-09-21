@@ -5,7 +5,7 @@ description: "Termini, Difensori e procedure per Causa ONGame, Patteggiamento e 
 contentType: rule
 searchAliases: ["diritto magico", "causa", "tribunale", "giustizia magica"]
 applicability: []
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
