@@ -17,7 +17,7 @@ quickLinks:
     href: "/il-personaggio/parametri/parametri-fisici/"
   - label: "Parametri Sociali"
     href: "/il-personaggio/parametri/parametri-sociali/"
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
@@ -28,24 +28,32 @@ migration:
 
 # Parametri
 
-I **Parametri** descrivono capacità e condizioni del PG e sono divisi nel Regolamento in tre grandi gruppi: **Parametri Magici**, **Parametri Fisici** e **Parametri Sociali**.
+# Parametri Magici
 
-## Parametri Magici
+**INDICE**
 
-**Acume · Empatia · Percezione · Potenza · Tecnica · Volontà**
+• Acume
 
-[Consulta i Parametri Magici](./parametri-magici/)
+• Empatia
 
-## Parametri Fisici
+• Percezione
 
-**Destrezza · Fatica · Resistenza · Salute**
+• Potenza
 
-[Consulta i Parametri Fisici](./parametri-fisici/)
+• Tecnica
 
-## Parametri Sociali
+• Volontà
 
-Comprendono **Dialettica**, **Popolarità** e i Parametri che cambiano in base al tipo di PG, fra cui **Stima dei Docenti / Prestigio** e i sistemi collegati all'Allineamento.
+• Guadagnare, perdere, recuperare Parametri Magici
 
-[Consulta i Parametri Sociali](./parametri-sociali/)
+• Parametri Magici e Categorie Magiche
 
-> **Prototipo:** questa landing verifica una regola comune a PG Studenti e PG Adulti con sottosezioni che contengono anche differenze fra i due percorsi. Il testo definitivo sarà migrato integralmente dalla fonte attuale.
+Le azioni dei personaggi, il loro progresso e gran parte delle interazioni tra di loro e con l'ambiente circostante sono regolate e descritte da un sistema di Parametri.
+I Parametri approssimano numericamente o qualitativamente le inclinazioni dei personaggi nel riuscire in determinate azioni, come evocare Incantesimi Offensivi o trovare una scusa adatta per cavarsela in un guaio, e vengono processati per conoscere gli esiti di situazioni incerte.
+Le capacità dei PG Studenti e Adulti (nonchè dei PNG) sono descritte da tre classi di valori: i **Parametri Magici**, i **Parametri Fisici** e i **Parametri Sociali**.
+Ci sono 6 Parametri Magici, ciascuno connesso alla capacità del Personaggio nelle diverse branche magiche o in particolari situazioni di azione.
+I Parametri Magici più alti permettono effetti maggiori nell'uso di alcune tipologie di Conoscenze magiche come Incantesimi, Pozioni e altri tipi di cose che è permesso fare. A volte, i Parametri Magici fungono anche da soglie, per esempio è possibile fare una determinata cosa soltanto se il PG possiede un certo valore di un certo Parametro Magico.
+
+- [Parametri Magici](./parametri-magici/)
+- [Parametri Fisici](./parametri-fisici/)
+- [Parametri Sociali](./parametri-sociali/)
