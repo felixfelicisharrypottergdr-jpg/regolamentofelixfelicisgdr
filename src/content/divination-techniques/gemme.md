@@ -118,8 +118,7 @@ emotiva e la perseveranza. Nella Gemmomanzia, la Corniola può rappresentare un 
 della passione per la vita, una maggiore vitalità e la capacità di esprimere emozioni in modo
 potente e positivo.
 
-[IMG=Animus-emoji]https://i.postimg.cc/2ShHBr6s/Animus-emoji.png[/
-IMG]** 5.
+![Animus](https://i.postimg.cc/2ShHBr6s/Animus-emoji.png)** 5.
 Empatia**
 ****1. Quarzo rosa:**** simboleggia l'amore
 incondizionato e la pace interiore, favorendo la compassione e la comprensione delle
@@ -135,8 +134,7 @@ Gemmomanzia, l'Acquamarina può indicare la necessità di comunicare con empatia
 gentilezza, favorire la comprensione nelle relazioni e promuovere la guarigione delle ferite
 emotive.
 
-[IMG=Sensus-emoji]https://i.postimg.cc/d0mn061r/Sensus-emoji.png[/
-IMG]** 6.
+![Sensus](https://i.postimg.cc/d0mn061r/Sensus-emoji.png)** 6.
 Percezione**
 ****1. Labradorite:**** è nota per
 aumentare la percezione psichica, migliorare la capacità di percepire energie sottili e
