@@ -28,6 +28,24 @@ const applicabilityLabels = applicability.length === 2
   : applicability.map((item: string) => item === 'student' ? 'PG Studente' : 'PG Adulto');
 
 const currentPath = Astro.url.pathname.replace(/\/+$/, '/') || '/';
+const structuredRouteBases = [
+  '/conoscenze-e-sapienze/maestrie/',
+  '/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/',
+  '/il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/',
+  '/il-personaggio/razze/',
+  '/manuali/conoscenze-scolastiche/conoscenze/',
+  '/manuali/divinazione/tecniche/',
+  '/manuali/erbologia/erbario/',
+  '/manuali/incantesimi/',
+  '/manuali/ingredienti/',
+  '/manuali/magizoologia/bestiario/',
+  '/manuali/medimagia/malattie/',
+  '/manuali/pozionistica/pozionario/',
+  '/mondo-magico/commercio/oggetti/',
+  '/mondo-magico/leggi/',
+];
+const isStructuredRoute = structuredRouteBases.some((prefix) => currentPath.includes(prefix));
+const pagefindType = isStructuredRoute ? undefined : type;
 const normalize = (href = '') => {
   try { return new URL(href, Astro.url.origin).pathname.replace(/\/+$/, '/') || '/'; }
   catch { return href.replace(/\/+$/, '/') || '/'; }
@@ -88,10 +106,10 @@ if (!isHome && (trail.length === 0 || trail[trail.length - 1]?.label !== title))
     )}
   </>
 )}
-{type && (
+{pagefindType && (
   <div class="felix-pagefind-meta" aria-hidden="true" data-pagefind-ignore>
-    <span data-pagefind-meta="content_type">{type}</span>
-    <span data-pagefind-filter={`content_type:${type}`}></span>
+    <span data-pagefind-meta="content_type">{pagefindType}</span>
+    <span data-pagefind-filter={`content_type:${pagefindType}`}></span>
     <span data-pagefind-meta="macroarea">{macroarea}</span>
     <span data-pagefind-filter={`macroarea:${macroarea}`}></span>
     {aliases.length > 0 && <span data-pagefind-meta="aliases">{aliases.join(' · ')}</span>}
