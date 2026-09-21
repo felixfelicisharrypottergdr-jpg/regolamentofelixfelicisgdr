@@ -17,13 +17,13 @@ quickLinks:
     href: "/il-personaggio/parametri/parametri-fisici/"
   - label: "Parametri Sociali"
     href: "/il-personaggio/parametri/parametri-sociali/"
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
     - document: "2. Parametri"
       section: "Parametri Magici, Fisici e Sociali"
-      note: "Estratto strutturale di prototipo; la migrazione definitiva conserverà integralmente il documento attuale."
+      note: "Landing di orientamento; le regole complete sono nelle sottopagine canoniche."
 ---
 
 # Parametri
@@ -47,5 +47,3 @@ I **Parametri** descrivono capacità e condizioni del PG e sono divisi nel Regol
 Comprendono **Dialettica**, **Popolarità** e i Parametri che cambiano in base al tipo di PG, fra cui **Stima dei Docenti / Prestigio** e i sistemi collegati all'Allineamento.
 
 [Consulta i Parametri Sociali](./parametri-sociali/)
-
-> **Prototipo:** questa landing verifica una regola comune a PG Studenti e PG Adulti con sottosezioni che contengono anche differenze fra i due percorsi. Il testo definitivo sarà migrato integralmente dalla fonte attuale.
