@@ -18,7 +18,7 @@ quickLinks:
   - label: "Parametri"
     href: "/il-personaggio/parametri/"
     description: "Parametri Magici, Fisici e Sociali del PG."
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: native
   sources: []
