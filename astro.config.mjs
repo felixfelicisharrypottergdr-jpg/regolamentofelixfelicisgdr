@@ -272,7 +272,13 @@ export default defineConfig({
           label: 'Manuali',
           items: [
             { label: 'Manuali', slug: 'manuali' },
-            { label: 'Manuale degli Incantesimi', link: '/manuali/incantesimi/' },
+            {
+              label: 'Manuale degli Incantesimi',
+              items: [
+                { label: 'Catalogo dei 212 Incantesimi', link: '/manuali/incantesimi/' },
+                { label: 'Guida e note generali', slug: 'manuali/incantesimi-guida' },
+              ],
+            },
             {
               label: 'Altre Conoscenze Scolastiche',
               items: [

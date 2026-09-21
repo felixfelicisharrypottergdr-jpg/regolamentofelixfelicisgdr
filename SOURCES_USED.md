@@ -1,6 +1,6 @@
 # Fonti usate nel prototipo
 
-Il prototipo usa estratti reali del regolamento FELIX FELICIS per provare struttura, relazioni e migrazione. Non costituisce ancora una migrazione integrale.
+Il sito usa le fonti reali del regolamento FELIX FELICIS. Alcune aree sono ormai migrate integralmente, mentre altre restano in corso di migrazione.
 
 ## Campioni principali
 
@@ -21,7 +21,7 @@ Il prototipo usa estratti reali del regolamento FELIX FELICIS per provare strutt
   - Nundacea.
   - Kappalitosi.
 - 10.1 Manuale di Incantesimi
-  - campione Incantesimi usato per filtri e relazioni.
+  - migrazione integrale di 212 Incantesimi, catalogo strutturato, relazioni, Specifiche e note generali.
 - 8. Vivere nel Mondo Magico
   - primo campione del modello delle Leggi Magiche.
   - Trasporti Magici: regole generali, Metropolvere, Passaporta, Scope Volanti e Smaterializzazione.
