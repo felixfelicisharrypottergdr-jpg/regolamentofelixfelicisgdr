@@ -8,7 +8,7 @@ illegal: false
 completion: false
 levels:
   - name: "Livello Facile"
-    action: "Il PG ambienta una role sfruttando uno di questi spunti di gioco, fino anche a muovere i [url=?t=79809185]PNG del San Mungo ."
+    action: "Il PG ambienta una role sfruttando uno di questi spunti di gioco, fino anche a muovere i PNG del San Mungo ."
     requirements:
       - "//"
     rewards:
