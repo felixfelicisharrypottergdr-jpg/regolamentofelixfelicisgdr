@@ -1,17 +1,18 @@
 ---
 id: "44444444-4444-4444-8444-444444444441"
-slug: saliva-di-nundu
-name: Saliva di Nundu
-description: "Ingrediente di origine animale ottenibile dal Nundu."
-classification: XXXXX
+slug: "saliva-di-nundu"
+name: "Saliva di Nundu"
+description: "Ingrediente di provenienza Bestie XXXXX."
+classification: "XXXXX"
 goodsClass: "Non Commerciabile di Classe C"
-legality: "Non Commerciabile"
+legality: "Illegale per tutti"
 exotic: true
 provenance: "Bestie XXXXX"
 effect: "//"
-relatedFelixIds:
-  - "33333333-3333-4333-8333-333333333331"
-searchAliases: [saliva nundu]
+relatedFelixIds: []
+searchAliases:
+  - "salivadinundu"
+  - "saliva di nundu"
 status: published
 migration:
   status: migrated
@@ -21,4 +22,15 @@ migration:
       item: "Saliva di Nundu"
 ---
 
-Nel Glossario degli Ingredienti la Saliva di Nundu è classificata **XXXXX**, è un bene **Non Commerciabile di Classe C** e ha provenienza **Bestie XXXXX**. L'Effetto indicato in purezza è `//`.
+# Saliva di Nundu
+
+| Voce | Valore |
+| --- | --- |
+| Classificazione | XXXXX |
+| Classe bene | Non Commerciabile di Classe C |
+| Legalità | Illegale per tutti |
+| Provenienza | Bestie XXXXX |
+| Esotico | Sì |
+| Effetto | // |
+
+La fonte indica `//` alla voce Effetto: l'Ingrediente non presenta un effetto diretto in purezza ed è utilizzabile negli altri impieghi previsti dalla Guida agli Ingredienti.

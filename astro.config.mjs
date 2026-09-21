@@ -332,7 +332,13 @@ export default defineConfig({
                 { label: 'Esorcismo', slug: 'manuali/tracciatura/esorcismo' },
               ],
             },
-            { label: 'Ingredienti', link: '/manuali/ingredienti/' },
+            {
+              label: 'Ingredienti',
+              items: [
+                { label: 'Guida agli Ingredienti', slug: 'manuali/ingredienti-guida' },
+                { label: 'Glossario — 317 Ingredienti', link: '/manuali/ingredienti/' },
+              ],
+            },
           ],
         },
         {

@@ -13,10 +13,8 @@ Il sito usa le fonti reali del regolamento FELIX FELICIS. Alcune aree sono ormai
   - Vaccino AntiNundux +.
   - Kappaccino +.
 - 10.9 Ingredienti
-  - Foglia di Artemisia.
-  - Spina di Cespuglio Spinoso.
-  - Zanna di Geranio Zannuto.
-  - altri Ingredienti necessari ai test.
+  - guida generale completa e Glossario integrale di 317 Ingredienti.
+
 - 10.4 Enciclopedia Medimagica
   - Nundacea.
   - Kappalitosi.

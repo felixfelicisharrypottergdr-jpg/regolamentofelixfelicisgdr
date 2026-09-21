@@ -1,16 +1,18 @@
 ---
 id: "debb8050-85c4-4adf-8b48-a5f24aa708fb"
-slug: ingrediente-base
-name: Ingrediente Base
-description: "Ingrediente Base utilizzato nella preparazione di Pozioni."
-classification: X
+slug: "ingrediente-base"
+name: "Ingrediente Base"
+description: "Ingrediente di provenienza //."
+classification: "X"
 goodsClass: "Commerciabile di Classe B"
-legality: "Commerciabile"
+legality: "Legale per tutti"
 exotic: false
 provenance: "//"
 effect: "//"
 relatedFelixIds: []
-searchAliases: []
+searchAliases:
+  - "ingredientebase"
+  - "ingrediente base"
 status: published
 migration:
   status: migrated
@@ -20,4 +22,15 @@ migration:
       item: "Ingrediente Base"
 ---
 
-Nel Glossario degli Ingredienti l'Ingrediente Base è classificato **X**, è un bene **Commerciabile di Classe B** e riporta `//` sia alla Provenienza sia all'Effetto.
+# Ingrediente Base
+
+| Voce | Valore |
+| --- | --- |
+| Classificazione | X |
+| Classe bene | Commerciabile di Classe B |
+| Legalità | Legale per tutti |
+| Provenienza | // |
+| Esotico | No |
+| Effetto | // |
+
+La fonte indica `//` alla voce Effetto: l'Ingrediente non presenta un effetto diretto in purezza ed è utilizzabile negli altri impieghi previsti dalla Guida agli Ingredienti.
