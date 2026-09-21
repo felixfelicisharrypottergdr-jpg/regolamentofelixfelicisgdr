@@ -31,7 +31,7 @@ intervento diretto del Narratore.
 Questa Ricerca consente ai PG di completare il Livello Difficile della Missione
 "Il Diplomatico" del FantaWiz.
 
-### Ricerca Accordi: in che modalità?
+## Ricerca Accordi: in che modalità?
 
 Con “Ricerca Accordi” si intende l’insieme delle attività autogestite dai Diplomatici per
 individuare interlocutori, predisporre strategie persuasive, finalizzare trattative e garantire la
@@ -50,7 +50,7 @@ Ogni accordo garantisce al **PG non Diplomatico** che partecipa un ruolo operati
 significativo: può contribuire al successo del Diplomatico e completare il Livello Difficile della
 Missione "Il Diplomatico" del FantaWiz.
 
-### Struttura dell’Accordo
+## Struttura dell’Accordo
 
 Ogni Accordo si sviluppa in **tre Fasi**, ciascuna con scopi chiari e tiri di dado per
 determinare il successo o il fallimento dei PG Diplomatici.
@@ -60,7 +60,7 @@ informazioni cruciali, motivare i delegati, assistere e interpretare ciò che ac
 **I PG vengono sempre coinvolti in un nuovo Accordo diplomatico senza bisogno di
 lanciare un dado per essere chiamati in causa.**
 
-### Quale Accordo viene assegnato ai PG?
+## Quale Accordo viene assegnato ai PG?
 
 La natura dell’Accordo viene determinata con il lancio di **1d4**, il cui risultato
 stabilisce il tipo di scenario diplomatico da affrontare.
@@ -80,7 +80,7 @@ successiva, coerentemente con la narrazione.
 Networking, possono avviare direttamente un nuovo Accordo di Trattativa e Mediazione
 nello stesso contesto, senza tirare un dado per determinare il nuovo Accordo da giocare.
 
-### Autogestione e libertà narrativa
+## Autogestione e libertà narrativa
 
 Le giocate sono interamente autogestite dai giocatori, senza intervento diretto del Narratore.
 I PG determinano:
@@ -103,7 +103,7 @@ Esempio: se l’accordo coinvolge un delegato proveniente da un Paese classifica
 malus applicabili saranno quelli della zona Rossa, indipendentemente dal fatto che la
 negoziazione avvenga fisicamente in Inghilterra.
 
-### Classificazione delle zone nel mondo
+## Classificazione delle zone nel mondo
 
 **Rosso**
 
@@ -128,7 +128,7 @@ e rispetto tra maghi e babbani.
 Paesi Baltici, Moldavia, Benelux, Gran Bretagna, Francia
 **Nel mondo:** Stati Uniti, Paesi del Sud Est Asiatico, Paesi dell’Oceania
 
-### Ulteriori specifiche
+## Ulteriori specifiche
 
 • Di norma, i tiri necessari per determinare il successo o il fallimento delle Fasi dell’Accordo
 spettano ai PG Diplomatici coinvolti. Se nella role è presente più di un PG Diplomatico,
