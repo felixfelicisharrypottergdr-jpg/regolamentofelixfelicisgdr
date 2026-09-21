@@ -6,7 +6,7 @@ contentType: landing
 searchAliases: [regole generali, norme generali, vietato, principi, temi sensibili]
 prototypeExcerpt: false
 migration:
-  status: to_migrate
+  status: revised
   sources:
     - document: "1. Le Regole del Gioco"
       section: "Regole Generali"
