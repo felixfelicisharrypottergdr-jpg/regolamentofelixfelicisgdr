@@ -6,6 +6,28 @@ const githubUserSite = githubOwner && githubRepo === `${githubOwner}.github.io`;
 const site = process.env.SITE_URL || (githubOwner ? `https://${githubOwner}.github.io` : 'https://example.github.io');
 const base = process.env.BASE_PATH || (githubOwner && githubRepo && !githubUserSite ? `/${githubRepo}` : '/');
 
+function remarkFelixHeadingHierarchy() {
+  return (tree) => {
+    let hasLevelOne = false;
+    const detect = (node) => {
+      if (!node || typeof node !== 'object') return;
+      if (node.type === 'heading' && node.depth === 1) hasLevelOne = true;
+      if (Array.isArray(node.children)) node.children.forEach(detect);
+    };
+    detect(tree);
+    if (!hasLevelOne) return;
+
+    const shift = (node) => {
+      if (!node || typeof node !== 'object') return;
+      if (node.type === 'heading' && typeof node.depth === 'number') {
+        node.depth = Math.min(6, node.depth + 1);
+      }
+      if (Array.isArray(node.children)) node.children.forEach(shift);
+    };
+    shift(tree);
+  };
+}
+
 function remarkFelixBaseLinks(options = {}) {
   const configured = options.base || '/';
   const prefix = configured.endsWith('/') ? configured : `${configured}/`;
@@ -29,7 +51,7 @@ export default defineConfig({
   site,
   base,
   markdown: {
-    remarkPlugins: [[remarkFelixBaseLinks, { base }]],
+    remarkPlugins: [remarkFelixHeadingHierarchy, [remarkFelixBaseLinks, { base }]],
   },
   integrations: [
     starlight({
