@@ -123,7 +123,15 @@ export default defineConfig({
                     { label: 'Parametri Sociali', slug: 'il-personaggio/pg-adulto/creare-un-pg-adulto/parametri-sociali' },
                   ],
                 },
-                { label: 'Lavorare nel Mondo Magico', slug: 'il-personaggio/pg-adulto/lavorare' },
+                {
+                  label: 'Lavorare nel Mondo Magico',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/pg-adulto/lavorare' },
+                    { label: 'Mestieri', slug: 'il-personaggio/pg-adulto/lavorare/mestieri' },
+                    { label: 'Carriera e Prestigio', slug: 'il-personaggio/pg-adulto/lavorare/carriera-prestigio' },
+                    { label: 'PG Locandieri', slug: 'il-personaggio/pg-adulto/lavorare/locandieri' },
+                  ],
+                },
                 { label: 'Modalità di gioco', slug: 'il-personaggio/pg-adulto/modalita-di-gioco' },
               ],
             },
