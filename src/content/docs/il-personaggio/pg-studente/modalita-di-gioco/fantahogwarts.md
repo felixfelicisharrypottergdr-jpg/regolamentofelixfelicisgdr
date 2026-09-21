@@ -15,7 +15,7 @@ quickFacts:
   - label: "Categorie"
     value: "Caotiche · Neutrali · Legali"
   - label: "Missioni Caotiche"
-    value: "17 migrate"
+    value: "17"
   - label: "Premi cumulabili"
     value: "Solo il più alto per tipologia, salvo Missioni a completamento"
 quickLinks:
