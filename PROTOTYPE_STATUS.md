@@ -1,5 +1,7 @@
 # Stato del progetto FELIX FELICIS
 
+> **Aggiornamento audit — 21 settembre 2026:** la precedente certificazione di completezza è sospesa durante l’audit editoriale e funzionale. Il repository contiene gran parte del testo sorgente, ma sono emerse sottopagine parziali/placeholder e duplicazioni fra guide monolitiche e pagine granulari. Fare riferimento a `AUDIT_EDITORIALE_FUNZIONALE.md` per lo stato corrente.
+
 > **Nota sul nome del file:** questo documento si chiamava `PROTOTYPE_STATUS.md` durante la fase iniziale. Il progetto ha ormai superato la fase di prototipo per quanto riguarda la migrazione dei contenuti.
 
 ## Migrazione
