@@ -5,7 +5,7 @@ description: "Principi generali applicabili agli Scontri salvo regole specifiche
 contentType: rule
 searchAliases: [regole scontro, regole combattimento, regole pratiche scontri]
 applicability: [student, adult]
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
@@ -13,16 +13,10 @@ migration:
       section: "Regole pratiche degli scontri"
 ---
 
-# Regole pratiche degli Scontri
-
-Le regole della Guida si applicano agli Scontri salvo indicazione differente contenuta nei Manuali specifici o fornita dal Narratore.
-
-Tra i principi generali già presenti nel Regolamento:
-
-- la turnazione segue la struttura prevista dalla Guida, salvo diversa indicazione;
-- gli Incantesimi presenti nei Manuali hanno effetto anche su animali e Creature Magiche salvo Specifiche differenti;
-- non è necessario descrivere movimento di bacchetta o manifestazione visiva dell'Incantesimo perché l'evocazione sia considerata valida.
-
-La versione completa di questa pagina conserverà tutte le ulteriori regole pratiche attualmente presenti nella Guida.
-
-[Continua con la turnazione →](./turnazione/)
+## Regole pratiche degli scontri
+Di seguito sono riportate le regole generali applicabili a tutti gli scontri, salvo diversa indicazione contenuta nei Manuali specifici o fornita dal Narratore.
+• Tranne quando diversamente specificato dal Narratore, la turnazione durante gli scontri è così organizzata.
+• Tutti gli incantesimi presenti nei vari Manuali, salvo specifiche differenti ed esplicitamente scritte, hanno effetto anche su animali e Creature Magiche.
+• Non è necessario descrivere nel post il movimento di bacchetta o la manifestazione visiva dell’Incantesimo perché la sua evocazione sia considerata valida. Quando presenti negli specchietti, questi elementi possono essere narrati come colore e non modificano la probabilità di riuscita.
+• Durante gli scontri, soprattutto quando vengono utilizzati Incantesimi, Oggetti, Pozioni o attacchi fisici, i partecipanti possono lasciare tracce materiali o magiche: per esempio oggetti perduti, capelli, sangue, impronte o residui di magia. Il Narratore stabilisce attraverso la situazione e gli eventuali lanci di dado se siano presenti tracce utili, di quale tipo siano, quanto risultino riconoscibili e se possano essere recuperate. La presenza di una traccia non comporta automaticamente che venga individuata o che sia sufficiente per ottenere informazioni o realizzare altri effetti: per utilizzarla devono essere rispettate le relative meccaniche stabilite dal Narratore.
+• Lanciare incantesimi **sott'acqua** significa subire un **malus di Destrezza del 66%**.
