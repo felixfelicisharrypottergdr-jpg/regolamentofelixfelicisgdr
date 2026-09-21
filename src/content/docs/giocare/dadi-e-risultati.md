@@ -57,7 +57,11 @@ Il giocatore, invece, ha il potere di escogitare la miglior azione possibile nel
 
 ## Lancio dei dadi
 In questo topic, i player ed il Narratore hanno la possibilità di effettuare lanci di dado, che siano essi inventati per dare colore alle proprie role oppure seguendo i meccanismi previsti dalle varie modalità di gioco, tramite l'apposito codice:
-[CODE][dice=XdFacce]Dado[/dice][/CODE]
+
+```text
+[dice=XdFacce]Dado[/dice]
+```
+
 L'utilizzo dei dadi è concesso a tutti i player anche per situazioni libere, durante free role, in cui scelgono di non autoconcludere lo sviluppo delle vicende. Dove invece il lancio dei dadi è necessario per mantenere un giudizio imparziale, questo viene svolto direttamente dal Narratore.
 Per la massima trasparenza, il topic **Lancio dei Dadi** è visibile a tutti, ma esistono alcune sezioni segrete ed invisibili ai player che vengono utilizzate dal Narratore per lanciare dadi che potenzialmente, se visibili, potrebbero indurre a fare - anche involontariamente - Metagame (*e poi, diciamocelo, l'effetto sorpresa è anche piuttosto piacevole, no?*).
 Nei prossimi paragrafi sarà possibile capire in quali occasioni lanciare i dadi è compito dei player e quando invece del Narratore ed i motivi di queste differenze. In ogni caso nessun dado lanciato può essere cancellato o modificato, neppure dallo Staff!
