@@ -59,6 +59,8 @@ A differenza delle Sapienze Magiche, ogni Sapienza Fisica possiede una sola “C
 | IV | 40 PP |
 | V | 80 PP |
 
+> **Crescita a Debito.** Durante la creazione del PG una Sapienza Fisica può essere sviluppata tramite Crescita a Debito **al massimo fino al Livello III**. I Livelli IV e V devono essere acquistati successivamente secondo le normali regole di crescita.
+
 ## Prestanza
 
 Il mago o la strega ha perfetta padronanza della propria Fatica e questo gli permette di recuperarla più velocemente se non esegue magie o sforza le proprie capacità.
