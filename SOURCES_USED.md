@@ -16,7 +16,8 @@ Il sito usa le fonti reali del regolamento FELIX FELICIS. Questo file viene mant
 - Maestrie — 36 Maestrie complete.
 - 8. Vivere nel Mondo Magico — Trasporti, Commercio, Fabbricazione, Prezzari (229 voci uniche; la fonte contiene una duplicazione letterale del blocco), Quidditch, partite da background, Giochi Magici, Azioni Illegali, Medimagia e Leggi Magiche.
 
-## Fonti 1–7 e 9
+## Fonti 1–9
 
 - 1. Le Regole del Gioco — **completa**: premessa, Valute, Dadi, Allineamenti, Modalità di Gioco (canonica nella fonte 6), Meccaniche, Popolometro, Razze, Bagaglio/Oggetti, PNG, Staff e Staff Token.
-- 2–7 e 9 — audit finale di copertura in corso.
+- 9. Ricerche Casuali — **completa**: tutte le nove Ricerche con procedure, dadi, tabelle, fasi, premi, limiti ed eccezioni.
+- 2–7 — audit finale di copertura in corso.
