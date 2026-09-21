@@ -44,37 +44,37 @@ Le Categorie sono **Acumen, Animus, Ars, Numen, Sensus e Voluntas**.
 
 Una volta scelta una Categoria Magica, è obbligatorio scegliere almeno **una delle due Sapienze d'appartenenza** da iniziare a sviluppare attraverso il ricevimento di Conoscenze Extra gratuite: sarebbe impossibile risultare esperto in una branca magica senza avere nozioni avanzate di riferimento.
 
-### Acumen
+## Acumen
 
 Sono i maghi e le streghe che, eseguendo il W.O.M.B.A.T., hanno dimostrato spiccate capacità logiche, percettive e intuitive. Sono per lo più Spezzaincantesimi, ma anche esperti di Trasfigurazione.
 
 **Sapienze affini:** Sapienza Arcaica o Sapienza Trasfigurativa.
 
-### Animus
+## Animus
 
 Hanno dimostrato spiccate capacità relazionali con le Creature Magiche e con le Piante Magiche, tanto da saper prendersene cura e rispondere alle loro necessità. Sono per lo più Magizoologi ed Erbologi.
 
 **Sapienze affini:** Sapienza Magizoologica o Sapienza Erbologica.
 
-### Ars
+## Ars
 
 Hanno dimostrato spiccate capacità tecniche e manuali nella creazione di pozioni e nell'uso di magie che necessitano di concentrazione e precisione. Sono per lo più Pozionisti e Medimagi.
 
 **Sapienze affini:** Sapienza Pozionistica o Sapienza Medimagica.
 
-### Numen
+## Numen
 
 Hanno dimostrato di possedere una magia forte, potente e resistente. Sono per lo più Auror o maghi e streghe esperti di Magia Difensiva e Offensiva.
 
 **Sapienze affini:** Sapienza Difensiva o Sapienza Offensiva.
 
-### Sensus
+## Sensus
 
 Hanno dimostrato una spiccata capacità di introspezione e comunicazione con la propria magia, tanto da saper attingere ad un tipo di magia innata e incoltivabile con il solo studio. Sono per lo più Divinatori ed esperti di Magia Elementale.
 
 **Sapienze affini:** Sapienza Divinatoria o Sapienza Elementale.
 
-### Voluntas
+## Voluntas
 
 Hanno dimostrato una spiccata capacità di resilienza, determinazione e audacia nell'esecuzione delle magie più violente per la psiche e per il corpo. Sono per lo più Difensori, ma anche esperti di Magia Oscura, Mentalisti e, sotto mentite spoglie, Streghe e Maghi Oscuri.
 
