@@ -67,9 +67,9 @@ Questa comunicazione privata serve a impedire che altri Player, sapendo che il P
 **Dichiarazione pubblica**
 Nel primo turno, nello Spoiler del proprio post il Player non indica pubblicamente il contenuto della Borsa, ma segnala soltanto:
 
-[QUOTE]
-**Presentimento:** utilizzato. Bagaglio comunicato privatamente al Narratore.
-[/QUOTE]
+
+> **Presentimento:** utilizzato. Bagaglio comunicato privatamente al Narratore.
+
 Tutti gli Oggetti dichiarati privatamente sono comunque considerati presenti nella Borsa del PG fin dal suo ingresso nella giocata e seguono normalmente le proprie regole.
 Gli Oggetti passivi funzionano e iniziano eventualmente a consumarsi fin dal primo post, mentre gli Oggetti attivi producono i propri effetti soltanto quando vengono normalmente utilizzati.
 Dal secondo turno, quando non è più possibile aggiungere nuovi Oggetti o modificare il proprio Bagaglio in funzione di ciò che hanno portato gli altri partecipanti, il Player può rendere pubblico nello Spoiler l'intero contenuto della propria Borsa.
