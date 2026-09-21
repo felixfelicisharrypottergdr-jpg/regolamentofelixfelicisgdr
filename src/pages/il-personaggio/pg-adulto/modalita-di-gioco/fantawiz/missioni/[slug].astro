@@ -2,9 +2,9 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
-import FelixEntityHeader from '../../../../../../../components/FelixEntityHeader.astro';
-import FelixBadges from '../../../../../../../components/FelixBadges.astro';
-import SearchMetadata from '../../../../../../../components/search/SearchMetadata.astro';
+import FelixEntityHeader from '../../../../../../components/FelixEntityHeader.astro';
+import FelixBadges from '../../../../../../components/FelixBadges.astro';
+import SearchMetadata from '../../../../../../components/search/SearchMetadata.astro';
 
 export async function getStaticPaths(){
   return (await getCollection('wizardMissions'))
