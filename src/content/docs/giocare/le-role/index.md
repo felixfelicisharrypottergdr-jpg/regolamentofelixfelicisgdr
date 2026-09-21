@@ -5,7 +5,7 @@ description: "Tipologie di Role e passaggio dall'autogestione all'intervento del
 contentType: landing
 searchAliases: [role, giocata, giocate, free role, role masterata, narratore]
 applicability: [student, adult]
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
@@ -18,9 +18,9 @@ migration:
 
 Le **role** sono le giocate costruite attraverso i post dei Player. A seconda della situazione possono essere autogestite oppure richiedere l'intervento del Narratore.
 
-## In questo prototipo
+## Scegli il tipo di Role
 
 - [Free Role](./free-role/)
 - [Role Masterate](./role-masterate/)
 
-La versione completa integrerà anche tutte le altre tipologie, regole di gestione, richieste al Narratore e precisazioni oggi presenti nel Regolamento.
+Le **Free Role** sono gestite autonomamente dai Player nei casi consentiti; le **Role Masterate** prevedono invece l'intervento del Narratore. Le regole comuni sulle attività organizzate, sulla Trama e sugli altri formati di gioco si trovano nella sezione [Modalità di Gioco](../modalita-di-gioco/).
