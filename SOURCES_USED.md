@@ -7,7 +7,9 @@ Il sito usa le fonti reali del regolamento FELIX FELICIS. Questo file viene mant
 - 10.1 Manuale di Incantesimi — 212 Incantesimi, relazioni, Specifiche e materiale generale.
 - 10.2 Altre Conoscenze Scolastiche — 15 Conoscenze + Sapienze Fisiche/Sociali integrate.
 - 10.3 Manuale di Divinazione — guida + 43 Tecniche.
-- 10.4 Enciclopedia Medimagica — guida/Tecniche, Sintomatologia, 44 Malattie, Lesioni/Traumi, Incidenti, Avvelenamenti, Ferite.
+- 10.4 Enciclopedia Medimagica
+  - guida completa, 18 Incantesimi/Tecniche Medimagiche, 102 Sintomi, 44 Malattie, lesioni da Incantesimi/Pozioni, incidenti da Manufatti, avvelenamenti e ferite da Creature/Piante.
+
 - 10.5 Erbologia — guida, 12 Tecniche/Incantesimi, 92 Piante.
 - 10.6 Magizoologia — guida, 11 Tecniche/Incantesimi, 141 Creature; Bezoar nella scheda Ingrediente.
 - 10.7 Pozionistica — guida, Tecniche e 136 Pozioni.
