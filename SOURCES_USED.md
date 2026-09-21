@@ -19,4 +19,8 @@ Il sito usa le fonti reali del regolamento FELIX FELICIS. Questo file viene mant
 ## Fonti 1–7 e 9
 
 - 1. Le Regole del Gioco — **completa**: premessa, Valute, Dadi, Allineamenti, Modalità di Gioco (canonica nella fonte 6), Meccaniche, Popolometro, Razze, Bagaglio/Oggetti, PNG, Staff e Staff Token.
-- 2–7 e 9 — audit finale di copertura in corso.
+- 2. Parametri — **completa**.
+- 3. Le Conoscenze — **completa**.
+- 4. Guida agli Scontri — **completa**.
+- 5. Le Sapienze — **completa**.
+- 6–7 e 9 — audit finale di copertura in corso.

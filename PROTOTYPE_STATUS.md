@@ -89,3 +89,8 @@ Il prototipo è ora pronto per il **primo caricamento e primo build-test su GitH
 - Il test dell'iframe full-viewport su ForumFree resta una verifica obbligatoria dopo il primo deploy.
 
 - Le Regole del Gioco completa: premessa, Valute, Dadi, Allineamenti, Modalità condivise, Meccaniche, Popolometro, Razze, Bagaglio/Oggetti, PNG, Staff e Staff Token.
+
+- Parametri completi: Parametri Magici, Fisici e Sociali dalla fonte 2.
+- Conoscenze complete: Autoconclusive, Scolastiche, Extra, Avanzate, uso, ottenimento, creazione e Glossario dalla fonte 3.
+- Guida agli Scontri completa dalla fonte 4.
+- Sapienze complete: Magiche, Fisiche, Sociali e Crescita a Debito dalla fonte 5.
