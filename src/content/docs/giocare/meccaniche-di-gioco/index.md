@@ -83,7 +83,7 @@ Questo meccanismo si attiva nel momento in cui un player, che legge una role pot
 Il PG che vuole tentare di spiare una role (detto **PG Spione**) deve aprire un topic nella sezione "Orecchie Indiscrete" e narrare in un post il proprio tentativo di spionaggio, taggando il Narratore e facendo poi richiesta nella bacheca "Narrami, O Narratore... > Richieste Segrete", così che il proprio tentativo rimanga celato agli occhi degli altri player (detti **PG Spiati**). In questo caso, il player del PG Spione ed il PG stesso sono consapevoli di chi sono le "vittime" del proprio spionaggio, per questo va sottolineato come questo meccanismo - ed i prossimi descritti - sia a conti fatti una sorta di Metagame legalizzato e che per questo ha delle regole e delle limitazioni ben precise da seguire.
 Innanzitutto, la principale difficoltà dell'esito dello spionaggio è definita dal luogo in cui si svolge la role che si sta tentando di spiare.
 I dadi da lanciare, infatti, variano a seconda della tipologia di luogo: più un luogo è affollato e facile da raggiungere, più sarà facile passare inosservati tra la folla.
-Di base, quindi, un PG che tenta di spiare una role riesce a farlo passando inosservato se, al lancio del dado corrispondente al luogo in cui si trova, ****pesca 1****. Il numero delle facce del dado aumenta in base alla difficoltà di passare inosservati nel luogo in cui si svolge la role da spiare.
+Di base, quindi, un PG che tenta di spiare una role riesce a farlo passando inosservato se, al lancio del dado corrispondente al luogo in cui si trova, **pesca 1**. Il numero delle facce del dado aumenta in base alla difficoltà di passare inosservati nel luogo in cui si svolge la role da spiare.
 
 ## Luoghi di Hogwarts
 
@@ -296,7 +296,7 @@ La sezione Accesso Limitato è una particolare sezione del gioco in cui due o pi
 Come fanno allora gli altri player a sapere che è in corso una role che si potrebbe potenzialmente spiare se le role aperte in questa sezione rimangono nascoste? Ogni volta che due o più PG aprono una role in questa sezione devono **avvertire il Narratore** che provvederà ad attivare così la Bacheca dei Ficcanaso.
 Tramite questa Bacheca, gli altri player vengono messi al corrente della role in corso e avranno a disposizione un limitato periodo di tempo per provare ad intromettersi nella role segreta per spiarla.
 A differenza dello spiare una role pubblica, infatti, in questo caso i PG Spioni **non sanno** nè chi siano i protagonisti della role da spiare, nè cosa stiano facendo: narrativamente parlando, quel che fanno è imbattersi casualmente in una situazione di cui non conoscono la natura. L'unica cosa di cui sono al corrente è il luogo in cui avviene la role.
-Esattamente come per i PG Spioni delle role pubbliche, di base, un PG che tenta di spiare una role riesce a farlo passando inosservato se, al lancio del dado corrispondente al luogo in cui si trova, ****pesca 1****. I dadi da lanciare, quindi, variano ancora a seconda della tipologia di luogo.
+Esattamente come per i PG Spioni delle role pubbliche, di base, un PG che tenta di spiare una role riesce a farlo passando inosservato se, al lancio del dado corrispondente al luogo in cui si trova, **pesca 1**. I dadi da lanciare, quindi, variano ancora a seconda della tipologia di luogo.
 Ma ci sono alcune differenze nello spiare una role normale ed una in Accesso Limitato. I PG che cercano di ficcanasare nelle role in Accesso Limitato:
 • hanno a disposizione un ristretto periodo di tempo per provare a spiare la role, dal momento della creazione dell'annuncio nella Bacheca dei Ficcanaso;
 • ottengono un **malus di -2 possibilità al lancio del dado**, trattandosi di role di per sé molto private e quindi difficili da spiare;
@@ -559,7 +559,7 @@ Nel caso in cui un PG Incognito venga scoperto ad agire alle spalle, il suo atta
 
 > **Nota.**
 >
-• PG Studenti che provano ad agire alle spalle per compiere un'azione caotica completano la Missione del FantaHogwarts "Lo Sleale ", i PG Adulti che agiscono alle spalle per compiere un'azione sinistra completano "[URL=?t=80399222#infido]L'Infido". Maggiori informazioni nelle rispettive Missioni!
+• PG Studenti che provano ad agire alle spalle per compiere un'azione caotica completano la Missione del FantaHogwarts "Lo Sleale ", i PG Adulti che agiscono alle spalle per compiere un'azione sinistra completano "L'Infido". Maggiori informazioni nelle rispettive Missioni!
 
 ## Intuire se un PG mente
 Asserire con certezza di capire che il PG che si trova di fronte al proprio stia dicendo una bugia o mentendo riguardo qualcosa, a meno che non vi siano espliciti accordi presi in precedenza dai player, sarebbe un esempio molto spiacevole di Metagame. In Felix Felicis GdR, tuttavia, per non limitare la possibilità di giocare questo tipo di situazioni ed allo stesso tempo regolamentarle così che sia possibile ruolarle nella maniera più corretta ed oggettiva possibile, esiste un meccanismo che permette ad un PG di capire se il PG con cui sta parlando gli sta mentendo. Come?
@@ -610,7 +610,7 @@ Un furto, uno scippo ed una rapina sono quindi i tre modi distinti in cui un PG 
 ### Rubare
 Commettere un furto significa tentare di rubare Oggetti o Galeoni in possesso di un altro PG o PNG e quindi presenti nel suo Bagaglio, oppure tentare di rubare qualcosa da un determinato luogo. Il tentativo può essere ruolato sia pubblicamente che nella sezione **Orecchie Indiscrete**, ma in ogni caso sarà necessario l'intervento del Narratore per decretare la riuscita del furto.
 La difficoltà dell'esito del furto è, in primo luogo, definita dalla tipologia di Oggetto che si vuole rubare e se e come questo è protetto dal PG o PNG che ne è proprietario, se esiste un proprietario di quell'oggetto. Per prima cosa, il PG deve quindi ruolare il proprio tentativo di furto. Al primo post in cui il PG tenta di mettere in atto il furto, inoltre, esso rischia anche di essere scoperto dal proprietario PG o PNG dell'oggetto, o da un PNG casuale nel caso in cui l'Oggetto non appartenga a nessuno.
-Di base, un PG che tenta di rubare qualcosa in una role riesce a farlo passando inosservato se, al lancio del dado corrispondente al luogo in cui si trova, ****pesca 1****. I dadi da lanciare, quindi, variano a seconda della tipologia di luogo. Più un luogo è affollato e facile da raggiungere, più sarà facile passare inosservati tra la folla.
+Di base, un PG che tenta di rubare qualcosa in una role riesce a farlo passando inosservato se, al lancio del dado corrispondente al luogo in cui si trova, **pesca 1**. I dadi da lanciare, quindi, variano a seconda della tipologia di luogo. Più un luogo è affollato e facile da raggiungere, più sarà facile passare inosservati tra la folla.
 
 ## Luoghi di Hogwarts
 
@@ -818,7 +818,7 @@ Il **risultato più alto** determina se il PG Derubato riesce o meno ad essere a
 ### Scippare
 Lo scippo è un tipo di furto che si distingue per la sua rapidità d'esecuzione, ma la differenza sostanziale sta nel fatto che, in uno scippo, l'oggetto del desiderio viene strappato via dalle mani del proprietario. In Felix Felicis GdR, commettere uno scippo significa tentare di rubare Oggetti o Galeoni che un altro PG o PNG porta con sè in una role, e quindi presente nella sua Borsa. Il tentativo può essere ruolato sia pubblicamente che nella sezione **Orecchie Indiscrete**, in ogni caso sarà necessario l'intervento del Narratore per decretare la riuscita del furto.
 La difficoltà dell'esito dello scippo è, in primo luogo, definita dalla tipologia di Oggetto che si vuole rubare e se e come questo è protetto dal PG o PNG che ne è proprietario, se esiste un proprietario di quell'oggetto. Per prima cosa, il PG deve quindi ruolare il proprio tentativo di furto. Al primo post in cui il PG tenta di mettere in atto lo scippo, esso rischia anche di essere scoperto dal proprietario PG o PNG dell'oggetto.
-Di base, un PG che tenta di rubare qualcosa in una role riesce a farlo passando inosservato se, al lancio del dado corrispondente al luogo in cui si trova, ****pesca 1****. I dadi da lanciare, quindi, variano a seconda della tipologia di luogo. Più un luogo è affollato e facile da raggiungere, più sarà facile passare inosservati tra la folla.
+Di base, un PG che tenta di rubare qualcosa in una role riesce a farlo passando inosservato se, al lancio del dado corrispondente al luogo in cui si trova, **pesca 1**. I dadi da lanciare, quindi, variano a seconda della tipologia di luogo. Più un luogo è affollato e facile da raggiungere, più sarà facile passare inosservati tra la folla.
 
 ## Luoghi di Hogwarts
 
