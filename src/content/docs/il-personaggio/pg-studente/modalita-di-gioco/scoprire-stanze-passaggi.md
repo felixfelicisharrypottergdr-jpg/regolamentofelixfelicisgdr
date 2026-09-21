@@ -42,7 +42,7 @@ Hogwarts è un luogo ricco di Stanze e Passaggi Segreti che i PG Studenti posson
 
 Tuttavia, scovarli non è così semplice: più è alta la loro Popolarità o Stima dei Docenti, più sono alte le probabilità di trovarli e al contempo di essere scoperti da Prefetti e Docenti, perdendo Punti Casa e Stima dei Docenti.
 
-Se il luogo trovato non è [Vietato](./luoghi-di-hogwarts/) ma solo nascosto, entrarvi non è contro il Regolamento Scolastico. Di conseguenza, se il PG lo trova non deve richiedere l'intervento del Narratore.
+Se il luogo trovato non è [Vietato](../luoghi-di-hogwarts/) ma solo nascosto, entrarvi non è contro il Regolamento Scolastico. Di conseguenza, se il PG lo trova non deve richiedere l'intervento del Narratore.
 
 Al contrario, se la Stanza/Passaggio che il PG trova è un luogo Vietato e decide di entrarvi, deve avvisare il Narratore perché lanci i dadi per il PG e scoprire se riesce a farla franca.
 
@@ -79,7 +79,7 @@ Le Cariche possono intervenire soltanto nel momento in cui i PG che hanno trovat
 
 Se invece i PG trovano soltanto la posizione senza ancora aver scoperto e utilizzato la parola d'ordine, le Cariche non possono intervenire.
 
-Nel caso in cui i PG ne scovino la posizione, potranno procedere autonomamente con la ricerca della parola d'ordine chiedendo [Informazioni ai Quadri o ai Fantasmi](./ottenere-informazioni/), anche nella stessa role. Nel caso in cui riescano a scoprire anche questa e decidano di entrare nel Bagno, dovranno fare richiesta al Narratore per l'intervento delle Cariche Scolastiche.
+Nel caso in cui i PG ne scovino la posizione, potranno procedere autonomamente con la ricerca della parola d'ordine chiedendo [Informazioni ai Quadri o ai Fantasmi](../ottenere-informazioni/), anche nella stessa role. Nel caso in cui riescano a scoprire anche questa e decidano di entrare nel Bagno, dovranno fare richiesta al Narratore per l'intervento delle Cariche Scolastiche.
 
 ### Cucine
 
@@ -89,7 +89,7 @@ Le Cariche possono intervenire soltanto nel momento in cui i PG che hanno trovat
 
 Se invece i PG trovano soltanto la posizione senza ancora aver scoperto e utilizzato la combinazione d'accesso, le Cariche non possono intervenire.
 
-Nel caso in cui i PG ne scovino la posizione, potranno procedere autonomamente con la ricerca della chiave d'accesso chiedendo [Informazioni ai Quadri o ai Fantasmi](./ottenere-informazioni/), anche nella stessa role. Nel caso in cui riescano a scoprire anche questa e decidano di entrare nelle Cucine, dovranno fare richiesta al Narratore per l'intervento delle Cariche Scolastiche.
+Nel caso in cui i PG ne scovino la posizione, potranno procedere autonomamente con la ricerca della chiave d'accesso chiedendo [Informazioni ai Quadri o ai Fantasmi](../ottenere-informazioni/), anche nella stessa role. Nel caso in cui riescano a scoprire anche questa e decidano di entrare nelle Cucine, dovranno fare richiesta al Narratore per l'intervento delle Cariche Scolastiche.
 
 ### Stamberga Strillante
 
