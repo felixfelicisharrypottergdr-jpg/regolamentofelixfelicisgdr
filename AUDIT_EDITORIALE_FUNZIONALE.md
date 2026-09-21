@@ -46,14 +46,14 @@ Il preflight ora tratta le collisioni di route docs come errore.
 Corretti i link relativi che risolvevano la pagina target come figlia del file corrente anziché come sibling.
 
 ### P0-03 — Link Markdown assoluti incompatibili con il base path GitHub Pages
-**Stato: FIX IMPLEMENTATO, VERIFICA BUILD IN CORSO**
+**Stato: RISOLTO E VERIFICATO SULL'ARTIFACT**
 
 Nel render precedente circa 230 collegamenti interni rimanevano `/...` invece di includere il base
 `/regolamentofelixfelicisgdr/`.
 È stato aggiunto un passaggio Markdown che rende base-aware i link interni.
 
 ### P0-04 — Gerarchia H1 duplicata
-**Stato: FIX IMPLEMENTATO, VERIFICA BUILD IN CORSO**
+**Stato: RISOLTO E VERIFICATO SULL'ARTIFACT**
 
 Nel render precedente 472 pagine contenevano più di un H1:
 Starlight produceva il titolo pagina e il Markdown migrato conservava uno o più `#`.
@@ -140,6 +140,38 @@ ma è assente da:
 
 Anche l'indice backlink copre solo una parte delle collection.
 
+### P1-06 — Anomalia Ingredienti: Grinzafico / Giunchiglia / Grinzafigo
+**Stato: APERTO — decisione editoriale richiesta**
+
+La collection contiene 318 file ma 317 nomi distinti perché due schede risultano intitolate **Petalo di Giunchiglia strombazzante**.
+
+Il confronto con la fonte `10.9 Ingredienti` mostra che l'anomalia è già presente a monte:
+
+- l'indice elenca **Petalo di Grinzafico**;
+- l'anchor dedicato è `petalodigrinzafico`;
+- il blocco corrispondente è però intitolato erroneamente **Petalo di Giunchiglia strombazzante**;
+- poco dopo compare anche una voce distinta **Petalo di Grinzafigo**.
+
+Non va corretta automaticamente finché non viene verificato quale denominazione sia quella canonica nelle ricette e nelle altre fonti.
+
+### P1-07 — Pagine orfane ridondanti
+**Stato: RISOLTO**
+
+Sono state rimosse cinque pagine senza link in ingresso che duplicavano contenuti già presenti nelle pagine canoniche:
+
+- quattro sottopagine procedurali di Erbologia;
+- la vecchia guida autonoma alle Malattie Magiche.
+
+La rimozione non elimina regole: il contenuto completo resta nelle guide canoniche e nei cataloghi.
+
+### P1-08 — ID HTML duplicati nel Pozionario
+**Stato: FIX IMPLEMENTATO; NUOVO RENDER DA VERIFICARE**
+
+132 schede Pozione contenevano già una sezione sorgente **Ingredienti e dosi** e il template generava una seconda sezione strutturata con lo stesso id HTML.
+La tabella strutturata usa ora l'anchor `ingredienti-e-dosi-tabella`.
+
+La duplicazione editoriale fra testo sorgente e tabella strutturata resta da valutare nella fase di consolidamento.
+
 ## Registro P2
 
 ### P2-01 — Residui `prototypeExcerpt` e `to_migrate`
@@ -153,7 +185,7 @@ Questi flag non vanno azzerati in massa: prima bisogna distinguere fra vecchio m
 pagina volutamente riassuntiva e contenuto effettivamente incompleto.
 
 ### P2-02 — Formattazione ForumFree/BBCode visibile
-**Stato: PRIMO LOTTO RISOLTO, VERIFICA RENDER IN CORSO**
+**Stato: RISOLTO NEL SORGENTE; NUOVO RENDER DA VERIFICARE**
 
 Nel render precedente 17 pagine mostravano letteralmente token come
 `[QUOTE]`, `[CODE]`, `[URL]`, `[/color]` o sequenze `****testo****`.
@@ -181,6 +213,18 @@ Non vanno semplicemente “accorciate”: devono essere scomposte mantenendo una
 
 `MIGRATION_STATUS.md`, `PROTOTYPE_STATUS.md`, `SOURCES_USED.md` e `VALIDATION_REPORT.md`
 contengono affermazioni non più coerenti con quanto emerso nell'audit o con lo stato tecnico attuale.
+
+### P2-05 — Gerarchia heading con salti di livello
+**Stato: APERTO**
+
+Dopo la normalizzazione dell'H1 restano circa 17 pagine con salti semantici di heading (per esempio H2 → H4).
+Non rompe la navigazione, ma peggiora struttura documentale e accessibilità.
+
+### P2-06 — Peso delle pagine e dei cataloghi
+**Stato: APERTO — input per IA/UX e performance**
+
+L'artifact mostra alcune pagine molto pesanti, fra cui cataloghi Oggetti/Bestiario e grandi guide come Sintomatologia, Medimagia, Pozionistica, Quidditch e Magizoologia.
+Il problema non va risolto tagliando contenuto: occorre separare dati, filtri e sezioni canoniche nella futura architettura.
 
 ## Registro P3
 
