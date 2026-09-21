@@ -20,7 +20,7 @@ migration:
 
 A B C D E F G H I L M N O P Q R S T U V W Y Z
 
-### A
+## A
 
 Aberto
 Absorbet
@@ -58,7 +58,7 @@ Avada Kedavra
 Avensegium
 Avis
 
-### B
+## B
 
 Babbano Dentro
 Bagaglius
@@ -66,7 +66,7 @@ Benedizioni Runiche
 Bombarda
 Bombarda Maxima
 
-### C
+## C
 
 Cadit
 Calderaio
@@ -97,7 +97,7 @@ Cultura Babbana
 Custode delle Creature
 Custode delle Piante
 
-### D
+## D
 
 Damnum
 Defodio
@@ -136,7 +136,7 @@ Dolohoferio
 Dominuterra
 Duro
 
-### E
+## E
 
 Elettro
 Elettro Maxima
@@ -156,7 +156,7 @@ Expelliarmus
 Expulso
 Exulcero
 
-### F
+## F
 
 Ferula
 Fianto Duri
@@ -174,7 +174,7 @@ Fumos
 Fuocondro
 Furitum
 
-### G
+## G
 
 Gambemolli
 Geminio
@@ -186,14 +186,14 @@ Gommosus
 Gratta e Netta
 Guidami
 
-### H
+## H
 
 Herbivicus
 Homenum Revelio
 Homophormus
 Hostis Sui
 
-### I
+## I
 
 Ignis Algerus
 Illegibilus
@@ -216,7 +216,7 @@ Interpretazione dei Sogni
 Ipnosi
 Iterum Post Me
 
-### L
+## L
 
 Languelingua
 Lapifors
@@ -236,7 +236,7 @@ Lumos
 Lumos Maxima
 Lumos Solem
 
-### M
+## M
 
 Magi Biografia
 Magia Astrale Avanzata
@@ -264,13 +264,13 @@ Mutaombra
 Mutastato
 Muto
 
-### N
+## N
 
 Nihil Malus
 Nox
 Numerologia
 
-### O
+## O
 
 Objectis Commutatio
 Obliterate
@@ -283,7 +283,7 @@ Orbis
 Oscausi
 Oxygeni
 
-### P
+## P
 
 Paperante
 Partis Temporus
@@ -311,11 +311,11 @@ Psicometria del Futuro
 Psicometria del Passato
 Pullus
 
-### Q
+## Q
 
 Quietus
 
-### R
+## R
 
 Raptaque
 Recido
@@ -339,7 +339,7 @@ Ritrovare gli Oggetti Smarriti
 Ritualista Oscuro
 Runista Magico
 
-### S
+## S
 
 Salvio Hexia
 Scaramanzia
@@ -371,7 +371,7 @@ Stupeficium
 Sui Exitium
 Surgito
 
-### T
+## T
 
 Tarantallegra
 Tema Natale
@@ -384,13 +384,13 @@ Tracciante
 Transmuto
 Transmuto Partialis
 
-### U
+## U
 
 Unio
 Uso della Sfera di Cristallo
 Uso della Tavola Ouija
 
-### V
+## V
 
 Vaccinatore
 Ventus
@@ -402,15 +402,15 @@ Visione del Passato
 Vocatus
 Vulnera Sanentur
 
-### W
+## W
 
 Waddiwasi
 Wingardium Leviosa
 
-### Y
+## Y
 
 Yoga
 
-### Z
+## Z
 
 Zilerius
