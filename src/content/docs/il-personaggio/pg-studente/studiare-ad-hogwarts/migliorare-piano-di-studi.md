@@ -50,7 +50,7 @@ Migliorare il voto di una Conoscenza Scolastica richiede un costo specifico che 
 
 Un PG Studente può provare a migliorare tutte le Conoscenze che desidera nel corso dell'anno scolastico, pagando i costi richiesti per aumentarne il Voto. Può infatti decidere di migliorare:
 
-- le **Conoscenze Scolastiche appartenenti al Piano di Studi** dell'anno in corso: queste sono utili anche per lo svolgimento di alcune Missioni del FantaHogwarts e permettono al PG di concorrere per le [Borse di Studio](./borse-di-studio/);
+- le **Conoscenze Scolastiche appartenenti al Piano di Studi** dell'anno in corso: queste sono utili anche per lo svolgimento di alcune Missioni del FantaHogwarts e permettono al PG di concorrere per le [Borse di Studio](../borse-di-studio/);
 - le **Conoscenze Scolastiche al di fuori del Piano di Studi**, quindi quelle degli anni precedenti di cui si desidera migliorare il Voto oppure degli anni successivi acquistate;
 - le **Conoscenze Extra** e le **Avanzate**.
 
