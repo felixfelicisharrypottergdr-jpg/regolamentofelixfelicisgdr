@@ -55,8 +55,19 @@ for (const file of files) {
     definitions.set(id, rel(file));
   }
 
-  const uuids = [...fm.matchAll(UUID_RE)].map((m) => m[0].toLowerCase());
-  const refs = uuids.filter((uuid) => uuid !== id);
+  // Considera riferimenti soltanto gli UUID che costituiscono l'intero
+  // valore YAML di un campo o di una voce di lista. UUID presenti dentro URL
+  // (per esempio nei nomi file delle immagini) non sono relazioni FELIX.
+  const refs = [];
+  for (const line of fm.split(/\r?\n/)) {
+    const scalar = line.match(/^\s*([A-Za-z0-9_]+)\s*:\s*["']?([0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})["']?\s*$/i);
+    if (scalar && !['id', 'felixId'].includes(scalar[1])) {
+      refs.push(scalar[2].toLowerCase());
+      continue;
+    }
+    const listItem = line.match(/^\s*-\s*["']?([0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})["']?\s*$/i);
+    if (listItem) refs.push(listItem[1].toLowerCase());
+  }
   const slug = fm.match(SLUG_RE)?.[1];
   fileInfo.push({ file: rel(file), id, refs, slug, collection: path.relative(CONTENT_ROOT, path.dirname(file)).split(path.sep)[0] });
 }
