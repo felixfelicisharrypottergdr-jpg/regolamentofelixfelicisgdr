@@ -32,7 +32,7 @@ mettersi sulle tracce di magie pericolose senza bisogno dell’intervento dirett
 Questa Ricerca consente ai PG di completare il Livello Difficile della Missione
 "Lo Spezzaincantesimi" del FantaWiz.
 
-### Ricerca Maledizioni: in che Modalità?
+## Ricerca Maledizioni: in che Modalità?
 
 Con il termine "Ricerca Maledizioni" si intende l’insieme delle attività svolte dagli
 Spezzaincantesimi e dagli Acumen, volte a individuare, analizzare, studiare, neutralizzare e
@@ -49,7 +49,7 @@ secondi in quanto assistenti degli Spezzaincantesimi (PNG, nel caso in cui non c
 Spezzaincantesimi nella giocata), chiamati direttamente dal PG o anche in questo caso dai
 PNG.
 
-### I Passaggi: cosa sono e come funzionano
+## I Passaggi: cosa sono e come funzionano
 
 La Ricerca Maledizioni è strutturata in Passaggi, ovvero macro-fasi narrative e operative che
 raggruppano tre fasi specifiche.
@@ -82,7 +82,7 @@ osservano e come intendono affrontarli, creando un contesto coerente e immersivo
 lasciando che gli esiti dei dadi determinino in modo realistico il successo o il fallimento delle
 loro azioni e influenzino lo sviluppo della storia.
 
-### Avvio della Ricerca: come e dove
+## Avvio della Ricerca: come e dove
 
 I PG vengono sempre coinvolti in una nuova Ricerca Maledizione, senza bisogno di lanciare
 un dado per essere chiamati in causa, diversamente da altre tipologie di Ricerche nel gioco.
@@ -97,7 +97,7 @@ esclusivamente per lo svolgimento della Ricerca.
 Se i PG decidono di approfittare del viaggio per altre giocate, dovranno comunque sostenere
 le spese secondo le modalità scelte.
 
-### Quale Ricerca Maledizione viene assegnata ai PG?
+## Quale Ricerca Maledizione viene assegnata ai PG?
 
 Per stabilire la natura dell’incarico, si può decidere in autonomia o tirare 1d5 per definire il
 tipo di Passaggio da affrontare.
