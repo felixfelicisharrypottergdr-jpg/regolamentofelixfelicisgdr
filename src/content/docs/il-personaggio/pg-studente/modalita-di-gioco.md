@@ -48,6 +48,9 @@ quickLinks:
   - label: "Resistenza"
     href: "/il-personaggio/pg-studente/modalita-di-gioco/resistenza/"
     description: "Organizzazione studentesca nata per contrastare gli Alfieri Rossi."
+  - label: "FantaHogwarts"
+    href: "/il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/"
+    description: "Missioni, requisiti e premi per trasformare le role in obiettivi di gioco."
 migration:
   status: revised
   sources:
