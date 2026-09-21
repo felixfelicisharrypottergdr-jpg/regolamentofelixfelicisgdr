@@ -174,7 +174,16 @@ export default defineConfig({
           label: 'Giocare',
           items: [
             { label: 'Giocare', slug: 'giocare' },
-            { label: 'Modalità di Gioco', slug: 'giocare/modalita-di-gioco' },
+            {
+              label: 'Modalità di Gioco',
+              items: [
+                { label: 'Panoramica', slug: 'giocare/modalita-di-gioco' },
+                { label: 'Eventi', slug: 'giocare/modalita-di-gioco/eventi' },
+                { label: 'Trama', slug: 'giocare/modalita-di-gioco/trama' },
+                { label: 'Sondaggi e Indizi', slug: 'giocare/modalita-di-gioco/sondaggi-e-indizi' },
+                { label: 'Classificazione degli Eventi', slug: 'giocare/modalita-di-gioco/classificazione-eventi' },
+              ],
+            },
             {
               label: 'Le Role',
               items: [
