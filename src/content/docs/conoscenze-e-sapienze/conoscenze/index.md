@@ -5,7 +5,7 @@ description: "Conoscenze Autoconclusive, Scolastiche, Extra e Avanzate e regole 
 contentType: landing
 searchAliases: [conoscenze magiche, conoscenze pg, apprendere conoscenze]
 applicability: [student, adult]
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
@@ -16,17 +16,13 @@ migration:
 
 # Le Conoscenze
 
-Il Regolamento distingue quattro grandi tipologie di Conoscenza:
+La fonte **3. Le Conoscenze** è migrata integralmente nelle sezioni seguenti:
 
 - [Conoscenze Autoconclusive](./autoconclusive/)
 - [Conoscenze Scolastiche](./scolastiche/)
 - [Conoscenze Extra](./extra/)
 - [Conoscenze Avanzate](./avanzate/)
-
-## Usare le Conoscenze
-
-Le regole comuni comprendono le **Componenti di una Conoscenza**, l'uso delle diverse tipologie, il rapporto tra **PG Adulti e PG Studenti**, la narrazione degli esiti del dado, l'annullamento degli effetti e gli Incantesimi non verbali.
-
-[Consulta Usare le Conoscenze](./usare-le-conoscenze/)
-
-> I singoli Incantesimi, Pozioni, Creature, Piante e le altre voci consultabili restano nei rispettivi **Manuali**. Questa area contiene le regole su come le Conoscenze funzionano per il PG.
+- [Usare le Conoscenze](./usare-le-conoscenze/)
+- [Ottenere nuove Conoscenze](./ottenere-nuove-conoscenze/)
+- [Creare una Conoscenza](./creare-conoscenze/)
+- [Glossario delle Conoscenze](./glossario/)
