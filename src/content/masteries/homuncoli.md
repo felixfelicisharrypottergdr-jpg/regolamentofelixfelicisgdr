@@ -139,29 +139,28 @@ L'Homunculus può utilizzare al massimo 1 Pozione del proprio Nucleo per post, e
 L'Homunculus è una presenza fisica reale all'interno della giocata: può essere visto, seguito, afferrato, ostacolato, colpito o distrutto.
 Quando tenta un'Azione dall'esito incerto, il Narratore utilizza i suoi Parametri come farebbe per qualsiasi altra entità presente nella scena.
 
-[QUOTE]
 
-### Livello I
+> ### Livello I
+>
+> • Forza: 20
+> • Salute: 20
+> • Resistenza: 5
+> • Destrezza: 12
+>
+> ### Livello II
+>
+> • Forza: 30
+> • Salute: 35
+> • Resistenza: 10
+> • Destrezza: 18
+>
+> ### Livello III
+>
+> • Forza: 40
+> • Salute: 50
+> • Resistenza: 15
+> • Destrezza: 25
 
-• Forza: 20
-• Salute: 20
-• Resistenza: 5
-• Destrezza: 12
-
-### Livello II
-
-• Forza: 30
-• Salute: 35
-• Resistenza: 10
-• Destrezza: 18
-
-### Livello III
-
-• Forza: 40
-• Salute: 50
-• Resistenza: 15
-• Destrezza: 25
-[/QUOTE]
 La Forza rappresenta anche la capacità dell'Homunculus di spingere, trascinare, trattenere, rompere o colpire fisicamente qualcosa.
 L'Homunculus non possiede Fatica né Parametri Magici propri, non può utilizzare una bacchetta e non può lanciare Incantesimi.
 Se la sua Salute raggiunge 0, viene distrutto definitivamente.
