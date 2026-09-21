@@ -41,7 +41,7 @@ Sì, è possibile. Se l'invenzione dovesse essere soltanto OFFGame, quindi del p
 Se l'invenzione dovesse essere anche ONGame, il nome dell'inventore non sarà di dominio pubblico: la diffusione della conoscenza in maniera indiretta (quindi acquistata e non appresa direttamente dell'inventore) si giustifica tramite un passaparola ONGame che permette all'inventore di mantenere l'anonimato, a meno che non si riveli personalmente, rischiando le conseguenze previste per le Azioni Illegali.
 **Come si possono ottenere le Conoscenze e gli Oggetti creati?**
 Esattamente come le Conoscenze e gli Oggetti normali: si acquistano oppure, nel caso delle Conoscenze, si apprendono direttamente dall'inventore o da chi ha già la Conoscenza tra quelle apprese in Scheda PG.
-****Attenzione:**** queste Conoscenze, anche se Extra, non vengono apprese di default dai PG che possiedono la Sapienza affine. Devono comunque essere acquistate o apprese da PG che le possiedono già in Scheda.
+**Attenzione:** queste Conoscenze, anche se Extra, non vengono apprese di default dai PG che possiedono la Sapienza affine. Devono comunque essere acquistate o apprese da PG che le possiedono già in Scheda.
 
 ## Creare un Incantesimo
 Per creare un nuovo Incantesimo OFFGame, il Player può compilare il seguente specchietto compilato all'interno della sezione "Proposte Nuove Creazioni":
@@ -61,7 +61,9 @@ Per creare un nuovo Incantesimo OFFGame, il Player può compilare il seguente sp
 **Bersaglio:**
 **Altro:**
 
-[CODE]**Nome Incantesimo:**
+
+```text
+**Nome Incantesimo:**
 **Tipologia:** Arcaico/Difensivo/Elementale/Erbologico/Magizoologico/Medimagico/Mentale/Offensivo/Oscuro/Pozionistico/Trasfigurativo
 **Immagine:**
 **Descrizione ONGame:**
@@ -71,7 +73,9 @@ Per creare un nuovo Incantesimo OFFGame, il Player può compilare il seguente sp
 **Forza:**
 **Fatica:**
 **Bersaglio:**
-**Altro:**[/CODE]
+**Altro:**
+```
+
 
 Nel caso in cui il PG inventi l'Incantesimo in questione anche ONGame, il player ha liberta di scelta su come ruolare il processo di creazione, che può avvenire in una o più role, in solitaria o con l'aiuto di altri PG eccetera. L'importante ovviamente è mantenere il buon senso e rispettare la coerenza del PG, dell'Ambientazione, nonchè dei limiti e delle regole del gioco, evitando di fare PowerPlay.
 
@@ -95,7 +99,9 @@ Per creare una nuova Pozione OFFGame, il Player può compilare il seguente specc
 **Durata:**
 **Altro:**
 
-[CODE]**Nome Pozione:**
+
+```text
+**Nome Pozione:**
 **Immagine:**
 **Descrizione ONGame:**
 **Ingredienti e dosi:**
@@ -107,7 +113,9 @@ Per creare una nuova Pozione OFFGame, il Player può compilare il seguente specc
 **Forza standard:**
 **Somministrazione:**
 **Durata:**
-**Altro:**[/CODE]
+**Altro:**
+```
+
 
 Nel caso in cui il PG inventi la Pozione in questione anche ONGame, il player ha liberta di scelta su come ruolare il processo di creazione, che può avvenire in una o più role, in solitaria o con l'aiuto di altri PG eccetera. L'importante ovviamente è mantenere il buon senso e rispettare la coerenza del PG, dell'Ambientazione, nonchè dei limiti e delle regole del gioco, evitando di fare PowerPlay.
 
@@ -126,13 +134,17 @@ Per creare un nuovo Oggetto Magico OFFGame, il Player può compilare il seguente
 **Prezzo:**
 **Altro:**
 
-[CODE]**Nome Oggetto:**
+
+```text
+**Nome Oggetto:**
 **Immagine:**
 **Descrizione ONGame:**
 **Ingredienti:**
 **Capacità OFFGame:**
 **Passaggi per la creazione:**
 **Prezzo:**
-**Altro:**[/CODE]
+**Altro:**
+```
+
 
 Nel caso in cui il PG inventi l'Oggetto Magico in questione anche ONGame, il player ha liberta di scelta su come ruolare il processo di creazione, che può avvenire in una o più role, in solitaria o con l'aiuto di altri PG eccetera. L'importante ovviamente è mantenere il buon senso e rispettare la coerenza del PG, dell'Ambientazione, nonchè dei limiti e delle regole del gioco, evitando di fare PowerPlay.
