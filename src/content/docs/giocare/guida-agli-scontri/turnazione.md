@@ -47,11 +47,15 @@ E' buona norma, nel ruolare una situazione di scontro, sfruttare lo Spoiler per 
 
 ## Codice da compilare:
 
-[CODE]• ** Spostamento:**
+
+```text
+• ** Spostamento:**
 • ** Azione principale:**
 • ** Azione Bonus:**
 • ** Interazione:**
-• ** Reazione:**[/CODE]
+• ** Reazione:**
+```
+
 
 **Bisogna tenere a mente alcuni ulteriori dettagli:**
 • Ciò che normalmente viene considerato Azione in situazioni di gioco "normali", cambia leggermente secondo come spiegato sopra.
