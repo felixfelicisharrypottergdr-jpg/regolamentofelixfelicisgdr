@@ -340,10 +340,14 @@ Per quanto il guadagno dei Galeoni misuri in un certo modo l'attività di gioco,
 ### Come richiedere Galeoni
 La richiesta dei Galeoni di ogni PG è a carico del player. Durante il mese, esso può tener traccia del proprio giocato nella propria Camera Blindata in questa sezione, dettagliando il numero di post e i riferimenti secondo quanto indicato.
 **Come?**
-Vanno segnati i link diretti ai ****singoli post**** (e non di interi topic/role). Per reperire il link del singolo post, è necessario cliccare sulla data e ora di invio del post, che appare in grigio in cima al post non appena questo viene inviato. In questo modo, il link del browser assumerà il formato tipo:
+Vanno segnati i link diretti ai **singoli post** (e non di interi topic/role). Per reperire il link del singolo post, è necessario cliccare sulla data e ora di invio del post, che appare in grigio in cima al post non appena questo viene inviato. In questo modo, il link del browser assumerà il formato tipo:
 
 >
-[CODE]https://felixfelicisharrypottergdr.forumfree.it/?t=XXXXX#entryYYYYY[/CODE]
+
+```text
+https://felixfelicisharrypottergdr.forumfree.it/?t=XXXXX#entryYYYYY
+```
+
 
 Questo è il link da inserire, per ogni post scritto, nella propria Camera Blindata. Nei primi giorni del nuovo mese, lo Staff consulta le Camere Blindate di ciascun PG attivo e provvede ad aggiornare la somma di Galeoni nelle Schede PG.
 Per praticità e per avere i Galeoni che spettano disponibili il prima possibile, è opportuno completare il resoconto entro la fine del mese: le richieste tardive vengono accolte nel mese successivo.
@@ -475,8 +479,8 @@ Se esiste già un topic Spam per Felix Felicis GDR nel Forum scelto, basta posta
 
 ## Cliccare per il codice!
 
-[CODE]
 
+```text
 *
 
 Visto che lo spam non lo legge nessuno - perché è spam - non ci dilunghiamo.
@@ -486,8 +490,8 @@ Ah, la Felix Felicis è bandita perché **mai una gioia** pure se sei un mago e 
 Poi c'è Hogwarts, Diagon Alley, bacchette, assassini, cospiratori, PV gnocchə e tutte le solite cose di un GdR su Harry Potter.
 Curiosə?
 ⇨ Passaporta qui ⇦
+```
 
-[/CODE]
 
 ## Fai il Buon Samaritano
 
