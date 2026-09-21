@@ -148,9 +148,9 @@ Gli Ingredienti originari vengono invece scomposti e ricombinati in una sostanza
 OFFGame, tuttavia, il risultato acquisisce la stessa essenza, le stesse proprietà e le stesse funzioni alchemiche dell'Ingrediente replicato.
 Viene registrato nella Dispensa come:
 
-[QUOTE]
-Equivalente Alchemico di [Nome Ingrediente]
-[/QUOTE]
+
+> Equivalente Alchemico di [Nome Ingrediente]
+
 E viene considerato esattamente come quell'Ingrediente per:
 • Classificazione;
 • macro-categoria;
