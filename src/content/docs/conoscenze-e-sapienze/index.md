@@ -15,7 +15,7 @@ quickLinks:
   - label: "Maestrie"
     href: "/conoscenze-e-sapienze/maestrie/"
     description: "La nuova categoria di skill posta sopra le Sapienze."
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: native
   sources: []
