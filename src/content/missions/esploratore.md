@@ -8,120 +8,21 @@ illegal: false
 completion: false
 schoolYearOnly: true
 levels:
-- name: Livello Facile
-  action: 'Il PG ambienta una role in cui scrive almeno 5 post in uno dei seguenti luoghi senza richiedere mai l''intervento del Narratore:
-
-    - Armadio delle Scope
-
-    - Bagni Dismessi
-
-    - Balcone
-
-    - Cerchio di Pietre
-
-    - Ponte sospeso
-
-    - Ponte di legno o coperto
-
-    - Ponte del Viadotto
-
-    - Ponte di pietra
-
-    - Radura di Cura delle Creature Magiche
-
-    - Rimessa delle barche
-
-    - Ripostiglio del Quidditch
-
-    - Sala dei Trofei
-
-    - Sala di Pittura e Disegno, Sala di Musica
-
-    - Spogliatoi di Quidditch
-
-    - Stanza di Detenzione
-
-    - Tomba bianca'
-  requirements:
-  - //
-  rewards:
-  - 1.5 PP per post
-  ifCaught: []
-  illegal: false
-  completion: false
-  schoolYearOnly: false
-- name: Livello Facile
-  action: 'Il PG ambienta una role in cui scrive almeno 5 post in uno dei seguenti luoghi senza richiedere mai l''intervento del Narratore:
-
-    - Armadio delle Scope
-
-    - Bagni Dismessi
-
-    - Balcone
-
-    - Cerchio di Pietre
-
-    - Ponte sospeso
-
-    - Ponte di legno o coperto
-
-    - Ponte del Viadotto
-
-    - Ponte di pietra
-
-    - Radura di Cura delle Creature Magiche
-
-    - Rimessa delle barche
-
-    - Ripostiglio del Quidditch
-
-    - Sala dei Trofei
-
-    - Sala di Pittura e Disegno, Sala di Musica
-
-    - Spogliatoi di Quidditch
-
-    - Stanza di Detenzione
-
-    - Tomba bianca'
-  requirements:
-  - //
-  rewards:
-  - +3 PP da richiedere nella propria Lista della Spesa
-  ifCaught: []
-  illegal: false
-  completion: false
-  schoolYearOnly: false
-searchAliases:
-- esploratore
-- l'esploratore
+  - name: Livello Facile
+    action: "Il PG ambienta una role in cui scrive almeno 5 post in uno dei seguenti luoghi senza richiedere mai l'intervento del Narratore: Armadio delle Scope; Bagni Dismessi; Balcone; Cerchio di Pietre; Ponte sospeso; Ponte di legno o coperto; Ponte del Viadotto; Ponte di pietra; Radura di Cura delle Creature Magiche; Rimessa delle barche; Ripostiglio del Quidditch; Sala dei Trofei; Sala di Pittura e Disegno; Sala di Musica; Spogliatoi di Quidditch; Stanza di Detenzione; Tomba bianca."
+    requirements: ["//"]
+    rewards:
+      - 1.5 PP per post
+    ifCaught: []
+    illegal: false
+    completion: false
+    schoolYearOnly: true
+searchAliases: [esploratore, luoghi isolati, hogwarts]
 status: published
 migration:
   status: revised
   sources:
-  - document: 6. Giocare un PG Studente
-    section: 5. Modalità di gioco per PG Studenti
-    item: FantaHogwarts — Missioni Neutrali — L'Esploratore
+    - document: 6. Giocare un PG Studente
+      section: 5. Modalità di gioco per PG Studenti
+      item: FantaHogwarts — Missioni Neutrali — L'Esploratore
 ---
-
-## Dettagli e condizioni
-
-Livelli
-Livello Facile
-Il PG ambienta una role in cui scrive almeno 5 post in uno dei seguenti luoghi senza richiedere mai l'intervento del Narratore:
-- Armadio delle Scope
-- Bagni Dismessi
-- Balcone
-- Cerchio di Pietre
-- Ponte sospeso
-- Ponte di legno o coperto
-- Ponte del Viadotto
-- Ponte di pietra
-- Radura di Cura delle Creature Magiche
-- Rimessa delle barche
-- Ripostiglio del Quidditch
-- Sala dei Trofei
-- Sala di Pittura e Disegno, Sala di Musica
-- Spogliatoi di Quidditch
-- Stanza di Detenzione
-- Tomba bianca
