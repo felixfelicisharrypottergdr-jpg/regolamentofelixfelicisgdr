@@ -13,6 +13,7 @@ import { legalDocumentSchema, legalArticleSchema } from './schemas/legal';
 import { raceSchema } from './schemas/races';
 import { objectSchema } from './schemas/objects';
 import { missionSchema } from './schemas/missions';
+import { wizardMissionSchema } from './schemas/wizard-missions';
 import { migrationSchema, uuidSchema } from './schemas/common';
 
 const idFromFrontmatter = ({ data, entry }: { data: Record<string, unknown>; entry: string }) =>
@@ -114,6 +115,15 @@ const missions = defineCollection({
   schema: missionSchema,
 });
 
+const wizardMissions = defineCollection({
+  loader: glob({
+    pattern: '**/*.{md,mdx}',
+    base: './src/content/wizard-missions',
+    generateId: idFromFrontmatter,
+  }),
+  schema: wizardMissionSchema,
+});
+
 const legalDocuments = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/legal-documents', generateId: idFromFrontmatter }),
   schema: legalDocumentSchema,
@@ -133,4 +143,4 @@ const ingredients = defineCollection({
   schema: ingredientSchema,
 });
 
-export const collections = { docs, creatures, diseases, ingredients, potions, spells, plants, races, objects, missions, legalDocuments, legalArticles };
+export const collections = { docs, creatures, diseases, ingredients, potions, spells, plants, races, objects, missions, wizardMissions, legalDocuments, legalArticles };
