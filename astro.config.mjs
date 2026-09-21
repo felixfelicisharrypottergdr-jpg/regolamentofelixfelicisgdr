@@ -296,8 +296,13 @@ export default defineConfig({
             {
               label: 'Medimagia',
               items: [
-                { label: 'Enciclopedia Medimagica', slug: 'manuali/medimagia' },
-                { label: 'Malattie Magiche', link: '/manuali/medimagia/malattie/' },
+                { label: 'Guida e Tecniche', slug: 'manuali/medimagia' },
+                { label: 'Sintomatologia di Base', slug: 'manuali/medimagia/sintomatologia' },
+                { label: 'Malattie Magiche — 44 schede', link: '/manuali/medimagia/malattie/' },
+                { label: 'Lesioni da Incantesimi/Pozioni', slug: 'manuali/medimagia/lesioni-incantesimi-pozioni' },
+                { label: 'Incidenti da Manufatti', slug: 'manuali/medimagia/incidenti-manufatti' },
+                { label: 'Avvelenamenti', slug: 'manuali/medimagia/avvelenamenti' },
+                { label: 'Ferite da Creature e Piante', slug: 'manuali/medimagia/ferite-creature-piante' },
               ],
             },
             {
