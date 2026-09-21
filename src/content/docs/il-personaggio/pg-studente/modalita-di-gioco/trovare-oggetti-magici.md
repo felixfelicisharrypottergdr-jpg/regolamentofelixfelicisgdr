@@ -57,7 +57,7 @@ Il PG che trova un Oggetto o uno Scherzo deve avvisare il Narratore perché decr
 
 Ogni qualvolta che il PG trova un Oggetto Oscuro e **decide di tenerlo**, rischia di essere scoperto da una delle Cariche Scolastiche. Deve quindi avvisare nuovamente il Narratore perché lanci i dadi per il PG.
 
-Per trovare Oggetti in questi luoghi, però, **è necessario prima scoprirli**, seguendo le regole per [scoprire Stanze Segrete o Passaggi Segreti](./scoprire-stanze-passaggi/).
+Per trovare Oggetti in questi luoghi, però, **è necessario prima scoprirli**, seguendo le regole per [scoprire Stanze Segrete o Passaggi Segreti](../scoprire-stanze-passaggi/).
 
 ## Armadio Oscuro
 
