@@ -107,7 +107,7 @@ Le Piante incontrabili dipendono dalla Zona nella quale viene svolta la Ricerca.
 Ogni Zona di Ricerca contiene una lista delle specie presenti, suddivise in base alla
 Classificazione.
 
-#### Zone di Ricerca
+### Zone di Ricerca
 
 Lago Nero
 Foresta Proibita
@@ -233,7 +233,7 @@ Quando una specie occupa più numeri o un intervallo di risultati nelle Zone est
 numero costituisce un possibile esito e aumenta quindi la probabilità di incontrare quella
 specie.
 
-#### Zone di Ricerca
+### Zone di Ricerca
 
 Lago Nero
 Foresta Proibita
@@ -346,7 +346,7 @@ Classificazione.
 
 Consultare la lista della Zona di Ricerca e utilizzare la Classificazione ottenuta.
 
-#### Zone di Ricerca
+### Zone di Ricerca
 
 Lago Nero
 Foresta Proibita
@@ -426,7 +426,7 @@ Classificazione.
 
 Consultare la lista della Zona di Ricerca e utilizzare la Classificazione ottenuta.
 
-#### Zone di Ricerca
+### Zone di Ricerca
 
 Lago Nero
 Foresta Proibita
