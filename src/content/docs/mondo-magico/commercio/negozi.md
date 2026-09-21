@@ -1,25 +1,57 @@
 ---
 felixId: "b2f263b6-3b6a-4ea5-9dc9-74f4786d5e22"
-title: "I Negozi"
-description: "Negozi, Prezzari e criteri con cui le Merci vengono presentate nel Commercio Magico."
+title: "I Negozi e i Prezzari"
+description: "Elenco completo dei Negozi e accesso al catalogo integrale dei Prezzari."
 contentType: rule
-searchAliases: ["prezzari", "diagon alley", "hogsmeade", "notturn alley", "negozi virtuosi", "negozi sinistri"]
+searchAliases:
+  - "prezzari"
+  - "diagon alley"
+  - "hogsmeade"
+  - "notturn alley"
+  - "negozi"
 applicability: []
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
-  status: migrated
+  status: revised
   sources:
     - document: "8. Vivere nel Mondo Magico"
-      section: "Commercio Magico"
-      item: "I Negozi / Prezzari dei Negozi"
+      section: "Prezzari dei Negozi"
 ---
 
-# I Negozi
+# I Negozi e i Prezzari
 
-Diagon Alley, Notturn Alley ed Hogsmeade ospitano numerosi **Negozi**, ciascuno con il proprio **Prezzario**.
+La fonte contiene due copie letteralmente duplicate della sezione **Prezzari dei Negozi**. Nel sito-libro il contenuto viene rappresentato una sola volta nel catalogo strutturato, senza duplicare le stesse merci.
 
-Il regolamento distingue Negozi che vendono **Merce Legale** e Negozi che vendono **Merce Illegale**. Lo stesso Oggetto può comparire in più Negozi e avere caratteristiche commerciali differenti in base al punto vendita.
+## Negozi
 
-Nel nuovo sito questa informazione non verrà duplicata in più pagine: una singola scheda Oggetto potrà contenere le diverse varianti di vendita.
+- Accessori di Prima Qualità per il Quidditch
+- Il Calderone
+- Il Ghirigoro
+- Madama McClan
+- Obscurus Books
+- Ollivander
+- Il Serraglio Stregato
+- Lo Speziale
+- Tiri Vispi Weasley
+- Wingsworth Motors
+- Wiseacre's: Il Telescopio
+- Bazaar della Fortuna
+- Emporio degli scherzi di Zonko
+- Falce di Luna
+- Forgia dei Goblin
+- Il Corvo Candito
+- Mielandia
+- Mondomago
+- Scrivenshaft
+- Candele Velenose per Ogni Occasione
+- Emporio di Magia Nera
+- Magie Sinister
+- Negozio di Ragni Giganti
+- Il Terrifico
 
-[Consulta gli **Oggetti** →](./oggetti/)
+## Catalogo
+
+Sono state migrate **229 voci uniche di Prezzario**.
+
+[Consulta il catalogo completo degli Oggetti →](/mondo-magico/commercio/oggetti/)
+
