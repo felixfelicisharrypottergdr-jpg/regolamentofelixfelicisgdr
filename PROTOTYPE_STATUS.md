@@ -46,7 +46,6 @@
 
 ## Decisioni mantenute
 
-- Fabbricazione ONGame degli Oggetti esclusa dalla migrazione.
 - Schede/catalogo PNG fuori dalla migrazione V1 e lasciati sul sito attuale.
 - Il testo completo resta editoriale; i campi strutturati servono a ricerca, filtri e relazioni.
 - Ogni relazione ha una sola fonte canonica; il lato inverso viene generato automaticamente.
@@ -63,7 +62,7 @@ Restano verifiche funzionali/UI da continuare durante la migrazione completa: Pa
 
 ## Mondo Magico — Commercio e ordinamento giuridico
 
-Aggiunti al prototipo: Commercio Magico, Acquistare/Vendere Merci, Gringott, Negozi, primo Catalogo Oggetti, Carta/Codice/Corollario, Magisprudenza e Wizengamot. Gli Oggetti testano anche varianti di vendita per più Negozi. La Fabbricazione ONGame resta esclusa.
+Fonte 8 completata: Commercio Magico e Fabbricazione ONGame, 229 voci uniche dei Prezzari, Quidditch completo incluse le partite da background, Giochi Magici, Azioni Illegali, Medimagia e Leggi Magiche. I tre documenti normativi contengono il testo integrale della fonte.
 
 ## Incorporamento nel forum
 
@@ -88,4 +87,5 @@ Il prototipo è ora pronto per il **primo caricamento e primo build-test su GitH
 - Pozionistica completa: guida generale, regole di creazione/Tecniche e 136 Pozioni del Pozionario dalla fonte 10.7.
 - Medimagia completa: guida/Tecniche, Sintomatologia, 44 Malattie, Lesioni/Traumi, Incidenti, Avvelenamenti e Ferite da Creature/Piante dalla fonte 10.4.
 - Altre Conoscenze Scolastiche complete: 15 schede strutturate (3 per ciascuna di 5 materie), catalogo per Materia/Anno e integrazione completa delle Sapienze Fisiche e Sociali a 5 Livelli.
+- Vivere nel Mondo Magico completo: Trasporti, Commercio e Fabbricazione, 229 voci Prezzario, Quidditch, Giochi Magici, Azioni Illegali, Medimagia e Leggi Magiche.
 - Il test dell'iframe full-viewport su ForumFree resta una verifica obbligatoria dopo il primo deploy.

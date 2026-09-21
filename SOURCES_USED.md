@@ -1,60 +1,21 @@
-# Fonti usate nel prototipo
+# Fonti migrate
 
-Il sito usa le fonti reali del regolamento FELIX FELICIS. Alcune aree sono ormai migrate integralmente, mentre altre restano in corso di migrazione.
+Il sito usa le fonti reali del regolamento FELIX FELICIS. Questo file viene mantenuto come matrice di copertura durante la migrazione totale.
 
-## Campioni principali
+## Fonti complete
 
-- 10.5 Erbologia
-  - Guida completa, 12 Tecniche/Incantesimi Erbologici e 92 Piante dell'Erbario.
+- 10.1 Manuale di Incantesimi — 212 Incantesimi, relazioni, Specifiche e materiale generale.
+- 10.2 Altre Conoscenze Scolastiche — 15 Conoscenze + Sapienze Fisiche/Sociali integrate.
+- 10.3 Manuale di Divinazione — guida + 43 Tecniche.
+- 10.4 Enciclopedia Medimagica — guida/Tecniche, Sintomatologia, 44 Malattie, Lesioni/Traumi, Incidenti, Avvelenamenti, Ferite.
+- 10.5 Erbologia — guida, 12 Tecniche/Incantesimi, 92 Piante.
+- 10.6 Magizoologia — guida, 11 Tecniche/Incantesimi, 141 Creature; Bezoar nella scheda Ingrediente.
+- 10.7 Pozionistica — guida, Tecniche e 136 Pozioni.
+- 10.8 Tracciatura — guida, Sensi Magici, Spezzamento ed Esorcismo.
+- 10.9 Ingredienti — guida + 317 Ingredienti.
+- Maestrie — 36 Maestrie complete.
+- 8. Vivere nel Mondo Magico — Trasporti, Commercio, Fabbricazione, Prezzari (229 voci uniche; la fonte contiene una duplicazione letterale del blocco), Quidditch, partite da background, Giochi Magici, Azioni Illegali, Medimagia e Leggi Magiche.
 
-- 10.6 Magizoologia
-  - Guida completa, 11 Tecniche/Incantesimi Magizoologici e 141 Creature del Bestiario; Bezoar integrato nella scheda Ingrediente canonica.
+## Fonti 1–7 e 9
 
-- 10.7 Pozionistica
-  - Guida completa, regole per PG Pozionisti e creazione, Conoscenze/Tecniche e Pozionario integrale di 136 Pozioni.
-
-- 10.9 Ingredienti
-  - guida generale completa e Glossario integrale di 317 Ingredienti.
-
-- 10.4 Enciclopedia Medimagica
-  - guida e Tecniche complete; Sintomatologia; 44 Malattie Magiche; Lesioni e Traumi; Incidenti da Manufatti; Avvelenamenti; Ferite da Creature e Piante.
-
-- 10.1 Manuale di Incantesimi
-  - migrazione integrale di 212 Incantesimi, catalogo strutturato, relazioni, Specifiche e note generali.
-- 8. Vivere nel Mondo Magico
-  - primo campione del modello delle Leggi Magiche.
-  - Trasporti Magici: regole generali, Metropolvere, Passaporta, Scope Volanti e Smaterializzazione.
-  - Il Quidditch: strumenti, Quidditch ad Hogwarts, Quidditch tra PG Adulti e Come si gioca.
-
-## Nota
-
-Le pagine contrassegnate come `prototypeExcerpt: true` sono volutamente parziali: servono a validare l'architettura. La migrazione definitiva dovrà trasferire integralmente ogni blocco della fonte, salvo le eccezioni approvate (Fabbricazione ONGame e schede PNG in V1).
-
-
-## Il Personaggio e Razze
-
-- `6. Giocare un PG Studente` — Il gioco dei PG Studenti; Creare un PG Studente.
-- `7. Giocare un PG Adulto` — Il gioco dei PG Adulti; Creare un PG Adulto.
-- `1. Le Regole del Gioco` — Razze; Guida all'uso; Razze e distribuzione; singole Razze.
-
-## Parametri, Conoscenze e Sapienze
-
-- `2. Parametri` — Parametri Magici, Parametri Fisici, Parametri Sociali.
-- `3. Le Conoscenze` — Conoscenze Autoconclusive, Scolastiche, Extra, Avanzate; Usare le Conoscenze.
-- `5. Le Sapienze` — definizione; Sapienze Magiche, Fisiche e Sociali.
-- `Maestrie` — contenuto nativo del nuovo sito, derivato dalla nuova aggiunta progettuale e non da una fonte del regolamento attuale.
-
-## Giocare e Guida agli Scontri
-
-- `1. Le Regole del Gioco` — Free Role, Role Masterate, Richieste al Narratore, definizione di Azione, Perché i dadi e Lancio dei dadi.
-- `4. Guida agli Scontri` — Cosa si intende per scontro, Regole pratiche degli scontri, Turnazione, Destrezza negli scontri, Forza delle Conoscenze negli scontri e Forza reale delle Conoscenze.
-- `2. Parametri` — Destrezza e Parametri Fisici richiamati dalla Guida agli Scontri.
-
-Le pagine inserite in questa fase sono estratti strutturali del prototipo e non sostituiscono la migrazione integrale delle fonti.
-
-## Ricerche Casuali e Azioni Illegali
-
-- `9. Ricerche Casuali`: struttura delle nove Ricerche e contenuti del campione Ricerca Piante, Creature e Crimini.
-- `8. Vivere nel Mondo Magico`: Compiere Azioni Illegali, Azioni Illegali Generiche, Fuga/intervento delle autorità e Produzione illegale.
-
-Il prototipo mantiene come nodo di revisione il rapporto fra procedure specifiche di scoperta e procedura generale, invece di trasformare automaticamente l'analisi in una nuova regola.
+Sono sottoposte all'audit finale di copertura integrale: le sezioni già presenti nel sito vengono confrontate col testo sorgente e completate dove risultano ancora riassunti o campioni.

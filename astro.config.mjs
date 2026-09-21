@@ -374,6 +374,7 @@ export default defineConfig({
                 { label: 'Quidditch ad Hogwarts', slug: 'mondo-magico/quidditch/quidditch-ad-hogwarts' },
                 { label: 'Quidditch tra PG Adulti', slug: 'mondo-magico/quidditch/quidditch-tra-pg-adulti' },
                 { label: 'Come si gioca', slug: 'mondo-magico/quidditch/come-si-gioca' },
+                { label: 'Partite da background', slug: 'mondo-magico/quidditch/partite-background' },
               ],
             },
             { label: 'Giochi Magici', slug: 'mondo-magico/giochi-magici' },
@@ -389,7 +390,13 @@ export default defineConfig({
               ],
             },
             { label: 'Medimagia', slug: 'mondo-magico/medimagia' },
-            { label: 'Leggi Magiche', link: '/mondo-magico/leggi/' },
+            {
+              label: 'Leggi Magiche',
+              items: [
+                { label: 'Guida completa', slug: 'mondo-magico/leggi-magiche' },
+                { label: 'Documenti normativi', link: '/mondo-magico/leggi/' },
+              ],
+            },
             {
               label: 'Magisprudenza',
               items: [
