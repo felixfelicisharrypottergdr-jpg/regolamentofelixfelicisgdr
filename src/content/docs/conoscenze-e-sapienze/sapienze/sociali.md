@@ -59,6 +59,8 @@ A differenza delle Sapienze Magiche, ogni Sapienza Sociale possiede una sola “
 | IV | 40 PP |
 | V | 80 PP |
 
+> **Crescita a Debito.** Durante la creazione del PG una Sapienza Sociale può essere sviluppata tramite Crescita a Debito **al massimo fino al Livello III**. I Livelli IV e V devono essere acquistati successivamente secondo le normali regole di crescita.
+
 ## Leader
 
 Il mago o la strega ha la particolare capacità di usare la sua dialettica per attirare a sé l'attenzione, influenzando gli ideali di chi lo ascolta e mostrandosi capace di convincere e rappresentare le idee altrui, ma anche di farsi seguire ed imitare da chi ne sente i discorsi.
