@@ -30,7 +30,7 @@ quickLinks:
   - label: "Wizengamot"
     href: "/mondo-magico/wizengamot/"
     description: "Istituzione giudiziaria e attività collegate."
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
