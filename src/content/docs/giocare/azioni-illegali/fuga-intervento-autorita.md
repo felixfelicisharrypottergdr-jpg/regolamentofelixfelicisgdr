@@ -18,7 +18,7 @@ migration:
 
 <a id="fuga"></a>
 
-### Chi scopre il PG Criminale? Fuga ed intervento delle autorità
+## Chi scopre il PG Criminale? Fuga ed intervento delle autorità
  Il Criminale che viene scoperto nell'atto di compiere la sua Azione Illegale, viene scoperto <u>sia</u> dall'eventuale PG Bersaglio, <u>sia</u> da Autorità PG e PNG, che dà PG Passanti.
 
 Nel tentativo di fuggire, può essere inseguito autoconclusivamente <i>soltanto</i> dall'eventuale PG Bersaglio dell'Azione Illegale.
@@ -49,11 +49,11 @@ I Passanti non vengono estratti a sorte: sono i Player dei PG a scegliere di vol
 Di conseguenza, i posti disponibili (precedentemente estratti dal Narratore) vengono occupati da chi posta per primo.
 
 
-### Criminale vs Bersaglio e/o Auror e Passanti
+## Criminale vs Bersaglio e/o Auror e Passanti
 
 Il Criminale che viene scoperto può provare a cavarsela combattendo, correndo o smaterializzandosi: in tutti i casi deve avvertire il Narratore e la role diventa una Role Masterata.
 
 
-### Riconoscimento
+## Riconoscimento
 
 Più la Popolarità del PG Criminale è alta, più è probabile che venga riconosciuto nel momento in cui compie un'Azione Illegale se non assume delle precauzioni. Il riconoscimento del PG Criminale è regolato dalla scala della Popolarità dei PG Adulti ed eventualmente PG Studenti: nei casi più controversi sarà il Narratore a dire se il PG viene o meno riconosciuto.
