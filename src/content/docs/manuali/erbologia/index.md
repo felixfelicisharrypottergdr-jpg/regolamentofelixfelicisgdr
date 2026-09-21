@@ -225,7 +225,7 @@ Riconoscimento diventa autoconclusivo**, purché la conoscenza venga registrata 
 Conoscenze del PG.
 Il Riconoscimento è autoconclusivo anche quando la Pianta viene
 acquistata.
-Svolgere questa azione costa ****-0,5 Fatica****.
+Svolgere questa azione costa **-0,5 Fatica**.
 
 ## Riconoscimento di una Pianta Magica: 1d17
 
@@ -312,7 +312,7 @@ evitare l'attacco. Un successo non consente di procedere al Trattamento;
 successo, procedere al Trattamento.
 • Le Piante **mai ostili** non attaccano, ma devono comunque essere conquistate
 normalmente se non rientrano nelle condizioni di Interazione autoconclusiva.
-Svolgere questa azione costa ****-1,5 Fatica****.
+Svolgere questa azione costa **-1,5 Fatica**.
 
 ## Interagire con la Pianta Magica: 1d30
 
@@ -415,9 +415,8 @@ Il Trattamento si divide in due fasi distinte e consequenziali:
 Una Pianta incontrata in natura deve quindi essere prima esportata dal proprio habitat e
 successivamente collocata nella Serra o nella Valigia.
 
-**ESPORTAZIONE**[/color
-]
-Svolgere questa azione costa ****-1 Fatica****.
+**ESPORTAZIONE**
+Svolgere questa azione costa **-1 Fatica**.
 ## Dado Trattamento 1: Esportazione - 1d35
 
 **Lancio 1d35:** l'Esportazione riesce se il PG ottiene un risultato compreso fra 1 e il
@@ -473,11 +472,10 @@ Riproduzione e **+5 post** necessari per completare ciascun Ciclo di Produzione.
 già esportata correttamente e questa fase è autoconclusiva. Non ottiene però il bonus +3
 alla Collocazione riservato alle Esportazioni svolte con successo dal PG.
 
-**COLLOCAZIONE**[/color
-]
+**COLLOCAZIONE**
 La Collocazione rappresenta l'adattamento della Pianta alla Serra o alla Valigia Magica del
 PG.
-Svolgere questa azione costa ****-1 Fatica****.
+Svolgere questa azione costa **-1 Fatica**.
 
 ## Dado Trattamento 2: Collocazione - 1d35
 
