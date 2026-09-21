@@ -5,7 +5,7 @@ description: "Che cosa viene considerato Azione e che cosa rimane semplice color
 contentType: rule
 searchAliases: [azione, azioni, cosa conta come azione, colore, gesto di colore]
 applicability: [student, adult]
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
