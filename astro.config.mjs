@@ -250,7 +250,13 @@ export default defineConfig({
                 { label: 'Crescita a Debito', slug: 'conoscenze-e-sapienze/sapienze/crescita-a-debito' },
               ],
             },
-            { label: 'Maestrie', slug: 'conoscenze-e-sapienze/maestrie' },
+            {
+              label: 'Maestrie',
+              items: [
+                { label: 'Regole e funzionamento', slug: 'conoscenze-e-sapienze/maestrie' },
+                { label: 'Catalogo delle 36 Maestrie', link: '/conoscenze-e-sapienze/maestrie/catalogo/' },
+              ],
+            },
           ],
         },
         {
