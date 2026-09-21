@@ -38,7 +38,7 @@ function remarkFelixBaseLinks(options = {}) {
       if ((node.type === 'link' || node.type === 'image') && typeof node.url === 'string') {
         const url = node.url;
         if (url.startsWith('/') && !url.startsWith('//') && !url.startsWith(prefix)) {
-          node.url = `${prefix}${url.replace(/^\\/+/, '')}`;
+          node.url = `${prefix}${url.replace(/^\/+/, '')}`;
         }
       }
       if (Array.isArray(node.children)) node.children.forEach(walk);
