@@ -356,10 +356,15 @@ export default defineConfig({
               label: 'Trasporti Magici',
               items: [
                 { label: 'Introduzione', slug: 'mondo-magico/trasporti' },
+                { label: 'Carrozza Volante', slug: 'mondo-magico/trasporti/carrozza-volante' },
+                { label: 'Cavalcata o Volo su Creatura', slug: 'mondo-magico/trasporti/cavalcata-volo-creatura' },
                 { label: 'Metropolvere', slug: 'mondo-magico/trasporti/metropolvere' },
+                { label: 'Nottetempo', slug: 'mondo-magico/trasporti/nottetempo' },
                 { label: 'Passaporta', slug: 'mondo-magico/trasporti/passaporta' },
                 { label: 'Scope Volanti', slug: 'mondo-magico/trasporti/scope-volanti' },
                 { label: 'Smaterializzazione', slug: 'mondo-magico/trasporti/smaterializzazione' },
+                { label: 'Vascello Magico', slug: 'mondo-magico/trasporti/vascello-magico' },
+                { label: 'Veicoli Volanti', slug: 'mondo-magico/trasporti/veicoli-volanti' },
               ],
             },
             {
