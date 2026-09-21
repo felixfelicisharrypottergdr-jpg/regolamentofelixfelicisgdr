@@ -135,11 +135,15 @@ Animagus Non Registrati: ogni volta che si trasformano commettono un'Azione Ille
 Una volta acquistata la Maestria, è necessario inserire nelle Generalità della Scheda PG le caratteristiche dell'Animaus.
 In Lista della Spesa, dunque, contestualmente all'acquisto, va compilata la seguente riga:
 
-[CODE]**Animagus:**
+
+```text
+**Animagus:**
 *• Specie:*
 *• Archetipo:*
 *• Segno distintivo:*
-*• Registrato:* sì - no[/CODE]
+*• Registrato:* sì - no
+```
+
 
 **Bonus in Forma Umana**
 La natura di Animagus influisce positivamente sulla sensibilità del mago anche quando si trova nella sua forma umana:
@@ -233,10 +237,10 @@ Qualora perda uno scontro di fuga o venga scoperto, i presenti individuano norma
 
 Debolezze:
 
-[QUOTE]
-**Harry Potter e la Pietra Filosofale, Capitolo 1**
-*«Fu all'angolo della strada che notò il primo segno di qualcosa di strano: un gatto che leggeva una mappa. Per un momento il signor Dursley non realizzò quel che aveva visto; poi girò la testa a guardare di nuovo. All'angolo di Privet Drive c'era un gatto tabby, ma della mappa non c'era traccia. A cosa stava pensando? Doveva essere stato un gioco della luce. Il signor Dursley sbatté gli occhi e fissò il gatto. Il gatto ricambiò lo sguardo. Mentre svoltava l'angolo e proseguiva lungo la strada, il signor Dursley lo controllò nello specchietto retrovisore. Ora il gatto stava leggendo il cartello con la scritta Privet Drive... no, guardava il cartello; i gatti non sanno leggere le mappe o i cartelli.»*
-[/QUOTE]
+
+> **Harry Potter e la Pietra Filosofale, Capitolo 1**
+> *«Fu all'angolo della strada che notò il primo segno di qualcosa di strano: un gatto che leggeva una mappa. Per un momento il signor Dursley non realizzò quel che aveva visto; poi girò la testa a guardare di nuovo. All'angolo di Privet Drive c'era un gatto tabby, ma della mappa non c'era traccia. A cosa stava pensando? Doveva essere stato un gioco della luce. Il signor Dursley sbatté gli occhi e fissò il gatto. Il gatto ricambiò lo sguardo. Mentre svoltava l'angolo e proseguiva lungo la strada, il signor Dursley lo controllò nello specchietto retrovisore. Ora il gatto stava leggendo il cartello con la scritta Privet Drive... no, guardava il cartello; i gatti non sanno leggere le mappe o i cartelli.»*
+
 Anche se l'Animagus mantiene la propria coscienza umana, simulare alla perfezione la mente di una bestia comune è mentalmente estenuante.
 Il PG rischia quindi di tradirsi con comportamenti eccessivamente razionali, innaturali o palesemente umani.
 
