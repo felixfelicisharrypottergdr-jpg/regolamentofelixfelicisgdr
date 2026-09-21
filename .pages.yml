@@ -361,6 +361,43 @@ content:
     label: Manuali strutturati
     type: group
     items:
+      - name: schoolKnowledges
+        label: Altre Conoscenze Scolastiche
+        type: collection
+        path: src/content/school-knowledges
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: "{slug}.md"
+        view:
+          primary: name
+          fields: [name, subject, schoolYear, status]
+          search: [name, description, searchAliases]
+          sort: [subject, schoolYear, name]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - name: subject
+            label: Materia
+            type: select
+            required: true
+            options:
+              values: [Antiche Rune, Aritmanzia, Astronomia, Babbanologia, Storia della Magia]
+          - name: schoolYear
+            label: Anno
+            type: select
+            required: true
+            options: { values: [V, VI, VII] }
+          - { name: image, label: Immagine, type: string }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Specifiche e manuale, type: rich-text, options: { media: false } }
+
       - name: creatures
         label: Creature
         type: collection
