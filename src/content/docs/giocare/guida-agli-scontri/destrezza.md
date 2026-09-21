@@ -1,28 +1,26 @@
 ---
 felixId: "cf027ea2-1836-4403-8e48-1e8c6e1f62a6"
-title: "La Destrezza negli Scontri"
-description: "Uso della Destrezza per stabilire ordine e reattività nelle situazioni di Scontro."
+title: "La Destrezza negli scontri"
+description: "Capitolo completo della Guida agli Scontri: La Destrezza negli scontri."
 contentType: rule
-searchAliases: [destrezza scontri, iniziativa, ordine azioni, chi agisce prima]
-applicability: [student, adult]
-prototypeExcerpt: true
+searchAliases:
+  - "la destrezza negli scontri"
+applicability:
+  - student
+  - adult
+prototypeExcerpt: false
 migration:
-  status: migrated
+  status: revised
   sources:
     - document: "4. Guida agli Scontri"
       section: "La Destrezza negli scontri"
-    - document: "2. Parametri"
-      section: "Parametri Fisici > Destrezza"
 ---
 
-# La Destrezza negli Scontri
-
-La **Destrezza** stabilisce agilità e reattività del PG ed è utilizzata quando è necessario determinare l'ordine delle azioni.
-
-Il Regolamento prevede confronti specifici di Destrezza per Scontri 1 vs 1 e per situazioni con più PG. La relativa procedura completa rimarrà nella fonte canonica della Destrezza e sarà richiamata qui senza duplicarla inutilmente.
-
-[Consulta i Parametri Fisici →](../../../il-personaggio/parametri/parametri-fisici/)
-
-## Durante la turnazione
-
-L'ordine OFFGame dei post non coincide automaticamente con l'ordine degli effetti ONGame. La Destrezza è uno degli elementi che il Narratore considera nella risoluzione della scena insieme a posizione, riuscita delle Conoscenze, condizioni dei PG e caratteristiche dello Scontro.
+## La Destrezza negli scontri
+Come accennato, in una situazione di scontro le azioni che si svolgono all'interno dei post appartenenti allo stesso turno avvengono tutte in contemporanea. Il metro per misurare, quindi, quali azioni risultano comunque più veloci delle altre, quindi quali colpiscono effettivamente prima una volta andate a segno, è sempre la Destrezza.
+Un valore più alto di Destrezza infatti non garantisce di attaccare sempre per primi ma dà al PG più probabilità di estrarre per primo la bacchetta o di andare a segno rispetto agli sfidanti, secondo un sistema che confronta i Parametri dei PG/PNG coinvolti e tiene conto dell'eventuale differenza.
+L'esito del confronto di Destrezza viene poi narrato a seconda che si verifichi una delle seguenti situazioni:
+• Tutti i PG pescano **lo stesso** esito dai dadi Destrezza: è raro ma non impossibile, ed in questo caso gli Incantesimi o qualsiasi altra cosa si stia utilizzando per attaccare si scontrerà a mezz'aria e si annulleranno a vicenda gli effetti.
+• Lo scarto tra gli esiti di Destrezza è **minore o uguale a 3**: entrambi i PG prendono un po' del danno previsto, con un danno maggiore per chi ha fatto il risultato più basso.
+• Lo scarto tra gli esiti di Destrezza **è maggiore di 3**: il PG che ha perso lo scontro subisce tutto il danno previsto.
+Ovviamente queste sono soltanto delle linee guida, il cui funzionamento può variare a seconda della situazione di gioco e delle decisioni del Narratore.
