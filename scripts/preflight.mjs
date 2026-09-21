@@ -154,6 +154,16 @@ for (const file of files) {
 }
 if (rootAbsoluteLinks.length) warnings.push(`Link Markdown assoluti dalla root da verificare per il base path Pages: ${rootAbsoluteLinks.join(', ')}`);
 
+const legacyFormattingNeedles = ['[QUOTE]', '[/QUOTE]', '[CODE]', '[/CODE]', '[URL=', '[url=', '[/color'];
+for (const needle of legacyFormattingNeedles) {
+  const hits = [];
+  for (const file of files) {
+    const text = await fs.readFile(file, 'utf8');
+    if (text.includes(needle)) hits.push(rel(file));
+  }
+  if (hits.length) warnings.push(`Formattazione legacy “${needle}” trovata in: ${hits.join(', ')}`);
+}
+
 const obsoleteNeedles = ['Duelli Cerimoniali'];
 for (const needle of obsoleteNeedles) {
   const hits = [];
