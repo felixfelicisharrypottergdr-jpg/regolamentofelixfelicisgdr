@@ -137,6 +137,7 @@ for (const file of files) {
 for (const info of fileInfo) {
   for (const ref of info.refs) {
     if (!definitions.has(ref)) errors.push(`${info.file}: riferimento UUID inesistente ${ref}.`);
+  }
 }
 
 const slugsByCollection = new Map();
