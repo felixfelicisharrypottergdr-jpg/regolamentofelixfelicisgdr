@@ -15,6 +15,7 @@ const type = data.contentType ? (typeMap[data.contentType] ?? 'Pagina') : undefi
 
 const firstSegment = route.id.split('/').filter(Boolean)[0] ?? '';
 const macroareaMap: Record<string, string> = {
+  'inizia-da-qui': 'Inizia da qui',
   'il-personaggio': 'Il Personaggio',
   giocare: 'Giocare',
   'conoscenze-e-sapienze': 'Conoscenze e Sapienze',
