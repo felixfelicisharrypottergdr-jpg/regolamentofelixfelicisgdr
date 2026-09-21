@@ -1,0 +1,59 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { getCollection } from 'astro:content';
+import FelixCatalog from '../../../../components/FelixCatalog.astro';
+import FelixBadges from '../../../../components/FelixBadges.astro';
+import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
+import { routeForStructured } from '../../../../config/routes';
+
+const techniques=(await getCollection('divinationTechniques'))
+  .filter((entry)=>entry.data.status==='published')
+  .sort((a,b)=>a.data.name.localeCompare(b.data.name,'it'));
+---
+<StarlightPage frontmatter={{title:'Conoscenze e Tecniche Divinatorie',description:'Consulta e filtra le Tecniche Divinatorie Scolastiche, Extra e Avanzate.'}}>
+  <SearchMetadata
+    type="Catalogo"
+    macroarea="Manuali"
+    aliases={['divinazione','tecniche divinatorie','conoscenze divinatorie','terzo occhio']}
+  />
+
+  <FelixCatalog searchLabel="Cerca nelle Tecniche Divinatorie" searchPlaceholder="Nome, effetto, Specifiche..." count={techniques.length} countLabel="Tecniche">
+    <label class="felix-filter-control" slot="filters">
+      <span>Tipo</span>
+      <select data-filter="kind" data-filter-label="Tipo">
+        <option value="">Tutti</option>
+        <option>Scolastica</option>
+        <option>Extra</option>
+        <option>Avanzata</option>
+      </select>
+    </label>
+    <label class="felix-filter-control" slot="filters">
+      <span>Anno scolastico</span>
+      <select data-filter="school-year" data-filter-label="Anno">
+        <option value="">Tutti</option>
+        <option>V</option>
+        <option>VI</option>
+        <option>VII</option>
+      </select>
+    </label>
+
+    {techniques.map((entry)=>(
+      <article
+        class="felix-creature-row"
+        data-card
+        data-haystack={`${entry.data.name} ${entry.data.description} ${entry.data.kind} ${entry.data.schoolYear ?? ''} ${entry.data.searchAliases.join(' ')} ${entry.data.values.map((item)=>`${item.label} ${item.value}`).join(' ')}`.toLowerCase()}
+        data-kind={entry.data.kind}
+        data-school-year={entry.data.schoolYear ?? ''}
+      >
+        <div>
+          <h2><a href={routeForStructured('divinationTechniques',entry.data.slug)}>{entry.data.name}</a></h2>
+          <FelixBadges items={[
+            entry.data.kind,
+            entry.data.schoolYear ? `Anno ${entry.data.schoolYear}` : '',
+          ]} />
+          <p>{entry.data.description}</p>
+        </div>
+      </article>
+    ))}
+  </FelixCatalog>
+</StarlightPage>

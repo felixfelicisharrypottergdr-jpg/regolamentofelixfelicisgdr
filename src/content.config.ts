@@ -14,6 +14,7 @@ import { raceSchema } from './schemas/races';
 import { objectSchema } from './schemas/objects';
 import { missionSchema, adultMissionSchema } from './schemas/missions';
 import { masterySchema } from './schemas/masteries';
+import { divinationTechniqueSchema } from './schemas/divination';
 import { migrationSchema, uuidSchema } from './schemas/common';
 
 const idFromFrontmatter = ({ data, entry }: { data: Record<string, unknown>; entry: string }) =>
@@ -133,6 +134,15 @@ const masteries = defineCollection({
   schema: masterySchema,
 });
 
+const divinationTechniques = defineCollection({
+  loader: glob({
+    pattern: '**/*.{md,mdx}',
+    base: './src/content/divination-techniques',
+    generateId: idFromFrontmatter,
+  }),
+  schema: divinationTechniqueSchema,
+});
+
 const legalDocuments = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/legal-documents', generateId: idFromFrontmatter }),
   schema: legalDocumentSchema,
@@ -152,4 +162,4 @@ const ingredients = defineCollection({
   schema: ingredientSchema,
 });
 
-export const collections = { docs, creatures, diseases, ingredients, potions, spells, plants, races, objects, missions, adultMissions, masteries, legalDocuments, legalArticles };
+export const collections = { docs, creatures, diseases, ingredients, potions, spells, plants, races, objects, missions, adultMissions, masteries, divinationTechniques, legalDocuments, legalArticles };
