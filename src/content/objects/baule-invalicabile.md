@@ -1,44 +1,71 @@
 ---
 id: "fbc40e21-7934-4291-8ab1-1e2bf44d0f04"
-slug: baule-invalicabile
+slug: "baule-invalicabile"
 status: published
 migration:
-  status: revised
+  status: migrated
   sources:
     - document: "8. Vivere nel Mondo Magico"
-      section: "Commercio Magico > Prezzari dei Negozi"
+      section: "Prezzari dei Negozi"
       item: "Baule invalicabile"
-      note: "Il blocco Fabbricazione ONGame e i riferimenti che dipendevano esclusivamente da quella meccanica sono esclusi per decisione approvata."
-searchAliases: [baule blindato, baule protetto, proteggere bagaglio]
+searchAliases:
+  - "baule invalicabile"
+  - "mondomago"
 name: "Baule invalicabile"
-description: "Baule magico che protegge ONGame ciò che il PG vi ripone nel Bagaglio finché non viene aperto con la Conoscenza prevista."
+description: "Baule composto da sette lucchetti e sette scomparti, ognuno dei quali può contenere un diverso assortimento di oggetti. All'apparenza sembra impossibile da aprire. Fabbricazione ONGame Requisiti ONGame e usi Tecnica 20 - Utilizzi infiniti finché non viene aperto con Illusio Object: a quel punto diventa inutilizzabile. Ricetta • 300 Legno di Alloro • Colla di Bava di Ghoul (autoconclusivo) • Ferro, Rame, Ottone (autoconclusivo) Intagliare e incollare fra di loro i tocchi di legno fino ad ottenere la forma desiderata; fondere insieme i metalli e versarli addosso al baule di legno; lasciare freddare. Utilizzare sul bersaglio Absorbet + Adduco Maxima + Colloportus. ."
+image: "https://i.imgur.com/kSuSFCI.gif"
 price: "500 G"
 function: "passiva"
 activation: "OFF"
-uses: "Finché non viene aperto con Illusio Objectis; a quel punto diventa inutilizzabile."
-offEffects: "Se acquistato, lo Staff provvede a blindare il Bagaglio. Protegge ciò che è riposto ONGame nel Bagaglio, non ciò che il PG porta nella Borsa."
-legality: "Dipende dal negozio e dalla variante acquistata"
+uses: "Finché non viene aperto con Illusio Objectis: a quel punto diventa inutilizzabile."
+offEffects: "Se acquistato, è necessario avvertire lo Staff che provvederà a \"blindare\" il vostro Bagaglio con un colore diverso. L'acquisto di questo Baule impedisce ONGame ad altri PG di rubare tutto ciò che è contenuto nel Bagaglio dei PG e riposto ONGame al suo interno. Esso non protegge gli Oggetti portati dal PG ONGame nella Borsa. Per sbloccarlo è necessario l'uso di Illusio Objectis. Nel caso in cui il baule sia stato creato ONGame, l'illusio Objectis deve essere più forte dell'Absorbet utilizzato per incantarlo."
+legality: "Legale"
 sellers:
-  - shop: "Magie Sinister"
-    shopAlignment: "Sinistro"
+  - shop: "Mondomago"
     price: "500 G"
-    uses: "Finché non viene aperto con Illusio Objectis"
-    legality: "Merce Illegale"
+    uses: "Finché non viene aperto con Illusio Objectis: a quel punto diventa inutilizzabile."
+    legality: "Merce Legale"
+  - shop: "Magie Sinister"
+    price: "500 G"
+    uses: "Finché non viene aperto con Illusio Object: a quel punto diventa inutilizzabile."
+    legality: "Merce Legale"
+  - shop: "Fabbricazione ONGame"
+    legality: "Merce Legale"
 relatedFelixIds: []
 ---
 
-## Effetti OFF
+## Mondomago
 
-Se acquistato, è necessario avvertire lo Staff che provvederà a **blindare il Bagaglio** del PG. Il Baule protegge ONGame ciò che viene riposto al suo interno nel Bagaglio e non gli Oggetti portati dal PG nella **Borsa**.
+**Baule invalicabile**
+**Prezzo:** 500 G
+**Funzione:** passiva
+**Attivazione:** OFF
+**Usi:** Finché non viene aperto con Illusio Objectis: a quel punto diventa inutilizzabile.
+**Effetti OFF:** Se acquistato, è necessario avvertire lo Staff che provvederà a "blindare" il vostro Bagaglio con un colore diverso.
+L'acquisto di questo Baule impedisce ONGame ad altri PG di rubare tutto ciò che è contenuto nel Bagaglio dei PG e riposto ONGame al suo interno. Esso non protegge gli Oggetti portati dal PG ONGame nella Borsa.
+Per sbloccarlo è necessario l'uso di Illusio Objectis. Nel caso in cui il baule sia stato creato ONGame, l'illusio Objectis deve essere più forte dell'Absorbet utilizzato per incantarlo.
 
-Per sbloccarlo è necessario l'uso della Conoscenza prevista dal Regolamento.
+**Venduto anche...**
 
-## Venduto anche...
+**Magie Sinister**
+**Prezzo:** 500 G
+**Usi:** Finché non viene aperto con Illusio Object: a quel punto diventa inutilizzabile.
 
-Nel Prezzario attuale compare anche presso **Magie Sinister** come Merce Illegale.
-
-## Descrizione ON
+**Descrizione ON:**
 
 Baule composto da sette lucchetti e sette scomparti, ognuno dei quali può contenere un diverso assortimento di oggetti. All'apparenza sembra impossibile da aprire.
 
-> **Migrazione:** la Fabbricazione ONGame non viene trasferita nel nuovo sito-libro, come concordato.
+## Fabbricazione ONGame
+
+**Requisiti ONGame e usi**
+Tecnica 20 - Utilizzi infiniti finché non viene aperto con Illusio Object: a quel punto diventa inutilizzabile.
+
+**Ricetta**
+• 300 Legno di Alloro
+• Colla di Bava di Ghoul (autoconclusivo)
+• Ferro, Rame, Ottone (autoconclusivo)
+
+Intagliare e incollare fra di loro i tocchi di legno fino ad ottenere la forma desiderata; fondere insieme i metalli e versarli addosso al baule di legno; lasciare freddare.
+Utilizzare sul bersaglio Absorbet + Adduco Maxima + Colloportus.
+
+.
