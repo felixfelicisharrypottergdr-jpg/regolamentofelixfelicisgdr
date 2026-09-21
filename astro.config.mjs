@@ -296,7 +296,15 @@ export default defineConfig({
                 { label: 'Pozionario', link: '/manuali/pozionistica/pozionario/' },
               ],
             },
-            { label: 'Tracciatura', slug: 'manuali/tracciatura' },
+            {
+              label: 'Tracciatura',
+              items: [
+                { label: 'Guida alla Tracciatura', slug: 'manuali/tracciatura' },
+                { label: 'I Sensi Magici', slug: 'manuali/tracciatura/sensi-magici' },
+                { label: 'Spezzamento', slug: 'manuali/tracciatura/spezzamento' },
+                { label: 'Esorcismo', slug: 'manuali/tracciatura/esorcismo' },
+              ],
+            },
             { label: 'Ingredienti', link: '/manuali/ingredienti/' },
           ],
         },
