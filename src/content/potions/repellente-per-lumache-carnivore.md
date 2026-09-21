@@ -64,7 +64,7 @@ brillare di una sottile patina protettiva.
 >
 • La creazione, la somministrazione, l’acquisto o la vendita di questa Pozione sono Illegali.
 • Funziona solo se la Pozione ha più Forza delle
-Lumache Carnivore o degli [URL=?t=80408054&st=0#horklump2]Horklump.
+Lumache Carnivore o degli Horklump.
 
 ## Specifiche
 
