@@ -1,0 +1,228 @@
+# FELIX FELICIS — Audit editoriale e funzionale
+
+Data di apertura audit: 21 settembre 2026.
+
+## Scopo
+
+Questo documento registra i problemi emersi dopo la migrazione delle fonti nel sito-regolamento.
+L'audit distingue fra:
+
+- **P0 — bloccante / contenuto o navigazione inaffidabile**;
+- **P1 — importante / compromette consultazione, ricerca o coerenza**;
+- **P2 — medio / debito editoriale e manutentivo**;
+- **P3 — rifinitura / qualità tecnica o presentazionale non bloccante**.
+
+Le correzioni puramente tecniche e non controverse possono essere applicate durante l'audit.
+Le modifiche che cambiano il significato di una regola richiedono invece confronto con la fonte e, quando necessario, una decisione Staff.
+
+## Stato sintetico
+
+La precedente certificazione di “migrazione completa V1” è **sospesa** fino alla chiusura dei P0/P1.
+L'audit ha verificato che gran parte del materiale sorgente è presente nel repository, ma non sempre nel punto canonico corretto:
+
+- diverse guide complete convivono con sottopagine abbreviate o placeholder;
+- alcune sottopagine dichiarate “migrate” contengono ancora testo al futuro (“ospiterà integralmente”, “versione integrale…”);
+- questo crea più versioni della stessa regola e risultati di ricerca duplicati o incoerenti.
+
+Non equivale necessariamente a contenuto sorgente perso: in Erbologia, Magizoologia, Commercio, Quidditch e Leggi/Magisprudenza molto materiale completo è conservato nelle pagine monolitiche principali.
+
+## Registro P0
+
+### P0-01 — Collisioni di route docs
+**Stato: RISOLTO**
+
+Tre coppie `topic.md` + `topic/index.md` generavano lo stesso slug Starlight:
+
+- Coppa delle Case;
+- Modalità di gioco PG Studenti;
+- Studiare ad Hogwarts.
+
+I tre `index.md` erano vecchi placeholder di prototipo e sono stati rimossi.
+Il preflight ora tratta le collisioni di route docs come errore.
+
+### P0-02 — Link interni relativi errati
+**Stato: RISOLTO per i casi individuati; controllo globale in corso**
+
+Corretti i link relativi che risolvevano la pagina target come figlia del file corrente anziché come sibling.
+
+### P0-03 — Link Markdown assoluti incompatibili con il base path GitHub Pages
+**Stato: FIX IMPLEMENTATO, VERIFICA BUILD IN CORSO**
+
+Nel render precedente circa 230 collegamenti interni rimanevano `/...` invece di includere il base
+`/regolamentofelixfelicisgdr/`.
+È stato aggiunto un passaggio Markdown che rende base-aware i link interni.
+
+### P0-04 — Gerarchia H1 duplicata
+**Stato: FIX IMPLEMENTATO, VERIFICA BUILD IN CORSO**
+
+Nel render precedente 472 pagine contenevano più di un H1:
+Starlight produceva il titolo pagina e il Markdown migrato conservava uno o più `#`.
+Il renderer ora sposta di un livello l'intera gerarchia Markdown quando trova un H1 nel contenuto,
+lasciando il titolo Starlight come unico H1 di pagina.
+
+### P0-05 — Pagine parziali/placeholder esposte come regole migrate
+**Stato: APERTO**
+
+Casi espliciti individuati:
+
+- `manuali/magizoologia/domesticazione.md`;
+- `mondo-magico/commercio/acquistare-merci-magiche.md`;
+- `mondo-magico/commercio/vendere-merci-magiche.md`;
+- `mondo-magico/magisprudenza/iniziare-una-causa-ongame.md`;
+- `mondo-magico/magisprudenza/processo.md`;
+- `mondo-magico/quidditch/quidditch-ad-hogwarts.md`;
+- `mondo-magico/quidditch/quidditch-tra-pg-adulti.md`;
+- `mondo-magico/wizengamot/partecipare-ad-un-processo.md`;
+- `giocare/le-role/index.md` conserva inoltre il riferimento “In questo prototipo”.
+
+Prima di cancellare o sostituire queste pagine va verificato se contengono integrazioni uniche rispetto alla guida monolitica.
+
+## Registro P1
+
+### P1-01 — Doppio canone: monoliti completi + sottopagine abbreviate
+**Stato: APERTO**
+
+Confermato almeno in:
+
+- Erbologia;
+- Magizoologia;
+- Commercio;
+- Quidditch;
+- Leggi Magiche / Magisprudenza / Wizengamot.
+
+Effetti:
+
+- due punti del sito possono descrivere la stessa regola con dettaglio diverso;
+- Pagefind indicizza versioni concorrenti;
+- gli aggiornamenti futuri possono modificare una copia e lasciare l'altra obsoleta;
+- il player non sa quale pagina sia canonica.
+
+Obiettivo della fase editoriale: un solo luogo canonico per ogni regola; landing e panoramiche devono rimandare alla regola, non duplicarla.
+
+### P1-02 — Tipi Pagefind duplicati
+**Stato: FIX IMPLEMENTATO, VERIFICA BUILD IN CORSO**
+
+Le entità strutturate ricevevano sia il tipo specifico (es. `Incantesimo`) sia il tipo editoriale di default `Regola`.
+Il filtro “Regole” inglobava quindi gran parte dei cataloghi.
+Il metadata editoriale è stato disattivato sulle route strutturate.
+
+### P1-03 — Filtri ricerca incompleti
+**Stato: PARZIALMENTE RISOLTO**
+
+Aggiunti all'interfaccia i tipi già presenti nell'indice:
+
+- Maestrie;
+- Conoscenze Scolastiche;
+- Tecniche Divinatorie;
+- Missioni FantaHogwarts;
+- Missioni FantaWiz.
+
+Il filtro globale Studente/Adulto è stato temporaneamente nascosto:
+molte collezioni strutturate non possiedono ancora metadata di applicabilità completi e produceva falsi negativi.
+
+### P1-04 — Macroarea ricerca “Inizia da qui”
+**Stato: RISOLTO**
+
+Le pagine di onboarding venivano indicizzate come macroarea generica `Regolamento`.
+Aggiunta la macroarea corretta `Inizia da qui`.
+
+### P1-05 — Copertura relazioni/rail non uniforme
+**Stato: APERTO — da affrontare nella fase relazioni**
+
+Il rail relazionale è disponibile per buona parte dei Manuali e delle entità commerciali/normative,
+ma è assente da:
+
+- Maestrie;
+- Tecniche Divinatorie;
+- Conoscenze Scolastiche;
+- Missioni FantaHogwarts;
+- Missioni FantaWiz.
+
+Anche l'indice backlink copre solo una parte delle collection.
+
+## Registro P2
+
+### P2-01 — Residui `prototypeExcerpt` e `to_migrate`
+**Stato: APERTO**
+
+Il preflight ora li elenca automaticamente.
+Al momento dell'apertura dell'audit rimanevano 2 pagine `to_migrate` e numerose pagine con
+`prototypeExcerpt: true`.
+
+Questi flag non vanno azzerati in massa: prima bisogna distinguere fra vecchio metadata,
+pagina volutamente riassuntiva e contenuto effettivamente incompleto.
+
+### P2-02 — Formattazione ForumFree/BBCode visibile
+**Stato: PRIMO LOTTO RISOLTO, VERIFICA RENDER IN CORSO**
+
+Nel render precedente 17 pagine mostravano letteralmente token come
+`[QUOTE]`, `[CODE]`, `[URL]`, `[/color]` o sequenze `****testo****`.
+Il primo lotto è stato convertito in Markdown senza modificare il significato delle regole.
+Il preflight ora segnala nuovi residui.
+
+### P2-03 — Pagine monolitiche eccessivamente lunghe
+**Stato: APERTO — input per architettura dell'informazione**
+
+Fra i casi più grandi:
+
+- Mondo Magico / Medimagia;
+- Leggi Magiche;
+- Sintomatologia;
+- Magizoologia;
+- Pozionistica;
+- Quidditch;
+- Meccaniche di gioco;
+- varie Ricerche Casuali.
+
+Non vanno semplicemente “accorciate”: devono essere scomposte mantenendo una sola fonte canonica per ogni regola.
+
+### P2-04 — Documentazione tecnica obsoleta
+**Stato: APERTO**
+
+`MIGRATION_STATUS.md`, `PROTOTYPE_STATUS.md`, `SOURCES_USED.md` e `VALIDATION_REPORT.md`
+contengono affermazioni non più coerenti con quanto emerso nell'audit o con lo stato tecnico attuale.
+
+## Registro P3
+
+### P3-01 — Favicon mancante
+**Stato: APERTO**
+
+Il render richiama `favicon.svg`, ma il file non è presente in `public/`.
+
+### P3-02 — Warning build non funzionali
+**Stato: APERTO**
+
+Da ripulire separatamente:
+
+- collection `i18n` vuota;
+- warning relativo alla pagina 404;
+- warning GitHub Actions/Node 20 di `actions/configure-pages@v5`.
+
+## Guardrail introdotti durante l'audit
+
+Il preflight verifica o segnala ora:
+
+- UUID e riferimenti;
+- slug delle collection strutturate;
+- collisioni delle route docs;
+- pagine `to_migrate`;
+- pagine `prototypeExcerpt: true`;
+- frasi tipiche di placeholder/migrazione;
+- formattazione BBCode legacy;
+- link Markdown assoluti da verificare;
+- sintassi di `astro.config.mjs` prima del preflight contenuti.
+
+## Prossimi controlli
+
+1. ottenere una build verde con i nuovi guardrail;
+2. audit del nuovo artifact HTML:
+   - H1;
+   - link interni;
+   - Pagefind metadata;
+   - BBCode visibile;
+   - pagine placeholder;
+3. confronto sistematico monolite ↔ sottopagine per stabilire il canonico senza perdita di testo;
+4. verifica terminologica e delle contraddizioni di regola;
+5. verifica Quick Facts ↔ corpo pagina;
+6. verifica relazioni e backlink;
+7. solo dopo: nuova architettura dell'informazione e UX.
