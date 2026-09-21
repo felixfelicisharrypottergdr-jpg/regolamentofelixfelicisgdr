@@ -98,6 +98,13 @@ export default defineConfig({
                     { label: 'Notizie da Hogwarts', slug: 'il-personaggio/pg-studente/modalita-di-gioco/notizie-hogwarts' },
                     { label: 'Alfieri Rossi', slug: 'il-personaggio/pg-studente/modalita-di-gioco/alfieri-rossi' },
                     { label: 'Resistenza', slug: 'il-personaggio/pg-studente/modalita-di-gioco/resistenza' },
+                    {
+                      label: 'FantaHogwarts',
+                      items: [
+                        { label: 'Regole', slug: 'il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts' },
+                        { label: 'Missioni', link: '/il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/' },
+                      ],
+                    },
                   ],
                 },
               ],
