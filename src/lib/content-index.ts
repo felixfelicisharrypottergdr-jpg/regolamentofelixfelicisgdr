@@ -134,6 +134,15 @@ async function createFelixIndex() {
     });
   }
 
+  for (const entry of (await getCollection('schoolKnowledges')).filter((entry) => entry.data.status === 'published')) {
+    index.set(entry.id, {
+      felixId: entry.id,
+      title: entry.data.name,
+      type: 'schoolKnowledge',
+      url: routeForStructured('schoolKnowledges', entry.data.slug),
+    });
+  }
+
   for (const entry of (await getCollection('legalDocuments')).filter((entry) => entry.data.status === 'published')) {
     index.set(entry.id, { felixId: entry.id, title: entry.data.title, type: 'legalDocument', url: routeForStructured('legalDocuments', entry.data.slug) });
   }
