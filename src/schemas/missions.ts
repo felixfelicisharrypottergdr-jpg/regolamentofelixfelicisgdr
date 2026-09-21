@@ -1,7 +1,7 @@
 import { z } from 'astro/zod';
 import { commonStructuredSchema } from './common';
 
-export const missionLevelSchema = z.object({
+const sharedMissionLevelSchema = z.object({
   name: z.string().min(1),
   action: z.string().min(1),
   requirements: z.array(z.string().min(1)).min(1),
@@ -9,8 +9,13 @@ export const missionLevelSchema = z.object({
   ifCaught: z.array(z.string()).default([]),
   illegal: z.boolean().default(false),
   completion: z.boolean().default(false),
+});
+
+export const missionLevelSchema = sharedMissionLevelSchema.extend({
   schoolYearOnly: z.boolean().default(false),
 });
+
+export const adultMissionLevelSchema = sharedMissionLevelSchema;
 
 export const missionSchema = commonStructuredSchema.extend({
   name: z.string().min(1),
@@ -20,4 +25,13 @@ export const missionSchema = commonStructuredSchema.extend({
   completion: z.boolean().default(false),
   schoolYearOnly: z.boolean().default(false),
   levels: z.array(missionLevelSchema).min(1),
+});
+
+export const adultMissionSchema = commonStructuredSchema.extend({
+  name: z.string().min(1),
+  description: z.string().min(1),
+  category: z.enum(['Sinistra', 'Neutrale', 'Virtuosa']),
+  illegal: z.boolean().default(false),
+  completion: z.boolean().default(false),
+  levels: z.array(adultMissionLevelSchema).min(1),
 });
