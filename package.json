@@ -8,7 +8,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "preflight": "node scripts/preflight.mjs",
+    "preflight": "node --check astro.config.mjs && node scripts/preflight.mjs",
     "build:ci": "npm run preflight && astro build"
   },
   "dependencies": {
