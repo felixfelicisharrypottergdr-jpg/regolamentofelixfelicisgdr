@@ -4,6 +4,7 @@ slug: "ingrediente-base"
 name: "Ingrediente Base"
 description: "L'Ingrediente Base non è una Pianta Magica, ma un preparato composto da numerosi Ingredienti vegetali e utilizzato come elemento comune nella preparazione di diverse Pozioni. Può essere acquistato già pronto presso i negozi di magia oppure preparato manualmente triturando insieme una dose di ciascuno degli Ingredienti necessari."
 image: "https://i.postimg.cc/13bd3z0j/ing.png"
+classification: "X"
 exotic: false
 knowledgeGrade: "Scolastica"
 schoolYear: "V"
