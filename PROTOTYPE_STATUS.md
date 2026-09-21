@@ -80,5 +80,6 @@ Il prototipo è ora pronto per il **primo caricamento e primo build-test su GitH
 - `scripts/preflight.mjs` verifica prima della build: UUID mancanti/duplicati, riferimenti UUID inesistenti e slug duplicati nella stessa collection.
 - Il preflight attuale rileva 122 file di contenuto e 122 UUID univoci senza errori.
 - Il prototipo include `public/robots.txt` con `Disallow: /` finché non sarà pronto per il lancio pubblico.
+- Manuale degli Incantesimi completo: 212 schede strutturate, 8 famiglie, relazioni interne e materiale generale della fonte 10.1.
 - Altre Conoscenze Scolastiche complete: 15 schede strutturate (3 per ciascuna di 5 materie), catalogo per Materia/Anno e integrazione completa delle Sapienze Fisiche e Sociali a 5 Livelli.
 - Il test dell'iframe full-viewport su ForumFree resta una verifica obbligatoria dopo il primo deploy.

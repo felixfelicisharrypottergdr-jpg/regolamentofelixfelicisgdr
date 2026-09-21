@@ -1,8 +1,9 @@
 ---
 id: "d71e9065-fa63-4702-9f15-8db130a92be7"
-slug: sonorus
-name: "Sonorus"
-description: "Amplifica la voce del bersaglio puntando la bacchetta contro la gola."
+slug: "sonorus"
+name: "Sonorus*"
+description: "Puntando la bacchetta contro la gola e pronunciando la formula magica, è possibile amplificare la voce del bersaglio. E' possibile annullare gli effetti di questo incantesimo utilizzando il controincantesimo Quietus."
+image: "https://i.postimg.cc/DZF9LXrb/ezgif-com-gif\u0002maker-29.gif"
 family: "Autoconclusivi"
 type: "Autoconclusivo"
 parameter: "Volontà"
@@ -12,24 +13,29 @@ target: "Singolo"
 range: "Corta"
 knowledgeGrade: "Autoconclusiva"
 affectedParameters: []
-counteractsSpells: []
-relatedFelixIds: []
+counteractsSpells:
+  - "3528fa62-0ca9-4556-9dd7-c34cfefe5910"
+relatedFelixIds:
+  - "3528fa62-0ca9-4556-9dd7-c34cfefe5910"
 searchAliases:
-  - "amplificare voce"
-  - "voce amplificata"
+  - "sonorus"
+  - "sonorus*"
 status: published
 migration:
   status: migrated
   sources:
     - document: "10.1 Manuale di Incantesimi"
       section: "Autoconclusivi"
-      item: "Sonorus"
-      note: "Estratto di prototipo: la migrazione integrale frase per frase verrà eseguita in seguito."
+      item: "Sonorus*"
 ---
 
-Puntando la bacchetta contro la gola e pronunciando la formula magica, è possibile amplificare la voce del bersaglio. Gli effetti possono essere annullati mediante **Quietus**.
+Puntando la bacchetta contro la gola e pronunciando la formula
+magica, è possibile amplificare la voce del bersaglio. E' possibile annullare gli effetti di
+questo incantesimo utilizzando il controincantesimo
+[Quietus](/manuali/incantesimi/quietus/).
 
 ## Specifiche
 
-**Durata:** finché non viene tolta la bacchetta dalla gola o annullato con Quietus.  
+**Durata:** finchè non viene tolta la bacchetta dalla gola o annullato con Quietus
+
 **Parametro del bersaglio intaccato:** //
