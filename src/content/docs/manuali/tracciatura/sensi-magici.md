@@ -38,7 +38,7 @@ Essi compongono la Conoscenza Avanzata *Tracciante*. ONGame, può essere
 considerato un Tracciante soltanto colui o colei che porta questa Conoscenza all'ultimo
 livello (Lv. 5).
 
-### Percezione Intuitiva
+## Percezione Intuitiva
  Questo senso consente al mago o alla strega
 di essere estremamente consapevole di ciò che lo circonda senza un reale sforzo attivo.
 
@@ -69,7 +69,7 @@ intuire qualsiasi cosa su altri PG senza fare metagame, è necessario seguire qu
 dalle Meccaniche presenti in questa
 Guida.
 
-### Linguaggio Magico
+## Linguaggio Magico
  La magia di ogni mago e strega ha una sua
 precisa identità: essa cresce e si plasma in base all'indole di chi la ospita.
 E' per questo, ad esempio, che un Pozionista riesce ad esprimere al meglio la sua magia
@@ -101,7 +101,7 @@ ONGame**
 • Attivare meccanismi magici nascosti.
 • Determinare il tipo di magia usata in un luogo.
 
-### Linguaggio Oscuro
+## Linguaggio Oscuro
  La magia, soprattutto quella oscura, lascia
 sempre delle tracce: tramite la pratica e l'allenamento di questo senso magico è possibile
 percepirla, prevederne l'attivazione e infine provare a spezzarla per annullarla.
