@@ -303,8 +303,10 @@ export default defineConfig({
             {
               label: 'Erbologia',
               items: [
-                { label: 'Introduzione', slug: 'manuali/erbologia' },
-                { label: 'Erbario', link: '/manuali/erbologia/erbario/' },
+                { label: 'Guida completa', slug: 'manuali/erbologia' },
+                { label: 'Tecniche e Incantesimi', slug: 'manuali/erbologia/tecniche' },
+                { label: 'Come leggere l’Erbario', slug: 'manuali/erbologia/erbario-guida' },
+                { label: 'Erbario — 92 Piante', link: '/manuali/erbologia/erbario/' },
               ],
             },
             {
