@@ -2617,3 +2617,102 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
     font-size:1.18rem!important;
   }
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — FantaHogwarts
+   Missioni strutturate: catalogo + livelli.
+   ========================================================== */
+
+.felix-mission-row{
+  min-height:7.35rem!important;
+}
+.felix-mission-entry .felix-entry-header{
+  margin-bottom:1.05rem!important;
+}
+.felix-mission-levels{
+  margin-top:1.6rem;
+}
+.felix-mission-level-grid{
+  display:grid;
+  gap:.72rem;
+}
+.felix-mission-level{
+  overflow:hidden;
+  border:1px solid rgba(112,78,32,.14);
+  border-radius:3px;
+  background:rgba(255,255,255,.12);
+}
+.felix-mission-level>header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:.8rem;
+  padding:.65rem .78rem;
+  border-bottom:1px solid rgba(112,78,32,.11);
+  background:rgba(151,107,48,.055);
+}
+.felix-mission-level>header h3{
+  margin:0!important;
+  color:#6b421f!important;
+  font:400 1.18rem/1.1 'magic','Federo',serif!important;
+}
+.felix-mission-action{
+  margin:0!important;
+  padding:.78rem .82rem!important;
+  color:#54483c!important;
+  font-size:.82rem!important;
+  line-height:1.55!important;
+  white-space:pre-line;
+}
+.felix-mission-level dl{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  margin:0;
+  border-top:1px solid rgba(112,78,32,.09);
+}
+.felix-mission-level dl>div{
+  min-width:0;
+  padding:.65rem .72rem;
+  border-right:1px solid rgba(112,78,32,.09);
+}
+.felix-mission-level dl>div:last-child{
+  border-right:0;
+}
+.felix-mission-level dt{
+  margin:0 0 .35rem;
+  color:#86683f;
+  font:.56rem 'Federo',sans-serif;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
+.felix-mission-level dd{
+  margin:0;
+  color:#51463a;
+  font-size:.74rem;
+  line-height:1.45;
+}
+.felix-mission-level dd ul{
+  margin:0!important;
+  padding-left:1.05rem!important;
+}
+.felix-mission-level dd li{
+  margin:.12rem 0!important;
+}
+
+@media(max-width:760px){
+  .felix-mission-level>header{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+  .felix-mission-level dl{
+    grid-template-columns:1fr;
+  }
+  .felix-mission-level dl>div{
+    border-right:0;
+    border-bottom:1px solid rgba(112,78,32,.09);
+  }
+  .felix-mission-level dl>div:last-child{
+    border-bottom:0;
+  }
+}

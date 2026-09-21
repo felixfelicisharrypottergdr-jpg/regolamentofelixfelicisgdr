@@ -154,6 +154,59 @@ content:
           - { name: migration, component: migration }
           - { name: body, label: Descrizione, Distribuzione e Tratti Razziali, type: rich-text, options: { media: false } }
 
+  - name: studentGameplay
+    label: PG Studente — FantaHogwarts
+    type: group
+    items:
+      - name: missions
+        label: Missioni
+        type: collection
+        path: src/content/missions
+        format: yaml-frontmatter
+        operations: { create: true, rename: false, delete: false }
+        filename: "{slug}.md"
+        view:
+          primary: name
+          fields: [name, category, illegal, completion, schoolYearOnly, status]
+          search: [name, description, searchAliases]
+          sort: [category, name]
+        fields:
+          - { name: id, label: ID stabile, type: uuid, required: true, options: { editable: false, generate: false } }
+          - { name: slug, label: Slug URL, type: string, required: true, pattern: "^[a-z0-9-]+$" }
+          - { name: name, label: Nome Missione, type: string, required: true }
+          - { name: description, label: Descrizione breve, type: text, required: true }
+          - name: category
+            label: Categoria
+            type: select
+            required: true
+            options: { values: [Caotica, Neutrale, Legale] }
+          - { name: illegal, label: Prevede rischio/intervento delle Cariche, type: boolean }
+          - { name: completion, label: Missione o livello a completamento, type: boolean }
+          - { name: schoolYearOnly, label: Missione o livello solo durante l'anno scolastico, type: boolean }
+          - name: levels
+            label: Livelli
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - { name: name, label: Livello, type: string, required: true }
+              - { name: action, label: Cosa bisogna fare, type: text }
+              - { name: requirements, label: Requisiti, type: string, list: true }
+              - { name: rewards, label: Premi, type: string, list: true }
+              - { name: ifCaught, label: Se scoperto, type: string, list: true }
+              - { name: illegal, label: Livello illegale / intervento Cariche, type: boolean }
+              - { name: completion, label: Livello a completamento, type: boolean }
+              - { name: schoolYearOnly, label: Solo anno scolastico, type: boolean }
+          - { name: searchAliases, label: Alias di ricerca, type: string, list: true }
+          - name: status
+            label: Stato editoriale
+            type: select
+            options: { values: [draft, published, archived] }
+          - { name: migration, component: migration }
+          - { name: body, label: Note e dettagli aggiuntivi, type: rich-text, options: { media: false } }
+
   - name: manuals
     label: Manuali strutturati
     type: group

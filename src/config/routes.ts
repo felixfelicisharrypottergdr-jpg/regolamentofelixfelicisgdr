@@ -15,6 +15,7 @@ export const collectionBases = {
   plants: 'manuali/erbologia/erbario/',
   races: 'il-personaggio/razze/',
   objects: 'mondo-magico/commercio/oggetti/',
+  missions: 'il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/',
   legalDocuments: 'mondo-magico/leggi/documenti/',
   legalArticles: 'mondo-magico/leggi/articoli/',
 } as const;

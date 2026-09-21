@@ -1,0 +1,63 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { getCollection } from 'astro:content';
+import FelixCatalog from '../../../../../../components/FelixCatalog.astro';
+import FelixBadges from '../../../../../../components/FelixBadges.astro';
+import SearchMetadata from '../../../../../../components/search/SearchMetadata.astro';
+import { routeForStructured } from '../../../../../../config/routes';
+
+const missions=(await getCollection('missions'))
+  .filter((entry)=>entry.data.status==='published')
+  .sort((a,b)=>a.data.name.localeCompare(b.data.name,'it'));
+---
+<StarlightPage frontmatter={{title:'Missioni del FantaHogwarts',description:'Consulta e filtra le Missioni del FantaHogwarts.'}}>
+  <SearchMetadata type="Catalogo" macroarea="Il Personaggio" aliases={['fantahogwarts','missioni studenti','missioni caotiche','missioni neutrali','missioni legali']} />
+
+  <FelixCatalog searchLabel="Cerca nelle Missioni" searchPlaceholder="Nome, descrizione o requisito..." count={missions.length} countLabel="Missioni">
+    <label class="felix-filter-control" slot="filters">
+      <span>Categoria</span>
+      <select data-filter="category" data-filter-label="Categoria">
+        <option value="">Tutte</option>
+        <option>Caotica</option>
+        <option>Neutrale</option>
+        <option>Legale</option>
+      </select>
+    </label>
+    <label class="felix-filter-toggle" slot="filters">
+      <input type="checkbox" data-filter="illegal" data-filter-label="Intervento Cariche" data-active-label="Con rischio/intervento Cariche" />
+      <span>Intervento Cariche</span>
+    </label>
+    <label class="felix-filter-toggle" slot="filters">
+      <input type="checkbox" data-filter="completion" data-filter-label="A completamento" data-active-label="A completamento" />
+      <span>A completamento</span>
+    </label>
+    <label class="felix-filter-toggle" slot="filters">
+      <input type="checkbox" data-filter="schoolYearOnly" data-param="school" data-filter-label="Solo anno scolastico" data-active-label="Solo anno scolastico" />
+      <span>Solo anno scolastico</span>
+    </label>
+
+    {missions.map((entry)=>(
+      <article
+        class="felix-creature-row felix-mission-row"
+        data-card
+        data-haystack={`${entry.data.name} ${entry.data.description} ${entry.data.searchAliases.join(' ')} ${entry.data.levels.flatMap((level)=>[level.action,...level.requirements,...level.rewards]).join(' ')}`.toLowerCase()}
+        data-category={entry.data.category}
+        data-illegal={entry.data.illegal ? 'true' : 'false'}
+        data-completion={entry.data.completion ? 'true' : 'false'}
+        data-school-year-only={entry.data.schoolYearOnly ? 'true' : 'false'}
+      >
+        <div>
+          <h2><a href={routeForStructured('missions',entry.data.slug)}>{entry.data.name}</a></h2>
+          <FelixBadges items={[
+            entry.data.category,
+            `${entry.data.levels.length} ${entry.data.levels.length===1?'Livello':'Livelli'}`,
+            entry.data.illegal ? 'Intervento Cariche' : '',
+            entry.data.completion ? 'A completamento' : '',
+            entry.data.schoolYearOnly ? 'Anno scolastico' : '',
+          ]} />
+          <p>{entry.data.description}</p>
+        </div>
+      </article>
+    ))}
+  </FelixCatalog>
+</StarlightPage>
