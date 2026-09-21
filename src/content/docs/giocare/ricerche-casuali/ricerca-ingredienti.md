@@ -18,7 +18,7 @@ migration:
       section: "Ricerca Casuale degli Ingredienti"
 ---
 
-2c0f]**INDICE**
+**INDICE**
 
 • Ricerca casuale degli Ingredienti
 
@@ -108,7 +108,7 @@ quanto stabilito dalla tabella degli esiti che segue.
 Più si hanno conoscenze, minore è la probabilità di non trovare nulla.
 Maggiori sono le conoscenze, maggiori sono le probabilità di trovare ingredienti da creature
 di classificazione più alta.
-[SPOILER]**Probabilità base**
+#### Probabilità base
 **Studente**
 Niente: 50%
 X: 25%
@@ -142,7 +142,7 @@ X: 21%
 XX: 17%
 XXX: 27%
 XXXX: 20%
-XXXXX: 5%[/SPOILER]
+XXXXX: 5%
 
 **2° gruppo**
 Per ogni categoria di ingredienti estratta, (animale, X Creatura/Pianta, XX Creatura/Pianta,
