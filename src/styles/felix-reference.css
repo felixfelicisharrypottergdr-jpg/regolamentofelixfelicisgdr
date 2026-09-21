@@ -2716,3 +2716,107 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
     border-bottom:0;
   }
 }
+
+
+/* ==========================================================
+   FELIX FELICIS — v11
+   Relazioni ad alta leggibilità: gerarchia semantica nel rail.
+   ========================================================== */
+
+.felix-related-rail-group{
+  position:relative;
+  overflow:hidden;
+}
+.felix-related-rail-group-heading{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:.5rem;
+  margin:0 0 .35rem;
+}
+.felix-related-rail-group-heading h3{
+  margin:0!important;
+}
+.felix-related-rail-count{
+  display:grid;
+  min-width:1.35rem;
+  height:1.35rem;
+  place-items:center;
+  flex:0 0 auto;
+  border:1px solid rgba(199,156,83,.20);
+  border-radius:999px;
+  background:rgba(255,255,255,.025);
+  color:#a9916c;
+  font: .56rem 'Federo',sans-serif;
+}
+.felix-related-rail-group::before{
+  content:'';
+  position:absolute;
+  inset:.15rem auto .15rem 0;
+  width:2px;
+  border-radius:2px;
+  background:rgba(179,142,82,.24);
+}
+.felix-related-rail-group.is-warning::before{background:rgba(176,93,64,.78)}
+.felix-related-rail-group.is-positive::before{background:rgba(96,143,101,.72)}
+.felix-related-rail-group.is-resource::before{background:rgba(183,139,65,.76)}
+.felix-related-rail-group.is-action::before{background:rgba(100,132,157,.76)}
+.felix-related-rail-group.is-legal::before{background:rgba(135,111,163,.76)}
+
+.felix-related-rail-group.is-warning{
+  background:linear-gradient(90deg,rgba(126,54,36,.095),transparent 72%);
+}
+.felix-related-rail-group.is-positive{
+  background:linear-gradient(90deg,rgba(59,105,67,.085),transparent 72%);
+}
+.felix-related-rail-group.is-resource{
+  background:linear-gradient(90deg,rgba(146,103,37,.075),transparent 72%);
+}
+.felix-related-rail-group.is-action{
+  background:linear-gradient(90deg,rgba(62,91,113,.08),transparent 72%);
+}
+.felix-related-rail-group.is-legal{
+  background:linear-gradient(90deg,rgba(92,72,118,.085),transparent 72%);
+}
+
+.felix-related-rail-group.is-warning h3{color:#d4a28b!important}
+.felix-related-rail-group.is-positive h3{color:#a8c7a8!important}
+.felix-related-rail-group.is-resource h3{color:#d2af70!important}
+.felix-related-rail-group.is-action h3{color:#aabfce!important}
+.felix-related-rail-group.is-legal h3{color:#bdb0ce!important}
+
+.felix-related-rail-group a{
+  min-height:2rem;
+}
+.felix-related-rail-group a span:first-child{
+  min-width:0;
+  overflow-wrap:anywhere;
+}
+.felix-related-rail-group a span:last-child{
+  opacity:.52;
+  transition:transform .14s ease,opacity .14s ease;
+}
+.felix-related-rail-group a:hover span:last-child{
+  opacity:1;
+  transform:translateX(2px);
+}
+
+/* Nei rail molto densi le relazioni restano leggibili senza trasformarsi in una lista infinita. */
+.felix-related-rail-group ul{
+  max-height:17rem;
+  overflow:auto;
+  scrollbar-width:thin;
+  scrollbar-color:rgba(184,143,78,.28) transparent;
+}
+.felix-related-rail-group ul::-webkit-scrollbar{width:5px}
+.felix-related-rail-group ul::-webkit-scrollbar-thumb{
+  border-radius:999px;
+  background:rgba(184,143,78,.28);
+}
+
+/* Il ritorno al catalogo è separato semanticamente dai collegamenti tra entità. */
+.felix-related-rail-parent{
+  margin-top:.15rem!important;
+  padding-top:.72rem!important;
+  border-top:1px solid rgba(198,146,57,.12);
+}
