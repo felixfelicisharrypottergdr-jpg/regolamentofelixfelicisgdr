@@ -38,4 +38,4 @@ Un normale spostamento senza vantaggio tattico, parlare senza applicare meccanic
 
 > Negli **Scontri** il concetto viene articolato ulteriormente in Spostamento, Azione principale, Azione Bonus, Interazione e Reazione.
 
-[Vai alla Guida agli Scontri →](./guida-agli-scontri/)
+[Vai alla Guida agli Scontri →](../guida-agli-scontri/)
