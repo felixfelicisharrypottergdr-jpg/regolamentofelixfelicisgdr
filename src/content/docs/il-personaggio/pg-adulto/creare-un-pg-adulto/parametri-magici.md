@@ -74,6 +74,8 @@ Se il PG Adulto è un ex-PG Studente che ha appena terminato il corso di studi, 
 
 PG Diplomatici, Giornalisti, Locandieri/Camerieri, Negozianti o che svolgono Mestieri Liberi non hanno un Parametro Magico di riferimento per il proprio Mestiere: attribuiscono tra **18 e 20** al Parametro affine alla Categoria e possono scegliere un secondo Parametro Magico con valore superiore a 14, sempre rispettando il massimo di **36** per la somma dei due. Gli altri Parametri non possono superare 14.
 
+I **PG Intracciabili** che svolgono uno di questi Mestieri seguono la stessa distribuzione, attribuendo tra 18 e 20 Punti al Parametro Magico affine alla Categoria cui sarebbero appartenuti se avessero svolto il W.O.M.B.A.T. — e quindi di cui possiedono la o le Sapienze affini — e potendo scegliere un secondo Parametro Magico con valore superiore a 14. Anche in questo caso la somma dei due non può superare 36.
+
 ### Esempio: Auror Sensus
 
 - Potenza: **17** — Parametro affine al Mestiere;
