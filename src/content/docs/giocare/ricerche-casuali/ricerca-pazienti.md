@@ -31,7 +31,7 @@ svolgere il proprio mestiere con un intervento minimo del Narratore.
 Con questa Ricerca i PG possono completare il Livello Difficile della Missione
 "Il Medimago" del FantaWiz.
 
-### Trovare un Paziente: in che modalità?
+## Trovare un Paziente: in che modalità?
 
 Con il termine "Paziente" si fa riferimento a maghi e streghe ricoverati e/o che arrivano
 presso il San Mungo.
@@ -46,7 +46,7 @@ richiamati in quanto Ars per mancanza di personale/esubero di pazienti.
 La role può essere svolta anche da due o più PG Ars non Medimaghi, invitati al San Mungo
 in qualità di assistenti di un PPNG Medimago.
 
-### Arrivo di un Paziente: come e dove
+## Arrivo di un Paziente: come e dove
 
 I PG aprono una free-role al San Mungo in un momento di pausa, stacco o riposo.
 Lanciano quindi il dado in basso prima o dopo il proprio post, fino a quando i Medimaghi/PG
@@ -74,7 +74,7 @@ Medimagica al massimo (25) ha 25/30 possibilità di venire chiamato per un'emerg
 un Medimago in servizio, grazie al bonus di +2 arriva a 27/30 possibilità.
 Può tentare di pescare un esito favorevole per tutti i post che desidera senza limiti.
 
-### Che Paziente deve curare il PG?
+## Che Paziente deve curare il PG?
 
 Il PG che ottiene un esito favorevole al dado precedente viene chiamato per l'arrivo di un
 Paziente. Si lanciano dunque dei dadi per stabilire il Tipo di Danno (Malattia, Lesione da
@@ -378,7 +378,7 @@ Mungo da un assistente, che si trova ancora con lui e può fornire dettagli sull
 ferita presenta un’infezione già in corso, accompagnata da febbre e malessere
 generale.
 
-### Curare il Paziente
+## Curare il Paziente
 
 **Diagnosi**
 
