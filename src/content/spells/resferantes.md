@@ -70,11 +70,11 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 **Dimensioni di arrivo e di partenza**Più le abilità del Trasfiguratore sono migliori, più è possibili trasformare il bersaglio in e da
 creature più grandi o più piccole.
 Idealmente, si tenga conto di queste proporzioni:
-[QUOTE]
-Piccolo → fino a un gatto
-Medio → fino a una persona
-Grande → fino a un elefante
-[/QUOTE]
+
+> Piccolo → fino a un gatto
+> Medio → fino a una persona
+> Grande → fino a un elefante
+
 *Incantesimo lanciato da PG Studenti*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: bersagli medi e piccoli → in esseri piccoli e di media grandezza
