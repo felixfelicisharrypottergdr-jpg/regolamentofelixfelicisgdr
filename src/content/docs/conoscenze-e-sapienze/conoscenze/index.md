@@ -5,13 +5,13 @@ description: "Conoscenze Autoconclusive, Scolastiche, Extra e Avanzate e regole 
 contentType: landing
 searchAliases: [conoscenze magiche, conoscenze pg, apprendere conoscenze]
 applicability: [student, adult]
-prototypeExcerpt: true
+prototypeExcerpt: false
 migration:
   status: migrated
   sources:
     - document: "3. Le Conoscenze"
       section: "Le Conoscenze Magiche"
-      note: "Estratto strutturale di prototipo."
+      note: "Landing di orientamento; le regole complete sono nelle sottopagine canoniche."
 ---
 
 # Le Conoscenze
