@@ -2,7 +2,7 @@
 id: "944c2b7f-b33a-5cef-a5c5-8c3c68f85da3"
 slug: "medimago"
 name: "Il Medimago"
-description: "Il PG è un Medimago e porta a termine delle Role utilizzando uno degli spunti di gioco proposti o la [url=]Ricerca Pazienti[/url]."
+description: "Il PG è un Medimago e porta a termine delle Role utilizzando uno degli spunti di gioco proposti o la Ricerca Pazienti."
 category: "Neutrale"
 illegal: false
 completion: false
