@@ -30,7 +30,9 @@ ingredients:
   - name: "Bulbo di Bucaneve"
     ingredientId: "1bbd027f-1c3c-5e43-9d39-cdbc1bf7e042"
     amount: "1"
-  - name: "XXX Latte di Marmite"
+    classification: "XXX"
+  - name: "Latte di Marmite"
+    ingredientId: "4c8d4861-d053-54bd-a70e-ce30f253db3a"
     amount: "5"
     classification: "X"
 preventsDiseases: []

@@ -42,7 +42,7 @@ ingredients:
   - name: "Pelle di Tebo"
     ingredientId: "b5985ff0-086a-5c0c-a64d-df7735609e09"
     amount: "1"
-  - name: "XXXX"
+    classification: "XXXX"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

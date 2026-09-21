@@ -27,6 +27,7 @@ ingredients:
     amount: "8"
     classification: "X"
   - name: "Chela di Kàvouras"
+    ingredientId: "4ffcc6cf-bd5d-5aab-85c7-c76c61ed5f6e"
     amount: "2"
     classification: "X"
   - name: "Ingrediente Base"

@@ -23,7 +23,12 @@ ingredients:
     ingredientId: "bf567bad-c5ab-59f9-989a-0dc4cd751fca"
     amount: "3"
     classification: "X"
-  - name: "Foglia di Menta Piperita [3] XUnghia di Clabbert"
+  - name: "Foglia di Menta Piperita"
+    ingredientId: "65ecdf1d-bbe2-51f1-8dd3-5882e6628e5c"
+    amount: "3"
+    classification: "X"
+  - name: "Unghia di Clabbert"
+    ingredientId: "f536a0b5-c7a6-5d21-b667-f94454e38592"
     amount: "4"
     classification: "XX"
 preventsDiseases: []

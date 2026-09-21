@@ -42,7 +42,9 @@ ingredients:
   - name: "Pelle di Tebo"
     ingredientId: "b5985ff0-086a-5c0c-a64d-df7735609e09"
     amount: "1"
-  - name: "XXXX Petalo di Bebop Caraibica"
+    classification: "XXXX"
+  - name: "Petalo di Bebop Caraibica"
+    ingredientId: "2eb770b6-df56-57d2-a829-a5c320c269e1"
     amount: "1"
     classification: "XXX"
 preventsDiseases: []

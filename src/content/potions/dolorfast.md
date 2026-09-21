@@ -38,7 +38,9 @@ ingredients:
   - name: "Veleno di Billywig"
     ingredientId: "e2f34edc-6824-5768-b1e6-aaa9cbcaa45f"
     amount: "1"
-  - name: "XXX Aculeo di Knarl"
+    classification: "XXX"
+  - name: "Aculeo di Knarl"
+    ingredientId: "083ea0bd-ca0d-5e81-9096-9baa87078ab0"
     amount: "3"
     classification: "XXX"
 preventsDiseases: []

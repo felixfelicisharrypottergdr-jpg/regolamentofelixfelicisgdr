@@ -40,6 +40,7 @@ ingredients:
     amount: "3"
     classification: "X"
   - name: "Spina di Cespuglio Spinoso"
+    ingredientId: "f228060d-593d-54c9-a2e7-db3a3ed34218"
     amount: "5"
     classification: "XXX"
 preventsDiseases: []

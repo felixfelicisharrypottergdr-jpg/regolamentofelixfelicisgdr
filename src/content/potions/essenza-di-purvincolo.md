@@ -29,6 +29,7 @@ ingredients:
     amount: "2"
     classification: "X"
   - name: "Fiore di Geranio Zannuto"
+    ingredientId: "37b732a7-3d23-59cb-b062-0ae0e42327fe"
     amount: "2"
     classification: "XXX"
   - name: "Foglia di Vischio"

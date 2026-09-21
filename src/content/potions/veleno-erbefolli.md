@@ -29,7 +29,10 @@ ingredients:
     ingredientId: "6fd746b7-3d6a-5af3-abbb-d2eeda0375b4"
     amount: "2"
     classification: "XXXX"
-  - name: "Foglia di Felce Imitante [7] XXXX (ottenimento con ricetta o reperimento speciale)"
+  - name: "Foglia di Felce Imitante"
+    ingredientId: "33d0561a-fec0-5a06-aa47-04e9dbabb4d3"
+    amount: "7"
+    classification: "XXXX"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

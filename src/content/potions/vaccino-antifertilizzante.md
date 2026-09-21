@@ -14,7 +14,9 @@ ingredients:
   - name: "Bacca di Agrifoglio"
     ingredientId: "c1c3b251-58f1-5c55-9660-6a1ee78acb34"
     amount: "1"
-  - name: "X Fico"
+    classification: "X"
+  - name: "Fico"
+    ingredientId: "2d521a64-1ddc-50b8-aee7-8c4da4e3dfff"
     amount: "7"
     classification: "X"
   - name: "Foglia di Arbusto Autofertilizzante"
@@ -28,7 +30,7 @@ ingredients:
   - name: "Petalo di Verbena"
     ingredientId: "1816637e-5704-5e02-8cff-4865ae73ae2b"
     amount: "1"
-  - name: "X Acqua Distillata"
+    classification: "X"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

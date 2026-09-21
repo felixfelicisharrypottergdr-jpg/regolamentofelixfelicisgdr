@@ -22,13 +22,17 @@ ingredients:
   - name: "Fiore di Asfodelo"
     ingredientId: "3ff85194-08b6-5780-b8e6-956baa375c71"
     amount: "1"
-  - name: "X Foglia di Aloe"
+    classification: "X"
+  - name: "Foglia di Aloe"
+    ingredientId: "097a65b3-e430-5a37-bcc5-b32208e72bd0"
     amount: "3"
     classification: "X"
   - name: "Fiore di Bucaneve"
     ingredientId: "f13ddaa4-3bef-57f8-9696-d67f69e10b9d"
     amount: "1"
-  - name: "X Foglia di Centinodia"
+    classification: "X"
+  - name: "Foglia di Centinodia"
+    ingredientId: "dfc7c886-f843-5662-bb1c-113ff4995731"
     amount: "3"
     classification: "X"
   - name: "Foglia di Belladonna"
@@ -39,7 +43,6 @@ ingredients:
     ingredientId: "f534a9f4-4502-5b80-98f9-b9c3e3c5e5d5"
     amount: "3"
     classification: "X"
-  - name: "Acqua distillata"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

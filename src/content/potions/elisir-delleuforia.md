@@ -43,7 +43,9 @@ ingredients:
   - name: "Foglia di Assenzio"
     ingredientId: "dd3e94aa-9cb6-559e-a58a-a9df8c1128d5"
     amount: "1"
-  - name: "X Ingrediente Base"
+    classification: "X"
+  - name: "Ingrediente Base"
+    ingredientId: "debb8050-85c4-4adf-8b48-a5f24aa708fb"
     amount: "2"
     classification: "X"
 preventsDiseases: []

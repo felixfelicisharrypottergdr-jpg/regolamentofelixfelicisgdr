@@ -11,7 +11,12 @@ standardStrength: 300
 administration: "Orale"
 legality: "Legale"
 ingredients:
-  - name: "Capello di Ninfa dei Boschi [1] XXXXXVeleno di Manticora"
+  - name: "Capello di Ninfa dei Boschi"
+    ingredientId: "ae8f244a-3c5f-5e7e-8418-50dd39ef7f23"
+    amount: "1"
+    classification: "XXXXX"
+  - name: "Veleno di Manticora"
+    ingredientId: "74e039fb-5445-59bf-b296-307018b75b96"
     amount: "1"
     classification: "XXXXX"
   - name: "Veleno di Tentacula Velenosa"

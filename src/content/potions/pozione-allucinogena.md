@@ -15,7 +15,12 @@ ingredients:
     ingredientId: "debb8050-85c4-4adf-8b48-a5f24aa708fb"
     amount: "1"
     classification: "X"
-  - name: "Foglia di Artemisia [1] XRadice di Bebop Caraibica"
+  - name: "Foglia di Artemisia"
+    ingredientId: "65914a54-8ef0-4d82-8732-ff6df1a93e07"
+    amount: "1"
+    classification: "X"
+  - name: "Radice di Bebop Caraibica"
+    ingredientId: "5c30d289-c914-5cd5-9e9f-d0a035ce9492"
     amount: "1"
     classification: "XXX"
   - name: "Unghia di Clabbert"
@@ -38,7 +43,10 @@ ingredients:
     ingredientId: "724c9b7a-fc48-5c66-9f00-4989c790d507"
     amount: "1"
     classification: "XXXX"
-  - name: "Pelle di Alastridente🌴 ( ✔) [3] XXXX (ottenuta spontaneamente)"
+  - name: "Pelle di Alastridente"
+    ingredientId: "a631327e-f985-5cfa-95f6-c089edfbd00f"
+    amount: "3"
+    classification: "XXXX"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

@@ -30,7 +30,7 @@ ingredients:
   - name: "Petalo di Verbena"
     ingredientId: "1816637e-5704-5e02-8cff-4865ae73ae2b"
     amount: "6"
-  - name: "X"
+    classification: "X"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

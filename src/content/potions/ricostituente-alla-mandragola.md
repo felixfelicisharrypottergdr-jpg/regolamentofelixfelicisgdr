@@ -32,6 +32,7 @@ ingredients:
     amount: "1"
     classification: "XX"
   - name: "Fiore di Aloe"
+    ingredientId: "420e1248-c256-5b0c-8744-fe23c250253d"
     amount: "3"
     classification: "X"
 preventsDiseases: []

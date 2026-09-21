@@ -46,7 +46,9 @@ ingredients:
   - name: "Pelle di Tebo"
     ingredientId: "b5985ff0-086a-5c0c-a64d-df7735609e09"
     amount: "1"
-  - name: "XXXX Radice di Ruta"
+    classification: "XXXX"
+  - name: "Radice di Ruta"
+    ingredientId: "57653b34-f333-58d0-99fc-b7f96b0eb07b"
     amount: "1"
     classification: "XXXX"
 preventsDiseases: []

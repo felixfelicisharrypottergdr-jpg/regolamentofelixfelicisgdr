@@ -16,6 +16,7 @@ ingredients:
     amount: "3"
     classification: "XXX"
   - name: "Spina di Cespuglio Spinoso"
+    ingredientId: "f228060d-593d-54c9-a2e7-db3a3ed34218"
     amount: "2"
     classification: "XXX"
   - name: "Zanna di Geranio Zannuto"
@@ -30,7 +31,6 @@ ingredients:
     ingredientId: "debb8050-85c4-4adf-8b48-a5f24aa708fb"
     amount: "3"
     classification: "X"
-  - name: "Acqua Distillata"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

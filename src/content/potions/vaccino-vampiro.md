@@ -27,7 +27,6 @@ ingredients:
     ingredientId: "7cafab12-d4a8-5446-99d0-a38fe6a8d129"
     amount: "1"
     classification: "X"
-  - name: "Acqua distillata"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

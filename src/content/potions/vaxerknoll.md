@@ -23,7 +23,12 @@ ingredients:
     ingredientId: "5242f0f0-f114-5cac-acb7-f4d739b79b15"
     amount: "4"
     classification: "X"
-  - name: "Cervello di Rana [3] XFoglia di Belladonna"
+  - name: "Cervello di Rana"
+    ingredientId: "1dc6b560-9926-5f34-8dac-c2a1b8929dbf"
+    amount: "3"
+    classification: "X"
+  - name: "Foglia di Belladonna"
+    ingredientId: "2bb4c176-b98a-531a-a378-0a9fa77adf31"
     amount: "1"
     classification: "X"
 preventsDiseases: []

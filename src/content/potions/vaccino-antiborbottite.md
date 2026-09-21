@@ -16,6 +16,7 @@ ingredients:
     amount: "2"
     classification: "XX"
   - name: "Fiore di Geranio Zannuto"
+    ingredientId: "37b732a7-3d23-59cb-b062-0ae0e42327fe"
     amount: "3"
     classification: "XXX"
   - name: "Radigorda"

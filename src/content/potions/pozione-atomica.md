@@ -16,7 +16,12 @@ ingredients:
     ingredientId: "debb8050-85c4-4adf-8b48-a5f24aa708fb"
     amount: "1"
     classification: "X"
-  - name: "Artiglio di Drago [1] XXXXXSucco del Baccello di Pugnacio"
+  - name: "Artiglio di Drago"
+    ingredientId: "6b46f0ba-99fd-5af6-bc17-a7619a86efd3"
+    amount: "1"
+    classification: "XXXXX"
+  - name: "Succo del Baccello di Pugnacio"
+    ingredientId: "517400cd-cbfd-5281-b7a6-8fa4bfa4eeba"
     amount: "5"
     classification: "XXXXX"
   - name: "Artiglio di Grifone"
@@ -38,7 +43,7 @@ ingredients:
   - name: "Zanna di Drakul"
     ingredientId: "02c9cf71-e869-569d-a555-affa2d37adc0"
     amount: "1"
-  - name: "X"
+    classification: "X"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

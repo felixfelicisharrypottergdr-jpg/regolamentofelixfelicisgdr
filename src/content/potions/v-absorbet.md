@@ -12,7 +12,7 @@ administration: "Iniezione"
 legality: "Legale"
 ingredients:
   - name: "Petalo di Giunchiglia Strombazzante"
-    ingredientId: "9f31a419-aa44-5c9d-9c14-7ce416215bda"
+    ingredientId: "2e81ed95-a8c1-5c31-b4e6-22446541a892"
     amount: "3"
     classification: "XX"
   - name: "Zanna di Geranio Zannuto"

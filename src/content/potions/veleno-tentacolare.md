@@ -20,6 +20,7 @@ ingredients:
     amount: "4"
     classification: "XXX"
   - name: "Petalo di Orchidea Fantasma"
+    ingredientId: "d7b895d1-59fd-5af5-9059-de986507123a"
     amount: "3"
     classification: "XXX"
   - name: "Foglia di Brugmansia"

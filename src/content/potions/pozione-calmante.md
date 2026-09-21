@@ -12,7 +12,12 @@ standardStrength: 100
 administration: "Orale"
 legality: "Legale"
 ingredients:
-  - name: "Foglia di Menta Piperita [1] XOlio di Valeriana"
+  - name: "Foglia di Menta Piperita"
+    ingredientId: "65ecdf1d-bbe2-51f1-8dd3-5882e6628e5c"
+    amount: "1"
+    classification: "X"
+  - name: "Olio di Valeriana"
+    ingredientId: "e5853ebe-883b-5cba-954e-520147fde6e7"
     amount: "2"
     classification: "X"
   - name: "Cuore di Coccodrillo"

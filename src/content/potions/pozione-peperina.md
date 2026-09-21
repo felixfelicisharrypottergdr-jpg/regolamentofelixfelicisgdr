@@ -16,7 +16,12 @@ ingredients:
     ingredientId: "65ecdf1d-bbe2-51f1-8dd3-5882e6628e5c"
     amount: "2"
     classification: "X"
-  - name: "Ingrediente Base [1] XRametto di Menta Piperita"
+  - name: "Ingrediente Base"
+    ingredientId: "debb8050-85c4-4adf-8b48-a5f24aa708fb"
+    amount: "1"
+    classification: "X"
+  - name: "Rametto di Menta Piperita"
+    ingredientId: "5fef3a29-3e63-525d-aec7-556882e25722"
     amount: "1"
     classification: "X"
   - name: "Fico"
@@ -31,7 +36,6 @@ ingredients:
     ingredientId: "15a76bc3-5025-4b4e-8aff-955cb77fc3ae"
     amount: "2"
     classification: "X"
-  - name: "Grani di Pepe Nero (ottenimento autoconclusivo)"
 preventsDiseases: []
 relatedFelixIds: []
 searchAliases:

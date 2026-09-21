@@ -30,7 +30,9 @@ ingredients:
   - name: "Petalo di Aconito"
     ingredientId: "eff86466-ddab-565a-81b9-f7ada9253d43"
     amount: "1"
-  - name: "X Radice di Assenzio"
+    classification: "X"
+  - name: "Radice di Assenzio"
+    ingredientId: "7cafab12-d4a8-5446-99d0-a38fe6a8d129"
     amount: "1"
     classification: "X"
 preventsDiseases: []
