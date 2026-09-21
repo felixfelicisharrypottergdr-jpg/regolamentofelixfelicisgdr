@@ -6,7 +6,7 @@
 - Pages CMS configurato per pagine/regole e i primi Manuali strutturati.
 - Creazione e modifica dei contenuti predisposte nel CMS.
 - Pagina libera disponibile per nuovi contenuti non ancora strutturati.
-- Maestrie inserite come primo sistema nativo del nuovo sito, sopra le Sapienze, senza inventarne ancora le meccaniche.
+- Maestrie migrate integralmente dalla fonte corrente: 36 schede, regole generali, costi, livelli e catalogo filtrabile.
 - Bestiario generato automaticamente con filtri e URL condivisibili.
 - Erbario generato automaticamente con filtri per Classificazione, Ostilità, Grado di Conoscenza, Anno scolastico ed Esotica.
 - Pozionario generato automaticamente con filtri e URL condivisibili.
@@ -33,7 +33,7 @@
 - Il Personaggio esteso con Parametri Magici, Fisici e Sociali, con applicabilità comune e differenze Studente/Adulto esposte nel testo.
 - Conoscenze e Sapienze esteso con Conoscenze Autoconclusive, Scolastiche, Extra e Avanzate; pagina Usare le Conoscenze.
 - Sapienze correttamente marcate come sistema dei PG Adulti, con pagine Magiche, Fisiche e Sociali.
-- Maestrie mantenute come nuova categoria sopra le Sapienze, ancora priva di meccaniche inventate.
+- Maestrie complete e strutturate come sistema sopra le Sapienze, senza aggiunte non presenti nella fonte.
 - Giocare esteso con landing operativa e pagine dedicate a Le Role, Free Role, Role Masterate, Le Azioni e Dadi e risultati.
 - Guida agli Scontri introdotta come mini-manuale con Regole pratiche, Turnazione, Destrezza negli Scontri e Forza delle Conoscenze negli Scontri.
 - Turnazione testata con la terminologia attuale: Spostamento, Azione principale, Azione Bonus, Interazione e Reazione.
@@ -51,18 +51,14 @@
 - Il testo completo resta editoriale; i campi strutturati servono a ricerca, filtri e relazioni.
 - Ogni relazione ha una sola fonte canonica; il lato inverso viene generato automaticamente.
 
-## Da verificare con una build reale su GitHub
+## Validazione GitHub
 
-L'ambiente di generazione non riesce a completare `npm install` verso il registry npm. La prima build end-to-end verrà quindi verificata direttamente tramite GitHub Actions/GitHub Pages.
+La pipeline GitHub Actions viene eseguita sui lotti di migrazione prima del merge. I lotti recenti hanno superato regolarmente:
 
-Da verificare in quella fase:
+- preflight FELIX;
+- build Astro/Starlight.
 
-- build Astro/Starlight;
-- indicizzazione Pagefind;
-- filtri in browser;
-- autenticazione Pages CMS;
-- modifica CMS → commit GitHub;
-- deploy GitHub Actions → GitHub Pages.
+Restano verifiche funzionali/UI da continuare durante la migrazione completa: Pagefind e ranking in uso reale, filtri e URL condivisibili, flusso Pages CMS, comportamento responsive e incorporamento full-viewport in ForumFree.
 
 
 ## Mondo Magico — Commercio e ordinamento giuridico
@@ -84,4 +80,5 @@ Il prototipo è ora pronto per il **primo caricamento e primo build-test su GitH
 - `scripts/preflight.mjs` verifica prima della build: UUID mancanti/duplicati, riferimenti UUID inesistenti e slug duplicati nella stessa collection.
 - Il preflight attuale rileva 122 file di contenuto e 122 UUID univoci senza errori.
 - Il prototipo include `public/robots.txt` con `Disallow: /` finché non sarà pronto per il lancio pubblico.
+- Altre Conoscenze Scolastiche complete: 15 schede strutturate (3 per ciascuna di 5 materie), catalogo per Materia/Anno e integrazione completa delle Sapienze Fisiche e Sociali a 5 Livelli.
 - Il test dell'iframe full-viewport su ForumFree resta una verifica obbligatoria dopo il primo deploy.
