@@ -1,28 +1,41 @@
 ---
-felixId: "79386cdf-6ad3-4fd2-a887-459358407dc5"
+felixId: "729c20a5-9018-4cff-80ac-0a15379ffc44"
 title: "Modalità di gioco dei PG Adulti"
-description: "Luoghi, Trama, fazioni, PG Protagonisti, eventi, notizie, FantaWiz e Missioni."
+description: "Luoghi, Trama, fazioni, Protagonisti, eventi, Nottetempo, Notizie dal Mondo Magico e FantaWiz."
 contentType: landing
-searchAliases: [modalità adulti, trama adulti, enclave, aurora, protagonisti, fantawiz, missioni adulti]
+searchAliases: [modalità adulti, trama adulti, enclave, aurora, protagonisti, cronotrose, nottetempo, fantawiz]
 applicability: [adult]
-prototypeExcerpt: true
+quickLinks:
+  - label: "Luoghi del Mondo Magico"
+    href: "/il-personaggio/pg-adulto/modalita-di-gioco/luoghi-mondo-magico/"
+    description: "Affollati, Isolati, Personali e Sorvegliati."
+  - label: "Trama, Enclave e Aurora"
+    href: "/il-personaggio/pg-adulto/modalita-di-gioco/trama-fazioni/"
+    description: "Trama dell'Anno e fazioni segrete."
+  - label: "PG Protagonisti"
+    href: "/il-personaggio/pg-adulto/modalita-di-gioco/protagonisti/"
+    description: "Sistema storico attualmente in revisione."
+  - label: "Eventi di Categoria e Mestiere"
+    href: "/il-personaggio/pg-adulto/modalita-di-gioco/eventi-categoria-mestiere/"
+    description: "Eventi dedicati a competenze, Categoria e professione."
+  - label: "Mille e una Nottetempo"
+    href: "/il-personaggio/pg-adulto/modalita-di-gioco/mille-e-una-nottetempo/"
+    description: "Avventure all'estero sbloccate tramite Trasporti Magici."
+  - label: "Notizie dal Mondo Magico"
+    href: "/il-personaggio/pg-adulto/modalita-di-gioco/notizie-mondo-magico/"
+    description: "Spunti e notizie giocabili fuori dalla Trama principale."
+  - label: "FantaWiz"
+    href: "/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/"
+    description: "Missioni Sinistre, Neutrali e Virtuose."
 migration:
-  status: to_migrate
+  status: revised
   sources:
     - document: "7. Giocare un PG Adulto"
-      section: "Modalità di gioco per PG Adulti"
+      section: "4. Modalità di gioco per PG Adulti"
 ---
 
-Questa sezione raccoglierà le opportunità strutturate per i **PG Adulti nel Mondo Magico**.
+# Modalità di gioco per PG Adulti
 
-## Mondo Magico e Trama
+Oltre al lavoro ed alla Categoria Magica, nella vita di un PG Adulto c'è molto di più. Il Mondo Magico offre opportunità di ogni tipo per maghi e streghe, per ogni gusto e per ogni preferenza di gioco.
 
-Saranno mantenuti i contenuti su **Luoghi del Mondo Magico** e **Trama dell'Anno**.
-
-## Fazioni e protagonismo
-
-La migrazione comprenderà le sezioni dedicate alle fazioni di gioco e ai **PG Protagonisti**, con requisiti, tipologie, sottoclassi e privilegi previsti dalla fonte.
-
-## Eventi e attività
-
-Saranno ospitati **Eventi di Categoria e di Mestiere, Cronotrose, Le mille e una Nottetempo, Notizie dal Mondo Magico, FantaWiz e Missioni**.
+Esplorare il Mondo Magico, interagire con gli altri PG, addentrarsi nelle conoscenze più profonde di ogni branca magica e partecipare a eventi speciali sono solo alcune delle attività che rendono l'esperienza del PG Adulto in giro per il globo dinamica e diversa per ogni personaggio.
