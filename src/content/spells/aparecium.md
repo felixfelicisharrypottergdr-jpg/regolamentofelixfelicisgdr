@@ -29,8 +29,10 @@ migration:
 
 Fa apparire scritte invisibili o celate dall'uso di inchiostro
 simpatico.
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** le scritte rimangono visibili per 5 post dell’evocatore
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

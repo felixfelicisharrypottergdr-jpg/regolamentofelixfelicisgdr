@@ -29,14 +29,14 @@ migration:
 
 > **Nota.**
 >
-• Per evitare Metagame, è possibile utilizzare Appare Vestigium soltanto in luoghi citati dalla
+- Per evitare Metagame, è possibile utilizzare Appare Vestigium soltanto in luoghi citati dalla
 Gazzetta del Profeta in uno dei suoi articoli, suggeriti dai Locandieri PG e PNG come luoghi
 di interesse, o da altri PG che lì hanno vissuto/visto personalmente una situazione specifica
 di cui sono a conoscenza.
 Di conseguenza, utilizzare questo Incantesimo in un luogo dove si è appena concluso un
 misfatto/altro senza rispettare le condizioni di cui sopra, **equivale a fare metagame** e
 dunque all'annullamento della role e dei Punti Post per essa guadagnabili.
-• Le possibilità di evocarlo al 100% dopo il primo utilizzo in una stessa role **diminuiscono
+- Le possibilità di evocarlo al 100% dopo il primo utilizzo in una stessa role **diminuiscono
 del 50%** ogni volta.
 
 > **Nota.**
@@ -45,7 +45,7 @@ PG Studenti ed Adulti che evocano Appare Vestigium al 33% rischiano di ammalarsi
 Sindrome di Scrooge se, lanciando 1d15,
 pescano 1.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** fino al termine dell’utilizzo
 
@@ -112,3 +112,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 - 100%: sfocato se 1-3/11
 - 66%: sfocato se 1-4/11
 - 33%: sfocato se 1-5/11
+
+</details>

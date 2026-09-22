@@ -32,7 +32,7 @@ Rallenta la caduta di un oggetto o di una o più persone, arrestandola proprio p
 dell'atterraggio. Il bersaglio rimane sospeso in aria per qualche secondo, per poi toccare il
 terreno in maniera quasi indolore.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -52,3 +52,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: oggetti + evocatore + 4 PG
+
+</details>

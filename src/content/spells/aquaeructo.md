@@ -30,16 +30,16 @@ migration:
 
 > **Nota.**
 >
-• Uno o più edifici attaccati con questo incantesimo vengono allagati e rischiano di essere
+- Uno o più edifici attaccati con questo incantesimo vengono allagati e rischiano di essere
 distrutti distrutti nel giro di 10 post di chiunque nella role se i getti d'acqua non vengono
 fermati prima;
-• Non è possibile utilizzare un altro incantesimo contemporaneamente finché si utilizza
+- Non è possibile utilizzare un altro incantesimo contemporaneamente finché si utilizza
 *Aqua Eructo*.
-• *Aqua Eructo* può funzionare anche come scudo e riesce a schermare incantesimi
+- *Aqua Eructo* può funzionare anche come scudo e riesce a schermare incantesimi
 avversari ed elementi fisici soltanto se il getto d'acqua viene generato a protezione di
 qualcuno/qualcosa ed ha più Forza dell'incantesimo combattuto.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè il PG mantiene il controllo
 
@@ -61,3 +61,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli
 - 66%: max 4 bersagli
 - 33%: max 3 bersagli
+
+</details>

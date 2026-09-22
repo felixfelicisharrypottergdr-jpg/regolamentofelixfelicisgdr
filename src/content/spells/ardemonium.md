@@ -45,10 +45,10 @@ possibile arrestare la sua corsa mediante un uso congiunto di
 
 > **Bonus.**
 >
-• PG con **Sapienza Oscura 25** non perdono il controllo dell'Ardemonio a meno che
+- PG con **Sapienza Oscura 25** non perdono il controllo dell'Ardemonio a meno che
 non vengano interrotti durante l'evocazione.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -81,3 +81,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 1 su 1d10
 - 33/66%: se 1-2 su 1d10
+
+</details>

@@ -34,11 +34,11 @@ incantesimo normale, motivo per cui molto spesso la sola agilità del bersaglio 
 
 > **Bonus.**
 >
-• PG con **Sapienza Offensiva 25** possono convergere un certo numeri di proiettili
+- PG con **Sapienza Offensiva 25** possono convergere un certo numeri di proiettili
 creati (non più del massimo di proiettili creati, corrispondenti al numero di bersagli colpibili)
 su uno stesso bersaglio.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -69,3 +69,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli
 - 66%: max 4 bersagli
 - 33%: max 3 bersagli
+
+</details>

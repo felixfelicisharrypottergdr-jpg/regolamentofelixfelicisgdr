@@ -38,17 +38,17 @@ L'animazione può essere annullata soltanto da un incantesimo
 
 > **Nota.**
 >
-• E' possibile utilizzare altri incantesimi contemporaneamente all'utilizzo di Animatus perchè
+- E' possibile utilizzare altri incantesimi contemporaneamente all'utilizzo di Animatus perchè
 l'evocatore controlla l'oggetto con la propria voce. E' possibile terminare anticipatamente
 l'animazione dell'oggetto smettendo di controllarlo. Comandare un oggetto in un post costa
 costa 1 Azione/Azione Bonus a seconda del caso e delle indicazioni del Narratore.
-• La Destrezza, Forza e Resistenza degli oggetti animati viene stabilita di volta in volta dal
+- La Destrezza, Forza e Resistenza degli oggetti animati viene stabilita di volta in volta dal
 Narratore;
-• PG che possiedono questa Conoscenza possono utilizzarla per dare colore ai propri post
+- PG che possiedono questa Conoscenza possono utilizzarla per dare colore ai propri post
 in maniera autoconclusiva, ad esempio animando un piccolo oggetto perché porti al PG
 qualcosa o per versarsi un bicchiere d'acqua.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -67,3 +67,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 3 oggetti per 5 post dell'evocatore
+
+</details>

@@ -36,7 +36,7 @@ di conseguenza rischiano di rimanere incastrati per sempre, a meno che non si in
 con l'uso di [Reparifarge](/manuali/incantesimi/reparifarge/) più forte della
 trasfigurazione.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantaneo
 
@@ -59,3 +59,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: scambio totale
+
+</details>

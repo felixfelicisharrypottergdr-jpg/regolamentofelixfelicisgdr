@@ -33,7 +33,7 @@ Permette di scacciare Acromantule attraverso il rilascio di una luce
 bluastra accecante.
 Non ha effetto sugli esseri umani o su altre Creature Magiche.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -49,3 +49,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 6
+
+</details>
