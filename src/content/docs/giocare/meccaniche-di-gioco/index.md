@@ -662,7 +662,6 @@ Ci sono comunque delle indicazioni importanti di cui dover tener conto, valide p
 Nel corso del gioco, potrebbe venir voglia a qualche PG più o meno losco (o magari no) di mettere le mani su qualcosa in possesso di un altro PG. Questo è ovviamente possibile, ma a sua volta regolamentato da delle meccaniche che differenziano le diverse tipologie di furto poichè ciascuna di queste prevede delle diverse variabili che non è possibile ridurre ad un unico meccanismo. Le diverse meccaniche previste consentono quindi la differenziazione dei possibili esiti delle azioni dei PG, nonchè delle situazioni di gioco, rendendo il gioco più variegato e dinamico per tutti i PG coinvolti.
 Un furto, uno scippo ed una rapina sono quindi i tre modi distinti in cui un PG può appropriarsi di Oggetti o Galeoni in possesso di un altro PG o PNG.
 
-<a id="rubare"></a>
 ### Rubare
 Commettere un furto significa tentare di rubare Oggetti o Galeoni in possesso di un altro PG o PNG e quindi presenti nel suo Bagaglio, oppure tentare di rubare qualcosa da un determinato luogo. Il tentativo può essere ruolato sia pubblicamente che nella sezione **Orecchie Indiscrete**, ma in ogni caso sarà necessario l'intervento del Narratore per decretare la riuscita del furto.
 La difficoltà dell'esito del furto è, in primo luogo, definita dalla tipologia di Oggetto che si vuole rubare e se e come questo è protetto dal PG o PNG che ne è proprietario, se esiste un proprietario di quell'oggetto. Per prima cosa, il PG deve quindi ruolare il proprio tentativo di furto. Al primo post in cui il PG tenta di mettere in atto il furto, inoltre, esso rischia anche di essere scoperto dal proprietario PG o PNG dell'oggetto, o da un PNG casuale nel caso in cui l'Oggetto non appartenga a nessuno.
@@ -908,7 +907,6 @@ Il **risultato più alto** determina se il PG Derubato riesce o meno ad essere a
 
 </details>
 
-<a id="scippare"></a>
 ### Scippare
 Lo scippo è un tipo di furto che si distingue per la sua rapidità d'esecuzione, ma la differenza sostanziale sta nel fatto che, in uno scippo, l'oggetto del desiderio viene strappato via dalle mani del proprietario. In Felix Felicis GdR, commettere uno scippo significa tentare di rubare Oggetti o Galeoni che un altro PG o PNG porta con sè in una role, e quindi presente nella sua Borsa. Il tentativo può essere ruolato sia pubblicamente che nella sezione **Orecchie Indiscrete**, in ogni caso sarà necessario l'intervento del Narratore per decretare la riuscita del furto.
 La difficoltà dell'esito dello scippo è, in primo luogo, definita dalla tipologia di Oggetto che si vuole rubare e se e come questo è protetto dal PG o PNG che ne è proprietario, se esiste un proprietario di quell'oggetto. Per prima cosa, il PG deve quindi ruolare il proprio tentativo di furto. Al primo post in cui il PG tenta di mettere in atto lo scippo, esso rischia anche di essere scoperto dal proprietario PG o PNG dell'oggetto.
@@ -1087,7 +1085,6 @@ Il **risultato più alto** determina se il PG Scippatore o meno riesce ad essere
 
 </details>
 
-<a id="rapinare"></a>
 ### Rapinare
 Una rapina è un'azione delittuosa che consiste nella sottrazione di qualcosa di altrui proprietà ed effettuata con la violenza o con minacce, allo scopo d'impossessarsene. Si differenzia dal furto e dallo scippo proprio perchè prevede la violenza, la minaccia e l'intimidazione nei confronti del prossimo, e può essere svolta in qualsiasi Luogo Pubblico, Isolato o Sorvegliato sia possibile impossessarsi di beni o Galeoni (esempio negozi, Locande, Gringotts).
 Vista la natura plateale di questo reato, il meccanismo che ne prevede la riuscita viene regolato caso per caso ed in base alla situazione dal Narratore, cui è necessario fare richiesta nel momento in cui si decide di giocare un tipo di situazione del genere.
