@@ -36,7 +36,7 @@ vuole evocare.
 La trasfigurazione è permanente, ma può essere annullata con un Reparifarge più forte del
 Vestis utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -55,3 +55,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti senza Sapienza Trasfigurativa*
 - 100%: max 4 capi*Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 - 100%: max 5 capi
+
+</details>

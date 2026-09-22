@@ -41,7 +41,7 @@ della Fatica prevista per l'uso di questo Incantesimo.
 Oggetti trasfigurati ed utilizzati per danneggiare l'avversario hanno Resistenza, Destrezza e
 Forza stabilita di volta in volta dal Narratore.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -66,3 +66,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 7 post dell'evocatore
 - 66%: 6 post dell'evocatore
 - 33%: 5 post dell'evocatore
+
+</details>

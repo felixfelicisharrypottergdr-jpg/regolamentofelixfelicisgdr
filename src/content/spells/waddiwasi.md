@@ -34,7 +34,7 @@ luce viola che consente di espellere oggetti incastrati e spedirli altrove con l
 una fionda; la bacchetta va puntata verso l'oggetto incastrato.
 Non funziona sugli esseri viventi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 **Parametro del bersaglio intaccato:** nessuna, Salute se l’oggetto colpisce un PG
@@ -53,3 +53,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli
+
+</details>

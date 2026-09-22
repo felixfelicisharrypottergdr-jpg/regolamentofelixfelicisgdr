@@ -40,7 +40,7 @@ E' possibile annullare la maledizione in corso con un
 Maledizione o attraverso un esorcismo. I danni procurati dalla maledizione fino a quel
 momento necessitano di essere curati urgentemente.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -51,24 +51,26 @@ PG che riescono nella sua evocazione provocano un danno in Salute all'avversario
 quantità si sottrae al bersaglio per ogni post in cui rimane vittima della Maledizione.
 *Incantesimo lanciato da PG Studenti*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: 2 post del bersaglio
-• 33-66%: 1 post del bersaglio
+- 100%: 2 post del bersaglio
+- 33-66%: 1 post del bersaglio
 *Incantesimo lanciato da PG Adulti senza Sapienza Oscura*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: 5 post del bersaglio
-• 66%: 4 post del bersaglio
-• 33%: 3 post del bersaglio
+- 100%: 5 post del bersaglio
+- 66%: 4 post del bersaglio
+- 33%: 3 post del bersaglio
 *Incantesimo lanciato da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: 6 post del bersaglio
+- 100%: 6 post del bersaglio
 **Capire che un PG è stato ferito da Zilerius**
 Causando ferite invisibili, nel momento in cui un bersaglio manifesta i Sintomi, PG con
 Sapienza Oscura **o** Medimagica possono provare a capire che il bersaglio è vittima
 della maledizione *Zilerius* ed agire di conseguenza. PG senza Sapienza Medimagica
 possono capirlo soltanto tramite la scoperta dei Sintomi.PG con Sapienza Oscura o Medimagica possono capire che il Bersaglio è stato colpito da
 Zilerius se, al lancio di **1d10**, pescano...
-• **PG con Sapienza Oscura o Medimagica 1-5:** 1 su 1d10
-• **PG con Sapienza Oscura o Medimagica 6-10:** 1-2 su 1d10
-• **PG con Sapienza Oscura o Medimagica 11-15:** 1-3 su 1d10
-• **PG con Sapienza Oscura o Medimagica 16-20:** 1-5 su 1d10
-• **PG con Sapienza Oscura o Medimagica 21-25:** 1-7 su 1d10
+- **PG con Sapienza Oscura o Medimagica 1-5:** 1 su 1d10
+- **PG con Sapienza Oscura o Medimagica 6-10:** 1-2 su 1d10
+- **PG con Sapienza Oscura o Medimagica 11-15:** 1-3 su 1d10
+- **PG con Sapienza Oscura o Medimagica 16-20:** 1-5 su 1d10
+- **PG con Sapienza Oscura o Medimagica 21-25:** 1-7 su 1d10
+
+</details>

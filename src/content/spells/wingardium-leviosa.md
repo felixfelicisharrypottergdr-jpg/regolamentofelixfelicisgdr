@@ -30,9 +30,11 @@ migration:
 Fa levitare il bersaglio.
 Funziona soltanto sugli oggetti non magici e magici. Non funziona sugli esseri viventi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè l’evocatore mantiene il controllo della levitazione
 
 **Parametro del bersaglio intaccato:** //
 Non è possibile utilizzare altri incantesimi contemporaneamente al Wingardium Leviosa.
+
+</details>

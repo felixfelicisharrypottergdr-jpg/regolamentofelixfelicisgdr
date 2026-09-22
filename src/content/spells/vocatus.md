@@ -81,7 +81,7 @@ E' possibile far tornare sulla terra oggetti o animali di piccole dimensioni fat
 Limbo mediante l'uso di questo incantesimo; bersagli umani o di grandi dimensioni possono
 essere riportate sulla terra mediante l'uso di *Evocatio*.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -108,3 +108,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 4 post dell'evocatore
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 - 100%: 5 post dell'evocatore
+
+</details>
