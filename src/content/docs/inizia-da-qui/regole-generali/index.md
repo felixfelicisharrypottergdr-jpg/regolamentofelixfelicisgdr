@@ -16,12 +16,7 @@ migration:
 <a id="regole"></a>
 
 
-<strong>INDICE</strong>
-<dl>
-<dd><a href="#norme">• Norme Generali</a></dd>
-<dd><a href="#vietato">• E' vietato</a></dd>
-<dd><a href="#principi">• Principi</a></dd>
-<dd><a href="#temi">• Temi Sensibili e contesto</a></dd></dl>
+
 <a id="norme"></a>
 ## Norme generali
 <b>1)</b> È richiesto che i post siano scritti in un italiano comprensibile e sufficientemente corretto. Refusi e imperfezioni occasionali non costituiscono un problema, purché non compromettano la leggibilità del testo.
@@ -31,12 +26,12 @@ migration:
 <b>3)</b> Si chiamano "<i>post</i>" i brani attraverso i quali vengono narrati le azioni, i pensieri, le parole e le sensazioni del proprio personaggio. Il narrato va scritto in terza persona e al passato remoto. Con l’accordo di tutti i Player coinvolti è possibile utilizzare una diversa persona o un diverso tempo verbale, purché la scelta venga mantenuta con coerenza per tutta la role.
 
 <b>4)</b> Per garantire uniformità grafica e leggibilità all’interno delle role è necessario:
-• utilizzare un colore per evidenziare il parlato del personaggio, associato a questo per ogni role in cui gioca. Per il <i>pensato </i>è necessario utilizzare lo stesso colore, distinguendo i pensieri diretti del PG attraverso il <i>corsivo</i>;
-• scegliere un colore chiaramente leggibile sullo sfondo del forum;
-• non utilizzare il grassetto per parlato e pensato;
-• non inserire nei post Schemi Role o altri codici autocompilati;
-• non racchiudere il narrato tra asterischi, virgolette o altri simboli;
-• separare il parlato dal narrato attraverso opportuni a capo.
+- utilizzare un colore per evidenziare il parlato del personaggio, associato a questo per ogni role in cui gioca. Per il <i>pensato </i>è necessario utilizzare lo stesso colore, distinguendo i pensieri diretti del PG attraverso il <i>corsivo</i>;
+- scegliere un colore chiaramente leggibile sullo sfondo del forum;
+- non utilizzare il grassetto per parlato e pensato;
+- non inserire nei post Schemi Role o altri codici autocompilati;
+- non racchiudere il narrato tra asterischi, virgolette o altri simboli;
+- separare il parlato dal narrato attraverso opportuni a capo.
 Le regole relative alla codifica della Scheda PG sono indicate nella relativa guida.
 
 <b>5)</b> Nelle role con più di due PG partecipanti, i Player possono concordare una turnazione libera oppure fissa. È consigliato indicare la modalità scelta all’apertura della giocata o nei primi post. In caso di turnazione fissa, se un Player non risponde per più di <u>sette giorni</u>, è possibile scavalcarne il turno e proseguire, purché al suo PG non vengano attribuite azioni, reazioni, pensieri o decisioni. Il PG potrà essere mantenuto temporaneamente sullo sfondo soltanto quando la scena può continuare senza un suo intervento indispensabile.
@@ -56,27 +51,27 @@ Non rientrano nel conteggio delle Azioni i gesti puramente descrittivi o di colo
 Tutto ciò che viene considerato Azione ed ha un numero limitato di utilizzi a seconda della tipologia di giocata.
 
 Quindi, tranne diversamente concesso o specificato (vedi per esempio la Turnazione degli scontri), è considerata un'"Azione", ad esempio:
-• evocare Incantesimi (anche autoconclusivi);
-• utilizzare una Pozione;
-• passare o utilizzare un Oggetto quando il gesto produce conseguenze rilevanti nella scena;
-• tentare di ammansire una Creatura o Pianta Magica;
-• tentare una schivata;
-• attaccare fisicamente qualcuno o qualcosa;
-• qualsiasi interazione preveda il lancio di dadi.
+- evocare Incantesimi (anche autoconclusivi);
+- utilizzare una Pozione;
+- passare o utilizzare un Oggetto quando il gesto produce conseguenze rilevanti nella scena;
+- tentare di ammansire una Creatura o Pianta Magica;
+- tentare una schivata;
+- attaccare fisicamente qualcuno o qualcosa;
+- qualsiasi interazione preveda il lancio di dadi.
 
 Non sono considerate "Azioni" invece esempi come:
-• compiere un normale spostamento che non produca un vantaggio tattico e non permetta di evitare un ostacolo o un pericolo;
-• parlare con qualcuno senza tentare di ottenere attraverso il dialogo un effetto sottoposto a meccaniche;
-• usare un Oggetto passivo;
-• attività che non comportano conseguenze (es. bere un bicchiere d'acqua).
+- compiere un normale spostamento che non produca un vantaggio tattico e non permetta di evitare un ostacolo o un pericolo;
+- parlare con qualcuno senza tentare di ottenere attraverso il dialogo un effetto sottoposto a meccaniche;
+- usare un Oggetto passivo;
+- attività che non comportano conseguenze (es. bere un bicchiere d'acqua).
 
 Ogni Evento o Role Masterata gestita dal Narratore <u>potrebbe prevedere deroghe o diverse specifiche su questa regola</u>: in quel caso bisogna attenersi alla situazione descritta e alle indicazioni date dal Narratore.
 
 <b>9)</b> Con l’espressione "di colore" si indicano caratteristiche, eventi, descrizioni o interazioni che arricchiscono la narrazione e la caratterizzazione del PG senza produrre conseguenze meccaniche o vantaggi, siano essi o meno regolamentati. Un elemento può essere considerato di colore quando:
-• è compatibile con la Scheda del PG, con l’ambientazione e con il Regolamento;
-• serve ad approfondire la personalità e la storia del PG, il quotidiano o l’atmosfera della giocata;
-• non attribuisce al PG capacità, risorse, conoscenze, relazioni influenti, reputazione o risultati che dovrebbero essere ottenuti attraverso delle role giocate o una specifica meccanica;
-• non permette di aggirare rischi, costi, limiti o conseguenze previste dal Regolamento.
+- è compatibile con la Scheda del PG, con l’ambientazione e con il Regolamento;
+- serve ad approfondire la personalità e la storia del PG, il quotidiano o l’atmosfera della giocata;
+- non attribuisce al PG capacità, risorse, conoscenze, relazioni influenti, reputazione o risultati che dovrebbero essere ottenuti attraverso delle role giocate o una specifica meccanica;
+- non permette di aggirare rischi, costi, limiti o conseguenze previste dal Regolamento.
 
 <b>10)</b> Con l'espressione "<i>da background</i>" si intendono le informazioni, le azioni e gli eventi appartenenti alla storia del PG che non sono stati effettivamente giocati ONGame, ma sono stati stabiliti OFFGame dal suo Player. Questi elementi possono riguardare il passato, il quotidiano, le relazioni o la psicologia del personaggio e servono ad approfondirne il vissuto e la caratterizzazione.
 Gli elementi da background devono essere compatibili con la Scheda, con l’Ambientazione, con il Regolamento e con quanto già avvenuto ONGame. Non possono essere introdotti retroattivamente per attribuire al PG un vantaggio, una capacità non posseduta o una soluzione già pronta a un problema incontrato durante una giocata. Eventuali elementi di background condivisi fra più PG devono essere concordati da tutti i rispettivi Player.
@@ -228,9 +223,9 @@ Dove è presente un lancio di dado da fare, una percentuale, un punteggio a met�
 Che dove è presente un numero con la virgola e di seguito un numero che va da 1 a 9, quel che c'è dopo la virgola viene eliminato e si tiene soltanto il numero principale. Abbiamo scelto di adottare questo principio per comodità e per non dover valutare caso per caso durante tutte le situazioni di gioco che si possono verificare.
 
 Possono fare eccezione a questo principio:
-• i Punti Post e i Galeoni (è possibile avere nella propria Scheda un quantitativo di Galeoni e PP con lo 0,5);
-• le parti di Regolamento in cui è esplicitamente segnalato;
-• lo Staff e il Narratore se lo ritengono opportuno nel valutare qualcosa.
+- i Punti Post e i Galeoni (è possibile avere nella propria Scheda un quantitativo di Galeoni e PP con lo 0,5);
+- le parti di Regolamento in cui è esplicitamente segnalato;
+- lo Staff e il Narratore se lo ritengono opportuno nel valutare qualcosa.
 
 
 ### 5. Lo Spoiler non sostituisce la narrazione
