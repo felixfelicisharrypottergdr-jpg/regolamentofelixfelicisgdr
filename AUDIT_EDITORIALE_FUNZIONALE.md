@@ -448,3 +448,88 @@ Resta da correggere editorialmente, dopo approvazione, almeno:
 - Medimagia: `ClassificazioneXXXXX` → perdita del separatore/formattazione fra “Classificazione” e “XXXXX”.
 
 Sono invece intenzionali o tecnicamente legittimi formule e identificativi come `N°ProprieGobbiglieInGioco`, `1dN°CarteInMano`, `TiroSegmento`, `GoalSegmento`, `GoalBase`, nonché nomi propri come McClan/McPhail e denominazioni di Pozioni/Vaccini in camel case.
+
+
+## Audit di fedeltà strutturale — Blocco A — Inizia da qui
+
+Avviato dopo il completamento dei tre blocchi dell'audit editoriale/funzionale, a seguito del riscontro che parte delle anomalie di gerarchia e leggibilità deriva dalla conversione della formattazione HTML originaria e non dal contenuto regolamentare.
+
+### Principio adottato
+
+La fonte viene trattata come autorevole non soltanto per il testo, ma anche per la **funzione semantica della formattazione**:
+
+- gli indici HTML diventano navigazione nella sidebar e non vengono duplicati come testo nel corpo;
+- `<details>/<summary>` restano contenuti richiudibili;
+- le tabelle restano tabelle;
+- i pallini usati come elenchi diventano liste semantiche;
+- note, esempi e blocchi equivalenti restano distinti dal testo corrente;
+- gli anchor espliciti della fonte vengono conservati, quando utili, come identificatori stabili;
+- immagini e supporti visuali con funzione informativa/editoriale non vengono scartati;
+- la separazione in paragrafi viene conservata invece di fondere righe originariamente distinte.
+
+### Correzioni applicate
+
+#### Valute di Gioco
+
+- rimosso l'INDICE copiato nel corpo e trasferita la sua gerarchia nella sidebar sinistra;
+- ripristinati gli anchor originali della fonte per Punti Post, Galeoni, Felix Token e sottosezioni;
+- convertiti i pallini testuali in liste reali;
+- ripristinata la tabella del guadagno mensile dei Galeoni;
+- ripristinate le due mini-tabelle dell'esempio Studente/Adulto;
+- ripristinati **20 disclosure** Fanta Felix Felicis presenti nella fonte: obiettivi, codice Spam nidificato e categorie dei premi.
+
+#### Allineamenti
+
+- rimosso l'INDICE dal corpo e trasferita la sua gerarchia nella sidebar;
+- ripristinati gli anchor originali per Allineamenti Adulti, Legali/Neutrali/Caotici e Allineamenti Studenti.
+
+#### Popolometro
+
+- rimosso l'INDICE dal corpo e trasferita la voce “Le soglie” nella sidebar;
+- ripristinata come tabella la scala dei sette stati di convivenza, precedentemente appiattita in righe isolate;
+- ripristinata l'immagine del Popolometro associata allo specchietto della fonte;
+- normalizzato l'elenco degli effetti sulle meccaniche.
+
+#### Personaggi Non Giocanti
+
+- rimosso l'INDICE dal corpo e trasferita la sua gerarchia nella sidebar;
+- convertiti i pallini testuali in liste reali;
+- ripristinati gli anchor originali delle sezioni principali;
+- ripristinati i **4 disclosure** presenti nella fonte: Clienti Abituali, Punti Virtuosi, Punti Sinistri e Numeri Guastafeste;
+- ripristinate come tabelle le due scale di successo Virtuosi/Sinistri e la tabella a cinque colonne dei Numeri Guastafeste.
+
+#### Cosa siamo
+
+- ripristinata la separazione dei paragrafi della premessa, che la migrazione aveva quasi completamente fuso;
+- ripristinato l'allineamento centrato della citazione conclusiva.
+
+#### Staff
+
+- ripristinate le quattro grafiche originarie degli Admin, eliminate dalla conversione;
+- ripristinata come tabella la lista Mansione / Staff Token;
+- mantenuti distinti principio, motivazione, esempi e note.
+
+#### Sidebar
+
+- gli indici delle pagine del blocco sono stati trasferiti nella navigazione sinistra usando gli anchor originari;
+- corretto il componente della sidebar per evitare che tutti i link `#ancora` della pagina corrente vengano evidenziati contemporaneamente come pagina attiva.
+
+### Verifica quantitativa del campione
+
+Dopo la correzione:
+
+- Valute: **20 disclosure su 20** della fonte ripristinati;
+- PNG: **4 disclosure su 4** ripristinati;
+- nessuna delle pagine corrette conserva un'intestazione `INDICE` nel corpo;
+- nessuna delle pagine corrette conserva pallini `•` usati al posto di liste semantiche;
+- le principali tabelle appiattite individuate nel campione sono state ricostruite.
+
+### Limite di verificabilità: Regole Generali
+
+La pagina `inizia-da-qui/regole-generali` dichiara nel frontmatter come fonte “1. Le Regole del Gioco / Regole Generali”, ma nel documento Google Drive e nel file sorgente attualmente disponibili non risulta una sezione identificabile come “Regole Generali”, “Norme generali” o “Temi Sensibili”.
+
+Sono state quindi applicate soltanto normalizzazioni tecniche evidenti (rimozione dell'indice HTML dal corpo e conversione dei pallini in liste), ma **la fedeltà strutturale di quella pagina non può essere certificata contro la fonte attuale**. Questo punto resta aperto finché non viene individuata la fonte corretta.
+
+### Conseguenza sull'audit precedente
+
+Le anomalie di heading, monolite e duplicazione rilevate nei primi tre blocchi restano utili, ma devono essere considerate **preliminari** finché la relativa area non ha superato l'audit di fedeltà strutturale. Elementi trasformati erroneamente da `<details>`, tabelle, callout o formattazioni HTML possono infatti produrre falsi H2/H3 e falsi problemi di gerarchia.
