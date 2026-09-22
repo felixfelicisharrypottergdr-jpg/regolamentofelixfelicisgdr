@@ -58,6 +58,7 @@ export default defineConfig({
   },
   integrations: [
     starlight({
+      disable404Route: true,
       title: 'FELIX FELICIS',
       defaultLocale: 'root',
       locales: {
