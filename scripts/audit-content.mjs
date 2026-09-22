@@ -141,6 +141,8 @@ const report = {
   headingJumps: [],
   duplicateTitles: [],
   joinedWordCandidates: [],
+  duplicateParagraphCandidates: [],
+  numericConflictCandidates: [],
 };
 
 for (const [route, files] of routesToFiles.entries()) {
@@ -151,6 +153,22 @@ for (const [route, files] of routesToFiles.entries()) {
 }
 
 const titles = new Map();
+const paragraphIndex = new Map();
+const numericSkeletonIndex = new Map();
+
+function normalizeAuditProse(value) {
+  return value
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/!?!?\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function addIndexed(map, key, item) {
+  const rows = map.get(key) ?? [];
+  rows.push(item);
+  map.set(key, rows);
+}
 const staleRe = /\b(ospiterà integralmente|raccoglierà integralmente|contenuto completo verrà|versione integrale manterrà|migrazione comprenderà|durante la migrazione|questa pagina è inclusa soprattutto|struttura prevista|nel sito definitivo|in questo prototipo)\b/i;
 const legacyRe = /(\[\/?(?:color|quote|url|font|size|center|left|right)(?:=[^\]]*)?\]|\*\*\*\*)/i;
 const markdownLinkRe = /!?\[[^\]]*\]\(([^)]+)\)/g;
@@ -218,6 +236,25 @@ for (const file of docFiles) {
     }
   }
 
+  // Cross-document duplication and numeric-conflict candidates.
+  // These are editorial warnings only: the audit never chooses which rule is canonical.
+  const proseRows = body
+    .split(/\n{2,}/)
+    .map((value) => normalizeAuditProse(value))
+    .filter((value) => value.length >= 120 && !/^#{1,6}\s/.test(value));
+
+  for (const paragraph of proseRows) {
+    const duplicateKey = paragraph.toLocaleLowerCase('it');
+    addIndexed(paragraphIndex, duplicateKey, { file: filePath, text: paragraph });
+
+    if (/\d/.test(paragraph)) {
+      const skeleton = duplicateKey
+        .replace(/[+-]?\d+(?:[.,]\d+)?/g, '<n>')
+        .replace(/\s+/g, ' ');
+      if (skeleton.length >= 100) addIndexed(numericSkeletonIndex, skeleton, { file: filePath, text: paragraph });
+    }
+  }
+
   const knownJoined = new Set(['FantaHogwarts', 'FantaWiz', 'ForumFree', 'Pagefind', 'GitHub', 'ONGame', 'OFFGame']);
   const candidates = [...body.matchAll(/\b[A-Za-zÀ-ÖØ-öø-ÿ]*[a-zà-öø-ÿ][A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ]+\b/g)]
     .map((match) => match[0])
@@ -230,6 +267,34 @@ for (const entries of titles.values()) {
   if (entries.length > 1) report.duplicateTitles.push({ title: entries[0].title, files: entries.map((item) => item.file) });
 }
 
+for (const entries of paragraphIndex.values()) {
+  const files = [...new Set(entries.map((item) => item.file))];
+  if (files.length < 2) continue;
+  report.duplicateParagraphCandidates.push({
+    files: files.slice(0, 12),
+    chars: entries[0].text.length,
+    text: entries[0].text.slice(0, 260),
+  });
+}
+
+for (const entries of numericSkeletonIndex.values()) {
+  const files = [...new Set(entries.map((item) => item.file))];
+  const variants = [...new Set(entries.map((item) => item.text))];
+  if (files.length < 2 || variants.length < 2) continue;
+  report.numericConflictCandidates.push({
+    files: files.slice(0, 12),
+    variants: variants.slice(0, 6).map((value) => value.slice(0, 360)),
+  });
+}
+
+// Keep CI output useful rather than flooding logs on deliberately duplicated legacy material.
+report.duplicateParagraphCandidates = report.duplicateParagraphCandidates
+  .sort((a, b) => b.chars - a.chars || a.files[0].localeCompare(b.files[0], 'it'))
+  .slice(0, 200);
+report.numericConflictCandidates = report.numericConflictCandidates
+  .sort((a, b) => a.files[0].localeCompare(b.files[0], 'it'))
+  .slice(0, 200);
+
 const byFile = (a, b) => {
   const left = typeof a === 'string' ? a : (a.file ?? a.route ?? '');
   const right = typeof b === 'string' ? b : (b.file ?? b.route ?? '');
@@ -239,6 +304,7 @@ for (const key of [
   'duplicateRoutes','brokenInternalLinks','rootRelativeInternalLinks','externalForumLinks',
   'toMigrate','prototypeExcerpt','staleMigrationLanguage','legacyMarkup','monoliths',
   'multipleBodyH1','suspiciousDescriptions','headingJumps','duplicateTitles','joinedWordCandidates',
+  'duplicateParagraphCandidates','numericConflictCandidates',
 ]) {
   report[key].sort(byFile);
 }
