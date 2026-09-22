@@ -31,3 +31,6 @@ jobs:
 
       - name: Build Astro site
         run: npm run build
+
+      - name: Run rendered site audit
+        run: npm run audit:dist
