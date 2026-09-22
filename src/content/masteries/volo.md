@@ -28,7 +28,8 @@ migration:
       item: "Volo Elementale"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Attivazione**
 Volo Elementale viene attivato utilizzando 1 Azione Principale e consumando la Fatica prevista dal Livello della Maestria.
@@ -87,11 +88,11 @@ Il numero massimo di PG trasportabili dipende dal Livello della Maestria:
 *Livello III:* fino a 2 PG
 
 I PG trasportati:
-• non possono compiere Azioni durante il volo;
-• possono comunicare normalmente con il PG che li trasporta;
-• utilizzano la Destrezza di volo del PG che li trasporta per eventuali situazioni in cui sia necessario determinare la capacità di movimento o di permanenza nel volo;
-• non possono utilizzare autonomamente Incantesimi, Conoscenze o Oggetti che richiedano un'interazione materiale con il proprio equipaggiamento;
-• al termine del volo subiscono -3 Fatica.
+- non possono compiere Azioni durante il volo;
+- possono comunicare normalmente con il PG che li trasporta;
+- utilizzano la Destrezza di volo del PG che li trasporta per eventuali situazioni in cui sia necessario determinare la capacità di movimento o di permanenza nel volo;
+- non possono utilizzare autonomamente Incantesimi, Conoscenze o Oggetti che richiedano un'interazione materiale con il proprio equipaggiamento;
+- al termine del volo subiscono -3 Fatica.
 
 Il PG che trasporta altri soggetti mantiene invece normalmente la propria possibilità di movimento e le proprie capacità previste dalla Maestria.
 
@@ -106,3 +107,5 @@ Il consumo avviene esclusivamente al momento dell'attivazione. Tornare alla form
 **Fine del volo**
 Volo Elementale termina quando il PG torna volontariamente alla propria forma materiale oppure quando una condizione, un effetto o una situazione di gioco impedisce il mantenimento della forma elementale.
 Il semplice trascorrere del tempo non interrompe il volo: l'Abilità non possiede una Durata massima espressa in Post e può essere mantenuta finché il PG continua a sostenere le condizioni previste dalla Maestria.
+
+</details>
