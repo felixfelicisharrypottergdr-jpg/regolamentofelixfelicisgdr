@@ -48,11 +48,11 @@ Questa sezione raccoglie le **15 Conoscenze Scolastiche** che non appartengono a
 
 Ogni scheda conserva descrizione, Specifiche, bonus e malus, eccezioni, manuali interni e materiali di consultazione presenti nella fonte.
 
-[Consulta il catalogo completo →](/manuali/conoscenze-scolastiche/conoscenze/)
+[Consulta il catalogo completo →](conoscenze/)
 
 ## Sapienze Fisiche e Sociali
 
 La stessa fonte contiene anche le specifiche operative delle **Sapienze Fisiche** e delle **Sapienze Sociali**. Per non duplicare due sistemi identici in aree diverse del sito, questi contenuti sono stati integrati nelle pagine canoniche della sezione **Conoscenze e Sapienze**:
 
-- [Sapienze Fisiche](/conoscenze-e-sapienze/sapienze/fisiche/)
-- [Sapienze Sociali](/conoscenze-e-sapienze/sapienze/sociali/)
+- [Sapienze Fisiche](../../conoscenze-e-sapienze/sapienze/fisiche/)
+- [Sapienze Sociali](../../conoscenze-e-sapienze/sapienze/sociali/)
