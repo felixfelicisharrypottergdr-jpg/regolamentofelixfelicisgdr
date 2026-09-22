@@ -18,30 +18,6 @@ migration:
 
 # Parametri Magici
 
-**INDICE**
-
-• Acume
-
-• Empatia
-
-• Percezione
-
-• Potenza
-
-• Tecnica
-
-• Volontà
-
-• Guadagnare, perdere, recuperare Parametri Magici
-
-• Parametri Magici e Categorie Magiche
-
-Le azioni dei personaggi, il loro progresso e gran parte delle interazioni tra di loro e con l'ambiente circostante sono regolate e descritte da un sistema di Parametri.
-I Parametri approssimano numericamente o qualitativamente le inclinazioni dei personaggi nel riuscire in determinate azioni, come evocare Incantesimi Offensivi o trovare una scusa adatta per cavarsela in un guaio, e vengono processati per conoscere gli esiti di situazioni incerte.
-Le capacità dei PG Studenti e Adulti (nonchè dei PNG) sono descritte da tre classi di valori: i **Parametri Magici**, i **Parametri Fisici** e i **Parametri Sociali**.
-Ci sono 6 Parametri Magici, ciascuno connesso alla capacità del Personaggio nelle diverse branche magiche o in particolari situazioni di azione.
-I Parametri Magici più alti permettono effetti maggiori nell'uso di alcune tipologie di Conoscenze magiche come Incantesimi, Pozioni e altri tipi di cose che è permesso fare. A volte, i Parametri Magici fungono anche da soglie, per esempio è possibile fare una determinata cosa soltanto se il PG possiede un certo valore di un certo Parametro Magico.
-
 ## Acume
 
 L'**Acume** descrive la perspicacia e la scaltrezza di un PG. Non è dunque la stima di ciò che un PG conosce o la somma delle conoscenze guadagnate nel tempo (che corrispondono invece alla Sapienza), piuttosto la capacità di un PG di cogliere connessioni nascoste fra gli elementi, leggere fra le righe, avere illuminazioni, comprendere meccanismi complicati e interpretare dei dati in maniera ampia e precisa.
@@ -79,6 +55,7 @@ La **Volontà** descrive la capacità del PG di tendere con decisione e piena au
 Sapienze connesse: Oscura, Mentale
 Mestieri di riferimento: Difensore
 
+<a id="guadagnareperderemagici"></a>
 ## Guadagnare, perdere, recuperare Parametri Magici
 
 I Parametri Magici possono essere **guadagnati** in due modi:
@@ -88,6 +65,7 @@ I Parametri Magici possono essere **persi**sia **temporaneamente che permanentem
 Il **recupero**dei Parametri Magici persi dipende dalle circostanze specifiche di gioco. In genere, il recupero avviene con il **passare del tempo** o tramite l'**uso** di Pozioni, Conoscenze Magiche, o altre risorse come Ingredienti e Oggetti. Ogni situazione di gioco in cui un Parametro viene ridotto o perso potrebbe avere regole particolari per il recupero, che dovranno essere seguite o determinate dal Narratore o, dove questo non è presente, dalle regole esplicitate ad ogni caso specifico.
 Nelle situazioni di gioco in cui è presente il Narratore, questo può dare indicazioni diverse a seconda della propria discrezione e dello scenario in corso.
 
+<a id="paraecat"></a>
 ## Parametri Magici e Categorie Magiche
 
 Le **Categorie Magiche** hanno valenza ONGame, poiché il Ministero della Magia tiene conto dei maghi e delle streghe di cui poter richiedere specifici servigi in caso di necessità.
