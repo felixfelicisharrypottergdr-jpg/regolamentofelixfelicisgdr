@@ -528,4 +528,4 @@ Asticello (V)
 Augurey (V)
 Avvincino (VI)
 
-[Apri il Bestiario completo →](/manuali/magizoologia/bestiario/)
+[Apri il Bestiario completo →](../bestiario/)
