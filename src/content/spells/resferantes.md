@@ -42,7 +42,7 @@ può utilizzare la propria forza di Volontà.
 Se l'umano-animale viene ferito, il PG viene subito de-trasfigurato nella sua forma umana
 con un danno in Salute/Fatica/Destrezza/Resistenza stabilito di volta in volta dal Narratore.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -92,3 +92,5 @@ aggiungendo +1 possibilità per ogni livello di
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) eventualmente posseduto e togliendo
 -1 possibilità per ogni Sapienza Trasfigurativa eventualmente posseduta dell'evocatore
 diviso 5 (Sapienza Trasfigurativa evocatore/5).
+
+</details>

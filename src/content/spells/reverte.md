@@ -32,8 +32,10 @@ originale; utile per rimettere a posto uno o più oggetti disordinati o a cui è
 precedentemente cambiata posizione.
 Esso funziona soltanto su oggetti di natura non magica.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

@@ -40,9 +40,9 @@ dell’evocatore e di chi lo circonda.
 
 > **Nota.**
 >
-• Non funziona per evidenziare passaggi segreti.
+- Non funziona per evidenziare passaggi segreti.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -60,3 +60,5 @@ La Forza di questo incantesimo dipende dall'abilità dell'evocatore.
 *Incantesimo lanciato da PG Adulti con Sapienza Arcaica 1+*
 
 **Forza:** 130
+
+</details>

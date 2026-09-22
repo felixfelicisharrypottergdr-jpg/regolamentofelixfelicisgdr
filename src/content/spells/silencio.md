@@ -33,11 +33,11 @@ temporaneamente la vittima della capacità di parlare o emettere suoni. Funziona
 esseri viventi, quindi anche sulle Creature e Piante Magiche.
 > **Nota.**
 >
-• PG colpiti da questo incantesimo non possono parlare, e dunque pronunciare formule
+- PG colpiti da questo incantesimo non possono parlare, e dunque pronunciare formule
 magiche o versi, per un certo numero di post.
-• Può essere annullato lanciando un [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) con più forza del Silencio utilizzato.
+- Può essere annullato lanciando un [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) con più forza del Silencio utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -54,3 +54,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 post del bersaglio
+
+</details>

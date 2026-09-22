@@ -34,7 +34,7 @@ Con questa maledizione è possibile altresì recidere violentemente parti del co
 
 > **Bonus.**
 >
-• PG con **Sapienza Oscura 25** non rischiano mai di ferire loro stessi, pertanto non
+- PG con **Sapienza Oscura 25** non rischiano mai di ferire loro stessi, pertanto non
 devono lanciare il dado per capire se si feriscono.
 
 > **Nota.**
@@ -42,7 +42,7 @@ devono lanciare il dado per capire se si feriscono.
 E' possibile proteggersi da questo incantesimo mediante l'uso di uno scudo difensivo; le
 ferite possono essere rimarginate tramite l'uso di Vulnera Sanentur.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -50,26 +50,26 @@ ferite possono essere rimarginate tramite l'uso di Vulnera Sanentur.
 da Incantesimi > Sectumsempra)
 
 **Requisiti:**
-• 20 Malvagità se PG Studenti
-• Sapienza Oscura OPPURE 20 Sinistri se PG Adulti**Parti del corpo colpibili contemporaneamente**
+- 20 Malvagità se PG Studenti
+- Sapienza Oscura OPPURE 20 Sinistri se PG Adulti**Parti del corpo colpibili contemporaneamente**
 PG che riescono nell'evocazione possono colpire contemporaneamente un certo numero di
 parti del corpo, **anche su più bersagli diversi**, contemporaneamente in base a
 quanto segue:
 *Maledizione lanciata da PG Studenti*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: max 3
-• 66%: max 2
-• 33%: max 1
+- 100%: max 3
+- 66%: max 2
+- 33%: max 1
 *Maledizione lanciata da PG Adulti senza Sapienza Oscura*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: max 6
-• 66%: max 5
-• 33%: max 4
+- 100%: max 6
+- 66%: max 5
+- 33%: max 4
 *Maledizione lanciata da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: max 9
-• 66%: max 8
-• 33%: max 7
+- 100%: max 9
+- 66%: max 8
+- 33%: max 7
 **Perdere il controllo del Sectumsempra**
 PG che riescono nella sua evocazione rischiano di non riuscire a controllare una magia
 oscura tanto potente, e quindi di ferire anche loro stessi. Devono quindi lanciare **1d15
@@ -78,16 +78,18 @@ di farsi male a loro volta. Nel caso in cui perdano il controllo, anche i suoi e
 difendersi dalla maledizione.
 *Maledizione lanciata da PG Studenti*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: se 1-7 su 1d15
-• 66%: se 1-8 su 1d15
-• 33%: se 1-9 su 1d15
+- 100%: se 1-7 su 1d15
+- 66%: se 1-8 su 1d15
+- 33%: se 1-9 su 1d15
 *Maledizione lanciata da PG Adulti senza Sapienza Oscura*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: se 1-4 su 1d15
-• 66%: se 1-5 su 1d15
-• 33%: 1-6 su 1d15
+- 100%: se 1-4 su 1d15
+- 66%: se 1-5 su 1d15
+- 33%: 1-6 su 1d15
 *Maledizione lanciata da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
-• 100%: 1 su 1d15
-• 66%: se 1-2 su 1d15
-• 33%: se 1-3 su 1d15
+- 100%: 1 su 1d15
+- 66%: se 1-2 su 1d15
+- 33%: se 1-3 su 1d15
+
+</details>

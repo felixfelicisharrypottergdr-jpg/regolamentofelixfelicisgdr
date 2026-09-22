@@ -28,7 +28,7 @@ migration:
       item: "Salvio Hexia"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia in una role singola. Se utilizzato per proteggere un'abitazione, una
 Riserva, una Serra o un'altra zona di qualsiasi tipo, dura 10 role svolte all'interno di quella
@@ -50,3 +50,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 33%: 5 post dell'evocatore; -2 possibilità di percepirlo
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 - 100%: 8 post dell'evocatore, -5 possibilità di percepirlo
+
+</details>

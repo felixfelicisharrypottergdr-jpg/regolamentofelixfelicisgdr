@@ -40,10 +40,10 @@ dell'Incantesimo *Sede Ubi Es*.
 > **Nota.**
 > • L'Evocatore è immune all'incantesimo. Ciò significa che esso può smaterializzarsi
 liberamente all'interno della zona protetta, per entrarvi o uscirvi.
-• PG che tentano di smaterializzarsi per entrare o uscire dalla zona protetta con Sede Ubi Es
+- PG che tentano di smaterializzarsi per entrare o uscire dalla zona protetta con Sede Ubi Es
 si spaccano autoconclusivamente.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia in una role singola. Se utilizzato per proteggere un'abitazione, una
 Riserva, una Serra o un'altra zona di qualsiasi tipo, dura 20 role svolte all'interno di quella
@@ -68,3 +68,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 33%: 5 post dell'evocatore; -2 possibilità di percepirlo
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 - 100%: 8 post dell'evocatore, -5 possibilità di percepirlo
+
+</details>

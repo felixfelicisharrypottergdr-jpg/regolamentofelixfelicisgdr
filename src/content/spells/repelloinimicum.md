@@ -31,7 +31,7 @@ migration:
       item: "Repello Inimicum"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea se usato singolarmente; se applicato ad uno scudo, ha la stessa
 durata dello scudo su cui è stato applicato.
@@ -84,3 +84,5 @@ Sapienza Difensiva al 66% (**-45 Salute, +6 post**) ottengono:
 **3 + 3 + 6 = 12 post**
 → Effetto finale: **-47 Salute** e **+6 post** (valori divisi a metà: 95/2 e
 12/2)
+
+</details>

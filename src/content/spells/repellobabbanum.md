@@ -29,7 +29,7 @@ migration:
       item: "Repello Babbanum"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia in una role singola. Se utilizzato per proteggere un'abitazione, una
 Riserva, una Serra o un'altra zona di qualsiasi tipo, dura 20 role svolte all'interno di quella
@@ -59,11 +59,13 @@ l'esatta posizione del luogo nascosto.
 Per individuarla è necessario agire come spiegato nella
 Guida alla Tracciatura.
 **Altre specifiche**
-• Se il PG vuole arrivare a pescare un esito favorevole dopo un primo tentativo fallimentare
+- Se il PG vuole arrivare a pescare un esito favorevole dopo un primo tentativo fallimentare
 può ritentare il lancio di Tracciatura in una role ambientata almeno qualche ora dopo il primo
 tentativo;
-• Se il PG pesca un esito favorevole deve contattare il Narratore perché gli fornisca la
+- Se il PG pesca un esito favorevole deve contattare il Narratore perché gli fornisca la
 descrizione degli elementi e degli indizi che vede, con cui poter interagire;• Luoghi occultati con *Repello Babbanum* possono essere celati da ulteriori
 incantesimi che possono essere annullati con Dissendium o Finite Incantatem soltanto se la
 loro Forza è superiore alla Forza dell'incantesimo posto a protezione della stanza o
 passaggio;
+
+</details>

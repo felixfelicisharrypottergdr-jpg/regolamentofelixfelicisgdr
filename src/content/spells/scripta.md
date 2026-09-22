@@ -32,8 +32,10 @@ Permette di incidere qualsiasi
 superficie come se si stesse utilizzando uno scalpello o un altro oggetto appuntito. Non può
 essere utilizzato sugli esseri viventi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** le scritte permangono per 10 post dell’evocatore
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

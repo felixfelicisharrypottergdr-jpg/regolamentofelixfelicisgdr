@@ -29,7 +29,7 @@ migration:
       item: "Riddikulus"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -45,3 +45,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 4
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 - 100%: max 5
+
+</details>
