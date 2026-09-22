@@ -40,4 +40,4 @@ Certo, il forum ha le sue regole come tutti, ma questo è argomento degli altri 
 
 Come un saggio disse una volta:
 
-<p class="felix-source-center"><em>Il mondo reale è già abbastanza complicato là fuori, per complicarselo anche in un gioco.</em></p>
+<p style="text-align:center"><em>Il mondo reale è già abbastanza complicato là fuori, per complicarselo anche in un gioco.</em></p>
