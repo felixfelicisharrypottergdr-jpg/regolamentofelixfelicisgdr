@@ -145,6 +145,12 @@ const report = {
   numericConflictCandidates: [],
 };
 
+// Audit stale migration/prototype language also in hand-authored Astro pages.
+for (const file of pageFiles) {
+  const text = await fs.readFile(file, 'utf8');
+  if (staleRe.test(text)) report.staleMigrationLanguage.push(rel(file));
+}
+
 for (const [route, files] of routesToFiles.entries()) {
   if (files.length > 1) {
     report.duplicateRoutes.push({ route, files });
