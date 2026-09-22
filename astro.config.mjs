@@ -29,6 +29,70 @@ function remarkFelixHeadingHierarchy() {
   };
 }
 
+
+function remarkFelixEditorialUx() {
+  const textOf = (node) => {
+    if (!node || typeof node !== 'object') return '';
+    if (node.type === 'text' || node.type === 'inlineCode') return node.value || '';
+    if (!Array.isArray(node.children)) return '';
+    return node.children.map(textOf).join('');
+  };
+  const addClass = (node, className) => {
+    node.data ||= {};
+    node.data.hProperties ||= {};
+    const current = node.data.hProperties.className;
+    const classes = Array.isArray(current) ? current : current ? [current] : [];
+    if (!classes.includes(className)) classes.push(className);
+    node.data.hProperties.className = classes;
+  };
+
+  return (tree) => {
+    const walk = (node) => {
+      if (!node || typeof node !== 'object') return;
+
+      if (node.type === 'blockquote') {
+        const label = textOf(node.children?.[0] || {}).trim().toLowerCase();
+        addClass(node, 'felix-callout');
+        if (label.startsWith('nota')) addClass(node, 'is-note');
+        else if (label.startsWith('perché')) addClass(node, 'is-why');
+        else if (label.startsWith('esempio')) addClass(node, 'is-example');
+        else if (label.startsWith('principio')) addClass(node, 'is-principle');
+        else if (label.startsWith('attenzione')) addClass(node, 'is-warning');
+      }
+
+      if (node.type === 'table') addClass(node, 'felix-prose-table');
+
+      if (node.type === 'paragraph') {
+        const value = textOf(node).trim();
+        const onlyStrong = Array.isArray(node.children) && node.children.length === 1 && node.children[0]?.type === 'strong';
+        if (onlyStrong && value.length <= 90) addClass(node, 'felix-minor-heading');
+        if (/^parametro affine:/i.test(value)) addClass(node, 'felix-keyline');
+        if (/^esempio(?: di|:)/i.test(value)) addClass(node, 'felix-inline-example');
+      }
+
+      if (Array.isArray(node.children)) {
+        for (let i = 0; i < node.children.length; i += 1) {
+          const child = node.children[i];
+          const prev = node.children[i - 1];
+
+          if (child?.type === 'paragraph' && prev?.type === 'heading' && prev.depth <= 2 && textOf(child).trim().length > 80) {
+            addClass(child, 'felix-section-lead');
+          }
+
+          if (child?.type === 'list') {
+            const prevText = textOf(prev || {}).trim().toLowerCase();
+            if (prevText.startsWith('effetti sulle meccaniche')) addClass(child, 'felix-effect-list');
+            if (prevText.startsWith('i punti post') || prevText.startsWith('il costo')) addClass(child, 'felix-scan-list');
+          }
+
+          walk(child);
+        }
+      }
+    };
+    walk(tree);
+  };
+}
+
 function remarkFelixBaseLinks(options = {}) {
   const configured = options.base || '/';
   const prefix = configured.endsWith('/') ? configured : `${configured}/`;
@@ -53,7 +117,7 @@ export default defineConfig({
   base,
   markdown: {
     processor: unified({
-      remarkPlugins: [remarkFelixHeadingHierarchy, [remarkFelixBaseLinks, { base }]],
+      remarkPlugins: [remarkFelixHeadingHierarchy, remarkFelixEditorialUx, [remarkFelixBaseLinks, { base }]],
     }),
   },
   integrations: [
