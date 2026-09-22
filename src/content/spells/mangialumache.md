@@ -37,7 +37,7 @@ meno che non venga utilizzato su di lui un [Finite Incantatem](/manuali/incantes
 Il PG colpito da questo incantesimo riesce a pronunciare la formula di un altro incantesimo
 senza vomitare se 1/3
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -59,3 +59,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 8 post del bersaglio
+
+</details>

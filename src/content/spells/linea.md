@@ -37,18 +37,20 @@ nel giro di qualche istante.
 
 > **Nota.**
 >
-• La Linea è in grado di respingere maghi e streghe che provano a celare la propria età
+- La Linea è in grado di respingere maghi e streghe che provano a celare la propria età
 tramite l'uso di una Pozione Invecchiante o trasfigurazioni di vario genere.
-• Non è invece capace di impedire il passaggio di persone mascherate dagli effetti della
+- Non è invece capace di impedire il passaggio di persone mascherate dagli effetti della
 Pozione Polisucco.
-• E' possibile ingannare la linea anche grazie all'uso dell'Incantesimo
+- E' possibile ingannare la linea anche grazie all'uso dell'Incantesimo
 [Illusio Objectis](/manuali/incantesimi/illusioobjectis/) ma solo se la sua Forza è superiore
 alla Forza della Linea dell'Età.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè l’Incantesimo non viene annullato
 
 **Parametro del bersaglio intaccato:** se supera la Linea con età sbagliata, Salute (vedi
 Enciclopedia Medimagica > Lesioni da
 Incantesimi > Sbalzamento da Linea dell'età)
+
+</details>

@@ -38,7 +38,7 @@ La durata dell'inseguimento dipende dall'abilità dell'evocatore. Per fermarlo, 
 
 > **Nota.**
 >
-• Questo incantesimo danneggia la Destrezza, la Resistenza e la Fatica del bersaglio
+- Questo incantesimo danneggia la Destrezza, la Resistenza e la Fatica del bersaglio
 insieme ad un altro Parametro Magico che dipende dal meteo scelto. E' possibile fare
 inseguire il bersaglio/i bersagli da:
 - *Fulmini:* stordiscono il bersaglio, danneggiano l'Acume;
@@ -56,7 +56,7 @@ più difficoltà a muoversi velocemente; la Resistenza perché è più esposto a
 per via della bassa temperatura corporea; e la Fatica perché il freddo costringe il corpo a
 consumare molta energia per scaldarsi).
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea per quanto riguarda l'incantesimo. La durata degli effetti ed il
 tempo in cui il PG Bersaglio è inseguito dal meteo scelto varia.
@@ -78,3 +78,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*
 Se la Forza dell'incantesimo precedentemente evocato è...
 - 100%: max 6 PG; 6 post dell'evocatore
+
+</details>

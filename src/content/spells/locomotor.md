@@ -45,16 +45,16 @@ incantesimo.
 
 > **Nota.**
 >
-• E' possibile utilizzare altri incantesimi contemporaneamente all'utilizzo di Locomotor perchè
+- E' possibile utilizzare altri incantesimi contemporaneamente all'utilizzo di Locomotor perchè
 l'evocatore controlla l'oggetto con la propria voce. E' possibile terminare anticipatamente
 l'animazione dell'oggetto smettendo di controllarlo. Comandare un oggetto in un post costa
 **1 Azione/Azione Bonus** a seconda del caso e delle indicazioni del Narratore.
-• La Destrezza, Forza e Resistenza degli oggetti animati viene stabilita di volta in volta dal
+- La Destrezza, Forza e Resistenza degli oggetti animati viene stabilita di volta in volta dal
 Narratore;
-• Non è necessario specificare in latino il nome del tipo di oggetto che si vuole animare per
+- Non è necessario specificare in latino il nome del tipo di oggetto che si vuole animare per
 far sì che l'incantesimo funzioni.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -76,3 +76,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 3 oggetti per volta per 5 post dell'evocatore
 - 66%: max 3 oggetti per volta per 4 post dell'evocatore
 - 33%: max 3 oggetti per volta per 3 post dell'evocatore
+
+</details>

@@ -42,13 +42,13 @@ con più forza del *Meteo Incanto* precedentemente evocato.
 > **Nota.**
 >
 Con questo incantesimo è possibile creazione una zona di meteo:
-• Soleggiato
-• Piovoso
-• In tempesta
-• In bufera di neve
-• Nebbioso
+- Soleggiato
+- Piovoso
+- In tempesta
+- In bufera di neve
+- Nebbioso
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -74,3 +74,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 - 33%: max 3 PG; 3 post dell'evocatore
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*
 - 100%: max 6 PG; 6 post dell'evocatore
+
+</details>

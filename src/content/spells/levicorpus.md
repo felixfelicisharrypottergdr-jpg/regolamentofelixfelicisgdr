@@ -38,21 +38,21 @@ Fattura.
 
 > **Nota.**
 >
-• Il PG colpito da questo incantesimo, nell'atto di essere sbalzato verso l'alto, perde la
+- Il PG colpito da questo incantesimo, nell'atto di essere sbalzato verso l'alto, perde la
 bacchetta se 1/5;
-• Il PG colpito da questo incantesimo non può camminare, correre o schivare incantesimi;
+- Il PG colpito da questo incantesimo non può camminare, correre o schivare incantesimi;
 tuttavia, se non perde la bacchetta, può continuare a lanciare incantesimi con il malus di
 Destrezza e Fatica previsto.
 
 > **Nota.**
 >
-• PG che viaggiano tramite i Mezzi di Trasporto
+- PG che viaggiano tramite i Mezzi di Trasporto
 magici o che subiscono Levicorpus contraggono la
 Leviostosi se 1 di 1d10.
-• Ogni volta che il PG perde la bacchetta, rischia di vedersela finire sul naso, sull'orecchio o
+- Ogni volta che il PG perde la bacchetta, rischia di vedersela finire sul naso, sull'orecchio o
 sull'occhio. Maggiori informazioni QUI
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -71,3 +71,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 post del bersaglio
+
+</details>

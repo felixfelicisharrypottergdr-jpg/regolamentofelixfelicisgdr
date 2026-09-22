@@ -33,23 +33,23 @@ manipolarli a suo piacimento, utilizzarli e sfruttarli secondo necessità.
 
 > **Bonus.**
 >
-• PG con **Sapienza Elementale 25** possono controllare gli elementi di suo interesse
+- PG con **Sapienza Elementale 25** possono controllare gli elementi di suo interesse
 senza bacchetta ma con l'utilizzo dell'altra mano: pertanto possono evocare altri incantesimi
 contemporaneamente al Manipolo.
 
 > **Nota.**
 >
 Con questo incantesimo è possibile per esempio:
-• immergere bersagli in una o più sfere d'acqua;
-• creare dei tornado di fuoco, d'acqua, d'aria o di detriti di terra attorno al bersaglio;
-• far emergere massi e spaccature da un terreno naturale;
-• lanciare al bersaglio sfere o proiettili di acqua, aria, terra o fuoco;
-• controllare getti d'acqua, fuoco, terra o aria avversari;
-• far muovere aria, terra, acqua o fuoco a proprio piacimento.
+- immergere bersagli in una o più sfere d'acqua;
+- creare dei tornado di fuoco, d'acqua, d'aria o di detriti di terra attorno al bersaglio;
+- far emergere massi e spaccature da un terreno naturale;
+- lanciare al bersaglio sfere o proiettili di acqua, aria, terra o fuoco;
+- controllare getti d'acqua, fuoco, terra o aria avversari;
+- far muovere aria, terra, acqua o fuoco a proprio piacimento.
 Altri fantasiosi utilizzi sono certamente possibili, l'unico requisito è che si tratti di **elementi
 naturali** che abbiano a che fare con acqua, aria, terra e fuoco. Non ha effetto, per
 esempio, se si cerca di utilizzare come proiettili di "terra" edifici o muri crollati.
-• Non è possibile utilizzare un altro incantesimo contemporaneamente e finchè si utilizza
+- Non è possibile utilizzare un altro incantesimo contemporaneamente e finchè si utilizza
 *Manipolo*.
 
 > **Nota.**
@@ -57,7 +57,7 @@ esempio, se si cerca di utilizzare come proiettili di "terra" edifici o muri cro
 PG che utilizzano incantesimi di ghiaccio ONGame contraggono la
 Falangelatese, lanciando 1d10, pescano 1.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè il PG mantiene il controllo
 
@@ -92,3 +92,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli
 - 66%: max 4 bersagli
 - 33%: max 3 bersagli
+
+</details>

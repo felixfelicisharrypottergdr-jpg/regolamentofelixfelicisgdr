@@ -30,18 +30,18 @@ migration:
 
 > **Nota.**
 >
-• E' possibile provare a fermare l'Incantesimo mediante l'evocazione di uno scudo difensivo
+- E' possibile provare a fermare l'Incantesimo mediante l'evocazione di uno scudo difensivo
 o l'uso di [Occlumanzia](/manuali/incantesimi/occlumanzia/) con Forza uguale o
 maggiore al *Legilimens* utilizzato.
-• Per l'utilizzo di questo incantesimo va sempre fatta richiesta al Narratore, che certificherà la
+- Per l'utilizzo di questo incantesimo va sempre fatta richiesta al Narratore, che certificherà la
 casistica di riferimento come da specifiche e darà le indicazioni a player per poter proseguire
 con la giocata.
-• Il Narratore può chiedere ai player dei PG di fornire dei ricordi da background, se colpito da
+- Il Narratore può chiedere ai player dei PG di fornire dei ricordi da background, se colpito da
 Legilimens.
-• L'uso di questo Incantesimo senza consenso su altri PG è **illegale**. Soltanto il
+- L'uso di questo Incantesimo senza consenso su altri PG è **illegale**. Soltanto il
 Ministero, in particolari circostanze, può consentirne agli Auror o ai Voluntas il suo utilizzo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -110,9 +110,9 @@ Si definisce bersaglio consenziente un PG/PNG che permette al PG Legilimante di 
 nella sua testa senza opporsi.
 In questo caso, è il bersaglio a guidare tra i propri ricordi il Legilimante, quindi il bersaglio
 può:
-• sia permettere al Legilimante di vagare tra i ricordi che vuole fino a trovare quello/i di suo
+- sia permettere al Legilimante di vagare tra i ricordi che vuole fino a trovare quello/i di suo
 interesse;
-• sia mostrare al Legilimens una sequenza di ricordi scelti dal bersaglio stesso.
+- sia mostrare al Legilimens una sequenza di ricordi scelti dal bersaglio stesso.
 In entrambi i casi, è il PG bersaglio a fornire i ricordi secondo le modalità precedentemente
 descritte.
 **Utilizzo su bersaglio non consenziente**
@@ -123,9 +123,9 @@ ricordo/i di suo interesse. Tuttavia, non è detto che riesca con certezza a tro
 cerca. Ci sono più probabilità che accada tanto più è abile l'evocatore.
 Al lancio di **1d10**, infatti, il PG Legilimante trova nella mente del bersaglio il/i ricordi
 che cerca se:
-• **Incantesimo lanciato da PG Studenti:** 1-4 su 1d10
-• **PG Adulti senza Sapienza Mentale:** 1-6 su 1d10
-• **PG con Sapienza Mentale 1+:** 1-8 su 1d10
+- **Incantesimo lanciato da PG Studenti:** 1-4 su 1d10
+- **PG Adulti senza Sapienza Mentale:** 1-6 su 1d10
+- **PG con Sapienza Mentale 1+:** 1-8 su 1d10
 Il dado deve essere lanciato per ogni ricordo a disposizione del Legilimante: nel caso in cui
 si ottenga un esito positivo, il Legilimante vedrà un ricordo riferito alla propria ricerca, in caso
 di esito negativo vedrà un altro ricordo casuale.
@@ -148,3 +148,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: nessuno
 - 66%: nessuno
 - 33%: -1 Parametri sopra per 5 post del PG bersaglio dal termine dell'Incantesimo
+
+</details>

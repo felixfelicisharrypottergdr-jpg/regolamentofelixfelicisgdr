@@ -29,8 +29,10 @@ migration:
       item: "Lumos Maxima*"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** fino all’utilizzo di Nox
 
 **Parametro del bersaglio intaccato:** //
+
+</details>
