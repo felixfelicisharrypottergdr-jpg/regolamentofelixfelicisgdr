@@ -2,7 +2,7 @@
 felixId: "9b2091f2-084c-4cc1-8cbf-098b0b6d4568"
 title: "Regole Generali"
 description: "Norme Generali, divieti, Principi e Temi Sensibili."
-contentType: landing
+contentType: rule
 searchAliases: [regole generali, norme generali, vietato, principi, temi sensibili]
 prototypeExcerpt: false
 migration:
@@ -81,7 +81,7 @@ Ogni Evento o Role Masterata gestita dal Narratore <u>potrebbe prevedere deroghe
 <strong class="felix-rule-number" aria-label="Regola 10">10)</strong> Con l'espressione "<i>da background</i>" si intendono le informazioni, le azioni e gli eventi appartenenti alla storia del PG che non sono stati effettivamente giocati ONGame, ma sono stati stabiliti OFFGame dal suo Player. Questi elementi possono riguardare il passato, il quotidiano, le relazioni o la psicologia del personaggio e servono ad approfondirne il vissuto e la caratterizzazione.
 Gli elementi da background devono essere compatibili con la Scheda, con l’Ambientazione, con il Regolamento e con quanto già avvenuto ONGame. Non possono essere introdotti retroattivamente per attribuire al PG un vantaggio, una capacità non posseduta o una soluzione già pronta a un problema incontrato durante una giocata. Eventuali elementi di background condivisi fra più PG devono essere concordati da tutti i rispettivi Player.
 
-<b>11) </b> Una role può essere ambientata in una data diversa da quella della sua apertura OFFGame, purché non sia collocata più di due mesi prima o più di due mesi dopo tale data.
+<strong class="felix-rule-number" aria-label="Regola 11">11)</strong>  Una role può essere ambientata in una data diversa da quella della sua apertura OFFGame, purché non sia collocata più di due mesi prima o più di due mesi dopo tale data.
 All’inizio della giocata devono essere indicati la data ONGame e il momento della giornata in cui si svolge, specificando <u>l’ora esatta</u> quando è rilevante per la scena o per una meccanica. In assenza di indicazioni, farà fede la data di apertura OFFGame e si considererà il momento della giornata coerente con l’orario di apertura o con quanto narrato all'interno del primo post della giocata.
 È sconsigliato aprire role ambientate nel futuro quando il PG è coinvolto in giocate ancora in corso il cui esito potrebbe produrre conseguenze importanti. In caso di Quest, scontri o altre situazioni ad alto rischio, il Narratore può imporre espressamente un blocco temporale, vietando ai PG coinvolti di giocare eventi successivi fino alla risoluzione delle scene più incerte.
 
