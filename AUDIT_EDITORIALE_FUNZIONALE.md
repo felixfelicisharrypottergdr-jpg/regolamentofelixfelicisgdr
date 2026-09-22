@@ -703,3 +703,106 @@ Gli anchor espliciti `incantesimi` e `pozioni` non sono stati mantenuti come ele
 - **0 INDICI residui** nel corpo delle sette pagine;
 - **0 pallini grezzi** usati come pseudo-liste;
 - nessun ID custom duplicato rilevato nel controllo sorgente.
+
+
+## Audit di fedeltà strutturale — Blocco G — Le Sapienze
+
+Confronto eseguito contro la fonte **5. Le Sapienze**.
+
+### Riscontro principale
+
+Il problema strutturale dominante non riguardava disclosure: la fonte non contiene alcun `<details>`. Il trasferimento aveva invece appiattito **26 tabelle HTML** trasformandole in sequenze verticali di testo.
+
+Distribuzione delle tabelle nella fonte:
+
+- Sapienze Magiche: **16**;
+- Sapienze Fisiche: **5**;
+- Sapienze Sociali: **5**.
+
+Nel sito migrato, prima della correzione, le cinque pagine del blocco contenevano **0 tabelle semantiche**.
+
+### Correzioni applicate
+
+#### Cosa sono le Sapienze
+
+- rimosso dal corpo l'indice generale della fonte;
+- normalizzate le liste delle configurazioni massime;
+- ripristinato l'anchor originale `definizione`;
+- trasferito l'indice generale nella sidebar, distribuendo correttamente i collegamenti fra le pagine separate Magiche, Fisiche e Sociali.
+
+#### Sapienze Magiche
+
+- ricostruite **16 tabelle su 16**:
+  - tabella modello “Nome Sapienza”;
+  - tre tabelle degli esempi sulla Sapienza Difensiva;
+  - dodici tabelle delle Sapienze Magiche disponibili;
+- ripristinate intestazioni, colonne di costo e Livelli I–V;
+- mantenuti i nomi visibili delle Conoscenze senza reintrodurre il vecchio BBCode ForumFree dei link;
+- normalizzate le liste dei bonus di Forza;
+- ripristinati gli anchor originali `magiche`, `compomagiche`, `costosapmagica`, `magichedovecome`, `adulticreati`, `studadul`, `noaffine`, `sapmagcelate`, `magichedisp`;
+- ripristinati anche i dodici anchor delle singole Sapienze (`sapienzarcaica` … `sapienzatrasfigurativa`) davanti alle rispettive tabelle;
+- corretto un primo inserimento degli anchor che li collocava dentro `<thead>`: ora sono esterni alla tabella, come nella fonte e secondo HTML valido.
+
+#### Sapienze Fisiche
+
+- ricostruite **5 tabelle su 5**:
+  - tabella modello dei costi;
+  - Prestanza;
+  - Rapidità;
+  - Resilienza;
+  - Vigore;
+- ripristinati gli anchor `fisiche`, `fisichedovecome`, `compofisiche`, `costosapfisiche`, `fisichedisp`.
+
+#### Sapienze Sociali
+
+- ricostruite **5 tabelle su 5**:
+  - tabella modello dei costi;
+  - Leader;
+  - Motivatore;
+  - Oppositore;
+  - Persuasore;
+- ripristinati gli anchor `sociali`, `socialidovecome`, `composociali`, `costosapsociale`, `socialidisp`.
+
+#### Crescita a Debito
+
+La fonte contiene un secondo indice autonomo e tre strutture ordinate che la migrazione non aveva preservato correttamente.
+
+Sono stati:
+
+- rimosso l'INDICE dal corpo e trasferito nella sidebar;
+- ripristinati gli anchor `condizioni`, `distribuzione`, `limiti`, `convivere`, `fasce`, `costi`, `compiladebito`;
+- normalizzati tutti i pallini testuali in liste semantiche;
+- ripristinato l'elenco numerato delle **7 fasce di crescita**, mantenendo la numerazione originale con partenza da **0**;
+- ripristinati i due elenchi ordinati da **1 a 5** dei costi per Livello di Sapienze Magiche e Sapienze Fisiche/Sociali;
+- eliminate le righe isolate `-` generate erroneamente dalla conversione delle liste ordinate.
+
+### Sidebar e navigazione
+
+La sidebar ricostruisce ora i due indici della fonte senza duplicarli nel testo:
+
+- indice generale delle Sapienze, distribuito tra pagina introduttiva, Magiche, Fisiche e Sociali;
+- indice specifico della Crescita a Debito, con condizioni, distribuzione, limiti, convivenza col debito, fasce, costi e compilazione.
+
+Sono conservati **39 anchor originari**, distribuiti sulle cinque pagine canoniche.
+
+### Stato quantitativo dopo la correzione
+
+- tabelle Sapienze Magiche: **16 aperte / 16 chiuse**;
+- tabelle Sapienze Fisiche: **5 / 5**;
+- tabelle Sapienze Sociali: **5 / 5**;
+- totale tabelle ripristinate: **26 / 26**;
+- disclosure: **0**, coerentemente con la fonte;
+- INDICI residui nel corpo: **0**;
+- pallini grezzi usati come pseudo-liste: **0**;
+- ID custom duplicati nel sorgente: **0**;
+- elenchi ordinati della Crescita a Debito: ripristinati tutti e **3**.
+
+### Validazione tecnica
+
+Il commit funzionale finale del blocco ha superato:
+
+- FELIX preflight;
+- audit editoriale sorgenti;
+- build Astro;
+- audit del sito renderizzato;
+- generazione dell'artifact GitHub Pages.
