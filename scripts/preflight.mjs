@@ -3,6 +3,7 @@ import path from 'node:path';
 
 const ROOT = process.cwd();
 const CONTENT_ROOT = path.join(ROOT, 'src', 'content');
+const PAGES_ROOT = path.join(ROOT, 'src', 'pages');
 const DEF_RE = /^\s*(id|felixId)\s*:\s*["']?([0-9a-f-]{36})["']?\s*$/im;
 const SLUG_RE = /^\s*slug\s*:\s*["']?([a-z0-9-]+)["']?\s*$/im;
 
@@ -24,13 +25,13 @@ const structuredRoutes = {
   'legal-articles': '/mondo-magico/leggi/articoli/',
 };
 
-async function walk(dir) {
+async function walk(dir, matcher = /\.(md|mdx)$/i) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   const files = [];
   for (const entry of entries) {
     const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) files.push(...await walk(full));
-    else if (/\.(md|mdx)$/i.test(entry.name)) files.push(full);
+    if (entry.isDirectory()) files.push(...await walk(full, matcher));
+    else if (matcher.test(entry.name)) files.push(full);
   }
   return files;
 }
@@ -77,6 +78,7 @@ function routeTarget(href, currentRoute) {
 }
 
 const files = await walk(CONTENT_ROOT);
+const pageFiles = await walk(PAGES_ROOT, /\.astro$/i);
 const definitions = new Map();
 const fileInfo = [];
 const errors = [];
@@ -131,6 +133,16 @@ for (const file of files) {
     const base = structuredRoutes[collection];
     validRoutes.add(normalizeRoute(base));
     validRoutes.add(normalizeRoute(`${base}${slug}/`));
+  }
+}
+
+for (const file of pageFiles) {
+  let id = path.relative(PAGES_ROOT, file).replaceAll(path.sep, '/').replace(/\.astro$/i, '');
+  if (id.includes('[')) continue;
+  if (id === 'index') validRoutes.add('/');
+  else {
+    id = id.replace(/\/index$/i, '');
+    validRoutes.add(normalizeRoute(`/${id}/`));
   }
 }
 
