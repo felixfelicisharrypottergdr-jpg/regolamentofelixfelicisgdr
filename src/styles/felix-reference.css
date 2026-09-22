@@ -3055,6 +3055,59 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
 .felix-start-help strong{color:#e6bf76!important;font:1.12rem 'Federo',sans-serif}
 .felix-start-help p{max-width:65ch;margin:.4rem 0 0;color:#d0c4b2;font-size:.9rem}
 .felix-start-help>a{flex:0 0 auto;color:#f3d99b;font:.88rem 'Federo',sans-serif}
+
+/* UX-1 contrast: light-theme global paragraph/link rules previously overrode
+   the dark help panel. Keep text, actions and keyboard focus readable in both themes. */
+.felix-content-wrap .sl-markdown-content .felix-start-help{
+  flex-wrap:wrap;
+  column-gap:1.6rem;
+  row-gap:.65rem;
+  border:1px solid rgba(232,199,137,.24);
+}
+.felix-content-wrap .sl-markdown-content .felix-start-help>div{
+  flex:1 1 24rem;
+  min-width:0;
+}
+:root[data-theme='light'] .sl-markdown-content .felix-start-help p,
+:root[data-theme='dark'] .sl-markdown-content .felix-start-help p,
+.felix-content-wrap .sl-markdown-content .felix-start-help p{
+  max-width:64ch;
+  margin:.5rem 0 0;
+  color:#f0e7d8!important;
+  font-size:.96rem;
+  line-height:1.65;
+}
+:root[data-theme='light'] .sl-markdown-content .felix-start-help>a,
+:root[data-theme='dark'] .sl-markdown-content .felix-start-help>a,
+.felix-content-wrap .sl-markdown-content .felix-start-help>a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  align-self:center;
+  min-height:2.75rem;
+  padding:.45rem .35rem;
+  border-radius:3px;
+  color:#f4db9d!important;
+  text-decoration:underline!important;
+  text-underline-offset:.23em;
+  text-decoration-thickness:1px;
+  font-size:.94rem;
+  line-height:1.35;
+}
+.felix-content-wrap .sl-markdown-content .felix-start-help>a:hover{
+  color:#fff0c6!important;
+  text-decoration-thickness:2px;
+}
+.felix-content-wrap .sl-markdown-content .felix-start-help>a:focus-visible{
+  outline:3px solid #f4db9d;
+  outline-offset:3px;
+}
+@media(max-width:720px){
+  .felix-content-wrap .sl-markdown-content .felix-start-help>a{
+    align-self:flex-start;
+  }
+}
+
 .felix-reading-lead{
   max-width:67ch;
   margin:0 0 1.4rem!important;
