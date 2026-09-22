@@ -19,34 +19,39 @@ migration:
 
 <a id="norme"></a>
 ## Norme generali
-<b>1)</b> È richiesto che i post siano scritti in un italiano comprensibile e sufficientemente corretto. Refusi e imperfezioni occasionali non costituiscono un problema, purché non compromettano la leggibilità del testo.
+<strong class="felix-rule-number" aria-label="Regola 1">1)</strong> È richiesto che i post siano scritti in un italiano comprensibile e sufficientemente corretto. Refusi e imperfezioni occasionali non costituiscono un problema, purché non compromettano la leggibilità del testo.
 
-<b>2)</b> Nei post, è consentito utilizzare un linguaggio colorito, purché sia coerente con il personaggio e con la situazione narrata e non diventi insistito o fine a se stesso. Sono sempre vietate le bestemmie e le espressioni rivolte OFFGame a offendere o provocare altri Player.
+<strong class="felix-rule-number" aria-label="Regola 2">2)</strong> Nei post, è consentito utilizzare un linguaggio colorito, purché sia coerente con il personaggio e con la situazione narrata e non diventi insistito o fine a se stesso. Sono sempre vietate le bestemmie e le espressioni rivolte OFFGame a offendere o provocare altri Player.
 
-<b>3)</b> Si chiamano "<i>post</i>" i brani attraverso i quali vengono narrati le azioni, i pensieri, le parole e le sensazioni del proprio personaggio. Il narrato va scritto in terza persona e al passato remoto. Con l’accordo di tutti i Player coinvolti è possibile utilizzare una diversa persona o un diverso tempo verbale, purché la scelta venga mantenuta con coerenza per tutta la role.
+<strong class="felix-rule-number" aria-label="Regola 3">3)</strong> Si chiamano "<i>post</i>" i brani attraverso i quali vengono narrati le azioni, i pensieri, le parole e le sensazioni del proprio personaggio. Il narrato va scritto in terza persona e al passato remoto. Con l’accordo di tutti i Player coinvolti è possibile utilizzare una diversa persona o un diverso tempo verbale, purché la scelta venga mantenuta con coerenza per tutta la role.
 
-<b>4)</b> Per garantire uniformità grafica e leggibilità all’interno delle role è necessario:
+<strong class="felix-rule-number" aria-label="Regola 4">4)</strong> Per garantire uniformità grafica e leggibilità all’interno delle role è necessario:
 - utilizzare un colore per evidenziare il parlato del personaggio, associato a questo per ogni role in cui gioca. Per il <i>pensato </i>è necessario utilizzare lo stesso colore, distinguendo i pensieri diretti del PG attraverso il <i>corsivo</i>;
 - scegliere un colore chiaramente leggibile sullo sfondo del forum;
 - non utilizzare il grassetto per parlato e pensato;
 - non inserire nei post Schemi Role o altri codici autocompilati;
 - non racchiudere il narrato tra asterischi, virgolette o altri simboli;
 - separare il parlato dal narrato attraverso opportuni a capo.
+
 Le regole relative alla codifica della Scheda PG sono indicate nella relativa guida.
 
-<b>5)</b> Nelle role con più di due PG partecipanti, i Player possono concordare una turnazione libera oppure fissa. È consigliato indicare la modalità scelta all’apertura della giocata o nei primi post. In caso di turnazione fissa, se un Player non risponde per più di <u>sette giorni</u>, è possibile scavalcarne il turno e proseguire, purché al suo PG non vengano attribuite azioni, reazioni, pensieri o decisioni. Il PG potrà essere mantenuto temporaneamente sullo sfondo soltanto quando la scena può continuare senza un suo intervento indispensabile.
+<strong class="felix-rule-number" aria-label="Regola 5">5)</strong> Nelle role con più di due PG partecipanti, i Player possono concordare una turnazione libera oppure fissa. È consigliato indicare la modalità scelta all’apertura della giocata o nei primi post. In caso di turnazione fissa, se un Player non risponde per più di <u>sette giorni</u>, è possibile scavalcarne il turno e proseguire, purché al suo PG non vengano attribuite azioni, reazioni, pensieri o decisioni. Il PG potrà essere mantenuto temporaneamente sullo sfondo soltanto quando la scena può continuare senza un suo intervento indispensabile.
 Se la giocata non può proseguire senza la risposta del PG assente, i partecipanti dovranno accordarsi su una diversa soluzione o rivolgersi al Narratore.
 
-<b>6)</b> Non esiste un limite massimo alla lunghezza dei post. Tuttavia, per ottenere le ricompense previste dal gioco o attivare le meccaniche (Punti Post, Galeoni, Premi delle Missioni del FantaWiz e FantaHogwarts, Piante o Creature Magiche catturate nel corso della role, ecc.) che richiedono un post valido, il contenuto deve raggiungere almeno 2.000 caratteri, spazi inclusi. Nel conteggio rientrano narrato, dialoghi e pensieri del PG; sono invece esclusi codici, tag, citazioni tecniche, riepiloghi e comunicazioni OFFGame inserite nel post o nello Spoiler.
+<strong class="felix-rule-number" aria-label="Regola 6">6)</strong> Non esiste un limite massimo alla lunghezza dei post. Tuttavia, per ottenere le ricompense previste dal gioco o attivare le meccaniche (Punti Post, Galeoni, Premi delle Missioni del FantaWiz e FantaHogwarts, Piante o Creature Magiche catturate nel corso della role, ecc.) che richiedono un post valido, il contenuto deve raggiungere almeno 2.000 caratteri, spazi inclusi. Nel conteggio rientrano narrato, dialoghi e pensieri del PG; sono invece esclusi codici, tag, citazioni tecniche, riepiloghi e comunicazioni OFFGame inserite nel post o nello Spoiler.
 È sempre possibile scrivere post più brevi, che restano validi ai fini della narrazione ma non consentono di riscattare ricompense o attivare le meccaniche per le quali è richiesto il limite minimo. Eventuali deroghe sono indicate nelle relative sezioni del Regolamento.
 
-<b>7)</b> Non è quindi vietato scrivere post di lunghezza inferiore ai 2000 caratteri, ma questi non saranno validi per riscattare i premi previsti. Deroghe particolari al punto 6 sono specificate nelle varie sezioni del Regolamento.
+<strong class="felix-rule-number" aria-label="Regola 7">7)</strong> Non è quindi vietato scrivere post di lunghezza inferiore ai 2000 caratteri, ma questi non saranno validi per riscattare i premi previsti. Deroghe particolari al punto 6 sono specificate nelle varie sezioni del Regolamento.
 
-<div class="why"><b>... è necessario scrivere almeno 2000 caratteri?</b>
-Per due motivi: il primo è che Felix Felicis GdR è un gioco di ruolo basato sulla scrittura creativa, il secondo è che esiste un meccanismo di potenziamento dei personaggi.
-Per mantenere sempre viva la natura della scrittura creativa, preferiamo leggere dei brani con un piccolo limite di lunghezza per essere definiti tali; per rendere il potenziamento più giusto, preferiamo stabilire una soglia minima oggettiva per distinguere i post validi ai fini della crescita da interventi troppo brevi o puramente funzionali.</div>
+<aside class="felix-why" role="note" aria-label="Spiegazione della regola">
+<p class="felix-why-kicker">Perché questa regola?</p>
+<h3>... è necessario scrivere almeno 2000 caratteri?</h3>
+<p>Per due motivi: il primo è che Felix Felicis GdR è un gioco di ruolo basato sulla scrittura creativa, il secondo è che esiste un meccanismo di potenziamento dei personaggi.</p>
+<p>Per mantenere sempre viva la natura della scrittura creativa, preferiamo leggere dei brani con un piccolo limite di lunghezza per essere definiti tali; per rendere il potenziamento più giusto, preferiamo stabilire una soglia minima oggettiva per distinguere i post validi ai fini della crescita da interventi troppo brevi o puramente funzionali.</p>
+</aside>
+
 <a id="azione"></a>
-<b>8)</b> Con il termine "<b>Azione</b>" si intende qualsiasi tentativo dichiarato dal Player che possa modificare in modo rilevante la situazione ONGame, producendo un vantaggio o uno svantaggio per un PG o PNG, influenzando un elemento della scena oppure richiedendo l’applicazione di una meccanica o un lancio di dado.
+<strong class="felix-rule-number" aria-label="Regola 8">8)</strong> Con il termine "<b>Azione</b>" si intende qualsiasi tentativo dichiarato dal Player che possa modificare in modo rilevante la situazione ONGame, producendo un vantaggio o uno svantaggio per un PG o PNG, influenzando un elemento della scena oppure richiedendo l’applicazione di una meccanica o un lancio di dado.
 Non rientrano nel conteggio delle Azioni i gesti puramente descrittivi o di colore, privi di conseguenze rilevanti. Lo stesso gesto può essere considerato o meno un’Azione in base al contesto. Parlare normalmente con qualcuno o spostarsi senza finalità particolari non costituisce un’Azione; tentare di persuadere qualcuno attraverso una meccanica, distrarlo, raggiungere una posizione vantaggiosa o utilizzare il movimento per evitare un pericolo può invece costituirla.
 Tutto ciò che viene considerato Azione ed ha un numero limitato di utilizzi a seconda della tipologia di giocata.
 
@@ -67,48 +72,57 @@ Non sono considerate "Azioni" invece esempi come:
 
 Ogni Evento o Role Masterata gestita dal Narratore <u>potrebbe prevedere deroghe o diverse specifiche su questa regola</u>: in quel caso bisogna attenersi alla situazione descritta e alle indicazioni date dal Narratore.
 
-<b>9)</b> Con l’espressione "di colore" si indicano caratteristiche, eventi, descrizioni o interazioni che arricchiscono la narrazione e la caratterizzazione del PG senza produrre conseguenze meccaniche o vantaggi, siano essi o meno regolamentati. Un elemento può essere considerato di colore quando:
+<strong class="felix-rule-number" aria-label="Regola 9">9)</strong> Con l’espressione "di colore" si indicano caratteristiche, eventi, descrizioni o interazioni che arricchiscono la narrazione e la caratterizzazione del PG senza produrre conseguenze meccaniche o vantaggi, siano essi o meno regolamentati. Un elemento può essere considerato di colore quando:
 - è compatibile con la Scheda del PG, con l’ambientazione e con il Regolamento;
 - serve ad approfondire la personalità e la storia del PG, il quotidiano o l’atmosfera della giocata;
 - non attribuisce al PG capacità, risorse, conoscenze, relazioni influenti, reputazione o risultati che dovrebbero essere ottenuti attraverso delle role giocate o una specifica meccanica;
 - non permette di aggirare rischi, costi, limiti o conseguenze previste dal Regolamento.
 
-<b>10)</b> Con l'espressione "<i>da background</i>" si intendono le informazioni, le azioni e gli eventi appartenenti alla storia del PG che non sono stati effettivamente giocati ONGame, ma sono stati stabiliti OFFGame dal suo Player. Questi elementi possono riguardare il passato, il quotidiano, le relazioni o la psicologia del personaggio e servono ad approfondirne il vissuto e la caratterizzazione.
+<strong class="felix-rule-number" aria-label="Regola 10">10)</strong> Con l'espressione "<i>da background</i>" si intendono le informazioni, le azioni e gli eventi appartenenti alla storia del PG che non sono stati effettivamente giocati ONGame, ma sono stati stabiliti OFFGame dal suo Player. Questi elementi possono riguardare il passato, il quotidiano, le relazioni o la psicologia del personaggio e servono ad approfondirne il vissuto e la caratterizzazione.
 Gli elementi da background devono essere compatibili con la Scheda, con l’Ambientazione, con il Regolamento e con quanto già avvenuto ONGame. Non possono essere introdotti retroattivamente per attribuire al PG un vantaggio, una capacità non posseduta o una soluzione già pronta a un problema incontrato durante una giocata. Eventuali elementi di background condivisi fra più PG devono essere concordati da tutti i rispettivi Player.
 
 <b>11) </b> Una role può essere ambientata in una data diversa da quella della sua apertura OFFGame, purché non sia collocata più di due mesi prima o più di due mesi dopo tale data.
 All’inizio della giocata devono essere indicati la data ONGame e il momento della giornata in cui si svolge, specificando <u>l’ora esatta</u> quando è rilevante per la scena o per una meccanica. In assenza di indicazioni, farà fede la data di apertura OFFGame e si considererà il momento della giornata coerente con l’orario di apertura o con quanto narrato all'interno del primo post della giocata.
 È sconsigliato aprire role ambientate nel futuro quando il PG è coinvolto in giocate ancora in corso il cui esito potrebbe produrre conseguenze importanti. In caso di Quest, scontri o altre situazioni ad alto rischio, il Narratore può imporre espressamente un blocco temporale, vietando ai PG coinvolti di giocare eventi successivi fino alla risoluzione delle scene più incerte.
 
-<div class="why"><b>... è necessario specificare data e ora della role che sto giocando?</b>
-Principalmente, per evitare problemi di consecutio temporum e Metagame come spiegato più sotto. PG che partecipano a tante role contemporaneamente, per esempio, rischiano di vedere gli eventi che avvengono nelle proprie role accavallarsi. Non sapere quale avvenga prima e quale dopo, temporalmente parlando, rischia di causare scorrettezze anche nei confronti degli altri PG partecipanti.
-In secondo luogo, sapere l'ora della giornata è necessario per alcuni meccanismi quali per esempio l'infrazione del Regolamento Scolastico per i PG Studenti: infatti, sapere se un'infrazione è stata commessa per esempio durante le lezioni oppure la sera dopo il Coprifuoco può comportare conseguenze diverse per i PG coinvolti.</div>
+<aside class="felix-why" role="note" aria-label="Spiegazione della regola">
+<p class="felix-why-kicker">Perché questa regola?</p>
+<h3>... è necessario specificare data e ora della role che sto giocando?</h3>
+<p>Principalmente, per evitare problemi di consecutio temporum e Metagame come spiegato più sotto. PG che partecipano a tante role contemporaneamente, per esempio, rischiano di vedere gli eventi che avvengono nelle proprie role accavallarsi. Non sapere quale avvenga prima e quale dopo, temporalmente parlando, rischia di causare scorrettezze anche nei confronti degli altri PG partecipanti.</p>
+<p>In secondo luogo, sapere l'ora della giornata è necessario per alcuni meccanismi quali per esempio l'infrazione del Regolamento Scolastico per i PG Studenti: infatti, sapere se un'infrazione è stata commessa per esempio durante le lezioni oppure la sera dopo il Coprifuoco può comportare conseguenze diverse per i PG coinvolti.</p>
+</aside>
 
-<b>12)</b> Non esiste un limite al numero di role cui un PG può partecipare contemporaneamente. Ogni giocata deve però avere una collocazione temporale chiara e compatibile con le altre, evitando che il PG risulti presente nello stesso momento in luoghi o situazioni incompatibili. E' fondamentale evitare incidenti di Consecutio Temporum come indicato nel punto precedente e nel paragrafo successivo, al punto 5 "<b>Violare la Consecutio Temporum</b>".
+
+
+<strong class="felix-rule-number" aria-label="Regola 12">12)</strong> Non esiste un limite al numero di role cui un PG può partecipare contemporaneamente. Ogni giocata deve però avere una collocazione temporale chiara e compatibile con le altre, evitando che il PG risulti presente nello stesso momento in luoghi o situazioni incompatibili. E' fondamentale evitare incidenti di Consecutio Temporum come indicato nel punto precedente e nel paragrafo successivo, al punto 5 "<b>Violare la Consecutio Temporum</b>".
 <a id="giocaresoli"></a>
-<b>13)</b> Le role che coinvolgono esclusivamente PG appartenenti allo stesso Player sono consentite liberamente soltanto quando hanno funzione di colore e non producono vantaggi o ricompense per i PG coinvolti. Possono rientrare in questa categoria, per esempio, scene autoconclusive utili ad approfondire la storia personale di un PG. Quando una role in solitaria può produrre vantaggi, risultati di trama o altre conseguenze rilevanti (che non siano quindi Free Role ma role masterate), è necessario richiedere preventivamente l’autorizzazione del Narratore. Ogni PG può avere aperta una sola role autorizzata di questo tipo alla volta.
+<strong class="felix-rule-number" aria-label="Regola 13">13)</strong> Le role che coinvolgono esclusivamente PG appartenenti allo stesso Player sono consentite liberamente soltanto quando hanno funzione di colore e non producono vantaggi o ricompense per i PG coinvolti. Possono rientrare in questa categoria, per esempio, scene autoconclusive utili ad approfondire la storia personale di un PG. Quando una role in solitaria può produrre vantaggi, risultati di trama o altre conseguenze rilevanti (che non siano quindi Free Role ma role masterate), è necessario richiedere preventivamente l’autorizzazione del Narratore. Ogni PG può avere aperta una sola role autorizzata di questo tipo alla volta.
 Le role in solitaria masterate dal Narratore sono riservate a queste situazioni. Il Narratore svolge infatti una funzione imparziale di gestione della scena e attribuzione degli esiti, e non sostituisce un altro Player con cui aprire liberamente una normale Free Role.
 
-<div class="why"><b>... perchè non posso giocare soltanto con i miei PG o ruolare con un mio solo PG all'interno della stessa role?</b>
-Innanzitutto perché non è nello spirito del gioco: la scrittura creativa è infatti al centro del Felix Felicis GdR e, per non rischiare che le role si trasformino in semplici racconti, è necessario mettersi in gioco e rapportarsi con tutte le variabili che il gioco con gli altri PG e Player comporta. <i>Altrimenti che divertimento ci sarebbe?</i>
-Inoltre, Player che giocano da soli renderebbero meno equo il sistema di guadagno e crescita dei PG, perché potrebbero potenzialmente moltiplicare i propri guadagni senza alcun tipo di limite.
-</div>
+<aside class="felix-why" role="note" aria-label="Spiegazione della regola">
+<p class="felix-why-kicker">Perché questa regola?</p>
+<h3>... perchè non posso giocare soltanto con i miei PG o ruolare con un mio solo PG all'interno della stessa role?</h3>
+<p>Innanzitutto perché non è nello spirito del gioco: la scrittura creativa è infatti al centro del Felix Felicis GdR e, per non rischiare che le role si trasformino in semplici racconti, è necessario mettersi in gioco e rapportarsi con tutte le variabili che il gioco con gli altri PG e Player comporta. <i>Altrimenti che divertimento ci sarebbe?</i></p>
+<p>Inoltre, Player che giocano da soli renderebbero meno equo il sistema di guadagno e crescita dei PG, perché potrebbero potenzialmente moltiplicare i propri guadagni senza alcun tipo di limite.</p>
+</aside>
 
-<b>14)</b> Non c'è un numero massimo di PG che un Player può creare: può decidere infatti di crearne soltanto uno e di giocare solo con quello, oppure di crearne diversi tra PG Studenti e Adulti senza alcuna limitazione. Chi sceglie di gestirne più di uno è però invitato a farlo in misura compatibile con il tempo che può realmente dedicare al gioco, poiché questo prevede opportunità, sviluppi di trame, occasioni di role e simili sulla base dei PG attivi, creare PG che poi non vengono mossi in gioco rende la gestione del gioco stesso da parte dello Staff più complessa.
+
+
+<strong class="felix-rule-number" aria-label="Regola 14">14)</strong> Non c'è un numero massimo di PG che un Player può creare: può decidere infatti di crearne soltanto uno e di giocare solo con quello, oppure di crearne diversi tra PG Studenti e Adulti senza alcuna limitazione. Chi sceglie di gestirne più di uno è però invitato a farlo in misura compatibile con il tempo che può realmente dedicare al gioco, poiché questo prevede opportunità, sviluppi di trame, occasioni di role e simili sulla base dei PG attivi, creare PG che poi non vengono mossi in gioco rende la gestione del gioco stesso da parte dello Staff più complessa.
 Si considera attivo un PG con cui viene pubblicato almeno un post ONGame durante ciascun <u>mese solare</u>, indipendentemente dalla sua validità ai fini delle ricompense. Se durante un intero mese solare non viene pubblicato alcun post con quel PG, il personaggio viene considerato inattivo anche quando il suo Player continua a partecipare al forum con altri PG. In questo caso il suo Prestavolto può essere prenotato da altri Player, l’eventuale posto occupato in una Razza viene liberato e i suoi ruoli ONGame possono essere assegnati a PG attivi (vedi per esempio PG Studenti Caposcuola nella sezione apposita).
 
-<b>15)</b> Può capitare che non si abbia più voglia, modo o tempo di muovere un determinato PG. Ogni Player può decidere di "abbandonare" uno o più dei suoi PG <i>congelandolo</i>, ovvero mettendolo in stand-by per un certo lasso di tempo oppure per sempre. Per farlo deve semplicemente comunicarlo allo Staff.
+<strong class="felix-rule-number" aria-label="Regola 15">15)</strong> Può capitare che non si abbia più voglia, modo o tempo di muovere un determinato PG. Ogni Player può decidere di "abbandonare" uno o più dei suoi PG <i>congelandolo</i>, ovvero mettendolo in stand-by per un certo lasso di tempo oppure per sempre. Per farlo deve semplicemente comunicarlo allo Staff.
 La Scheda del PG e tutti i topic ad esso collegati verranno spostati in un archivio chiamato "Congelatore", dove vengono conservati tutti i topic relativi ai PG messi in stand-by dai propri Player. Il Player può successivamente richiedere lo scongelamento del PG. L’eventuale recupero del precedente Prestavolto, della Razza o di ruoli ONGame è soggetto alla loro disponibilità e alle regole delle relative sezioni.
 
-<b>16)</b> <u>Entro i primi dieci post ONGame</u> di un nuovo PG creato, il Player può richiedere una sola volta il trasferimento di risorse da uno dei propri PG congelati. È possibile trasferire fino a un massimo di 100 Punti Post e 500 Galeoni. Le risorse trasferite vengono sottratte dalla Scheda del PG di origine.
+<strong class="felix-rule-number" aria-label="Regola 16">16)</strong> <u>Entro i primi dieci post ONGame</u> di un nuovo PG creato, il Player può richiedere una sola volta il trasferimento di risorse da uno dei propri PG congelati. È possibile trasferire fino a un massimo di 100 Punti Post e 500 Galeoni. Le risorse trasferite vengono sottratte dalla Scheda del PG di origine.
 Un PG inattivo deve essere formalmente congelato prima di poter essere utilizzato come PG di origine del trasferimento.
 Un PG che abbia ricevuto risorse attraverso questa procedura non potrà, se successivamente congelato, trasferire a sua volta Punti Post o Galeoni a un ulteriore nuovo PG.
 
 
-<b>17)</b> Ogni quattro mesi lo Staff indice un censimento denominato "<i>Appello</i>". Durante il periodo indicato, ciascun Player deve dichiarare quali dei propri PG desidera continuare a mantenere in gioco.
+<strong class="felix-rule-number" aria-label="Regola 17">17)</strong> Ogni quattro mesi lo Staff indice un censimento denominato "<i>Appello</i>". Durante il periodo indicato, ciascun Player deve dichiarare quali dei propri PG desidera continuare a mantenere in gioco.
 I PG che non rispondono all’Appello vengono congelati, anche qualora abbiano svolto attività nel periodo precedente. L’Appello costituisce infatti una conferma periodica della volontà del Player di continuare a gestire i propri PG.
 
-<b>18)</b> Lo spam è consentito solo nell'apposita sezione. Gli UP devono rispettare la stessa periodicità con cui Felix Felicis GdR può essere pubblicizzato sul forum interessato.
+<strong class="felix-rule-number" aria-label="Regola 18">18)</strong> Lo spam è consentito solo nell'apposita sezione. Gli UP devono rispettare la stessa periodicità con cui Felix Felicis GdR può essere pubblicizzato sul forum interessato.
 Partecipare al GdR con una firma contenente un banner o un collegamento cliccabile diretto a un altro forum. è considerato spam e quindi passibile di segnalazione e correzione da parte dello Staff. Se non si vuole rimuovere o nascondere il riferimento, è possibile disattivare la firma nei post dalla casella "Abilita la firma" nel form di risposta alle discussioni.
 <a id="vietato"></a>
 
