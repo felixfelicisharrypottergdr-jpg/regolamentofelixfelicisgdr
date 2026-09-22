@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { unified } from '@astrojs/markdown-remark';
 
 const [githubOwner, githubRepo] = (process.env.GITHUB_REPOSITORY || '/').split('/');
 const githubUserSite = githubOwner && githubRepo === `${githubOwner}.github.io`;
@@ -51,7 +52,9 @@ export default defineConfig({
   site,
   base,
   markdown: {
-    remarkPlugins: [remarkFelixHeadingHierarchy, [remarkFelixBaseLinks, { base }]],
+    processor: unified({
+      remarkPlugins: [remarkFelixHeadingHierarchy, [remarkFelixBaseLinks, { base }]],
+    }),
   },
   integrations: [
     starlight({

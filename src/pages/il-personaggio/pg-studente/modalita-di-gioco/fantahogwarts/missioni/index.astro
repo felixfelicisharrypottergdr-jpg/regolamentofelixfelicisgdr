@@ -11,7 +11,7 @@ const missions=(await getCollection('missions'))
   .sort((a,b)=>a.data.name.localeCompare(b.data.name,'it'));
 ---
 <StarlightPage frontmatter={{title:'Missioni del FantaHogwarts',description:'Consulta e filtra le Missioni del FantaHogwarts.'}}>
-  <SearchMetadata type="Catalogo" macroarea="Il Personaggio" aliases={['fantahogwarts','missioni studenti','missioni caotiche','missioni neutrali','missioni legali']} />
+  <SearchMetadata type="Catalogo" macroarea="Il Personaggio" aliases={['fantahogwarts','missioni studenti','missioni caotiche','missioni neutrali','missioni legali']} filters={{ applicability:'PG Studente' }} />
 
   <FelixCatalog searchLabel="Cerca nelle Missioni" searchPlaceholder="Nome, descrizione o requisito..." count={missions.length} countLabel="Missioni">
     <label class="felix-filter-control" slot="filters">

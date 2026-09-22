@@ -15,6 +15,7 @@ const missions=(await getCollection('adultMissions'))
     type="Catalogo"
     macroarea="Il Personaggio"
     aliases={['fantawiz','missioni adulti','missioni sinistre','missioni neutrali','missioni virtuose']}
+    filters={{ applicability:'PG Adulto' }}
   />
 
   <FelixCatalog searchLabel="Cerca nelle Missioni" searchPlaceholder="Nome, descrizione, requisito o premio..." count={missions.length} countLabel="Missioni">
