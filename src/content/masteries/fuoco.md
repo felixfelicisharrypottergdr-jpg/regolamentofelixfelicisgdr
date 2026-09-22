@@ -30,7 +30,8 @@ migration:
       item: "Pelle di Fuoco"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Attivazione**
 Pelle di Fuoco viene attivata utilizzando 1 Azione Principale e consumando la Fatica prevista dal Livello della Maestria.
@@ -40,11 +41,11 @@ L'effetto riguarda esclusivamente il PG che possiede la Maestria e non può esse
 **Protezione dal fuoco**
 Mentre Pelle di Fuoco è attiva, il PG è protetto dagli effetti dannosi direttamente riconducibili al fuoco o al calore.
 La protezione comprende:
-• fiamme naturali e incendi
-• calore ambientale e temperature elevate
-• Incantesimi ed effetti magici basati sul fuoco
-• ustioni e altri danni direttamente provocati dall'esposizione al fuoco
-• Malattie magiche la cui origine o manifestazione dipenda direttamente dall'esposizione al fuoco, come le *Pustole di Fuoco*
+- fiamme naturali e incendi
+- calore ambientale e temperature elevate
+- Incantesimi ed effetti magici basati sul fuoco
+- ustioni e altri danni direttamente provocati dall'esposizione al fuoco
+- Malattie magiche la cui origine o manifestazione dipenda direttamente dall'esposizione al fuoco, come le *Pustole di Fuoco*
 
 La Maestria riduce o annulla esclusivamente gli effetti riconducibili al fuoco o al calore. Non protegge automaticamente da ulteriori effetti prodotti dalla stessa fonte che non dipendano direttamente dall'elemento.
 
@@ -73,3 +74,5 @@ L'attivazione di Pelle di Fuoco consuma:
 *Livello I:* 3 Fatica
 *Livello II:* 2 Fatica
 *Livello III:* 1 Fatica
+
+</details>
