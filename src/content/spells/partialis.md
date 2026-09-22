@@ -38,7 +38,7 @@ orecchie di coniglio.
 La trasfigurazione può essere annullata utilizzando un
 [Reparifarge](/manuali/incantesimi/reparifarge/) con più Forza dell'incantesimo
 trasfigurativo precedentemente evocato o con lo scorrere del tempo.
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -76,3 +76,5 @@ aggiungendo +1 possibilità per ogni livello di
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) eventualmente posseduto e togliendo
 -1 possibilità per ogni Sapienza Trasfigurativa eventualmente posseduta dell'evocatore
 diviso 5 (Sapienza Trasfigurativa evocatore/5).
+
+</details>

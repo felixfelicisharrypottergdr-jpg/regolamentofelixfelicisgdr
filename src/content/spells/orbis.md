@@ -32,7 +32,7 @@ Genera un tornado di
 luce che acceca, stordisce e ferisce i bersagli, con delle ustioni più o meno gravi a seconda
 della potenza con cui viene evocato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -62,3 +62,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%:max 6 PG; 6 post del bersaglio
+
+</details>

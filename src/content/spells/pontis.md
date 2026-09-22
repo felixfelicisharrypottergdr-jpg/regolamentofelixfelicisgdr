@@ -39,7 +39,7 @@ contro questo incantesimo.
 Il ponte si distrugge sia se viene colpito con un incantesimo con più Forza del ponte, sia se
 sopra vi salgono più PG di quelli che può contenere.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -62,3 +62,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 200 Forza e capienza 8 PG; 7 post dell'evocatore
+
+</details>

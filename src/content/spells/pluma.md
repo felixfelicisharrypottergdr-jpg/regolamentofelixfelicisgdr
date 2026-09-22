@@ -36,7 +36,7 @@ all'assenza di peso (esempio, volare via con un Ventus). La trasfigurazione può
 annullata da un incantesimo [Reparifarge](/manuali/incantesimi/reparifarge/) più forte del
 Pluma utilizzato o col passare del tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -65,3 +65,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli per 5 post dell'evocatore
+
+</details>

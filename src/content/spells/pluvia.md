@@ -35,8 +35,10 @@ La copertura sparisce non appena l'evocatore punta la bacchetta verso il basso.
 >
 Non è possibile utilizzare altri incantesimi contemporaneamente al *Pluvia*.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè il PG non lo annulla
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

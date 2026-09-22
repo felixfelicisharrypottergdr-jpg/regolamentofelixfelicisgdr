@@ -31,15 +31,15 @@ Evoca dalla bacchetta delle scintille rosse capaci di illuminare il
 cielo in qualsiasi momento del giorno e della notte e richiamare l'attenzione di chi si trova nei
 paraggi; utile per attirare l'attenzione degli Auror in caso di pericolo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
-• Non è possibile ferire, accecare o danneggiare bersagli viventi con questo incantesimo;
-• Qualsiasi PG si trovi già nella stessa role può raggiungere chi ha evocato le scintille
+- Non è possibile ferire, accecare o danneggiare bersagli viventi con questo incantesimo;
+- Qualsiasi PG si trovi già nella stessa role può raggiungere chi ha evocato le scintille
 quando vuole;
-• Utilizzare questo incantesimo significa poter attirare le attenzioni degli Auror. Essi si
+- Utilizzare questo incantesimo significa poter attirare le attenzioni degli Auror. Essi si
 accorgono delle scintille e del pericolo se, al lancio di 1d2, il Narratore pesca 1.
 In caso di esito positivo, il Narratore scriverà un annuncio in
 “Spunti dal Narratore” e gli Auror (in numero di
@@ -47,7 +47,7 @@ In caso di esito positivo, il Narratore scriverà un annuncio in
 chiunque dall'evocazione delle scintille. Se i 3 post non vengono raggiunti entro una
 settimana OFFGame dall'evocazione, essi possono entrare nella role senza aspettare
 ulteriormente;
-• Utilizzare questo incantesimo nel Mondo Magico (e non ad Hogwarts) significa anche poter
+- Utilizzare questo incantesimo nel Mondo Magico (e non ad Hogwarts) significa anche poter
 attirare le attenzioni dei passanti. *Qualcuno *si accorge delle scintille e del pericolo se,
 al lancio di 1d3, il Narratore pesca 1.
 In caso di esito positivo, il Narratore scriverà un annuncio in
@@ -56,3 +56,5 @@ Auror (fino a 3 PG) può entrare nella role dopo 5 post di chiunque nella role i
 rilascio delle scintille per raggiungere chi lo utilizza. Sarà premura del Narratore descrivere
 l’incipit per l’ingresso così che i PG possano decidere coerentemente se entrare e
 giustificare con altrettanta coerenza il proprio passaggio da quelle parti.
+
+</details>

@@ -48,7 +48,7 @@ E' possibile annullare una Passaporta distruggendola o lanciando su di essa un
 Si ricorda che utilizzare una Passaporta comporta dei
 malusdi Salute.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantaneo
 
@@ -99,3 +99,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 **Rendersi conto di essere di fronte una Passaporta**
 Il PG può accorgersi che l’oggetto che ha di fronte è una Passaporta agendo come spiegato
 nella Guida alla Tracciatura.
+
+</details>
