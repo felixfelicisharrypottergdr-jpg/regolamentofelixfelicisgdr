@@ -28,12 +28,13 @@ migration:
       item: "Sesto Senso"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Il numero di PG che è possibile *sentire***
-• *Livello I:* 1 PG
-• *Livello II:* fino a 2 PG
-• *Livello III:* fino a 3 PG
+- *Livello I:* 1 PG
+- *Livello II:* fino a 2 PG
+- *Livello III:* fino a 3 PG
 
 I PG collegati devono essere indicati nella propria Lista della Spesa al momento dell'acquisto della Maestria. È possibile modificarli tramite la stessa procedura, ma mai durante una Quest o un Evento già in corso se il nuovo PG inserito è già coinvolto nel pericolo che dovrebbe attivare il Sesto Senso.
 Il legame è unidirezionale: il PG collegato non acquisisce a sua volta alcuna capacità di percepire il pericolo o la posizione del Divinatore.
@@ -42,17 +43,17 @@ Il legame è unidirezionale: il PG collegato non acquisisce a sua volta alcuna c
 Il Sesto Senso non può essere attivato volontariamente dal Player. Quando uno dei PG collegati entra in una situazione di grave pericolo o subisce una minaccia occulta, il Narratore può stabilire che il legame si manifesti.
 L'attivazione viene comunicata al Player tramite MP e costituisce un'utilizzazione della Maestria.
 Il numero massimo di attivazioni per Role dipende dall'Efficacia della Maestria:
-• *Livello I:* 1 utilizzo
-• *Livello II:* fino a 2 utilizzi
-• *Livello III:* fino a 3 utilizzi
+- *Livello I:* 1 utilizzo
+- *Livello II:* fino a 2 utilizzi
+- *Livello III:* fino a 3 utilizzi
 
 Il Sesto Senso si attiva soltanto quando il pericolo è già concretamente presente o sta per manifestarsi in maniera imminente. Non può essere utilizzato per ottenere informazioni preventive su un possibile pericolo né per interrogare volontariamente il legame.
 
 **Informazioni percepite**
 Quando il Sesto Senso si manifesta, il Divinatore percepisce:
-• l'identità del bersaglio: riconosce immediatamente quale dei PG collegati si trova in pericolo;
-• la presenza del pericolo: comprende che il bersaglio si trova in una situazione di grave pericolo, senza conoscerne necessariamente la causa;
-• la posizione: percepisce il punto in cui si trova il bersaglio e può quindi tentare di raggiungerlo.
+- l'identità del bersaglio: riconosce immediatamente quale dei PG collegati si trova in pericolo;
+- la presenza del pericolo: comprende che il bersaglio si trova in una situazione di grave pericolo, senza conoscerne necessariamente la causa;
+- la posizione: percepisce il punto in cui si trova il bersaglio e può quindi tentare di raggiungerlo.
 
 Il Sesto Senso non trasmette immagini dettagliate, parole, pensieri o informazioni sulla natura precisa della minaccia. Il Divinatore non sa automaticamente chi o cosa stia mettendo in pericolo il bersaglio, quali siano le condizioni dell'ambiente o quali Azioni siano state compiute prima dell'attivazione.
 
@@ -76,6 +77,8 @@ Il Player può descrivere liberamente la manifestazione, purché non introduca i
 
 **Costo in Fatica**
 Ogni utilizzo di *Sesto Senso* consuma Fatica a causa dello sforzo improvviso imposto al corpo e alle percezioni del Divinatore:
-• *Livello I:* 2 Fatica
-• *Livello II:* 1,5 Fatica
-• *Livello III:* 1 Fatica
+- *Livello I:* 2 Fatica
+- *Livello II:* 1,5 Fatica
+- *Livello III:* 1 Fatica
+
+</details>
