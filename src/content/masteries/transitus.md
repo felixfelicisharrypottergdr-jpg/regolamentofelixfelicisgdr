@@ -32,7 +32,8 @@ migration:
       item: "Transitus"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Attivazione**
 Transitus viene normalmente evocato utilizzando 1 Azione Principale. Dal momento dell'attivazione il PG entra nello stato di intangibilità e vi rimane per la Durata prevista dal proprio Livello, salvo che decida di interromperlo prima o che una delle condizioni indicate di seguito ne provochi la cessazione.
@@ -103,8 +104,8 @@ Se la Forza è sufficiente, il PG deve mantenere stabile la propria forma energe
 Livello I: 1d40
 Livello II: 1d35
 Livello III: 1d30
-• In caso di *esito positivo*, il PG attraversa la barriera, ma il contrasto fra le due magie destabilizza completamente Transitus e l'Incantesimo termina immediatamente.
-• Se la Forza di Transitus è inferiore alla Forza della barriera oppure il tiro di Acume ha *esito negativo*, la barriera respinge il PG sbalzandolo all'indietro, Transitus termina immediatamente e il PG perde 5 Salute. I Sintomi eventualmente provocati sono quelli previsti dallo Sbalzamento da Linea dell'Età, calcolati normalmente in base alla percentuale di Salute persa.
+- In caso di *esito positivo*, il PG attraversa la barriera, ma il contrasto fra le due magie destabilizza completamente Transitus e l'Incantesimo termina immediatamente.
+- Se la Forza di Transitus è inferiore alla Forza della barriera oppure il tiro di Acume ha *esito negativo*, la barriera respinge il PG sbalzandolo all'indietro, Transitus termina immediatamente e il PG perde 5 Salute. I Sintomi eventualmente provocati sono quelli previsti dallo Sbalzamento da Linea dell'Età, calcolati normalmente in base alla percentuale di Salute persa.
 In caso di fallimento, Transitus non può essere nuovamente utilizzato per:
 Livello I: i successivi 3 Post dell'utilizzatore.
 Livello II: i successivi 2 Post dell'utilizzatore.
@@ -124,8 +125,8 @@ Transitus non rende automaticamente immune a pericoli ambientali o ad effetti ch
 **Immunità ai danni magici**
 Finché Transitus è attivo, gli Incantesimi e gli altri effetti magici che devono raggiungere e colpire direttamente il corpo del PG possono attraversarne la forma energetica senza produrre i propri normali effetti.
 La riuscita dipende dalla Forza delle due magie:
-• se la Forza di Transitus è pari o superiore alla Forza dell'attacco, quest'ultimo attraversa il PG senza infliggere danni né applicare i propri effetti diretti;
-• se la Forza dell'attacco è superiore alla Forza di Transitus, l'energia avversaria destabilizza la forma energetica: Transitus termina immediatamente e l'attacco viene risolto normalmente secondo tutte le regole previste per quell'attacco, compreso l'eventuale confronto di Destrezza.
+- se la Forza di Transitus è pari o superiore alla Forza dell'attacco, quest'ultimo attraversa il PG senza infliggere danni né applicare i propri effetti diretti;
+- se la Forza dell'attacco è superiore alla Forza di Transitus, l'energia avversaria destabilizza la forma energetica: Transitus termina immediatamente e l'attacco viene risolto normalmente secondo tutte le regole previste per quell'attacco, compreso l'eventuale confronto di Destrezza.
 Non è necessario effettuare un ulteriore tiro di Acume per questa applicazione.
 Se Transitus viene evocato come Reazione contro un attacco magico e la sua Forza risulta insufficiente, la Reazione non protegge il PG: la Fatica necessaria all'evocazione viene comunque consumata e l'attacco prosegue normalmente senza essere considerato automaticamente riuscito.
 L'immunità riguarda esclusivamente magie la cui efficacia dipende dal raggiungere direttamente il corpo del PG.
@@ -154,3 +155,5 @@ Livello III: fino a 5 Post consecutivi dell'utilizzatore.
 
 Il PG può interrompere volontariamente Transitus prima della conclusione della Durata utilizzando 1 Azione Bonus. Alla conclusione della Durata il corpo ritorna automaticamente alla propria condizione materiale senza richiedere alcuna Azione.
 Una nuova attivazione richiede un nuovo utilizzo di Transitus e una nuova Azione Principale, salvo il suo utilizzo come Reazione nelle condizioni indicate sopra.
+
+</details>
