@@ -210,4 +210,4 @@ Maestrie Arcaiche
 
 ## Consultare le singole Maestrie
 
-Le schede complete sono raccolte nel [Catalogo delle Maestrie](/conoscenze-e-sapienze/maestrie/catalogo/), filtrabile per Sapienza Magica e Parametro di riferimento.
+Le schede complete sono raccolte nel [Catalogo delle Maestrie](catalogo/), filtrabile per Sapienza Magica e Parametro di riferimento.
