@@ -29,6 +29,7 @@ migration:
 prototypeExcerpt: false
 ---
 
+<a id="classificazione"></a>
 # La Classificazione degli Eventi
 
 Per distinguere OFFGame i livelli di pericolosità degli Eventi viene adottata una Classificazione identica a quella Ministeriale per le Creature Magiche, con un codice da **X a XXXXX**.
