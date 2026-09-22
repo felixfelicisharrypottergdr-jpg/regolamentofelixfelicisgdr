@@ -24,7 +24,8 @@ migration:
       item: "Richiamo della Linfa"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Soglia Critica**
 Richiamo della Linfa non può essere utilizzato liberamente.
@@ -40,9 +41,9 @@ Richiamo della Linfa può essere utilizzato una sola volta per Role, anche qualo
 **Dono della Linfa**
 Se accetta il soccorso, il Player stabilisce quanta energia ricevere dalle Piante presenti entro Gittata Corta e come distribuirla fra Fatica e Resistenza.
 In base all'Efficacia della Maestria dispone complessivamente di Fatica o Resistenza assimilabile:
-• *Livello I:* fino al 20%
-• *Livello II:* fino al 40%
-• *Livello III:* fino al 60%
+- *Livello I:* fino al 20%
+- *Livello II:* fino al 40%
+- *Livello III:* fino al 60%
 La percentuale disponibile costituisce un unico totale e può essere utilizzata interamente per un solo Parametro oppure suddivisa fra Fatica e Resistenza. Il Player non è obbligato a utilizzare tutta l'energia disponibile.
 La percentuale recuperata viene sempre calcolata sul valore iniziale del relativo Parametro, arrotondando per difetto.
 Né Fatica né Resistenza possono superare tramite Richiamo della Linfa il proprio normale valore iniziale.
@@ -50,24 +51,24 @@ Né Fatica né Resistenza possono superare tramite Richiamo della Linfa il propr
 **Distribuire il sacrificio**
 L'energia necessaria al Richiamo può provenire da una sola Pianta oppure essere distribuita fra più Piante presenti entro Gittata Corta.
 Il numero massimo di Piante che possono contribuire allo stesso Richiamo è:
-• *Livello I:* 1 sola Pianta
-• *Livello II:* fino a 2 Piante
-• *Livello III:* fino a 3 Piante
+- *Livello I:* 1 sola Pianta
+- *Livello II:* fino a 2 Piante
+- *Livello III:* fino a 3 Piante
 
 Il Player sceglie OFFGame:
-• quali Piante partecipano;
-• quale percentuale fornisce ciascuna;
-• quale parte viene utilizzata per recuperare Fatica;
-• quale parte viene utilizzata per recuperare Resistenza.
+- quali Piante partecipano;
+- quale percentuale fornisce ciascuna;
+- quale parte viene utilizzata per recuperare Fatica;
+- quale parte viene utilizzata per recuperare Resistenza.
 La somma di tutti i contributi non può superare il limite complessivo previsto dall'Efficacia.
 
 **Quali Piante possono rispondere?**
 Possono contribuire al Richiamo della Linfa le Piante Magiche vive che si trovano realmente entro Gittata Corta dal PG nel momento in cui viene utilizzata la Maestria.
 Possono quindi intervenire:
-• Piante portate con sé dal PG;
-• Piante richiamate nella scena;
-• Piante appartenenti alla sua Serra, Cubicolo o Valigia, purché siano state realmente portate o richiamate nella Role;
-• Piante Magiche incontrate nella scena con le quali il PG abbia già ottenuto una Interazione positiva.
+- Piante portate con sé dal PG;
+- Piante richiamate nella scena;
+- Piante appartenenti alla sua Serra, Cubicolo o Valigia, purché siano state realmente portate o richiamate nella Role;
+- Piante Magiche incontrate nella scena con le quali il PG abbia già ottenuto una Interazione positiva.
 Non è sufficiente possedere una Pianta in Scheda: deve essere fisicamente presente nella scena quando il Richiamo si manifesta.
 Una Pianta appartenente a un altro PG può partecipare soltanto con il consenso OFFGame del relativo Player e se ONGame l'Erbologo soccorso ha già ottenuto la sua Amicizia in Role precedenti.
 Una volta trasferita l'energia, non è necessario che la Pianta rimanga entro Gittata Corta per tutta la durata del Richiamo.
@@ -75,17 +76,17 @@ Una volta trasferita l'energia, non è necessario che la Pianta rimanga entro Gi
 **Il Richiamo della Vegetazione**
 Se il PG non dispone di Piante Magiche nelle vicinanze ma si trova in un luogo densamente ricoperto di vegetazione, come una Foresta, una Serra, un bosco, una giungla o un grande giardino, anche l'insieme delle Piante comuni circostanti può rispondere al Richiamo.
 La vegetazione ambientale può fornire complessivamente:
-• *Livello I:* fino al 10%
-• *Livello II:* fino al 20%
-• *Livello III:* fino al 30%
+- *Livello I:* fino al 10%
+- *Livello II:* fino al 20%
+- *Livello III:* fino al 30%
 Anche questa percentuale può essere destinata alla Fatica, alla Resistenza oppure suddivisa fra entrambe.
 Le Piante coinvolte appassiscono visibilmente per il resto della Role: foglie e fiori perdono colore, i rami si afflosciano e parte della vegetazione può temporaneamente seccarsi.
 
 **Menomazione Linfatica**
 Ogni Pianta Magica che partecipa al Richiamo rimane permanentemente debilitata.
 La Menomazione dipende dal tipo di energia fornita:
-• energia utilizzata per recuperare Fatica → riduzione permanente della Forza;
-• energia utilizzata per recuperare Resistenza → riduzione permanente della Resistenza.
+- energia utilizzata per recuperare Fatica → riduzione permanente della Forza;
+- energia utilizzata per recuperare Resistenza → riduzione permanente della Resistenza.
 Salute e Destrezza della Pianta non vengono modificate.
 La riduzione di Forza o Resistenza corrisponde alla percentuale di energia ceduta dalla Pianta per il relativo Parametro.
 I nuovi valori devono essere aggiornati nella Serra, Cubicolo o Valigia del PG.
@@ -108,3 +109,5 @@ Il Player mantiene comunque sempre il controllo OFFGame sul sacrificio: nessuna 
 **Genesi Primordiale**
 Le Piante sviluppate temporaneamente attraverso Genesi Primordiale non possono essere utilizzate per alimentare Richiamo della Linfa.
 La loro esistenza accelerata e instabile non contiene una riserva vitale sufficientemente stabile per sostenere il trasferimento e il loro inevitabile collasso annullerebbe il sacrificio permanente previsto da questa Maestria.
+
+</details>
