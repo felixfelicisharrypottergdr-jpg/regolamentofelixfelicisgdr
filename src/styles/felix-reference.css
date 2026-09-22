@@ -3309,3 +3309,89 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
 @media(max-width:720px){
   .felix-mobile-table-hint{display:block}
 }
+
+
+/* UX readability contract — numbered rules, WHY cards and help-panel contrast. */
+.felix-content-wrap .sl-markdown-content p:has(.felix-rule-number) {
+  max-width: 76ch;
+  margin: 1.35rem 0 .9rem;
+  padding: .95rem 1.1rem;
+  border-left: 3px solid #aa7932;
+  border-radius: 0 6px 6px 0;
+  background: #f7edda;
+  color: #352c23 !important;
+  line-height: 1.72;
+}
+.felix-content-wrap .sl-markdown-content .felix-rule-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  min-height: 2rem;
+  margin-right: .55rem;
+  padding: .1rem .3rem;
+  border-radius: 50%;
+  background: #604526;
+  color: #fff0cf !important;
+  font: 700 .85rem/1 'Federo', Georgia, serif;
+  vertical-align: middle;
+}
+.felix-content-wrap .sl-markdown-content .felix-why {
+  max-width: 74ch;
+  margin: 1.4rem 0 1.9rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #cfba8b;
+  border-left: 5px solid #9e732d;
+  border-radius: 7px;
+  background: #fbf5e8;
+  box-shadow: 0 4px 18px rgba(77, 54, 23, .07);
+  color: #3a2e23 !important;
+}
+.felix-content-wrap .sl-markdown-content .felix-why .felix-why-kicker {
+  margin: 0 0 .35rem;
+  color: #81581f !important;
+  font: 700 .72rem/1.4 'Federo', Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.felix-content-wrap .sl-markdown-content .felix-why h3 {
+  margin: 0 0 .8rem;
+  padding: 0;
+  color: #51381e !important;
+  font: 400 1.2rem/1.4 'Federo', Georgia, serif;
+  background: none !important;
+  border: 0;
+}
+.felix-content-wrap .sl-markdown-content .felix-why p:not(.felix-why-kicker) {
+  max-width: 68ch;
+  margin: .65rem 0;
+  color: #43372c !important;
+  font-size: .98rem;
+  line-height: 1.75;
+}
+.felix-content-wrap .sl-markdown-content .felix-why p:last-child {
+  margin-bottom: 0;
+}
+/* A dark surface must never inherit the page's dark paragraph text. */
+:root[data-theme] .sl-markdown-content nav.felix-start-help {
+  background: #243335 !important;
+  color: #f1e6d2 !important;
+}
+:root[data-theme] .sl-markdown-content nav.felix-start-help p {
+  color: #f4ead8 !important;
+  line-height: 1.65;
+}
+:root[data-theme] .sl-markdown-content nav.felix-start-help strong {
+  color: #f3d494 !important;
+}
+:root[data-theme] .sl-markdown-content nav.felix-start-help a {
+  color: #f8df9d !important;
+  text-decoration: underline !important;
+  text-underline-offset: .2em;
+}
+@media (max-width: 720px) {
+  .felix-content-wrap .sl-markdown-content .felix-why { padding: 1rem; }
+  .felix-content-wrap .sl-markdown-content p:has(.felix-rule-number) { padding: .85rem; }
+  :root[data-theme] .sl-markdown-content nav.felix-start-help { align-items: stretch; }
+  :root[data-theme] .sl-markdown-content nav.felix-start-help>a { align-self: flex-start; }
+}
