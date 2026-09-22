@@ -36,7 +36,7 @@ trasfigurato.
 E’ possibile annullare l’evocazione con un Reparifarge più potente dell’Incohatum Locomotor
 utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -64,3 +64,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 6 post dell'evocatore; 20 Destrezza
+
+</details>

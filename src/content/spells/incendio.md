@@ -40,7 +40,7 @@ Non è possibile distruggere interi edifici utilizzando questo incantesimo ma so
 esso nel giro di 20 post di tutti i partecipanti alla role, a meno che il fuoco non venga fermato
 prima.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -55,3 +55,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 - 100%: 90 Forza
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*
 - 100%: 100 Forza
+
+</details>

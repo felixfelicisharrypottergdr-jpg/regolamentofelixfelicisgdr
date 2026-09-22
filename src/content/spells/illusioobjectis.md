@@ -37,7 +37,7 @@ eludere combinazioni e parole d'ordine applicate su oggetti o abitazioni mediant
 [Iterum Post Me](/manuali/incantesimi/iterumpostme/), eludere il funzionamento di un
 Oggetto incantato con [Proteus](/manuali/incantesimi/proteus/), ed utilizzi simili.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -64,3 +64,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Mentale 1+*
 Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: fino a 7 post dell'evocatore
+
+</details>

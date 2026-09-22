@@ -32,7 +32,7 @@ migration:
 Incolla la lingua della vittima al palato per diverso tempo impedendogli di parlare e di
 conseguenza di evocare incantesimi, a meno che non venga annullato con l'uso di un
 [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) con più Forza della Fattura.
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -55,3 +55,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 post del bersaglio
+
+</details>

@@ -38,7 +38,7 @@ Svanisce da solo nel giro di pochi minuti, a meno che non si utilizzi
 [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) per annullarne gli effetti
 all'istante.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -57,3 +57,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 post dell’evocatore
+
+</details>

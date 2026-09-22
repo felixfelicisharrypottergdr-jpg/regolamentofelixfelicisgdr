@@ -46,14 +46,14 @@ voce, il proprio odore eccetera.
 PG che usano se stessi come bersaglio continueranno a vedere normalmente se stessi per
 esempio nei riflessi o guardandosi semplicemente, poiché non vittime dell'illusione.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
 **Parametro del bersaglio intaccato:** Acume, Percezione, Volontà (tranne quelli
 dell'evocatore).
 **Rendersi conto di essere vittime di un'illusione**
-• Il PG bersaglio si accorge di essere vittima di un'illusione se, lanciando 1d30, estrae un
+- Il PG bersaglio si accorge di essere vittima di un'illusione se, lanciando 1d30, estrae un
 numero compreso fra 1-Volontà. PG con
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) aggiungono 1 possibilità per ogni
 livello di Occlumanzia posseduto.
@@ -63,9 +63,9 @@ se, lanciando 1d30, estrae un numero compreso fra 1-Volontà.
 PG con [Occlumanzia](/manuali/incantesimi/occlumanzia/) aggiungono 1 possibilità per
 ogni livello di Occlumanzia posseduto.
 Se l'illusione è stata evocata con riuscita:
-• 100%, i PG che vogliono liberarsene tolgono -3 Possibilità al loro totale;
-• 66%, i PG che vogliono liberarsene non aggiungono né tolgono possibilità al loro totale.
-• 33%, i PG che vogliono liberarsene aggiungono +3 Possibilità al loro totale.**Durata dell'illusione**
+- 100%, i PG che vogliono liberarsene tolgono -3 Possibilità al loro totale;
+- 66%, i PG che vogliono liberarsene non aggiungono né tolgono possibilità al loro totale.
+- 33%, i PG che vogliono liberarsene aggiungono +3 Possibilità al loro totale.**Durata dell'illusione**
 Il bersaglio può rendersi conto che l'illusione sta terminando nel suo ultimo post di durata.
 L'illusione può essere terminata in anticipo sia con un Finite Incantatem, sia su decisione
 dell'evocatore, ma soltanto se quest'ultimo, al lancio di **1d30**, pesca 1-Volontà.
@@ -82,3 +82,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Mentale 1+*
 Se la Potenza dell'Incantesimo precedentemente evocato è...
 - 100%: 7 post del bersaglio
+
+</details>

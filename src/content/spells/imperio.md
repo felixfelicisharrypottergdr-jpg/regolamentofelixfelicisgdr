@@ -59,20 +59,20 @@ stato liberato.
 
 > **Nota.**
 >
-• E' possibile utilizzare altri incantesimi in contemporanea o subito dopo l'uso di
+- E' possibile utilizzare altri incantesimi in contemporanea o subito dopo l'uso di
 *Imperio*, in quanto l'evocatore continua a mantenere il controllo del proprio bersaglio
 attraverso la mente e non la bacchetta;• Non esistono incantesimi capaci di annullare gli effetti della maledizione. Essa si può
 soltanto schivare o parare con [Protego Horribilis](/manuali/incantesimi/protegohorribilis/), [Protego Totalum](/manuali/incantesimi/protegototalum/) o
 [Protego Maxima](/manuali/incantesimi/protegomaxima/).
-• Per impartire un comando, l’Evocatore deve avere il bersaglio nel proprio campo visivo al
+- Per impartire un comando, l’Evocatore deve avere il bersaglio nel proprio campo visivo al
 momento dell’ordine. Una volta ricevuto il comando, il bersaglio può spostarsi, allontanarsi
 ed eseguirlo ovunque si trovi, anche fuori dalla vista dell’Evocatore;
-• Se l’Evocatore perde il contatto visivo con il bersaglio, non può impartire nuovi ordini finché
+- Se l’Evocatore perde il contatto visivo con il bersaglio, non può impartire nuovi ordini finché
 non lo vede nuovamente. In assenza di nuovi comandi, il bersaglio rimane sotto Imperio fino
 a quando non avrà eseguito l’ordine ricevuto o fino a quando l’Evocatore non decide di
 liberarlo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -100,19 +100,19 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Maledizione lanciata da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 comandi/esecuzione
-• **Dare un ordine** al proprio bersaglio costa **1 Azione/Azione Bonus** (a
+- **Dare un ordine** al proprio bersaglio costa **1 Azione/Azione Bonus** (a
 seconda del caso ed eventualmente delle indicazioni del Narratore) di quelle previste per
 ciascuno PG all'interno del proprio post.• **Eseguire un ordine** da parte del PG evocatore **costa 1 Azione/Azione
 Bonus** (a seconda del caso ed eventualmente delle indicazioni del Narratore) di quelle
 previste per ciascun PG all'interno del proprio post. Questo significa che un PG sotto Imperio
 utilizzerà tutte le proprie azioni per eseguire gli ordini dell'evocatore e, in caso, accorgersi
 e/o provare a liberarsi dalla Maledizione.
-• L'evocatore può decidere di **terminare anticipatamente** il controllo sul bersaglio al
+- L'evocatore può decidere di **terminare anticipatamente** il controllo sul bersaglio al
 **costo di 1 Azione/Azione Bonus** (a seconda del caso ed eventualmente delle
 indicazioni del Narratore).
-• Nel caso in cui l'incantesimo venga utilizzato da parte dell'evocatore nella sezione
+- Nel caso in cui l'incantesimo venga utilizzato da parte dell'evocatore nella sezione
 Orecchie Indiscrete, sarà il Narratore a comunicare via MP gli ordini al PG bersaglio.
-• Il bersaglio, sotto richiesta dell'Evocatore, può utilizzare soltanto le Conoscenze che
+- Il bersaglio, sotto richiesta dell'Evocatore, può utilizzare soltanto le Conoscenze che
 possiede. Tentativi di utilizzare Conoscenze non in possesso del bersaglio falliranno
 autoconclusivamente.
 
@@ -132,15 +132,15 @@ eseguire a PG2.
 Il PG bersaglio può accorgersi di essere vittima di una maledizione agendo come spiegato
 nella Guida alla Tracciatura, sottraendo le possibilità
 spiegate in basso, che dipendono dalla riuscita.
-• **100%:** -5 possibilità
-• **66%:** -3 possibilità
-• **33%:** -1 possibilità
+- **100%:** -5 possibilità
+- **66%:** -3 possibilità
+- **33%:** -1 possibilità
 **Liberarsi dalla maledizione dopo essersi accorti di esserne vittime**
 Il PG si libera dalla maledizione se, lanciando **1d45**, estrae un numero compreso fra
 1-Volontà.
-• Deve aggiungere 1 possibilità per ogni livello di
+- Deve aggiungere 1 possibilità per ogni livello di
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) posseduto.
-• Deve sottrarre -X possibilità dove X è il totale di **Sapienza Oscura** posseduta
+- Deve sottrarre -X possibilità dove X è il totale di **Sapienza Oscura** posseduta
 dall'evocatore dell'incantesimo/5. Nel caso in cui il PG evocatore abbia postato in segreto, il
 bersaglio può chiedere al Narratore il valore da sottrarre a questo dado.
 
@@ -156,9 +156,9 @@ qualcosa che non va ed è stato maledetto agendo come spiegato nella
 Guida alla Tracciatura e sottraendo le possibilità
 spiegati in basso, che dipendono dalla potenza dell'evocazione. A seconda delle situazioni, il
 Narratore potrebbe concedere possibilità bonus.
-• **100%:** -5 possibilità
-• **66%:** -3 possibilità
-• **33%:** -1 possibilità
+- **100%:** -5 possibilità
+- **66%:** -3 possibilità
+- **33%:** -1 possibilità
 **Malus Incantesimo**
 Come accade per gli Incantesimi Mentali, se eseguito in maniera scorretta l'Incantesimo
 rischia di danneggiare temporaneamente le abilità magiche del PG bersaglio.
@@ -170,7 +170,7 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: nessuno
 - 33-66%: -5 Parametri sopra per 15 post del PG bersaglio dal termine dell'Incantesimo
-• PG bersaglio che subiscono un Imperio evocato allo 0% o al 33% devono lanciare
+- PG bersaglio che subiscono un Imperio evocato allo 0% o al 33% devono lanciare
 **1d15** e devono pescare un risultato compreso tra 1-Resistenza. Se non lo pescano,
 subiscono **permanentemente** un malus di **-2 a tutti i Parametri Fisici**. Il
 danno viene subito anche dal PG evocatore secondo le modalità spiegate sot
@@ -182,13 +182,13 @@ Nel caso specifico dell'Imperio, poiché prevede l'annullamento completo della p
 bersaglio che diventa un burattino dell'evocatore, l'evocatore perde o ottiene
 **temporaneamente** il seguente numero di Parametri **per ogni uso dal 33% in
 su** di questa maledizione.
-• **Maledizione lanciata da PG Studenti:** alle prime armi con la Magia Oscura e con
+- **Maledizione lanciata da PG Studenti:** alle prime armi con la Magia Oscura e con
 una moralità ancora in fase di definizione, perdono -3 Volontà e acquisiscono +1 Dialettica
 per i successivi 15 utilizzi dei due Parametri;
-• **Maledizione lanciata da PG Adulti senza Sapienza Oscura:** questa maledizione è
+- **Maledizione lanciata da PG Adulti senza Sapienza Oscura:** questa maledizione è
 nelle loro corde pur non essendo esperti, perdono -2 Volontà e acquisiscono +2 Dialettica
 per i successivi 15 utilizzi dei due Parametri;
-• **Maledizione lanciata da PG Adulti con Sapienza Oscura 1+:** affini a questo tipo di
+- **Maledizione lanciata da PG Adulti con Sapienza Oscura 1+:** affini a questo tipo di
 Magia, insita nel loro animo oscuro, perdono -1 Volontà e acquisiscono +3 Dialettica per i
 successivi 15 utilizzi dei due Parametri.
 
@@ -199,12 +199,14 @@ Perchè, per un motivo o per un altro, durante una role il PG evocatore e il suo
 potrebbero scrivere un numero di post differente l'uno dall'altro. Questo potrebbe causare
 delle incongruenze poiché, se la durata dell'incantesimo venisse stabilita normalmente
 attraverso i post:
-• il PG evocatore, non postando o postando meno volte del bersaglio, potrebbe non riuscire
+- il PG evocatore, non postando o postando meno volte del bersaglio, potrebbe non riuscire
 a dargli mai degli ordini, lasciando quest'ultimo in attesa di sapere cosa fare potenzialmente
 per tutta durata la role
-• il PG bersaglio, non postando o postando meno volte dell'evocatore, potrebbe non
+- il PG bersaglio, non postando o postando meno volte dell'evocatore, potrebbe non
 eseguire mai i comandi richiesti perchè l'evocatore potrebbe terminare il numero di post a
 disposizione prima che il bersaglio esegua ordini.
 Per rendere quindi la Maledizione giocabile tanto ONGame quanto OFFGame, quindi, è
 necessario stabilirne la durata contando quanti ordini il bersaglio esegue (ONGame) dopo
 aver ricevuto un ordine dall'evocatore (ONGame).
+
+</details>

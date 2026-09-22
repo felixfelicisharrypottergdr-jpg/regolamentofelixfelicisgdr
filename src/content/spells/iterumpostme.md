@@ -29,7 +29,7 @@ migration:
       item: "Iterum Post Me"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè l’oggetto non viene rotto o l’Incantesimo annullato
 
@@ -53,3 +53,5 @@ Questo Incantesimo ha una Forza che dipende dall’abilità dell’evocatore.
 *Incantesimo lanciato da PG Adulti con Sapienza Arcaica 1+*
 
 **Forza:** 120
+
+</details>

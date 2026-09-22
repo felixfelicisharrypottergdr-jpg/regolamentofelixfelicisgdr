@@ -28,8 +28,10 @@ migration:
 
 Rende impermeabile un oggetto a qualsiasi tipo di liquido.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** 10 post dell’evocatore
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

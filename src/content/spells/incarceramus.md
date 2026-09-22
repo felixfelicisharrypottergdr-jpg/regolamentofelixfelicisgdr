@@ -28,7 +28,7 @@ migration:
       item: "Incarceramus"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -58,3 +58,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 **Forza corde:** 120 Forza
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 6 bersagli; 6 post del bersaglio
+
+</details>

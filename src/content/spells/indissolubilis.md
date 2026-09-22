@@ -30,7 +30,7 @@ migration:
 Rende un oggetto particolarmente resistente per un determinato
 lasso di tempo. Non funziona sugli esseri umani.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -69,3 +69,5 @@ Borsa ed è a meno di 5 post dal termine dell'incantesimo, agendo come previsto 
 Guida alla Tracciatura.
 Possono lanciare lo stesso dado anche PG non proprietari dell'Oggetto che vogliono intuire
 se l'oggetto è stato incantato con questo incantesimo.
+
+</details>

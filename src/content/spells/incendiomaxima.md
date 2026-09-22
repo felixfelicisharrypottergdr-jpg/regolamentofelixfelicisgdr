@@ -40,15 +40,15 @@ contemporaneamente all'Incendio Maxima.
 
 > **Nota.**
 >
-• Uno o più edifici incendiati con questo incantesimo si distruggono nel giro di 10 post di
+- Uno o più edifici incendiati con questo incantesimo si distruggono nel giro di 10 post di
 chiunque se le fiamme non vengono fermate prima;
-• Non è possibile utilizzare un altro incantesimo contemporaneamente e finchè si utilizza
+- Non è possibile utilizzare un altro incantesimo contemporaneamente e finchè si utilizza
 *Incendio Maxima*;
-• *Incendio Maxima* può funzionare anche come scudo e riesce a schermare
+- *Incendio Maxima* può funzionare anche come scudo e riesce a schermare
 incantesimi avversari ed elementi fisici soltanto se il muro di fiamme evocato viene generato
 a protezione di qualcuno/qualcosa ed ha più Forza dell'incantesimo combattuto.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè il PG mantiene il controllo
 
@@ -82,3 +82,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli
 - 66%: max 4 bersagli
 - 33%: max 3 bersagli
+
+</details>

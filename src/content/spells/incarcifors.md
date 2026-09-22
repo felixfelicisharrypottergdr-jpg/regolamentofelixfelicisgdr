@@ -38,7 +38,7 @@ Di conseguenza, è possibile aprirla soltanto dall'esterno e mediante l'uso di
 ([Alohomora](/manuali/incantesimi/alohomora/) o
 [Aperio](/manuali/incantesimi/aperio/), non hanno effetto su questa gabbia).
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -69,3 +69,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 **Forza gabbia:** 120
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 6 bersagli per 6 post dell'evocatore
+
+</details>
