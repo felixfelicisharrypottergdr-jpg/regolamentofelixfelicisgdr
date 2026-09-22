@@ -179,3 +179,89 @@ L'ultimo ciclo completo ha superato **preflight, audit sorgenti, build, audit HT
 4. **Anomalia presente nella fonte:** conservarla fino a decisione Staff.
 5. **Refuso di conversione:** verificare il contesto e la fonte prima di correggere.
 6. **Miglioramento UX/IA:** registrarlo ora e implementarlo nella fase dedicata, salvo che blocchi la consultazione.
+
+
+## Blocco 1 — Inizia da qui, Il Personaggio, Giocare
+
+Audit puntuale completato su **95 documenti**.
+
+### Correzioni funzionali applicate
+
+- Le tre vecchie collisioni di route dei PG Studenti erano già state eliminate nella prima fase dell'audit.
+- I controlli automatici correnti non rilevano route documentali duplicate, link Markdown interni inesistenti, UUID mancanti o residui `to_migrate` / `prototypeExcerpt`.
+- Sono stati normalizzati **25 link interni root-relative** presenti in questo blocco, distribuiti fra onboarding, Modalità di Gioco e creazione del PG Adulto. Il sito non dipende più dal processor Markdown per correggere questi collegamenti nel primo blocco.
+- Commit della normalizzazione: `a44781dd`.
+
+### Anomalie editoriali da NON correggere automaticamente
+
+#### Contraddizione Prestigio / avanzamento di carriera
+
+La fonte **7. Giocare un PG Adulto** contiene due indicazioni incompatibili:
+
+- grado **Esperto**: requisito testuale **Prestigio 36**;
+- tariffario per grado: **Neo 0–36**, **Esperto 37–70**.
+
+La pagina `pg-adulto/lavorare/carriera-prestigio.md` conserva correttamente entrambe le indicazioni e mostra ancora una nota interna di migrazione. Lo Staff deve stabilire se la soglia corretta dell'Esperto sia **36** oppure **37**; la nota di audit dovrà poi essere rimossa dal contenuto pubblico.
+
+#### Refusi di conversione confermati nel blocco
+
+Restano da correggere editorialmente, dopo approvazione, almeno:
+
+- Parametri Sociali: `eCrescita`, `FantaHogwartse`;
+- Ricerca Accordi: `CategorieMagiche`, `zonaIl`;
+- Ricerca Casi: `DifensoriSe`;
+- Ricerca Creature: `AlleyValli`;
+- Ricerca Maledizioni: `qualiAffaticamento`;
+- Ricerca Piante: `oValigia`.
+
+Sono errori derivati dalla rimozione di link o interruzioni di paragrafo nella conversione, non termini regolamentari intenzionali.
+
+#### Gerarchia editoriale
+
+Nel blocco restano:
+
+- **2 pagine con più H1 nel corpo**:
+  - Orario delle lezioni e Regolamento Scolastico;
+  - Scoprire Stanze Segrete o Passaggi Segreti.
+- **8 salti H2 → H4** nelle Ricerche Casuali, distribuiti fra Ricerca Accordi, Casi, Crimini, Ingredienti, Maledizioni, Missioni e Pazienti.
+
+Questi casi non vengono corretti automaticamente perché gli heading segnalano spesso sezioni autonome inglobate in un unico documento: vanno risolti assieme all'architettura dell'informazione.
+
+#### Pagine monolitiche del blocco
+
+Superano circa 30.000 caratteri:
+
+- Meccaniche di Gioco ~70k;
+- Ricerca Casi ~56k;
+- Parametri Sociali ~48k;
+- PNG ~44k;
+- Ricerca Missioni ~43k;
+- Ricerca Crimini ~41k;
+- Ricerca Accordi ~36k;
+- Ricerca Maledizioni ~36k;
+- Regole Generali ~35k;
+- Ricerca Creature ~34k;
+- Valute ~32k;
+- Bagaglio ~31k.
+
+Non sono errori automaticamente correggibili. Vanno valutate in IA in base a densità, autonomia delle sottosezioni e frequenza di consultazione.
+
+#### Dipendenze dal forum
+
+Nel blocco rimangono link intenzionali a ForumFree in **9 documenti**, soprattutto per generatori PG, Smistamento, Club, Notizie da Hogwarts, sistemi PNG/informazioni e Piano di Studi. Devono essere classificati nella fase IA come:
+
+1. azioni che devono restare sul forum;
+2. contenuti che dovrebbero essere internalizzati nel sito-libro;
+3. strumenti esterni da mantenere ma rendere riconoscibili come tali.
+
+#### Onboarding “Inizia da qui”
+
+La nuova landing svolge correttamente la funzione di orientamento e riduce il carico di lettura iniziale. Rispetto al vecchio topic di onboarding restano però da decidere editorialmente alcuni passaggi operativi:
+
+- presentazione facoltativa del Player;
+- tutorial di compilazione della Scheda;
+- accesso a “Schede in Costruzione”;
+- indicazione del passaggio finale di revisione Staff / spostamento della Scheda approvata;
+- percorso equivalente e completo per il PG Adulto.
+
+Questi elementi non vanno reinseriti meccanicamente: bisogna decidere quali azioni appartengono al sito-libro e quali devono restare sul forum.
