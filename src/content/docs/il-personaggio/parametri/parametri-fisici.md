@@ -18,30 +18,13 @@ migration:
 
 # Parametri Fisici
 
-**INDICE**
-
-• Destrezza
-
-○ Scontri 1 vs 1
-
-○ Scontri tra più PG
-
-• Fatica
-
-• Resistenza
-
-• Salute
-
-• Guadagnare, perdere, recuperare Parametri Fisici
-
-Ci sono 4 Parametri Fisici, ciascuno legato a una diversa attitudine del corpo nel reagire a stimoli o pericoli esterni. Due di questi si modificano dinamicamente durante le role, a seconda delle circostanze, e influenzano gli altri Parametri del PG.
-
 ## Destrezza
 
 La **Destrezza** stabilisce l'agilità e la reattività di un PG, la sua capacità di schivare i colpi, di evocare magie celermente, di muoversi furtivamente, di correre o compiere azioni che richiedono un certo sforzo fisico. Più è alta la Destrezza, più sono alte le possibilità di attaccare per primo.
 La Destrezza viene utilizzata per determinare l'ordine delle azioni dei personaggi, in tutte quelle situazioni in cui è importante stabilire l'ordine con cui avvengono le azioni. Nel confronto tra le Destrezze, vengono lanciati tanti dadi quanti sono i PG coinvolti: ogni dado **ha tante facce quanto la Destrezza del PG che ne ha meno**.
 Si tiene sempre in considerazione la Destrezza posseduta dal PG al momento dello scontro, e quindi eventualmente oggetto di malus e bonus.
 
+<a id="1vs1"></a>
 ### Scontri 1 vs 1
 In ogni confronto 1vs1, al risultato del PG con Destrezza maggiore dei due viene aggiunta la **differenza** tra le due Destrezze. L'ordine delle azioni è dato dai risultati finali ordinati dal maggiore al minore.
 Un valore maggiore di Destrezza non garantisce di attaccare sempre per primi ma dà maggiori possibilità di estrarre esiti maggiori di quelli degli altri e un bonus dato dalla differenza con le Destrezze altrui.
@@ -57,6 +40,7 @@ Un valore maggiore di Destrezza non garantisce di attaccare sempre per primi ma 
 Vengono lanciati 2d10: il primo esito è 6, il secondo è 4.
 All'esito di PG2, che corrisponde alla Destrezza maggiore, si aggiunge la differenza tra le due Destrezze: 13-10=3. I risultati finali sono quindi: 6 per PG1 e 4+3=7 per PG2. L'azione di PG2 avviene prima di quella di PG1.
 
+<a id="1vsn"></a>
 ### Scontri tra più PG
 In ogni confronto tra più PG, ai singoli risultati dei PG con Destrezza maggiore viene aggiunta la **differenza** tra la propria Destrezza e quella del PG con il valore minore. L'ordine delle azioni sarà decretato dai risultati finali ordinati dal maggiore al minore.
 Un valore maggiore di Destrezza non garantisce di attaccare sempre per primi ma dà maggiori possibilità di estrarre esiti maggiori di quelli degli altri e un bonus dato dalla differenza con le Destrezze altrui.
@@ -109,6 +93,7 @@ Un PG a riposo ha 10 Fatica. Durante una quest ne consuma 4 evocando incantesimi
 A nessun giocatore è richiesto calcolare queste dinamiche. Le abbiamo presentate qui per trasparenza ma è appannaggio del Narratore calcolarle attraverso degli strumenti appositi e aggiornare di volta in volta i giocatori sulla condizione dei loro PG.
 Tuttavia, se si vuole curiosare su come funziona questo meccanismo, si può giocare con questo foglio di calcolo automatico.
 
+<a id="guadagnareperdefisici"></a>
 ## Guadagnare, perdere, recuperare Parametri Fisici
 
 I Parametri Fisici possono essere guadagnati, persi e recuperati in base agli eventi di gioco e alle azioni intraprese dal personaggio. Le dinamiche sono suddivise come segue:
@@ -118,15 +103,15 @@ I Parametri Fisici possono essere guadagnati in due modi:
 **2) Temporaneamente:** durante una giocata, è possibile aumentare il valore momentaneo o la soglia massima di un Parametro Fisico tramite l’uso di Pozioni, Incantesimi o Conoscenze legate al corpo. Questi bonus sono temporanei e cessano al termine del loro effetto, senza modificare il valore base del Parametro.
 **Perdere Parametri Fisici**
 I Parametri Fisici possono essere persi temporaneamente o permanentemente, a seconda delle circostanze:
-• La **Salute** si perde ogni volta che il PG subisce un colpo. Una volta giunta a 0, il PG entra in pericolo di vita;
-• La **Destrezza** e la **Resistenza** diminuiscono in proporzione alla Salute: più questa scende, più anche questi Parametri calano. Tuttavia, possono subire perdite indipendenti in seguito a malus o condizioni di gioco specifiche (es. Incantesimi subiti, Pozioni ingerite, situazioni di gioco varie);
-• La **Fatica** diminuisce ogni volta che si utilizzano Incantesimi, Conoscenze o altre Azioni che ne richiedano il consumo. Alcuni effetti o condizioni (come la perdita di Salute) possono comportare un calo ulteriore o più rapido di Fatica.
+- La **Salute** si perde ogni volta che il PG subisce un colpo. Una volta giunta a 0, il PG entra in pericolo di vita;
+- La **Destrezza** e la **Resistenza** diminuiscono in proporzione alla Salute: più questa scende, più anche questi Parametri calano. Tuttavia, possono subire perdite indipendenti in seguito a malus o condizioni di gioco specifiche (es. Incantesimi subiti, Pozioni ingerite, situazioni di gioco varie);
+- La **Fatica** diminuisce ogni volta che si utilizzano Incantesimi, Conoscenze o altre Azioni che ne richiedano il consumo. Alcuni effetti o condizioni (come la perdita di Salute) possono comportare un calo ulteriore o più rapido di Fatica.
 **Recuperare Parametri Fisici**
 Il recupero dei Parametri Fisici segue regole diverse in base alla causa della loro perdita:
-• **Salute:** può essere recuperata esclusivamente tramite quanto previsto dalla Guida alla Medimagia.
+- **Salute:** può essere recuperata esclusivamente tramite quanto previsto dalla Guida alla Medimagia.
 Quando la perdita degli altri Parametri Fisici è causata da un calo di Salute, questi vengono recuperati automaticamente insieme alla Salute, nel momento in cui questa viene ripristinata completamente.
-• **Destrezza e Resistenza:** se la perdita è dovuta alla Salute, il recupero avviene unitamente alla guarigione della Salute stessa. Se la perdita è dovuta ad altri malus (temporanei o permanenti), il recupero può avvenire con il passare del tempo o l'uso di Pozioni, Incantesimi o Conoscenze, o attraverso bonus forniti da Oggetti e situazioni di gioco.
-• **Fatica:** la Fatica può ridursi per due cause principali, e ciascuna segue una gestione diversa.
+- **Destrezza e Resistenza:** se la perdita è dovuta alla Salute, il recupero avviene unitamente alla guarigione della Salute stessa. Se la perdita è dovuta ad altri malus (temporanei o permanenti), il recupero può avvenire con il passare del tempo o l'uso di Pozioni, Incantesimi o Conoscenze, o attraverso bonus forniti da Oggetti e situazioni di gioco.
+- **Fatica:** la Fatica può ridursi per due cause principali, e ciascuna segue una gestione diversa.
 **1) Fatica ridotta a causa della perdita di Salute**
 Se la Fatica risulta ridotta **a causa della perdita di Punti Salute** (come previsto dal regolamento), essa **non** si considera recuperata automaticamente e segue le normali regole legate al recupero della Salute (vedi Manuale di Medimagia). In questo caso, la Fatica torna ai valori ordinari solo quando la Salute viene ripristinata secondo le regole previste.
 **2) Fatica spesa per l’utilizzo di Azioni che la consumano**
@@ -146,9 +131,9 @@ Per **arco narrativo** si intende una **stessa scena/situazione**, oppure un **i
 In altre parole: due role appartengono allo stesso arco narrativo quando, ONGame, la seconda role **riprende la prima** come continuità naturale (anche cambiando luogo), e la role fa parte della stessa “fase” della storia: la tensione non si scioglie, l’urgenza non si interrompe, e non c’è spazio narrativo per considerare il personaggio “riposato”.
 **In termini pratici, cosa significa?**
 Due o più role fanno parte dello stesso arco narrativo se:
-• la role successiva nasce come **conseguenza immediata** della precedente (non come scena nuova e scollegata);
-• non avvengono, anche da background, momenti credibili riposo/recupero (es. pausa, sonno, tempo di decompressione, ritorno alla normalità);
-• i PG sono ancora dentro la stessa "urgenza" (es. inseguimento, fuga, gestione feriti, allarme, scontro, interrogatorio in corso).
+- la role successiva nasce come **conseguenza immediata** della precedente (non come scena nuova e scollegata);
+- non avvengono, anche da background, momenti credibili riposo/recupero (es. pausa, sonno, tempo di decompressione, ritorno alla normalità);
+- i PG sono ancora dentro la stessa "urgenza" (es. inseguimento, fuga, gestione feriti, allarme, scontro, interrogatorio in corso).
 **Esempi:** una role in cui si giocano le conseguenze immediate di una Quest; un inseguimento che prosegue da un luogo a un altro; fuga/evacuazione che continua senza interruzioni; interrogatorio iniziato in una role e proseguito subito dopo; gestione immediata di un ferito prima che vi sia modo di fermarsi davvero.
 In caso di dubbio, è preferibile considerare le role come parte dello **stesso arco narrativo** e applicare la regola più cautelativa; eventuali indicazioni diverse possono essere fornite dal Narratore o dallo Staff.
 
@@ -160,15 +145,15 @@ Il principio è lo stesso del concetto di **riposo** in molti sistemi di gioco: 
 
 > **Principio.**
 >
-• La Fatica va sempre **tracciata durante la role** perché incide immediatamente su ciò che il PG può o non può fare (in particolare quando scende a 0).
-• In condizioni ordinarie, si recupera **1 Punto Fatica per ogni post** in cui non si utilizza ulteriore magia di alcun tipo (anche Conoscenze che consumano 0 Fatica). Alla chiusura della role la Fatica spesa per Azioni che la consumano **si considera recuperata** e non modifica il valore in Scheda PG.
-• Se le role fanno parte dello **stesso arco narrativo**, la Fatica non si resetta fra una e l’altra: la continuità ONGame prevale sulla chiusura OFFGame.
-• Resta fermo che la Fatica ridotta per effetto della **Salute** non segue il recupero autoconclusivo e si riallinea solo tramite le regole di Guarigionepreviste.
+- La Fatica va sempre **tracciata durante la role** perché incide immediatamente su ciò che il PG può o non può fare (in particolare quando scende a 0).
+- In condizioni ordinarie, si recupera **1 Punto Fatica per ogni post** in cui non si utilizza ulteriore magia di alcun tipo (anche Conoscenze che consumano 0 Fatica). Alla chiusura della role la Fatica spesa per Azioni che la consumano **si considera recuperata** e non modifica il valore in Scheda PG.
+- Se le role fanno parte dello **stesso arco narrativo**, la Fatica non si resetta fra una e l’altra: la continuità ONGame prevale sulla chiusura OFFGame.
+- Resta fermo che la Fatica ridotta per effetto della **Salute** non segue il recupero autoconclusivo e si riallinea solo tramite le regole di Guarigionepreviste.
 
 > **Esempio.**
 >
-• **PG1** ha come valore base 15 Fatica.
+- **PG1** ha come valore base 15 Fatica.
 In una role spende 6 Fatica per Incantesimi/Conoscenze. Durante la role la Fatica viene tracciata nello spoiler (15 → 9) per gestire correttamente le Azioni. Alla chiusura, in condizioni ordinarie, la Fatica spesa si considera recuperata autoconclusivamente e in Scheda PG resta 15/15.
 Se però la role successiva è dichiarata prosecuzione dello **stesso arco narrativo** (es. inseguimento che continua, conseguenze immediate della stessa Quest), la role successiva non parte da 15/15: parte dalla Fatica risultante (9) e la gestione continua nello spoiler finché l’arco narrativo non si conclude.
-• **PG2** ha Fatica ridotta perché ha perso Punti Salute.
+- **PG2** ha Fatica ridotta perché ha perso Punti Salute.
 In questo caso non si applica il recupero autoconclusivo: la Fatica rimane ridotta finché la Salute non viene recuperata secondo le regole del Manuale di Medimagia.
