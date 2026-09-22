@@ -301,7 +301,7 @@ Quando il risultato contiene una parte decimale, il valore finale viene arrotond
 
 > **Esempio.**
 >
-****Esempio di distribuzione tra Sapienze Magiche, Fisiche e Sociali****
+**Esempio di distribuzione tra Sapienze Magiche, Fisiche e Sociali**
 Un nuovo PG Adulto di 42 anni sceglie la fascia da 40 Sapienza, con Coefficiente di Debito 1,5.
 Distribuisce la Sapienza in questo modo:
 - Sapienza Medimagica di partenza, con tutte le Conoscenze al Livello I: 5 Sapienza;
@@ -338,7 +338,7 @@ Applicando il Coefficiente di Debito:
 Finché il PG non avrà estinto entrambi i debiti, non potrà acquistare nuove Sapienze, Conoscenze o miglioramenti.
 
 > **Esempio.**
-> ****Esempio di distribuzione concentrata su due Sapienze Magiche****
+> **Esempio di distribuzione concentrata su due Sapienze Magiche**
 Un PG sceglie la fascia da 40 Sapienza e sviluppa due Sapienze Magiche con tutte le Conoscenze al Livello IV.
 Ogni Sapienza vale 20, quindi:
 20 + 20 = 40 Sapienza.

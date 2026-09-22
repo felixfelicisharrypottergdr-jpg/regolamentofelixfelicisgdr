@@ -368,7 +368,7 @@ ridurle.
 •
 **PG Adulto di supporto:** è presente un *PG Verbalizzante* che ruola con la
 Difesa e fornisce +2 al totale di ogni tiro della Difesa (Bonus Verbalizzante)
-****Fase I – Apertura delle posizioni**** **Descrizione:** Accusa: multe alte
+**Fase I – Apertura delle posizioni** **Descrizione:** Accusa: multe alte
 (4.000 Galeoni), risarcimenti completi (1.500 Galeoni), sospensione bacchetta 2 mesi.
 Difesa: riduzione multe (1.000 Galeoni), risarcimenti minimi (500 Galeoni), nessuna
 sospensione bacchetta.
@@ -378,7 +378,7 @@ sospensione bacchetta.
 + Condizione(-2) + Verbalizzante(+2) = **6**
 **Esito:** vince la Difesa. L’Accusa entra in Fase II con Malus -5 al totale di ogni tiro di
 Fase II.
-****Fase II – Esame delle prove**** **Descrizione:** ogni parte presenta
+**Fase II – Esame delle prove** **Descrizione:** ogni parte presenta
 elementi; la controparte li contesta. Ogni scambio vinto dà +2 Bonus Fase II.
 *Valori usati qui:* Accusa: Volontà 18, Acume 16, Persuasore 3, Dialettica 5, Malus
 Fase I -5, Gravità +1 Difesa: Volontà 20, Acume 15, Persuasore 2, Dialettica 7,
@@ -404,7 +404,7 @@ Esito: vince la Difesa
 • *Accusa contesta*: 1dDialettica(5) +16 +3 + Gravità(+1) + Malus(-5) = **20**
 Esito: vince la Difesa
 → Difesa +2 (totale Bonus Fase II: **+8**)
-****Fase III – Negoziazione a Turni**** **Descrizione:** Reato Civile
+**Fase III – Negoziazione a Turni** **Descrizione:** Reato Civile
 → round per Multe, Risarcimenti, Limitazioni. Bonus Prestigio: Accusa Esperto +10; Difesa
 Veterano +20. Il Bonus Fase II della Difesa è **+8** (si somma ad ogni round).
 *Round 1 – Multe*
@@ -522,7 +522,7 @@ Galeoni durante una visita scolastica. Il Processo si svolge davanti al Wizengam
 → Difesa -2 / Accusa +2 (Condizione)
 •
 **PG Adulto di supporto:** nessuno (quindi nessun bonus di ruolo applicato)
-****Fase I – Preparazione al Processo**** **Descrizione:** I Difensori
+**Fase I – Preparazione al Processo** **Descrizione:** I Difensori
 raccolgono prove, testimoni e certificazioni.
 **Esecuzione (valori usati):**
 *Difensore Accusa* (Volontà 17, Acume 15, Persuasore 4, Dialettica 6, Popolarità 8,
@@ -553,7 +553,7 @@ Tiro 1d50 = **20**
 Soglia = 16 + 5 + Condizione(-2) = **19** Tiro 1d50 = **15**→ Successo
 → Difesa +2 (totale Bonus Fase I: **+6**)
 **Esito:** Bonus Fase I: Accusa **+6**, Difesa **+6**.
-****Fase II – Il Dibattimento**** **Descrizione:** In aula, Accusa e Difesa si
+**Fase II – Il Dibattimento** **Descrizione:** In aula, Accusa e Difesa si
 confrontano su prove, testimoni e interrogatori dell’Assistito.
 *Round 1 – Prove documentali* Accusa: 1dAcume (1d15=4) +6 +2 + Condizione(+2) +
 Gravità(+3) + BonusFaseI(+6) = **23** Difesa: 1dAcume (1d16=14) +5 +5 +
@@ -566,10 +566,10 @@ Gravità(+3) + BonusFaseI(+6) = **29** Difesa: 1dVolontà (1d19=15) +5 +5 +5 +
 Condizione(-2) + BonusFaseI(+6) = **34** Vince: Difesa
 **Esito:** Difesa vince 2-1
 → ottiene **+1d10 Voti** nelle votazioni finali.
-****Fase III – Arringa Finale**** Accusa: 1dVolontà (1d17=3) +6 +2 +4 +4 +
+**Fase III – Arringa Finale** Accusa: 1dVolontà (1d17=3) +6 +2 +4 +4 +
 Condizione(+2) + Gravità(+3) + BonusFaseI(+6) = **30** Difesa: 1dVolontà (1d19=17)
 +5 +5 +3 +5 + Condizione(-2) + BonusFaseI(+6) = **39** Vince: Difesa
-****Votazioni Finali****
+**Votazioni Finali**
 • Bonus da Fase II (Difesa): 1d10 = **7**
 Voti Difesa (vincitore Fase III): 20+1d50 (1d50=31) = **51**
 → +1d10 (7) = **58** Voti Accusa (perdente Fase III): 10+1d40 (1d40=22) = **32**
@@ -640,7 +640,7 @@ magiche in lite per la proprietà di un antico artefatto. Nessun reato è stato 
 entrambe le parti minacciano di portare la questione davanti al Wizengamot. (*Nota:*
 nell’esempio si assume Bonus/Malus Condizione = 0, Bonus/Malus Gravità = 0, Bonus PG
 Adulto di supporto = 0.)
-****Fase I – Raccolta delle posizioni**** **Descrizione:** Il Difensore incontra
+**Fase I – Raccolta delle posizioni** **Descrizione:** Il Difensore incontra
 il proprio Assistito per capire pretese minime, punti irrinunciabili e margini di concessione.
 **Esecuzione:** *Difensore Famiglia A* (Volontà 17, Persuasore 4, Dialettica 6,
 Prestigio 10) Soglia = 17+4+6 = **27** Tiro 1d50 = **20**
@@ -648,7 +648,7 @@ Prestigio 10) Soglia = 17+4+6 = **27** Tiro 1d50 = **20**
 *Difensore Famiglia B* (Volontà 16, Persuasore 5, Dialettica 5, Prestigio 15) Soglia =
 16+5+5 = **26** Tiro 1d50 = **18**
 → Successo Esito: +2 alla soglia in Fase II
-****Fase II – Esplicazione delle posizioni**** **Descrizione:** Le parti
+**Fase II – Esplicazione delle posizioni** **Descrizione:** Le parti
 espongono richieste e motivazioni.
 **Esecuzione:**
 *Famiglia A* Prestigio/4 = 10/4 = **2** Soglia = 17 + 6 + 2 + BonusFaseI(+2) =
@@ -657,7 +657,7 @@ espongono richieste e motivazioni.
 *Famiglia B* Prestigio/4 = 15/4 = **3** Soglia = 16 + 5 + 3 + BonusFaseI(+2) =
 **26** Tiro 1d60 = **20**
 → Successo (Esito: +5 alla soglia in Fase III)
-****Fase III – Negoziato vero e proprio**** **Descrizione:** Tre round, uno per
+**Fase III – Negoziato vero e proprio** **Descrizione:** Tre round, uno per
 punto critico.
 *Round 1 – Proprietà dell’artefatto* Famiglia A: Soglia = 17+6+4 + BonusFaseII(+5) =
 **32**
@@ -737,13 +737,13 @@ svolge davanti al Wizengamot.
 → Difesa -2 (Condizione)
 •
 **PG Adulto di supporto:** nessuno
-****Fase I – Analisi della Sentenza****
+**Fase I – Analisi della Sentenza**
 *Difensore 1* (Acume 18, Prestigio 12 → Prestigio/4=3) Soglia = 18 + 3 +
 Condizione(-2) = **19** Tiro 1d50 = **16**
 → Successo*Difensore 2* (Acume 16, Prestigio 20 → Prestigio/4=5) Soglia = 16 + 5 +
 Condizione(-2) = **19** Tiro 1d50 = **18**
 → Successo
-****Fase II – Ricerca di nuovi elementi****
+**Fase II – Ricerca di nuovi elementi**
 *Difensore 1* (Acume 18, Volontà 15, Dialettica 5, Popolarità 12, Persuasore 3,
 Prestigio/4=3) Soglia = 18 + 15 + 5 + 12/2(6) + 3 + 3 + Condizione(-2) = **48** Tiro
 1d70 = **41**
@@ -752,7 +752,7 @@ Prestigio/4=3) Soglia = 18 + 15 + 5 + 12/2(6) + 3 + 3 + Condizione(-2) = **48** 
 Prestigio/4=5) Soglia = 16 + 17 + 6 + 10/2(5) + 2 + 5 + Condizione(-2) = **49** Tiro
 1d70 = **44**
 → Successo
-****Fase III – Discussione al Wizengamot****
+**Fase III – Discussione al Wizengamot**
 *Difensore 1* (Volontà 15, Dialettica 5, Prestigio/4=3, Leader 4) Soglia = 15 + 5 + 3 + 4
 + Condizione(-2) = **25** Tiro 1d60 = **22**
 → Successo
@@ -819,16 +819,16 @@ trattenuto ad Azkaban in attesa del processo.
 •
 **PG Adulto di supporto:** Amico a supporto (bonus non numerico; nell’esempio non è
 necessario sostituire alcun tiro)
-****Fase I – Accesso e Richiesta Ufficiale****
+**Fase I – Accesso e Richiesta Ufficiale**
 *Difensore* (Volontà 18, Persuasore 5, Dialettica 7) Soglia = 18 + 5 + 7 +
 Condizione(-2) = **28** Tiro 1d50 = **20**
 → Successo
-****Fase II – Reperimento Risorse e Garanzie****
+**Fase II – Reperimento Risorse e Garanzie**
 *Difensore* (Volontà 18, Acume 6, Persuasore 5, Prestigio +15
 → Prestigio/4=3) Scelta prima del tiro: uso *Volontà* e *Prestigio/4*. Soglia = 18 +
 5 + 3 + Condizione(-2) = **24** Tiro 1d40 = **18**
 → Successo Esito: in Fase III il Difensore avrà +5 alla soglia.
-****Fase III – Confronto con il Wizengamot / Auror****
+**Fase III – Confronto con il Wizengamot / Auror**
 *Difensore* (Volontà 18, Persuasore 5, Dialettica 7, Bonus Fase II +5) Soglia = 18 + 5 +
 7 + Condizione(-2) + BonusFaseII(+5) = **33** Tiro 1d50 = **25**
 → Successo
@@ -888,7 +888,7 @@ fallisce e i Difensori non possono riscattare Prestigio dalla Missione del Fanta
 eventuali irregolarità nella gestione dei fondi di uno dei dipartimenti ministeriali.
 **Assunzioni di esempio:** Bonus/Malus Condizione o Gravità = 0; nessun PG Adulto di
 supporto.
-****Fase I – Accesso agli Archivi e Raccolta Documenti****
+**Fase I – Accesso agli Archivi e Raccolta Documenti**
 *Difensore 1* (Volontà 18, Persuasore 5, Dialettica 6)
 Soglia = 18 + 6 + 5 = **29**Tiro 1d40 = **20** → Successo
 Esito: +2 alla soglia in Fase II
@@ -896,7 +896,7 @@ Esito: +2 alla soglia in Fase II
 Soglia = 16 + 7 + 4 = **27**
 Tiro 1d40 = **18** → Successo
 Esito: +2 alla soglia in Fase II
-****Fase II – Interazioni con Funzionari****
+**Fase II – Interazioni con Funzionari**
 Determinazione atteggiamento funzionario: 1d3 = 3 → Funzionario favorevole → +3 alla
 soglia
 *Difensore 1*
@@ -906,7 +906,7 @@ Tiro 1d60 = **30** → Successo
 Soglia = 16 + 4 + 7 + Funzionario(+3) + BonusFaseI(+2) = **32**
 Tiro 1d60 = **28** → Successo
 Esito: +5 alla soglia in Fase III
-****Fase III – Sintesi e Presentazione Rapporti****
+**Fase III – Sintesi e Presentazione Rapporti**
 *Difensore 1* (Volontà 18, Dialettica 6, Prestigio 10 → Prestigio/4=2)
 Soglia = 18 + 6 + 2 + BonusFaseII(+5) = **31**
 Tiro 1d60 = **25** → Successo
@@ -961,14 +961,14 @@ reato sono gli stessi)
 strega accusata di aver violato licenze magiche nel commercio di creature protette.
 **PG Adulto di supporto:** Amico a supporto (bonus non numerico: può sostituire un
 tiro fallito secondo le regole del ruolo).
-****Fase I – Stesura Tecnica dell’Atto****
+**Fase I – Stesura Tecnica dell’Atto**
 **Descrizione:** bozza con riferimenti al Codice di Diritto Magico, norme vigenti e
 formule legali standard.
 **Esecuzione:***Difensore* (Acume 17)
 Soglia = **17**
 Tiro 1d35 = **15** → Successo
 **Esito:** +3 alla soglia in Fase III.
-****Fase II – Revisione e Rafforzamento Argomentativo****
+**Fase II – Revisione e Rafforzamento Argomentativo**
 **Descrizione:** si rafforzano le argomentazioni e si limano le parti deboli.
 **Esecuzione:**
 *Difensore* (Volontà 16, Acume 15, Dialettica 6)
@@ -976,7 +976,7 @@ Scelta prima del tiro: uso *Volontà*.
 Soglia = 16 + 6 = **22**
 Tiro 1d40 = **22** → Successo
 **Esito:** +5 alla soglia in Fase III.
-****Fase III – Deposito Ufficiale e Valutazione****
+**Fase III – Deposito Ufficiale e Valutazione**
 **Descrizione:** deposito e valutazione del testo.
 **Esecuzione:**
 *Difensore* (Volontà 17, Dialettica 7, Prestigio 12 → Prestigio/4=3, Bonus Fase I +3,

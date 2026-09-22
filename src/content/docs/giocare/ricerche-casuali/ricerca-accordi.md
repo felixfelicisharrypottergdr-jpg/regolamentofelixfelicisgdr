@@ -270,7 +270,7 @@ negoziare con un capo locale di una comunità magica per ottenere il permesso di
 alcune piante e creature rare protette. L’area è instabile: la comunità è sospettosa e alcune
 fazioni ostili potrebbero interferire.
 **Assunzioni:** arrotondamenti sempre per difetto.
-****Fase I – Preparazione****
+**Fase I – Preparazione**
 **Prova del PG non Diplomatico (Animus)**
 Il Magizoologo tenta di ottenere informazioni ambientali utili.
 Esempio valori: Sapienza Magizoologica 20, Empatia 20.
@@ -284,14 +284,14 @@ Applichiamo l’aiuto Animus come **-5 Malus** → Malus effettivo = 5
 Soglia Fase I = Acume (20) + Sapienze/2 (25) - Malus (5) = **40**
 Lancio **1d100**: esce **53** → fallimento
 Esito: dati parziali e dubbi → **-5** alla soglia della Fase II per il Diplomatico.
-****Fase II – Strategia****
+**Fase II – Strategia**
 Soglia base = Sapienze/2 (25) + Lv. Persuasore (2) + Malus Fase I (-5) = **22**
 Bonus Non Diplomatico (aiuto strategico): Sapienze Animus/4 = 50/4 = **12**
 Soglia totale = 22 + 12 = **34**
 Lancio **1d70**: esce **15** → successo
 Esito: strategia chiara e coordinata → **+5** al risultato del Diplomatico in Fase III
 (Bonus Fase II).
-****Fase III – Cuore della Trattativa****
+**Fase III – Cuore della Trattativa**
 **Valori Avversario (Giallo)**: Acume 30, Volontà 25, Empatia 20
 **Round 1 – Approccio Logica (Acume)**
 Diplomatico: tira **1dAcume** (1d20). Esce **16**.
@@ -408,17 +408,17 @@ Completamento della Missione del FantaWiz "Il Diplomatico"
 >
 **Accordo:** i PG partecipano a un gala in Francia (Zona Verde). PG1 è il Diplomatico,
 PG2 è un non Diplomatico. Obiettivo: avvicinare un funzionario influente e trasformare il
-contatto in relazione utile.****Fase I – Attirare l’attenzione****
+contatto in relazione utile.**Fase I – Attirare l’attenzione**
 Soglia = Volontà + Dialettica di PG1 = **38**
 Malus Zona Verde = 0
 Lancio **1d40**: esce **33** → successo (33 ≤ 38)
-****Fase II – Fare una buona impressione****
+**Fase II – Fare una buona impressione**
 Soglia = (Volontà + Dialettica) 38 + Bonus Prestigio (Diplomatico) 10 + Bonus Non
 Diplomatico (Dialettica 10 + Volontà/2 = 6) 16 - Malus Zona (0)
 Totale soglia = **64**
 Lancio **1d70**: esce **52** → successo
 Esito: in Fase III il Diplomatico avrà **+5** al risultato.
-****Fase III – Stringere una relazione utile****
+**Fase III – Stringere una relazione utile**
 Diplomatico: 1dVolontà (1d18) esce 12 + Dialettica 20 + Prestigio attuale/2 (10/2=5) + Bonus
 Fase II (+5) = **42**
 Avversario (Zona Verde): 1d20 esce 19
@@ -537,19 +537,19 @@ inglesi.
 Determinazione scandalo: lancio **1d4** → esce **3** → **Gravità Alta**
 (fuga di documenti segreti su missioni in corso).
 Malus Gravità = **5**.
-****Fase I****
+**Fase I**
 PG Diplomatico: Acume 20, Popolarità 15, Lv. Persuasore 3
 Bonus Non Diplomatico (Sensus): +5 alla soglia (se coerente con la scena)
 Soglia = 20 + (15/2=7) + 3 + 5 - 5 = **30**
 Lancio **1d50**: esce **28** → successo
 Esito: +5 alla soglia della Fase II e +5 al risultato della Fase III
-****Fase II****
+**Fase II**
 Soglia = Percezione 20 + Bonus Non Diplomatico (Acume/2 di PG2: 14/2=7) - Malus Gravità
 5 + Bonus Fase I 5
 Totale = **27**
 Lancio **1d40**: esce **21** → successo
 Esito: +5 al risultato della Fase III
-****Fase III****
+**Fase III**
 Diplomatico: 1dVolontà (1d16 esce 12) + Dialettica 3 + Lv. Persuasore 3 + Bonus Fase I e II
 (5+5) + Bonus Non Diplomatico (Volontà/2: 10/2=5)
 Totale = 12 + 3 + 3 + 10 + 5 = **33**
@@ -640,19 +640,19 @@ risultato dell’Avversario o dell’opinione pubblica.
 **Accordo:** i PG devono coordinare diversi dipartimenti del Ministero della Magia
 inglese per preparare un grande evento internazionale. Zona determinata con **1d3**:
 esce **1** → **Zona Verde**.
-****Fase I****
+**Fase I**
 Diplomatico: Acume 25, Volontà 15, Popolarità 10
 Supporto non Diplomatico: metà Acume = +6 (esempio)
 Soglia = 25 + 15 + (10/2=5) + 6 - 10 = **41**
 Lancio **1d80**: esce **28** → successo
 Esito: +5 alla soglia Fase II
-****Fase II****
+**Fase II**
 Bonus non Diplomatico: Animus +5 (risorsa/logistica) e Voluntas +1d10 (esce 7)
 Malus Verde = 2
 Soglia = Acume 25 + 5 + 7 + Bonus Fase I 5 - 2 = **40**
 Lancio **1d35**: esce **30** → successo
 Esito: +5 alla soglia Fase III
-****Fase III****
+**Fase III**
 Bonus non Diplomatico: Sensus metà Acume +6, Voluntas metà Volontà +5
 Malus Verde = 10
 Soglia = Acume 25 + Totale Sapienze Magiche 10 + Bonus Diplomatico fisso 5 + Bonus

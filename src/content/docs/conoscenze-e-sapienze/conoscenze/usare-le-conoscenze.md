@@ -396,7 +396,7 @@ In base alla riuscita della Conoscenza il PG Divinatore è più o meno abile nel
 • Con esito **100%**, il PG viene posseduto dal Defunto: parlerà con una voce differente poiché l'anima del defunto sarà entrata dentro di lui. Al termine della possessione, non ricorderà cosa è stato detto.
 • Con esito **66%**, il PG è l'unico a sentire delle voci e può riassumerle ai partecipanti.
 • Con esito **33%**, il PG comunica coi defunti soltanto attraverso colpi e segni fisici (es. "Se ci sei batti un colpo!").
-• Con riuscita allo ****0%****, il PG non riesce a comunicare con i defunti in alcun modo.
+• Con riuscita allo **0%**, il PG non riesce a comunicare con i defunti in alcun modo.
 
 Valori
 

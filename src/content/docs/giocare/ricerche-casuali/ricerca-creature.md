@@ -170,7 +170,9 @@ Per scoprire se il PG si imbatte in una Creatura Magica è necessario lanciare u
 o dopo il proprio post.
 Durante il **Primo incontro**, il PG si imbatte in una Creatura Magica se lanciando:
 
-****1d30:** 1 - Empatia + Bonus Sapienza Magizoologica + Bonus
+**
+
+**1d30:** 1 - Empatia + Bonus Sapienza Magizoologica + Bonus
 Ricerca Attiva**
 
 Le possibilità possono essere aumentate dalla Sapienza Magizoologica posseduta dal PG,
@@ -398,7 +400,9 @@ cattura, la Creatura non è catturabile oppure non deve essere trasportata con s
 proseguire normalmente con il Secondo incontro.
 Il PG, anche in questo caso, si imbatte in una seconda Creatura Magica se lanciando:
 
-****1d30:** 1 - Empatia + Bonus Sapienza Magizoologica**
+**
+
+**1d30:** 1 - Empatia + Bonus Sapienza Magizoologica**
 
 Il Bonus Ricerca Attiva di +2 non viene più applicato dopo il Primo incontro.
 Può tentare di pescare un esito favorevole per tutti i post che desidera senza limiti.
@@ -538,7 +542,9 @@ appartenenti alle Classificazioni più alte e, contemporaneamente, di imbattersi
 Orde composte da un numero maggiore di esemplari.
 Il PG, anche in questo caso, si imbatte in una terza Creatura Magica se lanciando:
 
-****1d30:** 1 - Empatia + Bonus Sapienza Magizoologica**
+**
+
+**1d30:** 1 - Empatia + Bonus Sapienza Magizoologica**
 
 Il Bonus Ricerca Attiva di +2 non viene applicato al Terzo incontro.
 Può tentare di pescare un esito favorevole per tutti i post che desidera senza limiti.

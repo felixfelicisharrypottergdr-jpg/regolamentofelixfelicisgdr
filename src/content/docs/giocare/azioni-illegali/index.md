@@ -43,7 +43,7 @@ Ogni volta che un mago o una strega, **PG Studente** o **PG Adulto** che sia, in
 Ogni volta che il PG infrange la Legge Magica, ad esempio durante lo svolgimento di Missioni Sinistre del FantaWiz, rischia di attirare su di sé gli sguardi di Auror e passanti.
 Questo meccanismo si attiva ogni volta che nelle varie sezioni del Regolamento si trova la dicitura "Il PG compiendo questa cosa rischia di essere scoperto da un'autorità".
 
-Il PG Criminale rischia di essere scoperto dalle autorità, a meno che ****non**** stia:
+Il PG Criminale rischia di essere scoperto dalle autorità, a meno che **non** stia:
 • Acquistando o vendendo, **tramite role tra PG e PG Negozianti che svolgono il proprio lavoro**, Ingredienti e Merci Illegali ONGame (sono considerate illegali la vendita e l'acquisto di Merci Illegali tra privati, quindi anche la vendita OFFGame e ONGame ai PNG Commercianti, che non si configurano come Negozianti in possesso di licenza di vendita);
 • Allevando, creando e coltivando Creature, Pozioni e Piante illegalmente (**vedi sotto**).
 
