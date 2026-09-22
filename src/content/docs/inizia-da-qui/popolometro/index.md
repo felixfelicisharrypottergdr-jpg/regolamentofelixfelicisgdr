@@ -2,7 +2,7 @@
 felixId: "5eb6436a-bcb2-4cd4-b9dc-54dcbca21e98"
 title: "Il Popolometro"
 description: "Regole complete del Popolometro e delle sue soglie."
-contentType: landing
+contentType: rule
 searchAliases:
   - "popolometro"
   - "soglie"
