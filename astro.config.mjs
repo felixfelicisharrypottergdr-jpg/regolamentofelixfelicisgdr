@@ -93,11 +93,133 @@ export default defineConfig({
             { label: 'Home', link: '/' },
             { label: 'Orientamento', slug: 'inizia-da-qui' },
             { label: 'Cosa siamo', slug: 'inizia-da-qui/cosa-siamo' },
-            { label: 'Regole Generali', slug: 'inizia-da-qui/regole-generali' },
-            { label: 'Valute di Gioco', slug: 'inizia-da-qui/valute' },
-            { label: 'Allineamenti', slug: 'inizia-da-qui/allineamenti' },
-            { label: 'Popolometro', slug: 'inizia-da-qui/popolometro' },
-            { label: 'Personaggi Non Giocanti', slug: 'inizia-da-qui/png' },
+            {
+              label: 'Regole Generali',
+              items: [
+                { label: 'Panoramica', slug: 'inizia-da-qui/regole-generali' },
+                { label: 'Norme Generali', link: '/inizia-da-qui/regole-generali/#norme' },
+                { label: 'È vietato', link: '/inizia-da-qui/regole-generali/#vietato' },
+                { label: 'Principi', link: '/inizia-da-qui/regole-generali/#principi' },
+                { label: 'Temi Sensibili e contesto', link: '/inizia-da-qui/regole-generali/#temi' },
+              ],
+            },
+            {
+              label: 'Valute di Gioco',
+              items: [
+                { label: 'Panoramica', slug: 'inizia-da-qui/valute' },
+                {
+                  label: 'Punti Post',
+                  items: [
+                    { label: 'I Punti Post', link: '/inizia-da-qui/valute/#puntipost' },
+                    { label: 'Migliorare le Conoscenze', link: '/inizia-da-qui/valute/#migliorarecon' },
+                    { label: 'Convertire in Galeoni', link: '/inizia-da-qui/valute/#convertire' },
+                    { label: 'Ottenere Parametri', link: '/inizia-da-qui/valute/#ottparam' },
+                    { label: 'Come guadagnarli', link: '/inizia-da-qui/valute/#guadpp' },
+                    { label: 'Mini-post', link: '/inizia-da-qui/valute/#minipost' },
+                    { label: 'Come richiederli', link: '/inizia-da-qui/valute/#richpp' },
+                  ],
+                },
+                {
+                  label: 'Galeoni',
+                  items: [
+                    { label: 'I Galeoni', link: '/inizia-da-qui/valute/#galeoni' },
+                    { label: 'Come guadagnarli', link: '/inizia-da-qui/valute/#guadgal' },
+                    { label: 'Il guadagno mensile', link: '/inizia-da-qui/valute/#guadagnomens' },
+                    { label: 'Come richiederli', link: '/inizia-da-qui/valute/#richgal' },
+                  ],
+                },
+                {
+                  label: 'Felix Token',
+                  items: [
+                    { label: 'I Felix Token', link: '/inizia-da-qui/valute/#felixtoken' },
+                    { label: 'Fanta Felix Felicis', link: '/inizia-da-qui/valute/#fantafelix' },
+                    { label: 'Gli Obbiettivi', link: '/inizia-da-qui/valute/#obbfff' },
+                    { label: 'I premi', link: '/inizia-da-qui/valute/#premifff' },
+                    { label: 'Richiedere FT e premi', link: '/inizia-da-qui/valute/#richft' },
+                  ],
+                },
+              ],
+            },
+            {
+              label: 'Allineamenti',
+              items: [
+                { label: 'Panoramica', slug: 'inizia-da-qui/allineamenti' },
+                {
+                  label: 'PG Adulti',
+                  items: [
+                    { label: 'Gli Allineamenti dei PG Adulti', link: '/inizia-da-qui/allineamenti/#allineamadulti' },
+                    { label: 'Allineamenti Legali', link: '/inizia-da-qui/allineamenti/#allinlegali' },
+                    { label: 'Legale Neutrale', link: '/inizia-da-qui/allineamenti/#legneutrale' },
+                    { label: 'Legale Malvagio', link: '/inizia-da-qui/allineamenti/#legmalvagio' },
+                    { label: 'Allineamenti Neutrali', link: '/inizia-da-qui/allineamenti/#allinneutrali' },
+                    { label: 'Neutrale Puro', link: '/inizia-da-qui/allineamenti/#neutpuro' },
+                    { label: 'Neutrale Malvagio', link: '/inizia-da-qui/allineamenti/#neutmalvagio' },
+                    { label: 'Allineamenti Caotici', link: '/inizia-da-qui/allineamenti/#allincaotici' },
+                    { label: 'Caotico Neutrale', link: '/inizia-da-qui/allineamenti/#caopuro' },
+                    { label: 'Caotico Malvagio', link: '/inizia-da-qui/allineamenti/#caomalvagio' },
+                  ],
+                },
+                {
+                  label: 'PG Studenti',
+                  items: [
+                    { label: 'Gli Allineamenti dei PG Studenti', link: '/inizia-da-qui/allineamenti/#allineamstudenti' },
+                    { label: 'Legale', link: '/inizia-da-qui/allineamenti/#studlegale' },
+                    { label: 'Neutrale', link: '/inizia-da-qui/allineamenti/#studneutrale' },
+                    { label: 'Caotico', link: '/inizia-da-qui/allineamenti/#studcaotico' },
+                  ],
+                },
+              ],
+            },
+            {
+              label: 'Popolometro',
+              items: [
+                { label: 'Panoramica', slug: 'inizia-da-qui/popolometro' },
+                { label: 'Le soglie', link: '/inizia-da-qui/popolometro/#soglie' },
+              ],
+            },
+            {
+              label: 'Personaggi Non Giocanti',
+              items: [
+                { label: 'Panoramica', slug: 'inizia-da-qui/png' },
+                { label: 'Cosa sono i PNG', link: '/inizia-da-qui/png/#cosasono' },
+                { label: 'I PNG Personali', link: '/inizia-da-qui/png/#PNGpersonali' },
+                {
+                  label: 'PNG di Felix Felicis',
+                  items: [
+                    { label: 'Panoramica', link: '/inizia-da-qui/png/#PNGFF' },
+                    { label: 'Virtuosi', link: '/inizia-da-qui/png/#virtuosi' },
+                    { label: 'Neutrali', link: '/inizia-da-qui/png/#neutrali' },
+                    { label: 'Sinistri', link: '/inizia-da-qui/png/#sinistri' },
+                    { label: 'Ministero', link: '/inizia-da-qui/png/#ministero' },
+                    { label: 'Altri PNG', link: '/inizia-da-qui/png/#altri' },
+                    { label: 'Clienti Abituali', link: '/inizia-da-qui/png/#abituali' },
+                    { label: 'PPNG', link: '/inizia-da-qui/png/#PPNG' },
+                  ],
+                },
+                {
+                  label: 'PNG di Hogwarts',
+                  items: [
+                    { label: 'Panoramica', link: '/inizia-da-qui/png/#PNGHog' },
+                    { label: 'Professori', link: '/inizia-da-qui/png/#professori' },
+                    { label: 'Personale scolastico', link: '/inizia-da-qui/png/#personale' },
+                    { label: 'Prefetti e Caposcuola', link: '/inizia-da-qui/png/#prefcaposc' },
+                    { label: 'Giocatori di Quidditch', link: '/inizia-da-qui/png/#quidditch' },
+                    { label: 'Spiriti', link: '/inizia-da-qui/png/#spiriti' },
+                  ],
+                },
+                {
+                  label: 'Interagire con i PNG',
+                  items: [
+                    { label: 'Panoramica', link: '/inizia-da-qui/png/#interagire' },
+                    { label: 'PNG Personali', link: '/inizia-da-qui/png/#interagirepersonali' },
+                    { label: 'PNG del gioco', link: '/inizia-da-qui/png/#quandocome' },
+                    { label: 'Acquistare servigi', link: '/inizia-da-qui/png/#servigi' },
+                    { label: 'PNG di Hogwarts', link: '/inizia-da-qui/png/#interagirehog' },
+                    { label: 'Numeri Guastafeste', link: '/inizia-da-qui/png/#guastafeste' },
+                  ],
+                },
+              ],
+            },
             { label: 'Lo Staff', slug: 'inizia-da-qui/staff' },
           ],
         },
