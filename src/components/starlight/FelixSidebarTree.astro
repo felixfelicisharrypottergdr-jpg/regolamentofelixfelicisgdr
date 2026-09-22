@@ -18,6 +18,9 @@ const normalized = (href = '') => {
 };
 
 const current = currentPath.replace(/\/+$/, '/') || '/';
+const hasFragment = (entry: Entry) => entry.type === 'link' && String(entry.href ?? '').includes('#');
+const isExactPage = (entry: Entry) =>
+  entry.type === 'link' && !hasFragment(entry) && (entry.isCurrent || current === normalized(entry.href));
 const activeLink = (entry: Entry) => {
   if (entry.type !== 'link') return false;
   const href = normalized(entry.href);
@@ -43,9 +46,9 @@ const displayLabel = (entry: Entry) =>
           {...entry.attrs}
           class:list={[
             'felix-sidebar-link',
-            { 'is-current': entry.isCurrent || current === normalized(entry.href), 'is-ancestor': !entry.isCurrent && activeLink(entry) },
+            { 'is-current': isExactPage(entry), 'is-ancestor': !hasFragment(entry) && !isExactPage(entry) && activeLink(entry) },
           ]}
-          aria-current={entry.isCurrent || current === normalized(entry.href) ? 'page' : undefined}
+          aria-current={isExactPage(entry) ? 'page' : undefined}
         >
           <span class="felix-sidebar-node"></span>
           <span>{displayLabel(entry)}</span>
