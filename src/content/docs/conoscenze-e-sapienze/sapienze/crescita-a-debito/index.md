@@ -16,22 +16,6 @@ migration:
 
 # Crescita a Debito
 
-**INDICE**
-
-• Le condizioni di crescita
-
-○ Come distribuire la Sapienza
-
-○ Limiti delle Sapienze
-
-○ Convivere col debito
-
-○ Le fasce di debito
-
-○ Costi delle Sapienze
-
-• Compila facile!
-
 La crescita delle Conoscenze e delle competenze dei PG non è connessa soltanto al tempo speso dal giocatore a scrivere e a guadagnare Punti Post, ma anche all'età anagrafica del personaggio.
 I PG Adulti possono infatti sviluppare, fin dalla creazione, un determinato numero di **Sapienze Magiche, Fisiche e Sociali**, oltre a valori più elevati di Popolarità, Dialettica e Prestigio.
 In cambio di questo sviluppo anticipato, il PG contrae un debito in Galeoni ed eventualmente in Punti Post, che renderà più lenta e dispendiosa la sua crescita futura.
@@ -42,11 +26,12 @@ Per due ragioni:
 1) per incentivare la creazione di PG di una certa età, che possano possedere fin dall'inizio le conoscenze e le competenze coerentemente acquisite nel corso della loro storia personale;
 2) per permettere a ciascun giocatore di scegliere come far crescere il proprio PG: partendo da una condizione iniziale più semplice, con una crescita successiva più libera e remunerativa, oppure da una condizione più avanzata, accettando però una crescita futura più lenta e costosa.
 
+<a id="condizioni"></a>
 ## Le condizioni di crescita
 La Crescita a Debito può essere scelta **soltanto durante la creazione del PG**. Il personaggio può sviluppare in anticipo alcuni Livelli appartenenti a:
-• **Sapienze Magiche**;
-• **Sapienze Fisiche**;
-• **Sapienze Sociali**.
+- **Sapienze Magiche**;
+- **Sapienze Fisiche**;
+- **Sapienze Sociali**.
 Il costo degli acquisti anticipati, sia per la parte in Galeoni sia per quella in Punti Post, deve essere restituito con gli interessi. Gli interessi dipendono dalla fascia scelta: maggiore è la quantità di Sapienza ottenuta in anticipo, maggiore sarà il Coefficiente di Debito applicato ai costi.
 Il PG sceglie una delle sei Fasce di Debito e distribuisce esattamente il numero di Sapienza previsto dalla fascia tra la Sapienza Magica di partenza e le eventuali Sapienze aggiuntive. Il totale indicato dalla fascia è unico: non esistono quantità separate da destinare alle Sapienze Magiche, Fisiche o Sociali. Ogni Livello assegnato a qualsiasi Sapienza viene sottratto dalla quantità complessiva disponibile.
 
@@ -62,38 +47,39 @@ Nella stessa fase, in base alla fascia scelta, il PG può sviluppare in anticipo
 La fascia scelta permette inoltre di raggiungere valori più elevati di Popolarità e attribuisce un bonus al limite massimo di Prestigio.
 Il debito contratto, compresi gli interessi, viene annullato automaticamente quando le risorse accumulate attraverso il gioco lo pareggiano o lo superano.
 
+<a id="distribuzione"></a>
 ### Come distribuire la Sapienza
 Il numero di Sapienza previsto dalla fascia può essere distribuito liberamente tra tutte le categorie disponibili, rispettando i limiti indicati di seguito.
 **Sapienze Magiche**
 Ogni Sapienza Magica è formata da cinque Conoscenze distinte. Il valore della Sapienza corrisponde alla somma dei Livelli assegnati alle cinque Conoscenze.
 Per esempio:
-• cinque Conoscenze al Livello I corrispondono a 5 Sapienza;
-• cinque Conoscenze al Livello II corrispondono a 10 Sapienza;
-• cinque Conoscenze al Livello III corrispondono a 15 Sapienza;
-• cinque Conoscenze al Livello IV corrispondono a 20 Sapienza.
+- cinque Conoscenze al Livello I corrispondono a 5 Sapienza;
+- cinque Conoscenze al Livello II corrispondono a 10 Sapienza;
+- cinque Conoscenze al Livello III corrispondono a 15 Sapienza;
+- cinque Conoscenze al Livello IV corrispondono a 20 Sapienza.
 Tramite la Crescita a Debito, una Sapienza Magica può raggiungere al massimo il valore di **20**: ciascuna delle sue Conoscenze può quindi arrivare al massimo al **Livello IV**. Il Livello V non può essere acquistato tramite Crescita a Debito.
 **Sapienze Fisiche**
 Le Sapienze Fisiche sono:
-• Rapidità;
-• Prestanza;
-• Resilienza;
-• Vigore.
+- Rapidità;
+- Prestanza;
+- Resilienza;
+- Vigore.
 A differenza delle Sapienze Magiche, ciascuna Sapienza Fisica possiede un solo Livello e non è suddivisa in cinque Conoscenze differenti.
 Di conseguenza:
-• Livello I corrisponde a 1 Sapienza;
-• Livello II corrisponde a 2 Sapienza;
-• Livello III corrisponde a 3 Sapienza.
+- Livello I corrisponde a 1 Sapienza;
+- Livello II corrisponde a 2 Sapienza;
+- Livello III corrisponde a 3 Sapienza.
 Tramite la Crescita a Debito, una Sapienza Fisica può essere sviluppata al massimo fino al **Livello III**.
 **Sapienze Sociali**
 Le Sapienze Sociali sono:
-• Leader;
-• Motivatore;
-• Oppositore;
-• Persuasore.
+- Leader;
+- Motivatore;
+- Oppositore;
+- Persuasore.
 Anche le Sapienze Sociali possiedono un solo Livello e non sono suddivise in cinque Conoscenze differenti. Di conseguenza:
-• Livello I corrisponde a 1 Sapienza;
-• Livello II corrisponde a 2 Sapienza;
-• Livello III corrisponde a 3 Sapienza.
+- Livello I corrisponde a 1 Sapienza;
+- Livello II corrisponde a 2 Sapienza;
+- Livello III corrisponde a 3 Sapienza.
 Tramite la Crescita a Debito, una Sapienza Sociale può essere sviluppata al massimo fino al **Livello III**.
 
 > **Esempio.**
@@ -112,11 +98,12 @@ Potrebbe quindi assegnare:
 - 2 Sapienza a Persuasore, portandola al Livello II.
 Il totale è 5 + 10 + 3 + 2 = 20 Sapienza.
 
+<a id="limiti"></a>
 ### Limiti delle Sapienze
 Ogni PG può possedere al massimo **6 Sapienze complessive**, compresa la Sapienza Magica di partenza. Devono inoltre essere rispettati i seguenti limiti:
-• massimo **4 Sapienze Magiche**;
-• massimo **2 Sapienze Fisiche**;
-• massimo **2 Sapienze Sociali**.
+- massimo **4 Sapienze Magiche**;
+- massimo **2 Sapienze Fisiche**;
+- massimo **2 Sapienze Sociali**.
 Considerando il massimo di 6 Sapienze complessive, le configurazioni massime consentite sono:
 
 > **Nota.**
@@ -129,15 +116,16 @@ Considerando il massimo di 6 Sapienze complessive, le configurazioni massime con
 
 Queste configurazioni rappresentano soltanto il numero massimo di Sapienze acquisibili.
 È sempre possibile scegliere un numero inferiore di Sapienze e concentrare su di esse una quantità maggiore della Sapienza prevista dalla fascia, rispettando comunque:
-• il massimo di 20 per ogni Sapienza Magica;
-• il massimo del Livello III per ogni Sapienza Fisica;
-• il massimo del Livello III per ogni Sapienza Sociale.
+- il massimo di 20 per ogni Sapienza Magica;
+- il massimo del Livello III per ogni Sapienza Fisica;
+- il massimo del Livello III per ogni Sapienza Sociale.
 
+<a id="convivere"></a>
 ### Convivere col debito
 Tramite la Crescita a Debito, il PG ottiene Sapienze Magiche, Fisiche e Sociali parzialmente sviluppate al costo di un debito in Galeoni ed eventualmente in Punti Post.
 I due debiti vengono registrati separatamente nella Scheda PG:
-• Debito Galeoni;
-• Debito Punti Post.
+- Debito Galeoni;
+- Debito Punti Post.
 I Galeoni e i Punti Post guadagnati durante il gioco vengono invece registrati nelle normali voci delle risorse accumulate.
 Quando il totale di Galeoni o Punti Post accumulati raggiunge o supera il rispettivo debito, quest'ultimo si estingue. La voce del debito viene eliminata e dal totale delle risorse accumulate viene sottratto il valore necessario a saldarlo, lasciando l'eventuale differenza.
 
@@ -150,15 +138,15 @@ La voce Debito Galeoni viene eliminata e nella voce Galeoni resta la differenza:
 
 Finché il PG possiede un Debito Galeoni o un Debito Punti Post, **non può utilizzare le risorse accumulate per acquistare nuove Conoscenze, Sapienze o miglioramenti delle Conoscenze**.
 Il divieto comprende:
-• miglioramenti delle Sapienze Magiche già possedute;
-• nuove Sapienze Magiche;
-• nuove Sapienze Fisiche;
-• nuove Sapienze Sociali;
-• miglioramenti delle Sapienze Fisiche e Sociali;
-• Conoscenze Avanzate;
-• Conoscenze Extra;
-• Conoscenze Scolastiche;
-• qualsiasi altro acquisto connesso alla crescita delle competenze.
+- miglioramenti delle Sapienze Magiche già possedute;
+- nuove Sapienze Magiche;
+- nuove Sapienze Fisiche;
+- nuove Sapienze Sociali;
+- miglioramenti delle Sapienze Fisiche e Sociali;
+- Conoscenze Avanzate;
+- Conoscenze Extra;
+- Conoscenze Scolastiche;
+- qualsiasi altro acquisto connesso alla crescita delle competenze.
 Questi acquisti torneranno possibili soltanto dopo l'estinzione del debito.
 Il PG può invece utilizzare i Galeoni per opportunità di gioco, role in Locande o altre situazioni a pagamento, Oggetti, Ingredienti e Pozioni.
 Fino all'estinzione del debito, il costo di ogni acquisto di questo tipo viene moltiplicato per il Coefficiente di Debito della fascia scelta.
@@ -172,6 +160,7 @@ Il PG con Crescita a Debito pagherà:
 Allo stesso modo, il terzo punto aggiuntivo di Dialettica ha un costo base di 200 Galeoni e verrà pagato:
 - 200 × 1,5 = 300 Galeoni.
 
+<a id="fasce"></a>
 ### Le fasce di debito
 È disponibile un'opzione di crescita normale da 5 Sapienza, senza debito, e sei Fasce di Crescita a Debito.
 Il debito viene calcolato moltiplicando il costo complessivo degli acquisti anticipati per il Coefficiente di Debito della fascia scelta.
@@ -233,6 +222,7 @@ Il PG ottiene 60 Sapienza da distribuire, compresi i cinque Livelli I della Sapi
 *Dialettica:* fino a 7
 *Prestigio:* fino a 54, corrispondente al limite ordinario di 36 più un bonus di 18
 
+<a id="costi"></a>
 ### Costi delle Sapienze
 I costi indicati per ciascun Livello sono incrementali. Per raggiungere un determinato Livello devono quindi essere acquistati anche tutti i Livelli precedenti.
 **Sapienze Magiche**
@@ -262,11 +252,11 @@ Per ciascuna delle cinque Conoscenze di una Sapienza Magica, i costi sono:
 **Livello V:** 20 Punti Post — **non acquistabile tramite Crescita a Debito**
 
 Una singola Conoscenza Magica sviluppata fino al Livello IV costa complessivamente:
-• 50 Galeoni;
-• 5 + 10 + 15 = 30 Punti Post.
+- 50 Galeoni;
+- 5 + 10 + 15 = 30 Punti Post.
 Una Sapienza Magica sviluppata al massimo consentito dalla Crescita a Debito, cioè con tutte e cinque le Conoscenze al Livello IV, costa complessivamente:
-• 250 Galeoni;
-• 150 Punti Post.
+- 250 Galeoni;
+- 150 Punti Post.
 **Sapienze Fisiche e Sociali**
 Le Sapienze Fisiche e Sociali utilizzano lo stesso schema di costo:
 
@@ -294,8 +284,8 @@ Le Sapienze Fisiche e Sociali utilizzano lo stesso schema di costo:
 **Livello V:** 80 Punti Post — **non acquistabile tramite Crescita a Debito**
 
 Una Sapienza Fisica o Sociale sviluppata fino al Livello III costa complessivamente:
-• 150 Galeoni;
-• 10 + 20 = 30 Punti Post.
+- 150 Galeoni;
+- 10 + 20 = 30 Punti Post.
 Il costo base complessivo delle Sapienze e dell'eventuale Dialettica anticipata viene moltiplicato per il Coefficiente di Debito della fascia scelta.
 Quando il risultato contiene una parte decimale, il valore finale viene arrotondato all'intero più vicino.
 
@@ -317,20 +307,20 @@ Il PG possiede complessivamente:
 - 1 Sapienza Sociale.
 La configurazione rispetta quindi tutti i limiti previsti.
 **Costo in Galeoni**
-• Sapienza Medimagica di partenza: 5 Livelli I × 50 = 250 Galeoni;
-• Sapienza Arcaica: 5 Livelli I × 50 = 250 Galeoni;
-• Sapienza Elementale: 3 Livelli I × 50 = 150 Galeoni;
-• Rapidità: 150 Galeoni;
-• Oppositore: 150 Galeoni.
+- Sapienza Medimagica di partenza: 5 Livelli I × 50 = 250 Galeoni;
+- Sapienza Arcaica: 5 Livelli I × 50 = 250 Galeoni;
+- Sapienza Elementale: 3 Livelli I × 50 = 150 Galeoni;
+- Rapidità: 150 Galeoni;
+- Oppositore: 150 Galeoni.
 Costo base complessivo:
 250 + 250 + 150 + 150 + 150 = 950 Galeoni.
 Applicando il Coefficiente di Debito:
 950 × 1,5 = **1.425 Galeoni di debito**.
 **Costo in Punti Post**
-• Sapienza Arcaica: 5 × 30 = 150 Punti Post;
-• Sapienza Elementale: 30 + 15 + 5 = 50 Punti Post;
-• Rapidità al Livello III: 10 + 20 = 30 Punti Post;
-• Oppositore al Livello III: 10 + 20 = 30 Punti Post.
+- Sapienza Arcaica: 5 × 30 = 150 Punti Post;
+- Sapienza Elementale: 30 + 15 + 5 = 50 Punti Post;
+- Rapidità al Livello III: 10 + 20 = 30 Punti Post;
+- Oppositore al Livello III: 10 + 20 = 30 Punti Post.
 Costo base complessivo:
 150 + 50 + 30 + 30 = 260 Punti Post.
 Applicando il Coefficiente di Debito:
@@ -355,17 +345,18 @@ Con il Coefficiente di Debito 1,5, il debito finale è:
 300 × 1,5 = **450 Punti Post**.
 Questa è la distribuzione con il massimo costo in Punti Post possibile nella fascia da 40 Sapienza.
 
+<a id="compiladebito"></a>
 ## Compila facile!
 È disponibile un **Generatore di Scheda per PG Adulti** che permette di selezionare la fascia di Crescita a Debito, distribuire la Sapienza tra Sapienze Magiche, Fisiche e Sociali e calcolare automaticamente:
-• Sapienza distribuita;
-• costi base in Galeoni;
-• costi base in Punti Post;
-• Coefficiente di Debito;
-• Debito Galeoni;
-• Debito Punti Post;
-• limiti di Popolarità;
-• limiti di Dialettica;
-• bonus di Prestigio;
-• limiti relativi al numero e alla tipologia delle Sapienze.
+- Sapienza distribuita;
+- costi base in Galeoni;
+- costi base in Punti Post;
+- Coefficiente di Debito;
+- Debito Galeoni;
+- Debito Punti Post;
+- limiti di Popolarità;
+- limiti di Dialettica;
+- bonus di Prestigio;
+- limiti relativi al numero e alla tipologia delle Sapienze.
 Segui le indicazioni mostrate durante la compilazione e utilizza il codice finale prodotto dal generatore per la tua Scheda PG.
 **Generatore di Scheda Valori - PG Adulti :** QUI
