@@ -24,7 +24,8 @@ migration:
       item: "Creazione di Homuncoli"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 Gli Homuncoli vanno creati ONGame in almeno 1 post.
 
@@ -33,24 +34,24 @@ Ogni PG può possedere un solo Homunculus attivo alla volta: non può crearne un
 La creazione deve essere effettuata dallo stesso PG dall'inizio alla fine e richiede una postazione adatta all'Alchimia, come il proprio Laboratorio.
 Per animare il corpo dell'Homunculus è necessario sacrificare Ingredienti della propria Dispensa. Gli Ingredienti possono appartenere liberamente a Classificazioni e macro-categorie differenti e non devono essere dello stesso tipo.
 Ogni dose fornisce un determinato Valore Alchemico in base alla propria Classificazione:
-• X = 1;
-• XX = 2;
-• XXX = 3;
-• XXXX = 4;
-• XXXXX = 5.
+- X = 1;
+- XX = 2;
+- XXX = 3;
+- XXXX = 4;
+- XXXXX = 5.
 
 Il Player può combinare liberamente Ingredienti di diversa Classificazione fino a raggiungere il valore necessario.
 Tutti gli Ingredienti utilizzati vengono consumati definitivamente durante la creazione.
 
-### Livello I
+<u>Livello I</u>
 
 Sono necessari almeno 20 punti di Valore Alchemico
 
-### Livello II
+<u>Livello II</u>
 
 Sono necessari almeno 15 punti di Valore Alchemico
 
-### Livello III
+<u>Livello III</u>
 
 Sono necessari almeno 10 punti di Valore Alchemico
 
@@ -58,20 +59,21 @@ Il Livello dell'Homunculus viene determinato dal Livello della Maestria possedut
 
 **Ingredienti utilizzabili**
 Per animare un Homunculus non possono essere utilizzati Ingredienti ottenuti o recuperati attraverso altre operazioni alchemiche della Maestria, compresi:
-• Ingredienti ottenuti tramite Transmutazione degli Elementi;
-• Ingredienti recuperati tramite Ricomposizione Alchemica;
-• Equivalenti Alchemici ottenuti tramite Sintesi Alchemica;
-• qualsiasi altra sostanza risultante dalla trasformazione alchemica di un Ingrediente precedente.
+- Ingredienti ottenuti tramite Transmutazione degli Elementi;
+- Ingredienti recuperati tramite Ricomposizione Alchemica;
+- Equivalenti Alchemici ottenuti tramite Sintesi Alchemica;
+- qualsiasi altra sostanza risultante dalla trasformazione alchemica di un Ingrediente precedente.
 
 Fatica della Creazione
 Al momento dell'Animazione, il PG consuma:
-• *Livello I:* 3 Fatica
-• *Livello II:* 2 Fatica
-• *Livello III:* 1 Fatica
+- *Livello I:* 3 Fatica
+- *Livello II:* 2 Fatica
+- *Livello III:* 1 Fatica
 
 La Fatica viene consumata una sola volta al termine della creazione, indipendentemente dal numero di Pozioni incorporate nel Nucleo.
 
-## Procedimento
+<details><summary><strong>Procedimento</strong></summary>
+
 
 Il procedimento seguente è puramente narrativo: non richiede ulteriori dadi né modifica i Parametri dell'Homunculus.
 Serve a fornire ai Player una traccia comune attraverso la quale descriverne la creazione ONGame.
@@ -111,15 +113,15 @@ Al termine del procedimento l'Homunculus prende vita.
 Per poter prendere vita, ogni Homunculus deve contenere almeno 1 dose di Pozione.
 Le Pozioni vengono scelte durante la creazione e incorporate definitivamente nel Nucleo.
 
-### Livello I
+<u>Livello I</u>
 
 Il Nucleo può contenere 1 Pozione
 
-### Livello II
+<u>Livello II</u>
 
 Il Nucleo può contenere fino a 2 Pozioni
 
-### Livello III
+<u>Livello III</u>
 
 Il Nucleo può contenere fino a 3 Pozioni
 
@@ -168,15 +170,15 @@ Se la sua Salute raggiunge 0, viene distrutto definitivamente.
 **Ordini dell'Homunculus**
 Impartire un ordine all'Homunculus richiede 1 Azione Bonus del creatore. Con un singolo ordine, il PG può assegnargli contemporaneamente un numero massimo di compiti determinato dal Livello della Maestria:
 
-### Livello I
+<u>Livello I</u>
 
 Può ricevere 1 compito.
 
-### Livello II
+<u>Livello II</u>
 
 Può ricevere fino a 2 compiti.
 
-### Livello III
+<u>Livello III</u>
 
 Può ricevere fino a 3 compiti.
 
@@ -200,21 +202,21 @@ Le Azioni semplici e prive di reale possibilità di fallimento possono essere na
 
 **Autonomia e comprensione degli ordini**
 L'Homunculus possiede un'intelligenza rudimentale, una propria personalità e una sufficiente autonomia per comprendere ed eseguire ordini semplici o articolati compatibili con le proprie capacità, come:
-• seguire persone o percorsi indicati;
-• raccogliere, trasportare, recuperare e consegnare Oggetti;
-• manipolare Oggetti e semplici meccanismi;
-• aprire o chiudere porte e contenitori non protetti;
-• tirare leve, premere pulsanti e azionare semplici dispositivi;
-• sorvegliare un luogo;
-• effettuare ricognizioni;
-• nascondersi o tentare di muoversi senza essere notato;
-• tentare di sottrarre piccoli Oggetti;
-• distrarre o intralciare un bersaglio;
-• frapporsi fisicamente fra il proprio creatore e un attacco o un pericolo;
-• attaccare fisicamente;
-• utilizzare le Pozioni contenute nel Nucleo;
-• riferire in maniera semplice ciò che ha visto o sentito;
-• comprendere ordini articolati, concatenati o condizionati e adattare il proprio comportamento a piccoli imprevisti.
+- seguire persone o percorsi indicati;
+- raccogliere, trasportare, recuperare e consegnare Oggetti;
+- manipolare Oggetti e semplici meccanismi;
+- aprire o chiudere porte e contenitori non protetti;
+- tirare leve, premere pulsanti e azionare semplici dispositivi;
+- sorvegliare un luogo;
+- effettuare ricognizioni;
+- nascondersi o tentare di muoversi senza essere notato;
+- tentare di sottrarre piccoli Oggetti;
+- distrarre o intralciare un bersaglio;
+- frapporsi fisicamente fra il proprio creatore e un attacco o un pericolo;
+- attaccare fisicamente;
+- utilizzare le Pozioni contenute nel Nucleo;
+- riferire in maniera semplice ciò che ha visto o sentito;
+- comprendere ordini articolati, concatenati o condizionati e adattare il proprio comportamento a piccoli imprevisti.
 L'Homunculus non possiede tuttavia un'intelligenza paragonabile a quella umana: non può elaborare strategie complesse, interpretare intenzioni non espresse, prendere decisioni che richiedano conoscenze che non possiede o inventare autonomamente soluzioni particolarmente elaborate.
 Quando un incarico presenta una reale possibilità di fallimento, la sua riuscita viene determinata utilizzando i Parametri dell'Homunculus secondo le normali regole.
 
@@ -222,17 +224,17 @@ Quando un incarico presenta una reale possibilità di fallimento, la sua riuscit
 L'Homunculus può inoltre utilizzare la propria Azione per tentare di distrarre un bersaglio attraverso rumori, movimenti, piccoli strattoni, intralci o altre azioni coerenti.
 Il tentativo viene risolto attraverso la sua Destrezza contro quella del bersaglio.
 Se riesce:
-• Livello I → -1 Destrezza alla successiva Azione del bersaglio;
-• Livello II → -2 Destrezza alla successiva Azione del bersaglio;
-• Livello III → -3 Destrezza alla successiva Azione del bersaglio.
+- Livello I → -1 Destrezza alla successiva Azione del bersaglio;
+- Livello II → -2 Destrezza alla successiva Azione del bersaglio;
+- Livello III → -3 Destrezza alla successiva Azione del bersaglio.
 
 **Attacco fisico**
 L'Homunculus può utilizzare la propria Azione per effettuare un attacco fisico contro un singolo bersaglio.
 Il tentativo viene risolto attraverso la Destrezza dell'Homunculus contro quella del bersaglio.
 Se l'attacco va a segno, possiede una Forza pari al normale Parametro Forza dell'Homunculus:
-• *Livello I:* 20 Forza;
-• *Livello II:* 30 Forza;
-• *Livello III:* 40 Forza.
+- *Livello I:* 20 Forza;
+- *Livello II:* 30 Forza;
+- *Livello III:* 40 Forza.
 
 Il colpo agisce sulla Destrezza e sulla Resistenza del bersaglio secondo le normali regole previste per gli attacchi che interessano questi Parametri.
 
@@ -246,30 +248,34 @@ Questa capacità non consuma Fatica, non richiede un ordine preventivo e non uti
 Quando viene portato in una Role, l'Homunculus occupa 1 dei normali spazi della Borsa del proprio creatore.
 Grazie al proprio corpo, tuttavia, può trasportare ulteriori Oggetti per conto del PG.
 
-### Livello I
+<u>Livello I</u>
 
 Può trasportare fino a 1 Oggetto aggiuntivo.
 
-### Livello II
+<u>Livello II</u>
 
 Può trasportare fino a 2 Oggetti aggiuntivi.
 
-### Livello III
+<u>Livello III</u>
 
 Può trasportare fino a 3 Oggetti aggiuntivi.
 
-• Non possono essere trasportati tramite questa capacità Creature o Piante Magiche, altri Homunculi, Valigie Magiche o Oggetti evidentemente incompatibili con le dimensioni del servitore.
-• Le Pozioni incorporate nel Nucleo Alchemico non fanno parte di questo limite: non sono più considerate Oggetti trasportati, poiché sono state consumate durante la creazione e sono ormai parte integrante dell'Homunculus.
-• Le Pozioni eventualmente trasportate come normale carico non possono invece essere utilizzate dall'Homunculus come se appartenessero al proprio Nucleo: può soltanto trasportarle. Per prenderle dall'Homuncolo, il PG consuma un'Azione Bonus.
-• Se l'Homunculus viene distrutto o muore per l'esaurimento del Nucleo, gli Oggetti che stava trasportando cadono nel luogo in cui si trovava e, se le circostanze lo consentono, possono essere normalmente recuperati; altrimenti risultano persi.
+- Non possono essere trasportati tramite questa capacità Creature o Piante Magiche, altri Homunculi, Valigie Magiche o Oggetti evidentemente incompatibili con le dimensioni del servitore.
+- Le Pozioni incorporate nel Nucleo Alchemico non fanno parte di questo limite: non sono più considerate Oggetti trasportati, poiché sono state consumate durante la creazione e sono ormai parte integrante dell'Homunculus.
+- Le Pozioni eventualmente trasportate come normale carico non possono invece essere utilizzate dall'Homunculus come se appartenessero al proprio Nucleo: può soltanto trasportarle. Per prenderle dall'Homuncolo, il PG consuma un'Azione Bonus.
+- Se l'Homunculus viene distrutto o muore per l'esaurimento del Nucleo, gli Oggetti che stava trasportando cadono nel luogo in cui si trovava e, se le circostanze lo consentono, possono essere normalmente recuperati; altrimenti risultano persi.
 
 **Distruzione dell'Homunculus**
 L'Homunculus può cessare di vivere in due modi:
-• quando utilizza l'ultima Pozione contenuta nel proprio Nucleo Alchemico;
-• quando la sua Salute raggiunge 0 e il suo corpo viene distrutto.
+- quando utilizza l'ultima Pozione contenuta nel proprio Nucleo Alchemico;
+- quando la sua Salute raggiunge 0 e il suo corpo viene distrutto.
 
 Se viene distrutto quando nel Nucleo sono ancora presenti una o più Pozioni, muore immediatamente indipendentemente dalle dosi residue. Il Nucleo collassa insieme alla Matrice Alchemica e tutte le Pozioni che vi erano ancora incorporate vengono definitivamente perdute.
 Le Pozioni residue non si attivano, non vengono liberate nell'ambiente e non possono essere recuperate: avendo cessato di esistere come normali dosi nel momento dell'infusione, la distruzione del Nucleo ne disperde irreversibilmente le proprietà alchemiche.
 Il corpo dell'Homunculus torna ad essere semplice materia inanimata e non può essere riparato, ricaricato o rianimato: per ottenere un nuovo servitore è necessario procedere con una nuova Creazione di Homunculus.
 Questa regola riguarda esclusivamente le Pozioni incorporate nel Nucleo Alchemico.
 Eventuali Pozioni, Ingredienti o Oggetti che l'Homunculus stava semplicemente trasportando rimangono invece fisicamente nel luogo in cui è stato distrutto e possono essere recuperati normalmente, purché non siano stati a loro volta danneggiati o distrutti dalle circostanze che hanno causato la morte dell'Homunculus.
+
+</details>
+
+</details>
