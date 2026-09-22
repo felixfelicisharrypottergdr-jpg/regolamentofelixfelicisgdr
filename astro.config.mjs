@@ -452,7 +452,13 @@ export default defineConfig({
                 { label: 'Regole pratiche', slug: 'giocare/guida-agli-scontri/regole-pratiche' },
                 { label: 'Turnazione', slug: 'giocare/guida-agli-scontri/turnazione' },
                 { label: 'Destrezza negli Scontri', slug: 'giocare/guida-agli-scontri/destrezza' },
-                { label: 'Forza delle Conoscenze', slug: 'giocare/guida-agli-scontri/forza-delle-conoscenze' },
+                {
+                  label: 'Forza delle Conoscenze',
+                  items: [
+                    { label: 'Panoramica', slug: 'giocare/guida-agli-scontri/forza-delle-conoscenze' },
+                    { label: 'Forza reale per tutti', link: '/giocare/guida-agli-scontri/forza-delle-conoscenze/#forzareale' },
+                  ],
+                },
               ],
             },
             {
