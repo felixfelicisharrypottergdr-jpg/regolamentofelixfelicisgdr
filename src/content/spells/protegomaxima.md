@@ -41,7 +41,7 @@ attraversarla;
 entrarvi né essere trascinato al suo interno, indipendentemente dal fatto che sia alleato o
 nemico. L’unico modo per forzare l’ingresso è l’utilizzo dell’incantesimo Confractus .
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia in una role singola.
 Se utilizzato per proteggere un'abitazione, una Riserva, una Serra o un'altra zona di
@@ -91,3 +91,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 10 bersagli
 - 66%: max 9 bersagli
 - 33%: max 8 bersagli
+
+</details>

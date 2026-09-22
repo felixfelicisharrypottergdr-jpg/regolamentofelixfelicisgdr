@@ -30,8 +30,10 @@ migration:
 Ripara qualcosa di rotto, purchè non sia un Oggetto magico. In
 quel caso sarà necessario ripararlo in altri modi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

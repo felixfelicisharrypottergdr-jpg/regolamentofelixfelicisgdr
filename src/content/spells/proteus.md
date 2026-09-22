@@ -38,7 +38,7 @@ PG che utilizzano ONGame Proteus rischiano di ammalarsi di
 Sindrome di Proteuster se, lanciando 1d10,
 pescano 1.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -77,3 +77,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 **Rendersi conto di essere di fronte uno o più oggetti incantati con Proteus**
 Il PG può accorgersi di essere di fronte a uno o più oggetti incantati agendo come spiegato
 nella Guida alla Tracciatura.
+
+</details>

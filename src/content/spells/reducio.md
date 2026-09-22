@@ -41,7 +41,7 @@ la massa.
 In ogni caso non è possibile rimpicciolire il bersaglio in dimensioni minori di quelle di una
 mela. La trasfigurazione può essere annullata con un Reparifarge più forte del Reducio
 utilizzato o con lo scorrere del tempo.
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -68,3 +68,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 I bersagli rimpiccioliti, se lanciati addosso all'avversario, hanno una velocità corrispondente
 al doppio della Destrezza dell'evocatore e una Forza equivalente alla metà
 dell'Incantesimo.
+
+</details>

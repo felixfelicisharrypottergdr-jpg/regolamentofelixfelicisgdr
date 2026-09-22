@@ -33,7 +33,7 @@ da Fatture, Incantesimi Offensivi, Incantesimi Oscuri e Maledizioni. Non è util
 ed elementi fisici, per il quale è più adatto il Protego o il Protego Maxima. Lo scudo è capace
 di assorbire del tutto o soltanto in parte gli incantesimi che gli vengono scagliati contro.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -67,3 +67,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 6 bersagli
+
+</details>

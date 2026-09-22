@@ -41,7 +41,7 @@ dell'*Obliterate* utilizzato;
 Tutti i PG che hanno *Obliterate* fra le conoscenze possono intuire che la bacchetta
 presa in esame è stata incantata con Obliterate se questo avviene entro un certo numero di
 post dall’utilizzo dell’Obliterate stesso.
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -67,3 +67,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Arcaica 1+*
 Se la Potenza dell'Incantesimo precedentemente evocato è...
 - 100%: ultimi 7 Incantesimi evocati ONGame
+
+</details>

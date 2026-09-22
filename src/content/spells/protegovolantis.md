@@ -46,11 +46,11 @@ dentro lo scudo mobile, a patto che l'altra persona si muova insieme all'evocato
 
 > **Nota.**
 >
-• E' possibile utilizzare questo incantesimo per imprigionare un bersaglio; in quel caso, a
+- E' possibile utilizzare questo incantesimo per imprigionare un bersaglio; in quel caso, a
 stabilirne gli spostamenti è l'evocatore;
-• Non è possibile evocare altri Incantesimi dal suo interno senza distruggere lo scudo.
+- Non è possibile evocare altri Incantesimi dal suo interno senza distruggere lo scudo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -76,3 +76,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 3 post dell'evocatore; +6 Destrezza
 - 66%: 3 post dell'evocatore; +5 Destrezza
 - 33%: 3 post dell'evocatore; +4 Destrezza
+
+</details>

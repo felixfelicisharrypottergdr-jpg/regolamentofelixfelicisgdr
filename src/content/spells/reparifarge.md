@@ -34,11 +34,13 @@ Trasfigurazioni.
 
 > **Nota.**
 >
-• Annulla gli Incantesimi Trasfigurativi soltanto se la sua Forza è **pari o superiore**
+- Annulla gli Incantesimi Trasfigurativi soltanto se la sua Forza è **pari o superiore**
 alla Forza dell'incantesimo che si vuole annullare.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

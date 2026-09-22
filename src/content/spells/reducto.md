@@ -31,7 +31,7 @@ Disintegra istantaneamente oggetti di piccole e medie dimensioni
 senza generare frammenti rischiosi per chi circonda il bersaglio, rendendoli semplicemente
 polvere. Non funziona sugli esseri viventi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -51,3 +51,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 33%: max 3 oggetti (piccoli o medi)*Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 6 oggetti (qualsiasi dimensione)
+
+</details>

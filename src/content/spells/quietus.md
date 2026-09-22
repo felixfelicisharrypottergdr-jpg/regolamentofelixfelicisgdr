@@ -36,8 +36,10 @@ del bersaglio.
 Ha effetto solo su bersagli la cui voce è stata amplificata con *Sonorus*, per cui non è
 possibile utilizzarlo per ammutolire il bersaglio.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

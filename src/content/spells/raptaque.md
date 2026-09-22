@@ -39,7 +39,7 @@ l'incantesimo [Evanesco](/manuali/incantesimi/evanesco/).
 Il bersaglio svanisce in una coltre di fumo e scintille gialle.E' possibile far tornare sulla terra bersagli viventi mandati nel Limbo mediante l'uso di
 *Raptaque* utilizzando l'incantesimo [Evocatio](/manuali/incantesimi/evocatio/).
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -84,3 +84,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 post dell'evocatore
+
+</details>

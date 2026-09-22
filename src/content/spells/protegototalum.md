@@ -50,7 +50,7 @@ l'evocazione.
 Dissennatori e Lethifold;
 - E' possibile evocare altri incantesimi da dietro di esso senza distruggere lo scudo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -91,3 +91,5 @@ Massimo 1 persona.
 Una persona + 1d3 a prescindere dalla Forza dell'evocazione.
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 Una persona + 1d5 a prescindere dalla Forza dell'evocazione.
+
+</details>

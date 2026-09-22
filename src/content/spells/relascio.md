@@ -35,8 +35,10 @@ termine inglese *to hold*). Ciò che viene tenuto viene scagliato via a diversi 
 distanza.E' spesso utilizzato per liberare qualcuno da corde o catene o dalle fauci di una Creatura o
 una Pianta Magica.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>
