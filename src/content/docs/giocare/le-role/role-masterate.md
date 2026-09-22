@@ -36,6 +36,7 @@ migration:
 prototypeExcerpt: false
 ---
 
+<a id="masterate"></a>
 # Role Masterate
 
 Una Role Masterata è una Free Role che, a un certo punto, smette di essere autogestita perché diventa necessario l'intervento del Narratore.
@@ -48,6 +49,7 @@ Un altro caso è commettere un'infrazione del Regolamento Scolastico ad Hogwarts
 
 Nel momento in cui una role diventa Masterata, **il lancio dei dadi viene effettuato dal Narratore**. Il numero delle Azioni possibili per ogni PG a post rimane invariato rispetto alle Free Role, salvo diverse indicazioni del Narratore.
 
+<a id="richieste"></a>
 ## Richieste al Narratore
 
 Nella sezione **Richieste al Narratore** è possibile aprire un topic ogni volta che sia necessario il suo intervento all'interno di una role. Descrivendo la situazione e la richiesta, è possibile ricevere l'esito di determinate Azioni oppure indicazioni su come procedere prima dell'intervento diretto del Narratore.
