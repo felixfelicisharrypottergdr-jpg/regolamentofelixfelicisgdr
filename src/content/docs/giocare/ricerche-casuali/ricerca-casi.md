@@ -99,14 +99,14 @@ intimidazione, corruzione) e nella presentazione delle proprie argomentazioni, c
 contesto coerente e immersivo. Gli esiti dei dadi determinano in modo realistico il successo
 o il fallimento delle azioni e influenzano lo sviluppo della storia. Ogni Caso, infine, prevede lo
 scontro o meno fra i PG Difensori o la loro collaborazione. In ogni Fase:
-• L’uso di Conoscenze è solo di colore.
-• È possibile utilizzare oggetti dal bagaglio per ottenere bonus, consumandone gli utilizzi.
-• È possibile utilizzare Pozioni che agiscono unicamente sul PG conferendogli i seguenti
+- L’uso di Conoscenze è solo di colore.
+- È possibile utilizzare oggetti dal bagaglio per ottenere bonus, consumandone gli utilizzi.
+- È possibile utilizzare Pozioni che agiscono unicamente sul PG conferendogli i seguenti
 bonus per tutta la durata della role:
 → Pozione Standard: +1 Parametro a scelta
 → Pozione Oltre Ogni Previsione: +3 Parametro a scelta
 → Pozione Eccezionale: +5 Parametro a scelta
-• Ogni divisione prevista nelle formule (ad esempio Prestigio/4 o Popolarità/2) viene
+- Ogni divisione prevista nelle formule (ad esempio Prestigio/4 o Popolarità/2) viene
 arrotondata per difetto.
 
 ## Avvio della Ricerca: come e dove
@@ -136,15 +136,15 @@ da affrontare.
 **6.** Inchiesta Ministeriale
 **7.** Redazione di atti e documenti legali
 
-• È possibile rinunciare a un Caso assegnato e tentare di prenderne un altro fino a un
+- È possibile rinunciare a un Caso assegnato e tentare di prenderne un altro fino a un
 massimo di 3 volte per role, a patto che ogni tentativo venga sviluppato e interpretato
 ONGame. Ciò significa che, se i PG Difensori scelgono di abbandonare il caso estratto e
 cercarne un altro, non potranno farlo con un semplice tiro di dado, ma dovranno ruolare
 attivamente questa decisione. Il limite di “3 volte per role” si intende come **3
 determinazioni complessive del Caso** nella stessa role (la prima estrazione
 **conta** come 1, e le eventuali sostituzioni non possono portare il totale oltre 3).
-• Ogni PG può seguire un solo Caso per role.
-• Non c’è un limite al numero di post necessari per completare ogni Fase.
+- Ogni PG può seguire un solo Caso per role.
+- Non c’è un limite al numero di post necessari per completare ogni Fase.
 
 > **Nota.**
 >
@@ -188,18 +188,18 @@ Nel caso in cui il PG estragga una condizione che prevede Aggravanti o Attenuant
 Difensore può consultare la lista sottostante per determinare quali circostanze siano
 applicabili al proprio Assistito.
 **Circostanze Attenuanti**
-• Recidiva assente
-• Collaborazione con autorità
-• Minore gravità del danno
-• Influenza esterna (es. Imperius)
-• Età o inesperienza
+- Recidiva assente
+- Collaborazione con autorità
+- Minore gravità del danno
+- Influenza esterna (es. Imperius)
+- Età o inesperienza
 **Circostanze Aggravanti**
-• Recidiva
-• Premeditazione
-• Gravità delle conseguenze
-• Uso di Arti Oscure
-• Ostilità verso le autorità
-• Abuso di potere
+- Recidiva
+- Premeditazione
+- Gravità delle conseguenze
+- Uso di Arti Oscure
+- Ostilità verso le autorità
+- Abuso di potere
 
 **Gravità del Reato (Bonus o Malus dell'Accusa)**
 → Lancio di **1d4**
@@ -216,38 +216,38 @@ del Caso.
 
 >
 **Infrazioni Minori**
-• Uso improprio della magia in luoghi pubblici
-• Piccoli incantesimi offensivi senza gravi conseguenze
-• Violazioni leggere di regolamenti scolastici o ministeriali
+- Uso improprio della magia in luoghi pubblici
+- Piccoli incantesimi offensivi senza gravi conseguenze
+- Violazioni leggere di regolamenti scolastici o ministeriali
 *Sanzioni:* Multe: 100-500 Galeoni Risarcimenti: 50-200 Galeoni Limitazioni: richiami
 ufficiali, ammonizioni scritte, sospensione temporanea licenze (1-4 settimane)
 Reclusione/Restrizioni: nessuna
 
 >
 **Reati Civili**
-• Lite tra famiglie magiche per beni, eredità o proprietà
-• Diffamazione o calunnia a mezzo magico
-• Violazione di contratti o accordi magici
-• Danni a oggetti o creature magiche altrui
+- Lite tra famiglie magiche per beni, eredità o proprietà
+- Diffamazione o calunnia a mezzo magico
+- Violazione di contratti o accordi magici
+- Danni a oggetti o creature magiche altrui
 *Sanzioni:* Multe: 500-5.000 Galeoni Risarcimenti: 500-2.000 Galeoni Limitazioni:
 sospensione o restrizione bacchetta/incanti (1-3 mesi) Reclusione/Restrizioni: possibile
 servizio comunitario 1 settimana-1 mese
 
 >
 **Reati Penali**
-• Uso di Arti Oscure (maledizioni, incantesimi proibiti)
-• Creazione, possesso o traffico di oggetti magici illeciti
-• Violazione dello Statuto Internazionale di Non-Troppa-Segretezza
-• Maltrattamento di creature magiche protette
-• Corruzione, frode o abuso di potere nel Ministero
+- Uso di Arti Oscure (maledizioni, incantesimi proibiti)
+- Creazione, possesso o traffico di oggetti magici illeciti
+- Violazione dello Statuto Internazionale di Non-Troppa-Segretezza
+- Maltrattamento di creature magiche protette
+- Corruzione, frode o abuso di potere nel Ministero
 *Sanzioni:* Multe: 5.000-50.000 Galeoni Risarcimenti: 2.000-10.000 Galeoni
 Limitazioni: ritiro/sospensione bacchetta, interdizione incarichi (6 mesi – 5 anni)
 Reclusione/Restrizioni: 6 mesi – 10 anni Azkaban
 
 >
 **Reati Gravissimi**• Omicidio magico
-• Uso delle Maledizioni Senza Perdono
-• Tradimento o collaborazione con maghi oscuri
+- Uso delle Maledizioni Senza Perdono
+- Tradimento o collaborazione con maghi oscuri
 *Sanzioni:* Multe: non previste Risarcimenti: simbolici (fino a 100.000 Galeoni)
 Limitazioni: privazione definitiva bacchetta, interdizione perpetua Reclusione/Restrizioni:
 Azkaban a vita o esilio definitivo
@@ -257,13 +257,13 @@ Azkaban a vita o esilio definitivo
 Nei Casi gestiti dai PG Difensori, è possibile che la controparte sia rappresentata da
 Difensori Avversari PNG. Per determinare le loro capacità, si effettua un lancio di dadi che
 definisce i valori di:
-• **10+1d10 Volontà:** la resistenza psicologica e la capacità di non farsi influenzare.
-• **3+1d7 Dialettica:** l’abilità nell’argomentare e costruire discorsi convincenti.
-• **11+1d60 Prestigio:** la reputazione e il successo lavorativo del rivale, utile a
+- **10+1d10 Volontà:** la resistenza psicologica e la capacità di non farsi influenzare.
+- **3+1d7 Dialettica:** l’abilità nell’argomentare e costruire discorsi convincenti.
+- **11+1d60 Prestigio:** la reputazione e il successo lavorativo del rivale, utile a
 determinare il suo Bonus Prestigio in Fase III.
-• **1d5 Persuasore:** la capacità di ottenere consenso o influenzare decisioni a proprio
+- **1d5 Persuasore:** la capacità di ottenere consenso o influenzare decisioni a proprio
 favore
-• **1d5 Leader:** l’influenza sugli altri, come testimoni o membri dell’Aula, aumentando
+- **1d5 Leader:** l’influenza sugli altri, come testimoni o membri dell’Aula, aumentando
 l’efficacia delle proprie azioni.
 I PG hanno dunque il controllo indiretto della controparte, senza bisogno di un intervento del
 Narratore per rendere il confronto dinamico e interattivo.
@@ -272,7 +272,8 @@ Fasi esattamente come per i PG (ad esempio: “1dDialettica” del PNG significa
 facce pari alla sua Dialettica, e utilizzerà il Bonus Prestigio associato alla fascia del suo
 valore di Prestigio durante i calcoli della Fase III).
 
-#### 1. Patteggiamento
+<details><summary><strong>1. Patteggiamento</strong></summary>
+
 
 Il patteggiamento è una procedura speciale che consente di evitare un processo completo:
 le parti coinvolte – Difesa e Accusa – cercano un accordo su una pena o un risarcimento
@@ -304,8 +305,8 @@ può introdurre, contestare o reinterpretare prove, testimonianze, documenti, at
 aggravanti legate al caso. Ognuno ha la possibilità di presentare fino a 3 elementi a
 sostegno della propria posizione: possono essere fatti concreti, dichiarazioni raccolte da
 testimoni, o persino indizi dubbi ma presentati con forza retorica.
-• **Accettarlo:** l’elemento passa senza contestazione
-• **Contestarlo:** si effettua uno scontro di dadi
+- **Accettarlo:** l’elemento passa senza contestazione
+- **Contestarlo:** si effettua uno scontro di dadi
 **PG Adulto di supporto:** *PG Testimone:* è il momento in cui, interpellato dal
 proprio Difensore, presenta la sua testimonianza. Può essere interrogato dal Difensore
 avversario. *PG Assistito (parte in causa):* è presente fin dall'inizio come parte in
@@ -329,10 +330,10 @@ III (si somma ai tiri dei round).
 **Fase III – Negoziazione a Turni** È la fase centrale del patteggiamento. La
 negoziazione si sviluppa in uno o più round, ciascuno dedicato a un elemento delle sanzioni,
 in base alla gravità del reato:
-• Multe
-• Risarcimenti
-• Limitazioni
-• Reclusione o altre restrizioni Esempio: per un *Reato Civile* è tipico avere round per
+- Multe
+- Risarcimenti
+- Limitazioni
+- Reclusione o altre restrizioni Esempio: per un *Reato Civile* è tipico avere round per
 Multe, Risarcimenti, Limitazioni.
 **Ogni round:** chi ottiene il totale più alto “impone” la propria linea su quel punto; chi
 perde il round deve **cedere** su quel singolo elemento (narrando
@@ -346,10 +347,10 @@ totali. *Dado da lanciare:* **1dVolontà** + Dialettica + Persuasore + **Bonus
 Fase II** + eventuale Bonus PG Adulto di supporto ± (Condizione per la Difesa / Gravità
 per l’Accusa) + **Bonus Prestigio**
 **Bonus Prestigio (solo in Fase III):** aggiungere al **totale del tiro**:
-• Neo Difensore (0-36): +5
-• Difensore Esperto (37-70): +10
-• Difensore Notevole (71-99): +15
-• Difensore Veterano (100): +20
+- Neo Difensore (0-36): +5
+- Difensore Esperto (37-70): +10
+- Difensore Notevole (71-99): +15
+- Difensore Veterano (100): +20
 **Vincitore Finale** Chi ottiene più round a favore nel corso della Fase III è il Difensore
 vincitore del patteggiamento
 → riscatta tutti i premi previsti dalla Missione del FantaWiz "Il Difensore". Il PG Difensore che perde ottiene soltanto **1 Prestigio** dal
@@ -363,7 +364,7 @@ una lite tra famiglie. L’obiettivo dell’Accusa è ottenere sanzioni consiste
 ridurle.
 **Assunzioni di esempio (coerenti col regolamento):**• **Gravità:** Reato Civile
 → Accusa +1 (Gravità)
-• **Condizione presunta:** “Colpevole senza aggravanti”
+- **Condizione presunta:** “Colpevole senza aggravanti”
 → Difesa -2 (Condizione)
 •
 **PG Adulto di supporto:** è presente un *PG Verbalizzante* che ruola con la
@@ -384,59 +385,62 @@ elementi; la controparte li contesta. Ogni scambio vinto dà +2 Bonus Fase II.
 Fase I -5, Gravità +1 Difesa: Volontà 20, Acume 15, Persuasore 2, Dialettica 7,
 Verbalizzante +2, Condizione -2
 **Elemento 1 (Accusa):** “Testimone conferma la lite” (contestato dalla Difesa)
-• *Accusa presenta*: 1dDialettica(3) +18 +3 + Gravità(+1) + Malus(-5) = **20**
-• *Difesa contesta*: 1dDialettica(6) +15 +2 + Condizione(-2) + Verbalizzante(+2) =
+- *Accusa presenta*: 1dDialettica(3) +18 +3 + Gravità(+1) + Malus(-5) = **20**
+- *Difesa contesta*: 1dDialettica(6) +15 +2 + Condizione(-2) + Verbalizzante(+2) =
 **23** Esito: vince la Difesa
 → Difesa +2 Bonus Fase II
 **Elemento 2 (Accusa):** “Documento sui danni materiali” (contestato dalla Difesa)
-• *Accusa presenta*: 1dDialettica(2) +18 +3 + Gravità(+1) + Malus(-5) = **19**
-• *Difesa contesta*: 1dDialettica(3) +15 +2 + Condizione(-2) + Verbalizzante(+2) =
+- *Accusa presenta*: 1dDialettica(2) +18 +3 + Gravità(+1) + Malus(-5) = **19**
+- *Difesa contesta*: 1dDialettica(3) +15 +2 + Condizione(-2) + Verbalizzante(+2) =
 **20** Esito: vince la Difesa
 → Difesa +2 (totale Bonus Fase II: **+4**)
 **Elemento 3 (Difesa):** “Collaborazione con autorità” (contestato dall’Accusa)
-• *Difesa presenta*: 1dDialettica(4) +20 +2 + Condizione(-2) + Verbalizzante(+2) =
+- *Difesa presenta*: 1dDialettica(4) +20 +2 + Condizione(-2) + Verbalizzante(+2) =
 **26**
-• *Accusa contesta*: 1dDialettica(4) +16 +3 + Gravità(+1) + Malus(-5) = **19**
+- *Accusa contesta*: 1dDialettica(4) +16 +3 + Gravità(+1) + Malus(-5) = **19**
 Esito: vince la Difesa
 → Difesa +2 (totale: **+6**)**Elemento 4 (Difesa):** “Testimonianza che minimizza i danni” (contestato dall’Accusa)
-• *Difesa presenta*: 1dDialettica(2) +20 +2 + Condizione(-2) + Verbalizzante(+2) =
+- *Difesa presenta*: 1dDialettica(2) +20 +2 + Condizione(-2) + Verbalizzante(+2) =
 **24**
-• *Accusa contesta*: 1dDialettica(5) +16 +3 + Gravità(+1) + Malus(-5) = **20**
+- *Accusa contesta*: 1dDialettica(5) +16 +3 + Gravità(+1) + Malus(-5) = **20**
 Esito: vince la Difesa
 → Difesa +2 (totale Bonus Fase II: **+8**)
 **Fase III – Negoziazione a Turni** **Descrizione:** Reato Civile
 → round per Multe, Risarcimenti, Limitazioni. Bonus Prestigio: Accusa Esperto +10; Difesa
 Veterano +20. Il Bonus Fase II della Difesa è **+8** (si somma ad ogni round).
 *Round 1 – Multe*
-• *Accusa*: 1dVolontà(11) +5 +3 + Bonus Fase II(0) + Gravità(+1) + Prestigio(+10) =
+- *Accusa*: 1dVolontà(11) +5 +3 + Bonus Fase II(0) + Gravità(+1) + Prestigio(+10) =
 **30**
-• *Difesa*: 1dVolontà(12) +7 +2 + Bonus Fase II(+8) + Condizione(-2) +
+- *Difesa*: 1dVolontà(12) +7 +2 + Bonus Fase II(+8) + Condizione(-2) +
 Verbalizzante(+2) + Prestigio(+20) = **49**
 *Round 2 – Risarcimenti*
-• *Accusa*: 1dVolontà(15) +5 +3 + Gravità(+1) + Prestigio(+10) = **34**
-• *Difesa*: 1dVolontà(5) +7 +2 + Bonus Fase II(+8) + Condizione(-2) +
+- *Accusa*: 1dVolontà(15) +5 +3 + Gravità(+1) + Prestigio(+10) = **34**
+- *Difesa*: 1dVolontà(5) +7 +2 + Bonus Fase II(+8) + Condizione(-2) +
 Verbalizzante(+2) + Prestigio(+20) = **42**
 *Round 3 – Limitazioni*
-• *Accusa*: 1dVolontà(6) +5 +3 + Gravità(+1) + Prestigio(+10) = **25**
-• *Difesa*: 1dVolontà(7) +7 +2 + Bonus Fase II(+8) + Condizione(-2) +
+- *Accusa*: 1dVolontà(6) +5 +3 + Gravità(+1) + Prestigio(+10) = **25**
+- *Difesa*: 1dVolontà(7) +7 +2 + Bonus Fase II(+8) + Condizione(-2) +
 Verbalizzante(+2) + Prestigio(+20) = **44**
 **Risultato finale:** La Difesa vince 3 round su 3: il patteggiamento risulta fortemente
 favorevole all’Assistito (multe e risarcimenti ridotti, limitazioni molto contenute o assenti).
 
-#### 2. Processi
+</details>
+
+<details><summary><strong>2. Processi</strong></summary>
+
 
 Il Processo è il momento in cui il conflitto tra Accusa e Difesa si trasforma in una vera e
 propria sfida pubblica, regolata dalle procedure del Wizengamot. Non è solo un confronto di
 prove e testimonianze, ma un’arena politica e retorica, dove contano tanto i documenti
 ufficiali quanto la capacità di convincere, persuadere o smontare la versione avversaria.
-• Il Caso può essere svolto da **massimo** 2 PG Difensori che possono soltanto
+- Il Caso può essere svolto da **massimo** 2 PG Difensori che possono soltanto
 scontrarsi: uno deve rappresentare necessariamente la Difesa e l'altro l’Accusa.
 **Promemoria validi per tutto il Caso:**
-• Il **Bonus/Malus Condizione** si applica **a entrambi** i Difensori, con segno
+- Il **Bonus/Malus Condizione** si applica **a entrambi** i Difensori, con segno
 diverso (Difesa/Accusa) come da tabella in “Determinazione dell’Assistito”.
-• Il **Bonus/Malus Gravità** si applica **solo** al Difensore che rappresenta
+- Il **Bonus/Malus Gravità** si applica **solo** al Difensore che rappresenta
 l’Accusa.
-• Dove è indicato “eventuale Bonus PG Adulto di supporto”: se il bonus del ruolo è
+- Dove è indicato “eventuale Bonus PG Adulto di supporto”: se il bonus del ruolo è
 *numerico* si somma al tiro; se è *non numerico* (rilancio, doppio tiro,
 sostituzione del tiro) si applica secondo quanto previsto dal ruolo scelto.**Fase I – Preparazione al Processo** La prima fase non si svolge nell’aula del
 Wizengamot, ma nei giorni e nelle settimane che precedono l’apertura del dibattimento. È il
@@ -452,17 +456,17 @@ versione dei fatti
 **Svolgimento:** per ognuno degli elementi in basso, **ciascun Difensore**
 effettua **1 tiro** (quindi: un tiro della Difesa e un tiro dell’Accusa per ogni elemento).
 *
-• Raccolta prove* (documenti ufficiali, rapporti, certificazioni, ricordi, memorie)
+- Raccolta prove* (documenti ufficiali, rapporti, certificazioni, ricordi, memorie)
 → Il Difensore ha successo se, lanciando **1d50**, estrae un esito compreso fra
 **1** e **Acume + Prestigio/4 ± Bonus/Malus Condizione + (solo Accusa: ±
 Bonus/Malus Gravità) + eventuale Bonus PG Adulto di supporto**.
 *
-• Ricerca di testimoni*
+- Ricerca di testimoni*
 → Il Difensore ha successo se, lanciando **1d70**, estrae un esito compreso fra
 **1** e **Volontà + Prestigio/4 + Popolarità/2 + Dialettica ± Bonus/Malus Condizione
 + (solo Accusa: ± Bonus/Malus Gravità) + eventuale Bonus PG Adulto di supporto**.
 *
-• Certificazioni e perizie*
+- Certificazioni e perizie*
 → Il Difensore ha successo se, lanciando **1d50**, estrae un esito compreso fra
 **1** e **Acume + Prestigio/4 ± Bonus/Malus Condizione + (solo Accusa: ±
 Bonus/Malus Gravità) + eventuale Bonus PG Adulto di supporto**.
@@ -504,11 +508,11 @@ più convincente e determina chi ottiene la posizione “più forte” nelle vot
 Condizione + (solo Accusa: ± Bonus/Malus Gravità) + eventuale Bonus Fase I + eventuale
 Bonus PG Adulto di supporto
 **Votazioni Finali**
-• Chi ha vinto la Fase II aggiunge **1d10** ai propri voti finali
-• Eventuali PG Onorevoli possono votare come ritengono più opportuno (sempre nei limiti
+- Chi ha vinto la Fase II aggiunge **1d10** ai propri voti finali
+- Eventuali PG Onorevoli possono votare come ritengono più opportuno (sempre nei limiti
 narrativi della role)
-• Chi ha vinto la Fase III accumula Voti pari a: **20+1d50**
-• Chi ha perso la Fase III accumula Voti pari a: **10+1d40** Il numero di Voti finali più
+- Chi ha vinto la Fase III accumula Voti pari a: **20+1d50**
+- Chi ha perso la Fase III accumula Voti pari a: **10+1d40** Il numero di Voti finali più
 alto determina il vincitore del Processo.
 
 > **Esempio.**
@@ -516,9 +520,9 @@ alto determina il vincitore del Processo.
 artefatti magici da parte di un giovane studente presso uno degli uffici del Ministero.L’Accusa sostiene che l’Assistito abbia sottratto tre oggetti dal valore complessivo di 1.000
 Galeoni durante una visita scolastica. Il Processo si svolge davanti al Wizengamot.
 **Assunzioni di esempio (coerenti col regolamento):**
-• **Gravità:** Reato Penale
+- **Gravità:** Reato Penale
 → Accusa +3 (Gravità)
-• **Condizione presunta:** “Colpevole senza aggravanti”
+- **Condizione presunta:** “Colpevole senza aggravanti”
 → Difesa -2 / Accusa +2 (Condizione)
 •
 **PG Adulto di supporto:** nessuno (quindi nessun bonus di ruolo applicato)
@@ -570,21 +574,24 @@ Condizione(-2) + BonusFaseI(+6) = **34** Vince: Difesa
 Condizione(+2) + Gravità(+3) + BonusFaseI(+6) = **30** Difesa: 1dVolontà (1d19=17)
 +5 +5 +3 +5 + Condizione(-2) + BonusFaseI(+6) = **39** Vince: Difesa
 **Votazioni Finali**
-• Bonus da Fase II (Difesa): 1d10 = **7**
+- Bonus da Fase II (Difesa): 1d10 = **7**
 Voti Difesa (vincitore Fase III): 20+1d50 (1d50=31) = **51**
 → +1d10 (7) = **58** Voti Accusa (perdente Fase III): 10+1d40 (1d40=22) = **32**
 **Risultato finale:** la Difesa ottiene più voti: l’Assistito viene assolto.
 
-#### 3. Mediazioni Stragiudiziali
+</details>
+
+<details><summary><strong>3. Mediazioni Stragiudiziali</strong></summary>
+
 
 Le Mediazioni Stragiudiziali sono l’ultima barriera prima del Processo: un tentativo di
 risolvere conflitti e controversie lontano dall’aula del Wizengamot, evitando lo scontro
 pubblico e le lungaggini burocratiche.
-• Il Caso può essere svolto da più di 2 PG Difensori che possono scontrarsi oppure stare
+- Il Caso può essere svolto da più di 2 PG Difensori che possono scontrarsi oppure stare
 dalla stessa parte.
-• In ogni Mediazione esistono comunque **due parti** (posizioni contrapposte nella
+- In ogni Mediazione esistono comunque **due parti** (posizioni contrapposte nella
 controversia), anche quando una delle due è sostenuta principalmente da PNG.
-• Se la controversia non riguarda un reato e non esiste un Assistito accusato, Bonus/Malus
+- Se la controversia non riguarda un reato e non esiste un Assistito accusato, Bonus/Malus
 Condizione e Bonus/Malus Gravità si considerano entrambi pari a 0 e non è necessario
 effettuare i relativi tiri di determinazione.**Fase I – Raccolta delle posizioni** **Descrizione:** prima di sedersi al tavolo
 della mediazione, il Difensore incontra esclusivamente il proprio Assistito per chiarire
@@ -619,19 +626,19 @@ una concessione al proprio Assistito.
 estratto è compreso fra **1** e **Volontà + Dialettica + Persuasore ± Bonus/Malus
 Condizione (Difesa) ± Bonus/Malus Gravità (Accusa) ± Bonus/Malus Fase II + Bonus PG
 Adulto di supporto**.
-• Un successo corrisponde a una concessione strappata alla controparte o resa accettabile
+- Un successo corrisponde a una concessione strappata alla controparte o resa accettabile
 al proprio Assistito.
-• Entrambi i Difensori possono ottenere successi nello stesso round.
+- Entrambi i Difensori possono ottenere successi nello stesso round.
 **Esito finale:** si conta, per ciascuna parte, il numero di round in cui il proprio
 Difensore ha ottenuto successo (da 0 a 3). Nel caso in cui ci siano più Difensori dalla stessaparte, ai fini dell’esito finale si conta il numero di successi di **un solo PG** (a scelta dei
 player), dichiarando ONgame quale PG viene preso a riferimento per il conteggio. *
-• 3/3 – 3/3:* mediazione piena
+- 3/3 – 3/3:* mediazione piena
 → Processo evitato, entrambe le parti soddisfatte, Prestigio massimo *
-• differenza di almeno 1 round (es. 3/3 – 2/3):* mediazione favorevole
+- differenza di almeno 1 round (es. 3/3 – 2/3):* mediazione favorevole
 → Processo evitato; chi vince ottiene Prestigio massimo, chi perde ottiene 1 *
-• pari con almeno un successo per parte (2/3 – 2/3 oppure 1/3 – 1/3):* accordo parziale
+- pari con almeno un successo per parte (2/3 – 2/3 oppure 1/3 – 1/3):* accordo parziale
 → Processo evitato; entrambi ottengono 0,5 Prestigio *
-• 0/3 – 0/3:* mediazione fallita
+- 0/3 – 0/3:* mediazione fallita
 → Processo inevitabile; nessun Prestigio
 
 > **Esempio.**
@@ -677,19 +684,22 @@ punto critico.
 **Esito finale:** 3 successi su 3 per entrambe le parti
 → mediazione piena: Processo evitato, accordo completo.
 
-#### 4. Appello e Revisione
+</details>
+
+<details><summary><strong>4. Appello e Revisione</strong></summary>
+
 
 L’Appello rappresenta l’ultima speranza dopo una sentenza sfavorevole: un percorso
 tortuoso e complesso, in cui il Difensore deve dimostrare che qualcosa, nel processo
 precedente, non ha funzionato. Non si tratta di ripetere lo stesso dibattimento, ma di mettere
 in luce errori procedurali, cavilli giuridici o nuovi elementi di prova che possano ribaltare
 l’esito.
-• Questo Caso **non prevede lo scontro fra PG Difensori**. Di conseguenza, può
+- Questo Caso **non prevede lo scontro fra PG Difensori**. Di conseguenza, può
 esserci più di un Difensore per lo stesso Assistito.
 **Promemoria per il Caso (validi per tutte le Fasi):**
-• In questo Caso i Difensori operano per l’Assistito (parte “Difesa”): si applica **solo** il
+- In questo Caso i Difensori operano per l’Assistito (parte “Difesa”): si applica **solo** il
 **Bonus/Malus Condizione** previsto per la Difesa.
-• Non essendoci un Difensore che rappresenta l’Accusa, **non si applica** il
+- Non essendoci un Difensore che rappresenta l’Accusa, **non si applica** il
 **Bonus/Malus Gravità** (previsto per l’Accusa).
 **Fase I – Analisi della Sentenza** Il Difensore ripercorre il processo precedente,
 rileggendo verbali e individuando errori procedurali o punti deboli.
@@ -733,7 +743,7 @@ illecito di Arti Oscure durante un duello, i PG Difensori decidono di presentare
 condanna rischia di macchiarle la carriera e impedirle di lavorare al Ministero. L’Appello si
 svolge davanti al Wizengamot.
 **Assunzioni di esempio (coerenti col regolamento):**
-• **Condizione presunta dell’Assistito:** “Colpevole senza aggravanti”
+- **Condizione presunta dell’Assistito:** “Colpevole senza aggravanti”
 → Difesa -2 (Condizione)
 •
 **PG Adulto di supporto:** nessuno
@@ -762,17 +772,20 @@ Prestigio/4=5) Soglia = 16 + 17 + 6 + 10/2(5) + 2 + 5 + Condizione(-2) = **49** 
 **Risultato finale:** il caso viene riaperto; la condanna è sospesa in attesa di nuovo
 processo.
 
-#### 5. Custodia Cautelare
+</details>
+
+<details><summary><strong>5. Custodia Cautelare</strong></summary>
+
 
 L’Assistito è detenuto preventivamente ad Azkaban in attesa del processo: i PG Difensori
 hanno un margine limitato per ottenere la libertà su cauzione, oppure per impedire il
 trasferimento definitivo in cella.
-• Questo Caso **non prevede lo scontro fra PG Difensori**. Di conseguenza, può
+- Questo Caso **non prevede lo scontro fra PG Difensori**. Di conseguenza, può
 esserci più di un Difensore per lo stesso Assistito.
 **Promemoria per il Caso (validi per tutte le Fasi):**
-• In questo Caso i Difensori operano per l’Assistito (parte “Difesa”): si applica **solo** il
+- In questo Caso i Difensori operano per l’Assistito (parte “Difesa”): si applica **solo** il
 **Bonus/Malus Condizione** previsto per la Difesa.
-• Non essendoci un Difensore che rappresenta l’Accusa, **non si applica** il
+- Non essendoci un Difensore che rappresenta l’Accusa, **non si applica** il
 **Bonus/Malus Gravità**.
 **Fase I – Accesso e Richiesta Ufficiale** I Difensori presentano domanda di custodia
 cautelare alternativa (cauzione, vigilanza, domiciliari) e convincono le autorità a prendere in
@@ -815,7 +828,7 @@ Caso fallisce e il PG non può riscattare il Prestigio dalla Missione del FantaW
 per un giovane apprendista accusato di traffico di oggetti magici illegali. L’Assistito è
 trattenuto ad Azkaban in attesa del processo.
 **Assunzioni di esempio (coerenti col regolamento):**
-• **Condizione presunta dell’Assistito:** “Colpevole senza aggravanti”→ Difesa -2 (Condizione)
+- **Condizione presunta dell’Assistito:** “Colpevole senza aggravanti”→ Difesa -2 (Condizione)
 •
 **PG Adulto di supporto:** Amico a supporto (bonus non numerico; nell’esempio non è
 necessario sostituire alcun tiro)
@@ -835,13 +848,16 @@ Condizione(-2) = **28** Tiro 1d50 = **20**
 **Esito finale:** la richiesta viene accettata; l’Assistito ottiene una misura alternativa in
 attesa del processo.
 
-#### 6. Inchiesta Ministeriale
+</details>
+
+<details><summary><strong>6. Inchiesta Ministeriale</strong></summary>
+
 
 I PG Difensori devono muoversi tra uffici ministeriali, funzionari inflessibili e regolamenti
 complessi per raccogliere informazioni, documenti e prove a favore del loro Assistito.
-• Questo Caso non prevede lo scontro fra PG Difensori. Di conseguenza, può esserci più di
+- Questo Caso non prevede lo scontro fra PG Difensori. Di conseguenza, può esserci più di
 un Difensore per lo stesso Assistito.
-• L’inchiesta si svolge sempre al Ministero della Magia inglese.
+- L’inchiesta si svolge sempre al Ministero della Magia inglese.
 **Fase I – Accesso agli Archivi e Raccolta Documenti** I Difensori ottengono accesso
 agli archivi ministeriali e individuano i documenti rilevanti.
 **PG Adulto di supporto:**
@@ -915,12 +931,15 @@ Soglia = 16 + 7 + 3 + BonusFaseII(+5) = **31**
 Tiro 1d60 = **30** → Successo
 **Esito finale:** il Ministero riconosce la validità dei documenti e supporta l’Assistito.
 
-#### 7. Redazione di atti e documenti legali
+</details>
+
+<details><summary><strong>7. Redazione di atti e documenti legali</strong></summary>
+
 
 Preparazione formale di atti, memorie difensive, ricorsi e contratti magici: i PG Difensori non
 combattono direttamente in aula, ma devono produrre documentazione impeccabile da
 presentare al Wizengamot o ad altre istituzioni.
-• Questo Caso non prevede lo scontro fra PG Difensori. Di conseguenza, può esserci più di
+- Questo Caso non prevede lo scontro fra PG Difensori. Di conseguenza, può esserci più di
 un Difensore per lo stesso Assistito.
 **Fase I – Stesura Tecnica dell’Atto** I Difensori redigono la prima bozza del
 documento legale, rispettando norme e formule.
@@ -984,3 +1003,5 @@ Bonus Fase II +5)
 Soglia = 17 + 7 + 3 + 3 + 5 = **35**
 Tiro 1d70 = **30** → Successo
 **Esito finale:** documento accettato; Caso completato con successo.
+
+</details>
