@@ -32,7 +32,8 @@ migration:
       item: "Limbo Vectis"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Evocazione del Varco**
 L'Evocatore sceglie uno spazio libero entro Gittata Corta e utilizza 1 Azione Principale per pronunciare *Limbo Vectis*, tracciando con la bacchetta un movimento verticale dall'alto verso il basso.
@@ -70,10 +71,10 @@ Anche un avversario può utilizzare un Varco lasciato aperto, purché riesca fis
 Salvo quanto espressamente modificato da Limbo Vectis, all'interno della dimensione si applicano tutte le normali regole previste per il Limbo.
 Chi attraversa la soglia non si trova più fisicamente nel mondo reale e non può essere raggiunto da Incantesimi, attacchi, proiettili, incendi, crolli, Creature o altri pericoli provenienti dall'esterno.
 Nel Limbo:
-• non esiste dolore;
-• non è possibile subire danni, perdere Salute o morire;
-• non è normalmente possibile utilizzare magia;
-• è possibile muoversi, parlare e interagire con altri PG, animali, Creature e oggetti presenti nella dimensione, utilizzati liberamente come elementi di colore nelle Free Role o mossi dal Narratore durante Quest ed Eventi.
+- non esiste dolore;
+- non è possibile subire danni, perdere Salute o morire;
+- non è normalmente possibile utilizzare magia;
+- è possibile muoversi, parlare e interagire con altri PG, animali, Creature e oggetti presenti nella dimensione, utilizzati liberamente come elementi di colore nelle Free Role o mossi dal Narratore durante Quest ed Eventi.
 La dimensione appare come un luogo vastissimo e prevalentemente bianco, popolato da oggetti, esseri viventi e frammenti di materia che vi sono stati condotti attraverso le Evanescenze.
 La percezione del luogo rimane confusa e quasi onirica: una volta tornato nel mondo reale, il PG conserva normalmente soltanto ricordi vaghi della propria permanenza.
 
@@ -133,8 +134,8 @@ La fenditura precedente non può essere modificata né utilizzata per comparire 
 **Limbo Vectis all'interno del Limbo**
 Limbo Vectis costituisce l'unica eccezione alla normale impossibilità di evocare magia all'interno del Limbo.
 L'Evocatore può utilizzarlo esclusivamente per:
-• riaprire un proprio collegamento ancora attivo e tornare al relativo Punto d'Ancoraggio;
-• incidere una nuova fenditura e creare una nuova uscita dopo la scadenza o l'abbandono definitivo del collegamento precedente.
+- riaprire un proprio collegamento ancora attivo e tornare al relativo Punto d'Ancoraggio;
+- incidere una nuova fenditura e creare una nuova uscita dopo la scadenza o l'abbandono definitivo del collegamento precedente.
 Non può utilizzare altre Conoscenze, Incantesimi, Pozioni, Oggetti Magici, Smaterializzazione, Passaporte o altri sistemi di Trasporto Magico.
 
 **Nuova evocazione dal Limbo**
@@ -152,10 +153,10 @@ Livello I: la nuova destinazione può trovarsi al massimo nello stesso Stato del
 Livello II: la nuova destinazione può trovarsi anche in un altro Stato dello stesso continente.
 Livello III: la nuova destinazione può trovarsi anche in un continente differente.
 Oltre alla normale Fatica richiesta dalla nuova evocazione di Limbo Vectis, l'Evocatore subisce un costo aggiuntivo determinato dalla distanza:
-• Stessa città o località: nessuna Fatica aggiuntiva;
-• Stesso Stato: +1 Fatica;
-• Stesso continente: +3 Fatica;
-• Continente differente: +5 Fatica.
+- Stessa città o località: nessuna Fatica aggiuntiva;
+- Stesso Stato: +1 Fatica;
+- Stesso continente: +3 Fatica;
+- Continente differente: +5 Fatica.
 I costi indicati si aggiungono alla Fatica normalmente prevista dal Livello della Maestria per l'evocazione della nuova fenditura.
 
 Conoscere la destinazione
@@ -197,3 +198,5 @@ La Forza reale viene calcolata normalmente sulla base dei Parametri e degli even
 Quando la fenditura è materialmente aperta, può essere bersagliata da Finite Incantatem o da altri Controincantesimi espressamente in grado di dissolvere una magia già attiva.
 Se la Forza complessiva del Controincantesimo è pari o superiore alla Forza di Limbo Vectis, l'intero collegamento viene annullato: la fenditura si richiude, il Punto d'Ancoraggio scompare e non può più essere riaperto attraverso quella evocazione.
 I soggetti già presenti nel Limbo non vengono riportati automaticamente nel mondo reale e, per uscirne, dovranno incidere una nuova fenditura attraverso una nuova evocazione di Limbo Vectis secondo le normali regole previste dalla Maestria.
+
+</details>
