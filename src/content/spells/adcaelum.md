@@ -35,10 +35,10 @@ mobilità.
 
 > **Bonus.**
 >
-• PG con **Sapienza Offensiva 25** sono in grado di indirizzare l'onda d'urto per far sì
+- PG con **Sapienza Offensiva 25** sono in grado di indirizzare l'onda d'urto per far sì
 che eviti di colpire eventuali alleati.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -62,3 +62,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 6 bersagli
 - 66%: max 5 bersagli
 - 33%: max 4 bersagli
+
+</details>

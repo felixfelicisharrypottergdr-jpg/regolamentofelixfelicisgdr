@@ -29,7 +29,7 @@ migration:
       item: "Aguamenti"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -48,3 +48,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*
 Se la Forza dell'incantesimo precedentemente evocato è...
 - 100%: max 5
+
+</details>

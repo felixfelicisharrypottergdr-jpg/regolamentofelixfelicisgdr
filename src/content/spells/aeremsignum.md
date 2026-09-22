@@ -30,8 +30,10 @@ migration:
 Consente di tracciare scritte di colore nero o bianco nell'aria. E'
 possibile eliminarle utilizzando l'incantesimo [Deletrius](/manuali/incantesimi/deletrius/).
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** le scritte permangono per 10 post dell’evocatore
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

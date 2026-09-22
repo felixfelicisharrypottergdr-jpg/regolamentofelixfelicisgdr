@@ -35,19 +35,19 @@ non magici già esistenti.
 
 > **Nota.**
 >
-• Il numero di Incantesimi che l’Oggetto può assorbire dipende dall’abilità dell’evocatore.
-• Le Specifiche dell'oggetto creato o modificato vengono stabilite dal Narratore su richiesta
+- Il numero di Incantesimi che l’Oggetto può assorbire dipende dall’abilità dell’evocatore.
+- Le Specifiche dell'oggetto creato o modificato vengono stabilite dal Narratore su richiesta
 del PG. Esse dipendono anche da quanto è abile il PG che evoca gli Incantesimi da
 assorbire.
-• Modificare un oggetto babbano, usarlo o venderlo è un’Azione Illegale.
-• Non è possibile incantare con Absorbet oggetti già magici.
+- Modificare un oggetto babbano, usarlo o venderlo è un’Azione Illegale.
+- Non è possibile incantare con Absorbet oggetti già magici.
 
 > **Nota.**
 >
 PG che utilizzano ONGame Absorbet rischiano di ammalarsi di
 Absorbitese, lanciando 1d10, pescano 1.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** fino al termine dell’utilizzo
 
@@ -66,3 +66,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Arcaica 1+*
 Se la Potenza dell'Incantesimo precedentemente evocato è...
 - 100%: 3 Incantesimi diversi
+
+</details>

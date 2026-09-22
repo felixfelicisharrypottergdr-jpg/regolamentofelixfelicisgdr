@@ -29,8 +29,10 @@ migration:
 Trasfigura il bersaglio in un ago.
 Funziona soltanto su oggetti delle dimensioni massime di una mela.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** 10 post dell’evocatore
 
 **Parametro del bersaglio intaccato:** //
+
+</details>
