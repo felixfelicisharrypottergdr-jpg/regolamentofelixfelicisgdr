@@ -26,7 +26,8 @@ migration:
       item: "Favore del Cielo"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Quando si attiva Favore del Cielo**
 La Maestria si attiva soltanto quando una condizione atmosferica produce conseguenze concrete di gioco sul PG o sull'ambiente, ossia quando il fenomeno comporta effettivamente dei Malus o altri effetti stabiliti dal Narratore durante Quest o Eventi Masterati.
@@ -35,8 +36,8 @@ Durante le Free Role il normale meteo dell'ambientazione viene considerato esclu
 
 **Origine del meteo**
 La Maestria funziona allo stesso modo indipendentemente dall'origine del fenomeno atmosferico. Può quindi attivarsi in presenza di:
-• Condizioni atmosferiche stabilite dal Narratore
-• Meteo generato tramite *Meteo Incanto* o *Meteo Canis*
+- Condizioni atmosferiche stabilite dal Narratore
+- Meteo generato tramite *Meteo Incanto* o *Meteo Canis*
 
 Il PG può quindi creare volontariamente tramite la propria magia una condizione atmosferica compatibile e beneficiare degli effetti di Favore del Cielo finché essa permane. Non è necessario che il fenomeno sia naturale o che fosse già presente prima dell'attivazione della Maestria.
 
@@ -73,6 +74,8 @@ Al momento dell'evocazione il PG sceglie uno dei Parametri normalmente intaccati
 
 **Fine degli effetti**
 I benefici di Favore del Cielo terminano quando:
-• La condizione atmosferica termina
-• Il PG lascia la zona interessata dal fenomeno
-• Il meteo viene modificato in una condizione non compatibile con la Maestria
+- La condizione atmosferica termina
+- Il PG lascia la zona interessata dal fenomeno
+- Il meteo viene modificato in una condizione non compatibile con la Maestria
+
+</details>
