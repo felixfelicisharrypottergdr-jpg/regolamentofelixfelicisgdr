@@ -2,7 +2,7 @@
 felixId: "fd1a97b6-f9fa-41de-b8e6-6fbda8911671"
 title: "Gli Allineamenti"
 description: "Allineamenti completi di PG Adulti e PG Studenti."
-contentType: landing
+contentType: rule
 searchAliases:
   - "allineamenti"
   - "legale"
