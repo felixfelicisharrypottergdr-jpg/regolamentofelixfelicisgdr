@@ -2,11 +2,11 @@
 
 > **Aggiornamento audit — 21 settembre 2026:** la precedente certificazione di completezza è sospesa durante l’audit editoriale e funzionale. Il repository contiene gran parte del testo sorgente, ma sono emerse sottopagine parziali/placeholder e duplicazioni fra guide monolitiche e pagine granulari. Fare riferimento a `AUDIT_EDITORIALE_FUNZIONALE.md` per lo stato corrente.
 
-Data audit: 21 settembre 2026.
+Data audit iniziale: 21 settembre 2026.\nUltimo aggiornamento: 22 settembre 2026.
 
 ## Esito
 
-La migrazione dei contenuti regolamentari caricati nelle fonti del progetto è **completa per la V1**, fatte salve le due esclusioni deliberate definite nel brief del progetto:
+La migrazione delle **fonti sorgente** è completa per la V1, fatte salve le due esclusioni deliberate definite nel brief del progetto. L'audit editoriale successivo ha però individuato e corretto alcuni residui di prototipo, collisioni di route e sottopagine inizialmente abbreviate. Per questo la completezza sorgente va distinta dalla **rifinitura editoriale/architetturale**, ancora in corso:
 
 1. **Fabbricazione/Crafting generico di Oggetti ONGame**: escluso dalla V1.
 2. **Catalogo dettagliato delle schede PNG**: resta esterno al sito nella V1.
@@ -91,9 +91,9 @@ I lotti di migrazione sono stati sottoposti alla pipeline GitHub con:
 
 Il preflight è stato inoltre corretto affinché consideri relazioni soltanto gli UUID presenti nei veri campi relazionali YAML e non UUID casualmente contenuti negli URL delle immagini.
 
-## Fase successiva
+## Fase attuale
 
-Da questo punto il progetto può passare dalla **migrazione** alla **rifinitura**:
+La migrazione sorgente è chiusa. È in corso l'**audit editoriale e funzionale**, tracciato in `AUDIT_EDITORIALE_FUNZIONALE.md`. Le attività successive sono:
 
 1. audit editoriale delle anomalie preservate;
 2. relazioni e backlink mancanti;

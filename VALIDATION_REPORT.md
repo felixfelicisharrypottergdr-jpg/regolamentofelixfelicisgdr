@@ -1,34 +1,72 @@
 # FELIX FELICIS — Validation Report
 
-## Stato del pacchetto
+Ultimo aggiornamento: 22 settembre 2026.
 
-**GitHub-ready per il primo build-test.**
+## Stato corrente
 
-## Controlli eseguiti offline
+La pipeline GitHub è operativa e il sito viene costruito e distribuito su GitHub Pages.
 
-- `package.json`: JSON valido.
-- `.pages.yml`: YAML valido.
-- `.github/workflows/deploy.yml`: YAML valido.
-- `.github/workflows/validate.yml`: YAML valido.
-- `astro.config.mjs`: sintassi JavaScript valida tramite `node --check`.
-- `scripts/preflight.mjs`: sintassi JavaScript valida tramite `node --check`.
-- Preflight contenuti: **122 file / 122 UUID univoci**.
-- Nessun UUID referenziato dal frontmatter risulta mancante.
-- Nessuno slug duplicato all'interno della stessa collection strutturata.
+L'ultima pipeline completamente verificata prima del lotto editoriale del 22 settembre è quella del commit `0fd87b7e`, conclusa con successo.
 
-## Cosa resta da verificare su GitHub
+## Controlli automatici attivi
 
-Non è stato possibile completare `npm install` nell'ambiente di preparazione perché il collegamento al registry npm va in timeout. Di conseguenza il primo workflow GitHub dovrà verificare:
+### Preflight
 
-1. installazione effettiva di Astro 7.3.3 e Starlight 0.42.2;
-2. compilazione TypeScript/Astro delle pagine `.astro`;
-3. compatibilità delle configurazioni Starlight/Pagefind;
-4. generazione di `dist/`;
-5. deploy GitHub Pages;
-6. correttezza del `base` sotto `/<nome-repository>/`;
-7. ricerca Pagefind post-build;
-8. comportamento responsive e iframe ForumFree.
+Verifica:
 
-## Strategia del primo deploy
+- frontmatter dei contenuti;
+- UUID univoci;
+- riferimenti UUID esistenti;
+- slug univoci nelle collezioni strutturate;
+- route documentali univoche;
+- link interni verso route esistenti.
 
-Il workflow usa Node.js 24 e `npm install --no-audit --no-fund`. Non usa ancora `npm ci` perché non disponiamo di un `package-lock.json` prodotto da un'installazione completa. Dopo il primo deploy riuscito il lockfile diventerà parte del repository e la pipeline verrà irrigidita.
+Nella build verificata:
+
+- **1616 file di contenuto**;
+- **1616 UUID univoci**;
+- **1631 route note**;
+- nessun errore di integrità.
+
+### Audit editoriale
+
+`npm run audit` rileva automaticamente:
+
+- stato di migrazione;
+- `to_migrate`;
+- `prototypeExcerpt`;
+- linguaggio provvisorio di migrazione;
+- markup legacy;
+- pagine monolitiche;
+- H1 multipli nel sorgente;
+- descrizioni sospette.
+
+Nella build verificata risultavano:
+
+- zero `to_migrate`;
+- zero `prototypeExcerpt: true`;
+- zero linguaggio di migrazione provvisoria;
+- zero descrizioni sospette.
+
+### Build e deploy
+
+La pipeline esegue inoltre:
+
+- Astro/Starlight build;
+- Pagefind;
+- upload artifact GitHub Pages;
+- deploy Pages.
+
+## Debito non bloccante ancora noto
+
+Restano da affrontare nell'audit:
+
+- markup legacy residuo e pulizia editoriale;
+- pagine monolitiche da riorganizzare senza perdita di contenuto;
+- salti di gerarchia heading;
+- qualità semantica di filtri e relazioni;
+- warning Starlight relativi a i18n/404;
+- favicon;
+- verifica responsive e iframe ForumFree.
+
+Il registro operativo aggiornato è `AUDIT_EDITORIALE_FUNZIONALE.md`.

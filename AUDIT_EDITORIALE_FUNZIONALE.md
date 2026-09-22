@@ -1,6 +1,6 @@
 # FELIX FELICIS — Audit editoriale e funzionale
 
-Data di apertura audit: 21 settembre 2026.
+Data di apertura audit: 21 settembre 2026.\nUltimo aggiornamento: 22 settembre 2026.
 
 ## Scopo
 
@@ -61,7 +61,7 @@ Il renderer ora sposta di un livello l'intera gerarchia Markdown quando trova un
 lasciando il titolo Starlight come unico H1 di pagina.
 
 ### P0-05 — Pagine parziali/placeholder esposte come regole migrate
-**Stato: APERTO**
+**Stato: RISOLTO E VERIFICATO**
 
 Casi espliciti individuati:
 
@@ -75,7 +75,7 @@ Casi espliciti individuati:
 - `mondo-magico/wizengamot/partecipare-ad-un-processo.md`;
 - `giocare/le-role/index.md` conserva inoltre il riferimento “In questo prototipo”.
 
-Prima di cancellare o sostituire queste pagine va verificato se contengono integrazioni uniche rispetto alla guida monolitica.
+Le pagine sopra elencate sono state completate a partire dalle fonti/guide canoniche, portate a `status: verified` e private dei flag di prototipo. L'audit automatico corrente non rileva più `to_migrate`, `prototypeExcerpt: true` o linguaggio di migrazione provvisoria.
 
 ## Registro P1
 
@@ -127,7 +127,7 @@ Le pagine di onboarding venivano indicizzate come macroarea generica `Regolament
 Aggiunta la macroarea corretta `Inizia da qui`.
 
 ### P1-05 — Copertura relazioni/rail non uniforme
-**Stato: APERTO — da affrontare nella fase relazioni**
+**Stato: RISOLTO TECNICAMENTE — qualità semantica da auditare**
 
 Il rail relazionale è disponibile per buona parte dei Manuali e delle entità commerciali/normative,
 ma è assente da:
@@ -138,7 +138,7 @@ ma è assente da:
 - Missioni FantaHogwarts;
 - Missioni FantaWiz.
 
-Anche l'indice backlink copre solo una parte delle collection.
+Il grafo backlink è stato esteso a tutte le collezioni strutturate e il rail gestisce ora anche Maestrie, Tecniche Divinatorie, Conoscenze Scolastiche e Missioni. Resta aperto il lavoro editoriale sulla qualità e completezza delle singole relazioni, che appartiene alla fase relazioni/architettura.
 
 ### P1-06 — Anomalia Ingredienti: Grinzafico / Giunchiglia / Grinzafigo
 **Stato: APERTO — decisione editoriale richiesta**
@@ -175,17 +175,12 @@ La duplicazione editoriale fra testo sorgente e tabella strutturata resta da val
 ## Registro P2
 
 ### P2-01 — Residui `prototypeExcerpt` e `to_migrate`
-**Stato: APERTO**
+**Stato: RISOLTO**
 
-Il preflight ora li elenca automaticamente.
-Al momento dell'apertura dell'audit rimanevano 2 pagine `to_migrate` e numerose pagine con
-`prototypeExcerpt: true`.
-
-Questi flag non vanno azzerati in massa: prima bisogna distinguere fra vecchio metadata,
-pagina volutamente riassuntiva e contenuto effettivamente incompleto.
+Il preflight e l'audit automatico li controllano. Nell'ultima build verificata risultano **zero** pagine `to_migrate`, **zero** `prototypeExcerpt: true` e **zero** descrizioni sospette di prototipo.
 
 ### P2-02 — Formattazione ForumFree/BBCode visibile
-**Stato: RISOLTO NEL SORGENTE; NUOVO RENDER DA VERIFICARE**
+**Stato: PULIZIA ESTESA — verifica automatica in corso**
 
 Nel render precedente 17 pagine mostravano letteralmente token come
 `[QUOTE]`, `[CODE]`, `[URL]`, `[/color]` o sequenze `****testo****`.
@@ -209,7 +204,7 @@ Fra i casi più grandi:
 Non vanno semplicemente “accorciate”: devono essere scomposte mantenendo una sola fonte canonica per ogni regola.
 
 ### P2-04 — Documentazione tecnica obsoleta
-**Stato: APERTO**
+**Stato: RISOLTO NEL PRIMO LOTTO DI AUDIT**
 
 `MIGRATION_STATUS.md`, `PROTOTYPE_STATUS.md`, `SOURCES_USED.md` e `VALIDATION_REPORT.md`
 contengono affermazioni non più coerenti con quanto emerso nell'audit o con lo stato tecnico attuale.
@@ -270,3 +265,17 @@ Il preflight verifica o segnala ora:
 5. verifica Quick Facts ↔ corpo pagina;
 6. verifica relazioni e backlink;
 7. solo dopo: nuova architettura dell'informazione e UX.
+
+
+## Aggiornamento 22 settembre 2026
+
+Dopo i lotti di correzione del 21 settembre, l'ultima pipeline completamente verificata (`0fd87b7e`) riportava:
+
+- **1616 file di contenuto / 1616 UUID univoci**;
+- **1631 route note**;
+- zero `to_migrate`;
+- zero `prototypeExcerpt: true`;
+- zero linguaggio di migrazione provvisoria;
+- build e deploy GitHub Pages riusciti.
+
+Il 22 settembre è stata inoltre avviata una seconda pulizia delle sequenze di enfasi legacy `****` nelle pagine ancora segnalate dall'audit. Le regole e i valori numerici non sono stati modificati.
