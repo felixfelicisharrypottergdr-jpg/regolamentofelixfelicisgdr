@@ -20,7 +20,9 @@ migration:
       section: "Lo Staff di Felix Felicis GdR"
 ---
 
-Lulu Sparks
+![Lulu Sparks — L'Admin Distruttrice](https://i.postimg.cc/yxnsmVmP/Staff_Lulu.png)
+
+**Lulu Sparks**
 
 Appare anche sotto forma di:
 Celine Baxter • Coral Allen
@@ -33,7 +35,9 @@ Si occupa dell'ideazione e della gestione della Trama dell'Anno, degli elementi 
 "Io ti ho fatto e io ti distruggo": fonda il gioco, crea grafiche, storie, regolamenti. Poi, per qualche sconosciuta ragione, distrugge tutto con un click. Cronache di più storie vere.
 Ma in fondo, le si vuole bene lo stesso. O forse no.
 
-Odette Montclair
+![Odette Montclair — L'Admin GPT](https://i.postimg.cc/mD4qYnhq/odette.png)
+
+**Odette Montclair**
 
 Appare anche sotto forma di:
 Eunomia Atwood • Gaspard Gauthier • Wulfric Lagamski • Estelle Ellis • Zuleika Harrow • Kissa Yakubu
@@ -45,7 +49,9 @@ Si occupa degli aspetti tecnici come il codice, i fogli interattivi e la matemat
 Si vede poco in giro, fa cose in background. Su richiesta. A volte. Spesso fa il frontman per gli annunci o se c'è da spiegare qualcosa di contorto o scomodo (non è d'aiuto).
 Sembra un admin inutile, ma i suoi codici lo sono di più.
 
-Elara Travers
+![Elara Travers — L'Admin By Chat](https://i.postimg.cc/wjChS3yf/elara2.png)
+
+**Elara Travers**
 
 Appare anche sotto forma di:
 Noah Fisher • Everard Travers
@@ -57,7 +63,9 @@ Si occupa delle richieste al Narratore, degli eventi derivati dalla Trama dell'A
 Il suo CV recita "15 anni di esperienza nei play by chat". Per questo ruola e mastera con la stessa velocità.
 Ha cominciato che non conosceva metà Regolamento, ha finito per riscriverlo praticamente tutto.
 
-Gideon G. Greengrass
+![Gideon G. Greengrass — L'Admin Organizer](https://i.postimg.cc/cCT0RsRT/Staff_Gideon.png)
+
+**Gideon G. Greengrass**
 
 Appare anche sotto forma di:
 Oliver Montgomery-Laurent • Raissa Romanova • Bellamy O. Marvey • Dorian Hawthorne
@@ -92,53 +100,19 @@ Non a caso, il principio degli Staff Token è analogo a quello dei Felix Token, 
 Di seguito, la tabella riassuntiva dei principali compiti misurabili e del numero di Staff Token associato a ciascuno di essi.
 Dove non è diversamente specificato, il numero di Staff Token si ottiene per 1 post, 1 scheda o in generale 1 lavoro del relativo compito. Più post, più schede o più lavori di un certo compito danno ciascuno la quantità di Staff Token indicata.
 
-**Mansione svolta**
-
-**n° Staff Token**
-
-Richiesta al Narratore generica
-
-1
-
-Richiesta al Narratore spunto di trama, mietitura
-
-2
-
-Quidditch
-
-2
-
-Quest (principalmente narrativa), ambient, evento
-
-3
-
-Quest (esiti di molte azioni)
-
-6
-
-Accredito di Camere Blindate (ogni 10)
-
-1
-
-Accredito di Liste della Spesa (ogni 3)
-
-2
-
-Richiesta allo Staff
-
-1
-
-Annuncio dello Staff
-
-2
-
-Burocrazia generale (approvazione schede, smistamento, prestavolto, congelamento/scongelamento) (ogni 3)
-
-1
-
-Appello estivo (nuovi piani di studio, modifiche) (ogni 3 PG)
-
-2
+| Mansione svolta | n° Staff Token |
+| --- | ---: |
+| Richiesta al Narratore generica | 1 |
+| Richiesta al Narratore spunto di trama, mietitura | 2 |
+| Quidditch | 2 |
+| Quest (principalmente narrativa), ambient, evento | 3 |
+| Quest (esiti di molte azioni) | 6 |
+| Accredito di Camere Blindate (ogni 10) | 1 |
+| Accredito di Liste della Spesa (ogni 3) | 2 |
+| Richiesta allo Staff | 1 |
+| Annuncio dello Staff | 2 |
+| Burocrazia generale (approvazione schede, smistamento, prestavolto, congelamento/scongelamento) (ogni 3) | 1 |
+| Appello estivo (nuovi piani di studio, modifiche) (ogni 3 PG) | 2 |
 
 > **Esempio.**
 > Uno Staffer scrive 3 post per una richiesta al Narratore che riguarda uno spunto di trama. Ciascuno dei 3 post, secondo la tabella, vale 2 Staff Token. In totale lo Staffer ottiene 3x2=6 Staff Token. Ognuno di questi può essere consumato in un post di un suo PG per ottenere +1 Punto Post rispetto al normale punteggio, per un totale di 6 post.
