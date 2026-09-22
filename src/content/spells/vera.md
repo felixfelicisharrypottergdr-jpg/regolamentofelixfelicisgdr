@@ -39,7 +39,7 @@ Animali trasformati in calici di vetro e poi rotti vengono de-trasfigurati in un
 vita che necessita di cure entro 10 post di chiunque sia presente nella role prima di
 morire.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -61,3 +61,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 4 bersagli per 4 post dell'evocatore
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 - 100%: max 5 bersagli per 5 post dell'evocatore
+
+</details>

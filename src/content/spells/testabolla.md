@@ -35,10 +35,10 @@ che dipende dall'abilità del mago o della strega che la evoca.
 
 > **Nota.**
 >
-• La bolla scoppia prima del tempo se il PG che la sta usando subisce un danno fisico (non
+- La bolla scoppia prima del tempo se il PG che la sta usando subisce un danno fisico (non
 mentale, illusioni ecc.) che intacca il 20%+ della sua Salute.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -53,3 +53,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 post dell'evocatore
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 - 100%: max 6 post dell'evocatore
+
+</details>

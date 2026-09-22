@@ -35,12 +35,12 @@ verdi.
 
 > **Nota.**
 >
-• Soltanto PG Adulti con una somma di 30 fra Potenza e Volontà possono spaventare e
+- Soltanto PG Adulti con una somma di 30 fra Potenza e Volontà possono spaventare e
 allontanare i Poltergeist senza ricorrere alla magia (al max uno per post).
-• Incantesimi utilizzati contro un Poltergeist hanno effetto solo se la sua Forza supera la
+- Incantesimi utilizzati contro un Poltergeist hanno effetto solo se la sua Forza supera la
 Resistenza del bersaglio.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -55,3 +55,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 - 100%: max 6
+
+</details>

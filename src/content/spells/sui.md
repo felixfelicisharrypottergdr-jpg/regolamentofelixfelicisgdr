@@ -31,8 +31,10 @@ Incanta il bersaglio affinché si autodistrugga dopo essere arrivato
 nelle mani del destinatario. Per evocarlo è necessario pronunciare il nome del destinatario
 subito dopo la formula magica; utile per creare messaggi autodistruttivi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

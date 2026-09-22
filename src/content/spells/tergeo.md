@@ -28,7 +28,7 @@ migration:
 Evoca un flusso di acqua e sapone che pulisce all'istante qualsiasi
 macchia e scia di sporco da qualsiasi superficie senza lasciare tracce.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -42,3 +42,5 @@ Bundinum scacciato contemporaneamente, diverso in base alla Potenza dell'Evocato
 **6-10:** 1+1d2 Bundinum
 **11-15:** 3 Bundinum
 **16-20:** 3+1d2 Bundinum
+
+</details>

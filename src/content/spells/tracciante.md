@@ -38,17 +38,17 @@ maledizioni, energie malefiche e tracce di rituali oscuri.
 
 > **Bonus.**
 >
-• PG con **Sapienza Arcaica 25** possono utilizzare i tre aspetti della Tracciatura in
+- PG con **Sapienza Arcaica 25** possono utilizzare i tre aspetti della Tracciatura in
 un'unica azione.
 
 > **Nota.**
 >
-• Non possedere questa Conoscenza **non preclude** l'utilizzo dei Sensi Magici e della
+- Non possedere questa Conoscenza **non preclude** l'utilizzo dei Sensi Magici e della
 Tracciatura, come spiegato nella Guida alla Tracciatura. Possederla, invece, consente al PG di ottenere ulteriori possibilità bonus.
-• L'utilizzo di Percezione Intuitiva, Linguaggio Magico o Linguaggio Oscuro richiedono il
+- L'utilizzo di Percezione Intuitiva, Linguaggio Magico o Linguaggio Oscuro richiedono il
 costo di un'Azione ciascuna.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -113,3 +113,5 @@ Se il Livello di Tracciante posseduto è...
 **Lv 3:** +3 extra alle possibilità già ottenute
 **Lv 4:** +4 extra alle possibilità già ottenute
 **Lv 5:** +5 extra alle possibilità già ottenute
+
+</details>

@@ -35,17 +35,17 @@ effetto negativo.
 
 > **Bonus.**
 >
-• PG con **Sapienza Arcaica 25** non subiscono alcun malus dall'uso di questa
+- PG con **Sapienza Arcaica 25** non subiscono alcun malus dall'uso di questa
 Conoscenza anche se la loro esecuzione non riesce al 100%.
 
 > **Nota.**
 >
-• Non possedere questa Conoscenza **non preclude l'utilizzo** dei Rituali di
+- Non possedere questa Conoscenza **non preclude l'utilizzo** dei Rituali di
 Spezzamento, come spiegato nella Guida alla Tracciatura. Possederla, invece, consente al PG di ottenere ulteriori bonus.
-• I Rituali da praticare per lo Spezzamento di *Scherno*, *Malocchio* e
+- I Rituali da praticare per lo Spezzamento di *Scherno*, *Malocchio* e
 *Piaga* sono descritti nella Guida alla Tracciatura.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** a seconda del rito
 
@@ -100,3 +100,5 @@ Se il Livello di Spezzaincantesimi posseduto è...
 **Lv 3:** -3 extra alla Salute già scontata
 **Lv 4:** -4 extra alla Salute già scontata
 **Lv 5:** -5 extra alla Salute già scontata
+
+</details>

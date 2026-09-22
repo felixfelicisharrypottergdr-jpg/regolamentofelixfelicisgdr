@@ -34,8 +34,10 @@ magica, è possibile amplificare la voce del bersaglio. E' possibile annullare g
 questo incantesimo utilizzando il controincantesimo
 [Quietus](/manuali/incantesimi/quietus/).
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè non viene tolta la bacchetta dalla gola o annullato con Quietus
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

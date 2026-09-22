@@ -33,21 +33,21 @@ stordirlo.
 
 > **Bonus.**
 >
-• PG con **Sapienza Elementale 25** possono controllare le folate di vento senza
+- PG con **Sapienza Elementale 25** possono controllare le folate di vento senza
 bacchetta ma con l'utilizzo dell'altra mano: pertanto possono evocare altri incantesimi
 contemporaneamente al Ventus Maxima.
 
 > **Nota.**
 >
-• Uno o più edifici colpiti da questo incantesimo si distruggono nel giro di 10 post di chiunque
+- Uno o più edifici colpiti da questo incantesimo si distruggono nel giro di 10 post di chiunque
 nella role se le folate non vengono fermate prima;
-• Non è possibile utilizzare un altro incantesimo contemporaneamente e finchè si utilizza
+- Non è possibile utilizzare un altro incantesimo contemporaneamente e finchè si utilizza
 *Ventus Maxima*;
-• *Ventus Maxima* può funzionare anche come scudo e riesce a schermare incantesimi
+- *Ventus Maxima* può funzionare anche come scudo e riesce a schermare incantesimi
 avversari ed elementi fisici soltanto se le folate di vento vengono generate a protezione di
 qualcuno/qualcosa ed hanno più Forza dell'incantesimo combattuto.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè il PG mantiene il controllo
 
@@ -67,3 +67,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli
 - 66%: max 4 bersagli
 - 33%: max 3 bersagli
+
+</details>

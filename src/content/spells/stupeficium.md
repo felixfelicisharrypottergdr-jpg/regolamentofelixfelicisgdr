@@ -36,7 +36,7 @@ utilizzato.
 E' comunemente chiamato anche "Schiantesimo".
 Il PG che si risveglia da uno schiantesimo rimane intontito e stordito per un po' di tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -73,3 +73,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 6 post del bersaglio
+
+</details>
