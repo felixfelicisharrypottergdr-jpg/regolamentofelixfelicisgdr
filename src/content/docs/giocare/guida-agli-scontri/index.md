@@ -18,20 +18,7 @@ migration:
 
 # Guida agli scontri
 
-**INDICE**
-
-• Cosa si intende per scontro
-
-• Regole pratiche degli scontri
-
-• La turnazione negli scontri
-
-• La Destrezza negli scontri
-
-• La Forza delle Conoscenze negli scontri
-
-○ Forza reale delle Conoscenze per tutti
-
+<a id="scontro"></a>
 ## Cosa si intende per scontro
 Nell'immaginario comune, la parola "scontro" rimanda all'idea di un duello o comunque una battaglia tra due o più PG, PNG, Creature, eccetera. In Felix Felicis GdR si considera invece scontro qualsiasi situazione nella quale uno o più PG affrontano un avversario o un pericolo attraverso azioni contrapposte e potenzialmente dannose, rendendo necessario stabilire l’ordine, la riuscita e gli effetti delle azioni.
 Possono quindi rientrare negli scontri i duelli, le battaglie, gli attacchi fisici o magici, le aggressioni da parte di Creature, gli inseguimenti e le altre situazioni nelle quali attacco, difesa, movimento e uso delle risorse devono essere organizzati attraverso una turnazione.
