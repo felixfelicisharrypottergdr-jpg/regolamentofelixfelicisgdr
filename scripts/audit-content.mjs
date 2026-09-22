@@ -2,17 +2,23 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
 const ROOT = process.cwd();
-const DOCS_ROOT = path.join(ROOT, 'src', 'content', 'docs');
+const CONTENT_ROOT = path.join(ROOT, 'src', 'content');
+const DOCS_ROOT = path.join(CONTENT_ROOT, 'docs');
+const PAGES_ROOT = path.join(ROOT, 'src', 'pages');
 
 async function walk(dir) {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries) {
-    const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) files.push(...await walk(full));
-    else if (/\.(md|mdx)$/i.test(entry.name)) files.push(full);
+  try {
+    const entries = await fs.readdir(dir, { withFileTypes: true });
+    const files = [];
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) files.push(...await walk(full));
+      else files.push(full);
+    }
+    return files;
+  } catch {
+    return [];
   }
-  return files;
 }
 
 function split(text) {
@@ -25,8 +31,105 @@ function rel(file) {
   return path.relative(ROOT, file).replaceAll(path.sep, '/');
 }
 
-const files = await walk(DOCS_ROOT);
+function normalizedRoute(value) {
+  if (!value) return '/';
+  const clean = value.split('#')[0].split('?')[0] || '/';
+  const prefixed = clean.startsWith('/') ? clean : `/${clean}`;
+  return prefixed === '/' ? '/' : `${prefixed.replace(/\/+$/, '')}/`;
+}
+
+function docRoute(file) {
+  let id = path.relative(DOCS_ROOT, file).replaceAll(path.sep, '/').replace(/\.mdx?$/i, '');
+  if (id === 'index') return '/';
+  id = id.replace(/\/index$/, '');
+  return normalizedRoute(id);
+}
+
+function pageRoute(file) {
+  let id = path.relative(PAGES_ROOT, file).replaceAll(path.sep, '/').replace(/\.astro$/i, '');
+  if (id.includes('[')) return null;
+  if (id === 'index') return '/';
+  id = id.replace(/\/index$/, '');
+  return normalizedRoute(id);
+}
+
+function resolveInternalHref(href, currentRoute) {
+  const raw = href.trim();
+  if (!raw || /^(?:https?:|mailto:|tel:|javascript:|#|\/\/)/i.test(raw)) return null;
+  try {
+    return normalizedRoute(new URL(raw, `https://felix.invalid${currentRoute}`).pathname);
+  } catch {
+    return null;
+  }
+}
+
+function frontmatterValue(fm, key) {
+  return fm.match(new RegExp(`^\\s*${key}:\\s*["']?([^\\n"']+)["']?\\s*$`, 'm'))?.[1]?.trim();
+}
+
+const docFiles = (await walk(DOCS_ROOT)).filter((file) => /\.(md|mdx)$/i.test(file));
+const pageFiles = (await walk(PAGES_ROOT)).filter((file) => /\.astro$/i.test(file));
+const allContentFiles = (await walk(CONTENT_ROOT)).filter((file) => /\.(md|mdx)$/i.test(file));
+
+const structuredBases = {
+  creatures: '/manuali/magizoologia/bestiario/',
+  diseases: '/manuali/medimagia/malattie/',
+  ingredients: '/manuali/ingredienti/',
+  potions: '/manuali/pozionistica/pozionario/',
+  spells: '/manuali/incantesimi/',
+  plants: '/manuali/erbologia/erbario/',
+  races: '/il-personaggio/razze/',
+  objects: '/mondo-magico/commercio/oggetti/',
+  missions: '/il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/',
+  'adult-missions': '/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/',
+  masteries: '/conoscenze-e-sapienze/maestrie/',
+  'divination-techniques': '/manuali/divinazione/tecniche/',
+  'school-knowledges': '/manuali/conoscenze-scolastiche/conoscenze/',
+  'legal-documents': '/mondo-magico/leggi/documenti/',
+  'legal-articles': '/mondo-magico/leggi/articoli/',
+};
+
+const validRoutes = new Set(['/']);
+const routesToFiles = new Map();
+
+for (const file of docFiles) {
+  const route = docRoute(file);
+  validRoutes.add(route);
+  const files = routesToFiles.get(route) ?? [];
+  files.push(rel(file));
+  routesToFiles.set(route, files);
+}
+
+for (const file of pageFiles) {
+  const route = pageRoute(file);
+  if (route) validRoutes.add(route);
+}
+
+for (const [collection, base] of Object.entries(structuredBases)) {
+  validRoutes.add(normalizedRoute(base));
+  const dir = path.join(CONTENT_ROOT, collection);
+  for (const file of (await walk(dir)).filter((item) => /\.(md|mdx)$/i.test(item))) {
+    const text = await fs.readFile(file, 'utf8');
+    const { fm } = split(text);
+    const slug = frontmatterValue(fm, 'slug') || path.basename(file).replace(/\.mdx?$/i, '');
+    validRoutes.add(normalizedRoute(`${base}${slug}/`));
+  }
+}
+
+// Legal hub is a hand-authored page backed by two structured collections.
+validRoutes.add('/mondo-magico/leggi/');
+
 const report = {
+  summary: {
+    docs: docFiles.length,
+    contentFiles: allContentFiles.length,
+    knownRoutes: validRoutes.size,
+  },
+  structuralErrors: [],
+  duplicateRoutes: [],
+  brokenInternalLinks: [],
+  rootRelativeInternalLinks: [],
+  externalForumLinks: [],
   migrationStatus: {},
   toMigrate: [],
   prototypeExcerpt: [],
@@ -40,15 +143,23 @@ const report = {
   joinedWordCandidates: [],
 };
 
+for (const [route, files] of routesToFiles.entries()) {
+  if (files.length > 1) {
+    report.duplicateRoutes.push({ route, files });
+    report.structuralErrors.push(`Route documentale duplicata ${route}: ${files.join(', ')}`);
+  }
+}
+
 const titles = new Map();
-
-const staleRe = /\b(ospiterà integralmente|raccoglierà integralmente|contenuto completo verrà|versione integrale manterrà|migrazione comprenderà|durante la migrazione|questa pagina è inclusa soprattutto|struttura prevista|nel sito definitivo)\b/i;
+const staleRe = /\b(ospiterà integralmente|raccoglierà integralmente|contenuto completo verrà|versione integrale manterrà|migrazione comprenderà|durante la migrazione|questa pagina è inclusa soprattutto|struttura prevista|nel sito definitivo|in questo prototipo)\b/i;
 const legacyRe = /(\[\/?(?:color|quote|url|font|size|center|left|right)(?:=[^\]]*)?\]|\*\*\*\*)/i;
+const markdownLinkRe = /!?\[[^\]]*\]\(([^)]+)\)/g;
 
-for (const file of files) {
+for (const file of docFiles) {
   const text = await fs.readFile(file, 'utf8');
   const { fm, body } = split(text);
   const filePath = rel(file);
+  const currentRoute = docRoute(file);
   const status = fm.match(/^\s*status:\s*([^\n#]+)/m)?.[1]?.trim().replace(/["']/g, '') ?? '(none)';
   report.migrationStatus[status] = (report.migrationStatus[status] ?? 0) + 1;
 
@@ -57,8 +168,26 @@ for (const file of files) {
   if (staleRe.test(body)) report.staleMigrationLanguage.push(filePath);
   if (legacyRe.test(body)) report.legacyMarkup.push(filePath);
 
+  for (const match of body.matchAll(markdownLinkRe)) {
+    let href = match[1].trim();
+    // Strip optional Markdown title: (url "title")
+    href = href.replace(/\s+["'][^"']*["']\s*$/, '');
+    if (/^https?:\/\//i.test(href)) {
+      if (/forumfree\.it/i.test(href)) report.externalForumLinks.push({ file: filePath, href });
+      continue;
+    }
+    const target = resolveInternalHref(href, currentRoute);
+    if (!target) continue;
+    if (href.startsWith('/')) report.rootRelativeInternalLinks.push({ file: filePath, href, target });
+    if (!validRoutes.has(target)) {
+      const item = { file: filePath, href, target };
+      report.brokenInternalLinks.push(item);
+      report.structuralErrors.push(`Link interno inesistente in ${filePath}: ${href} -> ${target}`);
+    }
+  }
+
   const bodyH1 = body.match(/^#\s+.+$/gm) ?? [];
-  if (bodyH1.length > 1) report.multipleBodyH1.push({ file: filePath, count: bodyH1.length });
+  if (bodyH1.length > 1) report.multipleBodyH1.push({ file: filePath, count: bodyH1.length, headings: bodyH1.slice(0, 8) });
 
   if (body.length >= 30000) report.monoliths.push({ file: filePath, chars: body.length });
 
@@ -89,7 +218,7 @@ for (const file of files) {
     }
   }
 
-  const knownJoined = new Set(['FantaHogwarts', 'FantaWiz', 'ForumFree', 'Pagefind', 'GitHub']);
+  const knownJoined = new Set(['FantaHogwarts', 'FantaWiz', 'ForumFree', 'Pagefind', 'GitHub', 'ONGame', 'OFFGame']);
   const candidates = [...body.matchAll(/\b[A-Za-zÀ-ÖØ-öø-ÿ]*[a-zà-öø-ÿ][A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ]+\b/g)]
     .map((match) => match[0])
     .filter((word) => !knownJoined.has(word));
@@ -101,11 +230,27 @@ for (const entries of titles.values()) {
   if (entries.length > 1) report.duplicateTitles.push({ title: entries[0].title, files: entries.map((item) => item.file) });
 }
 
-const byFile = (a, b) => (typeof a === 'string' ? a : a.file).localeCompare(typeof b === 'string' ? b : b.file, 'it');
-for (const key of ['toMigrate','prototypeExcerpt','staleMigrationLanguage','legacyMarkup','monoliths','multipleBodyH1','suspiciousDescriptions','headingJumps','duplicateTitles','joinedWordCandidates']) {
+const byFile = (a, b) => {
+  const left = typeof a === 'string' ? a : (a.file ?? a.route ?? '');
+  const right = typeof b === 'string' ? b : (b.file ?? b.route ?? '');
+  return left.localeCompare(right, 'it');
+};
+for (const key of [
+  'duplicateRoutes','brokenInternalLinks','rootRelativeInternalLinks','externalForumLinks',
+  'toMigrate','prototypeExcerpt','staleMigrationLanguage','legacyMarkup','monoliths',
+  'multipleBodyH1','suspiciousDescriptions','headingJumps','duplicateTitles','joinedWordCandidates',
+]) {
   report[key].sort(byFile);
 }
 
-console.log('FELIX editorial audit');
+console.log('FELIX functional + editorial audit');
 console.log(JSON.stringify(report, null, 2));
-console.log('\nNota: questo audit segnala debito editoriale; non modifica né riconcilia automaticamente le regole.');
+console.log('\nNota: le anomalie editoriali vengono segnalate ma non riconciliate automaticamente.');
+
+if (report.structuralErrors.length) {
+  console.error(`\nAudit funzionale fallito: ${report.structuralErrors.length} errore/i strutturale/i.`);
+  report.structuralErrors.forEach((item) => console.error(`- ${item}`));
+  process.exit(1);
+}
+
+console.log('\nAudit funzionale: nessun errore strutturale rilevato.');

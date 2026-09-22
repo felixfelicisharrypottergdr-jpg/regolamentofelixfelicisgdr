@@ -18,7 +18,7 @@ const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boo
 const pageHeadings = headings;
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description }} headings={pageHeadings}>
-  <SearchMetadata type="Razza" macroarea="Il Personaggio" aliases={entry.data.searchAliases} filters={{ applicability: ['PG Studente', 'PG Adulto'] }} />
+  <SearchMetadata type="Razza" macroarea="Il Personaggio" aliases={entry.data.searchAliases} filters={{ applicability: entry.data.applicability.map((item) => item === 'student' ? 'PG Studente' : 'PG Adulto') }} />
   <article class="felix-entry" data-pagefind-body>
     <FelixEntityHeader
       description={entry.data.description}
