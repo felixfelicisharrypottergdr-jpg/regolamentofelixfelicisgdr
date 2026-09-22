@@ -69,4 +69,4 @@ I Parametri Fisici possono aumentare permanentemente:
 - convertendo **Punti Post** secondo le regole previste;
 - ottenendoli come premio per speciali **Eventi o Contest** indetti dallo Staff.
 
-Le regole sul funzionamento dinamico di Destrezza, Fatica, Resistenza e Salute restano nella sezione generale [Parametri Fisici](/il-personaggio/parametri/parametri-fisici/).
+Le regole sul funzionamento dinamico di Destrezza, Fatica, Resistenza e Salute restano nella sezione generale [Parametri Fisici](../../../parametri/parametri-fisici/).

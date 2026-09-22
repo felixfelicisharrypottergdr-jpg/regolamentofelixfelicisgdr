@@ -45,14 +45,14 @@ Ci sono diversi modi per giocare su Felix Felicis GdR. Ciascuno di questi preved
 
 ## Role
 
-Le [Free Role](/giocare/le-role/free-role/) sono autogestite dai Player; una [Role Masterata](/giocare/le-role/role-masterate/) nasce invece quando diventa necessario l'intervento del Narratore.
+Le [Free Role](../le-role/free-role/) sono autogestite dai Player; una [Role Masterata](../le-role/role-masterate/) nasce invece quando diventa necessario l'intervento del Narratore.
 
 ## Eventi e Trama
 
-Gli [Eventi](/giocare/modalita-di-gioco/eventi/) sono gestiti dal Narratore e possono essere **Ambient** o **Quest**. La [Trama](/giocare/modalita-di-gioco/trama/) collega Eventi e giocate in un filo narrativo più ampio, compresa la Trama dell'Anno.
+Gli [Eventi](eventi/) sono gestiti dal Narratore e possono essere **Ambient** o **Quest**. La [Trama](trama/) collega Eventi e giocate in un filo narrativo più ampio, compresa la Trama dell'Anno.
 
 ## Partecipazione all'Ambientazione
 
-[Sondaggi e Indizi](/giocare/modalita-di-gioco/sondaggi-e-indizi/) permettono ai PG di incidere sull'opinione pubblica o raccogliere anticipazioni legate a Quest future.
+[Sondaggi e Indizi](sondaggi-e-indizi/) permettono ai PG di incidere sull'opinione pubblica o raccogliere anticipazioni legate a Quest future.
 
-La [Classificazione degli Eventi](/giocare/modalita-di-gioco/classificazione-eventi/) comunica invece ai Player, esclusivamente OFFGame, il livello di pericolosità previsto per l'ambientazione di un Evento.
+La [Classificazione degli Eventi](classificazione-eventi/) comunica invece ai Player, esclusivamente OFFGame, il livello di pericolosità previsto per l'ambientazione di un Evento.

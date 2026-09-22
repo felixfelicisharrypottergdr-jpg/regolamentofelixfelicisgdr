@@ -112,7 +112,7 @@ I Punti Virtuosi e Sinistri vanno conquistati — o persi — giocando. Alla cre
 
 Rappresentano la tendenza a compiere azioni Virtuose o Sinistre, non una misura assoluta della bontà o della cattiveria quotidiana del personaggio. Sono requisiti per alcune Missioni del FantaWiz e possono consentire accesso a opportunità, club, informazioni, indizi o condizioni economiche particolari.
 
-Entrambi possono arrivare fino a **30**. Superata la Soglia di Neutralità, il loro sviluppo è vincolato all'Allineamento del PG secondo le regole generali dei [Parametri Sociali](/il-personaggio/parametri/parametri-sociali/).
+Entrambi possono arrivare fino a **30**. Superata la Soglia di Neutralità, il loro sviluppo è vincolato all'Allineamento del PG secondo le regole generali dei [Parametri Sociali](../../../parametri/parametri-sociali/).
 
 ## Crescita e diminuzione
 
@@ -125,4 +125,4 @@ I Parametri Sociali sono più dinamici dei Parametri Magici e Fisici:
 - con **10 post o più**, i Parametri Sociali restano immutati, escluso il Prestigio;
 - con almeno **4 post al mese**, il PG guadagna **+1 Prestigio** finché il Prestigio è inferiore a **71**. Da 71 in poi può aumentare soltanto per meriti ONGame.
 
-Le conseguenze professionali del Prestigio che sale o scende sono trattate nella sezione [Lavorare nel Mondo Magico](/il-personaggio/pg-adulto/lavorare/).
+Le conseguenze professionali del Prestigio che sale o scende sono trattate nella sezione [Lavorare nel Mondo Magico](../../lavorare/).

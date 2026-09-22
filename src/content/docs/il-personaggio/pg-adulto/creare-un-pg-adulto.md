@@ -72,4 +72,4 @@ Il Generatore di Scheda Valori — PG Adulti richiede obbligatoriamente **Babban
 
 La distribuzione è trattata nelle pagine dedicate a [Parametri Magici](./parametri-magici/), [Parametri Fisici](./parametri-fisici/) e [Parametri Sociali](./parametri-sociali/).
 
-Per le **Sapienze**, scegli la Sapienza affine al PG, ossia quella di cui ottenere gratuitamente i Livelli I di tutte le Conoscenze Avanzate associate. È possibile ottenere da subito altre Sapienze e Livelli tramite [Crescita a Debito](/conoscenze-e-sapienze/sapienze/crescita-a-debito/), rispettandone le condizioni e l'età anagrafica del PG.
+Per le **Sapienze**, scegli la Sapienza affine al PG, ossia quella di cui ottenere gratuitamente i Livelli I di tutte le Conoscenze Avanzate associate. È possibile ottenere da subito altre Sapienze e Livelli tramite [Crescita a Debito](../../../conoscenze-e-sapienze/sapienze/crescita-a-debito/), rispettandone le condizioni e l'età anagrafica del PG.

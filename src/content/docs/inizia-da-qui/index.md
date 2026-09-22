@@ -67,10 +67,10 @@ Un **PG Studente** vive soprattutto a Hogwarts. Frequenta le lezioni, sviluppa i
 
 Il percorso consigliato è:
 
-1. scopri [come si gioca un PG Studente](/il-personaggio/pg-studente/);
-2. leggi [come creare un PG Studente](/il-personaggio/pg-studente/creare-un-pg-studente/);
-3. consulta i [Parametri](/il-personaggio/parametri/) per capire cosa descrivono;
-4. guarda [Studiare ad Hogwarts](/il-personaggio/pg-studente/studiare-ad-hogwarts/) e le [Modalità di gioco](/il-personaggio/pg-studente/modalita-di-gioco/) per capire quali possibilità avrai una volta entratə a scuola;
+1. scopri [come si gioca un PG Studente](../il-personaggio/pg-studente/);
+2. leggi [come creare un PG Studente](../il-personaggio/pg-studente/creare-un-pg-studente/);
+3. consulta i [Parametri](../il-personaggio/parametri/) per capire cosa descrivono;
+4. guarda [Studiare ad Hogwarts](../il-personaggio/pg-studente/studiare-ad-hogwarts/) e le [Modalità di gioco](../il-personaggio/pg-studente/modalita-di-gioco/) per capire quali possibilità avrai una volta entratə a scuola;
 5. sul forum, procedi con lo [Smistamento](https://felixfelicisharrypottergdr.forumfree.it/?t=79197665) e con la creazione della Scheda.
 
 Non è necessario conoscere già tutte le Conoscenze scolastiche o tutti i sistemi di Hogwarts: potrai consultarli quando entreranno davvero in gioco.
@@ -81,11 +81,11 @@ Un **PG Adulto** vive nel Mondo Magico al di fuori della scuola. Può lavorare, 
 
 Il percorso consigliato è:
 
-1. scopri [come si gioca un PG Adulto](/il-personaggio/pg-adulto/);
-2. leggi [come creare un PG Adulto](/il-personaggio/pg-adulto/creare-un-pg-adulto/);
-3. scegli la [Categoria Magica](/il-personaggio/pg-adulto/creare-un-pg-adulto/categorie-magiche/) e il [Mestiere](/il-personaggio/pg-adulto/lavorare/mestieri/);
-4. consulta [Parametri](/il-personaggio/parametri/), [Sapienze](/conoscenze-e-sapienze/sapienze/) e, se ti interessa partire con un PG già più sviluppato, [Crescita a Debito](/conoscenze-e-sapienze/sapienze/crescita-a-debito/);
-5. guarda le [Modalità di gioco dei PG Adulti](/il-personaggio/pg-adulto/modalita-di-gioco/) per capire che tipo di storie puoi costruire.
+1. scopri [come si gioca un PG Adulto](../il-personaggio/pg-adulto/);
+2. leggi [come creare un PG Adulto](../il-personaggio/pg-adulto/creare-un-pg-adulto/);
+3. scegli la [Categoria Magica](../il-personaggio/pg-adulto/creare-un-pg-adulto/categorie-magiche/) e il [Mestiere](../il-personaggio/pg-adulto/lavorare/mestieri/);
+4. consulta [Parametri](../il-personaggio/parametri/), [Sapienze](../conoscenze-e-sapienze/sapienze/) e, se ti interessa partire con un PG già più sviluppato, [Crescita a Debito](../conoscenze-e-sapienze/sapienze/crescita-a-debito/);
+5. guarda le [Modalità di gioco dei PG Adulti](../il-personaggio/pg-adulto/modalita-di-gioco/) per capire che tipo di storie puoi costruire.
 
 Anche qui non serve scegliere subito ogni possibile sviluppo futuro del Personaggio. Il PG può crescere e cambiare mentre giochi.
 

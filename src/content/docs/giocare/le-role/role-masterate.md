@@ -44,7 +44,7 @@ Questo accade quando uno dei PG coinvolti fa oppure incontra qualcosa che potreb
 
 Per esempio, se durante un duello di allenamento un PG decide all'improvviso di fare un attacco a sorpresa alle spalle dell'avversario per ferirlo, va richiesto l'intervento del Narratore affinché possa decretare l'esito dell'Azione in maniera oggettiva e consentire lo svolgimento di un gioco equo per tutti i PG partecipanti.
 
-Un altro caso è commettere un'infrazione del Regolamento Scolastico ad Hogwarts oppure un'[Azione Illegale](/giocare/azioni-illegali/) nel Mondo Magico all'interno di una Free Role: diventa necessario l'intervento del Narratore perché decreti la riuscita o il fallimento dell'Azione.
+Un altro caso è commettere un'infrazione del Regolamento Scolastico ad Hogwarts oppure un'[Azione Illegale](../../azioni-illegali/) nel Mondo Magico all'interno di una Free Role: diventa necessario l'intervento del Narratore perché decreti la riuscita o il fallimento dell'Azione.
 
 Nel momento in cui una role diventa Masterata, **il lancio dei dadi viene effettuato dal Narratore**. Il numero delle Azioni possibili per ogni PG a post rimane invariato rispetto alle Free Role, salvo diverse indicazioni del Narratore.
 

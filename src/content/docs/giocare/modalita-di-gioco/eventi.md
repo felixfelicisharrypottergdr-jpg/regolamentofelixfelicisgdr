@@ -62,7 +62,7 @@ Sono sempre gestite dal Narratore e si contraddistinguono per ritmo serrato e di
 
 I Player devono invece ruolare la situazione che si trovano davanti e agire come ritengono coerente per i propri PG, scrivendo post o mini-post dove richiesto. Possono trovarsi davanti a scelte morali, dilemmi con conseguenze sulla propria storia oppure situazioni che mettono a rischio la Salute e, in alcuni casi, la vita.
 
-Le Quest sono tendenzialmente gli Eventi più **pericolosi**. Il Narratore cerca di avvisare preventivamente i Player della pericolosità della giocata tramite la [Classificazione degli Eventi](/giocare/modalita-di-gioco/classificazione-eventi/), ma il comportamento dei PG può portare la situazione fuori dal rischio inizialmente previsto.
+Le Quest sono tendenzialmente gli Eventi più **pericolosi**. Il Narratore cerca di avvisare preventivamente i Player della pericolosità della giocata tramite la [Classificazione degli Eventi](../classificazione-eventi/), ma il comportamento dei PG può portare la situazione fuori dal rischio inizialmente previsto.
 
 Per esempio, in una Quest annunciata con bassa pericolosità, un PG che decidesse di avvicinarsi a un Drago tranquillo e gli schiacciasse la coda dovrebbe affrontare la reazione provocata dalla propria Azione, anche se questa va oltre la pericolosità dichiarata all'apertura.
 
