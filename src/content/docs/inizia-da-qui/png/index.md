@@ -2,7 +2,7 @@
 felixId: "c8c885fb-9039-4e9b-ad63-10c8ecd17fbe"
 title: "I Personaggi Non Giocanti"
 description: "Regole complete su PNG personali, PNG di FELIX FELICIS, PPNG, Hogwarts e interazioni."
-contentType: landing
+contentType: rule
 searchAliases:
   - "png"
   - "ppng"
