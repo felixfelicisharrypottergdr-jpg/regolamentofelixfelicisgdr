@@ -290,8 +290,6 @@ Il premio si riscatta facendo spam in almeno tre forum una volta a settimana.
 >
 Se esiste già un topic Spam per Felix Felicis GDR nel Forum scelto, basta postare "up" per riportarlo in alto nelle ultime discussioni. Attenzione: spesso i GDR che ricambiano lo spam (e non lo iniziano per primi) vengono raccolti in una sezione chiamata "Ricambio Spam".Se invece non esiste alcun topic, è necessario aprirlo con il titolo **Felix Felicis GDR**, incollando il seguente codice come corpo del post:
 
-</details>
-
 <details><summary><strong>Cliccare per il codice!</strong></summary>
 
 ```text
@@ -307,6 +305,10 @@ Curiosə?
 ```
 
 </details>
+
+</details>
+
+
 
 <details><summary><strong>Fai il Buon Samaritano</strong></summary>
 
