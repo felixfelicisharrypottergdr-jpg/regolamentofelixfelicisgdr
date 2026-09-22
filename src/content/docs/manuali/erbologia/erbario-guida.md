@@ -141,4 +141,4 @@ Artemisia (V)
 Asfodelo (V)
 Assenzio (V)
 
-[Apri l'Erbario completo →](/manuali/erbologia/erbario/)
+[Apri l'Erbario completo →](../erbario/)
