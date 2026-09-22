@@ -18,17 +18,13 @@ migration:
 
 # Conoscenze Extra
 
-**INDICE**
-
-• Cosa sono e come si usano
-• Elenco delle Conoscenze Extra
-
+<a id="cosasono"></a>
 ## Cosa sono e come si usano
 Le Conoscenze Extra (riconoscibili dal simbolo **+**) sono tutti quegli Incantesimi, Pozioni, Conoscenze, Creature o Piante eccetera di un livello già troppo avanzato per poter essere insegnate ad Hogwarts, la cui padronanza necessita un maggiore studio ed approfondimento. Sono Conoscenze di nicchia, prerogativa dei PG Adulti che possiedono la Sapienza affine e che sanno quindi eseguirle senza errori, ma possono comunque essere apprese, ottenute e conosciute da tutti gli altri PG Adulti e Studenti secondo le modalità spiegate di seguito.
-• I **PG Studenti** non le conoscono di default, ma possono apprenderle acquistandoleoppure imparandoledai PNG di Hogwarts o da altri PG - con qualche malus sull'efficacia. Acquistare una Conoscenza Extra, per un PG Studente, significa aver approfondito in autonomia la branca magica di suo interesse, al punto da apprendere conoscenze precluse ai suoi coetanei, per esempio acquistando manuali, facendo ricerche in biblioteca, discutendo di specifici argomenti - a meno che non si tratti di Conoscenze Oscure - con i docenti della scuola. Questi sono degli esempi di spunti che servono a giustificare l'acquisto della Conoscenza OFFGame.
+- I **PG Studenti** non le conoscono di default, ma possono apprenderle acquistandoleoppure imparandoledai PNG di Hogwarts o da altri PG - con qualche malus sull'efficacia. Acquistare una Conoscenza Extra, per un PG Studente, significa aver approfondito in autonomia la branca magica di suo interesse, al punto da apprendere conoscenze precluse ai suoi coetanei, per esempio acquistando manuali, facendo ricerche in biblioteca, discutendo di specifici argomenti - a meno che non si tratti di Conoscenze Oscure - con i docenti della scuola. Questi sono degli esempi di spunti che servono a giustificare l'acquisto della Conoscenza OFFGame.
 Proprio perché di livello superiore rispetto alle Conoscenze Scolastiche, anche le Conoscenze Extra posseggono un loro voto e vanno costantemente migliorate come le Conoscenze del Piano di Studi, per far sì che i PG Studenti possano padroneggiarle alla perfezione.
 Nel vedere o sentire parlare di una Conoscenza Extra non presente nella loro Scheda PG, possono dire di sapere di cosa si tratta - ma senza sapere come evocarla - se, lanciando 1d2, **pescano 1**.
-• I **PG Adulti** conoscono di default tutte le Conoscenza Extra affini alle Sapienze da loro possedute e sanno evocarle alla perfezione. PG Adulti senza Sapienza, invece, possono acquisire qualsiasi altra Conoscenza Extra acquistandola o imparandola da altri PG - con qualche malus di efficacia. Saranno ovviamente più efficaci nell'evocare le Conoscenze Extra affini alle loro Sapienze che non le altre. Esattamente come per i PG Studenti, anche per loro acquistare una Conoscenza Extra significa approfondire autonomamente la branca di interesse, studiando su manuali acquistati o libri presi in prestito o discutendo liberamente con esperti della materia.
+- I **PG Adulti** conoscono di default tutte le Conoscenza Extra affini alle Sapienze da loro possedute e sanno evocarle alla perfezione. PG Adulti senza Sapienza, invece, possono acquisire qualsiasi altra Conoscenza Extra acquistandola o imparandola da altri PG - con qualche malus di efficacia. Saranno ovviamente più efficaci nell'evocare le Conoscenze Extra affini alle loro Sapienze che non le altre. Esattamente come per i PG Studenti, anche per loro acquistare una Conoscenza Extra significa approfondire autonomamente la branca di interesse, studiando su manuali acquistati o libri presi in prestito o discutendo liberamente con esperti della materia.
 Le Conoscenze Extra sono 8 per ciascuna delle 12 Sapienze, più un gruppo di Pozioni Fatturanti. L'uso delle Conoscenze Extra può essere autoconclusivo nelle Free role solo e soltanto se utilizzato per dare colore alle proprie role, ovvero se non offrono alcun tipo di vantaggio materiale né rischiano di causare danni a cose o persone. Per qualsiasi altro utilizzo che non sia una semplice nota per arricchire il proprio post, va richiesto l'intervento del Narratore che provvederà a descrivere l'esito dell'utilizzo della Conoscenza.
 
 > **Nota.**
@@ -36,6 +32,7 @@ Le Conoscenze Extra sono 8 per ciascuna delle 12 Sapienze, più un gruppo di Poz
 Le Conoscenze Extra Oscure e le Pozioni Fatturanti, riconoscibili dal simbolo (+ ), sono sempre Conoscenze illegali, il cui utilizzo è vietato dalla Legge Magica.
 Inoltre, è vietato dalle Legge anche l'utilizzo di tutte quelle Conoscenze Pozionistiche Extra contrassegnate dal simbolo (+ ).
 
+<a id="elencoextra"></a>
 ## Elenco delle Conoscenze Extra
 
 **Conoscenze Extra Arcaiche**
@@ -84,7 +81,8 @@ Oxygeni +
 Sectis +
 Tocco Verde +
 
-## Piante M. Esotiche X, XX, XXX +
+<details><summary><strong>Piante M. Esotiche X, XX, XXX +</strong></summary>
+
 Bebop Caraibica
 Germogli Lamentosi
 Erbaschiuma
@@ -93,7 +91,10 @@ Menta Tibetana
 Orchidea Fantasma
 Prato Messicano
 
-## Piante M. Esotiche XXXX, XXXXX +
+</details>
+
+<details><summary><strong>Piante M. Esotiche XXXX, XXXXX +</strong></summary>
+
 Albero Carnivoro
 Albero Medusa
 Annientamento
@@ -104,7 +105,10 @@ Stupefiore
 
 **Conoscenze Extra Magizoologiche**
 
-## Creature M. Esotiche +
+</details>
+
+<details><summary><strong>Creature M. Esotiche +</strong></summary>
+
 Abarimon
 Alastridente
 Aoi Kaeru
@@ -159,7 +163,10 @@ Nihil Malus +
 Vaccinatore +
 Pronto Soccorso +
 
-## Incantatore +
+</details>
+
+<details><summary><strong>Incantatore +</strong></summary>
+
 
 Recido
 Shock
@@ -199,14 +206,20 @@ Manualità Tecnica +
 Memoria Tecnica +
 Sintesi Tecnica +
 
-## Veleni Comuni +
+</details>
+
+<details><summary><strong>Veleni Comuni +</strong></summary>
+
 Veleno Arsenicum
 Veleno di Semi di Luna
 Veleno di Mirtillo
 Veleno Erbefolli
 Veleno Tentacolare
 
-## Veleni Non Comuni +
+</details>
+
+<details><summary><strong>Veleni Non Comuni +</strong></summary>
+
 Veleno Cappello della Morte
 Veleno del Bacio Mortale
 Veleno del Diavolo
@@ -214,21 +227,30 @@ Veleno Nervino
 Veleno Noxius
 Veleno Radice Insanguinata
 
-## Mentali e Generiche +
+</details>
+
+<details><summary><strong>Mentali e Generiche +</strong></summary>
+
 Felix Felicis
 Furtivuserum
 Leposerum
 Veritaserum
 Pozione Polisucco
 
-## Sensoriali
+</details>
+
+<details><summary><strong>Sensoriali</strong></summary>
+
 Amortentia
 Cristalli di Cupido
 Distillato Angelico
 Pozione Allucinogena
 Sguardo della Notte
 
-## Curative e Rinvigorenti +
+</details>
+
+<details><summary><strong>Curative e Rinvigorenti +</strong></summary>
+
 Pasta per la rimozione dei lividi
 Pozione Scacciabrufoli
 OssoFast
@@ -258,7 +280,10 @@ Soluzione Acidosella
 Soluzione Espulsiva
 Shampoo AntiChiz
 
-## Vaccini +
+</details>
+
+<details><summary><strong>Vaccini +</strong></summary>
+
 AntiRadigordillo+
 GlowVax+
 Kappaccino+
@@ -317,3 +342,5 @@ Pozione Gonfiocchi +
 Pozione Starnutosa +
 Repellente per Lumache Carnivore +
 Soluzione Singhiozzante +
+
+</details>
