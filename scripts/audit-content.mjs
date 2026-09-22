@@ -145,12 +145,6 @@ const report = {
   numericConflictCandidates: [],
 };
 
-// Audit stale migration/prototype language also in hand-authored Astro pages.
-for (const file of pageFiles) {
-  const text = await fs.readFile(file, 'utf8');
-  if (staleRe.test(text)) report.staleMigrationLanguage.push(rel(file));
-}
-
 for (const [route, files] of routesToFiles.entries()) {
   if (files.length > 1) {
     report.duplicateRoutes.push({ route, files });
@@ -178,6 +172,13 @@ function addIndexed(map, key, item) {
 const staleRe = /\b(ospiterà integralmente|raccoglierà integralmente|contenuto completo verrà|versione integrale manterrà|migrazione comprenderà|durante la migrazione|questa pagina è inclusa soprattutto|struttura prevista|nel sito definitivo|in questo prototipo)\b/i;
 const legacyRe = /(\[\/?(?:color|quote|url|font|size|center|left|right)(?:=[^\]]*)?\]|\*\*\*\*)/i;
 const markdownLinkRe = /!?\[[^\]]*\]\(([^)]+)\)/g;
+
+// Audit stale migration/prototype language also in hand-authored Astro pages.
+for (const file of pageFiles) {
+  const text = await fs.readFile(file, 'utf8');
+  if (staleRe.test(text)) report.staleMigrationLanguage.push(rel(file));
+}
+
 
 for (const file of docFiles) {
   const text = await fs.readFile(file, 'utf8');
