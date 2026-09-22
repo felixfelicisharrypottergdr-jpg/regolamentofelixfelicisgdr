@@ -7,7 +7,7 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
   <kbd>Ctrl K</kbd>
 </button>
 
-<dialog class="felix-search-dialog" data-felix-search-dialog>
+<dialog class="felix-search-dialog" data-felix-search-dialog aria-label="Cerca nel Regolamento">
   <div class="felix-search-shell">
     <div class="felix-search-head">
       <label class="felix-search-box">
@@ -18,29 +18,29 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
     </div>
 
     <div class="felix-search-types" aria-label="Filtra i risultati per tipo">
-      <button type="button" class="is-active" data-search-type="">Tutti</button>
-      <button type="button" data-search-type="Regola">Regole</button>
-      <button type="button" data-search-type="Incantesimo">Incantesimi</button>
-      <button type="button" data-search-type="Pozione">Pozioni</button>
-      <button type="button" data-search-type="Creatura">Creature</button>
-      <button type="button" data-search-type="Pianta">Piante</button>
-      <button type="button" data-search-type="Ingrediente">Ingredienti</button>
-      <button type="button" data-search-type="Malattia Magica">Malattie</button>
-      <button type="button" data-search-type="Maestria">Maestrie</button>
-      <button type="button" data-search-type="Conoscenza Scolastica">Conoscenze</button>
-      <button type="button" data-search-type="Tecnica Divinatoria">Divinazione</button>
-      <button type="button" data-search-type="Missione FantaHogwarts">FantaHogwarts</button>
-      <button type="button" data-search-type="Missione FantaWiz">FantaWiz</button>
-      <button type="button" data-search-type="Oggetto">Oggetti</button>
-      <button type="button" data-search-type="Razza">Razze</button>
-      <button type="button" data-search-type="Documento normativo">Documenti</button>
-      <button type="button" data-search-type="Articolo">Articoli</button>
+      <button type="button" class="is-active" data-search-type="" aria-pressed="true">Tutti</button>
+      <button type="button" aria-pressed="false" data-search-type="Regola">Regole</button>
+      <button type="button" aria-pressed="false" data-search-type="Incantesimo">Incantesimi</button>
+      <button type="button" aria-pressed="false" data-search-type="Pozione">Pozioni</button>
+      <button type="button" aria-pressed="false" data-search-type="Creatura">Creature</button>
+      <button type="button" aria-pressed="false" data-search-type="Pianta">Piante</button>
+      <button type="button" aria-pressed="false" data-search-type="Ingrediente">Ingredienti</button>
+      <button type="button" aria-pressed="false" data-search-type="Malattia Magica">Malattie</button>
+      <button type="button" aria-pressed="false" data-search-type="Maestria">Maestrie</button>
+      <button type="button" aria-pressed="false" data-search-type="Conoscenza Scolastica">Conoscenze</button>
+      <button type="button" aria-pressed="false" data-search-type="Tecnica Divinatoria">Divinazione</button>
+      <button type="button" aria-pressed="false" data-search-type="Missione FantaHogwarts">FantaHogwarts</button>
+      <button type="button" aria-pressed="false" data-search-type="Missione FantaWiz">FantaWiz</button>
+      <button type="button" aria-pressed="false" data-search-type="Oggetto">Oggetti</button>
+      <button type="button" aria-pressed="false" data-search-type="Razza">Razze</button>
+      <button type="button" aria-pressed="false" data-search-type="Documento normativo">Documenti</button>
+      <button type="button" aria-pressed="false" data-search-type="Articolo">Articoli</button>
     </div>
 
     <div class="felix-search-types" aria-label="Filtra i risultati per tipo di personaggio">
-      <button type="button" class="is-active" data-search-applicability="">Tutti i PG</button>
-      <button type="button" data-search-applicability="PG Studente">PG Studente</button>
-      <button type="button" data-search-applicability="PG Adulto">PG Adulto</button>
+      <button type="button" class="is-active" data-search-applicability="" aria-pressed="true">Tutti i PG</button>
+      <button type="button" aria-pressed="false" data-search-applicability="PG Studente">PG Studente</button>
+      <button type="button" aria-pressed="false" data-search-applicability="PG Adulto">PG Adulto</button>
     </div>
 
     <p class="felix-search-hint" data-search-hint>
@@ -192,13 +192,13 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
 
     typeButtons.forEach((button) => button.addEventListener('click', () => {
       activeType = button.dataset.searchType || '';
-      typeButtons.forEach((item) => item.classList.toggle('is-active', item === button));
+      typeButtons.forEach((item) => { const active = item === button; item.classList.toggle('is-active', active); item.setAttribute('aria-pressed', String(active)); });
       runSearch();
     }));
 
     applicabilityButtons.forEach((button) => button.addEventListener('click', () => {
       activeApplicability = button.dataset.searchApplicability || '';
-      applicabilityButtons.forEach((item) => item.classList.toggle('is-active', item === button));
+      applicabilityButtons.forEach((item) => { const active = item === button; item.classList.toggle('is-active', active); item.setAttribute('aria-pressed', String(active)); });
       runSearch();
     }));
 

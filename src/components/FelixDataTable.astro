@@ -35,7 +35,7 @@ const valueText = (cell: Cell) => {
   <table class="felix-data-table" aria-label={ariaLabel}>
     <thead>
       <tr>
-        {columns.map((column) => <th class={'is-' + (column.align ?? 'left')}>{column.label}</th>)}
+        {columns.map((column) => <th scope="col" class={'is-' + (column.align ?? 'left')}>{column.label}</th>)}
       </tr>
     </thead>
     <tbody>

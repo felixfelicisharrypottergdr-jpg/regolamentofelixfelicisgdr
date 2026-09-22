@@ -22,7 +22,7 @@ const items = [
 
   <nav class="felix-header-nav" aria-label="Macroaree del Regolamento">
     {items.map((item) => (
-      <a href={`${base}${item.path}`} class:list={['felix-header-nav-item', { 'is-active': item.active }]}>
+      <a href={`${base}${item.path}`} class:list={['felix-header-nav-item', { 'is-active': item.active }]} aria-current={item.active ? 'page' : undefined}>
         <FelixMacroIcon name={item.icon} />
         <span>{item.label}</span>
       </a>

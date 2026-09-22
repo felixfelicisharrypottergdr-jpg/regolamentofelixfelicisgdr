@@ -30,10 +30,10 @@ const hasFilters = Astro.slots.has('filters');
           placeholder={searchPlaceholder}
         />
       </label>
-      <strong class="felix-catalog-count"><span data-count>{count}</span> {countLabel}</strong>
+      <strong class="felix-catalog-count" aria-live="polite" aria-atomic="true"><span data-count>{count}</span> {countLabel}</strong>
     </div>
 
-    <div class:list={['felix-catalog-controls', { 'has-no-filters': !hasFilters }]} aria-label={filtersLabel}>
+    <div class:list={['felix-catalog-controls', { 'has-no-filters': !hasFilters }]} role="group" aria-label={filtersLabel}>
       {hasFilters && <span class="felix-catalog-controls-title">{filtersLabel}</span>}
       {hasFilters && <slot name="filters" />}
       <div class="felix-catalog-actions">
