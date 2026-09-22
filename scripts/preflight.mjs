@@ -17,7 +17,7 @@ const structuredRoutes = {
   objects: '/mondo-magico/commercio/oggetti/',
   missions: '/il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/',
   'adult-missions': '/il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/',
-  masteries: '/conoscenze-e-sapienze/maestrie/catalogo/',
+  masteries: '/conoscenze-e-sapienze/maestrie/',
   'divination-techniques': '/manuali/divinazione/tecniche/',
   'school-knowledges': '/manuali/conoscenze-scolastiche/conoscenze/',
   'legal-documents': '/mondo-magico/leggi/documenti/',
