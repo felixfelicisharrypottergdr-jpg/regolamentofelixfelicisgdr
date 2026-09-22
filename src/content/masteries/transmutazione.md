@@ -24,36 +24,38 @@ migration:
       item: "Transmutazione Alchemica"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Applicazioni della Transmutazione Alchemica**
 La Transmutazione Alchemica permette al PG di intervenire sulla struttura e sulle proprietà alchemiche di Ingredienti e Pozioni attraverso quattro differenti applicazioni:
-• Transmutazione degli Elementi: converte 1 dose di un Ingrediente in 1 dose di un altro Ingrediente compatibile della medesima Classificazione;
-• Ricomposizione Alchemica: recupera una o più dosi di Ingredienti danneggiate durante la Preparazione di una Pozione, permettendo di ripetere il relativo procedimento;
-• Sintesi Alchemica: fonde più Ingredienti della stessa Classificazione per ottenere 1 Equivalente Alchemico appartenente ad una Classificazione superiore, anche superando più gradi in base al Livello della Maestria;
-• Ibridazione Alchemica delle Pozioni: scompone le caratteristiche di più Pozioni finite e le ricombina in una nuova formula, permettendo di intervenire su Effetto, Potenza e Somministrazione.
+- Transmutazione degli Elementi: converte 1 dose di un Ingrediente in 1 dose di un altro Ingrediente compatibile della medesima Classificazione;
+- Ricomposizione Alchemica: recupera una o più dosi di Ingredienti danneggiate durante la Preparazione di una Pozione, permettendo di ripetere il relativo procedimento;
+- Sintesi Alchemica: fonde più Ingredienti della stessa Classificazione per ottenere 1 Equivalente Alchemico appartenente ad una Classificazione superiore, anche superando più gradi in base al Livello della Maestria;
+- Ibridazione Alchemica delle Pozioni: scompone le caratteristiche di più Pozioni finite e le ricombina in una nuova formula, permettendo di intervenire su Effetto, Potenza e Somministrazione.
 
-## 1. Transmutazione degli Elementi
+<details><summary><strong>1. Transmutazione degli Elementi</strong></summary>
+
 
 Il PG può convertire 1 dose di un Ingrediente della propria Dispensa in 1 dose di un altro Ingrediente della medesima Classificazione.
 Questo utilizzo può servire, per esempio, a sostituire un Ingrediente mancante con quello effettivamente necessario per una determinata Pozione.
 Per preservarne le qualità fondamentali, la trasformazione può avvenire soltanto all'interno della medesima macro-categoria:
-• Ingredienti Vegetali → altri Ingredienti Vegetali;
-• Ingredienti Animali/di Creatura → altri Ingredienti Animali/di Creatura;
-• eventuali ulteriori categorie → esclusivamente Ingredienti appartenenti alla medesima categoria.
+- Ingredienti Vegetali → altri Ingredienti Vegetali;
+- Ingredienti Animali/di Creatura → altri Ingredienti Animali/di Creatura;
+- eventuali ulteriori categorie → esclusivamente Ingredienti appartenenti alla medesima categoria.
 
 *Livello I*
 Il PG può convertire automaticamente 1 dose di Ingrediente X-XXX.
 Può inoltre tentare di convertire 1 dose di Ingrediente di rango superiore:
-• XXXX → successo con 1-7 su 1d10;
-• XXXXX → successo con 1-5 su 1d10.
+- XXXX → successo con 1-7 su 1d10;
+- XXXXX → successo con 1-5 su 1d10.
 In caso di fallimento, l'Ingrediente originale viene irrimediabilmente corrotto e distrutto e l'utilizzo della Maestria viene comunque considerato consumato.
 
 *Livello II*
 Il PG può convertire automaticamente 1 dose di Ingrediente X-XXXX.
 Può inoltre tentare di convertire 1 dose di Ingrediente XXXXX lanciando 1d10:
-• 1-7 → la Transmutazione riesce;
-• 8-10 → l'Ingrediente originale viene irrimediabilmente corrotto e distrutto.
+- 1-7 → la Transmutazione riesce;
+- 8-10 → l'Ingrediente originale viene irrimediabilmente corrotto e distrutto.
 In caso di fallimento, l'utilizzo della Maestria viene comunque considerato consumato.
 
 *Livello III*
@@ -66,8 +68,8 @@ L'Ingrediente trasformato acquisisce le eventuali restrizioni e l'eventuale ille
 
 Attenzione:
 La Transmutazione non modifica invece la provenienza della dose:
-• un Ingrediente prodotto ONGame attraverso l'Allevamento o la Coltivazione di un PG rimane considerato prodotto ONGame anche dopo la Transmutazione;
-• un Ingrediente acquistato o trovato tramite Ricerca rimane invece acquistato o trovato e non acquisisce retroattivamente i vantaggi degli Ingredienti prodotti ONGame.
+- un Ingrediente prodotto ONGame attraverso l'Allevamento o la Coltivazione di un PG rimane considerato prodotto ONGame anche dopo la Transmutazione;
+- un Ingrediente acquistato o trovato tramite Ricerca rimane invece acquistato o trovato e non acquisisce retroattivamente i vantaggi degli Ingredienti prodotti ONGame.
 
 **Modalità di utilizzo**
 La Transmutazione degli Elementi può essere effettuata sia ONGame sia OFFGame.
@@ -76,7 +78,10 @@ OFFGame: per ogni Role conclusa dal PG dopo l'acquisto della Maestria, il Player
 
 ONGame: il Player può effettuare direttamente la Transmutazione durante una Role, narrandola in almeno 1 post del PG. In questo caso non è necessario spendere un utilizzo maturato attraverso una Role precedentemente conclusa, ma la Role nella quale viene effettuata la Transmutazione viene considerata già sfruttata ai fini della Maestria e non può successivamente generare anche un utilizzo OFFGame.
 
-## 2. Ricomposizione Alchemica
+</details>
+
+<details><summary><strong>2. Ricomposizione Alchemica</strong></summary>
+
 
 Durante la Preparazione degli Ingredienti di una Pozione può capitare che il PG si accorga di aver danneggiato una o più dosi.
 Normalmente, per correggere l'errore, tali Ingredienti devono essere scartati e sostituiti con nuove dosi.
@@ -88,15 +93,15 @@ Ogni dose può essere ricomposta una sola volta durante la stessa Preparazione. 
 
 *Livello I*
 Può tentare di ricomporre 1 sola dose danneggiata.
-• X-XXX → ricomposizione automatica;
-• XXXX → successo con 1-7 su 1d10;
-• XXXXX → successo con 1-5 su 1d10.
+- X-XXX → ricomposizione automatica;
+- XXXX → successo con 1-7 su 1d10;
+- XXXXX → successo con 1-5 su 1d10.
 
 *Livello II*
 Può tentare di ricomporre fino a 2 dosi danneggiate.
 Per ciascuna dose:
-• X-XXXX → ricomposizione automatica;
-• XXXXX → successo con 1-7 su 1d10.
+- X-XXXX → ricomposizione automatica;
+- XXXXX → successo con 1-7 su 1d10.
 
 *Livello III*
 Può ricomporre tutte le dosi danneggiate durante la Preparazione della stessa Pozione, indipendentemente dalla loro Classificazione, da X a XXXXX.
@@ -112,7 +117,10 @@ OFFGame: se la Preparazione degli Ingredienti viene gestita OFFGame, anche la Ri
 
 ONGame: se la Preparazione viene narrata ONGame, il PG può descrivere la Ricomposizione direttamente nell'ambito della stessa Preparazione, senza dover iniziare una nuova Role o effettuare un post appositamente dedicato alla Maestria.
 
-## 3. Sintesi Alchemica
+</details>
+
+<details><summary><strong>3. Sintesi Alchemica</strong></summary>
+
 
 Il PG può fondere più dosi di Ingredienti appartenenti alla medesima macro-categoria e alla medesima Classificazione per creare 1 Equivalente Alchemico appartenente ad una Classificazione superiore.
 Gli Ingredienti utilizzati nella stessa Sintesi non devono necessariamente essere identici fra loro, ma devono appartenere tutti alla stessa macro-categoria e possedere tutti la stessa Classificazione.
@@ -121,23 +129,23 @@ Ogni Sintesi produce sempre 1 sola dose di Equivalente Alchemico.
 
 *Livello I*
 Può sintetizzare esclusivamente un Ingrediente della Classificazione immediatamente superiore:
-• +1 Classificazione → 5 dosi
+- +1 Classificazione → 5 dosi
 
 *Livello II*
 Può sintetizzare un Ingrediente appartenente ad una Classificazione fino a 2 gradi superiore:
-• +1 Classificazione → 4 dosi
-• +2 Classificazioni → 8 dosi
+- +1 Classificazione → 4 dosi
+- +2 Classificazioni → 8 dosi
 
 *Livello III*
 Può sintetizzare un Ingrediente appartenente ad una Classificazione fino a 3 gradi superiore:
-• +1 Classificazione → 3 dosi
-• +2 Classificazioni → 6 dosi
-• +3 Classificazioni → 12 dosi
+- +1 Classificazione → 3 dosi
+- +2 Classificazioni → 6 dosi
+- +3 Classificazioni → 12 dosi
 
 È quindi possibile, per esempio:
-• *Livello I:* XX → XXX;
-• *Livello II:* XX → XXX oppure XX → XXXX;
-• *Livello III:* XX → XXX, XX → XXXX oppure XX → XXXXX.
+- *Livello I:* XX → XXX;
+- *Livello II:* XX → XXX oppure XX → XXXX;
+- *Livello III:* XX → XXX, XX → XXXX oppure XX → XXXXX.
 
 Non è possibile utilizzare nella stessa Sintesi Ingredienti appartenenti a Classificazioni differenti né sommare Ingredienti di Classificazioni diverse per raggiungere la quantità richiesta.
 Non è mai possibile superare la Classificazione XXXXX.
@@ -152,25 +160,25 @@ Viene registrato nella Dispensa come:
 > Equivalente Alchemico di [Nome Ingrediente]
 
 E viene considerato esattamente come quell'Ingrediente per:
-• Classificazione;
-• macro-categoria;
-• utilizzo nelle ricette;
-• quantità richieste;
-• eventuali effetti della materia;
-• eventuali restrizioni e condizioni d'uso;
-• eventuale illegalità.
+- Classificazione;
+- macro-categoria;
+- utilizzo nelle ricette;
+- quantità richieste;
+- eventuali effetti della materia;
+- eventuali restrizioni e condizioni d'uso;
+- eventuale illegalità.
 
 Limiti della Sintesi
 La Sintesi agisce sulle proprietà alchemiche, non sull'identità biologica.
 Non può quindi replicare validamente un elemento quando il suo utilizzo richiede l'appartenenza a uno specifico individuo.
 
 Un Equivalente Alchemico di:
-• un capello;
-• sangue;
-• pelo;
-• piuma;
-• pelle;
-• o altro frammento biologico identificativo
+- un capello;
+- sangue;
+- pelo;
+- piuma;
+- pelle;
+- o altro frammento biologico identificativo
 
 può possederne genericamente le caratteristiche materiali, ma non può sostituire, per esempio, il capello della specifica persona necessario a una Pozione che richieda proprio quell'identità.
 
@@ -189,23 +197,26 @@ OFFGame: per ogni Role conclusa dal PG dopo l'acquisto della Maestria, il Player
 
 ONGame: il Player può effettuare direttamente la Sintesi durante una Role, narrandola in almeno 1 post del PG. In questo caso non è necessario spendere un utilizzo maturato attraverso una Role precedentemente conclusa, ma la Role nella quale viene effettuata la Sintesi viene considerata già sfruttata ai fini della Maestria e non può successivamente generare anche un utilizzo OFFGame.
 
-## 4. Ibridazione Alchemica delle Pozioni
+</details>
+
+<details><summary><strong>4. Ibridazione Alchemica delle Pozioni</strong></summary>
+
 
 La Transmutazione Alchemica permette al PG di separare le caratteristiche fondamentali di più Pozioni finite e ricombinarle in una nuova formula ibrida.
 Le Pozioni coinvolte possono appartenere a Classificazioni differenti, entro i limiti previsti dal Livello della Maestria.
 
 Le Pozioni coinvolte devono:
-• essere realmente presenti nella disponibilità del PG;
-• rispettare il limite massimo di Classificazione previsto dal Livello della Maestria;
-• essere Pozioni che il PG conosce;
-• non essere già a loro volta Pozioni Ibride.
+- essere realmente presenti nella disponibilità del PG;
+- rispettare il limite massimo di Classificazione previsto dal Livello della Maestria;
+- essere Pozioni che il PG conosce;
+- non essere già a loro volta Pozioni Ibride.
 
 La Pozione scelta come Effetto-Matrice determina anche la Classificazione finale della Pozione Ibrida.
 
 La Classificazione massima riguarda tutte le Pozioni coinvolte, indipendentemente dalla funzione che svolgono nell'Ibridazione:
-• *Livello I:* possono essere utilizzate esclusivamente Pozioni fino a XXX;
-• *Livello II:* possono essere utilizzate esclusivamente Pozioni fino a XXXX;
-• *Livello III:* possono essere utilizzate Pozioni di qualsiasi Classificazione, fino a XXXXX.
+- *Livello I:* possono essere utilizzate esclusivamente Pozioni fino a XXX;
+- *Livello II:* possono essere utilizzate esclusivamente Pozioni fino a XXXX;
+- *Livello III:* possono essere utilizzate Pozioni di qualsiasi Classificazione, fino a XXXXX.
 
 Dall'Ibridazione si ottiene sempre 1 sola dose, indipendentemente dal numero di Pozioni sacrificate.
 Su una Pozione Ibrida non è possibile eseguire la Distillazione.
@@ -215,16 +226,16 @@ Il PG può intervenire su tre elementi distinti:
 
 *1. Effetto-Matrice*
 Una delle Pozioni viene scelta come Matrice e determina:
-• l'effetto principale;
-• la Classificazione;
-• la Tipologia;
-• i Parametri influenzati;
-• la durata di base;
-• eventuali dadi;
-• Antidoti;
-• condizioni particolari;
-• limitazioni;
-• tutti gli altri effetti specifici presenti nel suo specchietto.
+- l'effetto principale;
+- la Classificazione;
+- la Tipologia;
+- i Parametri influenzati;
+- la durata di base;
+- eventuali dadi;
+- Antidoti;
+- condizioni particolari;
+- limitazioni;
+- tutti gli altri effetti specifici presenti nel suo specchietto.
 
 *2. Potenza*
 Una Pozione può fornire all'Ibrido la propria qualità relativa di Forza.
@@ -246,8 +257,8 @@ I Vaccini non possono essere utilizzati nell'Ibridazione Alchemica. La modalità
 *Livello I*
 Il PG può utilizzare 2 Pozioni, entrambe di Classificazione non superiore a XXX.
 Una viene scelta come Effetto-Matrice e dalla seconda può sostituire una sola caratteristica a scelta fra:
-• Potenza;
-• Somministrazione.
+- Potenza;
+- Somministrazione.
 
 Può quindi ottenere:
 → Effetto A + Potenza A + Somministrazione B;
@@ -272,9 +283,9 @@ Il PG può utilizzare fino a 3 Pozioni di qualsiasi Classificazione.
 Una delle Pozioni viene scelta come Effetto-Matrice e conserva tutte le proprie caratteristiche, salvo quelle che il PG decide di sostituire.
 
 Il PG può quindi determinare:
-• l'Effetto, scegliendo la Pozione-Matrice;
-• la Potenza, mantenendo quella della Matrice oppure prendendola da una seconda Pozione;
-• la Somministrazione, mantenendo quella della Matrice oppure prendendola da una seconda o terza Pozione.
+- l'Effetto, scegliendo la Pozione-Matrice;
+- la Potenza, mantenendo quella della Matrice oppure prendendola da una seconda Pozione;
+- la Somministrazione, mantenendo quella della Matrice oppure prendendola da una seconda o terza Pozione.
 
 Può quindi ottenere, per esempio:
 → Effetto A + Potenza A + Somministrazione B;
@@ -285,20 +296,20 @@ Può quindi ottenere, per esempio:
 Non è necessario utilizzare 3 Pozioni se le caratteristiche desiderate possono essere ottenute utilizzandone soltanto 2.
 
 Restrizioni dell'Ibridazione
-• Una Pozione Ibrida non può essere utilizzata come Matrice o donatrice per creare un'altra Pozione Ibrida.
-• Le dosi utilizzate nella creazione vengono consumate definitivamente.
-• Eventuali componenti biologiche, requisiti o condizioni particolari richiesti dall'Effetto-Matrice rimangono necessari e non possono essere eliminati attraverso l'Ibridazione.
-• Se almeno una delle Pozioni utilizzate è Illegale, la Pozione Ibrida viene considerata Illegale.
-• In caso di incompatibilità fra una proprietà trasferita e una regola specifica dell'Effetto-Matrice, prevale la regola specifica della Pozione-Matrice.
-• Se le Pozioni utilizzate possiedono differenti scadenze, la Pozione Ibrida acquisisce la scadenza più vicina fra quelle delle dosi impiegate. L'Ibridazione non può quindi prolungare la conservazione di una Pozione.
+- Una Pozione Ibrida non può essere utilizzata come Matrice o donatrice per creare un'altra Pozione Ibrida.
+- Le dosi utilizzate nella creazione vengono consumate definitivamente.
+- Eventuali componenti biologiche, requisiti o condizioni particolari richiesti dall'Effetto-Matrice rimangono necessari e non possono essere eliminati attraverso l'Ibridazione.
+- Se almeno una delle Pozioni utilizzate è Illegale, la Pozione Ibrida viene considerata Illegale.
+- In caso di incompatibilità fra una proprietà trasferita e una regola specifica dell'Effetto-Matrice, prevale la regola specifica della Pozione-Matrice.
+- Se le Pozioni utilizzate possiedono differenti scadenze, la Pozione Ibrida acquisisce la scadenza più vicina fra quelle delle dosi impiegate. L'Ibridazione non può quindi prolungare la conservazione di una Pozione.
 
 **Stabilità delle Pozioni Ibride**
 Le Pozioni Ibride sono formule alchemicamente meno stabili delle normali Pozioni. La presenza ravvicinata di più Ibridi può provocare interferenze fra le rispettive strutture alchemiche: le proprietà isolate da formule differenti possono influenzarsi a distanza, provocando alterazioni, reazioni impreviste o la destabilizzazione delle Pozioni stesse.
 Un Alchimista esperto è in grado di limitare queste interferenze durante la preparazione e la conservazione, ma soltanto entro un certo numero di Ibridi contemporaneamente presenti nelle proprie disponibilità:
 
-• *Livello I:* massimo 1 Pozione Ibrida;
-• *Livello II:* massimo 2 Pozioni Ibride;
-• *Livello III:* massimo 3 Pozioni Ibride.
+- *Livello I:* massimo 1 Pozione Ibrida;
+- *Livello II:* massimo 2 Pozioni Ibride;
+- *Livello III:* massimo 3 Pozioni Ibride.
 
 Il limite riguarda tutte le Pozioni Ibride attualmente possedute dal PG, indipendentemente da dove siano materialmente conservate. Per ragioni di sicurezza si considera che il personaggio eviti di accumularne quantità superiori o di conservarle separatamente allo scopo di aggirare il rischio di interferenza.
 Una Pozione consumata, ceduta, distrutta o scaduta non viene più conteggiata nel limite e può quindi essere sostituita attraverso una nuova Ibridazione.
@@ -315,16 +326,21 @@ Ogni post dedicato alla creazione permette di completare 1 sola dose di Pozione 
 È possibile effettuare più Ibridazioni nella stessa Role, purché ciascuna occupi un diverso post dedicato e il PG non superi il limite di Pozioni Ibride che può possedere contemporaneamente.
 L'Ibridazione non consuma gli utilizzi OFFGame maturati attraverso le Role concluse.
 
-## Procedimento ONGame
+</details>
+
+</details>
+
+<details><summary><strong>Procedimento ONGame</strong></summary>
+
 
 Il procedimento seguente costituisce una traccia comune e facoltativa per narrare ONGame le diverse applicazioni della Transmutazione Alchemica.
 Non introduce dadi, consumi o conseguenze ulteriori rispetto a quelli previsti dalle relative Specifiche e non rappresenta una sequenza di passaggi obbligatoria.
 Il Player può utilizzare, adattare, accorpare o omettere le diverse fasi in base all'applicazione scelta e alla situazione narrata, purché risulti comprensibile che il PG sta intervenendo alchemicamente sulla struttura e sulle proprietà della materia.
 
-• Transmutazione degli Elementi: può essere narrata attraverso l'analisi dell'Ingrediente, la separazione della sua essenza dalla forma originaria e la successiva riscrittura delle proprietà.
-• Ricomposizione Alchemica: può essere narrata direttamente nel corso della Preparazione danneggiata, intervenendo sulla materia compromessa e stabilizzandola nuovamente senza dover ripercorrere necessariamente tutte le fasi.
-• Sintesi Alchemica: può concentrarsi sulla scomposizione delle essenze dei diversi Ingredienti e sulla loro fusione in una nuova struttura comune.
-• Ibridazione Alchemica delle Pozioni: può essere narrata come una sperimentazione più articolata, nella quale le Pozioni originarie vengono analizzate, scomposte e ricombinate in una nuova formula autonoma.
+- Transmutazione degli Elementi: può essere narrata attraverso l'analisi dell'Ingrediente, la separazione della sua essenza dalla forma originaria e la successiva riscrittura delle proprietà.
+- Ricomposizione Alchemica: può essere narrata direttamente nel corso della Preparazione danneggiata, intervenendo sulla materia compromessa e stabilizzandola nuovamente senza dover ripercorrere necessariamente tutte le fasi.
+- Sintesi Alchemica: può concentrarsi sulla scomposizione delle essenze dei diversi Ingredienti e sulla loro fusione in una nuova struttura comune.
+- Ibridazione Alchemica delle Pozioni: può essere narrata come una sperimentazione più articolata, nella quale le Pozioni originarie vengono analizzate, scomposte e ricombinate in una nuova formula autonoma.
 
 Strumenti, reazioni alchemiche, formule, aspetto della materia e movimenti di bacchetta possono essere personalizzati liberamente dal Player.
 
@@ -370,3 +386,5 @@ Completato l'intervento, il PG stabilizza la nuova struttura alchemica attravers
 Il Player può descrivere liberamente il momento in cui la materia smette di reagire, cambia definitivamente aspetto, si solidifica, si raffredda o manifesta qualsiasi altro segnale che indichi la conclusione dell'operazione.
 Da questo momento si applica normalmente il risultato previsto dall'applicazione utilizzata.
 In caso di fallimento previsto dalle Specifiche, il Player può descrivere la materia come incapace di stabilizzarsi: può annerirsi, cristallizzarsi in maniera irregolare, dissolversi, perdere coesione o manifestare qualsiasi altra forma di corruzione coerente con la sua definitiva distruzione.
+
+</details>
