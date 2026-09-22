@@ -1,8 +1,8 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
-import { docsLoader } from '@astrojs/starlight/loaders';
-import { docsSchema } from '@astrojs/starlight/schema';
+import { docsLoader, i18nLoader } from '@astrojs/starlight/loaders';
+import { docsSchema, i18nSchema } from '@astrojs/starlight/schema';
 import { creatureSchema } from './schemas/creatures';
 import { diseaseSchema } from './schemas/diseases';
 import { ingredientSchema } from './schemas/ingredients';
@@ -42,6 +42,11 @@ const docs = defineCollection({
   prototypeExcerpt: z.boolean().default(false),
 }),
   }),
+});
+
+const i18n = defineCollection({
+  loader: i18nLoader(),
+  schema: i18nSchema(),
 });
 
 const creatures = defineCollection({
@@ -172,4 +177,4 @@ const ingredients = defineCollection({
   schema: ingredientSchema,
 });
 
-export const collections = { docs, creatures, diseases, ingredients, potions, spells, plants, races, objects, missions, adultMissions, masteries, divinationTechniques, schoolKnowledges, legalDocuments, legalArticles };
+export const collections = { docs, i18n, creatures, diseases, ingredients, potions, spells, plants, races, objects, missions, adultMissions, masteries, divinationTechniques, schoolKnowledges, legalDocuments, legalArticles };

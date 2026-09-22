@@ -1,8 +1,6 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { getCollection, render } from 'astro:content';
-import { buildBacklinkIndex } from '../../../lib/backlinks';
-import { buildFelixIndex } from '../../../lib/content-index';
 import FelixEntityHeader from '../../../components/FelixEntityHeader.astro';
 import SearchMetadata from '../../../components/search/SearchMetadata.astro';
 
@@ -11,17 +9,6 @@ export async function getStaticPaths() {
 }
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
-const backlinks = await buildBacklinkIndex();
-const index = await buildFelixIndex();
-const entryBacklinks = backlinks.get(entry.id) ?? [];
-const sources = entryBacklinks
-  .filter((item) => item.relation === 'producesIngredient')
-  .map((item) => index.get(item.sourceId))
-  .filter(Boolean);
-const usedInPotions = entryBacklinks
-  .filter((item) => item.relation === 'usesIngredient')
-  .map((item) => index.get(item.sourceId))
-  .filter(Boolean);
 ---
 <StarlightPage frontmatter={{ title: entry.data.name, description: entry.data.description || entry.data.provenance }} headings={headings}>
   <SearchMetadata

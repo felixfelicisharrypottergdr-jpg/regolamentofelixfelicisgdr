@@ -32,9 +32,7 @@ migration:
       section: "I Luoghi di Maestria"
       item: "I Luoghi di Maestria"
 ---
-# I Luoghi di Maestria
 
-# I Luoghi di Maestria
 
 Il 2026 segna la fondazione dei Luoghi di Maestria da parte della Confederazione Internazionale dei Maghi. Si tratta di sedi esclusive per i membri di specifiche Categorie Magiche, situate in prossimità delle più importanti scuole mondiali di Magia e Stregoneria.
 In ognuno di essi, maghi e streghe possono riunirsi per stringere legami internazionali, confrontarsi sulla magia che li caratterizza, esercitarsi e, soprattutto, entrare in contatto con oggetti magici affini alla Categoria e custoditi in tali luoghi.

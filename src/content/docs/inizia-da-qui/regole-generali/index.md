@@ -12,10 +12,8 @@ migration:
       section: "Regole Generali"
 ---
 
-# Regole generali
 
 <a id="regole"></a>
-# Regole generali
 
 
 <strong>INDICE</strong>

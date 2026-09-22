@@ -2,8 +2,6 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import AnchorHeading from '@astrojs/starlight/components/AnchorHeading.astro';
 import { getCollection, render } from 'astro:content';
-import { buildBacklinkIndex } from '../../../../lib/backlinks';
-import { buildFelixIndex } from '../../../../lib/content-index';
 import SearchMetadata from '../../../../components/search/SearchMetadata.astro';
 import FelixEntityHeader from '../../../../components/FelixEntityHeader.astro';
 import FelixDataTable from '../../../../components/FelixDataTable.astro';
@@ -13,18 +11,7 @@ export async function getStaticPaths() {
 }
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
-const backlinks = await buildBacklinkIndex();
-const index = await buildFelixIndex();
 const pageHeadings = [...headings, { depth: 2, slug: 'sintomi', text: 'Sintomi' }];
-const entryBacklinks = backlinks.get(entry.id) ?? [];
-const causes = entryBacklinks
-  .filter((item) => item.relation === 'causesDisease')
-  .map((item) => index.get(item.sourceId))
-  .filter(Boolean);
-const preventionPotions = entryBacklinks
-  .filter((item) => item.relation === 'preventsDisease')
-  .map((item) => index.get(item.sourceId))
-  .filter(Boolean);
 const symptomRows = entry.data.symptomBands.map((band) => ({
   range: band.range,
   symptoms: band.symptoms.join(', '),
