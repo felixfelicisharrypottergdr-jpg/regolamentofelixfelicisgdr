@@ -3129,3 +3129,130 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
 @media(prefers-reduced-motion:no-preference){
   .felix-start-cta,.felix-start-directory a{transition:background-color .16s,border-color .16s,filter .16s}
 }
+
+
+/* UX-1b — Consultazione delle Valute e dei dati numerici. */
+.felix-currency-overview{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:.7rem;
+  margin:1.1rem 0 1.9rem;
+}
+.felix-currency-overview>a{
+  display:flex;
+  min-width:0;
+  flex-direction:column;
+  gap:.5rem;
+  margin:0!important;
+  padding:1.05rem;
+  border:1px solid rgba(133,90,35,.2);
+  border-top:3px solid #aa7b36;
+  border-radius:5px;
+  background:rgba(255,255,255,.27);
+  text-decoration:none!important;
+  color:#4d3b28;
+}
+.felix-currency-overview>a:nth-child(2){border-top-color:#66826d}
+.felix-currency-overview>a:nth-child(3){border-top-color:#657b9b}
+.felix-currency-overview>a:hover,.felix-currency-overview>a:focus-visible{
+  border-color:rgba(155,106,40,.53);
+  background:rgba(255,255,255,.49);
+}
+.felix-currency-overview .felix-currency-kicker{
+  color:#8b6c44;
+  font:.68rem 'Federo',sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.09em;
+}
+.felix-currency-overview strong{
+  display:block;
+  color:#4d321d;
+  font:400 1.35rem/1.2 'Federo',Georgia,serif;
+}
+.felix-currency-overview small{
+  font:.68rem 'Federo',sans-serif;
+  color:#816641;
+}
+.felix-currency-overview>a>span:nth-of-type(2){
+  flex:1 1 auto;
+  font-size:.88rem;
+  line-height:1.5;
+  color:#5c5043;
+}
+.felix-currency-overview em{
+  font:normal .79rem 'Federo',sans-serif;
+  color:#825e2a;
+}
+.felix-currency-table{
+  max-width:100%;
+  margin:1rem 0 .45rem;
+  overflow-x:auto;
+  border:1px solid rgba(118,80,33,.23);
+  border-radius:5px;
+  background:rgba(255,253,247,.35);
+  scrollbar-width:thin;
+}
+.felix-currency-table:focus-visible{outline:3px solid #ac7c35;outline-offset:2px}
+.felix-content-wrap .sl-markdown-content .felix-currency-table table{
+  display:table;
+  min-width:41rem;
+  width:100%;
+  margin:0!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  font-variant-numeric:tabular-nums;
+}
+.felix-currency-table caption{
+  padding:.8rem 1rem;
+  text-align:left;
+  color:#654420;
+  font:1.05rem 'Federo',serif;
+  background:rgba(169,125,56,.11);
+}
+.felix-currency-table th,.felix-currency-table td{
+  padding:.65rem .7rem!important;
+  text-align:right;
+  white-space:nowrap;
+}
+.felix-currency-table thead th{font-size:.76rem!important;line-height:1.3}
+.felix-currency-table tbody tr:nth-child(even){background:rgba(113,81,36,.045)}
+.felix-currency-table tbody th{
+  position:sticky;
+  left:0;
+  background:#eadcc0;
+  color:#5e4226;
+  font-weight:700;
+  z-index:1;
+}
+.felix-mobile-table-hint{display:none;color:#765e45;font-size:.76rem;line-height:1.4}
+.felix-content-wrap .sl-markdown-content details{
+  margin:.65rem 0!important;
+  padding:.75rem .95rem!important;
+  border:1px solid rgba(130,93,44,.22)!important;
+  border-radius:5px!important;
+  background:rgba(255,251,241,.38)!important;
+  box-shadow:none!important;
+  color:#423629!important;
+}
+.felix-content-wrap .sl-markdown-content details>summary{
+  color:#64441f!important;
+  line-height:1.45;
+}
+.felix-content-wrap .sl-markdown-content details[open]>summary{
+  margin-bottom:.7rem;
+  padding-bottom:.55rem;
+  border-bottom:1px solid rgba(129,91,43,.15);
+}
+.felix-content-wrap .sl-markdown-content details p,
+.felix-content-wrap .sl-markdown-content details li{
+  max-width:75ch;
+  font-size:.94rem;
+  line-height:1.63;
+}
+@media(max-width:850px){
+  .felix-currency-overview{grid-template-columns:1fr}
+}
+@media(max-width:720px){
+  .felix-mobile-table-hint{display:block}
+}

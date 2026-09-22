@@ -20,9 +20,10 @@ migration:
       section: "Le Valute di Gioco"
 ---
 
-# Le Valute di Gioco
 
 Esattamente come nella vita vera, anche in Felix Felicis GdR non tutto è gratis, *purtroppo*. Al contrario, molto spesso è necessario spendere qualcosa per ottenere in cambio qualcos'altro. Giocando, infatti, potrebbe essere necessario dover migliorare i voti del proprio PG Studente o accrescere le Sapienze del proprio PG Adulto, acquistare Oggetti Magici nonché Pozioni e Creature Magiche o addirittura dover pagare le cure mediche necessarie a salvare il proprio personaggio. Per fare questo, sono disponibili tre diverse valute di gioco, ciascuna delle quali sblocca opportunità diverse: i **Punti Post**, i **Galeoni** e i **Felix Token**.
+
+<nav class="felix-currency-overview" aria-label="Vai alla valuta che ti interessa"><a href="#puntipost"><span class="felix-currency-kicker">Giocando</span><strong>Punti Post <small>PP</small></strong><span>Li ottieni scrivendo post e puoi usarli per migliorare il PG o convertirli.</span><em>Regole dei PP →</em></a><a href="#galeoni"><span class="felix-currency-kicker">Nel gioco</span><strong>Galeoni <small>G</small></strong><span>La moneta del Mondo Magico, usata anche per acquisti e servizi del PG.</span><em>Regole dei Galeoni →</em></a><a href="#felixtoken"><span class="felix-currency-kicker">Per il Player</span><strong>Felix Token <small>FT</small></strong><span>Premi degli obiettivi Fanta Felix Felicis, spendibili per i tuoi PG.</span><em>Regole dei FT →</em></a></nav>
 
 <a id="puntipost"></a>
 ## I Punti Post
@@ -32,23 +33,24 @@ I Punti Post (abbreviato PP) sono la valuta che si ottiene semplicemente scriven
 - ottenere Parametri Magici e Fisici perenni.
 
 <a id="migliorarecon"></a>
-**MIGLIORARE LE CONOSCENZE**
+### Migliorare le Conoscenze
 Con i Punti Post è possibile migliorare le Conoscenze Scolastiche, Extra e Avanzate di un PG Studente e le Sapienze di un PG Adulto.
 
 <a id="convertire"></a>
-**CONVERTIRE IN GALEONI**
+### Convertire in Galeoni
 PG che non hanno interesse a migliorare le proprie conoscenze per coerenza con il PG, Studenti che hanno raggiunto il massimo dei voti in tutte le Conoscenze Scolastiche o Adulti che hanno completato le 4 Sapienze, possono scegliere di convertire i Punti Post guadagnati in Galeoni (gli Adulti anche in Punti Magici perenni) da utilizzare per gli acquisti, partecipare ad eventi a pagamento, ecc.
 La quantità di Punti Post che si può convertire in Galeoni è così suddivisa:
 
->
-10 Punti Post = 50 Galeoni
-50 Punti Post = 300 Galeoni
-100 Punti Post = 700 Galeoni
+| Punti Post da convertire | Galeoni ottenuti |
+| ---: | ---: |
+| 10 PP | **50 G** |
+| 50 PP | **300 G** |
+| 100 PP | **700 G** |
 
 Di conseguenza, non è possibile richiedere la conversione di Punti Post in quantità diverse da quelle indicate nella tabella.
 
 <a id="ottparam"></a>
-**OTTENERE PARAMETRI MAGICI O FISICI PERENNI**
+### Ottenere Parametri Magici o Fisici perenni
 E' possibile convertire Punti Post per acquistare Parametri Magici o Fisici perenni (nel caso del parametro Salute, acquistare 1 Salute significa aumentare di 5 Punti Salute).
 Il costo, separato per ogni Parametro, è pari a:
 - 100 Punti Post per ogni Parametro acquistato, per i primi 5 Punti aggiuntivi;
@@ -64,7 +66,7 @@ In alcune circostanze particolari, come Eventi o Quest, si possono ottenere più
 Nel caso di **role in solitaria**, ovvero che prevedono il coinvolgimento di un solo player, sarà possibile richiedere i Punti Post **soltanto per il primo post** della giocata stessa.
 
 <a id="minipost"></a>
-**MINI-POST**
+#### Mini-post
 Sempre in alcuni casi particolari, su indicazione del Narratore, potrebbe essere richiesta la scrittura di ***mini-post*** invece che di classici post. I mini-post sono dei post più brevi, in cui è necessario scrivere soltanto un minimo di 500 caratteri. Nelle situazioni di gioco in cui è richiesta una certa dinamicità e velocità delle azioni e degli scambi tra PG (come per esempio le partite di Quidditch), potrebbe essere prevista la scrittura di mini-post per rendere la giocata più interattiva e vivace.
 I mini-post funzionano, a livello di gioco, esattamente come i post: tutte le regole che valgono per i post, valgono anche per i mini-post. L'unica attenzione da fare è che servono 3 mini-post per ottenere ciò che normalmente si ottiene da 1 post: si guadagna **1 PP ogni 3 mini-post**, allo stesso modo si possono ottenere i Galeoni previsti per un singolo post ogni 3 mini-post scritti e si recupera 1 Fatica ogni 3 mini-post in cui non si svolgono azioni magiche che ne consumano.
 Nel caso in cui, durante una giocata, non si riuscissero a scrivere abbastanza mini-post per completare il "tris" di mini-post per l'ottenimento dei premi, è possibile "congelare" il conteggio di mini-post e proseguirlo nella prossima occasione in cui sarà necessario scriverli.
@@ -94,23 +96,24 @@ Ogni PG Studente o Adulto, può guadagnare Galeoni in tre modi diversi:
 Attenzione: nel caso di **role in solitaria**, ovvero che prevedono il coinvolgimento di un solo player, sarà possibile richiedere i Galeoni **soltanto per il primo post** della giocata stessa.
 
 <a id="guadagnomens"></a>
-**IL GUADAGNO MENSILE**
+#### Il guadagno mensile
 Ogni PG guadagna Galeoni proporzionalmente al numero di post di almeno 2000 caratteri realizzati tra le 00:00 del primo giorno del mese e le 23:59 dell'ultimo giorno del mese.
 Il guadagno è spiegato nella tabella che segue. La prima colonna indica il numero di post realizzati, nella seconda e nella quarta colonna il guadagno per quel post relativo a un PG Studente e a un PG Adulto rispettivamente, nella terza e nella quinta colonna il guadagno cumulato sino a quel momento per un PG Studente e un PG Adulto rispettivamente.
 
-| Post numero | Galeoni Studente | Guadagno cumulato | Galeoni Adulto | Guadagno cumulato |
-| ---: | ---: | ---: | ---: | ---: |
-| 1 | 30 | 30 | 65 | 65 |
-| 2 | 20 | 50 | 45 | 110 |
-| 3 | 15 | 65 | 30 | 140 |
-| 4 | 10 | 75 | 20 | 160 |
-| 5 | 8 | 83 | 15 | 175 |
-| 6 | 6 | 89 | 10 | 185 |
-| 7 | 4 | 93 | 6 | 191 |
-| 8 | 3 | 96 | 4 | 195 |
-| 9 | 2 | 98 | 3 | 198 |
-| 10 | 2 | 100 | 2 | 200 |
-| 11+ | 1 | 100+ | 1 | 200+ |
+<div class="felix-currency-table" role="region" tabindex="0" aria-label="Guadagno mensile in Galeoni per Studenti e Adulti">
+<table><caption>Guadagno per post valido nel mese</caption><thead><tr><th scope="col">Post numero</th><th scope="col">Galeoni Studente</th><th scope="col">Guadagno cumulato</th><th scope="col">Galeoni Adulto</th><th scope="col">Guadagno cumulato</th></tr></thead><tbody><tr><th scope="row">1</th><td>30</td><td>30</td><td>65</td><td>65</td></tr>
+<tr><th scope="row">2</th><td>20</td><td>50</td><td>45</td><td>110</td></tr>
+<tr><th scope="row">3</th><td>15</td><td>65</td><td>30</td><td>140</td></tr>
+<tr><th scope="row">4</th><td>10</td><td>75</td><td>20</td><td>160</td></tr>
+<tr><th scope="row">5</th><td>8</td><td>83</td><td>15</td><td>175</td></tr>
+<tr><th scope="row">6</th><td>6</td><td>89</td><td>10</td><td>185</td></tr>
+<tr><th scope="row">7</th><td>4</td><td>93</td><td>6</td><td>191</td></tr>
+<tr><th scope="row">8</th><td>3</td><td>96</td><td>4</td><td>195</td></tr>
+<tr><th scope="row">9</th><td>2</td><td>98</td><td>3</td><td>198</td></tr>
+<tr><th scope="row">10</th><td>2</td><td>100</td><td>2</td><td>200</td></tr>
+<tr><th scope="row">11+</th><td>1</td><td>100+</td><td>1</td><td>200+</td></tr></tbody></table>
+</div>
+<p class="felix-mobile-table-hint">Su schermi stretti, scorri la tabella lateralmente per vedere tutte le colonne.</p>
 
 > **Esempio.**
 >
