@@ -46,22 +46,22 @@ Per esempio, più Magizoologi esperti possono essere perfettamente in grado di r
 ## Acquisto delle Maestrie e limitazioni
 
 Una Maestria può essere acquistata soltanto da un PG che possiede:
-• **25/25** nella relativa Sapienza Magica;
-• **18** nel Parametro di riferimento indicato nello specchietto della Maestria.
+- **25/25** nella relativa Sapienza Magica;
+- **18** nel Parametro di riferimento indicato nello specchietto della Maestria.
 
 Ogni Maestria parte dal Livello I e può essere potenziata progressivamente fino al Livello III.
 Il costo necessario per acquistare ciascun Livello è:
-• **Livello I:** 200 Galeoni e 30 Punti Post;
-• **Livello II:** 400 Galeoni e 60 Punti Post;
-• **Livello III:** 600 Galeoni e 90 Punti Post.
+- **Livello I:** 200 Galeoni e 30 Punti Post;
+- **Livello II:** 400 Galeoni e 60 Punti Post;
+- **Livello III:** 600 Galeoni e 90 Punti Post.
 
 Un PG può possedere tutte e tre le Maestrie disponibili relative alla stessa Sapienza Magica, ma non può raggiungere la medesima padronanza in ciascuna di esse.
 Può infatti avere:
-• al massimo una Maestria al Livello III;
-• se ha una Maestria al Livello III: al massimo un'altra Maestria al Livello II;
-• se non ha una Maestria al Livello III: al massimo due Maestrie al Livello II.
+- al massimo una Maestria al Livello III;
+- se ha una Maestria al Livello III: al massimo un'altra Maestria al Livello II;
+- se non ha una Maestria al Livello III: al massimo due Maestrie al Livello II.
 
-## Tutte le possibili combinazioni per Maestrie della stessa Sapienza Magica
+<details><summary><strong>Tutte le possibili combinazioni per Maestrie della stessa Sapienza Magica</strong></summary>
 
 - 1 Livello I
 
@@ -89,6 +89,8 @@ Può infatti avere:
 
 - 1 Livello III, 1 Livello II e 1 Livello I (III-II-I)
 
+</details>
+
 La Maestria portata al Livello III rappresenta quindi la vera e propria specializzazione del PG all'interno di quella Sapienza: la capacità nella quale, pur essendo già un esperto dell'intera branca, ha raggiunto una padronanza eccezionale.
 
 Queste limitazioni si applicano separatamente alle diverse Sapienze Magiche: per le Maestrie di un'altra Sapienza Magica può possedere un altro Livello III e così via.
@@ -112,9 +114,9 @@ Per questo un PG può possedere tutte e tre le Maestrie della propria Sapienza, 
 Ogni Maestria possiede un funzionamento specifico, descritto nel relativo specchietto.
 A seconda della Maestria possono quindi cambiare il tipo di Azione richiesta, l'eventuale consumo di Fatica o Salute, la Durata, i Bersagli, le condizioni necessarie, i limiti e le conseguenze del suo utilizzo.
 Il Livello posseduto determina invece quanto profondamente il PG padroneggia quella particolare capacità e quali effetti della Maestria può ottenere:
-• *Livello I:* padronanza base;
-• *Livello II:* padronanza avanzata;
-• *Livello III:* padronanza assoluta.
+- *Livello I:* padronanza base;
+- *Livello II:* padronanza avanzata;
+- *Livello III:* padronanza assoluta.
 
 L'utilizzo di una Maestria non richiede il normale dado di riuscita previsto per l'uso delle Conoscenze: la sua efficacia non deve quindi essere determinata attraverso il consueto tiro che stabilisce se una Conoscenza viene utilizzata allo 0%, 33%, 66% o 100% della propria Forza.
 Il PG applica direttamente gli effetti previsti dal Livello di Maestria posseduto.
