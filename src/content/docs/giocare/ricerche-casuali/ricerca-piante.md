@@ -156,8 +156,12 @@ anche senza averla collocata nella Valigia.
 Per stabilire se il PG incontra una Pianta Magica deve lanciare **1d30**.
 Il risultato è positivo se rientra nel totale delle possibilità ottenute attraverso:
 
-****Empatia + Bonus Sapienza Erbologica + eventuale Bonus Ricerca
-Attiva + eventuali altri bonus****
+**
+
+**Empatia + Bonus Sapienza Erbologica + eventuale Bonus Ricerca
+Attiva + eventuali altri bonus**
+
+**
 
 **Sapienza Erbologica**
 • **0:** nessun bonus
@@ -320,8 +324,12 @@ continua la Ricerca, deve disporre di una Valigia Magica.
 Se ha rinunciato ad acquisirla può invece procedere normalmente.
 Per trovare il Secondo incontro il PG lancia nuovamente **1d30**, utilizzando:
 
-****Empatia + Bonus Sapienza Erbologica + eventuali altri bonus
-applicabili****
+**
+
+**Empatia + Bonus Sapienza Erbologica + eventuali altri bonus
+applicabili**
+
+**
 
 Il **+2 della Ricerca Attiva non si applica più**.
 Il PG può effettuare un tentativo in ogni proprio post fino a ottenere un esito positivo oppure
@@ -403,8 +411,12 @@ con sé, deve possedere una Valigia Magica con
 spazio sufficiente.
 Il PG lancia nuovamente **1d30** utilizzando:
 
-****Empatia + Bonus Sapienza Erbologica + eventuali altri bonus
-applicabili****
+**
+
+**Empatia + Bonus Sapienza Erbologica + eventuali altri bonus
+applicabili**
+
+**
 
 Anche in questo caso il **+2 della Ricerca Attiva non si applica**.
 Il Terzo incontro aumenta ulteriormente le probabilità di trovare Piante di Classificazione

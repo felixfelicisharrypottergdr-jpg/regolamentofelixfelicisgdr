@@ -195,7 +195,7 @@ avvistato l’ultima volta nei **Negozi di Notturn Alley**. Il sospetto è un no
 contrabbandiere con precedenti per uso di magie oscure, ed è molto abile nel muoversi
 furtivamente.
 Destrezza del bersaglio: 10 + 1d8 → esce 5 → Totale Destrezza = 15
-****Fase I – Intercettazione****
+**Fase I – Intercettazione**
 I PG cercano di rilevare la direzione di fuga. Si muovono fra vicoli stretti e botteghe chiuse,
 attenti a ogni segnale.
 • **PG1** ha Acume 12 e Sapienza Offensiva 15
@@ -205,7 +205,7 @@ Lancia 1d40, esce 22 → **fallisce**
 → 14 + (10/5 = 2) + 5 Conoscenza Avanzata = **21 possibilità su 40**Lancia 1d40, esce 12 → **riesce**
 **PG2** scova un incantesimo di occultamento mal cancellato sul retro di un negozio.
 Poiché almeno un PG ha avuto successo, si prosegue alla **Fase II**.
-****Fase II – Inseguimento Attivo****
+**Fase II – Inseguimento Attivo**
 I PG si lanciano tra le strade e i tetti, inseguendo il sospetto che corre a perdifiato,
 spingendo via passanti e rovesciando casse.
 • **PG1** ha Destrezza 13 + 7 Pozione Eccezionale = **20 possibilità su 30**
@@ -215,7 +215,7 @@ Non usa bonus.
 → **11 possibilità su 30**
 Lancia 1d30, esce 28 → **fallisce**
 Poiché almeno un PG ha avuto successo, si passa alla **Fase III**.
-****Fase III – Blocco o Cattura****
+**Fase III – Blocco o Cattura**
 **PG1** tenta di bloccare il bersaglio con un incantesimo coordinato a un salto tra i tetti.
 Destrezza 13 + Fatica 14 - Destrezza Bersaglio 15 + 5 Conoscenza Extra = **17
 possibilità su 30**
@@ -325,14 +325,14 @@ degli scantinati di Notturn Alley.
 *Numero di bersagli:* 1d2 → esce 2
 *Destrezza Bersaglio A:* 10 + 1d8 → esce 6 → 16
 *Destrezza Bersaglio B:* 10 + 1d8 → esce 3 → 13
-****Fase I – Valutazione e Preparazione****
+**Fase I – Valutazione e Preparazione**
 • PG1: Acume 14, Sapienza Difensiva 10, Conoscenza Extra +3
 14 + (10/5 = 2) + 3 = **19 possibilità su 40**Lancia 1d40, esce 17 → **riesce**
 • PG2: Percezione 10, Sapienza Offensiva 15, Pozione Standard +1
 10 + (15/5 = 3) + 1 = **14 possibilità su 40**
 Lancia 1d40, esce 21 → **fallisce**
 Poiché almeno un PG ha fallito, tutti ricevono -5 nella Fase II.
-****Fase II – Irruzione****
+**Fase II – Irruzione**
 *PG1: Irruzione furtiva*
 Destrezza 13 - 5 = **8 possibilità su 30**
 Lancia 1d30, esce 10 → **fallisce**
@@ -340,7 +340,7 @@ Lancia 1d30, esce 10 → **fallisce**
 Resistenza 11 - 5 + 5 Pozione Eccezionale = **11 possibilità su 30**
 Lancia 1d30, esce 9 → **riesce**
 Poiché almeno un PG ha fallito, tutti ricevono -5 nella Fase III.
-****Fase III – Confronto e Arresto****
+**Fase III – Confronto e Arresto**
 • **PG1** affronta Bersaglio A:
 Sapienza Offensiva 14 + Potenza 12 - Destrezza 16 - 5 Malus Fase II + 5 Conoscenza Extra
 = **10 possibilità su 40**
@@ -483,7 +483,7 @@ attraversa una Foresta Oscura (1d5 → esce 3).
 *Resistenza iniziale:* 10 + 1d8 → esce 6 → **16**
 *Mezzo scelto:* Passaporta
 Il viaggio riesce con un risultato compreso fra 1 e 20 su 1d30.
-****Fase I – Inizio del viaggio****
+**Fase I – Inizio del viaggio**
 PG1 effettua il lancio del viaggio:
 1d30 → esce 27 → **fallisce**
 Il viaggio avviene comunque, ma si applica il malus aggravato della Passaporta.
@@ -492,14 +492,14 @@ PG2 lancia 1d5 → esce 5 → nessun ulteriore effetto.
 Per determinare il danno causato dal primo esito si lancia 1d5 → esce 5.
 Lo Scortato perde 5 Resistenza.
 **Stato dello Scortato:** Resistenza 16 - 5 = **11**.
-****Fase II – Tratto intermedio e coordinamento****• PG1: Destrezza 14 + Acume 12 = **26 possibilità su 40**
+**Fase II – Tratto intermedio e coordinamento**• PG1: Destrezza 14 + Acume 12 = **26 possibilità su 40**
 Lancia 1d40, esce 32 → **fallisce**
 • PG2: Destrezza 13 + Acume 15 = **28 possibilità su 40**
 Lancia 1d40, esce 14 → **riesce**
 Poiché almeno un PG ha fallito, si determina l'Imprevisto.
 1d5 → esce 3 → un osservatore ostile individua il gruppo.
 Tutti i PG ricevono -5 nella Fase III.
-****Fase III – Consegna e Conclusione****
+**Fase III – Consegna e Conclusione**
 • PG1: Destrezza 14 + Acume 12 - 5 = **21 possibilità su 50**
 Lancia 1d50, esce 34 → **fallisce**
 • PG2: Destrezza 13 + Acume 15 - 5 = **23 possibilità su 50**
@@ -534,7 +534,9 @@ di 1d10:
 9. San Mungo
 10. Ministero della Magia
 
-**Fase I – Ingresso e Creazione della Copertura****Descrizione:** il PG costruisce una falsa identità, inventa una storia coerente e si
+**Fase I – Ingresso e Creazione della Copertura**
+
+**Descrizione:** il PG costruisce una falsa identità, inventa una storia coerente e si
 presenta nel luogo scelto.
 **Esecuzione:** lanciando 1d50, il PG riesce se estrae un numero compreso fra 1 e
 Volontà + Dialettica + (il valore più alto fra Sapienza Mentale e Sapienza Trasfigurativa)/5 +
@@ -613,14 +615,14 @@ anche da quelli che hanno fallito.
 **Missione:** I PG devono infiltrarsi in un circolo clandestino di maghi oscuri attivo nei
 sotterranei del Ministero della Magia.
 Luogo della missione: 1d10 → esce 10 → **Ministero della Magia**.
-****Fase I – Ingresso e Creazione della Copertura****
+**Fase I – Ingresso e Creazione della Copertura**
 • PG1: Volontà 14 + Dialettica 10 + Sapienza Mentale 15/5 = 3 + Polisucco Eccezionale 15
 = **42 possibilità su 50**
 Lancia 1d50, esce 31 → **riesce**
 • PG2: Volontà 12 + Dialettica 9 + Sapienza Mentale 10/5 = 2 + Polisucco Standard 7
 = **30 possibilità su 50**
 Lancia 1d50, esce 38 → **fallisce**
-PG1 riceve +5 nella propria Fase II; PG2 riceve -5.****Fase II – Permanenza e Integrazione****
+PG1 riceve +5 nella propria Fase II; PG2 riceve -5.**Fase II – Permanenza e Integrazione**
 • PG1: Volontà 14 + Punti Sinistri 6 + Sapienza Mentale 15/2 = 7 + Dialettica 10 + 5
 = **42 possibilità su 40**
 La soglia raggiunge il massimo del dado: la prova è automaticamente riuscita.
@@ -628,7 +630,7 @@ La soglia raggiunge il massimo del dado: la prova è automaticamente riuscita.
 = **29 possibilità su 40**
 Lancia 1d40, esce 34 → **fallisce**
 PG1 riceve +3 nella propria Fase III; PG2 riceve -3.
-****Fase III – Raccolta e Uscita****
+**Fase III – Raccolta e Uscita**
 *Tentativo facoltativo di rubare le prove:*
 • PG1: Destrezza 15 + Pozione Eccezionale 5 = **20 possibilità su 30**
 Lancia 1d30, esce 11 → **riesce** → +10 alla Raccolta di Informazioni.
@@ -741,7 +743,7 @@ altri Auror.
 >
 I PG stanno rispondendo a una segnalazione di un duello clandestino degenerato in uno
 scontro tra bande nel retro di un vicolo a Notturn Alley (1d13 → esce 3).
-****Fase I – Valutazione Rapida****
+**Fase I – Valutazione Rapida**
 • PG1:
 Percezione 12, Acume 15 → usa Acume 15
 Sapienza Divinatoria 10/5 = 2
@@ -757,7 +759,7 @@ Totale = 16 + 3 + 7 + 1 = **27 possibilità su 40**
 Lancia 1d40, esce 34 → **fallisce**
 Poiché almeno un PG ha avuto successo, la Fase I è riuscita e tutti ricevono +5 nella Fase
 II. Nessun PG subisce il malus di -3 Destrezza e Resistenza.
-****Fase II – Contenimento****
+**Fase II – Contenimento**
 • PG1 usa incanti difensivi:
 Sapienza Difensiva 12/2 = 6
 Resistenza 14
@@ -773,7 +775,7 @@ Totale = **27 possibilità su 40**
 Lancia 1d40, esce 24 → **riesce**
 Poiché tutti i PG hanno avuto successo, lo scontro viene contenuto e si passa alla Fase III
 senza compromissioni.
-****Fase III – Risoluzione e Arresti****
+**Fase III – Risoluzione e Arresti**
 • PG1:
 Sapienza Difensiva 12/5 = 2
 Destrezza 10

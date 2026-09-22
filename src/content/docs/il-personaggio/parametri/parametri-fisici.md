@@ -138,7 +138,9 @@ Il recupero avviene **solo all’interno della role in cui è iniziata la stessa
 Il valore aggiornato della Fatica durante la role va tracciato dal player tramite Spoiler, indicando almeno: valore di partenza, spese/recuperi effettuati e valore risultante, in modo da rendere verificabile l’uso delle Azioni e dei requisiti.
 
 > **Nota.**
-> Il recupero autoconclusivo a fine role non si applica automaticamente **se la role successiva appartiene allo **stesso arco narrativo**** della role in cui la Fatica è stata spesa. In tal caso, la Fatica non si “resetta” tra una role e l’altra: la role successiva parte con la Fatica risultante dalla role precedente (come tracciata nello spoiler) e la spesa/recupero continua a essere monitorata allo stesso modo fino a quando l’arco narrativo si considera concluso.
+> Il recupero autoconclusivo a fine role non si applica automaticamente **se la role successiva appartiene allo **stesso arco narrativo**
+
+** della role in cui la Fatica è stata spesa. In tal caso, la Fatica non si “resetta” tra una role e l’altra: la role successiva parte con la Fatica risultante dalla role precedente (come tracciata nello spoiler) e la spesa/recupero continua a essere monitorata allo stesso modo fino a quando l’arco narrativo si considera concluso.
 **Cosa si intende per “arco narrativo”?**
 Per **arco narrativo** si intende una **stessa scena/situazione**, oppure un **insieme di scene strettamente collegate**, che rappresentano la prosecuzione diretta dello stesso evento di gioco, **senza uno “stacco” credibile** in cui il PG possa realmente riprendere fiato, riorganizzarsi o recuperare energie.
 In altre parole: due role appartengono allo stesso arco narrativo quando, ONGame, la seconda role **riprende la prima** come continuità naturale (anche cambiando luogo), e la role fa parte della stessa “fase” della storia: la tensione non si scioglie, l’urgenza non si interrompe, e non c’è spazio narrativo per considerare il personaggio “riposato”.

@@ -131,7 +131,9 @@ dalla Borsa):
 che avevano superato il primo tentativo, con un ulteriore malus di -3 alle Possibilità.
 Se anche il secondo tentativo non viene superato da tutti i PG, scattano allarmi o sospetti: la
 missione fallisce e i PG devono fuggire (autoconclusivo).
-**Fase II - Recupero****Descrizione:** i PG individuano l’oggetto da rubare, disattivano le difese magiche o
+**Fase II - Recupero**
+
+**Descrizione:** i PG individuano l’oggetto da rubare, disattivano le difese magiche o
 fisiche e cercano di impadronirsene.
 **Riesce se:** lanciando 1d50, il risultato è compreso fra 1 e il totale di
 Destrezza+Sapienza Oscura più o meno Bonus o Malus Bottino.
@@ -163,10 +165,10 @@ il bottino (missione fallita).
 vecchio **laboratorio di pozioni abbandonato** nelle **Foreste Oscure**. Secondo
 le voci, al suo interno si troverebbero ingredienti rari e pergamene proibite appartenute a un
 tempo a un alchimista decaduto.
-****Determinazione del Bottino****
+**Determinazione del Bottino**
 Lancio 1d3 → esce 3 → **Bottino Elevato**
 ⇒ Sorveglianza alta, rischio significativo. Malus di -4 a tutti i tiri di missione.
-****Fase I - Infiltrazione****
+**Fase I - Infiltrazione**
 I PG si avvicinano al laboratorio, circondato da rovi incantati e rune di allarme.
 Muovendosi nell’ombra, cercano di oltrepassare il perimetro senza attivare le difese
 magiche.
@@ -185,7 +187,7 @@ Lancia 1d40 → esce 8 → **riesce**
 → 11+2-4-3+5 = **11 possibilità su 40**
 Lancia 1d40 → esce 9 → **riesce**
 Entrambi riescono a infiltrarsi: si passa alla **Fase II**.
-****Fase II - Recupero****
+**Fase II - Recupero**
 All’interno, l’aria è densa di polvere e magia residua. Sul tavolo, una cassa sigillata con sigilli
 antiapertura brilla di luce bluastra.
 I PG tentano di disattivare i sigilli e impossessarsi del contenuto.
@@ -198,7 +200,7 @@ Lancia 1d50 → esce 33 → **fallisce**
 Poiché almeno un PG ha successo, la cassa viene aperta: all’interno trovano fiale di sangue
 di drago e pergamene di alchimia nera.
 Si passa alla **Fase III**.
-****Fase III - Fuga****
+**Fase III - Fuga**
 Improvvisamente, un incantesimo d’allarme si attiva. I PG devono fuggire rapidamente prima
 che arrivi qualcuno.
 • **PG1** ha Destrezza 14 e Fatica 13
@@ -318,10 +320,10 @@ della consegna (missione fallita).
 **Crimine:** I PG stanno tentando un **contrabbando** di materiali magici sensibili
 da un piccolo **laboratorio alchemico nascosto** nelle **Valli di Hogwarts**. Il
 carico comprende ingredienti rari e componenti instabili, difficili da occultare.
-****Determinazione del Carico****
+**Determinazione del Carico**
 Lancio 1d4 → esce 3 → **Illegale o Instabile**
 ⇒ Carico difficile da nascondere, rischio elevato. -3 ai tiri.
-****Fase I - Preparazione e Carico****
+**Fase I - Preparazione e Carico**
 I PG raccolgono il materiale e preparano il trasporto, occultandolo sotto incantesimi di
 protezione. Devono evitare curiosi e trappole magiche vicine al laboratorio.
 • **PG1** ha Acume 13 e Sapienza Oscura 15
@@ -333,7 +335,7 @@ Lancia 1d40 → esce 14 → **riesce**
 → 11+2-3 = **10 possibilità su 40**
 Lancia 1d40 → esce 8 → **riesce**
 Entrambi i PG preparano il carico con successo e si passa alla **Fase II**.
-****Fase II - Trasporto e Attraversamento****I PG si mettono in viaggio con il carico illegale. Decidono di usare una **scopa
+**Fase II - Trasporto e Attraversamento**I PG si mettono in viaggio con il carico illegale. Decidono di usare una **scopa
 volante**.
 • **PG1** controlla il carico e guida la scopa
 → il carico è instabile, lancia 1d5 per test di sicurezza
@@ -341,7 +343,7 @@ volante**.
 → il carico rimane integro e il viaggio prosegue normalmente.
 Durante il volo, evitano un pattugliamento di Auror e un branco di creature magiche
 aggressive. Il viaggio dura 2 post per PG, come previsto.
-****Fase III - Consegna e Copertura****
+**Fase III - Consegna e Copertura**
 I PG devono consegnare il carico e cancellare le tracce di magia, evitando testimoni e
 intercettazioni.
 PG1: 14 Destrezza + 12 Fatica - 3 Carico + 3 Sapienza = 26 possibilità su 50
@@ -374,7 +376,9 @@ dei bonus in base a quanto segue:
 bonus della Pozione si applica al Parametro sul quale la Pozione agisce e non direttamente
 alle Possibilità del tiro. La Pozione può quindi essere utilizzata soltanto se modifica uno dei
 Parametri impiegati nella prova effettuata dal PG.
-**Fase I - Preparazione e Indagine****Descrizione:** i PG raccolgono informazioni sulla vittima, valutano debolezze, rapporti
+**Fase I - Preparazione e Indagine**
+
+**Descrizione:** i PG raccolgono informazioni sulla vittima, valutano debolezze, rapporti
 sociali, interessi e possibili punti di pressione.
 **Riesce se:** lanciando 1d60, il risultato è compreso fra 1 e il totale di
 Volontà+Sapienza Oscura o Mentale/5+Lv Persuasore+Dialettica+Punti Sinistri/2.
@@ -458,7 +462,7 @@ fallisce.
 **Crimine:** I PG stanno tentando una **pressione psicologica** su un
 **mercante influente** nel **quartiere commerciale di Hogsmeade** per ottenere
 informazioni riservate su fornitori di ingredienti rari.
-****Fase I - Preparazione e Indagine****
+**Fase I - Preparazione e Indagine**
 I PG raccolgono informazioni sul mercante: interessi, punti deboli, relazioni e possibili leve
 per influenzarlo.• **PG1** ha Volontà 14, Sapienza Mentale 12, Lv Persuasore 3, Dialettica 4, Punti
 Sinistri 2
@@ -475,7 +479,7 @@ Lancia 1d60 → esce 35 → **fallisce**
 Poiché almeno un PG riesce, ottengono informazioni sufficienti per passare alla Fase II.
 Il PG che fallisce avrà un malus di -3 alla Fase II.
 Il PG lancia 1d6 per stabilire il Profilo della Vittima → esce 2 → **Codardo**
-****Fase II - Pianificazione e Avvicinamento****
+**Fase II - Pianificazione e Avvicinamento**
 I PG devono organizzare l’incontro: scegliere momento, luogo e come presentarsi per
 massimizzare la disponibilità del PNG ad ascoltare.
 • **PG1**: Volontà 14, Acume 13
@@ -486,7 +490,7 @@ Lancia 1d40 → esce 30 → **fallisce**
 Lancia 1d40 → esce 25 → **fallisce**
 Poiché tutti i PG falliscono, si presenta un intoppo durante l’avvicinamento.
 Tutti i PG passano alla Fase III con un malus di -3.
-****Fase III - Applicazione della Modalità****
+**Fase III - Applicazione della Modalità**
 I PG scelgono come approcciare il mercante (Codardo):
 • *Corruzione*: -3
 • *Intimidazione*: +3
@@ -625,7 +629,7 @@ I PG devono fuggire.
 **Crimine:** I PG ricevono l’incarico di **eliminare un mago** sospettato di aver
 tradito un mandante di Notturn Alley.L’obiettivo è provocare la sua morte senza lasciare tracce evidenti, inscenando un
 **incidente magico** nella sua residenza privata.
-****Fase I - Raccolta Informazioni****
+**Fase I - Raccolta Informazioni**
 I PG raccolgono notizie sul bersaglio: abitudini, orari, protezioni magiche, servitori e possibili
 accessi secondari.
 **Profilo del bersaglio:** tiro 1d4 → esce 3: Ricco/Frequentato/Ben collegato → Malus
@@ -643,7 +647,7 @@ Tiro 1d30 → esce 26 → **fallimento**
 sufficienti per passare alla Fase II.
 Il Malus -3 del Profilo Ricco/Frequentato/Ben collegato continuerà ad applicarsi anche nelle
 fasi successive.
-****Fase II - Avvicinamento****
+**Fase II - Avvicinamento**
 I PG progettano l’azione: tempo dell’attacco, travestimenti, via di fuga e modo di coprire la
 traccia magica.
 • **PG1**: Acume 13, Punti Sinistri 4
@@ -656,7 +660,7 @@ Tiro 1d35 → esce 10 → **successo**
 Tiro 1d35 → esce 27 → **fallimento**
 **Risultato:** almeno un PG riesce → il piano è solido.
 I PG ottengono un Bonus di +3 Possibilità nella Fase III.
-****Fase III - Esecuzione****
+**Fase III - Esecuzione**
 L’attacco viene portato a termine di notte, mentre il bersaglio sta ispezionando la propria
 collezione di artefatti.
 I PG scelgono di inscenare un *incidente magico* tramite un rituale di dispersione.Metodo utilizzato: *Furtivo* (eliminazione totale; inscenamento)
@@ -753,9 +757,9 @@ viene interrotto.
 in una **serra abbandonata** fuori città: musiche proibite, venditori oscuri e
 performance riservate a pochi. L’obiettivo è guadagno e consolidamento di contatti nel
 Sottobosco.
-****Determinazione del tipo di evento****
+**Determinazione del tipo di evento**
 Lancio 1d5 → esce **2** → **Festa/spettacolo illegale**.
-****Fase I - Reclutamento e Contatti****
+**Fase I - Reclutamento e Contatti**
 Metodi scelti dai PG per questa fase:
 • PG1: Persuasione
 • PG2: Corruzione e ricatti
@@ -769,7 +773,7 @@ PG2: Volontà 11, Punti Sinistri 4, Sapienza Oscura 12
 → 11+2+2 = **15 possibilità su 50**
 Lancio 1d50 → esce 34 → **fallimento**
 Esito Fase I: almeno un PG ha successo → **Successo**. +3 alla Fase II.
-****Fase II - Organizzazione e Sicurezza****
+**Fase II - Organizzazione e Sicurezza**
 PG1: Acume 12, Sapienza Arcaica 11
 → 11/5 dà 2
 → 12+2+3 (Bonus Fase I) = **17 possibilità su 35**
@@ -779,7 +783,7 @@ PG2: Acume 10, Sapienza Arcaica 9
 → 10+1+3 = **14 possibilità su 35**
 Lancio 1d35 → esce 28 → **fallimento**
 Esito Fase II: almeno un PG ha successo → **Successo**. +3 alla Fase III.
-****Fase III - Svolgimento dell’Evento****
+**Fase III - Svolgimento dell’Evento**
 PG1: Volontà 14, Sapienza Mentale 13, Dialettica 5, Punti Sinistri 4
 → 13/5 dà 2
 → 4/2 dà 2→ 14+2+5+2+3 (Bonus Fase II)+3 (Pozione Oltre Ogni Previsione) = **29 possibilità su

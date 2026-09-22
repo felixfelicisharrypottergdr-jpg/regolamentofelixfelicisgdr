@@ -53,7 +53,7 @@ Lanciano quindi il dado in basso prima o dopo il proprio post, fino a quando i M
 Ars non vengono chiamati per un'emergenza.
 PG Medimaghi e PG con alta Sapienza Medimagica hanno più possibilità di essere chiamati
 per prendersi cura di un Paziente.
-Di base, l'arrivo di un Paziente avviene se, lanciando ****1d30****, si estrae un
+Di base, l'arrivo di un Paziente avviene se, lanciando **1d30**, si estrae un
 esito compreso fra 1 e:
 
 **Tecnica + Bonus Sapienza Medimagica**

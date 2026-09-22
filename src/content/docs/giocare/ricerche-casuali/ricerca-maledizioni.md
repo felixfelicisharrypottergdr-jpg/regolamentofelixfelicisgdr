@@ -205,7 +205,7 @@ soltanto il secondo 1d5 per determinare l’effetto.
 da un’aura spettrale. I rintocchi della campana, secondo i locali, portano visioni di morte.
 Occorre capire se si tratta di una semplice maledizione, di un vincolo rituale o di un’entità
 ancorata al luogo.
-****Fase I – Ispezione Esoterica****
+**Fase I – Ispezione Esoterica**
 I PG esaminano il campanile, percependo le vibrazioni magiche e annotando i fenomeni
 anomali.
 • PG1 ha Acume 14 e Sapienza Arcaica 20 → 14 + (20/5 = 4) = 18 possibilità su 40
@@ -217,7 +217,7 @@ Lancia 1d40, esce 31 → **fallisce**
 Poiché almeno un PG ha successo, la fase si conclude positivamente. PG1 percepisce che
 la fonte è legata a un’eco temporale del momento della costruzione. Ottiene +5 possibilità
 nella Fase II.
-****Fase II – Comparazione con Archivi****
+**Fase II – Comparazione con Archivi**
 I PG consultano pergamene e cronache locali, cercando corrispondenze con maledizioni
 note.
 • PG1 ha Acume 14 e Sapienza Arcaica 20 → 14 + (20/5 = 4) = 18 possibilità su 40
@@ -230,7 +230,7 @@ Lancia 1d40, esce 28 → **fallisce**
 PG1 identifica la natura della maledizione: un “Vincolo di Memoria Funebre”, una magia che
 intrappola un ricordo tragico per farlo rivivere ciclicamente. Ottiene +5 possibilità nella Fase
 III.
-****Fase III – Formulazione del Verdetto****
+**Fase III – Formulazione del Verdetto**
 I PG mettono insieme le informazioni per dare un nome definitivo alla maledizione e
 individuare il suo punto debole.
 • PG1 ha Acume 14 e Sapienza Arcaica 20 → 14 + (20/5 = 4) = 18 possibilità su 40
@@ -315,7 +315,7 @@ tremanti, occhi anneriti, voce distorta) per tre post (effetto unicamente narrat
 **Passaggio:** I PG stanno recuperando un antico talismano maledetto sepolto sotto le
 rovine di una torre dimenticata. La leggenda racconta che chi lo tocca senza cautela subisce
 visioni e malesseri.
-****Fase I – Localizzazione del Sito****
+**Fase I – Localizzazione del Sito**
 I PG analizzano il terreno, seguono tracce magiche e consultano memorie residuali per
 individuare l’oggetto.
 • PG1 ha Acume 14 e Sapienza Divinatoria 12 → 14 + (12/5 = 2) + 3 Pozione OOP = 19
@@ -326,7 +326,7 @@ Scolastica = 16 possibilità su 40.
 Lancia 1d40, esce 21 → **fallisce**Poiché almeno un PG ha avuto successo, la Fase I si conclude positivamente. PG1
 individua con precisione il punto esatto dove il talismano è sepolto e percepisce piccole
 trappole magiche nascoste.
-****Fase II – Estrazione del Fulcro****
+**Fase II – Estrazione del Fulcro**
 I PG rimuovono fisicamente l’oggetto dalla terra senza liberare energie pericolose.
 • PG1 ha Acume 14 e Fatica attuale 8 → 14 + 8 + 5 (bonus Fase I) = 27 possibilità su 50.
 Lancia 1d50, esce 22 → **riesce**
@@ -334,7 +334,7 @@ Lancia 1d50, esce 22 → **riesce**
 Fase I) → 12 + 10 = 22 possibilità su 50. Lancia 1d50, esce 31 → **fallisce**
 Poiché almeno un PG fallisce, l’oggetto viene parzialmente danneggiato. Tutti i PG
 subiscono -5 al dado della Fase III, ma il talismano è ora in loro possesso.
-****Fase III – Contenimento dell’Influsso****
+**Fase III – Contenimento dell’Influsso**
 I PG devono contenere l’aura maledetta del talismano.
 • PG1 ha Volontà 13 e Sapienza Arcaica 15 → 13 + (15/5 = 3) -5 malus di gruppo della Fase
 II = 11 possibilità su 40. Lancia 1d40, esce 12 → **fallisce**
@@ -407,7 +407,7 @@ del FantaWiz "Lo Spezzaincantesimi".
 >
 **Passaggio:** I PG stanno affrontando una Maledizione Minore che colpisce un antico
 tomo magico rinvenuto nella Biblioteca di Cragford. La maledizione provoca strani simboli
-luminosi e interferenze magiche alla lettura, ostacolando gli studi dei presenti.****Fase I – Attivazione del Rituale****
+luminosi e interferenze magiche alla lettura, ostacolando gli studi dei presenti.**Fase I – Attivazione del Rituale**
 I PG avviano la procedura dello Spezzamento scelto: posizionano cristalli sul tomo e
 recitano le parole chiave del rituale.
 • PG1 ha Acume 14, Sapienza Arcaica 12 e Livello Spezzaincantesimi 3 → 14 + 12 + 3 + 1
@@ -418,7 +418,7 @@ possibilità su 60
 Lancia 1d60, esce 40 → **riesce**
 Il rituale parte senza intoppi. I simboli e i catalizzatori reagiscono come previsto.
 Entrambi i PG ricevono +5 possibilità al dado per la Fase II.
-****Fase II – Rottura del Legame Magico****
+**Fase II – Rottura del Legame Magico**
 I PG convogliano energia verso il rituale per colpire i punti che mantengono la maledizione.
 • PG1 ha Acume 14 +5 bonus Fase I = 19 possibilità su 35
 Lancia 1d35, esce 12 → **riesce**
@@ -426,7 +426,7 @@ Lancia 1d35, esce 12 → **riesce**
 Lancia 1d35, esce 22 → **fallisce**
 Poiché almeno un PG ha successo, il legame magico si indebolisce.
 PG1 riceve +5 possibilità per la Fase III.
-****Fase III – Dissoluzione e Sigillatura****
+**Fase III – Dissoluzione e Sigillatura**
 I PG compiono il gesto finale per spezzare la maledizione e disperdere l’energia residua.
 • PG1 ha Acume 14 + Sapienza Arcaica/5 = 14 + (12/5 = 2) +5 bonus Fase II = 21 possibilità
 su 40
@@ -504,7 +504,7 @@ Il PG che fallisce non ottiene Prestigio dalla Missione del FantaWiz
 infestata da un Flagello, manifestatosi come un’oscurità pulsante che altera la percezione
 dei presenti e consuma lentamente le energie vitali. L’oggetto focale del maleficio sembra
 essere un antico specchio nero appoggiato sul caminetto.
-****Fase I – Attivazione del Rituale****
+**Fase I – Attivazione del Rituale**
 I PG preparano il cerchio di protezione, dispongono cristalli e accendono le candele
 necessarie all’esorcismo.
 • PG1 ha Acume 14, Sapienza Arcaica 16 e Livello Esorcista 3
@@ -516,7 +516,7 @@ Lancia 1d60, esce 44 → **fallisce**
 Poiché almeno un PG ha avuto successo, il rituale parte senza intoppi. PG1 nota che
 l’energia oscura si concentra nello specchio, confermando il punto focale del maleficio.
 Si prosegue alla Fase II.
-****Fase II – Confronto con l’Essenza Oscura****
+**Fase II – Confronto con l’Essenza Oscura**
 I PG convogliano il potere dell’Esorcismo sul Flagello, cercando di destabilizzarne la
 coesione.
 • PG1 ha Acume 14
@@ -527,7 +527,7 @@ Lancia 1d35, esce 21 → **fallisce**
 Anche se PG2 fallisce, PG1 destabilizza l’essenza oscura: il Flagello pulsa meno
 intensamente e perde coesione.
 Si passa alla Fase III.
-****Fase III – Dissoluzione e Sigillatura****
+**Fase III – Dissoluzione e Sigillatura**
 I PG completano il gesto finale, concentrandosi sullo specchio e disperdendo l’energia
 residua.• PG1 ha Acume 14, Sapienza Arcaica 16
 14 + (16/5 = 3) +5 bonus Fase II = 22 possibilità su 40
@@ -606,7 +606,7 @@ In questo caso nessun PG riscuote Prestigio dalla Missione del FantaWiz
 **Passaggio:** I PG hanno rintracciato l’origine della maledizione in una vecchia
 cappella abbandonata. All’interno, un’ombra senziente si manifesta come figura indistinta
 che parla con voci familiari, cercando di corrompere e ingannare chi la affronta.
-****Fase I – Resistere all’Influsso****
+**Fase I – Resistere all’Influsso**
 Il primo impatto è mentale: l’Ombra tenta di insinuare paura e dubbi.
 • PG1 ha Volontà 14 e Sapienza Mentale 10 → 14 + (10/5 = 2) + 3 Pozione OOP = 19
 possibilità su 40
@@ -614,7 +614,7 @@ Lancia 1d40, esce 12 → **riesce**
 • PG2 ha Volontà 11 e Sapienza Arcaica 15 → 11 + (15/5 = 3) = 14 possibilità su 40
 Lancia 1d40, esce 26 → **fallisce**
 Risultato: PG1 mantiene la lucidità e respinge l’influsso → otterrà +5 alla Fase II. PG2
-subisce dubbi e incertezza → avrà -5 alla Fase II.****Fase II – Smantellare le Illusioni****
+subisce dubbi e incertezza → avrà -5 alla Fase II.**Fase II – Smantellare le Illusioni**
 L’Ombra proietta ricordi falsi e immagini illusorie.
 • PG1 ha Acume 13 e Sapienza Mentale 10 → 13 + (10/5 = 2) +5 bonus da Fase I = 20
 possibilità su 50
@@ -624,7 +624,7 @@ possibilità su 50
 Lancia 1d50, esce 15 → **fallisce**
 Risultato: PG1 dissolve le illusioni e vede la vera forma dell’Ombra → avrà +5 alla Fase III.
 PG2 rimane intrappolato nell’inganno e non potrà agire nella prossima fase.
-****Fase III – Confronto e Dissoluzione****
+**Fase III – Confronto e Dissoluzione**
 La vera Ombra si rivela: una creatura scura dagli occhi incandescenti.
 • PG1 ha Volontà 14 e Sapienza Arcaica 10 → 14 + (10/5 = 2) +5 bonus da Fase II = 21
 possibilità su 60
