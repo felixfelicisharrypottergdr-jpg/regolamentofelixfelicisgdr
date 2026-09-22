@@ -26,7 +26,8 @@ migration:
       item: "Signore degli Inferi"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Requisiti**
 Per utilizzare la Maestria il PG deve possedere almeno 20 Punti Sinistri.
@@ -38,23 +39,23 @@ Per garantire l'utilizzo della Maestria anche in contesti dinamici come Quest o 
 **Ricerca Casuale di cadaveri**
 Luoghi
 La ricerca può essere effettuata esclusivamente in luoghi coerenti con la presenza di resti mortali, quali:
-• Cimiteri e aree di sepoltura
-• Fogne e sotterranei cittadini
-• Foreste magiche o oscure
-• Fondali marini e grotte isolate
-• Luoghi disabitati o zone di conflitto
-• Isola di Azkaban
+- Cimiteri e aree di sepoltura
+- Fogne e sotterranei cittadini
+- Foreste magiche o oscure
+- Fondali marini e grotte isolate
+- Luoghi disabitati o zone di conflitto
+- Isola di Azkaban
 
 Meccanica di Ritrovamento
 A ogni post ambientato in uno dei suddetti luoghi, il PG può tentare il ritrovamento lanciando un dado. Il ritrovamento ha successo se l'esito è compreso tra 1 e Percezione + Sapienza Oscura/5:
-• *Livello I:* 1d50
-• *Livello II:* 1d40
-• *Livello III:* 1d30
+- *Livello I:* 1d50
+- *Livello II:* 1d40
+- *Livello III:* 1d30
 In caso di successo, si lancia *1d3* per determinare il numero di cadaveri rinvenuti.
 È possibile effettuare più lanci di Ritrovamento nella stessa Role, ma il limite massimo di cadaveri complessivamente accumulabili per singola sessione di gioco è:
-• *Livello I:* 3
-• *Livello II:* 4
-• *Livello III:* 5
+- *Livello I:* 3
+- *Livello II:* 4
+- *Livello III:* 5
 Se un ritrovamento permetterebbe di superare tale limite, vengono acquisiti soltanto i cadaveri necessari a raggiungerlo.
 
 Riserva Oscura e Deterioramento
@@ -75,23 +76,23 @@ L'Animazione trasforma un cadavere in un Inferius e richiede un'*Azione Principa
 Una volta animato, l'Inferius viene conservato nella Riserva Oscura e nelle Role successive non deve essere animato nuovamente: per utilizzarlo sarà sufficiente richiamarlo attraverso l'apposita meccanica.
 
 Inferi animabili con una singola Animazione
-• *Livello I:* 1 Inferius
-• *Livello II:* fino a 2 Inferi
-• *Livello III:* fino a 3 Inferi
+- *Livello I:* 1 Inferius
+- *Livello II:* fino a 2 Inferi
+- *Livello III:* fino a 3 Inferi
 
 Forza degli Inferi
 I Parametri posseduti dagli Inferi creati rispetto ai valori previsti dal Bestiario dipendono dal Livello della Maestria:
-• *Livello I:* Parametri ridotti del 50%
-• *Livello II:* Parametri ridotti del 25%
-• *Livello III:* Parametri pieni previsti dal Bestiario
+- *Livello I:* Parametri ridotti del 50%
+- *Livello II:* Parametri ridotti del 25%
+- *Livello III:* Parametri pieni previsti dal Bestiario
 La riduzione riguarda i Parametri propri dell'Inferius indicati dal Bestiario e permane per tutta la sua esistenza.
 Una volta completata l'Animazione, l'Inferius con i propri Parametri sostituisce il relativo Cadavere nella Valigia Magica e continua a occupare 1 slot.
 
 Fatica Consumata per l'Animazione
 Per ogni Inferius effettivamente animato, il PG consuma:
-• *Livello I:* 2 Fatica
-• *Livello II:* 1,5 Fatica
-• *Livello III:* 1 Fatica
+- *Livello I:* 2 Fatica
+- *Livello II:* 1,5 Fatica
+- *Livello III:* 1 Fatica
 La Fatica viene calcolata sul numero complessivo di Inferi animati con la stessa Azione.
 
 **Richiamare gli Inferi dalla Valigia**
@@ -99,16 +100,16 @@ OFFGame gli Inferi vengono custoditi nella Valigia Magica del PG. ONGame, invece
 Per utilizzare il Richiamo il PG deve avere con sé la Valigia nella quale gli Inferi sono conservati e impiegare un'*Azione Principale*.
 
 Il numero di Inferi richiamabili contemporaneamente attraverso la stessa Azione dipende dal Livello:
-• *Livello I:* lancia 1d3 e può richiamare fino al numero di Inferi indicato dal risultato
-• *Livello II:* fino a 3 Inferi
-• *Livello III:* fino a 5 Inferi
+- *Livello I:* lancia 1d3 e può richiamare fino al numero di Inferi indicato dal risultato
+- *Livello II:* fino a 3 Inferi
+- *Livello III:* fino a 5 Inferi
 Non è mai possibile richiamare più Inferi di quanti siano effettivamente conservati nella propria Riserva Oscura.
 
 Fatica Consumata per il Richiamo
 Per ogni utilizzo del Richiamo, indipendentemente dal numero di Inferi richiamati, il PG consuma:
-• *Livello I:* 3 Fatica
-• *Livello II:* 2 Fatica
-• *Livello III:* 1 Fatica
+- *Livello I:* 3 Fatica
+- *Livello II:* 2 Fatica
+- *Livello III:* 1 Fatica
 
 **Mantenere il controllo**
 Mantenere il controllo sugli Inferi permette al PG di indirizzarli verso un obiettivo specifico e, soprattutto, di evitare che si rivoltino contro il proprio creatore.
@@ -116,9 +117,9 @@ Per tutta la durata del controllo il PG deve dedicare parte della propria attenz
 
 Il primo tiro di controllo viene effettuato nello stesso post in cui gli Inferi vengono richiamati e viene poi ripetuto a ogni successivo post dell'Evocatore nel quale desidera mantenerne il controllo.
 Per ciascun Inferius controllato deve essere effettuato un tiro separato. Il controllo viene mantenuto se il PG estrae un risultato compreso fra 1 e Volontà + Sapienza Oscura/5 dopo aver lanciato:
-• *Livello I:* 1d50
-• *Livello II:* 1d40
-• *Livello III:* 1d30
+- *Livello I:* 1d50
+- *Livello II:* 1d40
+- *Livello III:* 1d30
 
 Se il tiro riesce, il PG mantiene il controllo di quell'Inferius fino al proprio post successivo.
 Se il tiro fallisce, perde definitivamente il controllo di quell'Inferius per il resto della Role: esso torna ad agire secondo la propria natura e può considerare anche il suo precedente padrone come un normale bersaglio.
@@ -127,9 +128,9 @@ Il PG può inoltre decidere volontariamente di cessare il controllo di uno o pi�
 
 Fatica Consumata per mantenere il controllo
 Per ogni Inferius di cui il PG tenta di mantenere il controllo, a ogni proprio post consuma:
-• *Livello I:* 1 Fatica
-• *Livello II:* 0,5 Fatica
-• *Livello III:* 0 Fatica
+- *Livello I:* 1 Fatica
+- *Livello II:* 0,5 Fatica
+- *Livello III:* 0 Fatica
 La Fatica viene consumata al momento del tentativo e viene quindi sottratta anche qualora il relativo tiro di controllo fallisca.
 Se il PG non desidera o non può sostenere il costo necessario per uno degli Inferi richiamati, deve rinunciare al suo controllo: quell'Inferius viene immediatamente considerato fuori controllo.
 
@@ -142,12 +143,14 @@ Gli Inferi non possono eseguire istruzioni complesse, elaborare strategie autono
 
 **Recupero degli Inferi**
 Gli Inferi superstiti ancora sotto il controllo del PG al termine della Role possono essere recuperati nella Riserva Oscura in base al Livello della Maestria:
-• *Livello I:* gli Inferi superstiti non possono essere recuperati. Anche qualora il controllo sia stato mantenuto fino alla fine della Role, vengono definitivamente perduti.
-• *Livello II:* per ogni Inferius superstite ancora sotto controllo si lancia 1d3. Con risultato 1-2, l'Inferius ritorna nella Riserva Oscura; con risultato 3 viene definitivamente perduto.
-• *Livello III:* tutti gli Inferi superstiti ancora sotto controllo ritornano nella Riserva Oscura.
+- *Livello I:* gli Inferi superstiti non possono essere recuperati. Anche qualora il controllo sia stato mantenuto fino alla fine della Role, vengono definitivamente perduti.
+- *Livello II:* per ogni Inferius superstite ancora sotto controllo si lancia 1d3. Con risultato 1-2, l'Inferius ritorna nella Riserva Oscura; con risultato 3 viene definitivamente perduto.
+- *Livello III:* tutti gli Inferi superstiti ancora sotto controllo ritornano nella Riserva Oscura.
 
 Un Inferius del quale il PG abbia perso o volontariamente ceduto il controllo non può mai essere recuperato nella Riserva Oscura.
 Gli Inferi recuperati tornano a occupare normalmente il proprio slot nella Valigia Magica e mantengono i Parametri stabiliti al momento della loro Animazione.
 
 **Distruzione degli Inferi**
 Un Inferius distrutto durante la Role viene definitivamente eliminato. Il cadavere utilizzato per crearlo non può essere recuperato, rianimato o riutilizzato.
+
+</details>
