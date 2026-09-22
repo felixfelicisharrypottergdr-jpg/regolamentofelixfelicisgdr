@@ -28,21 +28,22 @@ migration:
       item: "Intuito Profetico"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Funzionamento OFFGame**
 Si tratta di un'Abilità Divinatoria che permette al Player di sfruttare una breve precognizione del futuro immediato per modificare eccezionalmente la normale gestione di Azioni e Reazioni.
 A seconda della modalità scelta, il PG può rinunciare alla propria Reazione per ottenere una nuova Azione Principale o Bonus, oppure ottenere una Reazione aggiuntiva nello stesso turno.
 Il numero massimo di utilizzi per Role dipende dall'Efficacia della Maestria. Quando richiesto, l'utilizzo deve essere dichiarato prima di conoscere l'esito dell'Azione o dell'evento che il PG sta anticipando e non può essere usato per modificare retroattivamente un risultato già noto.
-• *Livello I:* 1 utilizzo
-• *Livello II:* fino a 2 utilizzi
-• *Livello III:* fino a 3 utilizzi
+- *Livello I:* 1 utilizzo
+- *Livello II:* fino a 2 utilizzi
+- *Livello III:* fino a 3 utilizzi
 È possibile utilizzare Intuito Profetico una sola volta per turno.
 
 **Sostituire la Reazione con una nuova Azione**
 Il Player può rinunciare alla Reazione normalmente disponibile nel turno per effettuare al suo posto:
-• Una nuova Azione Principale o Bonus. La nuova Azione si aggiunge alle Azioni normalmente disponibili nel turno, ma la Reazione viene considerata consumata e non potrà essere utilizzata successivamente nello stesso turno.
-• Una Reazione aggiuntiva nello stesso turno. Il PG può quindi effettuare fino a 2 Reazioni anziché una sola.
+- Una nuova Azione Principale o Bonus. La nuova Azione si aggiunge alle Azioni normalmente disponibili nel turno, ma la Reazione viene considerata consumata e non potrà essere utilizzata successivamente nello stesso turno.
+- Una Reazione aggiuntiva nello stesso turno. Il PG può quindi effettuare fino a 2 Reazioni anziché una sola.
 Entrambe seguono tutte le normali regole delle Reazioni: devono essere utilizzate in risposta a una situazione che ne consenta l'impiego e non diventano automaticamente Azioni offensive o liberamente utilizzabili.
 
 **Manifestazione ONGame**
@@ -54,3 +55,5 @@ Ogni utilizzo di *Intuito Profetico* consuma:
 Livello I: 1,5 Fatica
 Livello II: 1 Fatica
 Livello III: 0,5 Fatica
+
+</details>
