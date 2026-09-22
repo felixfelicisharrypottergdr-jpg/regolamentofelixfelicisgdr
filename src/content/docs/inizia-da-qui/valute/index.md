@@ -2,7 +2,7 @@
 felixId: "54e4ae01-b782-4100-bc25-dcaff5df0ca4"
 title: "Le Valute di Gioco"
 description: "Punti Post, Galeoni e Felix Token: regole complete."
-contentType: landing
+contentType: rule
 searchAliases:
   - "valute"
   - "punti post"
