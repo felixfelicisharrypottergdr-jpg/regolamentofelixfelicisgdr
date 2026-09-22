@@ -97,7 +97,24 @@ Effetti:
 - gli aggiornamenti futuri possono modificare una copia e lasciare l'altra obsoleta;
 - il player non sa quale pagina sia canonica.
 
-Obiettivo della fase editoriale: un solo luogo canonico per ogni regola; landing e panoramiche devono rimandare alla regola, non duplicarla.
+**Misura della sovrapposizione (7-grammi, audit 22/09):**
+
+- Commercio → Acquistare: **100%** del testo della sottopagina è già nel monolite;
+- Commercio → Vendere: **100%**;
+- Quidditch → Hogwarts: **100%**;
+- Quidditch → Adulti: **100%**;
+- Quidditch → Come si gioca: **100%**;
+- Leggi → Iniziare una causa: **100%**;
+- Leggi → Patteggiamento: **100%**;
+- Leggi → Processo: **100%**;
+- Leggi → Sedute Straordinarie: **100%**;
+- Leggi → Partecipare a un Processo: **100%**;
+- Magizoologia → Fiducia: **97,2%**;
+- Magizoologia → Domesticazione: **97,9%**.
+
+La doppia area **Mondo Magico / Medimagia** vs **Manuali / Medimagia** è stata invece verificata e **non è un duplicato**: la sovrapposizione testuale è circa **0,1%**.
+
+**Raccomandazione per la fase IA:** quando una sottopagina è completa e verificata, renderla il luogo canonico della regola; la pagina madre deve diventare orientamento/indice e non mantenere la copia integrale. Il taglio dei monoliti non va fatto prima della mappatura completa delle sezioni, per evitare perdita di contenuto unico.
 
 ### P1-02 — Tipi Pagefind duplicati
 **Stato: FIX IMPLEMENTATO, VERIFICA BUILD IN CORSO**
@@ -279,3 +296,14 @@ Dopo i lotti di correzione del 21 settembre, l'ultima pipeline completamente ver
 - build e deploy GitHub Pages riusciti.
 
 Il 22 settembre è stata inoltre avviata una seconda pulizia delle sequenze di enfasi legacy `****` nelle pagine ancora segnalate dall'audit. Le regole e i valori numerici non sono stati modificati.
+
+
+### P1-09 — Risultati ricerca troncati a 24
+**Stato: RISOLTO**
+
+La ricerca Pagefind calcolava tutti i risultati ma renderizzava soltanto i primi 24 senza paginazione. È stato aggiunto il caricamento progressivo “Mostra altri risultati” a blocchi da 24.
+
+### P1-10 — Filtro anno non funzionante in due cataloghi
+**Stato: RISOLTO**
+
+Conoscenze Scolastiche e Tecniche Divinatorie usavano `data-filter="school-year"`, incompatibile con l'accesso `dataset[filter]` del motore cataloghi. Il filtro usa ora `schoolYear`, coerente con `data-school-year`.
