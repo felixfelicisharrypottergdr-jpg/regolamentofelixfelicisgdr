@@ -374,7 +374,9 @@ Un PG Studente che, terminato il percorso di studi ad Hogwarts dopo gli esami M.
 
 **POPOLARITA'**
 Essere popolari ad Hogwarts è semplice, esserlo nel Mondo Magico un po' meno. Tuttavia, non significa che uno studente particolarmente conosciuto non possa aver fatto, nel corso della sua carriera scolastica, risuonare il proprio nome anche al di fuori delle mura del castello e all'interno della società magica.
-Per questo motivo, il valore della Popolarità ottenuta alla fine del VII anno e al passaggio da PG Studente a PG Adulto è **pari a **8****, il massimo possibile per un nuovo PG Adulto, **più 1 punto ogni 10 di Popolarità da studente**, arrotondati eccezionalmente *per eccesso.
+Per questo motivo, il valore della Popolarità ottenuta alla fine del VII anno e al passaggio da PG Studente a PG Adulto è **pari a **8**
+
+**, il massimo possibile per un nuovo PG Adulto, **più 1 punto ogni 10 di Popolarità da studente**, arrotondati eccezionalmente *per eccesso.
 
 > **Esempio.**
 > Billy termina la scuola con 34 Popolarità. Nel mondo adulto riparte con **8+4=12 Popolarità** (4 punti perché 34 diviso 10 fa 4, se arrotondato per eccesso).
