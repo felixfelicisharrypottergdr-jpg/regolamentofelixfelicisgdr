@@ -28,7 +28,8 @@ migration:
       item: "Presentimento"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Funzionamento OFFGame**
 Abilità Divinatoria utilizzabile prima dell'inizio di un Evento o di una Quest gestiti dal Narratore. Permette al Player di ricevere privatamente dal Narratore una o più indicazioni relative a elementi della giocata per i quali una preparazione preventiva potrebbe risultare utile.
@@ -37,16 +38,16 @@ Quando vengono aperte le iscrizioni, o comunque prima dell'ingresso del PG nella
 
 **Indicazioni ricevute**
 Il numero massimo di indicazioni ricevute dipende dall'Efficacia della Maestria:
-• *Livello I:* 1 indicazione
-• *Livello II:* fino a 2 indicazioni
-• *Livello III:* fino a 3 indicazioni
+- *Livello I:* 1 indicazione
+- *Livello II:* fino a 2 indicazioni
+- *Livello III:* fino a 3 indicazioni
 
 Il Narratore può scegliere fra quelle più adatte alla giocata:
-• una condizione ambientale: freddo, oscurità, acqua, aria irrespirabile ecc.;
-• una necessità fisica o un Parametro: conservare o recuperare Fatica, Salute, Resistenza ecc.;
-• una tipologia di pericolo: veleno, ferite, Magia Mentale, Malattie, Creature ecc.;
-• una funzione o categoria di risorse: qualcosa che permetta di vedere ciò che normalmente non si vede, respirare in condizioni particolari, proteggersi, orientarsi ecc.;
-• un'indicazione equivalente scelta dal Narratore quando più adatta alla situazione prevista.
+- una condizione ambientale: freddo, oscurità, acqua, aria irrespirabile ecc.;
+- una necessità fisica o un Parametro: conservare o recuperare Fatica, Salute, Resistenza ecc.;
+- una tipologia di pericolo: veleno, ferite, Magia Mentale, Malattie, Creature ecc.;
+- una funzione o categoria di risorse: qualcosa che permetta di vedere ciò che normalmente non si vede, respirare in condizioni particolari, proteggersi, orientarsi ecc.;
+- un'indicazione equivalente scelta dal Narratore quando più adatta alla situazione prevista.
 
 Le indicazioni descrivono esclusivamente una necessità o una possibilità rilevante per la giocata e non possono identificare direttamente l'Oggetto, la Pozione, l'Incantesimo, la Conoscenza o la specifica soluzione necessaria per affrontarla.
 
@@ -87,6 +88,8 @@ Allo stesso modo, ONGame il PG non possiede informazioni abbastanza precise da p
 
 **Costo in Fatica**
 L'utilizzo di *Presentimento* consuma Fatica all'inizio della Quest o dell'Evento in base all'Efficacia della Maestria:
-• *Livello I:* -3 Fatica
-• *Livello II:* -2 Fatica
-• *Livello III:* -1 Fatica
+- *Livello I:* -3 Fatica
+- *Livello II:* -2 Fatica
+- *Livello III:* -1 Fatica
+
+</details>
