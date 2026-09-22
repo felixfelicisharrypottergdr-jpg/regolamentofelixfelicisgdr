@@ -26,7 +26,8 @@ migration:
       item: "Metamagia"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Incantesimi compatibili**
 La Metamagia può essere utilizzata esclusivamente sugli Incantesimi *Arcaici, Difensivi, Elementali, Mentali e Illusioni, Offensivi e Trasfigurativi.*
@@ -121,3 +122,5 @@ Le modifiche disponibili dipendono dal Livello della Maestria:
 > Se una delle modifiche scelte è *Rapida*, l'Azione Bonus utilizzata per Doppia Metamagia coincide con quella con cui viene evocato l'Incantesimo.
 > L'Incantesimo modificato tramite Doppia Metamagia non genera Punti Metamagia.
 
+
+</details>
