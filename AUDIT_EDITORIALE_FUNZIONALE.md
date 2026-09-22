@@ -334,3 +334,117 @@ Sono candidate forti alla suddivisione in pagine canoniche più piccole, sopratt
 #### Architettura dei manuali
 
 Il blocco mostra una struttura ibrida: alcuni manuali hanno una pagina guida più catalogo strutturato, altri mantengono ancora grandi monoliti testuali, altri ancora duplicano regole in sottopagine. Prima della fase UX/filtri va uniformato il principio editoriale: **pagina guida breve + catalogo strutturato + sottopagine canoniche per sistemi complessi**, evitando di conservare contemporaneamente la stessa regola nel monolite e nella pagina figlia.
+
+
+## Blocco 3 — Mondo Magico
+
+Audit puntuale completato sulle **32 pagine documentali** della macroarea Mondo Magico, sui cataloghi strutturati di **Oggetti** e **Leggi**, e sulle relative pagine Astro di consultazione.
+
+### Correzioni funzionali applicate
+
+- Normalizzato il collegamento dal topic **Negozi** al Catalogo Oggetti. Un primo percorso relativo risultava troppo corto ed è stato bloccato dal preflight; il percorso corretto è stato applicato e validato dalla pipeline.
+- Rimossa dalla landing strutturata delle Leggi la frase residua `Il prototipo comprende...`, sostituita con formulazione coerente con il sito ormai migrato.
+- Esteso l'audit del linguaggio di prototipo/migrazione anche alle pagine Astro scritte a mano, non soltanto ai documenti Markdown.
+- Rimossi import e calcoli inutilizzati dalle pagine strutturate di Documenti normativi e Articoli; le relazioni sono già gestite dal rail laterale comune.
+- Ultimo ciclo completo validato: **1.617 file di contenuto**, **1.617 UUID univoci**, **1.633 route note**, **1.631 pagine HTML**, **94.563 link locali** e **15.090 frammenti/ancore** controllati; preflight, audit sorgenti, build, audit HTML e deploy riusciti.
+
+### P0/P1 editoriale — canonicità concorrente
+
+Nel blocco la duplicazione della stessa regola fra monoliti e sottopagine è particolarmente estesa.
+
+Confronti puntuali per paragrafi significativi confermano, fra gli altri:
+
+- Commercio / Acquistare Merci Magiche: forte sovrapposizione con il monolite Commercio;
+- Commercio / Vendere Merci Magiche: forte sovrapposizione con il monolite Commercio;
+- Commercio / Gringott: forte sovrapposizione con il monolite Commercio;
+- Quidditch / Quidditch ad Hogwarts: quasi interamente duplicato nel monolite Quidditch;
+- Quidditch / Quidditch tra PG Adulti: duplicazione sostanzialmente integrale;
+- Quidditch / Come si gioca: quasi interamente duplicato nel monolite Quidditch;
+- Leggi Magiche / Iniziare una Causa ONGame: quasi interamente duplicato nella pagina Magisprudenza dedicata;
+- Leggi Magiche / Struttura del Processo: quasi interamente duplicato nella pagina Processo;
+- Leggi Magiche / Partecipare ad un Processo: ampiamente duplicato nella sezione Wizengamot.
+
+La pagina **Partite da background** del Quidditch, invece, risulta sostanzialmente autonoma rispetto al monolite e non va assimilata automaticamente alle duplicazioni precedenti.
+
+La soluzione resta architetturale: scegliere una sola copia canonica della regola e trasformare le altre occorrenze in landing/rimandi, oppure completare la suddivisione del monolite eliminando dal monolite i blocchi trasferiti.
+
+### P1 editoriale — Leggi Magiche a tre livelli
+
+Le Leggi presentano attualmente tre livelli di rappresentazione concorrenti:
+
+1. il monolite `mondo-magico/leggi-magiche`;
+2. i 3 Documenti normativi strutturati completi;
+3. una collection di soli **5 Articoli strutturati**.
+
+I tre Documenti strutturati contengono già integralmente numerosi articoli: la Carta contiene oltre venti occorrenze di articoli, il Codice oltre cento, il Corollario diverse decine. I cinque Articoli strutturati rappresentano quindi soltanto una parte della granularità disponibile.
+
+Non manca il testo delle leggi, ma va deciso se:
+
+- strutturare realmente **tutti** gli articoli e usare i Documenti come contenitori;
+- mantenere i Documenti completi e rinunciare alle singole copie degli articoli;
+- dichiarare esplicitamente la collection Articoli come selezione/indice di articoli notevoli, evitando di farla apparire come scomposizione completa.
+
+### P1 regolamentare — range sovrapposti nella Cavalcata/Volo
+
+Nella regola **Cadere dalla Creatura in volo** sono presenti contemporaneamente:
+
+- Adulti con **1–15 Sapienza Magizoologica** → +3 possibilità;
+- Adulti con **10–25 Sapienza Magizoologica** → +4 possibilità.
+
+I valori **10–15** ricadono quindi in entrambe le fasce. La medesima anomalia è presente nella fonte migrata, quindi il sito la conserva correttamente e non viene corretta automaticamente.
+
+Nella regola immediatamente precedente relativa alla corsa le fasce sono invece **1–15** e **16–25**. Questo rende plausibile un refuso, ma non è sufficiente per sostituire la regola senza decisione Staff.
+
+### P1 funzionale/editoriale — filtro PG e applicabilità
+
+La ricerca globale applica il filtro Pagefind `PG Studente / PG Adulto` in maniera esatta: una pagina senza metadato di applicabilità **non compare** quando il filtro è attivo.
+
+Nel Blocco 3 risultano **15 pagine di tipo rule** con `applicability: []`, fra cui:
+
+- Commercio e relative regole;
+- Giochi Magici;
+- Leggi Magiche;
+- Magisprudenza e relative procedure;
+- La Medimagia;
+- il monolite Quidditch e Partite da background.
+
+I Trasporti, Quidditch ad Hogwarts, Quidditch tra PG Adulti e Wizengamot sono invece già modellati.
+
+Non assegno automaticamente Studente/Adulto alle 15 pagine mancanti: alcune contengono regole miste o sezioni con destinatari differenti. Va completata la modellazione prima di considerare il filtro PG semanticamente affidabile.
+
+### P1 editoriale — monoliti e gerarchia interna
+
+Nel blocco spiccano quattro monoliti:
+
+- La Medimagia ~117k caratteri;
+- Le Leggi Magiche ~110k;
+- Quidditch ~73k;
+- Giochi Magici ~50k.
+
+La criticità non è soltanto la lunghezza. La gerarchia Markdown mostra numerosi elementi secondari promossi a H2:
+
+- Medimagia: `Esempio`, `X`, `XX`, `XXX`, `XXXX`, `XXXXX`, `Click per il riassuntone!` e blocchi operativi;
+- Quidditch: esempi, singole azioni di gioco e scenari allo stesso livello delle sezioni principali;
+- Leggi Magiche: passaggi operativi come `- Contattare eventuali Testimoni` trattati come H2;
+- Giochi Magici: numerose intestazioni identiche `Come si gioca?` senza il nome del gioco nel titolo.
+
+Questo produce indici di pagina lunghi, ripetitivi o semanticamente poco chiari. La correzione va fatta insieme alla suddivisione dei monoliti, non con un abbassamento automatico indiscriminato degli heading.
+
+### P1 architettura — due aree Medimagia
+
+Esistono due sezioni distinte ma semanticamente molto vicine:
+
+- **Mondo Magico / La Medimagia**: Salute, Sintomi, cure, guarigione, San Mungo e meccanica di gioco;
+- **Manuali / Enciclopedia Medimagica**: conoscenze, tecniche, sintomatologia e compendio medico.
+
+Il confronto testuale non mostra una duplicazione significativa fra i due monoliti: il problema è soprattutto di **naming e orientamento**. La pagina Mondo Magico cita l'Enciclopedia come manuale di riferimento ma non la rende immediatamente un percorso strutturale evidente.
+
+In fase IA/UX conviene rendere esplicita la distinzione fra **sistema di Salute e Cure** e **manuale delle Conoscenze Medimagiche**, con collegamenti reciproci molto visibili.
+
+### Refusi di conversione/editoriali confermati nel blocco
+
+Resta da correggere editorialmente, dopo approvazione, almeno:
+
+- Medimagia: `ClassificazioneXXXXX` → perdita del separatore/formattazione fra “Classificazione” e “XXXXX”.
+
+Sono invece intenzionali o tecnicamente legittimi formule e identificativi come `N°ProprieGobbiglieInGioco`, `1dN°CarteInMano`, `TiroSegmento`, `GoalSegmento`, `GoalBase`, nonché nomi propri come McClan/McPhail e denominazioni di Pozioni/Vaccini in camel case.
