@@ -724,11 +724,65 @@ export default defineConfig({
             {
               label: 'Sapienze',
               items: [
-                { label: 'Le Sapienze', slug: 'conoscenze-e-sapienze/sapienze' },
-                { label: 'Sapienze Magiche', slug: 'conoscenze-e-sapienze/sapienze/magiche' },
-                { label: 'Sapienze Fisiche', slug: 'conoscenze-e-sapienze/sapienze/fisiche' },
-                { label: 'Sapienze Sociali', slug: 'conoscenze-e-sapienze/sapienze/sociali' },
-                { label: 'Crescita a Debito', slug: 'conoscenze-e-sapienze/sapienze/crescita-a-debito' },
+                {
+                  label: 'Le Sapienze',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/sapienze' },
+                    { label: 'Definizione di Sapienza', link: '/conoscenze-e-sapienze/sapienze/#definizione' },
+                  ],
+                },
+                {
+                  label: 'Sapienze Magiche',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/sapienze/magiche' },
+                    { label: 'Composizione', link: '/conoscenze-e-sapienze/sapienze/magiche/#compomagiche' },
+                    { label: 'Dove, come, quando e perché', link: '/conoscenze-e-sapienze/sapienze/magiche/#magichedovecome' },
+                    { label: 'Costo delle Sapienze Magiche', link: '/conoscenze-e-sapienze/sapienze/magiche/#costosapmagica' },
+                    { label: 'PG Adulti appena creati', link: '/conoscenze-e-sapienze/sapienze/magiche/#adulticreati' },
+                    { label: 'Studenti che diventano Adulti', link: '/conoscenze-e-sapienze/sapienze/magiche/#studadul' },
+                    { label: 'Adulti senza Sapienza affine', link: '/conoscenze-e-sapienze/sapienze/magiche/#noaffine' },
+                    { label: 'Sapienze Magiche celate', link: '/conoscenze-e-sapienze/sapienze/magiche/#sapmagcelate' },
+                    { label: 'Sapienze Magiche disponibili', link: '/conoscenze-e-sapienze/sapienze/magiche/#magichedisp' },
+                  ],
+                },
+                {
+                  label: 'Sapienze Fisiche',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/sapienze/fisiche' },
+                    { label: 'Dove, come, quando e perché', link: '/conoscenze-e-sapienze/sapienze/fisiche/#fisichedovecome' },
+                    { label: 'Composizione', link: '/conoscenze-e-sapienze/sapienze/fisiche/#compofisiche' },
+                    { label: 'Costo delle Sapienze Fisiche', link: '/conoscenze-e-sapienze/sapienze/fisiche/#costosapfisiche' },
+                    { label: 'Sapienze Fisiche disponibili', link: '/conoscenze-e-sapienze/sapienze/fisiche/#fisichedisp' },
+                  ],
+                },
+                {
+                  label: 'Sapienze Sociali',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/sapienze/sociali' },
+                    { label: 'Dove, come, quando e perché', link: '/conoscenze-e-sapienze/sapienze/sociali/#socialidovecome' },
+                    { label: 'Composizione', link: '/conoscenze-e-sapienze/sapienze/sociali/#composociali' },
+                    { label: 'Costo delle Sapienze Sociali', link: '/conoscenze-e-sapienze/sapienze/sociali/#costosapsociale' },
+                    { label: 'Sapienze Sociali disponibili', link: '/conoscenze-e-sapienze/sapienze/sociali/#socialidisp' },
+                  ],
+                },
+                {
+                  label: 'Crescita a Debito',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/sapienze/crescita-a-debito' },
+                    {
+                      label: 'Le condizioni di crescita',
+                      items: [
+                        { label: 'Panoramica', link: '/conoscenze-e-sapienze/sapienze/crescita-a-debito/#condizioni' },
+                        { label: 'Come distribuire la Sapienza', link: '/conoscenze-e-sapienze/sapienze/crescita-a-debito/#distribuzione' },
+                        { label: 'Limiti delle Sapienze', link: '/conoscenze-e-sapienze/sapienze/crescita-a-debito/#limiti' },
+                        { label: 'Convivere col debito', link: '/conoscenze-e-sapienze/sapienze/crescita-a-debito/#convivere' },
+                        { label: 'Le fasce di debito', link: '/conoscenze-e-sapienze/sapienze/crescita-a-debito/#fasce' },
+                        { label: 'Costi delle Sapienze', link: '/conoscenze-e-sapienze/sapienze/crescita-a-debito/#costi' },
+                      ],
+                    },
+                    { label: 'Compila facile!', link: '/conoscenze-e-sapienze/sapienze/crescita-a-debito/#compiladebito' },
+                  ],
+                },
               ],
             },
             {
