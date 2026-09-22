@@ -141,9 +141,9 @@ Nelle Schede PG, le Sapienze celate sono contrassegnate dal simbolo *.
 ### Sapienze Magiche disponibili
 La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli Appositi Manuali di Magia.
 
+<a id="sapienzarcaica"></a>
 <table>
 <thead>
-<a id="sapienzarcaica"></a>
 <tr><th colspan="6">SAPIENZA ARCAICA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -157,9 +157,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzadifensiva"></a>
 <table>
 <thead>
-<a id="sapienzadifensiva"></a>
 <tr><th colspan="6">SAPIENZA DIFENSIVA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -173,9 +173,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzadivinatoria"></a>
 <table>
 <thead>
-<a id="sapienzadivinatoria"></a>
 <tr><th colspan="6">SAPIENZA DIVINATORIA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -189,9 +189,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzaelementale"></a>
 <table>
 <thead>
-<a id="sapienzaelementale"></a>
 <tr><th colspan="6">SAPIENZA ELEMENTALE</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -205,9 +205,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzaerbologica"></a>
 <table>
 <thead>
-<a id="sapienzaerbologica"></a>
 <tr><th colspan="6">SAPIENZA ERBOLOGICA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -221,9 +221,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzamagizoologica"></a>
 <table>
 <thead>
-<a id="sapienzamagizoologica"></a>
 <tr><th colspan="6">SAPIENZA MAGIZOOLOGICA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -237,9 +237,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzamedimagica"></a>
 <table>
 <thead>
-<a id="sapienzamedimagica"></a>
 <tr><th colspan="6">SAPIENZA MEDIMAGICA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -253,9 +253,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzaamentale"></a>
 <table>
 <thead>
-<a id="sapienzaamentale"></a>
 <tr><th colspan="6">SAPIENZA MENTALE</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -269,9 +269,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzaaoffensiva"></a>
 <table>
 <thead>
-<a id="sapienzaaoffensiva"></a>
 <tr><th colspan="6">SAPIENZA OFFENSIVA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -285,9 +285,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzaoscura"></a>
 <table>
 <thead>
-<a id="sapienzaoscura"></a>
 <tr><th colspan="6">SAPIENZA OSCURA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -301,9 +301,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzapozionistica"></a>
 <table>
 <thead>
-<a id="sapienzapozionistica"></a>
 <tr><th colspan="6">SAPIENZA POZIONISTICA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
@@ -317,9 +317,9 @@ La descrizione dettagliata di ogni singola Sapienza Magica è disponibile negli 
 </table>
 
 
+<a id="sapienzatrasfigurativa"></a>
 <table>
 <thead>
-<a id="sapienzatrasfigurativa"></a>
 <tr><th colspan="6">SAPIENZA TRASFIGURATIVA</th></tr>
 <tr><th>Conoscenza</th><th>50 Galeoni</th><th>5 PP</th><th>10 PP</th><th>15 PP</th><th>20 PP</th></tr>
 </thead>
