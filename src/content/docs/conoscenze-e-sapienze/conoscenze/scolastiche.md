@@ -18,17 +18,12 @@ migration:
 
 # Conoscenze Scolastiche
 
-**INDICE**
-
-• Cosa sono e come si usano
-
-• Elenco delle Conoscenze Scolastiche
-
+<a id="cosasono"></a>
 ## Cosa sono e come si usano
 Le Conoscenze Scolastiche (riconoscibili dal simbolo ) sono tutti quegli Incantesimi, Conoscenze, Pozioni, Creature, ecc., che vengono insegnate ai PG Studenti tra le mura di Hogwarts, durante le lezioni che gli studenti e le studentesse frequentano quotidianamente da background.
 Sono suddivise per categoria (Offensive, Difensive, Erbologiche, Magizoologiche, ecc.) e per anno scolastico (V, VI e VII) e si posizionano all'interno del Piano di Studi dei PG Studenti ciascuna sotto una Materia Scolastica.
-• **PG Studenti** conoscono autoconclusivamente tutte le Conoscenze Scolastiche del Piano di Studi del loro anno e di quelli precedenti. Maturano la loro padronanza attraverso il miglioramento del Voto Scolastico della Conoscenza e della media del voto della materia a questa appartiene. Possono inoltre acquistareo apprendereConoscenze Scolastiche degli anni successivi che ancora non conoscono;
-• **PG Adulti** conoscono autoconclusivamente tutte le Conoscenze Scolastiche. Possono scegliere, alla creazione del PG, **3 delle materie facoltative** seguite durante la loro carriera scolastica tra Aritmanzia, Antiche Rune, Babbanologia, Cura delle Creature Magiche e Divinazione (se nati dal 2007 in su, obbligatoriamente Babbanologia) di cui acquisire da background le relative Conoscenze Scolastiche.
+- **PG Studenti** conoscono autoconclusivamente tutte le Conoscenze Scolastiche del Piano di Studi del loro anno e di quelli precedenti. Maturano la loro padronanza attraverso il miglioramento del Voto Scolastico della Conoscenza e della media del voto della materia a questa appartiene. Possono inoltre acquistareo apprendereConoscenze Scolastiche degli anni successivi che ancora non conoscono;
+- **PG Adulti** conoscono autoconclusivamente tutte le Conoscenze Scolastiche. Possono scegliere, alla creazione del PG, **3 delle materie facoltative** seguite durante la loro carriera scolastica tra Aritmanzia, Antiche Rune, Babbanologia, Cura delle Creature Magiche e Divinazione (se nati dal 2007 in su, obbligatoriamente Babbanologia) di cui acquisire da background le relative Conoscenze Scolastiche.
 L'uso delle Conoscenze Scolastiche può essere autoconcluso nelle Free role solo e soltanto se utilizzato per dare colore alle proprie role, ovvero se non offrono alcun tipo di vantaggio materiale né rischiano di causare danni a cose o persone. Per qualsiasi altro utilizzo che non sia una semplice nota per arricchire il proprio post, va richiesto l'intervento del Narratore che provvederà a descrivere l'esito dell'utilizzo della Conoscenza.
 
 > **Nota.**
@@ -36,6 +31,7 @@ L'uso delle Conoscenze Scolastiche può essere autoconcluso nelle Free role solo
 Le Fatture, riconoscibili dal simbolo ( ) , sono incluse nelle Conoscenze Scolastiche perchè facili da evocare/creare/utilizzare ma il loro uso ad Hogwarts è vietato e per questo motivo non vengono insegnate.
 Esse dunque non fanno parte delle conoscenze degli studenti come tutte le altre Conoscenze Scolastiche, a meno che non vengano acquistate o ottenute in altro modo.
 
+<a id="elencoscola"></a>
 ## Elenco delle Conoscenze Scolastiche
 
 **ANTICHE RUNE**
@@ -134,7 +130,8 @@ Albero di Cenere H (VII)
 Albero della Vita H (VII)
 Algabranchia H (VI)
 
-## Altre Piante XXX, escluse Extra H (V)
+<details><summary><strong>Altre Piante XXX, escluse Extra H (V)</strong></summary>
+
 Arbusto Autofertilizzante, Bubotubero, Bulbo Balzellante
 Cespuglio Farfallino, Cespuglio Spinoso, Fagiolo Corridore, Fungo Allucinogeno, Fungo Scoppiettante, Mimbulus Mimbletonia, Muschio del Sud, Puffagiolo
 Amarantacea H (VII)
@@ -185,13 +182,22 @@ Tarantallegra H
 **MAGIZOOLOGICHE**
 
 Acromantula H (V)
-## Altre Creature XXX H (VI)
+</details>
+
+<details><summary><strong>Altre Creature XXX H (VI)</strong></summary>
+
 Billywig, Doxy, Pixie, Puffskein, Kneazle, Crup, Glumbumble, Moke, Plimpi, Malaclaw Maculato, Ippocampo, Knarl, Lobalug, Snaso, Sblorb, Streeler
 
-## Altre Creature XXXX ed Esseri H (VII)
+</details>
+
+<details><summary><strong>Altre Creature XXXX ed Esseri H (VII)</strong></summary>
+
 Bolcino d'oro, Bicorno, Kelpie, Schiopodo Sparacoda, Gigante, Ciclope, Grifone, Legilimens
 
-## Altre Creature XX, Esseri, Non Esseri e Spiriti H (V)
+</details>
+
+<details><summary><strong>Altre Creature XX, Esseri, Non Esseri e Spiriti H (V)</strong></summary>
+
 Bundimun, Fata, Gnomo, Lumaca Carnivora, Ghoul, Jobberknoll, Nano, Lepricano, Goblin, Ninfe dei boschi*, Elfo domestico, Orco, Fantasma
 Ammuntadore H (VII)
 Asticello H (V)
@@ -207,7 +213,10 @@ Centauro H (VII)
 Chizpurfle H (V)
 Clabbert H (V)
 
-## Creature X H (V)
+</details>
+
+<details><summary><strong>Creature X H (V)</strong></summary>
+
 Bezoar, Birdengold, Drakul, Duckbill, Duriccio, Glowbug, Hanabira, Horklump, Jigglypuff, Marmite, Puffola Pigmea, Scriber, Shellusk, Vermicolo
 Diricawl H (V)
 Dugbog H (VI)
@@ -347,3 +356,5 @@ Transmuto Partialis H (V)
 Vera Verto H (V)
 Vestis H (VI)
 Vocatus H (V)
+
+</details>
