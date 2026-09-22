@@ -533,3 +533,79 @@ Sono state quindi applicate soltanto normalizzazioni tecniche evidenti (rimozion
 ### Conseguenza sull'audit precedente
 
 Le anomalie di heading, monolite e duplicazione rilevate nei primi tre blocchi restano utili, ma devono essere considerate **preliminari** finché la relativa area non ha superato l'audit di fedeltà strutturale. Elementi trasformati erroneamente da `<details>`, tabelle, callout o formattazioni HTML possono infatti produrre falsi H2/H3 e falsi problemi di gerarchia.
+
+
+## Audit di fedeltà strutturale — Blocco B — Giocare (Dadi, Meccaniche, Role e Modalità)
+
+Confronto eseguito contro le fonti **1. Le Regole del Gioco** e **6. Modalità di Gioco**.
+
+### Dadi e casualità
+
+- rimosso l'INDICE copiato nel corpo;
+- trasferita nella sidebar la gerarchia originale Perché i dadi / Lancio / Quando / Player-Narratore / possibilità / facce-risultato / interpretazione;
+- ripristinati gli anchor originali della fonte;
+- convertiti i pallini testuali in liste semantiche.
+
+La fonte non contiene disclosure o tabelle in questa sezione, quindi non risultano strutture di quel tipo mancanti dopo la correzione.
+
+### Meccaniche di gioco
+
+Questa pagina rappresentava il caso più grave incontrato finora nella conversione:
+
+- la fonte contiene **48 `<details>`**;
+- la pagina migrata ne conteneva **0**;
+- i 48 summary erano stati quasi tutti trasformati in H2/H3, producendo un indice estremamente lungo e una falsa gerarchia editoriale.
+
+Sono stati ripristinati **48 disclosure su 48**, inclusa la gerarchia annidata originale:
+
+- Luoghi di Hogwarts → Affollati / Isolati / Vietati / Personali;
+- Luoghi del Mondo Magico → Affollati / Isolati / Personali / Sorvegliati;
+- Aumentare / Diminuire le possibilità;
+- i quattro confronti per intuire una menzogna;
+- le ripetizioni delle strutture per spionaggio, ficcanasare, furto e scippo.
+
+Sono inoltre stati:
+
+- rimossi l'INDICE dal corpo e i pallini grezzi;
+- ripristinati gli anchor originali per Spiare, Ficcanasare, Agire alle spalle, Intuire una menzogna, Rubare/Scippare/Rapinare, Duello verbale e Sensi Magici;
+- trasferita la struttura dell'indice nella sidebar sinistra.
+
+Questa correzione ridimensiona sostanzialmente la precedente anomalia di “troppi H2” della pagina: una parte molto consistente non era una scelta editoriale della fonte, ma un errore di conversione.
+
+### Modalità di Gioco
+
+La fonte **6. Modalità di Gioco** è stata confrontata con le pagine in cui il monolite è stato suddiviso nel nuovo sito.
+
+La divisione in più pagine può essere mantenuta: la sidebar ricostruisce ora la gerarchia dell'indice originale tramite collegamenti alle pagine e agli anchor pertinenti.
+
+Ripristinati gli anchor originari per:
+
+- Free Role;
+- Role Masterate e Richieste al Narratore;
+- Eventi, Ambient e Quest;
+- Trama;
+- Sondaggi e Indizi;
+- Classificazione degli Eventi.
+
+Nella sezione Sondaggi la fonte conteneva due disclosure:
+
+- PG Adulti;
+- PG Studenti.
+
+Nella migrazione erano diventati titoli con tabelle sempre aperte. Sono stati ripristinati **2 disclosure su 2**, mantenendo le tabelle interne già correttamente strutturate.
+
+### Sidebar
+
+L'indice originale di Modalità di Gioco viene ora rappresentato dalla navigazione laterale anche se il contenuto è distribuito su più route. Sono state aggiunte le voci annidate per Ambient/Quest, Richieste al Narratore e Sondaggi/Indizi.
+
+### Stato quantitativo dopo la correzione
+
+- Meccaniche di gioco: **48 disclosure aperti / 48 chiusi**;
+- Sondaggi e Indizi: **2 disclosure aperti / 2 chiusi**;
+- Dadi, Meccaniche e Sondaggi: **0 INDICI residui nel corpo**;
+- Dadi e Meccaniche: **0 pallini grezzi** usati come pseudo-liste;
+- nessun anchor duplicato introdotto nelle pagine corrette.
+
+### Perimetro del Blocco B
+
+Questo lotto riguarda le sezioni direttamente verificabili contro **1. Le Regole del Gioco** e **6. Modalità di Gioco**. Guida agli Scontri e Ricerche Casuali vengono trattati in blocchi successivi contro le rispettive fonti dedicate, per evitare di mescolare conversioni provenienti da documenti diversi.
