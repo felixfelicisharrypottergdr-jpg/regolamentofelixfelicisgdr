@@ -37,12 +37,14 @@ l'[Ardemonio](/manuali/incantesimi/ardemonium/).
 
 > **Nota.**
 >
-• Annulla gli incantesimi soltanto se la sua Forza è **pari o superiore** alla Forza
+- Annulla gli incantesimi soltanto se la sua Forza è **pari o superiore** alla Forza
 dell'incantesimo che si vuole annullare.• Nel caso in cui l'incantesimo venga eseguito piantando la bacchetta per terra, i PG
 perdono il triplo della Fatica.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

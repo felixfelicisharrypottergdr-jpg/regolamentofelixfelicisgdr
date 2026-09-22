@@ -35,7 +35,7 @@ assumono la consistenza di un liquido: gli è quindi impossibile tenere in mano 
 (bacchetta magica compresa) oppure mordere e simili.
 E' possibile annullare la trasfigurazione con un Reparifarge più forte del Formài utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -63,3 +63,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 
 **Bersaglio:** Oggetti, Creature e persone
 - 100%: 5 post dell'evocatore (o del bersaglio se è un PG giocante)
+
+</details>

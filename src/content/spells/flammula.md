@@ -34,11 +34,13 @@ senza combustibile o ossigeno. Si possono mettere in un contenitore, come un vas
 marmellata, per portarle sempre con sé e riscaldarsi. Se lasciato libero, il fuoco si esaurisce
 nell'arco di meno tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:**
-• Se conservate dentro un barattolo, esse hanno la durata di 10 post del PG evocatore;
-• Se appiccate per terra, esso dura 5 post del PG evocatore.
+- Se conservate dentro un barattolo, esse hanno la durata di 10 post del PG evocatore;
+- Se appiccate per terra, esso dura 5 post del PG evocatore.
 
 **Parametro del bersaglio intaccato:** //E' utile per anche tenere a bada uno
 Skrímsli.
+
+</details>

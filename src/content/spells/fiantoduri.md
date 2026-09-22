@@ -47,7 +47,7 @@ PG che utilizzano in contemporanea *Fianto Duri* per potenziare uno scudo
 precedentemente evocato sommano tutte le Forze dei Fianto Duri da loro evocati e
 l'aggiungono allo scudo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -65,3 +65,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 33%: +35 Forza
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...- 100%: +50 Forza
+
+</details>

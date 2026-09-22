@@ -32,7 +32,7 @@ che non magica. La fiamma deve essere viva come quella di un incendio. Le fiamme
 freddate con questo incantesimo si contraddistinguono dalle altre perché assumono un
 colore blu e possono essere toccate e attraversate senza subire alcun tipo di danno.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 **Parametro del bersaglio intaccato:** //
@@ -50,3 +50,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 - 33%: 4 post dell'evocatore
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*
 - 100%: 7 post dell'evocatore
+
+</details>

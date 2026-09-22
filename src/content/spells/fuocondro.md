@@ -44,7 +44,7 @@ Poiché le fiamme che vengono create sono fiamme fisiche e non magiche, è possi
 annullare l'incantesimo soltanto spegnendo le fiamme o attendendo che si spengano da
 sole.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -71,3 +71,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 - 33%: max 3 PG; 3 post dell'evocatore
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*
 - 100%: max 6 PG; 6 post dell'evocatore
+
+</details>

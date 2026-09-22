@@ -30,7 +30,7 @@ migration:
       item: "Flagrante"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -60,3 +60,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 **Intuire la presenza della maledizione**
 Un PG può intuire intuire che un oggetto è maledetto da *Flagrante* agendo come
 spiegato nella Guida alla Tracciatura.
+
+</details>

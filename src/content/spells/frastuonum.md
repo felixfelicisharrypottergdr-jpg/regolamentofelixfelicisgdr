@@ -34,7 +34,7 @@ frequenze capaci di stordirlo e rallentarne i movimenti. E' possibile annullarne
 utilizzando un [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) che sia più forte
 del Frastuonum evocato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -60,3 +60,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 6 post del bersaglio
+
+</details>

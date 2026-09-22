@@ -28,7 +28,7 @@ migration:
       item: "Fidelius"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** fino alla morte del Custode Segreto o fino alla rottura dell’Incantesimo
 
@@ -51,3 +51,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Arcaica 1+*
 Se la Potenza dell'Incantesimo precedentemente evocato è...
 - 100%: -7 possibilità al PG che intuisce
+
+</details>

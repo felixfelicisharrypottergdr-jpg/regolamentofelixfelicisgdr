@@ -32,7 +32,7 @@ migration:
 Genera un'onda di energia che impatta violentemente sul
 bersaglio; è utile per distruggere oggetti o rallentare e ferire l'avversario.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 **Parametro del bersaglio intaccato:** Salute (vedi Enciclopedia Medimagica > Lesioni
@@ -50,3 +50,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli
+
+</details>

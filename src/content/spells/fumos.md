@@ -37,7 +37,7 @@ Può essere allontanato mediante l'uso dell'incantesimo di un
 scorrere del tempo.
 Il fumo non è tossico per cui non è pericoloso inspirarlo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -58,3 +58,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%:max 5 PG; 5 post dell'evocatore
+
+</details>
