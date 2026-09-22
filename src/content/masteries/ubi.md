@@ -32,7 +32,8 @@ migration:
       item: "Ubi Magia Tacet"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Attivazione**
 Ubi Magia Tacet viene evocato utilizzando 1 Azione Principale e consumando *4 Fatica* a prescindere dal Livello di Maestria posseduto.
@@ -40,9 +41,9 @@ Una volta stabilita, la Zona Antimagica rimane ancorata al luogo dell'evocazione
 
 **Estensione della Zona Antimagica**
 La Zona Antimagica si sviluppa attorno al punto in cui viene evocata e rimane successivamente ancorata a quello spazio. La sua estensione viene determinata in base al numero di PG che potrebbe normalmente comprendere contemporaneamente:
-• *Livello I:* l'Evocatore + fino a 2 PG;
-• *Livello II:* l'Evocatore + fino a 3 PG;
-• *Livello III:* l'Evocatore + fino a 4 PG.
+- *Livello I:* l'Evocatore + fino a 2 PG;
+- *Livello II:* l'Evocatore + fino a 3 PG;
+- *Livello III:* l'Evocatore + fino a 4 PG.
 
 Questi valori rappresentano esclusivamente un riferimento narrativo per stabilire le dimensioni fisiche della Zona e non costituiscono un limite al numero di soggetti che possono subirne gli effetti.
 Una volta stabiliti i suoi confini, qualsiasi PG, PNG, Creatura o altro soggetto che si trovi o entri fisicamente nella Zona viene immediatamente sottoposto agli effetti di Ubi Magia Tacet.
@@ -82,10 +83,10 @@ Allo stesso modo, un oggetto, una sostanza o un'altra manifestazione la cui stes
 **Razze Speciali e Retaggi**
 Ubi Magia Tacet non modifica né sopprime la Razza o il Retaggio di un PG e non annulla le caratteristiche biologiche, fisiche o permanenti che ne derivano.
 Rimangono quindi normalmente attivi, per esempio:
-• la Pelle Dura di un Mezzogigante;
-• la Tolleranza al Dolore e le altre caratteristiche fisiche proprie di un Lupo Mannaro;
-• eventuali modifiche permanenti ai Parametri dovute alla Razza;
-• caratteristiche corporee, fisiologiche o sensoriali innate.
+- la Pelle Dura di un Mezzogigante;
+- la Tolleranza al Dolore e le altre caratteristiche fisiche proprie di un Lupo Mannaro;
+- eventuali modifiche permanenti ai Parametri dovute alla Razza;
+- caratteristiche corporee, fisiologiche o sensoriali innate.
 Vengono invece impedite o temporaneamente soppresse le manifestazioni attivamente magiche del Retaggio.
 Un Metamorfomagus, per esempio, non può effettuare nuove trasformazioni mentre si trova nella Zona Antimagica, mentre un Mezzelfo non può utilizzare Magia Istintiva per evocare una Conoscenza poiché l'Incantesimo stesso non può formarsi.
 Ubi Magia Tacet non costringe tuttavia il corpo di un PG a perdere una forma già assunta o a ritornare alla propria configurazione naturale, salvo che lo specifico effetto richieda espressamente magia continua per essere mantenuto.
@@ -103,17 +104,17 @@ Per tornare a utilizzare normalmente la magia è necessario uscire fisicamente d
 
 **Forza di Ubi Magia Tacet**
 La Forza Standard di Ubi Magia Tacet è 300, influenzata normalmente dai Parametri del PG e da un Bonus ottenuto dal Livello della Maestria.
-• *Livello I:* nessun Bonus;
-• *Livello II:* +50 Forza;
-• *Livello III:* +100 Forza.
+- *Livello I:* nessun Bonus;
+- *Livello II:* +50 Forza;
+- *Livello III:* +100 Forza.
 
 La Forza della Zona Antimagica è quindi pari alla normale Forza dell'evocazione, aumentata dell'eventuale Bonus previsto dal Livello.
 Tale Forza non determina quali magie vengano soppresse all'interno della Zona, ma viene utilizzata esclusivamente quando un effetto o un Controincantesimo tenta di annullare direttamente Ubi Magia Tacet.
 
 **Durata**
-• *Livello I:* 2 post dell'Evocatore;
-• *Livello II:* 3 post dell'Evocatore;
-• *Livello III:* 4 post dell'Evocatore.
+- *Livello I:* 2 post dell'Evocatore;
+- *Livello II:* 3 post dell'Evocatore;
+- *Livello III:* 4 post dell'Evocatore.
 
 Il post dell'evocazione viene considerato il primo post della durata.
 Una volta creata, la zona si mantiene autonomamente e non richiede concentrazione continua. La perdita di coscienza dell'Evocatore non provoca quindi automaticamente la cessazione dell'effetto.
@@ -121,9 +122,9 @@ Una volta creata, la zona si mantiene autonomamente e non richiede concentrazion
 **Abbandonare la Zona Antimagica**
 Superare completamente la resistenza esercitata dal campo richiede un tempo tanto maggiore quanto più stabile è la Maestria.
 Le stesse regole si applicano all'Evocatore e a qualsiasi soggetto che entri nella Zona dopo la sua creazione.
-• *Livello I:* per uscire è necessario utilizzare 1 Azione Principale. Una volta completata l'uscita il PG torna immediatamente a poter utilizzare la magia e conserva le eventuali altre Azioni ancora disponibili nel proprio post.
-• *Livello II:* per uscire è necessario dedicare 1 intero post all'allontanamento. Durante quel post il PG non può compiere Azioni Principali o Bonus; può tuttavia effettuare eventuali Reazioni non magiche normalmente consentite. L'uscita avviene al termine del post e la magia torna utilizzabile dal post successivo.
-• *Livello III:* per uscire sono necessari 2 interi post consecutivi dedicati all'allontanamento. Durante entrambi il PG non può compiere Azioni Principali o Bonus; può tuttavia effettuare eventuali Reazioni non magiche normalmente consentite. L'uscita avviene soltanto al termine del secondo post e la magia torna utilizzabile dal post successivo.
+- *Livello I:* per uscire è necessario utilizzare 1 Azione Principale. Una volta completata l'uscita il PG torna immediatamente a poter utilizzare la magia e conserva le eventuali altre Azioni ancora disponibili nel proprio post.
+- *Livello II:* per uscire è necessario dedicare 1 intero post all'allontanamento. Durante quel post il PG non può compiere Azioni Principali o Bonus; può tuttavia effettuare eventuali Reazioni non magiche normalmente consentite. L'uscita avviene al termine del post e la magia torna utilizzabile dal post successivo.
+- *Livello III:* per uscire sono necessari 2 interi post consecutivi dedicati all'allontanamento. Durante entrambi il PG non può compiere Azioni Principali o Bonus; può tuttavia effettuare eventuali Reazioni non magiche normalmente consentite. L'uscita avviene soltanto al termine del secondo post e la magia torna utilizzabile dal post successivo.
 
 Al Livello III, se durante uno dei due Post il PG interrompe l'allontanamento o utilizza un'Azione Principale o Bonus, il tentativo viene interrotto e per uscire dovrà ricominciare dal primo dei 2 Post consecutivi.
 Se Ubi Magia Tacet termina o viene dissolto mentre un soggetto sta tentando di abbandonare la Zona, la resistenza del campo scompare immediatamente e non è necessario completare le Azioni o i Post ancora richiesti per uscirne.
@@ -142,3 +143,5 @@ Allo stesso modo, la Maestria non riduce danni già subiti e non cura ferite, Si
 Gli Incantesimi, gli effetti delle Pozioni e le proprietà degli Oggetti Magici già attivi non vengono necessariamente cancellati in modo permanente, ma restano soppressi finché rimangono interessati dall'Antimagia. Se la loro durata non è ancora terminata una volta usciti dalla zona, possono tornare a funzionare normalmente per il tempo residuo. Fanno eccezione gli effetti la cui esistenza dipende da una manifestazione magica continua e autonoma: se tale manifestazione viene dissolta entrando nell'Antimagia, non ricompare successivamente.
 L'Evocatore può mantenere attiva una sola Zona Antimagica alla volta e non può crearne una seconda finché la precedente non è terminata o non è stata dissolta.
 Se due Zone Antimagiche generate da Evocatori differenti si sovrappongono, non si sommano né si potenziano a vicenda: la parte in comune rimane semplicemente soggetta alle normali regole di Ubi Magia Tacet.
+
+</details>
