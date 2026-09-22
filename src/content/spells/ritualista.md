@@ -53,10 +53,11 @@ Più è alto il totale raggiunto dalla somma di questi parametri, più è potent
 eseguito dal PG.
 E' necessario calcolare il genere di Rito Oscuro che si può praticare, insieme al malus
 potenziale, consultando questo
-foglio di calcolo. Ovviamente l'eventuale danno viene
+[foglio di calcolo](https://docs.google.com/spreadsheets/d/1Jx0Dpme8A1NkMD-dhNEw_f-Y_kbWIGN5B0Jsbgc0uuU/edit?usp=sharing). Ovviamente l'eventuale danno viene
 mediato dalla **Resistenza** della vittima.
 
-## Lo Scherno
+<details><summary><strong>Lo Scherno</strong></summary>
+
 
 **Descrizione**
 Lo scherno è un tipo di rito piuttosto semplice da evocare per un Ritualista Oscuro, con
@@ -82,28 +83,14 @@ simboleggiare la dispersione dell'energia verso la vittima.
 *Fatica:* -1,5
 *Salute:* -10
 
-Scherno
-
-Malus
-Salute
-
-5-10%
-Affaticamento
-
-11-20%
-Arrossamento
-
-21-40%
-Bruciore Cutaneo
-
-41-50%
-Cuore Veloce
-
-51-60%
-Ustione di I Grado
-
-61%+
-Perdita dei sensi
+| Scherno | Malus Salute |
+| --- | --- |
+| 5-10% | Affaticamento |
+| 11-20% | Arrossamento |
+| 21-40% | Bruciore Cutaneo |
+| 41-50% | Cuore Veloce |
+| 51-60% | Ustione di I Grado |
+| 61%+ | Perdita dei sensi |
 
 **Conseguenze sulla Vittima**
 *OFFGame:* malus per la durata di 5 Post su un Parametro Magico o Fisico (tranne
@@ -113,7 +100,10 @@ scelto. Questo "qualcosa" può essere scelto dal Player del PG Ritualista, ma lo
 riserva di intervenire laddove noti scelte che ritiene poco consone.
 Trattandosi di Scherno, la causa del malus deve essere qualcosa di poco invalidante.
 
-## Il Malocchio
+</details>
+
+<details><summary><strong>Il Malocchio</strong></summary>
+
 
 **Descrizione**
 Il Malocchio è un tipo di rito relativamente semplice da evocare per un Ritualista Oscuro, con
@@ -142,28 +132,14 @@ l'energia negativa.
 *Fatica:* -2
 *Salute:* -15
 
-Malocchio
-
-Malus
-Salute
-
-5-10%
-Affaticamento
-
-11-20%
-Arrossamento
-
-21-40%
-Bruciore Cutaneo
-
-41-50%
-Cuore Veloce
-
-51-60%
-Ustione di I Grado
-
-61%+
-Ustione di II Grado
+| Malocchio | Malus Salute |
+| --- | --- |
+| 5-10% | Affaticamento |
+| 11-20% | Arrossamento |
+| 21-40% | Bruciore Cutaneo |
+| 41-50% | Cuore Veloce |
+| 51-60% | Ustione di I Grado |
+| 61%+ | Ustione di II Grado |
 
 **Conseguenze sulla Vittima**
 *OFFGame:* Malus per la durata di 5 Post su 3 Parametri Magici o Fisici (tranne
@@ -173,7 +149,10 @@ scelto. Questo "qualcosa" può essere scelto dal Player del PG Ritualista, ma lo
 riserva di intervenire laddove noti scelte che ritiene poco consone.
 Trattandosi di Malocchio, la causa del malus può essere invalidante a livello medio-basso.
 
-## La Piaga
+</details>
+
+<details><summary><strong>La Piaga</strong></summary>
+
 
 **Descrizione**
 La Piaga è un rito di esecuzione più complessa e con conseguenze di media entità sulla
@@ -204,28 +183,14 @@ rito.
 *Fatica:* -3
 *Salute:* -20
 
-Piaga
-
-Malus
-Salute
-
-5-10%
-Affaticamento
-
-11-20%
-Difficoltà Visive
-
-21-40%
-Ferite
-
-41-50%
-Mal di Cranio
-
-51-60%
-Cuore Veloce
-
-61%+
-Perdita di sensi
+| Piaga | Malus Salute |
+| --- | --- |
+| 5-10% | Affaticamento |
+| 11-20% | Difficoltà Visive |
+| 21-40% | Ferite |
+| 41-50% | Mal di Cranio |
+| 51-60% | Cuore Veloce |
+| 61%+ | Perdita di sensi |
 
 **Conseguenze sulla Vittima**
 *OFFGame:* Malus per la durata di 10 Post su 5 Parametri Magici o Fisici (tranne
@@ -235,7 +200,10 @@ scelto. Questo "qualcosa" può essere scelto dal Player del PG Ritualista, ma lo
 riserva di intervenire laddove noti scelte che ritiene poco consone.
 Trattandosi di Piaga, la causa del malus può essere invalidante a livello medio.
 
-## Il Flagello
+</details>
+
+<details><summary><strong>Il Flagello</strong></summary>
+
 
 **Descrizione**
 Il Flagello è un tipo di rito molto complesso da evocare per un Ritualista Oscuro, con
@@ -265,28 +233,14 @@ oscura. Al termine, il ritualista si risveglia senza avere memoria di ciò che h
 *Fatica:* -4
 *Salute:* -25
 
-Flagello
-
-Malus
-Salute
-
-5-10%
-Affaticamento
-
-11-20%
-Allucinazioni
-
-21-40%
-Voce Roca
-
-41-50%
-Fiato Corto
-
-51-60%
-Strappi Muscolari
-
-61%+
-Vertigini
+| Flagello | Malus Salute |
+| --- | --- |
+| 5-10% | Affaticamento |
+| 11-20% | Allucinazioni |
+| 21-40% | Voce Roca |
+| 41-50% | Fiato Corto |
+| 51-60% | Strappi Muscolari |
+| 61%+ | Vertigini |
 
 **Conseguenze sulla Vittima**
 *OFFGame:* Malus per la durata di 15 Post su 7 Parametri Magici o Fisici (tranne
@@ -296,7 +250,10 @@ scelto. Questo "qualcosa" può essere scelto dal Player del PG Ritualista, ma lo
 riserva di intervenire laddove noti scelte che ritiene poco consone.
 Trattandosi di Flagello, la causa del malus può essere invalidante a livello alto.
 
-## Il Maleficio
+</details>
+
+<details><summary><strong>Il Maleficio</strong></summary>
+
 
 **Descrizione**
 Il Maleficio è la più complessa tipologia di Rito Oscuro a cui si può dare vita. Di
@@ -326,27 +283,14 @@ rimanere all'interno del cerchio.
 *Fatica:* -5
 *Salute:* -30
 
-Maleficio
-
-Malus
-Salute
-
-5-10%
-Affaticamento
-
-11-20%
-Allucinazioni
-
-21-40% Voce Roca
-
-41-50%
-Fiato Corto
-
-51-60%
-Strappi Muscolari, Vertigini
-
-61%+
-Vesciche
+| Maleficio | Malus Salute |
+| --- | --- |
+| 5-10% | Affaticamento |
+| 11-20% | Allucinazioni |
+| 21-40% | Voce Roca |
+| 41-50% | Fiato Corto |
+| 51-60% | Strappi Muscolari, Vertigini |
+| 61%+ | Vesciche |
 
 **Conseguenze sulla Vittima**
 *OFFGame:* Malus su Salute, Fatica e tutti i Parametri Magici.
@@ -361,3 +305,5 @@ arrivano fino a XXXXX.
 Un PG Adulto con 16 Volontà, 10 Sapienza Oscura, Ritualista Oscuro III e 11 Punti Sinistri
 vuole evocare un Rito Oscuro contro un altro PG Adulto di 10 Resistenza.
 In base alle sue caratteristiche, può generare una Piaga.
+
+</details>
