@@ -30,7 +30,8 @@ migration:
       item: "Praemunitio"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Funzionamento OFFGame**
 *Praemunitio* può essere evocato preventivamente su sé stessi o su un singolo PG entro Gittata Corta. Il bersaglio non deve necessariamente essere ferito né trovarsi già in una situazione di pericolo.
@@ -90,3 +91,5 @@ Livello I: 3 Fatica
 Livello II: 2 Fatica
 Livello III: 1 Fatica
 La Fatica viene consumata al momento dell'applicazione dell'Incantesimo, indipendentemente dal fatto che *Praemunitio* si attivi successivamente oppure si esaurisca senza produrre alcun effetto.
+
+</details>
