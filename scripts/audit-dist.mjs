@@ -92,9 +92,21 @@ for (const file of htmlFiles) {
   const html = htmlCache.get(sourceRel);
   const pagePath = browserPathForHtml(file);
   const ids = fragmentTargets(html);
+  const rawIds = attrs(html, '[A-Za-z][A-Za-z0-9:-]*', 'id');
+  const duplicateIds = [...new Set(rawIds.filter((value, index) => value && rawIds.indexOf(value) !== index))];
+  for (const id of duplicateIds) errors.push(`${sourceRel}: id HTML duplicato #${id}.`);
 
   if (!/<html\b[^>]*\blang\s*=\s*["']it(?:-|["'])/i.test(html)) warnings.push(`${sourceRel}: lang italiano mancante.`);
   if (!/<title>[^<]+<\/title>/i.test(html)) warnings.push(`${sourceRel}: title HTML mancante o vuoto.`);
+  if (!/<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(html)) warnings.push(`${sourceRel}: H1 renderizzato mancante.`);
+
+  for (const button of html.matchAll(/<button\b[^>]*>[\s\S]*?<\/button>/gi)) {
+    const raw = button[0];
+    const hasAria = /\baria-label\s*=\s*(?:"[^"]+"|'[^']+')/i.test(raw) || /\baria-labelledby\s*=\s*(?:"[^"]+"|'[^']+')/i.test(raw);
+    const hasTitle = /\btitle\s*=\s*(?:"[^"]+"|'[^']+')/i.test(raw);
+    const text = raw.replace(/<[^>]+>/g, ' ').replace(/&[A-Za-z0-9#]+;/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!hasAria && !hasTitle && !text) warnings.push(`${sourceRel}: pulsante senza nome accessibile.`);
+  }
 
   for (const img of html.matchAll(/<img\b[^>]*>/gi)) {
     if (!/\balt\s*=\s*(?:"[^"]*"|'[^']*')/i.test(img[0])) warnings.push(`${sourceRel}: immagine senza attributo alt.`);
