@@ -34,7 +34,8 @@ migration:
       item: "Aura Vulneris"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Applicazione del Marchio**
 L'Evocatore sceglie un singolo bersaglio ed effettua il normale confronto di Destrezza previsto per colpirlo con una Maestria.
@@ -45,18 +46,18 @@ L'applicazione del Marchio richiede 1 Azione Principale e consuma 3 Fatica.
 
 **Forza del Marchio**
 Il Marchio possiede una Forza base di 200, alla quale si aggiunge un Bonus determinato dal Livello della Maestria:
-• *Livello I:* nessun Bonus
-• *Livello II:* +50 Forza
-• *Livello III:* +100 Forza
+- *Livello I:* nessun Bonus
+- *Livello II:* +50 Forza
+- *Livello III:* +100 Forza
 La Forza effettiva del Marchio viene calcolata al momento dell'applicazione secondo le normali regole previste per la Forza e rimane invariata fino alla sua dissoluzione.
 
 **Aumento della Forza**
 Finché il Marchio rimane attivo, il primo attacco singolo che va a segno contro il bersaglio beneficia di un aumento della propria Forza finale.
 Può trattarsi di un Incantesimo offensivo, una Pozione offensiva, un attacco fisico oppure dell'attacco di una Creatura o Pianta.
 Dopo aver calcolato normalmente la Forza dell'attacco, compresi tutti gli eventuali Bonus e Malus che la modificano, il risultato finale viene aumentato del:
-• *Livello I:* +20%
-• *Livello II:* +40%
-• *Livello III:* +60%
+- *Livello I:* +20%
+- *Livello II:* +40%
+- *Livello III:* +60%
 La Forza così ottenuta viene poi utilizzata normalmente per calcolare eventuali danni o altri effetti dell'attacco.
 L'aumento si applica indipendentemente da chi abbia sferrato l'attacco: può quindi beneficiarne l'Evocatore stesso oppure qualsiasi altro PG, PNG, Creatura o Pianta che colpisca il bersaglio.
 Il Marchio viene consumato esclusivamente quando un attacco va effettivamente a segno. Un tentativo fallito, un colpo schivato o un attacco che non raggiunge il bersaglio non lo rimuovono.
@@ -68,16 +69,16 @@ Nel caso di un attacco composto da più colpi o effetti consecutivi derivanti da
 
 **Durata**
 Se nessun attacco riesce a colpire il bersaglio, il Marchio rimane attivo fino a:
-• *Livello I:* 5 post dell'Evocatore
-• *Livello II:* 3 post dell'Evocatore
-• *Livello III:* 1 post dell'Evocatore
+- *Livello I:* 5 post dell'Evocatore
+- *Livello II:* 3 post dell'Evocatore
+- *Livello III:* 1 post dell'Evocatore
 Alla scadenza della durata il Marchio si dissolve automaticamente senza produrre effetti.
 
 **Marchi contemporanei**
 L'Evocatore può mantenere attivi contemporaneamente fino a:
-• *Livello I:* 3 Marchi
-• *Livello II:* 2 Marchi
-• *Livello III:* 1 solo Marchio
+- *Livello I:* 3 Marchi
+- *Livello II:* 2 Marchi
+- *Livello III:* 1 solo Marchio
 Ogni bersaglio deve essere marchiato attraverso un diverso utilizzo della Maestria, sostenendone ogni volta i normali costi di Fatica e Azioni.
 Se l'Evocatore ha già raggiunto il limite massimo di Marchi attivi e tenta di applicarne uno nuovo, deve prima scegliere uno dei precedenti Marchi da dissolvere.
 
@@ -90,9 +91,9 @@ Gli aumenti di Forza, le durate e gli altri effetti di più Marchi non possono q
 Il contorno luminoso generato da *Aura Vulneris* è visibile esclusivamente all'Evocatore. Il Bersaglio non può quindi accorgersi visivamente di essere stato marchiato.
 Può tuttavia percepire l'alterazione della propria essenza magica tramite Tracciatura (Linguaggio Magico).
 Immediatamente dopo essere stato colpito da *Aura Vulneris*, il Bersaglio può effettuare gratuitamente un tentativo di rilevazione ed ha successo se estrae un esito compreso tra 1 e Percezione + Livello Tracciante dopo aver lanciato:
-• *Livello I:* 1d60
-• *Livello II:* 1d50
-• *Livello III:* 1d40
+- *Livello I:* 1d60
+- *Livello II:* 1d50
+- *Livello III:* 1d40
 In caso di successo, il PG percepisce una forte anomalia magica aderente alla propria essenza e comprende di essere stato reso temporaneamente più vulnerabile agli attacchi.
 Non conosce tuttavia la percentuale esatta di aumento della Forza né la durata residua del Marchio.
 
@@ -107,3 +108,5 @@ Accorgersi della dissoluzione
 Un Bersaglio che si sia precedentemente accorto del Marchio non percepisce automaticamente il momento in cui questo scompare.
 Può verificare se l'alterazione sia ancora presente effettuando un nuovo tiro di Tracciatura (Linguaggio Magico), utilizzando lo stesso dado previsto dal Livello di *Aura Vulneris* che lo ha colpito e sostenendo il normale costo previsto per la Tracciatura.
 In caso di successo comprende se l'anomalia magica è ancora presente oppure si è dissolta.
+
+</details>
