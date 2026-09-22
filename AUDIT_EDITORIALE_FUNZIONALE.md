@@ -609,3 +609,97 @@ L'indice originale di Modalità di Gioco viene ora rappresentato dalla navigazio
 ### Perimetro del Blocco B
 
 Questo lotto riguarda le sezioni direttamente verificabili contro **1. Le Regole del Gioco** e **6. Modalità di Gioco**. Guida agli Scontri e Ricerche Casuali vengono trattati in blocchi successivi contro le rispettive fonti dedicate, per evitare di mescolare conversioni provenienti da documenti diversi.
+
+
+## Audit di fedeltà strutturale — Blocco F — Conoscenze
+
+Confronto eseguito contro la fonte **3. Le Conoscenze**.
+
+### Riscontro principale
+
+La migrazione aveva conservato il testo ma aveva appiattito una parte significativa della struttura HTML originaria. Nella fonte sono presenti **29 disclosure `<details>`**, distribuiti come segue:
+
+- Conoscenze Scolastiche: **5**;
+- Conoscenze Extra: **10**;
+- Usare le Conoscenze: **11**;
+- Creare una Conoscenza: **3**.
+
+Le pagine migrate ne contenevano **0**.
+
+### Correzioni applicate
+
+#### Conoscenze Autoconclusive
+
+- rimosso l'INDICE dal corpo;
+- convertiti i pallini testuali in liste semantiche;
+- ripristinati gli anchor originari `cosasono` ed `elencoauto`;
+- trasferito l'indice nella sidebar.
+
+#### Conoscenze Scolastiche
+
+- rimosso l'INDICE dal corpo;
+- ripristinati **5 disclosure su 5** della fonte, relativi ai gruppi di Piante/Creature condensati;
+- convertiti i pallini grezzi in liste;
+- ripristinati gli anchor `cosasono` ed `elencoscola`;
+- trasferito l'indice nella sidebar.
+
+#### Conoscenze Extra
+
+- rimosso l'INDICE dal corpo;
+- ripristinati **10 disclosure su 10**: Piante Esotiche, Creature Esotiche, Incantatore e le categorie di Pozioni/Veleni condensate;
+- convertiti i pallini grezzi in liste;
+- ripristinati gli anchor `cosasono` ed `elencoextra`;
+- trasferito l'indice nella sidebar.
+
+#### Conoscenze Avanzate
+
+La fonte non contiene disclosure in questa sezione. Sono stati quindi:
+
+- rimosso l'INDICE dal corpo;
+- normalizzate le liste;
+- ripristinati gli anchor `cosasono` ed `elencoavanz`;
+- trasferito l'indice nella sidebar.
+
+#### Usare le Conoscenze
+
+Questa era la seconda anomalia strutturale più rilevante del blocco:
+
+- ripristinati **11 disclosure su 11**;
+- sette riguardano gli specchietti delle Componenti (Specifiche, Ingredienti e dosi, Ricetta, ecc.);
+- uno riguarda le Complicazioni;
+- tre riguardano “Usare una Conoscenza Scolastica / Extra / Avanzata”;
+- rimosso l'INDICE dal corpo;
+- convertite le pseudo-liste;
+- ripristinati gli anchor originali dell'indice (Componenti, tipi di Conoscenza, uso, narrazione degli esiti, annullamento, resistenza mentale e Incantesimi non verbali);
+- trasferita l'intera gerarchia dell'indice nella sidebar.
+
+Gli anchor espliciti `incantesimi` e `pozioni` non sono stati mantenuti come elementi HTML aggiuntivi perché i rispettivi heading Markdown generano già quegli ID: in questo modo si evita un duplicato nel DOM preservando comunque i link originari.
+
+#### Ottenere nuove Conoscenze
+
+- rimosso l'INDICE dal corpo;
+- normalizzate le liste;
+- ripristinati gli anchor `acquistare`, `apprendere`, `apprenderePG`, `apprenderePNG`;
+- trasferita la gerarchia nella sidebar.
+
+#### Creare una Conoscenza
+
+- rimosso l'INDICE dal corpo;
+- ripristinati **3 disclosure su 3** per i modelli di creazione di Incantesimo, Pozione e Oggetto Magico;
+- normalizzate le liste;
+- ripristinati gli anchor `creareinca`, `crearepoz`, `creareoggettinuovi`;
+- trasferito l'indice nella sidebar.
+
+### Stato quantitativo dopo la correzione
+
+- Autoconclusive: **0 disclosure**, come in fonte;
+- Scolastiche: **5 aperti / 5 chiusi**;
+- Extra: **10 / 10**;
+- Avanzate: **0**, come in fonte;
+- Usare le Conoscenze: **11 / 11**;
+- Ottenere nuove Conoscenze: **0**, come in fonte;
+- Creare una Conoscenza: **3 / 3**;
+- totale disclosure ripristinati: **29 / 29**;
+- **0 INDICI residui** nel corpo delle sette pagine;
+- **0 pallini grezzi** usati come pseudo-liste;
+- nessun ID custom duplicato rilevato nel controllo sorgente.
