@@ -60,7 +60,7 @@ Si definisce **PG Divinatore** il PG che utilizza delle Tecniche Divinatorie per
 
 ### Limiti della Divinazione
 
-La Divinazione è fra tutte le branche magiche quella più difficile da mettere in pratica correttamente, con regole e specifiche proprie che differiscono da quelle esposte nella guida all'[Uso delle Conoscenze](/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/).
+La Divinazione è fra tutte le branche magiche quella più difficile da mettere in pratica correttamente, con regole e specifiche proprie che differiscono da quelle esposte nella guida all'[Uso delle Conoscenze](../../conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/).
 
 - Le Conoscenze Divinatorie **non hanno il Parametro Forza**, non essendoci alcun danno da causare o magia che può essere annullata.
 - Il Parametro **Percezione** e la **Sapienza Divinatoria** influenzano direttamente la riuscita al **100%**, **66%** e **33%** delle singole Conoscenze, rendendo più complesso il loro corretto utilizzo.
@@ -155,7 +155,7 @@ Il PG Consultante può però venire a conoscenza del risultato del dado se, lanc
 
 Le **43 Conoscenze e Tecniche Divinatorie** sono migrate integralmente come schede autonome, con Simbologie, Specifiche, note, valori ed eventuali dadi secondari conservati dalla fonte.
 
-[Consulta il catalogo completo delle Tecniche Divinatorie →](/manuali/divinazione/tecniche/)
+[Consulta il catalogo completo delle Tecniche Divinatorie →](tecniche/)
 
 > **Perché le Conoscenze Avanzate Divinatorie non hanno il bonus per Sapienza Divinatoria 25 previsto per altre Conoscenze Avanzate?**  
 > La fonte spiega che le Conoscenze Divinatorie Avanzate forniscono già vantaggi particolarmente importanti: possono dare informazioni esclusive su Trame, PG, PNG e altri spunti di gioco normalmente preclusi agli altri PG.
