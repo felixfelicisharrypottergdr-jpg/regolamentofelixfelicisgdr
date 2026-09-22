@@ -187,4 +187,4 @@ quispiegate.
 
 Il Glossario comprende **317 schede individuali**.
 
-[Consulta tutti gli Ingredienti →](/manuali/ingredienti/)
+[Consulta tutti gli Ingredienti →](../ingredienti/)
