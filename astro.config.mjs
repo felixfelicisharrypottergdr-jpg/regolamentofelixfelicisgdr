@@ -339,10 +339,103 @@ export default defineConfig({
             {
               label: 'Parametri',
               items: [
-                { label: 'Parametri', slug: 'il-personaggio/parametri' },
-                { label: 'Parametri Magici', slug: 'il-personaggio/parametri/parametri-magici' },
-                { label: 'Parametri Fisici', slug: 'il-personaggio/parametri/parametri-fisici' },
-                { label: 'Parametri Sociali', slug: 'il-personaggio/parametri/parametri-sociali' },
+                { label: 'Panoramica', slug: 'il-personaggio/parametri' },
+                {
+                  label: 'Parametri Magici',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/parametri/parametri-magici' },
+                    { label: 'Acume', link: '/il-personaggio/parametri/parametri-magici/#acume' },
+                    { label: 'Empatia', link: '/il-personaggio/parametri/parametri-magici/#empatia' },
+                    { label: 'Percezione', link: '/il-personaggio/parametri/parametri-magici/#percezione' },
+                    { label: 'Potenza', link: '/il-personaggio/parametri/parametri-magici/#potenza' },
+                    { label: 'Tecnica', link: '/il-personaggio/parametri/parametri-magici/#tecnica' },
+                    { label: 'Volontà', link: '/il-personaggio/parametri/parametri-magici/#volontà' },
+                    { label: 'Guadagnare/perdere/recuperare', link: '/il-personaggio/parametri/parametri-magici/#guadagnareperderemagici' },
+                    { label: 'Categorie Magiche', link: '/il-personaggio/parametri/parametri-magici/#paraecat' },
+                  ],
+                },
+                {
+                  label: 'Parametri Fisici',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/parametri/parametri-fisici' },
+                    {
+                      label: 'Destrezza',
+                      items: [
+                        { label: 'Destrezza', link: '/il-personaggio/parametri/parametri-fisici/#destrezza' },
+                        { label: 'Scontri 1 vs 1', link: '/il-personaggio/parametri/parametri-fisici/#1vs1' },
+                        { label: 'Scontri tra più PG', link: '/il-personaggio/parametri/parametri-fisici/#1vsn' },
+                      ],
+                    },
+                    { label: 'Fatica', link: '/il-personaggio/parametri/parametri-fisici/#fatica' },
+                    { label: 'Resistenza', link: '/il-personaggio/parametri/parametri-fisici/#resistenza' },
+                    { label: 'Salute', link: '/il-personaggio/parametri/parametri-fisici/#salute' },
+                    { label: 'Guadagnare/perdere/recuperare', link: '/il-personaggio/parametri/parametri-fisici/#guadagnareperdefisici' },
+                  ],
+                },
+                {
+                  label: 'Parametri Sociali',
+                  items: [
+                    { label: 'Panoramica', slug: 'il-personaggio/parametri/parametri-sociali' },
+                    {
+                      label: 'Dialettica',
+                      items: [
+                        { label: 'Dialettica', link: '/il-personaggio/parametri/parametri-sociali/#dialettica' },
+                        { label: 'Crescita', link: '/il-personaggio/parametri/parametri-sociali/#crescitadial' },
+                      ],
+                    },
+                    {
+                      label: 'Popolarità',
+                      items: [
+                        { label: 'Popolarità', link: '/il-personaggio/parametri/parametri-sociali/#popolarità' },
+                        { label: 'PG Studenti', link: '/il-personaggio/parametri/parametri-sociali/#popstudenti' },
+                        { label: 'PG Adulti', link: '/il-personaggio/parametri/parametri-sociali/#popadulti' },
+                      ],
+                    },
+                    {
+                      label: 'Stima e Prestigio',
+                      items: [
+                        { label: 'Panoramica', link: '/il-personaggio/parametri/parametri-sociali/#stimaprest' },
+                        { label: 'Stima dei Docenti', link: '/il-personaggio/parametri/parametri-sociali/#stimastudenti' },
+                        { label: 'Prestigio', link: '/il-personaggio/parametri/parametri-sociali/#prestigioadulti' },
+                      ],
+                    },
+                    {
+                      label: 'Bontà e Malvagità',
+                      items: [
+                        { label: 'Panoramica', link: '/il-personaggio/parametri/parametri-sociali/#bonmal' },
+                        { label: 'Legame con Allineamento', link: '/il-personaggio/parametri/parametri-sociali/#legameallistudenti' },
+                        { label: 'Punti Bontà', link: '/il-personaggio/parametri/parametri-sociali/#punti-bontà' },
+                        { label: 'Punti Malvagità', link: '/il-personaggio/parametri/parametri-sociali/#punti-malvagità' },
+                        { label: 'Come si guadagnano', link: '/il-personaggio/parametri/parametri-sociali/#guadagnobonmal' },
+                        { label: 'Relazione tra i Punti', link: '/il-personaggio/parametri/parametri-sociali/#relazionebonmal' },
+                        { label: 'Soglia di Neutralità', link: '/il-personaggio/parametri/parametri-sociali/#neutralitàbonmal' },
+                      ],
+                    },
+                    {
+                      label: 'Virtuosi e Sinistri',
+                      items: [
+                        { label: 'Panoramica', link: '/il-personaggio/parametri/parametri-sociali/#virtsin' },
+                        { label: 'Legame con Allineamento', link: '/il-personaggio/parametri/parametri-sociali/#legameallineamento' },
+                        { label: 'Punti Virtuosi', link: '/il-personaggio/parametri/parametri-sociali/#virt' },
+                        { label: 'Punti Sinistri', link: '/il-personaggio/parametri/parametri-sociali/#sin' },
+                        { label: 'Né Virtuoso né Sinistro', link: '/il-personaggio/parametri/parametri-sociali/#novirtsin' },
+                        { label: 'Come si guadagnano', link: '/il-personaggio/parametri/parametri-sociali/#guadagnovirtsin' },
+                        { label: 'Relazione tra i Punti', link: '/il-personaggio/parametri/parametri-sociali/#relazionevirtsin' },
+                        { label: 'Soglia di Neutralità', link: '/il-personaggio/parametri/parametri-sociali/#neutralitàvirtsin' },
+                      ],
+                    },
+                    { label: 'Guadagnare/perdere/recuperare', link: '/il-personaggio/parametri/parametri-sociali/#guadagnareperdesociali' },
+                    {
+                      label: 'Da Studente ad Adulto',
+                      items: [
+                        { label: 'Panoramica', link: '/il-personaggio/parametri/parametri-sociali/#fine' },
+                        { label: 'Popolarità', link: '/il-personaggio/parametri/parametri-sociali/#finepop' },
+                        { label: 'Stima e Prestigio', link: '/il-personaggio/parametri/parametri-sociali/#finestima' },
+                        { label: 'Bontà/Malvagità → Virtuoso/Sinistro', link: '/il-personaggio/parametri/parametri-sociali/#bonmalvirtsin' },
+                      ],
+                    },
+                  ],
+                },
               ],
             },
           ],
