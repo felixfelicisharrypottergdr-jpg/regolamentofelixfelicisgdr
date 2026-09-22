@@ -28,7 +28,8 @@ migration:
       item: "Cor ad Cor"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Evocazione**
 L'Incantesimo può essere utilizzato esclusivamente su un altro individuo consenziente o comunque incapace di opporsi fisicamente al contatto necessario. Non può essere evocato a distanza.
@@ -70,3 +71,5 @@ La perdita volontaria di Salute causata dall'Incantesimo comporta inoltre la com
 Il bersaglio acquisisce immediatamente e definitivamente i Parametri effettivamente ricevuti: non si tratta di un bonus temporaneo e quanto ottenuto non viene restituito all'Evocatore né scompare al termine della Role.
 Da quel momento i valori ricevuti vengono trattati normalmente e possono essere successivamente consumati, persi o modificati secondo le normali regole dei Parametri Fisici.
 Le successive variazioni di Salute tornano inoltre a influenzare normalmente gli altri Parametri Fisici secondo quanto previsto dal regolamento.
+
+</details>
