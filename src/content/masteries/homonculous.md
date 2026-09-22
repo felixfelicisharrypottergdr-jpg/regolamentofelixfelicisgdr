@@ -32,16 +32,17 @@ migration:
       item: "Homonculous"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Requisiti e Preparazione**
-• La Mappa: Homonculous richiede una Mappa fisica sufficientemente dettagliata della zona che si desidera sorvegliare. Può trattarsi di una Mappa già esistente e ottenuta ONGame oppure di una realizzata direttamente dal PG.
-• Creare una Mappa: se il PG desidera disegnarla personalmente, la preparazione consuma *4 Fatica* e richiede che abbia precedentemente esplorato e osservato accuratamente la zona in almeno 5 Post complessivi. Tali Post devono permettere al PG di conoscere effettivamente le diverse parti che intende rappresentare e non è sufficiente permanere nello stesso punto.
-• Homonculous può tracciare esclusivamente le zone effettivamente rappresentate sulla Mappa. Stanze segrete, passaggi, ambienti nascosti o altri luoghi dei quali il PG non conosca l'esistenza e che non siano riportati sulla Mappa non vengono rivelati automaticamente dall'Incantesimo.
-• Validità: dal primo utilizzo con Homonculous, una Mappa rimane magicamente utilizzabile per 6 mesi OFFGame. Al termine di questo periodo l'infusione sbiadisce ed è necessario prepararla nuovamente, ma può essere riutilizzata la stessa Mappa fisica senza dover esplorare nuovamente la zona.
+- La Mappa: Homonculous richiede una Mappa fisica sufficientemente dettagliata della zona che si desidera sorvegliare. Può trattarsi di una Mappa già esistente e ottenuta ONGame oppure di una realizzata direttamente dal PG.
+- Creare una Mappa: se il PG desidera disegnarla personalmente, la preparazione consuma *4 Fatica* e richiede che abbia precedentemente esplorato e osservato accuratamente la zona in almeno 5 Post complessivi. Tali Post devono permettere al PG di conoscere effettivamente le diverse parti che intende rappresentare e non è sufficiente permanere nello stesso punto.
+- Homonculous può tracciare esclusivamente le zone effettivamente rappresentate sulla Mappa. Stanze segrete, passaggi, ambienti nascosti o altri luoghi dei quali il PG non conosca l'esistenza e che non siano riportati sulla Mappa non vengono rivelati automaticamente dall'Incantesimo.
+- Validità: dal primo utilizzo con Homonculous, una Mappa rimane magicamente utilizzabile per 6 mesi OFFGame. Al termine di questo periodo l'infusione sbiadisce ed è necessario prepararla nuovamente, ma può essere riutilizzata la stessa Mappa fisica senza dover esplorare nuovamente la zona.
 La Mappa conserva il Livello di Homonculous posseduto dal PG al momento della preparazione per tutta la propria validità. Se il PG acquisisce successivamente un Livello superiore della Maestria, può ripreparare anticipatamente la Mappa consumando nuovamente *4 Fatica*: in questo caso la Mappa acquisisce il nuovo Livello e la sua validità di 6 mesi OFFGame ricomincia dal primo utilizzo successivo.
-• Metagame: l'utilizzo di Homonculous deve basarsi esclusivamente su informazioni, conoscenze o decisioni disponibili ONGame al PG. Non è necessario che esista un sospetto specifico: la Mappa può essere utilizzata anche preventivamente, per sorveglianza, controllo, ricerca o semplice consultazione coerente con le circostanze. Non è invece possibile scegliere il luogo o il momento dell'attivazione sulla base di informazioni conosciute esclusivamente OFFGame.
-• Utilizzo da parte di altri PG: Homonculous è necessario per preparare magicamente una Mappa, ma non per utilizzarne una già preparata. Una Mappa preparata attraverso Homonculous può quindi essere ceduta, rubata o comunque utilizzata da qualsiasi PG che ne entri in possesso. Non è necessario possedere la Maestria per attivarla: è sufficiente puntare la Bacchetta sulla Mappa e consumare 1 Azione Principale.
+- Metagame: l'utilizzo di Homonculous deve basarsi esclusivamente su informazioni, conoscenze o decisioni disponibili ONGame al PG. Non è necessario che esista un sospetto specifico: la Mappa può essere utilizzata anche preventivamente, per sorveglianza, controllo, ricerca o semplice consultazione coerente con le circostanze. Non è invece possibile scegliere il luogo o il momento dell'attivazione sulla base di informazioni conosciute esclusivamente OFFGame.
+- Utilizzo da parte di altri PG: Homonculous è necessario per preparare magicamente una Mappa, ma non per utilizzarne una già preparata. Una Mappa preparata attraverso Homonculous può quindi essere ceduta, rubata o comunque utilizzata da qualsiasi PG che ne entri in possesso. Non è necessario possedere la Maestria per attivarla: è sufficiente puntare la Bacchetta sulla Mappa e consumare 1 Azione Principale.
 La Mappa conserva sempre il Livello di Homonculous del PG che l'ha preparata: Copertura, Forza, Durata, capacità di Identificazione e Fatica di Attivazione vengono quindi determinate in base a quel Livello e non alle capacità del PG che la sta utilizzando.
 
 **Attivazione**
@@ -54,17 +55,17 @@ Terminata la Durata, la Mappa smette di aggiornarsi ma rimane utilizzabile fino 
 
 **Copertura**
 La dimensione massima della zona che può essere sorvegliata contemporaneamente dipende dal Livello della Maestria.
-• *Livello I:* una singola area circoscritta, come una stanza, un corridoio, un negozio, una piccola radura o uno spazio di dimensioni equivalenti.
-• *Livello II:* una struttura o un settore continuo di dimensioni maggiori, come un Edificio, un Piano di una Scuola di Magia, una tenuta di dimensioni contenute o un gruppo limitato di vie confinanti.
-• *Livello III:* un complesso esteso o un'area territorialmente continua, come un'intera Scuola di Magia, una grande tenuta, un villaggio o un quartiere.
+- *Livello I:* una singola area circoscritta, come una stanza, un corridoio, un negozio, una piccola radura o uno spazio di dimensioni equivalenti.
+- *Livello II:* una struttura o un settore continuo di dimensioni maggiori, come un Edificio, un Piano di una Scuola di Magia, una tenuta di dimensioni contenute o un gruppo limitato di vie confinanti.
+- *Livello III:* un complesso esteso o un'area territorialmente continua, come un'intera Scuola di Magia, una grande tenuta, un villaggio o un quartiere.
 La Mappa può essere più estesa rispetto alla Copertura consentita, ma durante una singola attivazione Homonculous può sorvegliare soltanto una porzione compatibile con il Livello posseduto.
 
 **Identificazione**
 I soggetti rilevati vengono identificati direttamente dalla magia e non è necessario che siano personalmente conosciuti dall'utilizzatore.
-• Le persone vengono indicate attraverso il proprio nome completo anche quando sono completamente sconosciute all'utilizzatore.
-• Le Creature dotate di un'identità individuale e di un nome proprio vengono indicate attraverso di esso anche quando sono sconosciute all'utilizzatore.
-• Creature, esseri o entità prive di un'identità individuale riconoscibile vengono indicate attraverso la propria specie o tipologia.
-• Trasfigurazioni, travestimenti o alterazioni dell'aspetto che non abbiano lo scopo specifico di occultare magicamente l'identità o la presenza del soggetto non modificano l'identità mostrata da Homonculous.
+- Le persone vengono indicate attraverso il proprio nome completo anche quando sono completamente sconosciute all'utilizzatore.
+- Le Creature dotate di un'identità individuale e di un nome proprio vengono indicate attraverso di esso anche quando sono sconosciute all'utilizzatore.
+- Creature, esseri o entità prive di un'identità individuale riconoscibile vengono indicate attraverso la propria specie o tipologia.
+- Trasfigurazioni, travestimenti o alterazioni dell'aspetto che non abbiano lo scopo specifico di occultare magicamente l'identità o la presenza del soggetto non modificano l'identità mostrata da Homonculous.
 
 **Occultamento Magico**
 La capacità di Homonculous di superare Incantesimi, Conoscenze o altri effetti destinati a nascondere magicamente la presenza o l'identità di un soggetto dipende dal Livello della Maestria e dalla Forza delle magie coinvolte.
@@ -89,3 +90,5 @@ Il tentativo riesce estraendo un risultato compreso tra 1-(Acume + Livello di Tr
 In caso di successo, il PG percepisce di essere oggetto di una forma di sorveglianza o localizzazione magica, ma non scopre automaticamente chi la stia effettuando né dove si trovi la Mappa.
 Se il PG possiede a sua volta Homonculous, in caso di successo riconosce autoconclusivamente la natura della magia utilizzata e comprende di essere tracciato attraverso una Mappa Homonculous, ma non può attribuirne automaticamente l'evocazione a uno specifico PG.
 Nel caso in cui Homonculous venga utilizzato in segreto, sarà il Narratore a effettuare gli eventuali tiri di Rilevazione per i soggetti coinvolti e a comunicare gli eventuali successi, evitando che la necessità del tiro riveli OFFGame l'esistenza della sorveglianza.
+
+</details>
