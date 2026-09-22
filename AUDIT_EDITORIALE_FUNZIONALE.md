@@ -2,91 +2,119 @@
 
 Data di apertura audit: 22 settembre 2026.
 
-Questo documento è un registro vivo. Le anomalie **funzionali e di codice** vengono corrette automaticamente quando la soluzione è univoca; le anomalie **editoriali o regolamentari** vengono registrate e lasciate intatte finché non viene scelta la versione canonica.
+Questo è un registro vivo. Gli errori **funzionali o di codice** vengono corretti automaticamente quando la soluzione è univoca. Le anomalie **editoriali o regolamentari** vengono invece registrate senza scegliere o riscrivere la regola al posto dello Staff.
 
-## P0 — anomalie funzionali certe
+## Stato funzionale
 
-### Route documentali duplicate
+L'audit pre-build corrente censisce **168 documenti**, **1.616 file di contenuto** e **1.632 route note**.
 
-La build segnalava tre coppie di documenti con lo stesso slug:
+Dopo i primi fix risultano:
 
-- `il-personaggio/pg-studente/coppa-delle-case`
-- `il-personaggio/pg-studente/modalita-di-gioco`
-- `il-personaggio/pg-studente/studiare-ad-hogwarts`
+- nessuna route documentale duplicata;
+- nessun link Markdown interno verso route inesistenti;
+- nessun UUID duplicato o riferimento UUID inesistente;
+- nessun `migration.status: to_migrate`;
+- nessun `prototypeExcerpt: true`;
+- nessuna frase residua che annunci una futura migrazione;
+- build Astro e deploy GitHub Pages riusciti.
 
-In ogni coppia esisteva una pagina revisionata e un vecchio `index.md` di prototipo con testo futuro (“questa sezione ospiterà/raccoglierà…”). I tre residui di prototipo vengono eliminati nell'audit tecnico.
+Il controllo delle route ora include anche le pagine Astro statiche, oltre ai documenti Starlight e alle collection strutturate.
 
-### Validazione dei link
+### Audit dell'HTML finale
 
-Il precedente preflight verificava UUID e slug delle collection strutturate, ma non:
+È stato aggiunto un secondo controllo eseguito **dopo la build**. Verifica l'HTML realmente pubblicato e fallisce la pipeline per:
 
-- collisioni fra route dei documenti Starlight;
-- link Markdown interni verso route inesistenti;
-- dipendenze esterne verso ForumFree.
+- destinazioni locali inesistenti;
+- frammenti/ancore inesistenti;
+- link interni che bypassano il `base` di GitHub Pages.
 
-Lo script `scripts/audit-content.mjs` viene esteso per costruire l'inventario delle route reali (documenti, pagine Astro e collection strutturate) e fallire la pipeline in presenza di collisioni o link interni inesistenti.
+Registra inoltre warning su `lang`, `title` e immagini prive di `alt`.
 
-I link Markdown che iniziano con `/` non vengono considerati automaticamente errati: `remarkFelixBaseLinks` li riscrive già con il `base` GitHub Pages durante la build.
+Il primo controllo manuale del pacchetto renderizzato aveva individuato tre difetti funzionali ora corretti:
 
-### Applicabilità delle Razze nella ricerca
+1. il link “Salta ai contenuti” della Home puntava a `#_top`, assente nella Home personalizzata;
+2. la pagina Trasporti conteneva due vecchi indici con 18 link a frammenti non più presenti dopo la suddivisione dei singoli Trasporti in sottopagine;
+3. l'indice di Regole Generali puntava a `#principi`, che non veniva generato a causa di un confine Markdown errato.
 
-Le schede Razza pubblicavano nel metadata Pagefind entrambe le applicabilità (“PG Studente” e “PG Adulto”) anche quando il dato strutturato della singola Razza ne prevedeva una sola. Il filtro viene collegato al valore reale di `entry.data.applicability`.
+## P0 editoriale — canonicità duplicata
 
-## P0 — anomalie editoriali da NON correggere automaticamente
+Il problema editoriale più importante attualmente confermato non è una mancanza di migrazione, ma la presenza della **stessa regola in due luoghi canonici concorrenti**.
 
-### Canonicità duplicata fra pagine monolitiche e sottopagine
+Il confronto per righe significative mostra:
 
-Sono presenti sistemi in cui la regola completa vive ancora nella pagina principale, mentre la navigazione espone anche sottopagine abbreviate o di prototipo. Questo crea due versioni concorrenti della stessa regola.
+| Sistema | Pagina autonoma confrontata con il monolite | Sovrapposizione esatta |
+| --- | --- | ---: |
+| Magizoologia | Domesticazione | 96% |
+| Magizoologia | Fiducia | 95% |
+| Commercio | Acquistare Merci Magiche | 100% |
+| Commercio | Vendere Merci Magiche | 100% |
+| Quidditch | Quidditch ad Hogwarts | 100% |
+| Quidditch | Quidditch tra PG Adulti | 100% |
+| Leggi/Magisprudenza | Iniziare una Causa ONGame | 100% |
+| Leggi/Magisprudenza | Struttura del Processo | 100% |
+| Leggi/Wizengamot | Partecipare ad un Processo | 100% |
 
-Casi già confermati:
+Queste sottopagine non sono semplici approfondimenti: in molti casi duplicano letteralmente blocchi della pagina principale. Finché entrambe le versioni restano editabili, una futura modifica può aggiornare una copia e lasciare l'altra indietro.
 
-- **Magizoologia**: la pagina principale contiene la Domesticazione completa; `manuali/magizoologia/domesticazione.md` è ancora una “voce di prova” marcata `to_migrate`.
-- **Erbologia**: Riconoscimento, Interazione, Trattamento e Coltivazione sono presenti integralmente nella pagina principale, mentre esistono anche sottopagine più brevi.
-- **Commercio Magico**: la pagina principale contiene Acquisto, Vendita e Gringott; alcune sottopagine dichiarano ancora che “ospiteranno integralmente” la procedura.
-- **Quidditch**: la pagina principale contiene l'intero sistema (Hogwarts, Adulti, ruoli, scenari e gioco); alcune sottopagine sono sintesi e dichiarano ancora l'esistenza di una futura “versione integrale”.
-- **Leggi Magiche / Magisprudenza / Wizengamot**: la pagina `mondo-magico/leggi-magiche/index.md` incorpora anche Magisprudenza e Wizengamot, mentre le stesse sezioni esistono come pagine autonome abbreviate.
+**Da decidere in architettura dell'informazione:** per ciascun sistema va scelto un solo luogo canonico. L'altra versione dovrà diventare una landing/rimando oppure il monolite dovrà essere realmente suddiviso senza duplicazioni.
 
-Decisione editoriale necessaria: scegliere per ogni sistema **un solo luogo canonico** della regola e trasformare gli altri documenti in vere landing/rimandi oppure suddividere il monolite senza perdita di contenuto.
+## P1 editoriale — pagine monolitiche
 
-### Falsi positivi di migrazione
+Sono attualmente segnalate **24 pagine oltre 30.000 caratteri**. Le più estese includono:
 
-Sono state individuate pagine marcate `migrated` o incluse nella certificazione “completa” che contengono ancora linguaggio di migrazione futura, per esempio:
+- Mondo Magico / Medimagia: circa 117.000 caratteri;
+- Leggi Magiche: circa 110.000;
+- Sintomatologia: circa 92.000;
+- Magizoologia: circa 81.000;
+- Pozionistica: circa 78.000;
+- Quidditch: circa 73.000;
+- Meccaniche di gioco: circa 70.000.
 
-- Acquistare Merci Magiche;
-- Vendere Merci Magiche;
-- Iniziare una Causa ONGame;
-- Struttura del Processo;
-- Quidditch ad Hogwarts;
-- Quidditch tra PG Adulti;
-- Partecipare ad un Processo.
+La lunghezza non è di per sé un errore. Diventa un problema quando contiene più sistemi autonomi, produce duplicazioni con pagine figlie o rende difficile raggiungere una singola regola.
 
-Questi casi non vengono riscritti automaticamente perché occorre stabilire se la sottopagina debba contenere il testo integrale o diventare un rimando alla pagina canonica.
+## P1 editoriale — gerarchia dei titoli
 
-### Documentazione di stato non più affidabile come certificazione
+L'audit segnala **9 pagine con più H1 nel corpo**, fra cui Regole Generali, Pozionistica, Magizoologia, Medimagia e Sintomatologia.
 
-`MIGRATION_STATUS.md`, `PROTOTYPE_STATUS.md` e `SOURCES_USED.md` dichiarano la V1 integralmente migrata. L'audit ha dimostrato che questa affermazione non può essere usata come prova di completezza pagina-per-pagina finché non vengono risolti i casi di canonicità/placeholder sopra elencati.
+Segnala inoltre **8 salti H2 → H4** nelle Ricerche Casuali. Questi casi vanno normalizzati quando si riorganizzeranno i contenuti: possono alterare indice di pagina, accessibilità e gerarchia visiva.
 
-## P1 — debito editoriale e di architettura già rilevato
+La duplicazione identica degli H1 in Regole Generali viene corretta subito perché è solo un residuo di markup, non una modifica della regola.
 
-L'audit automatico registra inoltre:
+## P1 editoriale — possibili parole incollate
 
-- pagine con più H1 nel corpo;
-- pagine monolitiche oltre 30.000 caratteri;
-- `prototypeExcerpt: true` residui;
-- `migration.status: to_migrate` residui;
-- linguaggio obsoleto relativo a prototipo/migrazione;
-- markup legacy;
-- salti anomali nella gerarchia dei titoli;
-- titoli duplicati;
-- possibili parole incollate durante la conversione;
-- link esterni a ForumFree da censire come dipendenze funzionali.
+La conversione delle fonti ha lasciato candidati che richiedono revisione contestuale. Alcuni sono nomi propri legittimi, ma altri sembrano refusi di migrazione, ad esempio:
 
-Questi segnali sono diagnostici: non equivalgono automaticamente a errori regolamentari.
+- `IncantesimoFianto`;
+- `apprendereConoscenze`;
+- `dallaGuida`;
+- `CategorieMagiche`;
+- `DifensoriSe`;
+- `AlleyValli`;
+- `qualiAffaticamento`;
+- `FantaHogwartse`;
+- `PossibilitàAggiungere`;
+- `ClassificazioneXXXXX`.
+
+Non vengono corretti automaticamente: per ciascuno va controllata la frase originale e la fonte.
+
+## Dipendenze esterne
+
+Il regolamento contiene attualmente link ForumFree in **9 documenti**, principalmente verso:
+
+- generatori PG;
+- Smistamento;
+- Club Scolastici;
+- Notizie da Hogwarts;
+- sezioni PNG/informazioni;
+- Alfieri Rossi.
+
+Sono collegamenti intenzionali, ma costituiscono dipendenze esterne da mantenere sotto controllo. In una fase successiva si deciderà quali devono restare sul forum e quali informazioni devono essere internalizzate nel sito-libro.
 
 ## Regola operativa dell'audit
 
-1. **Codice univocamente errato:** correggere e testare.
-2. **Testo incompleto ma completo altrove:** segnalare sovrapposizione e decidere il luogo canonico.
-3. **Contraddizione fra due regole:** non scegliere automaticamente; confrontare le fonti e sottoporre la decisione.
+1. **Codice univocamente errato:** correggere e testare automaticamente.
+2. **Duplicazione della stessa regola:** segnalare e scegliere prima il luogo canonico.
+3. **Contraddizione fra due regole:** non scegliere automaticamente; confrontare le fonti.
 4. **Anomalia presente nella fonte:** conservarla fino a decisione Staff.
-5. **Miglioramento UX/IA:** registrarlo ora, implementarlo nelle fasi dedicate salvo che blocchi la consultazione.
+5. **Refuso di conversione:** verificare il contesto e la fonte prima di correggere.
+6. **Miglioramento UX/IA:** registrarlo ora e implementarlo nella fase dedicata, salvo che blocchi la consultazione.

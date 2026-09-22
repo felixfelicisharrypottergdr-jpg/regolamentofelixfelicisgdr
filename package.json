@@ -9,8 +9,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "preflight": "node --check astro.config.mjs && node scripts/preflight.mjs",
-    "build:ci": "npm run preflight && npm run audit && astro build",
-    "audit": "node scripts/audit-content.mjs"
+    "build:ci": "npm run preflight && npm run audit && astro build && npm run audit:dist",
+    "audit": "node scripts/audit-content.mjs",
+    "audit:dist": "node scripts/audit-dist.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "0.42.2",
@@ -21,4 +22,4 @@
     "node": ">=22.12.0",
     "npm": ">=9.6.5"
   }
-}
+}\n

@@ -204,7 +204,7 @@ Ruolando nel futuro prima di conoscere l'esito delle azioni, John può far uso d
 
 Nelle role, per convenzione, ogni post fa avanzare il tempo di qualche minuto. Ogni post successivo, quindi, inizia cronologicamente circa alla fine del post precedente, e di conseguenza tutte le azioni descritte nei post precedenti sono già avvenute.
 
-<div class="esempio">Role in Sala Comune, dopo molti post di altri PG arriva Mary col suo primo post. Un PG che entra in una role dopo diversi turni può dichiarare di essere appena arrivato oppure di essere stato presente fin dall’inizio come osservatore passivo. In quest’ultimo caso non può attribuirsi retroattivamente azioni, interazioni o comportamenti rilevanti che gli altri PG avrebbero dovuto notare o considerare.</div></details>## Principi
+<div class="esempio">Role in Sala Comune, dopo molti post di altri PG arriva Mary col suo primo post. Un PG che entra in una role dopo diversi turni può dichiarare di essere appena arrivato oppure di essere stato presente fin dall’inizio come osservatore passivo. In quest’ultimo caso non può attribuirsi retroattivamente azioni, interazioni o comportamenti rilevanti che gli altri PG avrebbero dovuto notare o considerare.</div></details>\n\n<a id="principi"></a>\n\n## Principi
 
 ### 1. Il gioco non è scritto su pietra
 

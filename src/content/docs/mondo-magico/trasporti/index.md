@@ -38,7 +38,7 @@ Per spostarsi da un punto all'altro del Mondo Magico, maghi e streghe possono ut
 Di seguito un elenco dei Trasporti Magici disponibili nel gioco, con le rispettive caratteristiche, bonus, possibilità e malus.
 
 
-<a href="#carrozza">Carrozza Volante</a> - <a href="#cavalcata">Cavalcata o Volo su Creatura</a> - <a href="#metropolvere">Metropolvere</a> - <a href="#nottetempo">Nottetempo</a> - <a href="#passaporta">Passaporta</a> - <a href="#scope">Scope Volanti</a> - <a href="#smaterializzazione">Smaterializzazione</a> - <a href="#vascello">Vascello Magico</a> - <a href="#veicoli">Veicoli Volanti</a>
+[Carrozza Volante](./carrozza-volante/) · [Cavalcata o Volo su Creatura](./cavalcata-volo-creatura/) · [Metropolvere](./metropolvere/) · [Nottetempo](./nottetempo/) · [Passaporta](./passaporta/) · [Scope Volanti](./scope-volanti/) · [Smaterializzazione](./smaterializzazione/) · [Vascello Magico](./vascello-magico/) · [Veicoli Volanti](./veicoli-volanti/)
 
 
 <div class="nota medi" style="background:#f5babf!important; color:darkred!important;border-color:darkred!important">
@@ -93,7 +93,7 @@ I seguenti specchietti e le spiegazioni sull'utilizzo di ciascun Traporto Magico
 ## Lista dei Trasporti Magici
 
 
-<a href="#carrozza">Carrozza Volante</a> - <a href="#cavalcata">Cavalcata o Volo su Creatura</a> - <a href="#metropolvere">Metropolvere</a> - <a href="#nottetempo">Nottetempo</a> - <a href="#passaporta">Passaporta</a> - <a href="#scope">Scope Volanti</a> - <a href="#smaterializzazione">Smaterializzazione</a> - <a href="#vascello">Vascello Magico</a> - <a href="#veicoli">Veicoli Volanti</a>
+[Carrozza Volante](./carrozza-volante/) · [Cavalcata o Volo su Creatura](./cavalcata-volo-creatura/) · [Metropolvere](./metropolvere/) · [Nottetempo](./nottetempo/) · [Passaporta](./passaporta/) · [Scope Volanti](./scope-volanti/) · [Smaterializzazione](./smaterializzazione/) · [Vascello Magico](./vascello-magico/) · [Veicoli Volanti](./veicoli-volanti/)
 
 
 ## Trasporti disponibili
