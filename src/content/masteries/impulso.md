@@ -34,7 +34,8 @@ migration:
       item: "Impulso Discordia"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Desincronizzazione Neuromagica**
 Impulso Discordia non infligge direttamente danni alla Salute e non sopprime la capacità del bersaglio di utilizzare la magia, ma interferisce temporaneamente con la sincronizzazione fra pensiero, movimento e canalizzazione magica, riducendo l'economia delle Azioni a sua disposizione.
@@ -66,16 +67,16 @@ Gli effetti passivi e gli Incantesimi già attivi continuano normalmente a funzi
 **Forza della Maestria**
 Impulso Discordia possiede una Forza standard pari a 200. Tale valore determina quanto sia difficile annullarne anticipatamente gli effetti.
 Alla Forza standard della Maestria viene aggiunto un Bonus determinato dall'Efficacia:
-• *Livello I:* nessun Bonus
-• *Livello II:* +50 Forza
-• *Livello III:* +100 Forza
+- *Livello I:* nessun Bonus
+- *Livello II:* +50 Forza
+- *Livello III:* +100 Forza
 Eventuali ulteriori Bonus o Malus alla Forza vengono applicati normalmente.
 La Forza della Maestria rimane invariata per tutta la durata dell'effetto, anche mentre la desincronizzazione si attenua progressivamente.
 
 **Fatica Consumata**
-• *Livello I:* 3
-• *Livello II:* 2
-• *Livello III:* 1
+- *Livello I:* 3
+- *Livello II:* 2
+- *Livello III:* 1
 
 **Annullare Impulso Discordia**
 Poiché la desincronizzazione viene mantenuta da un effetto magico persistente, può essere interrotta anticipatamente attraverso Finite Incantatem o altri Controincantesimi espressamente in grado di annullare una magia già attiva.
@@ -90,3 +91,5 @@ Le Reazioni eventualmente già effettuate prima che Impulso Discordia colpisca i
 **Applicazioni successive**
 Un bersaglio già sottoposto a Impulso Discordia non può subire una seconda applicazione della stessa Maestria finché la precedente non è completamente terminata.
 Una nuova evocazione non può quindi sommare le proprie limitazioni a quelle già presenti, prolungarne la durata o riportare il bersaglio a una fase precedente della desincronizzazione.
+
+</details>
