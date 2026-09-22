@@ -30,16 +30,16 @@ e Intracciabili per agire sul campo in autonomia, senza intervento diretto del N
 
 ## Regole generali
 
-• **Bonus e limiti per post:** si può usare al massimo **1 Conoscenza** e **1
+- **Bonus e limiti per post:** si può usare al massimo **1 Conoscenza** e **1
 Pozione** per post. I due effetti possono essere utilizzati contemporaneamente, se
 entrambi sono appropriati alla prova, e i relativi bonus si sommano. I bonus si applicano
 **solo** al tiro della fase in cui vengono usati.
-• **Divisioni:** quando una formula prevede una divisione, il risultato viene sempre
+- **Divisioni:** quando una formula prevede una divisione, il risultato viene sempre
 arrotondato per difetto.
-• **Incantesimi/Conoscenze:** eventuali incantesimi o Conoscenze utilizzate hanno
+- **Incantesimi/Conoscenze:** eventuali incantesimi o Conoscenze utilizzate hanno
 riuscita narrativa al 100% (salvo diverse regole del gioco base). I dadi servono a
 determinare **l’esito complessivo** (scoperta, intoppi, riuscita “pulita”, ecc.).
-• **“Scoperti”:** ai fini di questa Ricerca, un PG è “scoperto” se viene **identificato
+- **“Scoperti”:** ai fini di questa Ricerca, un PG è “scoperto” se viene **identificato
 con certezza** o **fermato/catturato**. Sospetti generici o allarmi che non portano aun’identificazione non equivalgono automaticamente a “scoperti”, ma possono comparire
 come colore o conseguenza di fallimenti di fase.
 
@@ -47,10 +47,10 @@ come colore o conseguenza di fallimenti di fase.
 
 I PG che vogliono svolgere questa Ricerca Casuale devono possedere **almeno 1**
 dei seguenti requisiti:
-• essere PG Intracciabili;
-• essere PG Malvagi: per PG Malvagi si intende di Allineamento Caotico Malvagio, Neutrale
+- essere PG Intracciabili;
+- essere PG Malvagi: per PG Malvagi si intende di Allineamento Caotico Malvagio, Neutrale
 Malvagio o Legale Malvagio;
-• avere almeno 20+ Punti Sinistri.
+- avere almeno 20+ Punti Sinistri.
 Le role di **Ricerca Crimini** sono sempre free-role
 e richiedono almeno **2 PG** totali. **Tutti i PG partecipanti devono possedere
 almeno uno dei requisiti elencati**.
@@ -67,9 +67,9 @@ di Trasporto secondo le modalità disponibili.
 
 Se la Ricerca Crimini viene completata con successo **senza essere identificati**, i PG
 ottengono:
-• **+1 Punto Sinistro** (una sola volta per la role);
-• **2 Galeoni** per ogni post (massimo **5** post);
-• **2 PP** per ogni post (massimo **5** post).
+- **+1 Punto Sinistro** (una sola volta per la role);
+- **2 Galeoni** per ogni post (massimo **5** post);
+- **2 PP** per ogni post (massimo **5** post).
 
 > **Nota.**
 >
@@ -78,7 +78,7 @@ Missioni Caotiche del FantaWiz.
 
 Se la missione **fallisce** (cioè i PG vengono identificati o il Crimine non si conclude), i
 PG ottengono soltanto:
-• **+2 PP** per ogni post (massimo **5** post).
+- **+2 PP** per ogni post (massimo **5** post).
 In caso di fallimento, la fuga/uscita di scena è **autoconclusiva** (i PG riescono a
 dileguarsi, ma l’incarico risulta fallito o compromesso).
 
@@ -87,7 +87,8 @@ dileguarsi, ma l’incarico risulta fallito o compromesso).
 I Crimini vengono assegnati da PNG o PPNG. I PG lanciano **1d5** per stabilire quale
 Crimine viene commissionato (il compenso del mandante è **solo narrativo**).
 
-#### 1. Furto : sottrarre oggetti di valore, artefatti, ingredienti illegali, altro
+<details><summary><strong>1. Furto : sottrarre oggetti di valore, artefatti, ingredienti illegali, altro</strong></summary>
+
 
 Questa missione prevede l’organizzazione e l’esecuzione di un furto ai danni di un bersaglio
 predefinito: può trattarsi di un negozio di oggetti magici, di una residenza privata, di uncollezionista, di un laboratorio, una radura, eccetera. I PG dovranno infiltrarsi senza farsi
@@ -95,9 +96,9 @@ scoprire, individuare l’oggetto da sottrarre e riuscire a fuggire con il botti
 I furti non possono essere eseguiti presso abitazioni o luoghi appartenenti a PG Giocanti, né
 in negozi, locali o luoghi ufficiali di Diagon Alley, Notturn Alley o Hogsmeade. È quindi
 preferibile scegliere location di colore o di fantasia.
-• Gli incantesimi o le conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post
-• Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario
+- Gli incantesimi o le conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post
+- Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario
 
 >
 **Il Bottino**
@@ -123,9 +124,9 @@ evitando barriere magiche, allarmi o guardie.
 Destrezza+Sapienza Oscura/5 più o meno Bonus o Malus Bottino.
 **Bonus:** utilizzando Conoscenze o Pozioni appropriate (consumando Fatica o risorse
 dalla Borsa):
-• Scolastica o Pozione Standard: +1 possibilità
-• Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Avanzata o Pozione Eccezionale: +5 possibilità
+- Scolastica o Pozione Standard: +1 possibilità
+- Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Avanzata o Pozione Eccezionale: +5 possibilità
 *Successo (se tutti i PG hanno successo):* si passa alla Fase II.
 *Fallimento (se anche solo un PG fallisce):* tutti i PG ripetono la Fase I, compresi quelli
 che avevano superato il primo tentativo, con un ulteriore malus di -3 alle Possibilità.
@@ -139,9 +140,9 @@ fisiche e cercano di impadronirsene.
 Destrezza+Sapienza Oscura più o meno Bonus o Malus Bottino.
 **Bonus:** utilizzando Conoscenze o Pozioni appropriate (consumando Fatica o risorse
 dalla Borsa):
-• Scolastica o Pozione Standard: +1 possibilità
-• Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Avanzata o Pozione Eccezionale: +5 possibilità
+- Scolastica o Pozione Standard: +1 possibilità
+- Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Avanzata o Pozione Eccezionale: +5 possibilità
 *Successo (se almeno un PG ha successo):* si passa alla Fase III.
 *Fallimento (se tutti i PG falliscono):* i PG vengono scoperti e la missione fallisce.
 **Fase III - Fuga**
@@ -151,9 +152,9 @@ sfruttando la confusione, incantesimi o passaggi segreti.
 Destrezza+Fatica più o meno Bonus o Malus Bottino.
 **Bonus:** utilizzando Conoscenze o Pozioni appropriate (consumando Fatica o risorse
 dalla Borsa):
-• Scolastica o Pozione Standard: +1 possibilità
-• Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Avanzata o Pozione Eccezionale: +5 possibilità
+- Scolastica o Pozione Standard: +1 possibilità
+- Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Avanzata o Pozione Eccezionale: +5 possibilità
 *Successo (se almeno un PG ha successo):* il furto riesce e i PG riescono a dileguarsi
 con il bottino.
 *Fallimento (se tutti i PG falliscono):* i PG vengono scoperti e devono fuggire lasciando
@@ -172,18 +173,18 @@ Lancio 1d3 → esce 3 → **Bottino Elevato**
 I PG si avvicinano al laboratorio, circondato da rovi incantati e rune di allarme.
 Muovendosi nell’ombra, cercano di oltrepassare il perimetro senza attivare le difese
 magiche.
-• **PG1** ha Destrezza 14 e Sapienza Oscura 12
+- **PG1** ha Destrezza 14 e Sapienza Oscura 12
 → 12/5 dà 2
 → 14+2-4+3 (Pozione Oltre Ogni Previsione) = **15 possibilità su 40**
 Lancia 1d40 → esce 11 → **riesce**
-• **PG2** ha Destrezza 11 e Sapienza Oscura 10→ 10/5 dà 2
+- **PG2** ha Destrezza 11 e Sapienza Oscura 10→ 10/5 dà 2
 → 11+2-4 = **9 possibilità su 40**
 Lancia 1d40 → esce 26 → **fallisce**
 Poiché non tutti i PG riescono, la **Fase I** deve essere ripetuta con un malus di -3.
 Al secondo tentativo, tutti i PG ripetono il tiro:
-• **PG1**: 14+2-4-3 = **9 possibilità su 40**
+- **PG1**: 14+2-4-3 = **9 possibilità su 40**
 Lancia 1d40 → esce 8 → **riesce**
-• **PG2** utilizza una Conoscenza Avanzata (+5):
+- **PG2** utilizza una Conoscenza Avanzata (+5):
 → 11+2-4-3+5 = **11 possibilità su 40**
 Lancia 1d40 → esce 9 → **riesce**
 Entrambi riescono a infiltrarsi: si passa alla **Fase II**.
@@ -191,10 +192,10 @@ Entrambi riescono a infiltrarsi: si passa alla **Fase II**.
 All’interno, l’aria è densa di polvere e magia residua. Sul tavolo, una cassa sigillata con sigilli
 antiapertura brilla di luce bluastra.
 I PG tentano di disattivare i sigilli e impossessarsi del contenuto.
-• **PG1** ha Destrezza 14 e Sapienza Oscura 12
+- **PG1** ha Destrezza 14 e Sapienza Oscura 12
 → 14+12-4 = **22 possibilità su 50**
 Lancia 1d50 → esce 19 → **riesce**
-• **PG2** ha Destrezza 11 e Sapienza Oscura 10
+- **PG2** ha Destrezza 11 e Sapienza Oscura 10
 → 11+10-4 = **17 possibilità su 50**
 Lancia 1d50 → esce 33 → **fallisce**
 Poiché almeno un PG ha successo, la cassa viene aperta: all’interno trovano fiale di sangue
@@ -203,10 +204,10 @@ Si passa alla **Fase III**.
 **Fase III - Fuga**
 Improvvisamente, un incantesimo d’allarme si attiva. I PG devono fuggire rapidamente prima
 che arrivi qualcuno.
-• **PG1** ha Destrezza 14 e Fatica 13
+- **PG1** ha Destrezza 14 e Fatica 13
 → 14+13-4 = **23 possibilità su 50**
 Lancia 1d50 → esce 17 → **riesce**
-• **PG2** ha Destrezza 11 e Fatica 12
+- **PG2** ha Destrezza 11 e Fatica 12
 → 11+12-4 = **19 possibilità su 50**
 Lancia 1d50 → esce 41 → **fallisce**
 **PG1** riesce a trascinare **PG2** verso l’uscita, lanciando un *Muffliato* e
@@ -215,16 +216,19 @@ Le guardie trovano solo la cassa vuota e tracce di magia oscura.
 **Missione completata con successo.**I PG ottengono 1 Punto Sinistro, 2 Galeoni per post (max 5 post) e 2 PP per post (max 5
 post).
 
-#### 2. Contrabbando : trasporto e consegna di materiale proibito, prezioso o illegale da un luogo all’altro, eludendo controlli, pattuglie o trappole magiche
+</details>
+
+<details><summary><strong>2. Contrabbando : trasporto e consegna di materiale proibito, prezioso o illegale da un luogo all’altro, eludendo controlli, pattuglie o trappole magiche</strong></summary>
+
 
 I PG dovranno pianificare un percorso sicuro, occultare il carico e assicurarsi che arrivi
 integro a destinazione senza essere scoperti.
 Il contrabbando non può coinvolgere luoghi ufficiali di gioco (es. Diagon Alley, Ministero,
 Hogwarts) o appartenenti a PG Giocanti. È quindi preferibile scegliere location di colore o di
 fantasia.
-• Gli incantesimi o le conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post
-• Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario
+- Gli incantesimi o le conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post
+- Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario
 **Tipo di Carico**
 Ogni tipo di carico presenta differenti livelli di compatibilità con i Mezzi di Trasporto. Una
 combinazione non compatibile può comportare rischi aggiuntivi per l'integrità del carico,
@@ -255,9 +259,9 @@ occultando il carico e scegliendo il percorso più sicuro. Devono evitare sospet
 trappole magiche nei pressi del punto di partenza.**Riesce se:** lanciando 1d40, il risultato è compreso fra 1 e il totale di
 Acume+Sapienza Oscura o Mentale/5 più o meno Modificatore del Carico.
 **Bonus:**
-• Conoscenza o Pozione Scolastica/Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza o Pozione Scolastica/Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 *Successo (se tutti i PG riescono):* si passa alla Fase II.
 *Fallimento (se almeno un PG fallisce):* qualcosa va storto compromettendo tutta la
 missione, che quindi fallisce (i PG vengono scoperti prima della partenza).
@@ -281,23 +285,23 @@ unico lancio di 1d5 per tutto il gruppo.
 Compatibile con tutti i tipi di carico: il viaggio ha riuscita autoconclusiva, ma dura 3 post per
 PG
 **Passaporta**
-• Compatibile con Carico Comune e Discreto (1) e Sensibile ma Gestibile (2): il viaggio ha
+- Compatibile con Carico Comune e Discreto (1) e Sensibile ma Gestibile (2): il viaggio ha
 riuscita autoconclusiva e dura 1 post di ogni PG, ma con un malus di -3 Fatica fino alla fine
 della role.
-• Altri carichi: il viaggio dura 1 post di ogni PG, con un malus di -3 Fatica fino alla fine della
+- Altri carichi: il viaggio dura 1 post di ogni PG, con un malus di -3 Fatica fino alla fine della
 role. Il carico si rompe o danneggia parzialmente se, lanciando 1d5, i PG estraggono 1.
 Fallendo, al termine della Fase III, anche se i PG dovessero avere successo, non
 guadagneranno Galeoni poiché il carico sarà parzialmente danneggiato.
 **Scopa Volante**
-• Compatibile con Carico Comune e Discreto (1) e Sensibile ma Gestibile (2): il viaggio ha
+- Compatibile con Carico Comune e Discreto (1) e Sensibile ma Gestibile (2): il viaggio ha
 riuscita autoconclusiva e dura 2 post di ogni PG.
-• Altri carichi: il viaggio dura 2 post di ogni PG. Il carico si rompe o danneggia parzialmente
+- Altri carichi: il viaggio dura 2 post di ogni PG. Il carico si rompe o danneggia parzialmente
 se, lanciando 1d5, i PG estraggono 1-2. Fallendo, al termine della Fase III, anche se i PG
 dovessero avere successo, non guadagneranno Galeoni poiché il carico sarà parzialmente
 danneggiato.**Smaterializzazione**
-• Compatibile con Carico Comune e Discreto (1): il viaggio ha riuscita autoconclusiva e dura
+- Compatibile con Carico Comune e Discreto (1): il viaggio ha riuscita autoconclusiva e dura
 1 post di ogni PG, ma con un malus di -3 Destrezza fino alla fine della role.
-• Altri carichi: il viaggio dura 1 post di ogni PG, con un malus di -3 Destrezza fino alla fine
+- Altri carichi: il viaggio dura 1 post di ogni PG, con un malus di -3 Destrezza fino alla fine
 della role. Il carico si rompe o disperde del tutto se, lanciando 1d5, i PG estraggono 1.
 Fallendo, la missione non viene portata a termine poiché il carico sarà danneggiato o
 disperso.
@@ -308,9 +312,9 @@ confondendo eventuali inseguitori o testimoni.
 **Riesce se:** lanciando 1d50, il risultato è compreso fra 1 e il totale di
 Fatica+Destrezza più o meno Modificatore del Carico+Sapienza Mentale o Oscura/5.
 **Bonus:**
-• Conoscenza o Pozione Scolastica/Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza o Pozione Scolastica/Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 *Successo (se almeno un PG riesce):* la consegna riesce e la missione è completata.
 *Fallimento (se tutti i PG falliscono):* il carico viene intercettato o compromesso prima
 della consegna (missione fallita).
@@ -326,18 +330,18 @@ Lancio 1d4 → esce 3 → **Illegale o Instabile**
 **Fase I - Preparazione e Carico**
 I PG raccolgono il materiale e preparano il trasporto, occultandolo sotto incantesimi di
 protezione. Devono evitare curiosi e trappole magiche vicine al laboratorio.
-• **PG1** ha Acume 13 e Sapienza Oscura 15
+- **PG1** ha Acume 13 e Sapienza Oscura 15
 → 15/5 dà 3
 → 13+3-3+3 (Pozione Oltre Ogni Previsione) = **16 possibilità su 40**
 Lancia 1d40 → esce 14 → **riesce**
-• **PG2** ha Acume 11 e Sapienza Oscura 12
+- **PG2** ha Acume 11 e Sapienza Oscura 12
 → 12/5 dà 2
 → 11+2-3 = **10 possibilità su 40**
 Lancia 1d40 → esce 8 → **riesce**
 Entrambi i PG preparano il carico con successo e si passa alla **Fase II**.
 **Fase II - Trasporto e Attraversamento**I PG si mettono in viaggio con il carico illegale. Decidono di usare una **scopa
 volante**.
-• **PG1** controlla il carico e guida la scopa
+- **PG1** controlla il carico e guida la scopa
 → il carico è instabile, lancia 1d5 per test di sicurezza
 → esce 3
 → il carico rimane integro e il viaggio prosegue normalmente.
@@ -357,7 +361,10 @@ Ricompense: 1 Punto Sinistro, 2 Galeoni per post (max 5 post), 2 PP per post (ma
 
 .
 
-#### 3. Pressione Psicologica : ottenere vantaggi, denaro o informazioni tramite pressione psicologica, minacce o ricatti
+</details>
+
+<details><summary><strong>3. Pressione Psicologica : ottenere vantaggi, denaro o informazioni tramite pressione psicologica, minacce o ricatti</strong></summary>
+
 
 Questa missione prevede che i PG debbano ottenere da una persona o un gruppo (che non
 sia un PNG del gioco, né un negoziante/locandiere/carica ufficiale) ciò che vogliono tramite
@@ -365,14 +372,14 @@ corruzione, intimidazione o ricatto, senza fare uso di magia direttamente sul be
 danneggiarlo fisicamente per ordine di chi commissiona il Crimine.
 I PG dovranno pianificare la strategia, valutare la vulnerabilità della vittima e applicare la
 modalità scelta in maniera convincente, senza farsi scoprire o subire ripercussioni.
-• L’uso di Conoscenze, in questo caso, è solo di colore: i loro effetti non porteranno alcun
+- L’uso di Conoscenze, in questo caso, è solo di colore: i loro effetti non porteranno alcun
 vantaggio concreto ai PG o svantaggio ai PNG.
-• È possibile utilizzare pozioni che agiscono unicamente sui PG che le bevono, fornendo loro
+- È possibile utilizzare pozioni che agiscono unicamente sui PG che le bevono, fornendo loro
 dei bonus in base a quanto segue:
 → Pozione Standard: +1 Parametro
 → Pozione Oltre Ogni Previsione: +3 Parametro
 → Pozione Eccezionale: +5 Parametro
-• Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario. Il
+- Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario. Il
 bonus della Pozione si applica al Parametro sul quale la Pozione agisce e non direttamente
 alle Possibilità del tiro. La Pozione può quindi essere utilizzata soltanto se modifica uno dei
 Parametri impiegati nella prova effettuata dal PG.
@@ -413,11 +420,11 @@ Tutti i PG subiscono -3 alle Possibilità della Fase III.
 scegliere come approcciarlo. A seconda del profilo del PNG, ogni approccio ha vantaggi e
 svantaggi specifici, che influenzano la riuscita del tentativo e il rischio di tradimento o fuga.
 **Riuscita della Fase III:**
-• *Corruzione*: riesce se, lanciando 1d20, il risultato è compreso fra 1 e Dialettica del
+- *Corruzione*: riesce se, lanciando 1d20, il risultato è compreso fra 1 e Dialettica del
 PG + Lv Persuasore del PG, più o meno Bonus o Malus Profilo e Fase II.
-• *Ricatto*: riesce se, lanciando 1d30, il risultato è compreso fra 1 e Volontà del PG +
+- *Ricatto*: riesce se, lanciando 1d30, il risultato è compreso fra 1 e Volontà del PG +
 Dialettica del PG, più o meno Bonus o Malus Profilo e Fase II.
-• **Intimidazione**: riesce se, lanciando 1d40, il risultato è compreso fra 1 e il valore più
+- **Intimidazione**: riesce se, lanciando 1d40, il risultato è compreso fra 1 e il valore più
 alto fra Volontà e Resistenza del PG + Punti Sinistri/2, più o meno Bonus o Malus Profilo e
 Fase II.
 
@@ -470,7 +477,7 @@ Sinistri 2
 → 2/2 dà 1
 → 14+2+3+4+1 = **24 possibilità su 60**
 Lancia 1d60 → esce 18 → **riesce**
-• **PG2** ha Volontà 11, Sapienza Mentale 10, Lv Persuasore 2, Dialettica 3, Punti
+- **PG2** ha Volontà 11, Sapienza Mentale 10, Lv Persuasore 2, Dialettica 3, Punti
 Sinistri 3
 → 10/5 dà 2
 → 3/2 dà 1
@@ -482,31 +489,34 @@ Il PG lancia 1d6 per stabilire il Profilo della Vittima → esce 2 → **Codardo
 **Fase II - Pianificazione e Avvicinamento**
 I PG devono organizzare l’incontro: scegliere momento, luogo e come presentarsi per
 massimizzare la disponibilità del PNG ad ascoltare.
-• **PG1**: Volontà 14, Acume 13
+- **PG1**: Volontà 14, Acume 13
 → 14+13 = **27 possibilità su 40**
 Lancia 1d40 → esce 30 → **fallisce**
-• **PG2**: Volontà 11, Acume 10, Malus personale Fase I -3
+- **PG2**: Volontà 11, Acume 10, Malus personale Fase I -3
 → 11+10-3 = **18 possibilità su 40**
 Lancia 1d40 → esce 25 → **fallisce**
 Poiché tutti i PG falliscono, si presenta un intoppo durante l’avvicinamento.
 Tutti i PG passano alla Fase III con un malus di -3.
 **Fase III - Applicazione della Modalità**
 I PG scelgono come approcciare il mercante (Codardo):
-• *Corruzione*: -3
-• *Intimidazione*: +3
-• *Ricatto*: +3
+- *Corruzione*: -3
+- *Intimidazione*: +3
+- *Ricatto*: +3
 PG1 decide di usare *Intimidazione*:
-• Volontà 14, Resistenza 12, Punti Sinistri 2
+- Volontà 14, Resistenza 12, Punti Sinistri 2
 → il valore più alto fra Volontà e Resistenza è 14
 → 14+1+3 (profilo)-3 (Fase II) = **15 possibilità su 40**
 Lancia 1d40 → esce 20 → **fallisce**
 PG2 tenta *Ricatto*:
-• Volontà 11, Dialettica 3
+- Volontà 11, Dialettica 3
 → 11+3+3 (profilo)-3 (Fase II) = **14 possibilità su 30**Lancia 1d30 → esce 18 → **fallisce**
 Poiché tutti i PG falliscono, la vittima non accetta o si ribella.
 **Missione fallita.**
 
-#### 4. Sicario : esecuzione di un incarico a pagamento che può assumere forme differenti: omicidio, vendetta, danni non letali, cancellazione della memoria, ecc
+</details>
+
+<details><summary><strong>4. Sicario : esecuzione di un incarico a pagamento che può assumere forme differenti: omicidio, vendetta, danni non letali, cancellazione della memoria, ecc</strong></summary>
+
 
 I PG devono pianificare, avvicinarsi al bersaglio, compiere l’azione e cancellare le tracce
 senza essere catturati o identificati.
@@ -514,10 +524,10 @@ Le azioni da sicario non possono essere eseguite presso abitazioni o luoghi appa
 PG Giocanti, né in negozi, locali o luoghi ufficiali di Diagon Alley, Notturn Alley o
 Hogsmeade. È quindi preferibile scegliere location di colore o di fantasia.
 Ogni fase può essere ambientata in momenti diversi.
-• Gli incantesimi o le conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post; se entrambe sono
+- Gli incantesimi o le conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post; se entrambe sono
 appropriate alla prova, i relativi bonus si sommano
-• Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario
+- Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario
 **Fase I - Raccolta Informazioni**
 **Descrizione:** i PG raccolgono informazioni sulla vittima, valutano debolezze, rapporti
 sociali, interessi e possibili punti di pressione.
@@ -570,9 +580,9 @@ Persuasore+Dialettica+Punti Sinistri/2 più o meno Bonus o Malus Profilo. Il PG 
 utilizzare Sapienza Oscura oppure Sapienza Mentale e considera il valore della Sapienza
 scelta diviso 5.
 **Bonus:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
 I bonus di una Conoscenza e di una Pozione utilizzate nello stesso post si sommano.
 *Successo (se almeno un PG riesce):* i PG ottengono informazioni sufficienti e
 passano alla Fase II senza ulteriori malus.
@@ -586,9 +596,9 @@ passerà alla Fase III.**Esecuzione:** il PG riesce se, lanciando 1d35, estrae u
 Acume+Punti Sinistri/2 più o meno Bonus o Malus Profilo, applicando inoltre l’eventuale
 Malus di -3 della Fase I.
 **Bonus:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
 I bonus di una Conoscenza e di una Pozione utilizzate nello stesso post si sommano.
 *Successo (se almeno un PG riesce):* il piano è solido; si passa alla Fase III con un
 Bonus di +3 Possibilità per tutti i PG.
@@ -606,18 +616,18 @@ compreso fra 1 e il totale dei valori elencati più o meno Bonus o Malus Fase II
 bersaglio.
 Ogni metodo si adatta a un diverso tipo di incarico: se viene utilizzato il metodo più affine al
 tipo di missione (vedi parentesi), il PG ottiene un Bonus di +3 Possibilità.
-• *Furtivo* (eliminazione totale; inscenamento): Destrezza+Sapienza Oscura/5
-• *Azione Mentale* (rimozione di ricordi o manipolazione mentale): Volontà+Sapienza
+- *Furtivo* (eliminazione totale; inscenamento): Destrezza+Sapienza Oscura/5
+- *Azione Mentale* (rimozione di ricordi o manipolazione mentale): Volontà+Sapienza
 Mentale/5
-• *Danno generico o simbolico* (missione alternativa o simbolica): Sapienza Oscura
-• *Danno psicologico* (punizione o vendetta): Volontà+Dialettica
+- *Danno generico o simbolico* (missione alternativa o simbolica): Sapienza Oscura
+- *Danno psicologico* (punizione o vendetta): Volontà+Dialettica
 **Bonus:**
-• Conoscenza Scolastica o Pozione Standard: +5 possibilità ciascuna
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +7 possibilità ciascuna
-• Conoscenza Avanzata o Pozione Eccezionale: +10 possibilità ciascuna
-• Piano ben congegnato (successo in Fase II): +3 possibilità
-• Piano difettoso (fallimento in Fase II): -3 possibilità
-• Profilo del bersaglio: applicare il modificatore stabilito in Fase I (+3 / 0 / -3 / -5)
+- Conoscenza Scolastica o Pozione Standard: +5 possibilità ciascuna
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +7 possibilità ciascuna
+- Conoscenza Avanzata o Pozione Eccezionale: +10 possibilità ciascuna
+- Piano ben congegnato (successo in Fase II): +3 possibilità
+- Piano difettoso (fallimento in Fase II): -3 possibilità
+- Profilo del bersaglio: applicare il modificatore stabilito in Fase I (+3 / 0 / -3 / -5)
 I bonus di una Conoscenza e di una Pozione utilizzate nello stesso post si sommano.
 **Successo (se almeno 1 PG ha successo):** l’incarico riesce perfettamente. Il
 bersaglio subisce l’effetto previsto senza attirare attenzioni.
@@ -635,11 +645,11 @@ accessi secondari.
 **Profilo del bersaglio:** tiro 1d4 → esce 3: Ricco/Frequentato/Ben collegato → Malus
 -3 in tutte le fasi.
 **Tipo di incarico:** tiro 1d5 → esce 1: Eliminazione totale.
-• **PG1**: Volontà 14, Dialettica 5, Lv Persuasore 2, Sapienza Mentale 10
+- **PG1**: Volontà 14, Dialettica 5, Lv Persuasore 2, Sapienza Mentale 10
 → 10/5 dà 2
 → 14+5+2+2-3 (Profilo bersaglio) = **20 possibilità su 40**
 Tiro 1d40 → esce 19 → **successo**
-• **PG2**: Destrezza 15, Popolarità 4
+- **PG2**: Destrezza 15, Popolarità 4
 → 4/2 dà 2
 → 15-2-3 (Profilo bersaglio) = **10 possibilità su 30**
 Tiro 1d30 → esce 26 → **fallimento**
@@ -650,11 +660,11 @@ fasi successive.
 **Fase II - Avvicinamento**
 I PG progettano l’azione: tempo dell’attacco, travestimenti, via di fuga e modo di coprire la
 traccia magica.
-• **PG1**: Acume 13, Punti Sinistri 4
+- **PG1**: Acume 13, Punti Sinistri 4
 → 4/2 dà 2
 → 13+2-3 (Profilo bersaglio) = **12 possibilità su 35**
 Tiro 1d35 → esce 10 → **successo**
-• **PG2**: Acume 12, Punti Sinistri 6
+- **PG2**: Acume 12, Punti Sinistri 6
 → 6/2 dà 3
 → 12+3-3 (Profilo bersaglio) = **12 possibilità su 35**
 Tiro 1d35 → esce 27 → **fallimento**
@@ -665,12 +675,12 @@ L’attacco viene portato a termine di notte, mentre il bersaglio sta ispezionan
 collezione di artefatti.
 I PG scelgono di inscenare un *incidente magico* tramite un rituale di dispersione.Metodo utilizzato: *Furtivo* (eliminazione totale; inscenamento)
 → Destrezza+Sapienza Oscura/5
-• **PG1**: Destrezza 14, Sapienza Oscura 15
+- **PG1**: Destrezza 14, Sapienza Oscura 15
 → 15/5 dà 3
 → 14+3+3 (Bonus metodo corretto)+3 (Fase II)-3 (Profilo bersaglio) = **20 possibilità su
 40**
 Tiro 1d40 → esce 17 → **successo**
-• **PG2**: Destrezza 15, Sapienza Oscura 10
+- **PG2**: Destrezza 15, Sapienza Oscura 10
 → 10/5 dà 2
 → 15+2+3 (Bonus metodo corretto)+3 (Fase II)-3 (Profilo bersaglio) = **20 possibilità su
 40**
@@ -678,7 +688,10 @@ Tiro 1d40 → esce 33 → **fallimento**
 **Risultato finale:** almeno un PG riesce → **successo pieno**.
 Il mandante è soddisfatto e onora la ricompensa.
 
-#### 5. Affari Clandestini : organizzare e dirigere eventi illegali
+</details>
+
+<details><summary><strong>5. Affari Clandestini : organizzare e dirigere eventi illegali</strong></summary>
+
 
 Questa missione riguarda la creazione, la gestione e la supervisione di eventi proibiti - duelli
 non autorizzati, tornei privati, feste segrete, aste magiche, raduni oscuri, spettacoli o gare
@@ -689,10 +702,10 @@ interventi esterni.
 Le azioni non possono essere svolte in luoghi ufficiali (istituzioni, negozi o club canon), ma
 solo in ambienti di fantasia o aree marginali: magazzini, rovine, foreste, sotterranei, teatri
 chiusi, soffitte, catacombe, ecc.
-• Gli incantesimi o le conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post; se entrambe sono
+- Gli incantesimi o le conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post; se entrambe sono
 appropriate alla prova, i relativi bonus si sommano
-• Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario
+- Si possono usare Oggetti o altro dalla Borsa per ottenere bonus indicati nel Prezzario
 **Fase I - Reclutamento e Contatti**
 **Descrizione:** i PG reclutano partecipanti, fornitori e sostenitori, assicurandosi
 complicità e coperture. È la fase in cui si stabiliscono fiducia, fondi e alleanze.
@@ -710,9 +723,9 @@ compreso fra 1 e la soglia del metodo scelto:→ *Persuasione:* Volontà+Dialett
 → *Corruzione e ricatti:* Volontà+Punti Sinistri/2+Sapienza Oscura/5
 → *Notorietà:* Popolarità+Dialettica-Punti Sinistri/2
 **Bonus:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
 I bonus di una Conoscenza e di una Pozione utilizzate nello stesso post si sommano.
 *Successo (almeno un PG riesce):* il gruppo ottiene appoggi e fondi adeguati; si passa
 alla Fase II con un Bonus di +3 Possibilità per tutti i PG.
@@ -726,9 +739,9 @@ prima ancora che inizi.
 **Esecuzione:** ogni PG lancia 1d35 e riesce se il risultato è compreso fra 1 e
 Acume+Sapienza Arcaica/5 più o meno Bonus o Malus Fase I.
 **Bonus:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
 I bonus di una Conoscenza e di una Pozione utilizzate nello stesso post si sommano.
 *Successo (almeno un PG riesce):* la struttura è solida e ben protetta; si passa alla
 Fase III con un Bonus di +3 Possibilità per tutti i PG.
@@ -744,9 +757,9 @@ Volontà+Sapienza Mentale o Oscura/5+Dialettica+Punti Sinistri/2 più o meno Bon
 Fase II. Il PG sceglie se utilizzare Sapienza Mentale oppure Sapienza Oscura e considera il
 valore della Sapienza scelta diviso 5.
 **Bonus:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità ciascuna
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità ciascuna
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità ciascuna
 I bonus di una Conoscenza e di una Pozione utilizzate nello stesso post si sommano.
 *Successo (almeno un PG riesce):* l’evento si conclude con successo.*Fallimento (tutti i PG falliscono):* disordini, perdite o intervento delle autorità; l’evento
 viene interrotto.
@@ -761,8 +774,8 @@ Sottobosco.
 Lancio 1d5 → esce **2** → **Festa/spettacolo illegale**.
 **Fase I - Reclutamento e Contatti**
 Metodi scelti dai PG per questa fase:
-• PG1: Persuasione
-• PG2: Corruzione e ricatti
+- PG1: Persuasione
+- PG2: Corruzione e ricatti
 PG1: Volontà 14, Dialettica 5, Lv Persuasore 2, Sapienza Mentale 13
 → 13/5 dà 2
 → 14+5+2+2 = **23 possibilità su 50**
@@ -795,3 +808,5 @@ PG2: Volontà 11, Sapienza Mentale 9, Dialettica 3, Punti Sinistri 4
 → 11+1+3+2+3 (Bonus Fase II) = **20 possibilità su 60**
 Lancio 1d60 → esce 45 → **fallimento**
 Esito complessivo: almeno un PG riesce → evento completato con successo.
+
+</details>
