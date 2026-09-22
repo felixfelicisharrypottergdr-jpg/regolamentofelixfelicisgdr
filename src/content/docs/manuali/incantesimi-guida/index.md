@@ -18,9 +18,11 @@ prototypeExcerpt: false
 
 # Guida e Note del Manuale degli Incantesimi
 
-**Il Generatore**
+<a id="generatore"></a>
+## Il Generatore
+
 Per facilitare l'utilizzo delle Conoscenze è disponibile il
-Generatore Riuscita, Forza e Utilizzi, che permette di cercare Incantesimi e Tecniche e applica automaticamente le
+[Generatore Riuscita, Forza e Utilizzi](https://felixfelicisharrypottergdr-jpg.github.io/riuscita/), che permette di cercare Incantesimi e Tecniche e applica automaticamente le
 regole previste per il tipo di PG, le sue competenze e gli eventuali bonus o malus. Quando
 necessario calcola anche la Forza e gli effetti della Conoscenza sul bersaglio, gestisce
 eventuali dadi secondari o successivi e distingue quelli che spettano al Player da quelli
@@ -30,8 +32,10 @@ ottenuto. Il tool può inoltre essere aperto direttamente da Erbologia e Magizoo
 una loro fase richiede una Conoscenza e, se l'utilizzo provoca conseguenze alla Salute,
 prepara i dati necessari per il successivo passaggio a Medimagia.
 
-Note sulla
-Trasfigurazione La Trasfigurazione, su Felix Felicis GDR (ma anche e soprattutto
+<a id="notetrasfi"></a>
+## Note sulla Trasfigurazione
+
+La Trasfigurazione, su Felix Felicis GDR (ma anche e soprattutto
 nel mondo canon potteriano), è una branca della magia che lavora sulla
 ***forma*** delle cose, non sulla loro “anima”. Non crea vita dal nulla, non inventa
 nuove essenze: prende qualcosa che esiste già e lo *costringe* - in un certo senso, per
@@ -84,17 +88,19 @@ umani in animali (vedere i paragrafi successivi).
 
 In sintesi, all’interno del gioco, la Trasfigurazione è pensata come una magia potente,
 versatile e anche pericolosa, ma con confini chiari:
-• **permette** di cambiare forma, stato, dimensioni, consistenza e funzione di ciò che
+- **permette** di cambiare forma, stato, dimensioni, consistenza e funzione di ciò che
 esiste;
-• **Non consente** di creare vita nuova o di riscrivere l’essenza profonda di un
+- **Non consente** di creare vita nuova o di riscrivere l’essenza profonda di un
 bersaglio;
 Rende interessanti da giocare i dilemmi su cosa sia lecito fare con un corpo trasfigurato, a
 un animale nascosto in un oggetto o a un oggetto che finge di essere vivo, ma senza aprire
 la porta a combinazioni “onnipotenti” che trasformino il Trasfiguratore in un mago
 onnipotente capace di plasmare la vita.
 
-Note sulle dimensioni del
-bersaglio Anche la magia più raffinata non può prescindere dai limiti imposti dalla
+<a id="dimensioni"></a>
+## Note sulle dimensioni del bersaglio
+
+Anche la magia più raffinata non può prescindere dai limiti imposti dalla
 materia: tentare di trasfigurare in un solo colpo un drago, o di piegare creature colossali
 come se fossero piume, non è soltanto irrealistico ma anche al di là delle possibilità di
 qualunque incantatore, per quanto esperto. Le Trasfigurazioni richiedono concentrazione,
@@ -145,50 +151,55 @@ interamente, ma potrebbe trasfigurarne il braccio in pietra, oppure ridurne le
 dimensioni.
 
 **Quanto segue **non** vale per:**
-[Adduco Maxima](../incantesimi/adduco/),
-[Animaleus Nobodyx](../incantesimi/animaleus/)
-[Animatus](../incantesimi/animatus/)
-[Avis](../incantesimi/avis/)
-[Cucurbita](../incantesimi/cucurbita/)
-[Deletrius](../incantesimi/deletrius/)
-[Homophormus](../incantesimi/homorphus/)
-[Incohatum Locomotor](../incantesimi/incohatum/)
-[Paperante - Furitum - Lapifors - Pullus - Snufflifors](../incantesimi/paperante/)
-[Raptaque](../incantesimi/raptaque/)
-[Reparifarge](../incantesimi/reparifarge/)
-[Resferàntes](../incantesimi/resferantes/)
-[Transmuto](../incantesimi/transmuto/)
-[Transmuto Partialis](../incantesimi/partialis/)[Vera Verto](../incantesimi/vera/)
-[Vestis](../incantesimi/vestis/)
-[Vocatus](../incantesimi/vocatus/)
+- [Adduco Maxima](../incantesimi/adduco/),
+- [Animaleus Nobodyx](../incantesimi/animaleus/)
+- [Animatus](../incantesimi/animatus/)
+- [Avis](../incantesimi/avis/)
+- [Cucurbita](../incantesimi/cucurbita/)
+- [Deletrius](../incantesimi/deletrius/)
+- [Homophormus](../incantesimi/homorphus/)
+- [Incohatum Locomotor](../incantesimi/incohatum/)
+- [Paperante - Furitum - Lapifors - Pullus - Snufflifors](../incantesimi/paperante/)
+- [Raptaque](../incantesimi/raptaque/)
+- [Reparifarge](../incantesimi/reparifarge/)
+- [Resferàntes](../incantesimi/resferantes/)
+- [Transmuto](../incantesimi/transmuto/)
+- [Transmuto Partialis](../incantesimi/partialis/)
+- [Vera Verto](../incantesimi/vera/)
+- [Vestis](../incantesimi/vestis/)
+- [Vocatus](../incantesimi/vocatus/)
 **Vale per:**
-[Animalis Commutatio](../incantesimi/animalis/)
-[Cadit](../incantesimi/cadit/)
-[Captio](../incantesimi/captio/)
-[Commutatio](../incantesimi/commutatio/)
-[Diminuendo](../incantesimi/diminuendo/)
-[Duro](../incantesimi/duro/)
-[Engorgio](../incantesimi/engorgio/)
-[Evanesco](../incantesimi/evanesco/)
-[Evocatio](../incantesimi/evocatio/)
-[Formài](../incantesimi/formai/)
-[Geminio](../incantesimi/geminio/)
-[Gommosus](../incantesimi/gommosus/)
-[Glisseo](../incantesimi/glisseo/)
-[Ignis Algerus](../incantesimi/ignis/)[Indissolubilis](../incantesimi/indissolubilis/)
-[Incarcifors](../incantesimi/incarcifors/)
-[Locomotor](../incantesimi/locomotor/)
-[Mixtum Commutatio](../incantesimi/mixtum/)
-[Mutastato](../incantesimi/mutastato/)
-[Mutaombra](../incantesimi/mutaombra/)
-[Muto](../incantesimi/muto/)
-[Objectis Commutatio](../incantesimi/objectis/)
-[Pluma](../incantesimi/pluma/)
-[Pontis](../incantesimi/pontis/)
-[Reducio](../incantesimi/reducio/)
-[Verto](../incantesimi/verto/)
+- [Animalis Commutatio](../incantesimi/animalis/)
+- [Cadit](../incantesimi/cadit/)
+- [Captio](../incantesimi/captio/)
+- [Commutatio](../incantesimi/commutatio/)
+- [Diminuendo](../incantesimi/diminuendo/)
+- [Duro](../incantesimi/duro/)
+- [Engorgio](../incantesimi/engorgio/)
+- [Evanesco](../incantesimi/evanesco/)
+- [Evocatio](../incantesimi/evocatio/)
+- [Formài](../incantesimi/formai/)
+- [Geminio](../incantesimi/geminio/)
+- [Gommosus](../incantesimi/gommosus/)
+- [Glisseo](../incantesimi/glisseo/)
+- [Ignis Algerus](../incantesimi/ignis/)
+- [Indissolubilis](../incantesimi/indissolubilis/)
+- [Incarcifors](../incantesimi/incarcifors/)
+- [Locomotor](../incantesimi/locomotor/)
+- [Mixtum Commutatio](../incantesimi/mixtum/)
+- [Mutastato](../incantesimi/mutastato/)
+- [Mutaombra](../incantesimi/mutaombra/)
+- [Muto](../incantesimi/muto/)
+- [Objectis Commutatio](../incantesimi/objectis/)
+- [Pluma](../incantesimi/pluma/)
+- [Pontis](../incantesimi/pontis/)
+- [Reducio](../incantesimi/reducio/)
+- [Verto](../incantesimi/verto/)
 
-Il Limbo Il Limbo è una dimensione
+<a id="limbo"></a>
+## Il Limbo
+
+Il Limbo è una dimensione
 extra-terrena dove si trovano oggetti, animali o persone che vengono fatte evanescere; tutto
 vi soggiorna per un tempo limitato e dipendente dall'abilità dell'evocatore li ha spediti in quel
 luogo.
@@ -209,8 +220,8 @@ Eccezionale in Trasfigurazione e Adulti con o senza Sapienza Trasfigurativa, san
 cosa è il Limbo; tutti gli altri sanno solo che il Limbo esiste e che ha a che fare con la
 Trasfigurazione.
 
-**RUOLARE NEL
-LIMBO**
+<a id="ruolarelimbo"></a>
+### Ruolare nel Limbo
 Potrebbe capitare che un PG giocante finisca nel Limbo per un certo periodo di tempo,
 definito in post.
 E' possibile ruolare nel Limbo all'interno della role stessa in cui il PG vi viene spedito, oppure
@@ -232,7 +243,10 @@ altro tipo di role, guadagna i Punti Post ed i Galeoni previsti normalmente per 
 PG che finiscono nel Limbo non possono essere danneggiati dalle Creature Magiche ma
 possono interagire con loro.
 
-Trasfigurare umani in animali Un PG
+<a id="trasfigurareumanianimali"></a>
+## Trasfigurare umani in animali
+
+Un PG
 trasfigurato completamente in animale mantiene il controllo dei propri pensieri, delle proprie
 emozioni e dei propri istinti ma non della parola e delle sue abilità, relegate nel corpo da
 umano che in quell'istante non possiede più.
