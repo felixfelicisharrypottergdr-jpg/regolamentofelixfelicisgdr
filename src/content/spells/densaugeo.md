@@ -38,12 +38,12 @@ incredibilmente scomodi.
 
 > **Nota.**
 >
-• PG Studenti che subiscono l'incantesimo riescono a pronunciare correttamente le formule
+- PG Studenti che subiscono l'incantesimo riescono a pronunciare correttamente le formule
 di altri incantesimi se 1/3;
-• PG Adulti che subiscono l'incantesimo riescono a pronunciare correttamente le formule di
+- PG Adulti che subiscono l'incantesimo riescono a pronunciare correttamente le formule di
 altri incantesimi se 1/2.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -65,3 +65,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 6 post del bersaglio
+
+</details>

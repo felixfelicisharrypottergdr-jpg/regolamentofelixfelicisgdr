@@ -40,7 +40,7 @@ maledette, allo stesso modo non cancella nulla che sia stato scritto/disegnato/m
 attraverso la Magia Oscura.
 Può essere annullato con un Reparifarge più forte del Deletrius utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -61,3 +61,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: cancellazione totale
+
+</details>

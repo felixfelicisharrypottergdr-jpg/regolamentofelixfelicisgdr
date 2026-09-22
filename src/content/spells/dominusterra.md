@@ -40,20 +40,20 @@ prima che sia troppo tardi.
 
 > **Bonus.**
 >
-• PG con **Sapienza Elementale 25** possono controllare l'effetto della scossa tellurica
+- PG con **Sapienza Elementale 25** possono controllare l'effetto della scossa tellurica
 o dell'aumento di gravità, decidendo di fermarle prima del tempo a loro piacimento.
 
 > **Nota.**
 >
-• Uno o più edifici attaccati con questo incantesimo si distruggono nel giro di 8 post di
+- Uno o più edifici attaccati con questo incantesimo si distruggono nel giro di 8 post di
 chiunque nella role;
-• Questo incantesimo, avendo importanti effetti sull'ambiente circostante, necessita sempre
+- Questo incantesimo, avendo importanti effetti sull'ambiente circostante, necessita sempre
 dell'invervento del Narratore per determinare gli effetti
-• E' possibile utilizzare altri incantesimi contemporaneamente all'uso di *Dominusterra*
+- E' possibile utilizzare altri incantesimi contemporaneamente all'uso di *Dominusterra*
 poiché, aumentata la gravità o attivato il terremoto, questi continuano a funzionare senza il
 controllo dell'evocatore.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -94,3 +94,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 - 100%: max 10 PG
 - 66%: max 8 PG
 - 33%: max 7 PG
+
+</details>

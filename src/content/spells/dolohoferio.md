@@ -37,10 +37,10 @@ lui stesso.
 
 > **Bonus.**
 >
-• PG con **Sapienza Oscura 25** non rischiano mai di ferire loro stessi, pertanto non
+- PG con **Sapienza Oscura 25** non rischiano mai di ferire loro stessi, pertanto non
 devono lanciare il dado per capire se si feriscono.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -95,8 +95,10 @@ Sapienza Oscura o Medimagica possono provare a capire che il bersaglio è vittim
 *Dolohoferio*. PG senza Sapienza Medimagica possono capirlo soltanto tramite la
 scoperta dei sintomi, PG con Sapienza Oscura o Medimagica possono capisco se, al lancio
 di **1d7**, pescano...
-• **PG con Sapienza Oscura o Medimagica 1-5:** 1 su 1d7
-• **PG con Sapienza Oscura o Medimagica 6-10:** 1-2 su 1d7
-• **PG con Sapienza Oscura o Medimagica 11-15:** 1-3 su 1d7
-• **PG con Sapienza Oscura o Medimagica 16-20:** 1-4 su 1d7
-• **PG con Sapienza Oscura o Medimagica 21-25:** 1-5 su 1d7
+- **PG con Sapienza Oscura o Medimagica 1-5:** 1 su 1d7
+- **PG con Sapienza Oscura o Medimagica 6-10:** 1-2 su 1d7
+- **PG con Sapienza Oscura o Medimagica 11-15:** 1-3 su 1d7
+- **PG con Sapienza Oscura o Medimagica 16-20:** 1-4 su 1d7
+- **PG con Sapienza Oscura o Medimagica 21-25:** 1-5 su 1d7
+
+</details>

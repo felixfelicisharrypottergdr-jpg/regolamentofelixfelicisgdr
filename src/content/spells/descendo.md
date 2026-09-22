@@ -34,7 +34,7 @@ Descendo
 Fa cadere qualsiasi tipo di oggetto posto in alto, sopra mensole,
 altri ripiani o superfici addosso ad un avversario per stordirlo e per rallentarlo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -56,3 +56,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 oggetti, 5 post del bersaglio
+
+</details>

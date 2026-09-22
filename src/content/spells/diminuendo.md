@@ -39,7 +39,7 @@ In ogni caso non è possibile rimpicciolire il bersaglio in dimensioni minori di
 mela. La trasfigurazione può essere annullata con un Reparifarge più forte del Diminuendo
 utilizzato o con lo scorrere del tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -56,3 +56,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 4 post del bersaglio
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 - 100%: 5 post del bersaglio
+
+</details>

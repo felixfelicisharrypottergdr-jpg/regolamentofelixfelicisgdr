@@ -39,20 +39,20 @@ L'illusione può essere annullata soltanto lanciando un
 
 > **Bonus.**
 >
-• PG con **Sapienza Mentale 25** causano un malus di -10 possibilità al dado della
+- PG con **Sapienza Mentale 25** causano un malus di -10 possibilità al dado della
 vittima "Rendersi conto di essere vittime di un'illusione".
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
 **Parametro del bersaglio intaccato:** tutti i Parametri Magici
 **Rendersi conto di essere vittime di un'illusione**
-• Il PG bersaglio si accorge di essere vittima di un'illusione se, lanciando 1d50, estrae un
+- Il PG bersaglio si accorge di essere vittima di un'illusione se, lanciando 1d50, estrae un
 numero compreso fra 1-Volontà. PG con
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) aggiungono 1 possibilità per ogni
 livello di Tracciatura posseduto.
-• I PG che vi interagiscono si accorgono che il PG Bersaglio è vittima di un'illusione se,
+- I PG che vi interagiscono si accorgono che il PG Bersaglio è vittima di un'illusione se,
 lanciando 1d50, estrae un numero compreso fra 1-Percezione, malus incluso. PG con
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) aggiungono 1 possibilità per ogni
 livello di Occlumanzia posseduto.
@@ -77,3 +77,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: fino a 7 post dell'evocatore
 - 66%: fino a 6 post dell'evocatore
 - 33%: fino a 5 post dell'evocatore
+
+</details>

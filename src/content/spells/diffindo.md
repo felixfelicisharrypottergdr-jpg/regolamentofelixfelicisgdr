@@ -34,7 +34,7 @@ per spezzare corde, tagliare superfici o farsi strada in una foresta rimuovendo 
 varia natura.
 Se utilizzato contro un bersaglio vivente causa delle ferite di media entità.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -53,3 +53,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli
+
+</details>

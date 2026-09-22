@@ -38,13 +38,13 @@ essere vivente.
 Può essere annullato utilizzando un [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) più forte del *Dissimulo*.
 > **Bonus.**
 >
-• PG con **Sapienza Mentale 25**, se lo desiderano, possono provare a rendere il
+- PG con **Sapienza Mentale 25**, se lo desiderano, possono provare a rendere il
 proprio corpo inconsistente. Per farlo, devono lanciare **1d10** e riescono se pescano
 **1-3**. Tuttavia, il lancio di questo dado ha un costo: a prescindere o meno dall'esito, il
 PG sarà costretto a sforzarsi di più nel tentativo e per questo la durata dell'evocazione sarà
 **dimezzata** per difetto.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -100,3 +100,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 - 66%: nessuno
 - 33%: -1 Parametri sopra per 4 post del PG bersaglio dal termine
 dell'Incantesimo
+
+</details>

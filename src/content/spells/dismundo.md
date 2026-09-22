@@ -40,7 +40,7 @@ maledizione ed il bersaglio è costretto a subirli finché questi non passeranno
 >
 Non è possibile annullare la Maledizione con [Finite Incantatem](/manuali/incantesimi/finiteincantatem/)
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -68,14 +68,14 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 **Rendersi conto di essere vittime di una maledizione**
 Il PG può accorgersi di essere vittima di una maledizione agendo come spiegato nella
 Guida alla Tracciatura.
-• Deve sottrarre -X possibilità dove X è il totale di **Sapienza Oscura** posseduta
+- Deve sottrarre -X possibilità dove X è il totale di **Sapienza Oscura** posseduta
 dall'evocatore dell'incantesimo/5. Nel caso in cui il PG evocatore abbia postato in segreto, il
 bersaglio può chiedere al Narratore il valore da sottrarre a questo dado.
 **Libersarsi dalla maledizione dopo essersi accorti di esserne vittime**Il PG si libera dalla maledizione se, lanciando **1d40**, estrae un numero compreso fra
 1-Volontà.
-• Deve aggiungere 1 possibilità per ogni livello di
+- Deve aggiungere 1 possibilità per ogni livello di
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) posseduto.
-• Deve sottrarre -X possibilità dove X è il totale di **Sapienza Oscura** posseduta
+- Deve sottrarre -X possibilità dove X è il totale di **Sapienza Oscura** posseduta
 dall'evocatore dell'incantesimo/5. Nel caso in cui il PG evocatore abbia postato in segreto, il
 bersaglio può chiedere al Narratore il valore da sottrarre a questo dado.
 
@@ -85,3 +85,5 @@ Un PG bersaglio con Volontà 20 e Occlumanzia di Livello III viene colpito da un
 evocatore con Sapienza Oscura 20 che utilizza sul bersaglio *Dismundo*.
 Il bersaglio lancia 1d40 e si libera dalla maledizione se 1-19 [20 Volontà + 3 Occlumanzia
 Bersaglio - 4 (20 Sapienza Oscura dell'evocatore/5)].
+
+</details>
