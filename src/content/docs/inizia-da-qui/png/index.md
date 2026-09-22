@@ -87,10 +87,7 @@ Qui i PNG del Ministero disponibili: PNG del Ministero
 ** PNG Clienti Abituali**
 Si tratta dei PNG che abitualmente si possono incontrare all'interno delle Locande del gioco, e con cui è possibile interagire arbitrariamente e in maniera autogestita per dare colore alle proprie role. Inoltre, è possibile interpellare il Narratore per avere da loro informazioni extra sulla Trama dell'anno o sugli altri PNG del gioco.
 
-<a id="abituali"></a>
-## Ottenere Informazioni dai Clienti Abituali
-
-> **Nota.**
+<a id="abituali"></a>\n<details><summary><strong>Ottenere Informazioni dai Clienti Abituali</strong></summary>\n\n> **Nota.**
 >
 Il Narratore, in casi particolari, può discostarsi da quanto segue.
 
@@ -132,6 +129,8 @@ Di seguito i PNG Clienti Abituali:
 La Vecchia
 Il Sergente
 Il Poeta
+
+</details>
 
 <a id="PPNG"></a>
 ### I PPNG
@@ -233,28 +232,36 @@ Si procede con i tiri finché non si ottiene un successo: al primo risultato pos
 In caso di esito positivo, si può scegliere quale PNG nello specifico assoldare, che sarà escluso a chiunque altro per quella quest.
 Il tipo di dado da lanciare **dipende dal PNG scelto** e dal tipo di punti accumulati (Virtuosi o Sinistri), secondo le seguenti tabelle:
 
-## Punti Virtuosi - Elfi e Lepricani
+<details><summary><strong>Punti Virtuosi - Elfi e Lepricani</strong></summary>
 
-**Successo se...**
-**1:** //
-**Da 2 a 4:** 1-2 su 10
-**Da 5 a 10:** 1-3 su 10
-**Da 11 a 15:** 1-4 su 10
-**Da 16 a 20:** 1-5 su 10
-**Da 21 a 25:** 1-7 su 10
-**Da 26 a 29:** 1-8 su 10
-**30 Punti:** 1-9 su 10
+| Punti Virtuosi | Successo se... |
+| --- | --- |
+| 1 | // |
+| Da 2 a 4 | 1-2 su 10 |
+| Da 5 a 10 | 1-3 su 10 |
+| Da 11 a 15 | 1-4 su 10 |
+| Da 16 a 20 | 1-5 su 10 |
+| Da 21 a 25 | 1-7 su 10 |
+| Da 26 a 29 | 1-8 su 10 |
+| 30 Punti | 1-9 su 10 |
 
-## Punti Sinistri - Megere e Ghermidori
-**Successo se...**
-**1:** //
-**Da 2 a 4:** 1-2 su 10
-**Da 5 a 10:** 1-3 su 10
-**Da 11 a 15:** 1-4 su 10
-**Da 16 a 20:** 1-5 su 10
-**Da 21 a 25:** 1-7 su 10
-**Da 26 a 29:** 1-8 su 10
-**30 Punti:** 1-9 su 10
+</details>
+
+<details><summary><strong>Punti Sinistri - Megere e Ghermidori</strong></summary>
+
+| Punti Sinistri | Successo se... |
+| --- | --- |
+| 1 | // |
+| Da 2 a 4 | 1-2 su 10 |
+| Da 5 a 10 | 1-3 su 10 |
+| Da 11 a 15 | 1-4 su 10 |
+| Da 16 a 20 | 1-5 su 10 |
+| Da 21 a 25 | 1-7 su 10 |
+| Da 26 a 29 | 1-8 su 10 |
+| 30 Punti | 1-9 su 10 |
+
+</details>
+
 **Goblin:** 200 Galeoni
 Se il lancio ha **esito positivo**, il PG potrà utilizzare il PNG e le sue abilità speciali durante la giocata, **segnalando in **spoiler** la spesa dei 200 Galeoni** che il Master scalerà a fine role, e **che il PG deve già possedere in Scheda** PG al momento della segnalazione.
 **Abilità Speciale**
@@ -360,63 +367,13 @@ Se si vuole incontrare casualmente un PNG di un determinato gruppo, basterà lan
 **Per ovvie ragioni, non è possibile incontrare casualmente i Caposcuola e i Capitani di Quidditch PG giocanti.**
 
 <a id="guastafeste"></a>
-## Numeri Guastafeste:
+<details><summary><strong>Numeri Guastafeste</strong></summary>
 
-**
-1 (1d14)
-**
+| 1 (1d14) | 2 (1d5) | 3 (1d10 o 1d8 per incontro casuale) | 4 (1d4) | 5 (1d6) |
+| --- | --- | --- | --- | --- |
+| 1. Alphabus Moran<br>2. Adelaide Clagg<br>3. Cuthbert Rüf<br>4. Estia Garfield<br>5. Filius Vitious<br>6. Gremilda Diametrus<br>7. Horace Lumacorno<br>8. Lyra Copernicus<br>9. Lobellius A. Allock<br>10. Neville Paciock<br>11. Robor MacMillan<br>12. Rolanda Bumb<br>13. Sibilla Cooman<br>14. Contessa Stuart | 1. Argus Gazza<br>2. Hagrid<br>3. Luna Lovegood<br>4. Poppy Chips<br>5. Victoria Cromwell | 1. Maeve O'Rourke<br>2. Elias North<br>3. Wen Yang<br>4. Leila Mercer<br>5. Tobias Okafor<br>6. Nadia El-Masri<br>7. Parvati Thomas<br>8. Nathaniel Sato<br>9. Georgie Smith<br>10. Charlotte Hunter | 1. Callum Reid<br>2. Amara Fawley<br>3. Owen Llewellyn<br>4. Elspeth Fraser | 1. Barone Sanguinario<br>2. Frate Grasso<br>3. Helena Corvonero<br>4. Mirtilla Malcontenta<br>5. Nick-quasi-senza-testa<br>6. Pix |
 
-**2 (1d5)**
-
-**3 (1d10 o 1d8 per incontro casuale)**
-
-**4 (1d4)**
-
-**5 (1d6)**
-
-1. Alphabus Moran
-2. Adelaide Clagg
-3. Cuthbert Rüf
-4. Estia Garfield
-5. Filius Vitious
-6. Gremilda Diametrus
-7. Horace Lumacorno
-8. Lyra Copernicus
-9. Lobellius A. Allock
-10. Neville Paciock
-11. Robor MacMillan
-12. Rolanda Bumb
-13. Sibilla Cooman
-14. Contessa Stuart
-
-1. Argus Gazza
-2. Hagrid
-3. Luna Lovegood
-4. Poppy Chips
-5. Victoria Cromwell
-
-1. Maeve O'Rourke
-2. Elias North
-3. Wen Yang
-4. Leila Mercer
-5. Tobias Okafor
-6. Nadia El-Masri
-7. Parvati Thomas
-8. Nathaniel Sato
-9. Georgie Smith
-10. Charlotte Hunter
-
-1. Callum Reid
-2. Amara Fawley
-3. Owen Llewellyn
-4. Elspeth Fraser
-
-1. Barone Sanguinario
-2. Frate Grasso
-3. Helena Corvonero
-4. Mirtilla Malcontenta
-5. Nick-quasi-senza-testa
-6. Pix
+</details>
 
 **SIMPATIE E ANTIPATIE**
 I PNG di Hogwarts hanno delle simpatie e antipatie nei confronti di una o più Case, di conseguenza, commettere azioni illecite senza essere puniti o senza far perdere punti alla propria Casa è tanto più facile quanto favorevole è il PNG incontrato.
