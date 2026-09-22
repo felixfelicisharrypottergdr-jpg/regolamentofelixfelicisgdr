@@ -806,3 +806,89 @@ Il commit funzionale finale del blocco ha superato:
 - build Astro;
 - audit del sito renderizzato;
 - generazione dell'artifact GitHub Pages.
+
+
+## Audit di fedeltà strutturale — Blocco H — Maestrie
+
+Confronto eseguito contro la fonte **Maestrie**.
+
+### Struttura della fonte
+
+La fonte contiene:
+
+- **70 disclosure** `<details>`;
+- **37 tabelle**;
+- 36 Maestrie, organizzate per le 12 Sapienze Magiche.
+
+Nel nuovo sito le tabelle non risultavano realmente perse:
+
+- la tabella generale delle 36 Maestrie è stata sostituita da un **catalogo filtrabile e ricercabile**, che ne preserva e migliora la funzione di consultazione;
+- le altre 36 tabelle “Valori”, una per Maestria, sono già modellate nei rispettivi frontmatter tramite `values` e renderizzate da `FelixDataTable`.
+
+Durante la correzione è stato verificato, per ciascuna delle 36 schede, che il numero dei campi `values` coincidesse con il numero delle voci della tabella Valori originaria. Non sono emerse discrepanze.
+
+### Problema di conversione principale
+
+I **70 disclosure** della fonte erano invece stati completamente appiattiti:
+
+- la pagina generale aveva perso il disclosure “Tutte le possibili combinazioni per Maestrie della stessa Sapienza Magica”;
+- ciascuna delle 36 schede aveva perso il disclosure principale “Specifiche”;
+- nove Maestrie contenevano ulteriori disclosure annidati o separati, anch'essi trasformati in normali heading.
+
+Sono stati ripristinati **70 disclosure su 70**.
+
+### Ripristino delle schede
+
+Ogni scheda Maestria conserva ora:
+
+- il disclosure principale **Specifiche**;
+- le liste semantiche al posto dei pallini testuali;
+- i campi Valori strutturati già esistenti;
+- il catalogo moderno come punto di accesso canonico.
+
+Sono inoltre stati demoti gli heading falsamente creati dalla conversione:
+
+- `Effetti`, che nella fonte è semplice testo evidenziato, non H2;
+- `Livello I / II / III`, che nella fonte sono etichette sottolineate, non H3.
+
+Dopo la correzione, le 36 schede non conservano H2/H3 derivati artificialmente da queste etichette.
+
+### Disclosure speciali ripristinati
+
+Oltre ai 36 “Specifiche”, sono stati ripristinati i disclosure aggiuntivi delle Maestrie più complesse:
+
+- **Genesi Primordiale:** Fioritura Bellica; Accelerazione Botanica;
+- **Seconda Fioritura:** Rinascita della Senescenza; Salvezza dal Declino;
+- **Manipolazione dell'Energia:** Assorbimento; Deviazione; Rilancio Cinetico; Telecinesi;
+- **Signore delle Fatture:** Fatture; Pozioni Fatturanti;
+- **Padre dell'Increato:** Molliccio; Poltergeist; Dissennatore;
+- **Signore degli Homuncoli:** Procedimento;
+- **Mimesi Chimerica:** Procedimento e cinque tipologie razziali;
+- **Transmutazione Alchemica:** quattro tecniche annidate dentro Specifiche e il disclosure autonomo “Procedimento ONGame”;
+- **Amato Animo Animato Animagus:** Il Rito e i sette Archetipi.
+
+### Pagina generale
+
+Nella pagina `Maestrie` è stato ripristinato il disclosure della lista delle possibili combinazioni di Livelli per Maestrie appartenenti alla stessa Sapienza.
+
+La tabella originaria delle 36 Maestrie **non viene reintrodotta** nel corpo: il catalogo strutturato ne svolge già la stessa funzione con ricerca, filtri per Sapienza e Parametro e accesso diretto alle singole schede.
+
+### Stato quantitativo dopo la correzione
+
+- disclosure nelle 36 schede: **69 aperti / 69 chiusi**;
+- disclosure nella pagina generale: **1 / 1**;
+- totale: **70 / 70**, identico alla fonte;
+- tabelle funzionalmente preservate: **37 / 37** (1 catalogo strutturato + 36 tabelle Valori strutturate);
+- pallini grezzi nelle schede corrette: **0**;
+- H2/H3 residui derivati dalla conversione nelle schede: **0**;
+- disclosure sbilanciati: **0**.
+
+### Validazione tecnica
+
+Il commit funzionale finale `dab7918ecb41dd38528185a84077f641e2bb63e0` ha superato:
+
+- FELIX preflight;
+- audit editoriale sorgenti;
+- build Astro;
+- audit del sito renderizzato;
+- generazione artifact GitHub Pages.
