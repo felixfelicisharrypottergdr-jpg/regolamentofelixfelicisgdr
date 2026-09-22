@@ -53,5 +53,5 @@ La fonte contiene due copie letteralmente duplicate della sezione **Prezzari dei
 
 Sono state migrate **229 voci uniche di Prezzario**.
 
-[Consulta il catalogo completo degli Oggetti →](oggetti/)
+[Consulta il catalogo completo degli Oggetti →](../oggetti/)
 
