@@ -64,25 +64,26 @@ Infatti, solo in questa fase di Ricerca **il PG Medimago ottiene +2 possibilità
 post in cui attende l'arrivo di un Paziente, poiché sarà certamente richiesta più facilmente la
 sua presenza rispetto a quella di PG non Medimaghi.
 **Sapienza Medimagica:**
-• **0:** nessun bonus
-• **1-5:** +1 possibilità
-• **6-10:** +2 possibilità• **11-15:** +3 possibilità
-• **16-20:** +4 possibilità
-• **21-25:** +5 possibilità
+- **0:** nessun bonus
+- **1-5:** +1 possibilità
+- **6-10:** +2 possibilità• **11-15:** +3 possibilità
+- **16-20:** +4 possibilità
+- **21-25:** +5 possibilità
 Un PG con il massimo di Tecnica distribuibile in fase di creazione PG (20) e Sapienza
 Medimagica al massimo (25) ha 25/30 possibilità di venire chiamato per un'emergenza. Se è
 un Medimago in servizio, grazie al bonus di +2 arriva a 27/30 possibilità.
 Può tentare di pescare un esito favorevole per tutti i post che desidera senza limiti.
 
+<a id="cosatrova"></a>
 ## Che Paziente deve curare il PG?
 
 Il PG che ottiene un esito favorevole al dado precedente viene chiamato per l'arrivo di un
 Paziente. Si lanciano dunque dei dadi per stabilire il Tipo di Danno (Malattia, Lesione da
 Incantesimo e Trauma da Pozione, Incidente da Manufatti, Avvelenamento da Piante e
 Pozioni, Ferite da Piante e Creature Magiche, e quali nello specifico) e la sua Gravità.
-• Si possono tentare nuovi incontri, rinunciando al Paziente trovato (preso in cura da altri
+- Si possono tentare nuovi incontri, rinunciando al Paziente trovato (preso in cura da altri
 PPNG Medimaghi), fino a un massimo di 3 volte per role.
-• È possibile prendersi cura di un solo Paziente per role.
+- È possibile prendersi cura di un solo Paziente per role.
 
 **Tipo di Danno**
 
@@ -101,7 +102,8 @@ Per farlo, i PG lanciano **1d5** con i seguenti risultati:
 Dopodiché, in base al risultato di 1d5, bisogna stabilire quale
 malattia/incantesimo/pozione/pianta/creatura/manufatto lo ha colpito.
 
-#### 1d44 - Malattie Magiche
+<details><summary><strong>1d44 - Malattie Magiche</strong></summary>
+
 
 1. Absorbite
 2. Acne Purulenta
@@ -147,7 +149,10 @@ malattia/incantesimo/pozione/pianta/creatura/manufatto lo ha colpito.
 43. Vetustella
 44. Voglia Vampirella
 
-#### 1d47 - Lesioni da Incantesimi e Traumi da Pozioni
+</details>
+
+<details><summary><strong>1d47 - Lesioni da Incantesimi e Traumi da Pozioni</strong></summary>
+
 
 1. Esorcismo
 2. Sbalzamento da Linea dell'Eta
@@ -196,7 +201,10 @@ malattia/incantesimo/pozione/pianta/creatura/manufatto lo ha colpito.
 46. Pozione Atomica
 47. Pozione Esplosiva
 
-#### 1d10 - Incidenti da Manufatti
+</details>
+
+<details><summary><strong>1d10 - Incidenti da Manufatti</strong></summary>
+
 
 1. Bacchetta nell'occhio, nel naso o nell'orecchio
 2. Caduta da una Creatura in corsa o in volo
@@ -209,7 +217,10 @@ malattia/incantesimo/pozione/pianta/creatura/manufatto lo ha colpito.
 9. Schianto in volo su una Scopa
 10. Ustione da Metropolvere
 
-#### 1d28 - Avvelenamento da Piante e Pozioni
+</details>
+
+<details><summary><strong>1d28 - Avvelenamento da Piante e Pozioni</strong></summary>
+
 
 1. Albero di Biancaneve
 2. Assenzio
@@ -239,7 +250,10 @@ malattia/incantesimo/pozione/pianta/creatura/manufatto lo ha colpito.
 27. Veleno Noxius
 28. Veleno Radice Insanguinata
 
-#### 1d100 - Ferite da Piante e Creature Magiche
+</details>
+
+<details><summary><strong>1d100 - Ferite da Piante e Creature Magiche</strong></summary>
+
 
 1. Avvincino (avvinghiamento)
 2. Avvincino (morso)
@@ -359,17 +373,17 @@ gioco.
 
 > **Esempio.**
 >
-• Il PG ottiene un esito positivo al 1d30 e viene immediatamente chiamato per un’emergenza
+- Il PG ottiene un esito positivo al 1d30 e viene immediatamente chiamato per un’emergenza
 urgente al San Mungo.
-• Per prima cosa, il PG lancia un **1d5** per stabilire il tipo di danno riportato dal
+- Per prima cosa, il PG lancia un **1d5** per stabilire il tipo di danno riportato dal
 Paziente: esce un **5**, quindi si tratta di ferite causate da piante o creature magiche.
-• A questo punto, il PG lancia un dado più specifico, un **1d100**, per identificare quale
+- A questo punto, il PG lancia un dado più specifico, un **1d100**, per identificare quale
 creatura ha provocato le ferite. Il risultato è **10**, cioè un morso di Dugbog.
-• Per definire la gravità del danno, il PG lancia un **1d100** ed estrae **85**,
+- Per definire la gravità del danno, il PG lancia un **1d100** ed estrae **85**,
 corrispondente a una ferita con gravità tra l’80 e il 99%, quindi molto grave. I sintomi
 riportati, guardando la specifica tabella, sono:
 Graffi, Prurito, Bruciore Cutaneo, Irritazione, Ferite, Infezione, Lesioni esterne.
-• Il Player del PG inventa così la storia del Paziente: si tratta di un magizoologo esperto che
+- Il Player del PG inventa così la storia del Paziente: si tratta di un magizoologo esperto che
 durante una spedizione notturna nelle paludi della Scozia è caduto accidentalmente in una
 zona infestata da Dugbog. Nel tentativo di liberarsi, è stato morso violentemente da un
 Dugbog adulto alla gamba, procurandosi ferite profonde, con prurito, bruciore e irritazione
@@ -378,6 +392,9 @@ Mungo da un assistente, che si trova ancora con lui e può fornire dettagli sull
 ferita presenta un’infezione già in corso, accompagnata da febbre e malessere
 generale.
 
+</details>
+
+<a id="curare"></a>
 ## Curare il Paziente
 
 **Diagnosi**
@@ -386,9 +403,9 @@ Per prima cosa, i PG coinvolti nella ricerca devono individuare i sintomi manife
 Paziente, seguendo esattamente quanto stabilito dalla Guida alla Medimagia →
 Diagnosi.
 Tuttavia, in aggiunta a quanto specificato dalla Guida:
-• I PG sono sempre a conoscenza di cosa è accaduto al Paziente tramite un PNG, quindi
+- I PG sono sempre a conoscenza di cosa è accaduto al Paziente tramite un PNG, quindi
 aggiungono sempre +3 possibilità a ogni dado.
-• Contrariamente a quanto specificato nella Guida, esclusivamente in questo caso il PG che
+- Contrariamente a quanto specificato nella Guida, esclusivamente in questo caso il PG che
 fallisce la Diagnosi può sempre accorgersi di non avere individuato qualche sintomo e
 ritentare.
 
@@ -399,9 +416,9 @@ quanto stabilito dalla Guida alla Medimagia → Terapia
 per i sintomi X-XXX, e → Chirurgia per quelli
 XXXX-XXXXX.
 Tuttavia, in aggiunta a quanto specificato dalle Guide:
-• I PG sono autoconclusivamente in possesso di tutte le Componenti del Rimedio ONGame,
+- I PG sono autoconclusivamente in possesso di tutte le Componenti del Rimedio ONGame,
 garantite dal San Mungo.
-• Nel caso in cui i tentativi di Terapia e/o Chirurgia falliscano, il Paziente subisce
+- Nel caso in cui i tentativi di Terapia e/o Chirurgia falliscano, il Paziente subisce
 autoconclusivamente la Complicazione prevista dal sintomo di cui si è fallito il Trattamento.
 
 **Post-operazione**
