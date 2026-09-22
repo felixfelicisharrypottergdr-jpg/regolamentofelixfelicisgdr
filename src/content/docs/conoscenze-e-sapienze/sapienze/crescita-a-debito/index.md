@@ -166,61 +166,57 @@ Allo stesso modo, il terzo punto aggiuntivo di Dialettica ha un costo base di 20
 Il debito viene calcolato moltiplicando il costo complessivo degli acquisti anticipati per il Coefficiente di Debito della fascia scelta.
 Maggiore è la quantità di Sapienza ottenuta in anticipo, maggiore sarà il Coefficiente e, di conseguenza, il debito da saldare.
 
-- **5 Sapienza — Crescita normale:**
-Il PG parte con la sola Sapienza Magica di base, sviluppata al Livello I in tutte e cinque le Conoscenze.
-I cinque Livelli I sono gratuiti.
-*Debito:* 0
-*Popolarità:* da 1 a 8
-*Dialettica:* 1
-*Prestigio:* secondo la normale fascia d'età del PG
-
-- **10 Sapienza:**
-Il PG ottiene 10 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.
-*Età minima del PG Adulto:* nessuna
-*Coefficiente di Debito:* 1,2
-*Popolarità:* fino a 14
-*Dialettica:* fino a 2
-*Prestigio:* fino a 39, corrispondente al limite ordinario di 36 più un bonus di 3
-
-- **20 Sapienza:**
-Il PG ottiene 20 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.
-*Età minima del PG Adulto:* 30 anni
-*Coefficiente di Debito:* 1,3
-*Popolarità:* fino a 16
-*Dialettica:* fino a 3
-*Prestigio:* fino a 42, corrispondente al limite ordinario di 36 più un bonus di 6
-
-- **30 Sapienza:**
-Il PG ottiene 30 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.
-*Età minima del PG Adulto:* 35 anni
-*Coefficiente di Debito:* 1,4
-*Popolarità:* fino a 18
-*Dialettica:* fino a 4
-*Prestigio:* fino a 45, corrispondente al limite ordinario di 36 più un bonus di 9
-
-- **40 Sapienza:**
-Il PG ottiene 40 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.
-*Età minima del PG Adulto:* 40 anni
-*Coefficiente di Debito:* 1,5
-*Popolarità:* fino a 20
-*Dialettica:* fino a 5
-*Prestigio:* fino a 48, corrispondente al limite ordinario di 36 più un bonus di 12
-
-- **50 Sapienza:**
-Il PG ottiene 50 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.
-*Età minima del PG Adulto:* 45 anni
-*Coefficiente di Debito:* 1,6
-*Popolarità:* fino a 22
-*Dialettica:* fino a 6
-*Prestigio:* fino a 51, corrispondente al limite ordinario di 36 più un bonus di 15
-
-- **60 Sapienza:**
-Il PG ottiene 60 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.
-*Età minima del PG Adulto:* 50 anni
-*Coefficiente di Debito:* 1,7
-*Popolarità:* fino a 24
-*Dialettica:* fino a 7
-*Prestigio:* fino a 54, corrispondente al limite ordinario di 36 più un bonus di 18
+<ol start="0">
+<li><strong>5 Sapienza — Crescita normale:</strong><br>
+Il PG parte con la sola Sapienza Magica di base, sviluppata al Livello I in tutte e cinque le Conoscenze.<br>
+I cinque Livelli I sono gratuiti.<br>
+<em>Debito:</em> 0<br>
+<em>Popolarità:</em> da 1 a 8<br>
+<em>Dialettica:</em> 1<br>
+<em>Prestigio:</em> secondo la normale fascia d'età del PG</li>
+<li><strong>10 Sapienza:</strong><br>
+Il PG ottiene 10 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.<br>
+<em>Età minima del PG Adulto:</em> nessuna<br>
+<em>Coefficiente di Debito:</em> 1,2<br>
+<em>Popolarità:</em> fino a 14<br>
+<em>Dialettica:</em> fino a 2<br>
+<em>Prestigio:</em> fino a 39, corrispondente al limite ordinario di 36 più un bonus di 3</li>
+<li><strong>20 Sapienza:</strong><br>
+Il PG ottiene 20 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.<br>
+<em>Età minima del PG Adulto:</em> 30 anni<br>
+<em>Coefficiente di Debito:</em> 1,3<br>
+<em>Popolarità:</em> fino a 16<br>
+<em>Dialettica:</em> fino a 3<br>
+<em>Prestigio:</em> fino a 42, corrispondente al limite ordinario di 36 più un bonus di 6</li>
+<li><strong>30 Sapienza:</strong><br>
+Il PG ottiene 30 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.<br>
+<em>Età minima del PG Adulto:</em> 35 anni<br>
+<em>Coefficiente di Debito:</em> 1,4<br>
+<em>Popolarità:</em> fino a 18<br>
+<em>Dialettica:</em> fino a 4<br>
+<em>Prestigio:</em> fino a 45, corrispondente al limite ordinario di 36 più un bonus di 9</li>
+<li><strong>40 Sapienza:</strong><br>
+Il PG ottiene 40 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.<br>
+<em>Età minima del PG Adulto:</em> 40 anni<br>
+<em>Coefficiente di Debito:</em> 1,5<br>
+<em>Popolarità:</em> fino a 20<br>
+<em>Dialettica:</em> fino a 5<br>
+<em>Prestigio:</em> fino a 48, corrispondente al limite ordinario di 36 più un bonus di 12</li>
+<li><strong>50 Sapienza:</strong><br>
+Il PG ottiene 50 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.<br>
+<em>Età minima del PG Adulto:</em> 45 anni<br>
+<em>Coefficiente di Debito:</em> 1,6<br>
+<em>Popolarità:</em> fino a 22<br>
+<em>Dialettica:</em> fino a 6<br>
+<em>Prestigio:</em> fino a 51, corrispondente al limite ordinario di 36 più un bonus di 15</li>
+<li><strong>60 Sapienza:</strong><br>
+Il PG ottiene 60 Sapienza da distribuire, compresi i cinque Livelli I della Sapienza Magica di partenza.<br>
+<em>Età minima del PG Adulto:</em> 50 anni<br>
+<em>Coefficiente di Debito:</em> 1,7<br>
+<em>Popolarità:</em> fino a 24<br>
+<em>Dialettica:</em> fino a 7<br>
+<em>Prestigio:</em> fino a 54, corrispondente al limite ordinario di 36 più un bonus di 18</li>
+</ol>
 
 <a id="costi"></a>
 ### Costi delle Sapienze
@@ -230,26 +226,11 @@ Per ciascuna delle cinque Conoscenze di una Sapienza Magica, i costi sono:
 
 > **Nota.**
 >
-
--
-
-**Livello I:** 50 Galeoni
-
--
-
-**Livello II:** 5 Punti Post
-
--
-
-**Livello III:** 10 Punti Post
-
--
-
-**Livello IV:** 15 Punti Post
-
--
-
-**Livello V:** 20 Punti Post — **non acquistabile tramite Crescita a Debito**
+> 1. **Livello I:** 50 Galeoni
+> 2. **Livello II:** 5 Punti Post
+> 3. **Livello III:** 10 Punti Post
+> 4. **Livello IV:** 15 Punti Post
+> 5. **Livello V:** 20 Punti Post — **non acquistabile tramite Crescita a Debito**
 
 Una singola Conoscenza Magica sviluppata fino al Livello IV costa complessivamente:
 - 50 Galeoni;
@@ -262,26 +243,11 @@ Le Sapienze Fisiche e Sociali utilizzano lo stesso schema di costo:
 
 > **Nota.**
 >
-
--
-
-**Livello I:** 150 Galeoni
-
--
-
-**Livello II:** 10 Punti Post
-
--
-
-**Livello III:** 20 Punti Post
-
--
-
-**Livello IV:** 40 Punti Post — **non acquistabile tramite Crescita a Debito**
-
--
-
-**Livello V:** 80 Punti Post — **non acquistabile tramite Crescita a Debito**
+> 1. **Livello I:** 150 Galeoni
+> 2. **Livello II:** 10 Punti Post
+> 3. **Livello III:** 20 Punti Post
+> 4. **Livello IV:** 40 Punti Post — **non acquistabile tramite Crescita a Debito**
+> 5. **Livello V:** 80 Punti Post — **non acquistabile tramite Crescita a Debito**
 
 Una Sapienza Fisica o Sociale sviluppata fino al Livello III costa complessivamente:
 - 150 Galeoni;
