@@ -6,35 +6,54 @@ Questo è un registro vivo. Gli errori **funzionali o di codice** vengono corret
 
 ## Stato funzionale
 
-L'audit pre-build corrente censisce **168 documenti**, **1.616 file di contenuto** e **1.632 route note**.
+L'audit corrente censisce **169 documenti**, **1.617 file di contenuto** e **1.633 route note**.
 
-Dopo i primi fix risultano:
+La pipeline automatica esegue, in ordine:
 
-- nessuna route documentale duplicata;
-- nessun link Markdown interno verso route inesistenti;
-- nessun UUID duplicato o riferimento UUID inesistente;
-- nessun `migration.status: to_migrate`;
-- nessun `prototypeExcerpt: true`;
-- nessuna frase residua che annunci una futura migrazione;
-- build Astro e deploy GitHub Pages riusciti.
+1. preflight di UUID, riferimenti e slug;
+2. audit funzionale/editoriale sui sorgenti;
+3. build Astro/Starlight;
+4. audit dell'HTML realmente renderizzato;
+5. deploy GitHub Pages.
 
-Il controllo delle route ora include anche le pagine Astro statiche, oltre ai documenti Starlight e alle collection strutturate.
+All'ultimo controllo risultano:
+
+- **0** errori strutturali;
+- **0** route documentali duplicate;
+- **0** link Markdown interni verso route inesistenti;
+- **0** UUID duplicati o riferimenti UUID inesistenti;
+- **0** `migration.status: to_migrate`;
+- **0** `prototypeExcerpt: true`;
+- **0** frasi residue che annunciano una futura migrazione;
+- **0** markup legacy intercettato dall'audit;
+- **0** titoli duplicati nel frontmatter;
+- **0** candidati automatici a conflitto numerico con identica struttura testuale;
+- build, audit HTML e deploy riusciti.
+
+Restano **91 link root-relative nei sorgenti Markdown**. Non sono attualmente rotti: il processor Markdown FELIX li riscrive con il `base` corretto e l'audit dell'HTML finale ne verifica la destinazione. Sono quindi **debito di manutenzione del sorgente**, non un difetto utente attuale.
 
 ### Audit dell'HTML finale
 
-È stato aggiunto un secondo controllo eseguito **dopo la build**. Verifica l'HTML realmente pubblicato e fallisce la pipeline per:
+Il controllo post-build verifica oltre **1.600 pagine HTML renderizzate**, decine di migliaia di collegamenti locali e i relativi frammenti/ancore. La pipeline fallisce per:
 
 - destinazioni locali inesistenti;
 - frammenti/ancore inesistenti;
 - link interni che bypassano il `base` di GitHub Pages.
 
-Registra inoltre warning su `lang`, `title` e immagini prive di `alt`.
+Sono già stati corretti automaticamente:
 
-Il primo controllo manuale del pacchetto renderizzato aveva individuato tre difetti funzionali ora corretti:
+- le tre collisioni di slug dei vecchi `index.md` di prototipo;
+- il link “Salta ai contenuti” della Home;
+- gli indici obsoleti dei Trasporti;
+- l'ancora `#principi` di Regole Generali;
+- due H1 identici al titolo pagina;
+- la configurazione i18n italiana;
+- la pagina 404 e il conflitto con la route 404 predefinita di Starlight;
+- la configurazione Markdown deprecata di Astro 7, migrata al processor `unified()`;
+- import e calcoli di relazioni ridondanti in varie schede strutturate;
+- l'applicabilità Pagefind inequivocabile delle Missioni FantaHogwarts/FantaWiz.
 
-1. il link “Salta ai contenuti” della Home puntava a `#_top`, assente nella Home personalizzata;
-2. la pagina Trasporti conteneva due vecchi indici con 18 link a frammenti non più presenti dopo la suddivisione dei singoli Trasporti in sottopagine;
-3. l'indice di Regole Generali puntava a `#principi`, che non veniva generato a causa di un confine Markdown errato.
+L'unico warning tecnico residuo della pipeline è esterno al codice FELIX: `actions/configure-pages@v5` dichiara ancora runtime Node 20 mentre il runner GitHub lo forza su Node 24.
 
 ## P0 editoriale — canonicità duplicata
 
@@ -54,7 +73,7 @@ Il confronto per righe significative mostra:
 | Leggi/Magisprudenza | Struttura del Processo | 100% |
 | Leggi/Wizengamot | Partecipare ad un Processo | 100% |
 
-Queste sottopagine non sono semplici approfondimenti: in molti casi duplicano letteralmente blocchi della pagina principale. Finché entrambe le versioni restano editabili, una futura modifica può aggiornare una copia e lasciare l'altra indietro.
+L'audit incrociato individua attualmente **150 candidati di paragrafo duplicato fra documenti differenti**. Queste sottopagine non sono semplici approfondimenti: in molti casi duplicano letteralmente blocchi della pagina principale. Finché entrambe le versioni restano editabili, una futura modifica può aggiornare una copia e lasciare l'altra indietro.
 
 **Da decidere in architettura dell'informazione:** per ciascun sistema va scelto un solo luogo canonico. L'altra versione dovrà diventare una landing/rimando oppure il monolite dovrà essere realmente suddiviso senza duplicazioni.
 
@@ -74,28 +93,58 @@ La lunghezza non è di per sé un errore. Diventa un problema quando contiene pi
 
 ## P1 editoriale — gerarchia dei titoli
 
-L'audit segnala **9 pagine con più H1 nel corpo**, fra cui Regole Generali, Pozionistica, Magizoologia, Medimagia e Sintomatologia.
+Dopo la correzione automatica dei due H1 identici al titolo pagina, l'audit segnala **7 pagine con più H1 nel corpo**: Orario/Regolamento Scolastico, Scoprire Stanze/Passaggi, Tecniche Erbologiche, Magizoologia, Medimagia, Sintomatologia e Pozionistica.
 
 Segnala inoltre **8 salti H2 → H4** nelle Ricerche Casuali. Questi casi vanno normalizzati quando si riorganizzeranno i contenuti: possono alterare indice di pagina, accessibilità e gerarchia visiva.
 
-La duplicazione identica degli H1 in Regole Generali viene corretta subito perché è solo un residuo di markup, non una modifica della regola.
+I due casi puramente tecnici — **Regole Generali** e **Luoghi di Maestria**, dove il medesimo H1 era ripetuto due volte — sono già stati corretti automaticamente. Gli H1 multipli rimasti corrispondono invece a sezioni autonome inglobate nello stesso documento e vanno risolti assieme all'architettura dell'informazione.
 
-## P1 editoriale — possibili parole incollate
+## P1 editoriale — refusi di conversione verificati
 
-La conversione delle fonti ha lasciato candidati che richiedono revisione contestuale. Alcuni sono nomi propri legittimi, ma altri sembrano refusi di migrazione, ad esempio:
+Il rilevatore automatico di parole “incollate” è volutamente euristico: intercetta sia errori reali sia nomi propri, formule e identificativi legittimi. I candidati non vengono quindi corretti in massa.
 
-- `IncantesimoFianto`;
-- `apprendereConoscenze`;
-- `dallaGuida`;
-- `CategorieMagiche`;
-- `DifensoriSe`;
-- `AlleyValli`;
-- `qualiAffaticamento`;
-- `FantaHogwartse`;
-- `PossibilitàAggiungere`;
-- `ClassificazioneXXXXX`.
+Il confronto diretto con le fonti ha già confermato come **refusi introdotti dalla conversione** almeno i seguenti casi:
 
-Non vengono corretti automaticamente: per ciascuno va controllata la frase originale e la fonte.
+| Pagina | Testo migrato anomalo | Origine del problema |
+| --- | --- | --- |
+| Conoscenze / Ottenere nuove Conoscenze | `IncantesimoFianto` | confine di link rimosso |
+| Conoscenze Scolastiche | `apprendereConoscenze` | confine di link rimosso |
+| Usare le Conoscenze | `dallaGuida` | confine di link rimosso |
+| Ricerca Accordi | `CategorieMagiche`, `zonaIl` | link / interruzione di paragrafo rimossi |
+| Ricerca Casi | `DifensoriSe` | interruzione di paragrafo rimossa |
+| Ricerca Creature | `AlleyValli` | due link consecutivi saldati |
+| Ricerca Maledizioni | `qualiAffaticamento` | confine di link rimosso |
+| Parametri Sociali | `eCrescita`, `FantaHogwartse` | link consecutivi saldati |
+| Ricerca Piante | `oValigia` | confine di link rimosso |
+| Tecniche Magizoologiche | `ilPG`, `eLolly` | confini di link/formattazione rimossi |
+| Magizoologia | `PossibilitàAggiungere` | confine di blocco/formattazione rimosso |
+| Sintomatologia | `spinaleLesioni`, `InfezioneInsonnia`, `FerulaTecniche` | voci/link adiacenti saldati |
+| Pozionistica | `FacileSi` | fine del richiamo al tool saldata all'inizio della frase successiva |
+| Medimagia | `ClassificazioneXXXXX` | spazio/formattazione persi |
+
+Questi sono **errori editoriali certi**, ma non vengono modificati automaticamente durante l'audit perché alterano il testo regolamentare. Possono essere corretti in un lotto editoriale dedicato dopo conferma Staff.
+
+Sono invece risultati **legittimi e già presenti nelle fonti**, quindi non vanno corretti: nomi come `TricoPozione`, formule/variabili come `N°ProprieGobbiglieInGioco`, `1dN°CarteInMano`, `TiroSegmento`, `GoalSegmento`, `GoalBase`, il segnaposto URL `entryYYYYY` e identificativi tecnici interni agli URL delle immagini.
+
+## P1 funzionale — ricerca, applicabilità e relazioni
+
+I cataloghi verificati non mostrano mismatch fra i nomi dei filtri e gli attributi `data-*` delle card. I filtri locali risultano quindi tecnicamente coerenti.
+
+La ricerca globale dispone del filtro **PG Studente / PG Adulto**, ma non tutte le collection strutturate espongono un campo di applicabilità. È stato corretto automaticamente solo ciò che è semanticamente certo:
+
+- Missioni FantaHogwarts → **PG Studente**;
+- Missioni FantaWiz → **PG Adulto**.
+
+Non viene attribuita automaticamente un'applicabilità a Incantesimi, Pozioni, Creature, Maestrie, Ingredienti ecc.: questa informazione va modellata nella fase relazioni/IA sulla base delle regole effettive, non dedotta dal codice.
+
+Le relazioni vengono già mostrate nel rail laterale. L'indice dei backlink copre le principali collection e le relazioni specialistiche. Resta da decidere in architettura se le relazioni generiche debbano essere:
+
+- sempre bidirezionali;
+- tipizzate semanticamente;
+- mostrate anche nel corpo pagina;
+- utilizzabili come filtri o percorsi di navigazione.
+
+Non è un errore di runtime, ma una decisione strutturale necessaria prima della fase “filtri/relazioni”.
 
 ## Dipendenze esterne
 
@@ -109,6 +158,18 @@ Il regolamento contiene attualmente link ForumFree in **9 documenti**, principal
 - Alfieri Rossi.
 
 Sono collegamenti intenzionali, ma costituiscono dipendenze esterne da mantenere sotto controllo. In una fase successiva si deciderà quali devono restare sul forum e quali informazioni devono essere internalizzate nel sito-libro.
+
+## Correzioni tecniche applicate durante l'audit
+
+Principali commit di questa fase:
+
+- `c1a7287a` — configurazione/markup e codice ridondante;
+- `9a9a3a97` — i18n, 404 e pulizia delle schede strutturate;
+- `0147e1d0` — applicabilità ricerca Missioni + configurazione Markdown Astro 7;
+- `c5864da6` — rilevazione automatica di duplicazioni interdocumento e candidati a conflitto numerico;
+- `cdfbd59d` — eliminazione del conflitto della route 404.
+
+L'ultimo ciclo completo ha superato **preflight, audit sorgenti, build, audit HTML e deploy**.
 
 ## Regola operativa dell'audit
 
