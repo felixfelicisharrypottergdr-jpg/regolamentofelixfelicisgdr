@@ -36,18 +36,18 @@ magici, che possono causare effetti debilitanti, sia fisici che mentali, sull’
 
 > **Bonus.**
 >
-• PG con **Sapienza Arcaica 25**. se riescono al 100% nell'uso di Esorcismo, non
+- PG con **Sapienza Arcaica 25**. se riescono al 100% nell'uso di Esorcismo, non
 subiscono alcun malus.
 
 > **Nota.**
 >
-• Non possedere questa Conoscenza **non preclude l'utilizzo** dei Rituali di Esorcismo,
+- Non possedere questa Conoscenza **non preclude l'utilizzo** dei Rituali di Esorcismo,
 come spiegato nella Guida alla Tracciatura.
 Possederla, invece, consente al PG di ottenere ulteriori bonus.
-• I Rituali da praticare per l'Esorcismo di *Flagello* o *Maleficio* sono descritti
+- I Rituali da praticare per l'Esorcismo di *Flagello* o *Maleficio* sono descritti
 nella Guida alla Tracciatura.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** a seconda del rito
 
@@ -108,3 +108,5 @@ Se il Livello di Esorcista posseduto è...
 **Lv 3:** -20
 **Lv 4:** -25
 **Lv 5:** -30
+
+</details>

@@ -54,7 +54,7 @@ Oggetto o un animale di piccole dimensioni.
 PG con **Sapienza Trasfigurativa 25** consumano la metà della Fatica nell'utilizzare
 questo incantesimo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -109,3 +109,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 8 post dell'evocatore (o del bersaglio se è un PG giocante)
 - 66%: 7 post dell'evocatore (o del bersaglio se è un PG giocante)
 - 33%: 6 post dell'evocatore (o del bersaglio se è un PG giocante)
+
+</details>

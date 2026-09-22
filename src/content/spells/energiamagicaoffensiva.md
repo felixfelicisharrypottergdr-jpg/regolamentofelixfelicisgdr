@@ -33,23 +33,23 @@ l'avversario in attesa di stancarlo e intervenire con una migliore strategia d'a
 
 > **Bonus.**
 >
-• PG con **Sapienza Offensiva 25** possono attaccare contemporaneamente 2
+- PG con **Sapienza Offensiva 25** possono attaccare contemporaneamente 2
 bersagli.
 
 > **Nota.**
 >
-• Il PG che acquista questa Conoscenza Avanzata migliora soltanto l'uso della sua Energia
+- Il PG che acquista questa Conoscenza Avanzata migliora soltanto l'uso della sua Energia
 Magica in chiave Offensiva; per migliorarne anche l'uso in chiave Difensiva, deve acquistare
 la Conoscenza specifica.
-• Colpire l'avversario con questo incantesimo significa causargli un malus di Fatica per ogni
+- Colpire l'avversario con questo incantesimo significa causargli un malus di Fatica per ogni
 colpo da cui è costretto a proteggersi.
-• Il suo utilizzo dà al PG +tot. possibilità al dDestrezza per decretarne la velocità.
-• Grazie alla sua celerità di esecuzione, al costo di 1 Azione è possibile riuscire ad evocarla
+- Il suo utilizzo dà al PG +tot. possibilità al dDestrezza per decretarne la velocità.
+- Grazie alla sua celerità di esecuzione, al costo di 1 Azione è possibile riuscire ad evocarla
 anche più volte.
-• La Forza di 1 singola evocazione è quella presente nello specchietto; la Forza di ogni
+- La Forza di 1 singola evocazione è quella presente nello specchietto; la Forza di ogni
 singola evocazione si accumula.
 
-## Specifiche:
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -88,23 +88,25 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 > **Esempio.**
 > PG1 (Destrezza 15, Studente) sfida
 PG2 in duello (Adulto, Destrezza 18 e Sapienza Offensiva posseduta).
-• PG1 lancia Protego, PG2 usa l'Energia Magica
+- PG1 lancia Protego, PG2 usa l'Energia Magica
 Offensiva. La sua riuscita è al **33%**, ha quindi a disposizione **4 evocazioni **di
 Energia Magica Offensiva (dato che è un Adulto con Sapienza Offensiva). Dopo di che, si
 confrontano le Destrezze degli avversari aggiungendo al PG con la Destrezza maggiore la
 differenza con la Destrezza avversaria sul risultato finale (**+3**) più le possibilità
 bonus date dall'uso di questa Conoscenza al PG che la possiede (**+4** al PG2).
-• 1d15 (Destrezza PG1) vs 4d18 (Destrezza PG2 x4
+- 1d15 (Destrezza PG1) vs 4d18 (Destrezza PG2 x4
 evocazioni); +7 al risultato finale di ogni dado di PG2 (18 Destrezza vs 15 Destrezza; +4
 bonus)
-• PG1 pesca 15 contro 10, 11, 2 e 3. A questi risultati
+- PG1 pesca 15 contro 10, 11, 2 e 3. A questi risultati
 PG2 aggiunge +7 a ciascuno, per un totale finale di 15 vs 17,
 18, 9 e 10.
 Di conseguenza, il Protego di PG1 è più lento di 2 evocazioni di Energia Magica Offensiva,
 ma più veloce di altre 2 evocazioni.
-• Si confrontano le Forze dei due Incantesimi:
+- Si confrontano le Forze dei due Incantesimi:
 Protego di PG1 viene evocato con riuscita 100% e quindi 100 Forza,
 Energia Magica Offensiva con 2 evocazioni più veloci del Protego ha un totale di
 66 Forza (2 evocazioni a 33 Forza l’una).Il Protego assorbe 66 Forza su 100 e non si rompe, quindi PG1 non perde Salute.
 Tuttavia, PG1 perde Fatica extra pari a -0,5 per ognuna delle 2 evocazioni da cui si è difeso:
 **0,5×2 = -1 Fatica extra.**
+
+</details>

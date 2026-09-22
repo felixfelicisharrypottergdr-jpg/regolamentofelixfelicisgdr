@@ -39,16 +39,16 @@ dietro gli scudi di energia.
 
 > **Nota.**
 >
-• Il PG che acquista questa Conoscenza Avanzata migliora soltanto l'uso della sua Energia
+- Il PG che acquista questa Conoscenza Avanzata migliora soltanto l'uso della sua Energia
 Magica in chiave Difensiva; per migliorarne anche l'uso in chiave Offensiva, deve acquistare
 la Conoscenza specifica.
-• Il suo utilizzo dà al PG +tot. possibilità al dDestrezza per decretarne la velocità.
-• Grazie alla sua celerità di esecuzione, al costo di 1 Azione è possibile riuscire ad evocarla
+- Il suo utilizzo dà al PG +tot. possibilità al dDestrezza per decretarne la velocità.
+- Grazie alla sua celerità di esecuzione, al costo di 1 Azione è possibile riuscire ad evocarla
 anche più volte.
-• La Forza di 1 singola evocazione è quella presente nello specchietto; la Forza di ogni
+- La Forza di 1 singola evocazione è quella presente nello specchietto; la Forza di ogni
 singola evocazione si accumula.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -87,26 +87,28 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 >
 PG1 (Destrezza 15, *Studente*) sfida PG2 in duello (Destrezza 18, *Adulto con Sapienza
 Difensiva*).
-• PG1 lancia **Everte Statim** con Forza 100%.
-• PG2 utilizza **Energia Magica Difensiva** con
+- PG1 lancia **Everte Statim** con Forza 100%.
+- PG2 utilizza **Energia Magica Difensiva** con
 Forza **33%**.
 **Secondo le specifiche:**
-• PG1 (Studente, Potenza 100%) evoca **2 copie** di Everte Statim.
-• PG2 (Adulto con Sapienza Difensiva, Potenza 33%) evoca **4 copie** di Energia
+- PG1 (Studente, Potenza 100%) evoca **2 copie** di Everte Statim.
+- PG2 (Adulto con Sapienza Difensiva, Potenza 33%) evoca **4 copie** di Energia
 Magica Difensiva.
-• Bonus Destrezza: PG1 ottiene **+2**, PG2 ottiene **+4**.
+- Bonus Destrezza: PG1 ottiene **+2**, PG2 ottiene **+4**.
 **Confronto Destrezze:**
-• PG1 tira 2d15+2
-• PG2 tira 4d18+7 → 3 (differenza Destrezza) + 4 (bonus
+- PG1 tira 2d15+2
+- PG2 tira 4d18+7 → 3 (differenza Destrezza) + 4 (bonus
 Sapienza Difensiva)
 **Esempio di risultato:**• PG1 ottiene: 13+2 = 15 e 10+2
 = 12
-• PG2 ottiene: 6+7 = 13, 11+7 = 18, 2+7 = 9, 15+7 = 22
+- PG2 ottiene: 6+7 = 13, 11+7 = 18, 2+7 = 9, 15+7 = 22
 → L’Everte Statim è **più veloce di 1 evocazione** (12 > 9) e **più lento di 3
 evocazioni** (15 < 18, 12 < 13, 12 < 22).
 **Confronto Forze:**
-• Everte Statim (PG1): 2 copie, Potenza 100% → **Forza 100**
-• Energia Magica Difensiva (PG2): 3 evocazioni più rapide → Forza 30 ciascuna →
+- Everte Statim (PG1): 2 copie, Potenza 100% → **Forza 100**
+- Energia Magica Difensiva (PG2): 3 evocazioni più rapide → Forza 30 ciascuna →
 **Forza totale 90**
 → Energia Magica Difensiva assorbe **90** della Forza **100** dell’Everte Statim.
 Il colpo residuo ha **Forza 10**.
+
+</details>

@@ -36,7 +36,7 @@ pensa l'evocatore al momento dell'evocazione. Per tutta la durata dell'Incantesi
 bersaglio è costretto a comportarsi come l'animale pensato dall'evocatore. Il suo aspettorimane sempre lo stesso, ma sarà convinto di essere l'animale prescelto per un certo lasso
 di tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -44,11 +44,11 @@ di tempo.
 Percezione, Empatia, Volontà e Destrezza per un certo numero di post che dipende
 dall'abilità dell'evocatore.
 **Rendersi conto di essere vittime di un Incantesimo Mentale**
-• Il PG bersaglio si accorge di essere vittima di un Incantesimo Mentale se, lanciando 1d30,
+- Il PG bersaglio si accorge di essere vittima di un Incantesimo Mentale se, lanciando 1d30,
 estrae un numero compreso fra 1-Volontà. PG con
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) aggiungono 1 possibilità per ogni
 livello di Occlumanzia posseduto.
-• I PG che vi interagiscono possono accorgersi che il PG Bersaglio è vittima di un'illusione
+- I PG che vi interagiscono possono accorgersi che il PG Bersaglio è vittima di un'illusione
 agendo come spiegato nella Guida alla Tracciatura.
 **Liberarsi dall'Incantesimo Mentale**
 Il PG bersaglio **che si è accorto** di essere vittima di un Incantesimo si libera
@@ -88,3 +88,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Mentale 1+*
 Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: nessuno
+
+</details>

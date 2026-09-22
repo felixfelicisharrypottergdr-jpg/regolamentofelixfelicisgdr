@@ -29,9 +29,11 @@ migration:
       item: "Expelliarmus"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** se si subisce l'Incidente da Manufatto, vedere
 Enciclopedia Medimagica.
+
+</details>

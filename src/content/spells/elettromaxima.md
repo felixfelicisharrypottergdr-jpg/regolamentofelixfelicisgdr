@@ -41,7 +41,7 @@ qualche istante.
 avversari ed elementi fisici soltanto se il fulmine viene generato a protezione di
 qualcuno/qualcosa ed ha più Forza dell'incantesimo combattuto.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -73,3 +73,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...- 100%: 3 post del ber
 - 33%: 4 post del bersaglio
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*
 - 100%: 7 post del bersaglio
+
+</details>

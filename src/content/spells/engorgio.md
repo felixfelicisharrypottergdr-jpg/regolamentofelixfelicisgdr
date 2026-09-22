@@ -42,7 +42,7 @@ Il suo controincantesimo è [Reducio](/manuali/incantesimi/reducio/) e non
 L'oggetto bersaglio non può comunque essere ingrandito oltre dimensioni maggiori di quelle
 di una macchina.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -72,7 +72,9 @@ se vanno a segno, causano un danno in Salute che varia dall'oggetto e dalla sua 
 è quindi necessario fare richiesta al Narratore perché decreti l'entità del danno.
 Bersagli ingranditi a protezione di PG/PNG hanno una Forza pari al doppio dell'incantesimo
 + bonus per PG in possesso di Sapienza Trasfigurativa:
-• **PG con Sapienza Trasfigurativa 1-5**: +10• **PG con Sapienza Trasfigurativa 6-10**: +20
-• **PG con Sapienza Trasfigurativa 11-15**: +30
-• **PG con Sapienza Trasfigurativa 16-20**: +40
-• **PG con Sapienza Trasfigurativa 21-25**: +50
+- **PG con Sapienza Trasfigurativa 1-5**: +10• **PG con Sapienza Trasfigurativa 6-10**: +20
+- **PG con Sapienza Trasfigurativa 11-15**: +30
+- **PG con Sapienza Trasfigurativa 16-20**: +40
+- **PG con Sapienza Trasfigurativa 21-25**: +50
+
+</details>

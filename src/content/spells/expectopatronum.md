@@ -42,15 +42,15 @@ breve tempo e, con la voce dell'evocatore, comunica il messaggio che porta con s
 
 > **Nota.**
 >
-• Il Patronus e il [Riddikulus](/manuali/incantesimi/riddikulus/) sono gli unici due
+- Il Patronus e il [Riddikulus](/manuali/incantesimi/riddikulus/) sono gli unici due
 incantesimi difensivi che si basano su una media fra la Potenza del PG e la sua Volontà
 anziché solo sulla sua Potenza.
-• Il Patronus riesce ad allontanare Dissennatori/Lethifold se la loro Forza supera la
+- Il Patronus riesce ad allontanare Dissennatori/Lethifold se la loro Forza supera la
 Resistenza delle Creature.
-• Il Patronus è sempre incorporeo se il PG che lo evoca ha una somma di Volontà e Potenza
+- Il Patronus è sempre incorporeo se il PG che lo evoca ha una somma di Volontà e Potenza
 inferiore a 25.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** stabilità dall'evocatore
 
@@ -96,7 +96,9 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 
 > **Nota.**
 >
-• PG con **Sapienza Difensiva 25** possono colpire contemporaneamente fino a 30
+- PG con **Sapienza Difensiva 25** possono colpire contemporaneamente fino a 30
 Dissennatori.
-• PG con somma di Volontà e Potenza pari a 34 e **Sapienza Difensiva 25** possono
+- PG con somma di Volontà e Potenza pari a 34 e **Sapienza Difensiva 25** possono
 colpire contemporaneamente fino a 50 Dissennatori.
+
+</details>

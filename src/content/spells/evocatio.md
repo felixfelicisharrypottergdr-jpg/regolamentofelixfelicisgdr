@@ -50,7 +50,7 @@ Il bersaglio appare in una coltre di scintille rosa.
 PG con **Sapienza Trasfigurativa 25** consumato la metà della Fatica prevista per
 l'uso di questo Incantesimo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -59,10 +59,10 @@ l'uso di questo Incantesimo.
 PG che utilizzano questo incantesimo possono evocare, per il periodo di tempo sotto
 stabilito, **tutti gli Oggetti presenti nei Prezzari dei Negozi** ed utilizzarli come da
 specifiche, ad eccezione di:
-• Creature Magiche
-• Piante Magiche
-• Varianti oscure e potenziate di oggetti venduti ad Hogsmeade o a Diagon Alley
-• Oggetti dal Mercato degli Elfi
+- Creature Magiche
+- Piante Magiche
+- Varianti oscure e potenziate di oggetti venduti ad Hogsmeade o a Diagon Alley
+- Oggetti dal Mercato degli Elfi
 Nel caso in cui dell'oggetto evocato esistano più versioni (ad esempio le scope magiche), il
 Narratore lancerà un dado per stabilire esattamente che versione dell'oggetto scelto il PG
 riesce ad evocare dal Limbo.
@@ -87,3 +87,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 7 post dell'evocatore
 - 66%: 6 post dell'evocatore
 - 33%: 5 post dell'evocatore
+
+</details>
