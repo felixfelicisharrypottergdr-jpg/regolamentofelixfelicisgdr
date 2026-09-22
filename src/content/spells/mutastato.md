@@ -38,11 +38,11 @@ potrebbero non tornare mai al loro stato originale.
 
 > **Nota.**
 >
-• A seconda della narrazione, oggetti trasformati in gas o liquidi potrebbero non tornare mai
+- A seconda della narrazione, oggetti trasformati in gas o liquidi potrebbero non tornare mai
 più al loro stato originale. Per utilizzi non di colore è necessario fare richiesta al
 Narratore.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -61,3 +61,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 3 oggetti per 5 post dell'evocatore
+
+</details>

@@ -31,13 +31,13 @@ migration:
 
 > **Nota.**
 >
-• E' possibile recuperare ricordi rimossi mediante l'uso di un
+- E' possibile recuperare ricordi rimossi mediante l'uso di un
 [Legilimens](/manuali/incantesimi/legilimens/) o della Pozione della Memoria, purché la
 loro Forza sia superiore alla Forza dell'*Oblivion* che ha rimosso il ricordo.
-• E' possibile difendersi utilizzando uno qualsiasi degli Incantesimi Scudo. Non è possibile
+- E' possibile difendersi utilizzando uno qualsiasi degli Incantesimi Scudo. Non è possibile
 difendersi utilizzando l'[Occlumanzia](/manuali/incantesimi/occlumanzia/)
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -91,3 +91,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: nessuno
 - 66%: nessuno
 - 33%: -1 Parametri sopra per 5 post del PG bersaglio dal termine dell'Incantesimo
+
+</details>

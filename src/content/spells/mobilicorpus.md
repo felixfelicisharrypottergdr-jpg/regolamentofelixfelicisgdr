@@ -38,7 +38,7 @@ corretta esecuzione dell'incantesimo, è necessario mantenere costantemente il c
 visivo con il bersaglio da controllare, per cui non è possibile evocare contemporaneamente
 evocare altri incantesimi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè l’evocatore mantiene il controllo
 
@@ -63,3 +63,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 1-Volontà su 1d50
+
+</details>

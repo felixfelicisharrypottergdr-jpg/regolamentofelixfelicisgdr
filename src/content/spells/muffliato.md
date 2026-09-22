@@ -37,13 +37,13 @@ bersagli.
 Gli effetti non rendono sordi i bersagli, le Creature Magiche e gli oggetti non subiscono gli
 effetti di questa illusione.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
 **Parametro del bersaglio intaccato:** //
 **Rendersi conto di essere vittime di un'illusione**
-• Il PG bersaglio si accorge di essere vittima di un'illusione se, lanciando 1d30, estrae un
+- Il PG bersaglio si accorge di essere vittima di un'illusione se, lanciando 1d30, estrae un
 numero compreso fra 1-Volontà. PG con
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) aggiungono 1 possibilità per ogni
 livello di Occlumanzia posseduto.
@@ -53,9 +53,9 @@ dall'illusione se, lanciando 1d30, estrae un numero compreso fra 1-Volontà.
 PG con [Occlumanzia](/manuali/incantesimi/occlumanzia/) aggiungono 1 possibilità per
 ogni livello di Occlumanzia posseduto.
 Se l'illusione è stata evocata con riuscita:
-• 100%, i PG che vogliono liberarsene tolgono -3 possibilità al loro totale;
-• 66%, i PG che vogliono liberarsene non aggiungono né tolgono possibilità al loro totale.
-• 33%, i PG che vogliono liberarsene aggiungono +3 possibilità al loro totale.
+- 100%, i PG che vogliono liberarsene tolgono -3 possibilità al loro totale;
+- 66%, i PG che vogliono liberarsene non aggiungono né tolgono possibilità al loro totale.
+- 33%, i PG che vogliono liberarsene aggiungono +3 possibilità al loro totale.
 **Durata dell'illusione**
 Il bersaglio può rendersi conto che l'illusione sta terminando nel suo ultimo post di durata.
 L'illusione può essere terminata in anticipo sia con un Finite Incantatem, sia su decisione
@@ -92,3 +92,5 @@ E' possibile annullare gli effetti dell'illusione con un
 Forza del *Muffliato*.
 PG eventualmente privati della sua protezione possono rendersene conto agendo come
 spiegato nella Guida alla Tracciatura.
+
+</details>

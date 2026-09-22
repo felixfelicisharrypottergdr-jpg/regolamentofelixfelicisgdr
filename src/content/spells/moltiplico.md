@@ -41,7 +41,7 @@ Le copie non sono in grado di evocare Incantesimi reali ma soltanto nella loro
 manifestazione: eventuali Incantesimi evocati dalle copie non avranno quindi alcun effetto.
 Se colpite, spariscono con un rumoroso **pop**.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -81,3 +81,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Mentale 1+*
 Se la Potenza dell'Incantesimo precedentemente evocato è...
 - 100%: se 1-3 su 1d15
+
+</details>

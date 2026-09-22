@@ -40,10 +40,10 @@ l'incantesimo [Reparifarge](/manuali/incantesimi/reparifarge/) più forte del Mu
 
 > **Nota.**
 >
-• Oggetti trasfigurati per danneggiare l'avversario hanno Resistenza, Destrezza e Forza
+- Oggetti trasfigurati per danneggiare l'avversario hanno Resistenza, Destrezza e Forza
 stabilita di volta in volta dal Narratore se l'utilizzo non è di colore.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -62,3 +62,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 3 oggetti per 5 post dell'evocatore
+
+</details>

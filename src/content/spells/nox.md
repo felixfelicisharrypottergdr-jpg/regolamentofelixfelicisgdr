@@ -33,8 +33,10 @@ Spegne la bacchetta immediatamente dopo l'utilizzo di
 sfera di luce verso l'alto, questa viene riassorbita dalla bacchetta dopo averla puntata in
 direzione della luce.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

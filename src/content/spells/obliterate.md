@@ -40,7 +40,7 @@ Incantatem* con più Forza dell'*Obliterate*.
 L'Incantesimo ha sempre riuscita al 100% se il PG utilizza *Obliterate* per cancellare le
 sue impronte sul terreno.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** finchè non viene rimosso oppure tempo OFFGame (vedi sotto)
 
@@ -81,7 +81,9 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 **Accorgersi dell'Obliterate e recuperare le tracce**
 Se il PG si accorge che in zona è presente un Obliterate, può annullarlo e recuperare le
 tracce se:
-• Non è scaduto il tempo OFFGame o i post a disposizione dopo il quale le tracce magiche
+- Non è scaduto il tempo OFFGame o i post a disposizione dopo il quale le tracce magiche
 svaniranno;
-• Riesce ad utilizzare un Finite Incantatem con più forza dell'Obliterate lanciato in
+- Riesce ad utilizzare un Finite Incantatem con più forza dell'Obliterate lanciato in
 precedenza.
+
+</details>

@@ -37,7 +37,7 @@ La trasfigurazione può essere annullata da un incantesimo
 [Reparifarge](/manuali/incantesimi/reparifarge/) più forte del Mutaombra utilizzato o col
 passare del tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -59,3 +59,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 **Riconoscere che si tratta di un'ombra finta**
 Il PG può accorgersi che l'ombra trasfigurata è fittizia agendo come previsto dalla
 Guida alla Tracciatura.
+
+</details>

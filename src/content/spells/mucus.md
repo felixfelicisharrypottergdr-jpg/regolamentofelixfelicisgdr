@@ -41,7 +41,7 @@ PG che riescono nella sua evocazione fanno perdere al bersaglio Fatica per tutta
 del raffreddore. Il PG colpito da questo incantesimo riesce a pronunciare la formula di un
 altro incantesimo senza starnutire se 1/3.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -68,8 +68,10 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 PG con Sapienza Oscura o Medimagica possono provare a capire che il bersaglio è vittima
 del *Mucus Ad Nauseam* e agire di conseguenza se, al lancio di **1d7**, pescano
 i seguenti esiti:
-• **PG con Sapienza Oscura o Medimagica 1-5:** 1 su 1d7
-• **PG con Sapienza Oscura o Medimagica 6-10:** 1-2 su 1d7
-• **PG con Sapienza Oscura o Medimagica 11-15:** 1-3 su 1d7
-• **PG con Sapienza Oscura o Medimagica 16-20:** 1-4 su 1d7
-• **PG con Sapienza Oscura o Medimagica 21-25:** 1-5 su 1d7
+- **PG con Sapienza Oscura o Medimagica 1-5:** 1 su 1d7
+- **PG con Sapienza Oscura o Medimagica 6-10:** 1-2 su 1d7
+- **PG con Sapienza Oscura o Medimagica 11-15:** 1-3 su 1d7
+- **PG con Sapienza Oscura o Medimagica 16-20:** 1-4 su 1d7
+- **PG con Sapienza Oscura o Medimagica 21-25:** 1-5 su 1d7
+
+</details>

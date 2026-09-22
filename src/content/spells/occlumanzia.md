@@ -42,10 +42,10 @@ Possono altresì provare a resistere alla lettura della mente da parte di un
 
 > **Bonus.**
 >
-• PG con **Sapienza Mentale 25** possono ingannare l'avversario che usa contro di
+- PG con **Sapienza Mentale 25** possono ingannare l'avversario che usa contro di
 loro Legilimens mostrandogli ricordi fittizi o scelti dallo stesso Occlumante.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** //
 
@@ -62,3 +62,5 @@ Un PG Bersaglio con Occlumanzia di Livello III viene colpito da un PG Evocatore 
 Legilimanzia di Livello IV.
 La sua Volontà è pari a 20. Egli dunque lancia 1d30 e riesce a resistere al Legilimens se
 1-19 (20 Volontà + 3 Occlumanzia -4 Legilimanzia).
+
+</details>

@@ -36,7 +36,7 @@ rimuoverla col solo uso delle mani, poiché si tratta di una benda magica. La be
 rimuove con un Finite Incantem più forte dell’Obscuro oppure si dissolve automaticamente
 dopo poco tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -55,3 +55,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%:max 5 bersagli; 5 post dell'evocatore
+
+</details>
