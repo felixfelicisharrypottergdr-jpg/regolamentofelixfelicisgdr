@@ -18,18 +18,10 @@ migration:
 
 # Creare una Conoscenza
 
-**INDICE**
-
-• Creare un Incantesimo
-
-• Creare una Pozione
-
-• Creare un Oggetto Magico
-
 I Player che vogliono contribuire all'ampliamento delle Conoscenze e degli Oggetti del gioco possono farlo attraverso la creazione di nuovi Incantesimi, nuove Pozioni e nuovi Oggetti Magici. Si tratta, per l'appunto, di una **creazione OFFGame**. Ogni player può inventare **una nuova Conoscenza o Oggetto al mese**.
 Nel caso in cui la creazione dovesse avvenire, oltre che OFFGame da parte del player, anche ONGame da parte del PG, quest'ultimo deve avere i seguenti requisiti:
-• **PG Studenti:** tutte le Conoscenze con voto E nella Materia Scolastica affine.
-• **PG Adulti:** almeno 10 Sapienza nella Sapienza affine.
+- **PG Studenti:** tutte le Conoscenze con voto E nella Materia Scolastica affine.
+- **PG Adulti:** almeno 10 Sapienza nella Sapienza affine.
 Le Conoscenze inventate dai player/PG saranno sempre Conoscenze Extra relative alla Sapienza affine alla Conoscenza.
 **Cosa ottengo se creo delle Conoscenze o degli Oggetti Magici?**
 Se la creazione avviene **soltanto OFFGame**, il player riceve come ricompenza 50 Felix Token una tantum.
@@ -43,10 +35,12 @@ Se l'invenzione dovesse essere anche ONGame, il nome dell'inventore non sarà di
 Esattamente come le Conoscenze e gli Oggetti normali: si acquistano oppure, nel caso delle Conoscenze, si apprendono direttamente dall'inventore o da chi ha già la Conoscenza tra quelle apprese in Scheda PG.
 **Attenzione:** queste Conoscenze, anche se Extra, non vengono apprese di default dai PG che possiedono la Sapienza affine. Devono comunque essere acquistate o apprese da PG che le possiedono già in Scheda.
 
+<a id="creareinca"></a>
 ## Creare un Incantesimo
 Per creare un nuovo Incantesimo OFFGame, il Player può compilare il seguente specchietto compilato all'interno della sezione "Proposte Nuove Creazioni":
 
-## Compila questo se vuoi creare un Incantesimo:
+<details><summary><strong>Compila questo se vuoi creare un Incantesimo:</strong></summary>
+
 
 >
 **Nome Incantesimo:**
@@ -79,10 +73,14 @@ Per creare un nuovo Incantesimo OFFGame, il Player può compilare il seguente sp
 
 Nel caso in cui il PG inventi l'Incantesimo in questione anche ONGame, il player ha liberta di scelta su come ruolare il processo di creazione, che può avvenire in una o più role, in solitaria o con l'aiuto di altri PG eccetera. L'importante ovviamente è mantenere il buon senso e rispettare la coerenza del PG, dell'Ambientazione, nonchè dei limiti e delle regole del gioco, evitando di fare PowerPlay.
 
+</details>
+
+<a id="crearepoz"></a>
 ## Creare una Pozione
 Per creare una nuova Pozione OFFGame, il Player può compilare il seguente specchietto compilato all'interno della sezione "Proposte Nuove Creazioni":
 
-## Compila questo se vuoi creare una Pozione:
+<details><summary><strong>Compila questo se vuoi creare una Pozione:</strong></summary>
+
 
 >
 **Nome Pozione:**
@@ -119,10 +117,14 @@ Per creare una nuova Pozione OFFGame, il Player può compilare il seguente specc
 
 Nel caso in cui il PG inventi la Pozione in questione anche ONGame, il player ha liberta di scelta su come ruolare il processo di creazione, che può avvenire in una o più role, in solitaria o con l'aiuto di altri PG eccetera. L'importante ovviamente è mantenere il buon senso e rispettare la coerenza del PG, dell'Ambientazione, nonchè dei limiti e delle regole del gioco, evitando di fare PowerPlay.
 
+</details>
+
+<a id="creareoggettinuovi"></a>
 ## Creare un Oggetto Magico
 Per creare un nuovo Oggetto Magico OFFGame, il Player può compilare il seguente specchietto compilato all'interno della sezione "Proposte Nuove Creazioni":
 
-## Compila questo se vuoi creare un Oggetto Magico:
+<details><summary><strong>Compila questo se vuoi creare un Oggetto Magico:</strong></summary>
+
 
 >
 **Nome Oggetto:**
@@ -148,3 +150,5 @@ Per creare un nuovo Oggetto Magico OFFGame, il Player può compilare il seguente
 
 
 Nel caso in cui il PG inventi l'Oggetto Magico in questione anche ONGame, il player ha liberta di scelta su come ruolare il processo di creazione, che può avvenire in una o più role, in solitaria o con l'aiuto di altri PG eccetera. L'importante ovviamente è mantenere il buon senso e rispettare la coerenza del PG, dell'Ambientazione, nonchè dei limiti e delle regole del gioco, evitando di fare PowerPlay.
+
+</details>
