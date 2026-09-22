@@ -26,16 +26,17 @@ migration:
       item: "Amato Animo Animato Animagus"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Regole Generali**
-• PG che appartengono a una Razza non possono in alcun modo acquisire questa Maestria;
-• Se un Animagus viene morso e contagiato dalla Licantropia, perde permanentemente la capacità di trasformarsi;
-• Non è possibile trasformarsi in Creature Magiche;
-• Non è possibile utilizzare Bonus derivanti da oggetti magici, Pozioni o altri effetti analoghi mentre si è trasformati, salvo quando espressamente previsto;
-• Non è possibile utilizzare la propria bacchetta e in generale evocare magie o utilizzare Conoscenze diverse dalle capacità previste dalla propria forma Animagus mentre si è trasformati;
-• Al momento dell'acquisto della Maestria, oltre a segnalare l'animale scelto, il Player deve indicare il segno distintivo assunto durante la Trasfigurazione, ovvero quel dettaglio o tratto fisico peculiare che richiama visivamente l'aspetto della propria forma umana;
-• La specie scelta è definitiva e non può essere modificata successivamente.
+- PG che appartengono a una Razza non possono in alcun modo acquisire questa Maestria;
+- Se un Animagus viene morso e contagiato dalla Licantropia, perde permanentemente la capacità di trasformarsi;
+- Non è possibile trasformarsi in Creature Magiche;
+- Non è possibile utilizzare Bonus derivanti da oggetti magici, Pozioni o altri effetti analoghi mentre si è trasformati, salvo quando espressamente previsto;
+- Non è possibile utilizzare la propria bacchetta e in generale evocare magie o utilizzare Conoscenze diverse dalle capacità previste dalla propria forma Animagus mentre si è trasformati;
+- Al momento dell'acquisto della Maestria, oltre a segnalare l'animale scelto, il Player deve indicare il segno distintivo assunto durante la Trasfigurazione, ovvero quel dettaglio o tratto fisico peculiare che richiama visivamente l'aspetto della propria forma umana;
+- La specie scelta è definitiva e non può essere modificata successivamente.
 
 **Parametri in Forma Animagus**
 Quando il PG si trasforma, Destrezza, Resistenza, Salute e Fatica vengono temporaneamente sostituite dai valori previsti dal proprio Archetipo.
@@ -71,10 +72,10 @@ Questa regola si applica esclusivamente ai costi che non hanno già avuto concre
 La forma Animagus non possiede una durata massima espressa in post.
 Una volta trasformato, il PG può mantenere la forma animale finché lo desidera.
 La trasformazione termina:
-• volontariamente, utilizzando 1 Azione Principale;
-• dopo aver subito gli effetti dell'Incantesimo Animaleus Nobodyx;
-• quando la forma animale raggiunge 0 Salute;
-• alla conclusione della Role.
+- volontariamente, utilizzando 1 Azione Principale;
+- dopo aver subito gli effetti dell'Incantesimo Animaleus Nobodyx;
+- quando la forma animale raggiunge 0 Salute;
+- alla conclusione della Role.
 Se la forma animale raggiunge 0 Salute, il PG torna immediatamente umano e non può trasformarsi nuovamente per un numero di propri post dipendente dal Livello della Maestria:
 *Livello I:* 5 post
 *Livello II:* 4 post
@@ -83,10 +84,10 @@ Se la forma animale raggiunge 0 Salute, il PG torna immediatamente umano e non p
 **Azioni in Forma Animagus**
 Durante ogni proprio post in forma Animagus, il PG dispone di fino a 2 Azioni Animagus, indipendentemente dal Livello della Maestria.
 Ogni Azione può essere utilizzata per:
-• effettuare un normale attacco fisico;
-• compiere un'attività fisica significativa compatibile con la specie animale;
-• utilizzare un'Abilità Speciale indicata come attiva;
-• compiere qualsiasi altra attività che richiederebbe normalmente un'Azione.
+- effettuare un normale attacco fisico;
+- compiere un'attività fisica significativa compatibile con la specie animale;
+- utilizzare un'Abilità Speciale indicata come attiva;
+- compiere qualsiasi altra attività che richiederebbe normalmente un'Azione.
 Le Abilità Speciali indicate come Passive non consumano Azioni e si applicano automaticamente quando ne ricorrono le condizioni.
 Le capacità che modificano o potenziano un'altra attività non richiedono un'Azione aggiuntiva rispetto a quella già utilizzata per compiere l'attività stessa.
 Salvo quando indicato diversamente nelle relative Specifiche, la stessa Abilità Speciale attiva non può essere utilizzata più di una volta nello stesso post.
@@ -97,14 +98,15 @@ Il rito per diventare Animagus è una procedura straordinariamente lunga, comple
 Questa scelta è lasciata alla discrezione del Player: l'acquisizione può essere gestita da background, accennata nei post come elemento di colore oppure ruolata ONGame.
 In quest'ultimo caso, i passaggi necessari per giungere alla trasformazione sono quelli a seguire:
 
-## Il Rito
+<details><summary><strong>Il Rito</strong></summary>
+
 
 **Ingredienti (ottenibili autoconclusivamente)**
-• Foglia di Mandragola fresca
-• 1 Fialetta di cristallo
-• 1 Capello dell'incantatore
-• 1 Crisalide di Sfinge testa di morto
-• 1 Cucchiaino d'argento di Rugiada mattutina, raccolta da una pianta mai colpita dai raggi solari né toccata/avvicinata dall'uomo per almeno 7 giorni
+- Foglia di Mandragola fresca
+- 1 Fialetta di cristallo
+- 1 Capello dell'incantatore
+- 1 Crisalide di Sfinge testa di morto
+- 1 Cucchiaino d'argento di Rugiada mattutina, raccolta da una pianta mai colpita dai raggi solari né toccata/avvicinata dall'uomo per almeno 7 giorni
 
 Fase 1
 Durante la Luna Piena del mese d'inizio, posizionare la foglia di Mandragola all'interno della propria bocca. Custodire la foglia sotto la lingua per un mese intero senza mai rimuoverla o ingoiarla, pena il fallimento del rito e gravi rischi per la salute.
@@ -147,8 +149,8 @@ In Lista della Spesa, dunque, contestualmente all'acquisto, va compilata la segu
 
 **Bonus in Forma Umana**
 La natura di Animagus influisce positivamente sulla sensibilità del mago anche quando si trova nella sua forma umana:
-• Ottiene un bonus fisso di +10 Empatia unicamente quando interagisce con animali della sua stessa specie;
-• Ottiene un bonus fisso di +5 Empatia quando interagisce con animali appartenenti alla stessa famiglia biologica, per esempio felini con felini o canidi con canidi.
+- Ottiene un bonus fisso di +10 Empatia unicamente quando interagisce con animali della sua stessa specie;
+- Ottiene un bonus fisso di +5 Empatia quando interagisce con animali appartenenti alla stessa famiglia biologica, per esempio felini con felini o canidi con canidi.
 
 **Trasformarsi in un Animagus**
 Per evitare la compilazione manuale di singole schede per ogni animale, le trasformazioni sono divise in 7 grandi Archetipi, ognuno dei quali definisce statistiche fisiche fisse, capacità e Debolezze proprie.
@@ -167,7 +169,10 @@ In caso di specie particolarmente variabili o difficili da collocare, l'Archetip
 I diversi Archetipi possono comprendere anche **specie acquatiche, anfibie o semiacquatiche** che, per taglia e caratteristiche, risultino compatibili con il relativo profilo. Queste non costituiscono Archetipi separati, ma utilizzano normalmente statistiche, attacchi, abilità e Debolezze dell'Archetipo di appartenenza.
 Le forme appartenenti a specie esclusivamente acquatiche possono trasformarsi e agire in forma animale soltanto quando si trovano in acqua. Le specie anfibie o semiacquatiche possono invece muoversi e agire anche sulla terraferma, nei limiti delle normali capacità della specie scelta.
 
-## 1. I Minuscoli
+</details>
+
+<details><summary><strong>1. I Minuscoli</strong></summary>
+
 
 Specie Comuni: Ape, Vespa, Mosca, Zanzara, Formica, Coccinella, Farfalla, Falena, Libellula, Scarabeo comune, Ragno comune.
 Caratteristiche: la classe definitiva per l'infiltrazione estrema. Non possiede reali capacità di combattimento, ma sfrutta la propria stazza quasi impercettibile per penetrare in luoghi difficilmente accessibili e raccogliere informazioni.
@@ -182,19 +187,19 @@ Tipo di attacco:
 Pizzico/Puntura insignificante, puramente di colore: non provoca perdita di Salute anche quando la specie scelta sarebbe normalmente velenosa.
 
 Abilità Speciali:
-• *Spionaggio:* quando utilizza 1 Azione per Spiare, Origliere o raccogliere informazioni in segreto, ottiene un bonus fisso di +10 Possibilità.
+- *Spionaggio:* quando utilizza 1 Azione per Spiare, Origliere o raccogliere informazioni in segreto, ottiene un bonus fisso di +10 Possibilità.
 L'animale ignora inoltre i malus derivanti dalla Popolarità sociale del proprio PG umano, venendo considerato ai fini dello Spionaggio come Anonimo (+3 Possibilità).
 Le normali capacità di attenzione, Percezione e Acume dei presenti continuano tuttavia ad applicarsi.
 In caso di fallimento, i presenti possono accorgersi della presenza dell'insetto o del piccolo animale secondo le normali regole, ma non scoprono automaticamente che si tratti di un Animagus né la sua identità umana.
 Il bonus si applica normalmente anche ai tiri di Missioni o Reati collegati allo Spionaggio.
 
-• *Infiltrazione:* richiede 1 Azione Animagus.
+- *Infiltrazione:* richiede 1 Azione Animagus.
 Il superamento di ostacoli fisici non protetti magicamente compatibili con le dimensioni della specie, come fessure sotto le porte, condotti d'aria, grate o piccole aperture, è automatico e autoconclusivo e non richiede magie di scasso o tiri di dado.
 → Se l'accesso è integralmente protetto da una barriera magica, l'Animagus non può attraversarlo grazie alla sola taglia.
 → Se attende che il varco venga aperto da passanti, PNG o eventi ONGame, lancia 1d10 in spoiler: il varco viene aperto con un risultato compreso fra 1-3. Questo tentativo può essere effettuato una sola volta per Role.
 → Se soltanto gli accessi evidenti risultano chiusi o protetti, l'Animagus può cercare vie secondarie non interessate dalla protezione, come grate sul retro, condotti o intercapedini. Lancia 1d40 in spoiler e trova una via utilizzabile con un risultato compreso fra 1 e la Percezione del PG. Il tiro determina esclusivamente se il PG riesce a individuare una via secondaria utilizzabile: una volta trovata, attraversarla è automatico se compatibile con le dimensioni della specie. Può effettuare al massimo tre tentativi complessivi per Role.
 
-• *Elusione:* Passiva. Grazie alla stazza minuscola, eventuali ricerche attive o indagini ONGame finalizzate a individuare fisicamente l'intruso subiscono -20 Possibilità.
+- *Elusione:* Passiva. Grazie alla stazza minuscola, eventuali ricerche attive o indagini ONGame finalizzate a individuare fisicamente l'intruso subiscono -20 Possibilità.
 Questo modificatore rende più difficile individuare materialmente l'animale, ma non impedisce l'utilizzo di mezzi magici specificamente capaci di rilevare esseri umani o Trasfigurazioni.
 
 Debolezze:
@@ -205,7 +210,10 @@ In ogni post in cui utilizza attivamente almeno una delle proprie Abilità Speci
 *Livello III:* 1d40
 In caso di fallimento perde 1 Salute.
 
-## 2. I Furtivi
+</details>
+
+<details><summary><strong>2. I Furtivi</strong></summary>
+
 
 Specie Comuni: Gatto domestico, Topo, Ratto, Coniglio, Lepre, Riccio, Scoiattolo, Furetto, Donnola, Ermellino.
 Caratteristiche: la classe ideale per muoversi nell'ombra, sgattaiolare nei corridoi e raccogliere informazioni senza destare sospetti. Pur non possedendo la forza distruttiva delle taglie superiori, gode di ottimi riflessi e di una notevole mobilità elusiva.
@@ -217,23 +225,23 @@ Acume, Percezione, Volontà: PG
 Empatia, Tecnica e Potenza: 0
 
 Tipo di attacco:
-• *Graffio:* Forza 20 - Malus in Resistenza
-• *Morso:* Forza 30 - Malus in Resistenza
+- *Graffio:* Forza 20 - Malus in Resistenza
+- *Morso:* Forza 30 - Malus in Resistenza
 
 Ogni attacco richiede 1 Azione Animagus e segue le normali regole degli scontri fisici.
 
 Abilità Speciali:
 
-• *Passo Felpato:* non richiede un'Azione aggiuntiva e si applica all'Azione utilizzata per Spiare, Ficcanasare o muoversi furtivamente.
+- *Passo Felpato:* non richiede un'Azione aggiuntiva e si applica all'Azione utilizzata per Spiare, Ficcanasare o muoversi furtivamente.
 Ottiene +5 Possibilità al relativo tiro e ignora i malus derivanti dalla Popolarità sociale del proprio PG umano, venendo considerato Anonimo (+3 Possibilità).
 Qualora perda uno scontro di fuga o venga scoperto, i presenti individuano normalmente la presenza fisica dell'animale ma non ne ricavano automaticamente l'identità umana.
 
-• *Passaggio Ristretto:* richiede 1 Azione Animagus e permette di sfruttare la piccola taglia per attraversare aperture compatibili con la fisiologia della specie, come fessure di porte, condotti, grate e intercapedini.
+- *Passaggio Ristretto:* richiede 1 Azione Animagus e permette di sfruttare la piccola taglia per attraversare aperture compatibili con la fisiologia della specie, come fessure di porte, condotti, grate e intercapedini.
 → Le barriere magiche che proteggono integralmente l'accesso non possono essere attraversate grazie alla sola taglia.
 → Se attende l'apertura fortuita di un varco da parte di passanti o PNG, lancia 1d10: il varco viene aperto con 1-3. Può effettuare questo tentativo una sola volta per Role.
 → Se soltanto gli accessi principali sono chiusi o protetti, può cercare una via secondaria non interessata dalla protezione. Lancia 1d40 e riesce se ottiene un risultato compreso fra 1 e la propria Percezione +10. Il tiro determina esclusivamente se il PG riesce a individuare una via secondaria utilizzabile: una volta trovata, attraversarla è automatico se compatibile con la fisiologia della specie. Può effettuare al massimo tre tentativi complessivi per Role.
 
-• *Sensi Acuiti:* Passiva. Ottiene +10 Percezione quando tenta di udire sussurri, avvertire pericoli, rilevare minacce nell'ambiente o seguire attivamente tracce olfattive o uditive. Se l'attività richiede normalmente un'Azione, il bonus non fornisce un'Azione aggiuntiva.
+- *Sensi Acuiti:* Passiva. Ottiene +10 Percezione quando tenta di udire sussurri, avvertire pericoli, rilevare minacce nell'ambiente o seguire attivamente tracce olfattive o uditive. Se l'attività richiede normalmente un'Azione, il bonus non fornisce un'Azione aggiuntiva.
 
 Debolezze:
 
@@ -252,7 +260,10 @@ In ogni post in cui utilizza attivamente Passo Felpato o Passaggio Ristretto, ef
 
 In caso di fallimento compie un gesto insolito per un normale animale e subisce -3 Possibilità ai tiri di Spionaggio effettuati nel post corrente e nel proprio post successivo.
 
-## 3. I Volanti
+</details>
+
+<details><summary><strong>3. I Volanti</strong></summary>
+
 
 Specie Comuni: Corvo, Cornacchia, Corvo imperiale, Gazza, Taccola, Piccione, Passero, Merlo, Pettirosso, Storno, Gabbiano, Gufo, Civetta, Barbagianni, Falco, Gheppio, Poiana, Pipistrello.
 Caratteristiche: la classe ideale per gli spostamenti rapidi, la perlustrazione dall'alto e lo spionaggio aereo. Sfrutta l'altezza per eludere le minacce terrestri, ma la propria silhouette in volo può renderla un bersaglio evidente quando viene individuata.
@@ -264,20 +275,20 @@ Acume, Percezione, Volontà: PG
 Empatia, Tecnica e Potenza: 0
 
 Tipo di attacco:
-• *Beccata:* Forza 20 - Malus in Resistenza
-• *Artigliata:* Forza 30 - Malus in Resistenza
+- *Beccata:* Forza 20 - Malus in Resistenza
+- *Artigliata:* Forza 30 - Malus in Resistenza
 
 Ogni attacco richiede 1 Azione Animagus e segue le normali regole degli scontri fisici.
 
 Abilità Speciali:
 
-• *Volo Tridimensionale:* Passiva. Consente la normale mobilità aerea compatibile con la specie scelta.
+- *Volo Tridimensionale:* Passiva. Consente la normale mobilità aerea compatibile con la specie scelta.
 Quando il PG si trova effettivamente in volo, gli attacchi puramente fisici sferrati da terra contro di lui subiscono -5 Possibilità.
 Il PG può inoltre raggiungere autoconclusivamente in un solo post qualsiasi città situata nello stesso Stato della località di partenza, purché il viaggio sia fisiologicamente compatibile con la propria forma.
 
-• *Vista da Rapace:* Passiva. Ottiene +5 Percezione quando osserva dettagli ambientali, individua bersagli in movimento o tenta di raccogliere informazioni dall'alto.
+- *Vista da Rapace:* Passiva. Ottiene +5 Percezione quando osserva dettagli ambientali, individua bersagli in movimento o tenta di raccogliere informazioni dall'alto.
 
-• *Vedetta Esterna:* non richiede un'Azione aggiuntiva e si applica all'Azione utilizzata per Spiare o Ficcanasare da una posizione esterna o semiesternа, come rami d'albero, tetti, balconi, cornicioni, cortili o finestre socchiuse dall'esterno. Ottiene +5 Possibilità al relativo tiro.
+- *Vedetta Esterna:* non richiede un'Azione aggiuntiva e si applica all'Azione utilizzata per Spiare o Ficcanasare da una posizione esterna o semiesternа, come rami d'albero, tetti, balconi, cornicioni, cortili o finestre socchiuse dall'esterno. Ottiene +5 Possibilità al relativo tiro.
 
 Debolezze:
 Il volo attivo richiede uno sforzo muscolare costante e una continua correzione della rotta.
@@ -291,7 +302,10 @@ In ogni post in cui il PG vola attivamente per compiere almeno un'Azione signifi
 In caso di fallimento viene investito da un vuoto d'aria, una corrente improvvisa o una sbandata e perde immediatamente 3 Fatica della forma animale.
 Raggiunti 0 Punti Fatica deve effettuare un atterraggio d'emergenza e non può proseguire il volo finché la forma animale non recupera Fatica.
 
-## 4. Gli Adattabili
+</details>
+
+<details><summary><strong>4. Gli Adattabili</strong></summary>
+
 
 Specie Comuni: Cane domestico di media taglia, Volpe rossa, Tasso, Pecora, Capra, Maiale, Capriolo, Talpa.
 Caratteristiche: comprende animali di corporatura intermedia che non possiedono la furtività estrema dei Furtivi, la ferocia dei Predatori o la forza dei Possenti. La loro principale caratteristica è invece la *versatilità*: forme animali differenti, capaci di sfruttare una particolare caratteristica naturale della propria specie per adattarsi alle situazioni più disparate.
@@ -303,20 +317,20 @@ Acume, Percezione, Volontà: PG
 Empatia, Tecnica e Potenza: 0
 
 Tipo di attacco:
-• *Morso/Graffio/Testata/Zampata:* Forza 40 - Malus in Resistenza
-• *Urto/Calcio:* Forza 60 - Malus in Resistenza
+- *Morso/Graffio/Testata/Zampata:* Forza 40 - Malus in Resistenza
+- *Urto/Calcio:* Forza 60 - Malus in Resistenza
 
 Il PG può utilizzare esclusivamente gli attacchi compatibili con l'anatomia della specie animale scelta.
 Ogni attacco richiede 1 Azione Animagus.
 
 Abilità Speciali:
 
-• *Versatilità:* Passiva, massimo una volta per post.
+- *Versatilità:* Passiva, massimo una volta per post.
 L'Animagus può ottenere +5 Possibilità a un singolo lancio basato sulla propria Destrezza o Percezione, purché riguardi un'azione fisica non offensiva compatibile con le capacità della specie scelta.
 Può essere utilizzata, per esempio, per affrontare un terreno difficile, superare un ostacolo, cercare qualcosa, raggiungere una posizione o compiere una manovra fisica.
 Non può essere utilizzata per attaccare, schivare un attacco durante uno scontro o potenziare un'altra Abilità Speciale.
 
-• *Tratto Naturale:* al momento dell'acquisto della Maestria, il Player sceglie **un solo Tratto Naturale** compatibile con la fisiologia e il comportamento della specie Animagus scelta. Il Tratto rimane permanente e non può essere modificato successivamente.
+- *Tratto Naturale:* al momento dell'acquisto della Maestria, il Player sceglie **un solo Tratto Naturale** compatibile con la fisiologia e il comportamento della specie Animagus scelta. Il Tratto rimane permanente e non può essere modificato successivamente.
 
 → *Fiutatore:* Passiva. Ottiene +10 Percezione per riconoscere odori, individuare tracce olfattive e cercare persone, animali od oggetti tramite l'olfatto. Se possiede un odore di riferimento può seguire una traccia fresca senza utilizzare magie.
 
@@ -334,7 +348,10 @@ Debolezze:
 Gli Adattabili non possiedono una Debolezza specifica.
 A differenza degli Archetipi maggiormente specializzati, non eccellono in maniera estrema in combattimento, furtività, resistenza o mobilità: la possibilità di scegliere un Tratto Naturale è compensata da statistiche e capacità complessivamente più moderate.
 
-## 5. I Predatori
+</details>
+
+<details><summary><strong>5. I Predatori</strong></summary>
+
 
 Specie Comuni: Nessuna. Tutte le specie appartenenti a questo Archetipo sono considerate Insolite/Esotiche.
 Caratteristiche: la classe d'assalto, combattimento ravvicinato e inseguimento per eccellenza. Possiede una forza fisica straordinaria e sensi formidabili per tracciare le prede, ma la propria mole e natura predatoria la rendono estremamente difficile da far passare inosservata in contesti civili.
@@ -346,23 +363,23 @@ Acume, Percezione, Volontà: PG
 Empatia, Tecnica e Potenza: 0
 
 Tipo di attacco:
-• *Graffio/Zampata:* Forza 100
+- *Graffio/Zampata:* Forza 100
 Malus in *Salute*. Le tabelle dei Sintomi corrispondenti sono quella del Graffio da Abarimon e dell'Artigliata da Ippogrifo
-• *Morso:* Forza 150
+- *Morso:* Forza 150
 Malus in *Salute*. La tabella dei Sintomi corrispondente è quella del Morso da Sfinge
 
 Un normale attacco richiede 1 Azione Animagus.
 
 Abilità Speciali:
 
-• *Assalto Travolgente:* richiede 1 Azione Animagus e può essere utilizzato al massimo una volta per post.
+- *Assalto Travolgente:* richiede 1 Azione Animagus e può essere utilizzato al massimo una volta per post.
 Durante uno scontro fisico, l'Animagus può effettuare fino a 3 dei propri attacchi fisici nell'ambito della stessa Azione.
 Gli attacchi possono essere distribuiti liberamente fra uno o più bersagli e vengono risolti singolarmente secondo le normali regole.
 Nel post in cui utilizza Assalto Travolgente, la seconda Azione Animagus non può essere utilizzata per effettuare un ulteriore attacco fisico, ma può essere impiegata per altre attività o capacità compatibili.
 
-• *Fiuto da Cacciatore:* Passiva. Ottiene +15 Percezione quando utilizza olfatto o udito. Può seguire tracce fresche ONGame senza ricorrere a magie e ottiene inoltre +5 Possibilità ai tiri per Inseguire, Tracciare o scovare PG/PNG nascosti.
+- *Fiuto da Cacciatore:* Passiva. Ottiene +15 Percezione quando utilizza olfatto o udito. Può seguire tracce fresche ONGame senza ricorrere a magie e ottiene inoltre +5 Possibilità ai tiri per Inseguire, Tracciare o scovare PG/PNG nascosti.
 
-• *Presenza Terrificante:* non richiede un'Azione aggiuntiva e si applica all'Azione utilizzata per Intimidare o esercitare Pressione. Ottiene +5 Possibilità al relativo tiro contro PG o PNG.
+- *Presenza Terrificante:* non richiede un'Azione aggiuntiva e si applica all'Azione utilizzata per Intimidare o esercitare Pressione. Ottiene +5 Possibilità al relativo tiro contro PG o PNG.
 
 Debolezze:
 Utilizzare le doti più profonde del Predatore costringe la mente umana a confrontarsi con gli impulsi aggressivi e territoriali della bestia.
@@ -375,13 +392,16 @@ Ogni volta che l'Animagus utilizza Assalto Travolgente, applica attivamente Fiut
 
 *Fallimento:* l'istinto animale prevale temporaneamente sulla lucidità del mago.
 
-• *Assalto Travolgente:* l'Animagus deve rivolgere la propria aggressività contro il bersaglio fisicamente più vicino. Se più soggetti risultano ugualmente vicini, il bersaglio viene determinato casualmente. Il numero di attacchi effettuati viene determinato con 1d3.
+- *Assalto Travolgente:* l'Animagus deve rivolgere la propria aggressività contro il bersaglio fisicamente più vicino. Se più soggetti risultano ugualmente vicini, il bersaglio viene determinato casualmente. Il numero di attacchi effettuati viene determinato con 1d3.
 
-• *Fiuto da Cacciatore:* il sovraccarico sensoriale provoca una perdita immediata di 2 Fatica animale.
+- *Fiuto da Cacciatore:* il sovraccarico sensoriale provoca una perdita immediata di 2 Fatica animale.
 
-• *Presenza Terrificante:* l'aggressività sfugge parzialmente al controllo e coinvolge anche eventuali alleati presenti, che subiscono -2 Possibilità a tutte le proprie azioni nel post immediatamente successivo.
+- *Presenza Terrificante:* l'aggressività sfugge parzialmente al controllo e coinvolge anche eventuali alleati presenti, che subiscono -2 Possibilità a tutte le proprie azioni nel post immediatamente successivo.
 
-## 6. I Possenti
+</details>
+
+<details><summary><strong>6. I Possenti</strong></summary>
+
 
 Specie Comuni: Cervo, Daino, Cinghiale, Cavallo, Pony, Asino, Bovino, Toro.
 Caratteristiche: la classe specializzata nella difesa, nel supporto e nello sfondamento. Possiede grande Salute e Resistenza, sacrificando parte dell'agilità in favore di una costituzione capace di assorbire colpi, trasportare alleati e superare ostacoli fisici.
@@ -393,26 +413,26 @@ Acume, Percezione, Volontà: PG
 Empatia, Tecnica e Potenza: 0
 
 Tipo di attacco:
-• *Zoccolata/Incornata:* Forza 80
+- *Zoccolata/Incornata:* Forza 80
 Malus in *Salute*. Le tabelle dei Sintomi corrispondenti sono quelle della Zoccolata da Centauro e della Incornata da Bicorno
-• *Carica Impetuosa:* Forza 100
+- *Carica Impetuosa:* Forza 100
 Malus in *Salute*. La tabella dei Sintomi corrisponde a quella della Carica da Erumpent.
 
 Ogni attacco richiede 1 Azione Animagus.
 
 Abilità Speciali:
 
-• *Carica Inarrestabile:* richiede 1 Azione Animagus.
+- *Carica Inarrestabile:* richiede 1 Azione Animagus.
 Sfruttando la propria massa, l'Animagus può abbattere automaticamente ostacoli fisici ordinari compatibili con la propria stazza, come porte comuni, barricate di legno o grate non protette magicamente.
 Contro una barriera magica attiva, la Carica non la distrugge automaticamente: viene trattata come un attacco di Forza 100 e interagisce con lo scudo secondo le normali regole previste per Forza e Durata delle protezioni.
 
-• *Pelle di Roccia:* Passiva. Ogni volta che la forma Animagus subisce un danno alla Salute, riduce automaticamente il danno subito di una percentuale dipendente dal Livello della Maestria:
+- *Pelle di Roccia:* Passiva. Ogni volta che la forma Animagus subisce un danno alla Salute, riduce automaticamente il danno subito di una percentuale dipendente dal Livello della Maestria:
 *Livello I:* -20% del danno
 *Livello II:* -30% del danno
 *Livello III:* -40% del danno
 Questa capacità è propria della forma Animagus e non costituisce né potenzia la Conoscenza Fisica Resilienza eventualmente posseduta dal PG umano.
 
-• *Dorso Sicuro:* Passiva. Può trasportare fino a 2 PG contemporaneamente, sia durante uno scontro sia durante un viaggio.
+- *Dorso Sicuro:* Passiva. Può trasportare fino a 2 PG contemporaneamente, sia durante uno scontro sia durante un viaggio.
 I PG in sella utilizzano il valore di Destrezza 15 del Possente per i confronti difensivi legati al movimento della cavalcatura.
 Durante manovre brusche, scossoni o scontri non devono effettuare normali tiri anticaduta, salvo circostanze eccezionali stabilite dal Narratore.
 Il Possente può inoltre raggiungere autoconclusivamente in un solo post una città situata nello stesso Stato di partenza portando con sé fino a 2 PG.
@@ -431,7 +451,10 @@ Ogni volta che l'Animagus utilizza Carica Inarrestabile, beneficia della riduzio
 *Fallimento:* l'Abilità utilizzata produce comunque normalmente il proprio effetto, ma nel post immediatamente successivo l'Animagus subisce un collasso temporaneo.
 La sua Destrezza viene ridotta a 5, non può utilizzare Abilità Speciali e deve dedicare il post al recupero, potendo compiere soltanto azioni narrative di riposo o spostamenti minimi.
 
-## 7. Gli Enormi
+</details>
+
+<details><summary><strong>7. Gli Enormi</strong></summary>
+
 
 Specie Comuni: Nessuna. Tutte le specie appartenenti a questo Archetipo sono considerate Insolite/Esotiche.
 Caratteristiche: il vertice della forza bruta, della massa e della capacità di incassare colpi. Questa classe sacrifica quasi completamente furtività, riflessi e agilità per controllare fisicamente lo spazio circostante e fungere da barriera vivente.
@@ -443,25 +466,25 @@ Acume, Percezione, Volontà: PG
 Empatia, Tecnica e Potenza: 0
 
 Tipo di attacco:
-• *Calpestamento Devastante:* Forza 200
+- *Calpestamento Devastante:* Forza 200
 Malus in *Salute*. La tabella dei Sintomi corrispondente è quella della Calpestata di Yeti.
-• *Carica Frontale:* Forza 250
+- *Carica Frontale:* Forza 250
 Malus in *Salute*. La tabella dei Sintomi corrispondente è quella della Carica da Quintaped.
 
 Ogni attacco richiede 1 Azione Animagus.
 
 Abilità Speciali:
 
-• *Inamovibilità:* Passiva. Il peso monumentale della forma rende l'Animagus immune agli effetti che hanno come unica conseguenza lo sbalzamento, la spinta o lo spostamento forzato.
+- *Inamovibilità:* Passiva. Il peso monumentale della forma rende l'Animagus immune agli effetti che hanno come unica conseguenza lo sbalzamento, la spinta o lo spostamento forzato.
 Quando un Incantesimo, una Pozione o un altro effetto provoca anche danni, Malus o conseguenze ulteriori, l'Animagus ignora esclusivamente la componente di spostamento: le altre conseguenze vengono risolte normalmente.
 Questa capacità non rende quindi l'Animagus genericamente immune alle magie che possono produrre, fra i propri effetti, anche uno sbalzamento.
 
-• *Onda d'Urto Tellurica:* richiede 1 Azione Animagus e può essere utilizzata al massimo una volta per post.
+- *Onda d'Urto Tellurica:* richiede 1 Azione Animagus e può essere utilizzata al massimo una volta per post.
 Battendo violentemente gli arti sul terreno o producendo un impatto equivalente compatibile con la specie, genera un micro-sisma localizzato.
 Tutti i PG e PNG di taglia media o inferiore presenti a terra entro Gittata Corta lanciano 1d30 e rimangono in piedi con un risultato compreso fra 1 e la propria Destrezza.
 Chi fallisce cade a terra e subisce -5 Resistenza per 3 propri post.
 
-• *Baluardo Vivente:* richiede 1 Azione Animagus per assumere la posizione difensiva.
+- *Baluardo Vivente:* richiede 1 Azione Animagus per assumere la posizione difensiva.
 Finché rimane sostanzialmente fermo, può proteggere fino a 3 alleati posizionati dietro la propria mole.
 Gli attacchi diretti contro tali alleati che la sua posizione fisica è effettivamente in grado di intercettare colpiscono automaticamente l'Animagus al loro posto.
 Una volta assunta la posizione, mantenerla non richiede ulteriori Azioni, ma costa 1 Fatica animale per ogni post in cui rimane attiva.
@@ -485,14 +508,14 @@ L'Ispezione Visiva
 Un PG che si accorge ONGame della presenza dell'animale può effettuare 1d50 e intuire che non si tratta di un normale esemplare della specie con un risultato compreso fra 1 e il proprio Acume.
 
 Al tiro possono applicarsi i seguenti modificatori:
-• +10 Possibilità se il PG conosce ONGame l'Animagus in forma umana da background oppure attraverso almeno 3 Role portate a termine insieme;
-• +5 Possibilità se il PG è Magizoologo di Mestiere o possiede almeno 10 Sapienza Magizoologica;
-• +5 Possibilità per l'utilizzo di Specchi o Rivelatori appropriati, come Spioscopio o Sensore;
-• +5 Possibilità se l'Animagus possiede la Maestria al *Livello I*;
-• +3 Possibilità se l'Animagus possiede la Maestria al *Livello II*;
-• nessun modificatore derivante dal Livello se l'Animagus possiede la Maestria al *Livello III*;
-• +10 Possibilità se l'Animagus appartiene a una specie Insolita/Esotica;
-• ± Possibilità in base al tipo di luogo in cui l'animale compare, secondo la tabella seguente:
+- +10 Possibilità se il PG conosce ONGame l'Animagus in forma umana da background oppure attraverso almeno 3 Role portate a termine insieme;
+- +5 Possibilità se il PG è Magizoologo di Mestiere o possiede almeno 10 Sapienza Magizoologica;
+- +5 Possibilità per l'utilizzo di Specchi o Rivelatori appropriati, come Spioscopio o Sensore;
+- +5 Possibilità se l'Animagus possiede la Maestria al *Livello I*;
+- +3 Possibilità se l'Animagus possiede la Maestria al *Livello II*;
+- nessun modificatore derivante dal Livello se l'Animagus possiede la Maestria al *Livello III*;
+- +10 Possibilità se l'Animagus appartiene a una specie Insolita/Esotica;
+- ± Possibilità in base al tipo di luogo in cui l'animale compare, secondo la tabella seguente:
 
 Superare l'Ispezione Visiva permette di comprendere che l'animale presenta caratteristiche incompatibili con un normale esemplare e che potrebbe trattarsi di un Animagus.
 Non permette automaticamente di identificare quale PG si trovi sotto la trasformazione.
@@ -509,3 +532,7 @@ Homenum Revelio: rivela normalmente la presenza dell'essere umano anche quando q
 Il Livello della Maestria Animagus non modifica l'efficacia dell'Incantesimo.
 
 Revelio vs Animaleus Nobodyx: il comune Incantesimo Revelio non costringe un Animagus a mostrare la propria vera forma. Per provocarne direttamente la detrasfigurazione è necessario utilizzare l'Incantesimo avanzato specifico Animaleus Nobodyx.
+
+</details>
+
+</details>
