@@ -89,7 +89,7 @@ Il Mondo Magico è pieno di Creature Magiche che aspettano di essere trovate!Nel
 degli Spiriti e dei Non-Esseri notoriamente presenti in queste zone, insieme alla relativa
 Classificazione o Categoria.
 
-### Zone di Ricerca
+<details><summary><strong>Zone di Ricerca</strong></summary>
 
 Lago Nero
 Foresta Proibita
@@ -139,6 +139,9 @@ un esemplare maschio di una Creatura i cui esemplari sono soltanto femmine, ecce
 necessario rilanciare il dado in questione fino all'ottenimento di un risultato utile.
 
 <a id="pgtrova"></a>
+
+</details>
+
 ### Il PG trova qualcosa?
 
 Per scoprire se il PG si imbatte in una Creatura Magica è necessario lanciare un dado prima
