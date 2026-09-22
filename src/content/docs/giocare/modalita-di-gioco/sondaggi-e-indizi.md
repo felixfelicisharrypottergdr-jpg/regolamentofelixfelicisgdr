@@ -32,8 +32,10 @@ migration:
 prototypeExcerpt: false
 ---
 
+<a id="sondindizi"></a>
 # Sondaggi e Indizi
 
+<a id="sondaggi"></a>
 ## Sondaggi
 
 I **Sondaggi** sono momenti in cui, a seguito dell'uscita di un articolo di giornale particolarmente promettente, viene chiesto il parere dei lettori su una questione spinosa.
@@ -44,7 +46,7 @@ Il Sondaggio viene aperto dal Narratore e simula la raccolta di pareri da parte 
 
 Durante un Sondaggio, ogni PG influenza un certo numero di PNG in base alla propria **Popolarità**. Questi si aggiungono al suo voto come “persone che la pensano come lui”.
 
-### PG Adulti
+<details><summary><strong>PG Adulti</strong></summary>
 
 | Popolarità | PNG extra |
 | --- | ---: |
@@ -54,7 +56,9 @@ Durante un Sondaggio, ogni PG influenza un certo numero di PNG in base alla prop
 | Celebre | 20 |
 | Vip | 50 |
 
-### PG Studenti
+</details>
+
+<details><summary><strong>PG Studenti</strong></summary>
 
 | Popolarità | PNG extra |
 | --- | ---: |
@@ -64,8 +68,11 @@ Durante un Sondaggio, ogni PG influenza un certo numero di PNG in base alla prop
 | Celebre | 10 |
 | Vip | 20 |
 
+</details>
+
 Al termine del voto, **il PG può commentare ONGame l'Articolo con almeno 200 Caratteri e ottenere 1 PP**. Le risposte possono essere considerate missive mandate alla Redazione del giornale oppure interviste per strada.
 
+<a id="indizi"></a>
 ## Indizi
 
 Gli **Indizi** sono mezze notizie, voci di corridoio, visioni o sogni premonitori legati a una Quest in arrivo.
