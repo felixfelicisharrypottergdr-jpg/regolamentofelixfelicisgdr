@@ -32,7 +32,8 @@ migration:
       item: "Ultraistinto"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Attivazione**
 Ultraistinto viene attivato utilizzando 1 Azione Bonus. Dal momento dell'attivazione, la magia entra in profonda connessione con il sistema nervoso e le fibre muscolari del mago, forzandone istintivamente i movimenti per anticipare e schivare gli attacchi diretti contro di lui.
@@ -67,3 +68,5 @@ I Bonus concessi da Ultraistinto si applicano esclusivamente al risultato finale
 **Contraccolpo Muscolare**
 Il Contraccolpo Muscolare si applica soltanto al termine della Durata di Ultraistinto o qualora l'Abilità venga interrotta anticipatamente.
 Più Contraccolpi Muscolari derivanti da Ultraistinto non si sommano tra loro. Qualora il PG attivi nuovamente l'Abilità mentre un precedente Contraccolpo è ancora presente, si applica soltanto il Malus più elevato ancora in corso e viene mantenuta la scadenza più lunga tra quelle applicabili.
+
+</details>
