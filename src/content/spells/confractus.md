@@ -39,16 +39,16 @@ ferire esseri viventi.
 
 > **Bonus.**
 >
-• PG con **Sapienza Offensiva 25** consumano soltanto -1 Fatica per
+- PG con **Sapienza Offensiva 25** consumano soltanto -1 Fatica per
 l'evocazione.
 
 > **Nota.**
 >
-• Il varco può essere richiuso anticipatamente con un
+- Il varco può essere richiuso anticipatamente con un
 [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) con più Forza del Confractus
 utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -73,3 +73,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 7 post dell'evocatore
 - 66%: 6 post dell'evocatore
 - 33%: 5 post dell'evocatore
+
+</details>

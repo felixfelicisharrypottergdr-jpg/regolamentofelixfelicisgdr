@@ -38,13 +38,13 @@ movimento.
 
 > **Nota.**
 >
-• Può essere annullato nell'immediato utilizzando l'incantesimo
+- Può essere annullato nell'immediato utilizzando l'incantesimo
 [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) se la sua Forza è superiore
 alla Forza del *Colloshoo* lanciato.
-• Il PG colpito da questo incantesimo non può camminare o correre; tuttavia può continuare
+- Il PG colpito da questo incantesimo non può camminare o correre; tuttavia può continuare
 a lanciare incantesimi e a tentare di schivare piegandosi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -63,3 +63,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 post del bersaglio
+
+</details>

@@ -41,17 +41,17 @@ quindi costanti nel tempo.
 
 > **Bonus.**
 >
-• PG con **Sapienza Oscura 25** riescono ad incantare la bambola anche usando altri
+- PG con **Sapienza Oscura 25** riescono ad incantare la bambola anche usando altri
 elementi del corpo della vittima come per esempio capelli o saliva.
 
 > **Nota.**
 >
-• PG con [Spezzaincantesimi](/manuali/incantesimi/spezzaincantesimi/) o
+- PG con [Spezzaincantesimi](/manuali/incantesimi/spezzaincantesimi/) o
 [Esorcista](/manuali/incantesimi/esorcista/) fra le conoscenze possono liberare il
 bersaglio praticando il rito, la bambola si distrugge non appena il bersaglio viene liberato dal
 malocchio.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** 50 post, se la bambola non viene distrutta prima
 
@@ -86,3 +86,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 **Capire di essere vittime di un rito voodoo**
 Il PG può capire di essere vittima di un malocchio agendo come spiegato nella
 Guida alla Tracciatura.
+
+</details>

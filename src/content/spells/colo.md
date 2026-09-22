@@ -29,8 +29,10 @@ migration:
 Cambia il colore del bersaglio.
 Funziona solo sugli oggetti.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** 5 post dell’evocatore
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

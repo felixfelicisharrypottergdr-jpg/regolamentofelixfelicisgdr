@@ -31,8 +31,10 @@ migration:
 Consente al bersaglio di cambiare colore a intermittenza, quindi
 lampeggiando di uno stesso colore oppure di più colori diversi decisi dall’evocatore.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** 5 post dell’evocatore
 
 **Parametro del bersaglio intaccato:** //Funziona soltanto su oggetti e non sugli esseri viventi.
+
+</details>

@@ -30,7 +30,7 @@ migration:
       item: "Confringo"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -70,3 +70,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Maledizione lanciata da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 1 su 1d10
+
+</details>

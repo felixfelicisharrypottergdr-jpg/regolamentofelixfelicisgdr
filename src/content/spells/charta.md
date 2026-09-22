@@ -36,8 +36,10 @@ andare.
 Se si desidera intercettare il bigliettino prima che arrivi al destinatario è necessario
 richiedere l'intervento del Narratore.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

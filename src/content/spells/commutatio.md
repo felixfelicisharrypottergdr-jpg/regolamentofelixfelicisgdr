@@ -43,7 +43,7 @@ utilizzato da maghi e streghe poco esperti.
 PG con **Sapienza Trasfigurativa 25** possono scambiare di posto,
 contemporaneamente, tre bersagli senza rischiare di scambiarli solo parzialmente.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantaneo
 
@@ -71,3 +71,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: scambio totale
 - 66%: scambio totale
 - 33%: scambio parziale, soltanto metà dei due bersagli vengono scambiate
+
+</details>
