@@ -41,16 +41,16 @@ necessario estrarlo nuovamente dalla mente del PG che lo possedeva originariamen
 
 > **Nota.**
 >
-• PG con Sapienza Mentale uguale o superiore a 20 sono capaci di estrarre i propri ricordi
+- PG con Sapienza Mentale uguale o superiore a 20 sono capaci di estrarre i propri ricordi
 anche senza bacchetta sotto forma di lacrime o di filo argenteo.
-• Il ricordo va conservato in qualche tipo di contenitore ermetico che può essere ottenuto
+- Il ricordo va conservato in qualche tipo di contenitore ermetico che può essere ottenuto
 autoconclusivamente dai PG. In assenza di questo il ricordo sfuma nel giro di qualche
 secondo e deve essere recuperato nuovamente.
-• L'uso di questo Incantesimo senza consenso su altri PG è **illegale**. Soltanto il
+- L'uso di questo Incantesimo senza consenso su altri PG è **illegale**. Soltanto il
 Ministero, in particolari circostanze, può consentirne agli Auror o ai Voluntas il suo
 utilizzo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -75,3 +75,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Mentale 1+*
 Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: nessuno
+
+</details>

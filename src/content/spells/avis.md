@@ -36,7 +36,7 @@ Si tratta di un'evocazione, per cui non trasfigura cose o persone in uccelli ma 
 direttamente dal Limbo.
 Possono essere scacciati in anticipo, ma dopo un po' di tempo torneranno nel Limbo da soli.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -53,3 +53,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 per 4 post; Destrezza 1d12 e Resistenza 1d10
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 - 100%: 6 per 5 post; Destrezza 1d14 e Resistenza 1d12
+
+</details>

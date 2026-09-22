@@ -35,17 +35,17 @@ microfono per sussurrare il nome dell'Incantesimo; utile per distrarre il bersag
 e fargli credere di avere sentito dei passi o altri rumori. Per il PG evocatore, è necessario
 che immagini nella propria mente i suoni che vuole che il PG Bersaglio senta.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
 **Parametro del bersaglio intaccato:** Acume, Percezione, Empatia e Destrezza
 **Rendersi conto di essere vittime di un'illusione**
-• Il PG bersaglio si accorge di essere vittima di un'illusione se, lanciando 1d30, estrae un
+- Il PG bersaglio si accorge di essere vittima di un'illusione se, lanciando 1d30, estrae un
 numero compreso fra 1-Volontà. PG con
 [Occlumanzia](/manuali/incantesimi/occlumanzia/) aggiungono 1 possibilità per ogni
 livello di Occlumanzia posseduto.
-• I PG che vi interagiscono possono accorgersi che il PG Bersaglio è vittima di un'illusione
+- I PG che vi interagiscono possono accorgersi che il PG Bersaglio è vittima di un'illusione
 agendo come spiegato nella Guida alla Tracciatura.
 **Liberarsi dall'illusione**
 Il PG bersaglio** che si è accorto** di essere vittima di un'illusione si libera dall'illusione
@@ -66,3 +66,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Mentale 1+*
 Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: fino a 6 post dell'evocatore
+
+</details>

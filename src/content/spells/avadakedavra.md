@@ -48,7 +48,7 @@ provare a proteggersi anche frapponendo fra sé e l'evocatore un oggetto che, un
 colpito dal raggio di luce verde, viene distrutto immediatamente annullando gli effetti della
 maledizione.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -64,12 +64,14 @@ Oscura, più o meno ingenti a seconda di chi è l'evocatore.
 Nel caso specifico dell'Avada Kedavra, poiché prevede la morte istantanea del bersaglio,
 l'evocatore perde o ottiene **temporaneamente** il seguente numero di Parametri
 **per ogni uccisione compiuta** con questa maledizione.
-• **Maledizione lanciata da PG Studenti:** alle prime armi con la Magia Oscura e con
+- **Maledizione lanciata da PG Studenti:** alle prime armi con la Magia Oscura e con
 una moralità ancora in fase di definizione, perdono -5 Empatia e acquisiscono +1 Volontà
 per i successivi 20 utilizzi dei due Parametri;
-• **Maledizione lanciata da PG Adulti senza Sapienza Oscura:** questa maledizione è
+- **Maledizione lanciata da PG Adulti senza Sapienza Oscura:** questa maledizione è
 nelle loro corde pur non essendo esperti, perdono -3 Empatia e acquisiscono +2 Volontà per
 i successivi 20 utilizzi dei due Parametri;
-• **Maledizione lanciata da PG Adulti con Sapienza Oscura 1+:** affini a questo tipo di
+- **Maledizione lanciata da PG Adulti con Sapienza Oscura 1+:** affini a questo tipo di
 Magia, insita nel loro animo oscuro, perdono -1 Empatia e acquisiscono +3 Volontà per i
 successivi 20 utilizzi dei due Parametri.
+
+</details>

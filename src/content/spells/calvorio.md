@@ -31,7 +31,7 @@ migration:
 Fa perdere istantaneamente i capelli al bersaglio. Essi ricrescono da soli nel giro di qualchetempo, tornando al loro stato precedente come nulla fosse mai accaduto; in alternativa è
 possibile assumere la Pozione Ricostituente per una ricrescita immediata.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -55,3 +55,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 10 post del bersaglio
+
+</details>

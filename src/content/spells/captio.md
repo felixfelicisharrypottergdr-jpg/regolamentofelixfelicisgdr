@@ -39,7 +39,7 @@ inanimati. Può essere utile anche a sfuggire da una preda.
 E' possibile tirare fuori il bersaglio dalla superficie in cui è incastrato soltanto utilizzando
 [Diffindo](/manuali/incantesimi/diffindo/) dall'esterno o con lo scorrere del tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -62,3 +62,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 3 bersagli per 4 post
+
+</details>

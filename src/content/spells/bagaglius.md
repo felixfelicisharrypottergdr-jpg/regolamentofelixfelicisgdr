@@ -29,8 +29,10 @@ migration:
 Consente di preparare facilmente un baule o un bagaglio,
 riempiendolo di tutto ciò che potrebbe essere necessario al PG e poi chiudendolo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

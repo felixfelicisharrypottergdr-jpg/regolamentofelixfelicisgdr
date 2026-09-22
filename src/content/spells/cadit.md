@@ -37,7 +37,7 @@ fisicamente vicini. Le corde spariscono soltanto utilizzando un
 [Reparifarge](/manuali/incantesimi/reparifarge/) con più Forza di *Cadit*, con una
 nuova trasfigurazione oppure con lo scorrere del tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantaneo
 
@@ -58,3 +58,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 6 bersagli per 6 post
+
+</details>

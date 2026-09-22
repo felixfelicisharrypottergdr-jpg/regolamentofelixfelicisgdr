@@ -41,7 +41,7 @@ una macchina, circa.
 
 > **Nota.**
 >
-• I frammenti hanno Destrezza pari alla Forza dell'esplosione/5. Schivare i frammenti, a
+- I frammenti hanno Destrezza pari alla Forza dell'esplosione/5. Schivare i frammenti, a
 prescindere dal numero, costa 1 Azione/Reazione, ma il dado Destrezza dei frammenti
 viene lanciato per ogni frammento. Se i PG che rischiano di essere colpiti dai frammenti
 sono più di uno, sarà il Narratore a stabilire - a seconda della Narrazione - chi viene colpito e
@@ -53,7 +53,7 @@ all'esplosione), dove X sta per il numero di PG che vengono colpiti, poi;
 3) Xd(n° frammenti), dove X sta per il numero di PG colpiti, finché ogni frammento non ha un
 suo bersaglio.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -74,3 +74,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Offensiva 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli; 10 frammenti
+
+</details>

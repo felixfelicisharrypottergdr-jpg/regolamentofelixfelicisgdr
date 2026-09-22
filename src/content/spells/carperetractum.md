@@ -37,7 +37,7 @@ prima se è l'evocatore stesso a deciderlo oppure se la corda subisce dei forti 
 finchè dalla bacchetta viene evocata la corda, questa non può evocare altri incantesimi
 contemporaneamente al *Carpe Retractum*.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia, oppure finchè l'evocatore mantiene la corda o la corda viene distrutta
 
@@ -65,3 +65,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 4 PG
 *Incantesimo lanciato da PG Adulti con Sapienza Difensiva 1+*
 - 100%: max 5 PG
+
+</details>

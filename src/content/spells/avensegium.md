@@ -43,7 +43,7 @@ eliminando dal conteggio delle role quelle già estratte già dal secondo tentat
 Le parti di essere viventi (PG, Creature, Piante) **devono essere recuperati ONGame**
 tramite role per essere utilizzati.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** fino al termine dell’utilizzo
 
@@ -91,3 +91,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 Se la Potenza dell'Incantesimo precedentemente evocato è...- 100%: 1-13
 - 66%: 1-12
 - 33%: 1-11
+
+</details>

@@ -32,7 +32,7 @@ migration:
 
 > **Nota.**
 >
-• I blocchi di detriti hanno Destrezza pari alla Forza dell'esplosione/10 Schivare i blocchi di
+- I blocchi di detriti hanno Destrezza pari alla Forza dell'esplosione/10 Schivare i blocchi di
 detriti, a prescindere dal numero, costa 1 Azione/Reazione, ma il dado Destrezza dei blocchi
 di detriti viene lanciato per ogni blocco. Se i PG che rischiano di essere colpiti dai frammenti
 sono più di uno, sarà il Narratore a stabilire - a seconda della Narrazione - chi viene colpito e
@@ -43,7 +43,7 @@ all'esplosione), dove X sta per il numero di PG che vengono colpiti, poi;
 3) Xd(n° detriti), dove X sta per il numero di PG colpiti, finché ogni detrito non ha un suo
 bersaglio.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -68,3 +68,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 5 bersagli; 5 blocchi di detriti
 - 66%: max 4 bersagli; 4 blocchi di detriti
 - 33%: max 3 bersagli; 3 blocchi di detriti
+
+</details>
