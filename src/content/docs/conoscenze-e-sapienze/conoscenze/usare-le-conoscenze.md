@@ -23,7 +23,6 @@ migration:
 Ogni tipologia di Conoscenza, sia essa un Incantesimo, una Pozione, una Creatura o una Pianta Magica o qualsiasi altra Conoscenza possa essere lanciata da un PG all'interno del gioco, ha un suo specchietto che ne spiega tanto gli effetti ONGame che gli effetti OFFGame, rispettivi bonus e malus, ma anche tante altre indicazioni che contribuiscono a rendere ogni Conoscenza diversa dall'altra e che permettono di rendere il gioco dinamico e variegato, oltre a permettere di classificare ogni Conoscenza secondo dei criteri oggettivi che il Narratore può valutare nelle varie situazioni di gioco che si possono verificare.
 Di seguito sono mostrati degli esempi degli specchietti sopracitati, suddivisi per ogni tipologia di Conoscenza.
 
-<a id="incantesimi"></a>
 ### Incantesimi
 
 Bombarda Maxima
@@ -108,7 +107,6 @@ Nel nostro esempio, apprendiamo grazie alle specifiche il Bombarda Maxima ha una
 
 </details>
 
-<a id="pozioni"></a>
 ### Pozioni
 
 Distillato del Chiodo Fisso
