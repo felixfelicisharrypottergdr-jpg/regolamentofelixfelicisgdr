@@ -116,7 +116,19 @@ Il guadagno è spiegato nella tabella che segue. La prima colonna indica il nume
 >
 > Un PG Studente realizza 6 post in un mese: il suo guadagno è pari a 89 Galeoni.
 >
+> | Post numero | Galeoni Studente | Guadagno cumulato | Galeoni Adulto | Guadagno cumulato |
+> | ---: | ---: | ---: | ---: | ---: |
+> | 5 | 8 | 83 | 15 | 175 |
+> | **6** | 6 | **89** | 10 | 185 |
+> | 7 | 4 | 93 | 6 | 191 |
+>
 > Un PG Adulto realizza 6 post in un mese: il suo guadagno è pari a 185 Galeoni.
+>
+> | Post numero | Galeoni Studente | Guadagno cumulato | Galeoni Adulto | Guadagno cumulato |
+> | ---: | ---: | ---: | ---: | ---: |
+> | 5 | 8 | 83 | 15 | 175 |
+> | **6** | 6 | 89 | 10 | **185** |
+> | 7 | 4 | 93 | 6 | 191 |
 >
 > L'undicesimo, il dodicesimo post e così via, valgono 1 Galeone ciascuno sia per un PG Studente che per un PG Adulto.
 >
