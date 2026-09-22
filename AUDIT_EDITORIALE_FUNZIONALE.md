@@ -265,3 +265,72 @@ La nuova landing svolge correttamente la funzione di orientamento e riduce il ca
 - percorso equivalente e completo per il PG Adulto.
 
 Questi elementi non vanno reinseriti meccanicamente: bisogna decidere quali azioni appartengono al sito-libro e quali devono restare sul forum.
+
+
+## Blocco 2 — Conoscenze, Sapienze e Manuali
+
+Audit puntuale completato su **40 documenti** fra Conoscenze e Sapienze, Maestrie e i manuali di Conoscenze Scolastiche, Divinazione, Erbologia, Incantesimi, Ingredienti, Magizoologia, Medimagia, Pozionistica e Tracciatura.
+
+### Correzioni funzionali applicate
+
+- Sono stati normalizzati i link interni root-relative residui del blocco, eliminando la dipendenza dal processor Markdown per queste pagine.
+- Le correzioni hanno interessato Maestrie, Conoscenze Scolastiche, Divinazione, Erbologia, Guida agli Incantesimi, Ingredienti, Magizoologia, Medimagia e Pozionistica.
+- La Guida agli Incantesimi conteneva da sola diverse decine di link root-relative verso le singole schede del catalogo: ora sono relativi alla route corrente.
+- Nessuna regola o valore regolamentare è stato modificato nel lotto tecnico.
+
+### Anomalie editoriali da NON correggere automaticamente
+
+#### Refusi di conversione confermati nel blocco
+
+Restano da correggere editorialmente, dopo approvazione Staff:
+
+- Ottenere nuove Conoscenze: `IncantesimoFianto`;
+- Conoscenze Scolastiche: `apprendereConoscenze`;
+- Usare le Conoscenze: `dallaGuida`;
+- Tecniche Magizoologiche: `ilPG`, `eLolly`;
+- Magizoologia: `PossibilitàAggiungere`;
+- Sintomatologia: `spinaleLesioni`, `InfezioneInsonnia`, `FerulaTecniche`;
+- Pozionistica: `FacileSi`;
+- Medimagia: `ClassificazioneXXXXX`.
+
+I termini camelCase tecnici del frontmatter e nomi intenzionali come `OssoFast`, `DolorFast`, `OrganFast`, `TricoPozione` e le denominazioni dei vaccini/antidoti non sono stati trattati come errori.
+
+#### Canonicità duplicata
+
+Nel blocco resta prioritario il problema già rilevato in Magizoologia:
+
+- Domesticazione duplica quasi integralmente la sezione corrispondente del monolite Magizoologia;
+- Fiducia duplica quasi integralmente la sezione corrispondente del monolite Magizoologia.
+
+La correzione non è tecnica: va scelto il luogo canonico e poi rimossa la duplicazione, evitando due copie editabili della stessa regola.
+
+#### Gerarchia editoriale
+
+Restano pagine con più H1 nel corpo, coerentemente con quanto segnalato dall'audit globale:
+
+- Tecniche Erbologiche;
+- Magizoologia;
+- Medimagia;
+- Sintomatologia;
+- Pozionistica.
+
+Questi H1 corrispondono a sezioni autonome inglobate in pagine più ampie e vanno risolti assieme alla suddivisione editoriale, non con una sostituzione meccanica del livello heading.
+
+#### Pagine monolitiche del blocco
+
+Fra le pagine più estese del blocco risultano:
+
+- Sintomatologia ~94k;
+- Magizoologia ~82k;
+- Pozionistica ~79k;
+- Medimagia ~52k;
+- Usare le Conoscenze ~50k;
+- Erbologia ~47k;
+- Ferite da Creature e Piante ~40k;
+- Tecniche Magizoologiche ~33k.
+
+Sono candidate forti alla suddivisione in pagine canoniche più piccole, soprattutto dove esistono già sottopagine o sistemi autonomi.
+
+#### Architettura dei manuali
+
+Il blocco mostra una struttura ibrida: alcuni manuali hanno una pagina guida più catalogo strutturato, altri mantengono ancora grandi monoliti testuali, altri ancora duplicano regole in sottopagine. Prima della fase UX/filtri va uniformato il principio editoriale: **pagina guida breve + catalogo strutturato + sottopagine canoniche per sistemi complessi**, evitando di conservare contemporaneamente la stessa regola nel monolite e nella pagina figlia.
