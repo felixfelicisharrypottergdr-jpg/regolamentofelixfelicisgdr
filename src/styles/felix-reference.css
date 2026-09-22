@@ -3395,3 +3395,171 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
   :root[data-theme] .sl-markdown-content nav.felix-start-help { align-items: stretch; }
   :root[data-theme] .sl-markdown-content nav.felix-start-help>a { align-self: flex-start; }
 }
+
+
+/* UX-READING-1 — long-form rule pages */
+.felix-content-wrap.is-rule .sl-markdown-content{
+  --felix-reading-width:72ch;
+  --felix-reading-wide:82ch;
+}
+
+/* Una pagina-rule non deve mai diventare una riga continua da monitor intero. */
+.felix-content-wrap.is-rule .sl-markdown-content>p,
+.felix-content-wrap.is-rule .sl-markdown-content>ul,
+.felix-content-wrap.is-rule .sl-markdown-content>ol,
+.felix-content-wrap.is-rule .sl-markdown-content>blockquote,
+.felix-content-wrap.is-rule .sl-markdown-content>details,
+.felix-content-wrap.is-rule .sl-markdown-content>.felix-why{
+  max-width:var(--felix-reading-width);
+}
+.felix-content-wrap.is-rule .sl-markdown-content>p{
+  margin:.82rem 0;
+  line-height:1.76;
+}
+.felix-content-wrap.is-rule .sl-markdown-content>p+p{
+  margin-top:1rem;
+}
+
+/* Titoli come vere cesure di consultazione. */
+.felix-content-wrap.is-rule .sl-markdown-content>h2{
+  margin-top:2.8rem!important;
+  margin-bottom:1rem!important;
+}
+.felix-content-wrap.is-rule .sl-markdown-content>h3{
+  max-width:var(--felix-reading-wide);
+  margin-top:2rem!important;
+  margin-bottom:.72rem!important;
+}
+
+/* Regola numerata: primo paragrafo trattato come unità editoriale riconoscibile. */
+.felix-content-wrap.is-rule .sl-markdown-content p:has(.felix-rule-number){
+  position:relative;
+  max-width:var(--felix-reading-width);
+  margin:1.55rem 0 .85rem!important;
+  padding:1rem 1.15rem 1rem 1.2rem!important;
+  border:1px solid rgba(137,94,39,.17);
+  border-left:4px solid #a97831;
+  border-radius:5px;
+  background:linear-gradient(90deg,rgba(194,153,83,.13),rgba(255,255,255,.17));
+  box-shadow:0 4px 14px rgba(76,52,23,.04);
+  color:#382f27!important;
+}
+.felix-content-wrap.is-rule .sl-markdown-content .felix-rule-number{
+  min-width:2.1rem;
+  min-height:2.1rem;
+  margin-right:.65rem;
+  background:#5c4327;
+  box-shadow:0 2px 5px rgba(56,36,16,.13);
+}
+
+/* Le liste sono parte della regola, ma devono essere scandibili a colpo d'occhio. */
+.felix-content-wrap.is-rule .sl-markdown-content>ul,
+.felix-content-wrap.is-rule .sl-markdown-content>ol{
+  margin:.85rem 0 1.2rem!important;
+  padding:.75rem 1rem .75rem 2.15rem!important;
+  border-left:2px solid rgba(157,111,47,.26);
+  background:rgba(255,255,255,.14);
+  line-height:1.62;
+}
+.felix-content-wrap.is-rule .sl-markdown-content>ul>li,
+.felix-content-wrap.is-rule .sl-markdown-content>ol>li{
+  margin:.34rem 0!important;
+  padding-left:.15rem;
+}
+
+/* WHY: componente esplicativo, non semplice paragrafo colorato. */
+.felix-content-wrap.is-rule .sl-markdown-content>.felix-why,
+.felix-content-wrap .sl-markdown-content .felix-why{
+  position:relative;
+  max-width:var(--felix-reading-width,72ch);
+  margin:1.5rem 0 2.15rem!important;
+  padding:1.2rem 1.35rem 1.25rem 1.55rem!important;
+  border:1px solid #d7c49c;
+  border-left:5px solid #9b6c26;
+  border-radius:6px;
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.46),rgba(255,255,255,.08)),
+    #f5ead3;
+  box-shadow:0 7px 22px rgba(78,54,23,.07);
+}
+.felix-content-wrap .sl-markdown-content .felix-why::before{
+  content:'PERCHÉ';
+  position:absolute;
+  top:-.66rem;
+  left:1.15rem;
+  padding:.14rem .5rem;
+  border:1px solid #c7ab72;
+  border-radius:3px;
+  background:#f7efdf;
+  color:#77501d;
+  font:700 .66rem/1.35 'Federo',sans-serif;
+  letter-spacing:.12em;
+}
+.felix-content-wrap .sl-markdown-content .felix-why .felix-why-kicker{
+  display:none;
+}
+.felix-content-wrap .sl-markdown-content .felix-why h3{
+  margin:.18rem 0 .7rem!important;
+  color:#4f351c!important;
+  font-size:1.15rem!important;
+  line-height:1.35!important;
+}
+.felix-content-wrap .sl-markdown-content .felix-why p{
+  max-width:66ch!important;
+  color:#40352b!important;
+  line-height:1.7!important;
+}
+
+/* Esempi e note: più leggeri dei WHY ma distinti dal testo ordinario. */
+.felix-content-wrap.is-rule .sl-markdown-content blockquote{
+  max-width:var(--felix-reading-width);
+  margin:1.15rem 0 1.35rem;
+  padding:.85rem 1rem;
+  border-left:3px solid #b08342;
+  background:rgba(192,154,89,.08);
+}
+.felix-content-wrap.is-rule .sl-markdown-content .esempio{
+  max-width:68ch;
+  margin:.7rem 0;
+  padding:.72rem .9rem;
+  border-left:3px solid #8c7657;
+  background:rgba(255,255,255,.2);
+  color:#4a4036;
+}
+
+/* Pannelli scuri: contrasto indipendente dalle regole globali light/dark. */
+:root[data-theme] .sl-markdown-content nav.felix-start-help,
+:root[data-theme] .sl-markdown-content .felix-start-help{
+  background:#243335!important;
+  color:#f4ead8!important;
+}
+:root[data-theme] .sl-markdown-content nav.felix-start-help p,
+:root[data-theme] .sl-markdown-content .felix-start-help p{
+  color:#f4ead8!important;
+}
+:root[data-theme] .sl-markdown-content nav.felix-start-help strong,
+:root[data-theme] .sl-markdown-content .felix-start-help strong{
+  color:#f0ca7c!important;
+}
+:root[data-theme] .sl-markdown-content nav.felix-start-help a,
+:root[data-theme] .sl-markdown-content .felix-start-help a{
+  color:#ffe2a0!important;
+}
+
+/* Mobile: priorità alla respirazione, non alla decorazione. */
+@media(max-width:720px){
+  .felix-content-wrap.is-rule .sl-markdown-content>p,
+  .felix-content-wrap.is-rule .sl-markdown-content>ul,
+  .felix-content-wrap.is-rule .sl-markdown-content>ol,
+  .felix-content-wrap.is-rule .sl-markdown-content>blockquote,
+  .felix-content-wrap.is-rule .sl-markdown-content>details,
+  .felix-content-wrap.is-rule .sl-markdown-content>.felix-why{
+    max-width:none;
+  }
+  .felix-content-wrap.is-rule .sl-markdown-content p:has(.felix-rule-number){
+    padding:.85rem .9rem!important;
+  }
+  .felix-content-wrap .sl-markdown-content .felix-why{
+    padding:1.05rem 1rem!important;
+  }
+}
