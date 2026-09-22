@@ -1085,10 +1085,10 @@ della Salute persa
 
 ## Percorsi clinici
 
-- [Sintomatologia di Base](/manuali/medimagia/sintomatologia/)
-- [Malattie Magiche — 44 schede](/manuali/medimagia/malattie/)
-- [Lesioni da Incantesimi e Traumi da Pozioni](/manuali/medimagia/lesioni-incantesimi-pozioni/)
-- [Incidenti da Manufatti](/manuali/medimagia/incidenti-manufatti/)
-- [Avvelenamento da Piante e Pozioni](/manuali/medimagia/avvelenamenti/)
-- [Ferite da Creature e Piante Magiche](/manuali/medimagia/ferite-creature-piante/)
+- [Sintomatologia di Base](sintomatologia/)
+- [Malattie Magiche — 44 schede](malattie/)
+- [Lesioni da Incantesimi e Traumi da Pozioni](lesioni-incantesimi-pozioni/)
+- [Incidenti da Manufatti](incidenti-manufatti/)
+- [Avvelenamento da Piante e Pozioni](avvelenamenti/)
+- [Ferite da Creature e Piante Magiche](ferite-creature-piante/)
 
