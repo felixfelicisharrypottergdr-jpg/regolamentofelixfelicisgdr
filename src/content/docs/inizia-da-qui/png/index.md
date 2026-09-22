@@ -164,7 +164,6 @@ Qui i PNG Prefetti e Caposcuola disponibili: Prefetti e Caposcuola
 Il Quidditch, lo sport più popolare tra i maghi, viene ovviamente praticato anche ad Hogwarts e tutti e tutte sappiamo benissimo quanta rilevanza abbia all'interno delle mura della scuola. Pochi eletti fanno parte delle squadre delle quattro Case, dividendosi tra giocatori titolari e riserve. I Capitani sono, a buon diritto, le figure più importanti della squadra, nonché le più popolari e carismatiche.
 Qui i PNG Giocatori di Quidditch disponibili: Giocatori di Quidditch
 
-<a id="spiriti"></a>
 ### Spiriti
 Hogwarts è popolata non soltanto da entità viventi ma anche da Spiriti. I fantasmi delle quattro Case, Mirtilla Malcontenta e Pix il Poltergeist costituiscono la popolazione non-vivente della scuola, vagando per i corridoi ed intrattenendo, oppure spaventando, o ancora infastidendo gli studenti e le studentesse durante le loro giornate.
 Alcuni di loro sono ancora detentori delle profonde conoscenze che possedevano in vita, e potrebbero decidere di insegnare qualcosa ai più meritevoli.
