@@ -32,7 +32,8 @@ migration:
       item: "Glifo Involutio"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Creazione del Glifo**
 La creazione di un Glifo richiede 1 Azione Principale, durante la quale il PG ne traccia il simbolo, sceglie l'Incantesimo da immagazzinare e stabilisce le eventuali condizioni di innesco consentite dal proprio Livello.
@@ -65,62 +66,62 @@ Al di fuori di questo caso, un Glifo già creato può essere eliminato facendolo
 Glifo Involutio può immagazzinare Incantesimi appartenenti a differenti tipologie e categorie, purché il loro effetto possa essere risolto autonomamente nel momento dell'innesco.
 
 Possono quindi essere immagazzinati, nei limiti del Livello della Maestria:
-• Incantesimi *Offensivi*, compresi quelli che infliggono danni, Malus o condizioni;
-• Incantesimi *Mentali*, purché possano essere applicati a un bersaglio individuato automaticamente dal Glifo;
-• Incantesimi *Oscuri*, applicando normalmente tutte le eventuali regole relative al loro utilizzo e alla loro illegalità;
-• Incantesimi *Difensivi o protettivi*, se possono produrre autonomamente il proprio effetto sul soggetto che attiva il Glifo oppure sull'Area circostante;
-• Incantesimi *Elementali, Trasfigurativi* o appartenenti ad altre tipologie, purché rispettino le normali condizioni necessarie alla loro applicazione.
+- Incantesimi *Offensivi*, compresi quelli che infliggono danni, Malus o condizioni;
+- Incantesimi *Mentali*, purché possano essere applicati a un bersaglio individuato automaticamente dal Glifo;
+- Incantesimi *Oscuri*, applicando normalmente tutte le eventuali regole relative al loro utilizzo e alla loro illegalità;
+- Incantesimi *Difensivi o protettivi*, se possono produrre autonomamente il proprio effetto sul soggetto che attiva il Glifo oppure sull'Area circostante;
+- Incantesimi *Elementali, Trasfigurativi* o appartenenti ad altre tipologie, purché rispettino le normali condizioni necessarie alla loro applicazione.
 
 Non possono invece essere immagazzinati:
-• Incantesimi con *Bersaglio esclusivamente Personale*;
-• Incantesimi che richiedano concentrazione, controllo o mantenimento attivo da parte dell'Evocatore;
-• Incantesimi che richiedano, al momento dell'attivazione, una nuova scelta dell'Evocatore riguardo bersaglio, effetto, forma o modalità di funzionamento;
-• Incantesimi che richiedano ulteriori Azioni successive all'evocazione per produrre il proprio effetto;
-• Incantesimi il cui funzionamento presupponga necessariamente la presenza fisica, il contatto diretto o un intervento personale dell'Evocatore incompatibile con l'attivazione autonoma del Glifo;
-• Incantesimi che evochino, generino o creino entità autonome che richiedano successivamente ordini, controllo o gestione da parte dell'Evocatore.
+- Incantesimi con *Bersaglio esclusivamente Personale*;
+- Incantesimi che richiedano concentrazione, controllo o mantenimento attivo da parte dell'Evocatore;
+- Incantesimi che richiedano, al momento dell'attivazione, una nuova scelta dell'Evocatore riguardo bersaglio, effetto, forma o modalità di funzionamento;
+- Incantesimi che richiedano ulteriori Azioni successive all'evocazione per produrre il proprio effetto;
+- Incantesimi il cui funzionamento presupponga necessariamente la presenza fisica, il contatto diretto o un intervento personale dell'Evocatore incompatibile con l'attivazione autonoma del Glifo;
+- Incantesimi che evochino, generino o creino entità autonome che richiedano successivamente ordini, controllo o gestione da parte dell'Evocatore.
 
 **Risoluzione dell'Incantesimo**
 Quando il Glifo si attiva, il punto dal quale ha origine la magia corrisponde alla superficie sulla quale è stato tracciato.
-• Se l'Incantesimo ha Bersaglio Singolo, il bersaglio è il soggetto che ha provocato l'innesco.
-• Se possiede un effetto ad Area, l'Area ha origine dal Glifo.
-• Se può coinvolgere più bersagli, il soggetto che provoca l'innesco costituisce il bersaglio principale e gli eventuali ulteriori bersagli vengono determinati secondo le normali Specifiche dell'Incantesimo.
-• Se l'Incantesimo richiede un confronto di Destrezza, questo viene effettuato normalmente utilizzando la Destrezza propria del Glifo al posto di quella dell'Evocatore:
+- Se l'Incantesimo ha Bersaglio Singolo, il bersaglio è il soggetto che ha provocato l'innesco.
+- Se possiede un effetto ad Area, l'Area ha origine dal Glifo.
+- Se può coinvolgere più bersagli, il soggetto che provoca l'innesco costituisce il bersaglio principale e gli eventuali ulteriori bersagli vengono determinati secondo le normali Specifiche dell'Incantesimo.
+- Se l'Incantesimo richiede un confronto di Destrezza, questo viene effettuato normalmente utilizzando la Destrezza propria del Glifo al posto di quella dell'Evocatore:
 - *Livello I:* 15 Destrezza
 - *Livello II:* 20 Destrezza
 - *Livello III:* 25 Destrezza
-• Gittata, Area, Durata, effetti, eventuali confronti di Forza e qualsiasi altra regola propria dell'Incantesimo continuano ad applicarsi normalmente, considerando il Glifo come suo punto di origine.
+- Gittata, Area, Durata, effetti, eventuali confronti di Forza e qualsiasi altra regola propria dell'Incantesimo continuano ad applicarsi normalmente, considerando il Glifo come suo punto di origine.
 Una volta attivato e liberato l'Incantesimo, il Glifo scompare e non può essere utilizzato nuovamente.
 
 **Nota.**
 
-• Per piazzare Glifi a sorpresa contro altri PG è consigliato l'uso della sezione Orecchie Indiscrete.
-• Sebbene l’evocazione del Glifo possa essere descritta ONGame attraverso il tracciamento di complessi diagrammi geometrici, poligoni o sequenze numeriche ispirate all'Aritmanzia, tali elementi hanno un valore puramente di colore.
+- Per piazzare Glifi a sorpresa contro altri PG è consigliato l'uso della sezione Orecchie Indiscrete.
+- Sebbene l’evocazione del Glifo possa essere descritta ONGame attraverso il tracciamento di complessi diagrammi geometrici, poligoni o sequenze numeriche ispirate all'Aritmanzia, tali elementi hanno un valore puramente di colore.
 
-## Effetti
+**Effetti**
 
-### Livello I
+<u>Livello I</u>
 
-• *Aspetto:* il Glifo rimane visibile come un graffio, un'incisione o un debole segno luminoso sulla superficie. La sua presenza può quindi essere notata normalmente, ma riconoscerne la natura magica richiede gli strumenti previsti dalla Rilevazione.
-• *Estensione:* fino a 1 casella se è presente una mappa; un singolo elemento di una stanza se utilizzato in una Role.
-• *Innesco:* può attivarsi tramite il contatto fisico diretto oppure mediante la lettura ravvicinata del simbolo. Non può distinguere chi lo attiva: anche l'Evocatore può farlo scattare.
-• *Esecuzione:* richiede il tracciamento fisico e la pronuncia verbale dell'Incantesimo da immagazzinare.
-• *Potenziamento:* l'Incantesimo immagazzinato mantiene la propria Forza Standard.
-• *Durata del Glifo:* rimane attivo fino a un massimo di 3 Post successivi dell'Evocatore nella stessa Role oppure, durante Quest ed Eventi, fino a 10 Post complessivi dei partecipanti. Scaduta la Durata, il Glifo si dissolve senza attivarsi.
+- *Aspetto:* il Glifo rimane visibile come un graffio, un'incisione o un debole segno luminoso sulla superficie. La sua presenza può quindi essere notata normalmente, ma riconoscerne la natura magica richiede gli strumenti previsti dalla Rilevazione.
+- *Estensione:* fino a 1 casella se è presente una mappa; un singolo elemento di una stanza se utilizzato in una Role.
+- *Innesco:* può attivarsi tramite il contatto fisico diretto oppure mediante la lettura ravvicinata del simbolo. Non può distinguere chi lo attiva: anche l'Evocatore può farlo scattare.
+- *Esecuzione:* richiede il tracciamento fisico e la pronuncia verbale dell'Incantesimo da immagazzinare.
+- *Potenziamento:* l'Incantesimo immagazzinato mantiene la propria Forza Standard.
+- *Durata del Glifo:* rimane attivo fino a un massimo di 3 Post successivi dell'Evocatore nella stessa Role oppure, durante Quest ed Eventi, fino a 10 Post complessivi dei partecipanti. Scaduta la Durata, il Glifo si dissolve senza attivarsi.
 
-### Livello II
+<u>Livello II</u>
 
-• *Aspetto:* il Glifo diventa estremamente difficile da distinguere e si manifesta soltanto come una debole distorsione della superficie o dell'aria immediatamente sovrastante. Notarne la presenza non significa riconoscerne automaticamente la natura magica.
-• *Estensione:* fino a 3 caselle confinanti se è presente una mappa; fino a metà di una stanza se utilizzato in una Role.
-• *Innesco:* può attivarsi mediante contatto fisico, lettura ravvicinata oppure quando un essere vivente entra nell'area occupata dal Glifo. L'Evocatore viene riconosciuto tramite la propria impronta magica e non ne provoca l'attivazione.
-• *Esecuzione:* richiede il tracciamento fisico; l'Incantesimo immagazzinato può essere evocato verbalmente oppure in forma non verbale secondo le normali regole.
-• *Potenziamento:* l'Incantesimo rilasciato ottiene +50 Forza.
-• *Durata del Glifo:* rimane attivo fino a un massimo di 5 Post successivi dell'Evocatore nella stessa Role oppure, durante Quest ed Eventi, fino a 15 Post complessivi dei partecipanti. Scaduta la Durata, il Glifo si dissolve senza attivarsi.
+- *Aspetto:* il Glifo diventa estremamente difficile da distinguere e si manifesta soltanto come una debole distorsione della superficie o dell'aria immediatamente sovrastante. Notarne la presenza non significa riconoscerne automaticamente la natura magica.
+- *Estensione:* fino a 3 caselle confinanti se è presente una mappa; fino a metà di una stanza se utilizzato in una Role.
+- *Innesco:* può attivarsi mediante contatto fisico, lettura ravvicinata oppure quando un essere vivente entra nell'area occupata dal Glifo. L'Evocatore viene riconosciuto tramite la propria impronta magica e non ne provoca l'attivazione.
+- *Esecuzione:* richiede il tracciamento fisico; l'Incantesimo immagazzinato può essere evocato verbalmente oppure in forma non verbale secondo le normali regole.
+- *Potenziamento:* l'Incantesimo rilasciato ottiene +50 Forza.
+- *Durata del Glifo:* rimane attivo fino a un massimo di 5 Post successivi dell'Evocatore nella stessa Role oppure, durante Quest ed Eventi, fino a 15 Post complessivi dei partecipanti. Scaduta la Durata, il Glifo si dissolve senza attivarsi.
 
-### Livello III
+<u>Livello III</u>
 
-• *Aspetto:* una volta completato il procedimento il Glifo scompare completamente alla normale percezione e può essere individuato soltanto attraverso la Rilevazione.
-• *Estensione:* fino a 5 caselle confinanti se è presente una mappa; fino a un'intera stanza se utilizzato in una Role.
-• *Innesco:* può utilizzare tutte le modalità previste dai Livelli precedenti e può inoltre essere programmato dall'Evocatore attraverso specifiche condizioni.
+- *Aspetto:* una volta completato il procedimento il Glifo scompare completamente alla normale percezione e può essere individuato soltanto attraverso la Rilevazione.
+- *Estensione:* fino a 5 caselle confinanti se è presente una mappa; fino a un'intera stanza se utilizzato in una Role.
+- *Innesco:* può utilizzare tutte le modalità previste dai Livelli precedenti e può inoltre essere programmato dall'Evocatore attraverso specifiche condizioni.
 Le condizioni possono riguardare:
 - parole d'ordine;
 - uno o più individui specificamente identificati e conosciuti personalmente dall'Evocatore;
@@ -132,9 +133,9 @@ Il Glifo non può utilizzare caratteristiche biologiche nascoste, discendenze, l
 Non possono inoltre essere utilizzate come condizione appartenenze segrete, occulte o comunque non pubblicamente riconoscibili ONGame, anche qualora l'Evocatore conosca l'appartenenza di uno o più singoli individui. Questi ultimi possono essere indicati individualmente soltanto se conosciuti personalmente dall'Evocatore.
 Il Glifo non può infine valutare condizioni soggettive o che richiedano interpretazione, come intenzioni, emozioni, menzogne, ostilità, moralità o decisioni future di un soggetto.
 
-• *Esecuzione:* richiede il tracciamento fisico; l'Incantesimo può essere infuso verbalmente o in forma non verbale e le condizioni di innesco vengono stabilite mentalmente durante la creazione.
-• *Potenziamento:* l'Incantesimo rilasciato ottiene +100 Forza.
-• *Durata del Glifo:* permanente fino alla sua attivazione, allo Spezzamento o alla dissoluzione conseguente al superamento del numero massimo di Glifi consentiti.
+- *Esecuzione:* richiede il tracciamento fisico; l'Incantesimo può essere infuso verbalmente o in forma non verbale e le condizioni di innesco vengono stabilite mentalmente durante la creazione.
+- *Potenziamento:* l'Incantesimo rilasciato ottiene +100 Forza.
+- *Durata del Glifo:* permanente fino alla sua attivazione, allo Spezzamento o alla dissoluzione conseguente al superamento del numero massimo di Glifi consentiti.
 
 Un Glifo di Livello III destinato a permanere oltre la conclusione della Role nella quale viene creato deve essere segnalato al Narratore, indicandone luogo, Incantesimo immagazzinato e condizioni di innesco.
 
@@ -157,11 +158,13 @@ Nel caso in cui il Glifo sia stato creato in segreto, sarà il Narratore a gesti
 Trattandosi di una trappola magica spesso nascosta o difficilmente riconoscibile, la possibilità di utilizzare una Reazione contro l'Incantesimo liberato dal Glifo dipende dalla consapevolezza della sua presenza.
 
 Possono utilizzare una Reazione contro l'effetto liberato da un Glifo ostile:
-• l'Evocatore, qualora possa essere coinvolto dall'innesco;
-• i PG che hanno individuato l'evocazione durante la sua creazione;
-• i PG che hanno precedentemente individuato il Glifo mediante Tracciatura;
-• eventuali soggetti che siano stati esplicitamente avvertiti della sua presenza e posizione.
+- l'Evocatore, qualora possa essere coinvolto dall'innesco;
+- i PG che hanno individuato l'evocazione durante la sua creazione;
+- i PG che hanno precedentemente individuato il Glifo mediante Tracciatura;
+- eventuali soggetti che siano stati esplicitamente avvertiti della sua presenza e posizione.
 
 Un soggetto inconsapevole della presenza del Glifo non può utilizzare una Reazione per evitare il rilascio iniziale dell'Incantesimo.
 
 Questo non rende tuttavia l'effetto automaticamente irresistibile: eventuali immunità, Resistenze, confronti di Forza, condizioni di applicazione, tiri successivi o altre Specifiche proprie dell'Incantesimo immagazzinato continuano ad applicarsi normalmente.
+
+</details>
