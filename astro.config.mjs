@@ -624,13 +624,100 @@ export default defineConfig({
               label: 'Conoscenze',
               items: [
                 { label: 'Le Conoscenze', slug: 'conoscenze-e-sapienze/conoscenze' },
-                { label: 'Autoconclusive', slug: 'conoscenze-e-sapienze/conoscenze/autoconclusive' },
-                { label: 'Scolastiche', slug: 'conoscenze-e-sapienze/conoscenze/scolastiche' },
-                { label: 'Extra', slug: 'conoscenze-e-sapienze/conoscenze/extra' },
-                { label: 'Avanzate', slug: 'conoscenze-e-sapienze/conoscenze/avanzate' },
-                { label: 'Usare le Conoscenze', slug: 'conoscenze-e-sapienze/conoscenze/usare-le-conoscenze' },
-                { label: 'Ottenere nuove Conoscenze', slug: 'conoscenze-e-sapienze/conoscenze/ottenere-nuove-conoscenze' },
-                { label: 'Creare nuove Conoscenze', slug: 'conoscenze-e-sapienze/conoscenze/creare-conoscenze' },
+                {
+                  label: 'Autoconclusive',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/conoscenze/autoconclusive' },
+                    { label: 'Cosa sono e come si usano', link: '/conoscenze-e-sapienze/conoscenze/autoconclusive/#cosasono' },
+                    { label: 'Elenco Incantesimi', link: '/conoscenze-e-sapienze/conoscenze/autoconclusive/#elencoauto' },
+                  ],
+                },
+                {
+                  label: 'Scolastiche',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/conoscenze/scolastiche' },
+                    { label: 'Cosa sono e come si usano', link: '/conoscenze-e-sapienze/conoscenze/scolastiche/#cosasono' },
+                    { label: 'Elenco delle Conoscenze', link: '/conoscenze-e-sapienze/conoscenze/scolastiche/#elencoscola' },
+                  ],
+                },
+                {
+                  label: 'Extra',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/conoscenze/extra' },
+                    { label: 'Cosa sono e come si usano', link: '/conoscenze-e-sapienze/conoscenze/extra/#cosasono' },
+                    { label: 'Elenco delle Conoscenze', link: '/conoscenze-e-sapienze/conoscenze/extra/#elencoextra' },
+                  ],
+                },
+                {
+                  label: 'Avanzate',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/conoscenze/avanzate' },
+                    { label: 'Cosa sono e come si usano', link: '/conoscenze-e-sapienze/conoscenze/avanzate/#cosasono' },
+                    { label: 'Elenco delle Conoscenze', link: '/conoscenze-e-sapienze/conoscenze/avanzate/#elencoavanz' },
+                  ],
+                },
+                {
+                  label: 'Usare le Conoscenze',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/conoscenze/usare-le-conoscenze' },
+                    {
+                      label: 'Componenti',
+                      items: [
+                        { label: 'Panoramica', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#componenti' },
+                        { label: 'Incantesimi', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#incantesimi' },
+                        { label: 'Pozioni', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#pozioni' },
+                        { label: 'Creature Magiche', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#creature' },
+                        { label: 'Piante Magiche', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#piante' },
+                        { label: 'Altre Conoscenze', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#altre' },
+                      ],
+                    },
+                    {
+                      label: 'L’uso delle Conoscenze',
+                      items: [
+                        { label: 'Panoramica', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#usoconoscenze' },
+                        { label: 'Adulti vs Studenti', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#advsstud' },
+                        { label: 'Conoscenze Scolastiche', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#conscol' },
+                        { label: 'Conoscenze Extra', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#conex' },
+                        { label: 'Conoscenze Avanzate', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#conava' },
+                        { label: 'Narrare gli esiti', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#narraesito' },
+                      ],
+                    },
+                    {
+                      label: 'Annullare gli effetti',
+                      items: [
+                        { label: 'Panoramica', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#annullare' },
+                        { label: 'Annullare un Incantesimo', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#anninc' },
+                        { label: 'Annullare una Pozione', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#annpoz' },
+                        { label: 'Resistenza mentale', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#resistenze' },
+                      ],
+                    },
+                    { label: 'Incantesimi non verbali', link: '/conoscenze-e-sapienze/conoscenze/usare-le-conoscenze/#nonverb' },
+                  ],
+                },
+                {
+                  label: 'Ottenere nuove Conoscenze',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/conoscenze/ottenere-nuove-conoscenze' },
+                    { label: 'Acquistare Conoscenze', link: '/conoscenze-e-sapienze/conoscenze/ottenere-nuove-conoscenze/#acquistare' },
+                    {
+                      label: 'Apprendere Conoscenze',
+                      items: [
+                        { label: 'Panoramica', link: '/conoscenze-e-sapienze/conoscenze/ottenere-nuove-conoscenze/#apprendere' },
+                        { label: 'Da un altro PG', link: '/conoscenze-e-sapienze/conoscenze/ottenere-nuove-conoscenze/#apprenderePG' },
+                        { label: 'Da un PNG', link: '/conoscenze-e-sapienze/conoscenze/ottenere-nuove-conoscenze/#apprenderePNG' },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  label: 'Creare una Conoscenza',
+                  items: [
+                    { label: 'Panoramica', slug: 'conoscenze-e-sapienze/conoscenze/creare-conoscenze' },
+                    { label: 'Creare un Incantesimo', link: '/conoscenze-e-sapienze/conoscenze/creare-conoscenze/#creareinca' },
+                    { label: 'Creare una Pozione', link: '/conoscenze-e-sapienze/conoscenze/creare-conoscenze/#crearepoz' },
+                    { label: 'Creare un Oggetto Magico', link: '/conoscenze-e-sapienze/conoscenze/creare-conoscenze/#creareoggettinuovi' },
+                  ],
+                },
                 { label: 'Glossario', slug: 'conoscenze-e-sapienze/conoscenze/glossario' },
               ],
             },
