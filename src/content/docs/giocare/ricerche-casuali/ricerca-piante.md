@@ -20,39 +20,13 @@ migration:
 
 # Ricerca Casuale di Piante Magiche
 
-**INDICE**
-
-• Ricerca di Piante Magiche
-
-○ Trovare qualcosa: in che
-modalità?
-
-• Trovare qualcosa: come e dove
-
-○ Il PG trova qualcosa?
-
-○ Cosa trova il PG?
-
-○ Primo incontro
-
-○ Secondo incontro
-
-○ Terzo incontro
-
-• Piante Esotiche
-
-PG Studenti e PG Adulti, in particolar modo PG Erbologi, possono imbattersi nelle Piante
-Magiche diffuse nel Mondo Magico attraverso la Ricerca Casuale.
-Una volta incontrata una Pianta, i PG possono tentare di riconoscerla, interagire con essa e,
-quando ne possiedono i requisiti, procedere al Trattamento per portarla nella propria Serra oValigia Magica. Le Piante coltivate possono successivamente produrre Semi e Ingredienti o
-essere utilizzate ONGame secondo le capacità indicate nei rispettivi specchietti.
-
+<a id="ricercapiante"></a>
 ## Ricerca di Piante Magiche
 
 Sono tre gli elementi principali sui quali si fonda la Ricerca di Piante Magiche:
-• l'Empatia del PG che le cerca;
-• la sua Sapienza Erbologica;
-• la Classificazione delle Piante Magiche.
+- l'Empatia del PG che le cerca;
+- la sua Sapienza Erbologica;
+- la Classificazione delle Piante Magiche.
 Maggiore è l'Empatia e la Sapienza Erbologica del PG, maggiori sono le probabilità di
 incontrare una Pianta. Al contrario, le Piante di Classificazione più elevata sono
 generalmente più rare e quindi più difficili da trovare.
@@ -67,6 +41,7 @@ della Guida all'Erbologia.
 Lo stesso principio vale per le Piante Esotiche: incontrarne una non concede
 automaticamente la relativa Conoscenza Extra.
 
+<a id="trovarequalcosa"></a>
 ### Trovare qualcosa: in che modalità?
 
 Le role di Ricerca delle Piante sono normalmente **free role**, salvo i casi nei quali le
@@ -101,13 +76,15 @@ contenuta.
 particolarmente preparati in ambito Animus, rendendo concretamente utile la loro esperienza
 durante le role e favorendo le interazioni fra PG.
 
+<a id="trovarepiante"></a>
 ## Trovare qualcosa: come e dove
 
 Le Piante incontrabili dipendono dalla Zona nella quale viene svolta la Ricerca.
 Ogni Zona di Ricerca contiene una lista delle specie presenti, suddivise in base alla
 Classificazione.
 
-### Zone di Ricerca
+<details><summary><strong>Zone di Ricerca</strong></summary>
+
 
 Lago Nero
 Foresta Proibita
@@ -125,9 +102,9 @@ Coste del Mondo Magico 🌴
 Il PG deve aprire la role nella Zona nella quale sta effettivamente svolgendo la Ricerca e
 utilizzare esclusivamente le liste presenti nel relativo post.
 La Ricerca può essere **Attiva** oppure **Passiva**:
-• **Ricerca Attiva:** ONGame il PG sta deliberatamente cercando Piante Magiche. È
+- **Ricerca Attiva:** ONGame il PG sta deliberatamente cercando Piante Magiche. È
 possibile arrivare fino al **Terzo incontro**.
-• **Ricerca Passiva:** ONGame il PG sta svolgendo normalmente un'altra attività e
+- **Ricerca Passiva:** ONGame il PG sta svolgendo normalmente un'altra attività e
 l'incontro con una Pianta avviene casualmente. È possibile effettuare soltanto il **Primo
 incontro**.
 Durante una Ricerca Attiva, il PG ottiene **+2 possibilità** nel dado "Il PG trova
@@ -141,16 +118,19 @@ insieme.
 
 > **Nota.**
 >
-• Se il dado della Classificazione indica una categoria che **non contiene alcuna
+- Se il dado della Classificazione indica una categoria che **non contiene alcuna
 Pianta** nella Zona di Ricerca utilizzata, il dado della Classificazione deve essere
 rilanciato fino a ottenere un risultato disponibile.Non è invece possibile sostituire liberamente una Pianta estratta con un'altra della stessa
 Classificazione.
-• La Valigia Magica è necessaria per proseguire
+- La Valigia Magica è necessaria per proseguire
 verso gli incontri successivi quando il PG ha acquisito un esemplare durante uno degli
 incontri precedenti e deve trasportarlo con sé mentre continua la Ricerca.
 Se il PG rinuncia ad acquisire la Pianta incontrata può proseguire con l'incontro successivo
 anche senza averla collocata nella Valigia.
 
+</details>
+
+<a id="pgtrova"></a>
 ### Il PG trova qualcosa?
 
 Per stabilire se il PG incontra una Pianta Magica deve lanciare **1d30**.
@@ -164,15 +144,15 @@ Attiva + eventuali altri bonus**
 **
 
 **Sapienza Erbologica**
-• **0:** nessun bonus
-• **1-5:** +1 possibilità
-• **6-10:** +2 possibilità
-• **11-15:** +3 possibilità
-• **16-20:** +4 possibilità
-• **21-25:** +5 possibilità
+- **0:** nessun bonus
+- **1-5:** +1 possibilità
+- **6-10:** +2 possibilità
+- **11-15:** +3 possibilità
+- **16-20:** +4 possibilità
+- **21-25:** +5 possibilità
 **Ricerca Attiva**
-• **Primo incontro:** +2 possibilità
-• **Secondo e Terzo incontro:** nessun bonus
+- **Primo incontro:** +2 possibilità
+- **Secondo e Terzo incontro:** nessun bonus
 Se il totale raggiunge o supera **30**, il successo è autoconclusivo.
 Il PG può effettuare un nuovo tentativo in ciascuno dei propri post finché non ottiene un
 incontro oppure decide di smettere di cercare.
@@ -186,12 +166,12 @@ espressamente.
 
 > **Esempio.**
 >
-• Un PG Studente con **Empatia 10** e senza Sapienza Erbologica sta effettuando una
+- Un PG Studente con **Empatia 10** e senza Sapienza Erbologica sta effettuando una
 Ricerca Passiva nella Valle di Hogwarts. Trova una Pianta con **1-10 su 1d30**.
-• Un PG Adulto con **Empatia 18** e **Sapienza Erbologica 10** sta effettuando
+- Un PG Adulto con **Empatia 18** e **Sapienza Erbologica 10** sta effettuando
 una Ricerca Attiva. Durante il Primo incontro possiede 18 + 2 per Sapienza + 2 per Ricerca
 Attiva = **22 possibilità**, quindi trova una Pianta con **1-22 su 1d30**.
-• Lo stesso PG, durante il Secondo incontro, non riceve più il bonus della Ricerca Attiva e
+- Lo stesso PG, durante il Secondo incontro, non riceve più il bonus della Ricerca Attiva e
 possiede quindi **20 possibilità**.
 
 > **Nota.**
@@ -202,6 +182,7 @@ Bolcino d'Oro.
 Il PG che lo trova ottiene **1 Popolarità**; il Bolcino ha un valore di **1000
 Galeoni**.
 
+<a id="cosatrova"></a>
 ### Cosa trova il PG?
 Una volta ottenuto un esito positivo nel dado "Il PG trova qualcosa?", bisogna determinare
 quale Pianta viene incontrata.
@@ -212,24 +193,29 @@ Il risultato della Ricerca stabilisce quale specie è realmente presente nella s
 stabilisce invece che il PG sappia automaticamente riconoscerla: per questo deve essere
 utilizzata la normale fase di Riconoscimento.
 
+<a id="primo"></a>
 ### Primo incontro
 
 Il Primo incontro è la prima Pianta Magica trovata attraverso la Ricerca Casuale.
 Dopo aver superato il dado "Il PG trova qualcosa?", il PG determina Classificazione, specie,
 Fase Vitale e Stato di Salute dell'esemplare.
 
-#### Qual è la Classificazione della Pianta? 1d15
+<details><summary><strong>Qual è la Classificazione della Pianta? 1d15</strong></summary>
+
 
 **1d15**
-• **1-5:** X
-• **6-9:** XX
-• **10-12:** XXX
-• **13-14:** XXXX
-• **15:** XXXXX
+- **1-5:** X
+- **6-9:** XX
+- **10-12:** XXX
+- **13-14:** XXXX
+- **15:** XXXXX
 Se la Classificazione estratta non contiene alcuna Pianta nella Zona utilizzata, rilanciare
 questo dado.
 
-#### Quale Pianta trovo?
+</details>
+
+<details><summary><strong>Quale Pianta trovo?</strong></summary>
+
 
 Consultare la lista della Zona di Ricerca e lanciare un dado con un numero di facce pari agli
 esiti presenti sotto la Classificazione ottenuta.
@@ -237,7 +223,8 @@ Quando una specie occupa più numeri o un intervallo di risultati nelle Zone est
 numero costituisce un possibile esito e aumenta quindi la probabilità di incontrare quella
 specie.
 
-### Zone di Ricerca
+<details><summary><strong>Zone di Ricerca</strong></summary>
+
 
 Lago Nero
 Foresta Proibita
@@ -252,13 +239,18 @@ Coste Magiche Inglesi
 Foreste del Mondo Magico 🌴
 Coste del Mondo Magico 🌴
 
-#### In quale Fase Vitale si trova? 1d9
+</details>
+
+</details>
+
+<details><summary><strong>In quale Fase Vitale si trova? 1d9</strong></summary>
+
 
 **1d9**
-• **1-2:** Germinazione
-• **3-4:** Vegetazione• **5-6:** Riproduzione
-• **7-8:** Senescenza
-• **9:** Seme
+- **1-2:** Germinazione
+- **3-4:** Vegetazione• **5-6:** Riproduzione
+- **7-8:** Senescenza
+- **9:** Seme
 
 > **Nota.**
 >
@@ -266,13 +258,16 @@ Il **Seme** non costituisce una vera Fase Vitale.
 Quando il risultato è Seme, non è necessario effettuare il dado di Interazione: si applica la
 normale regola di Interazione autoconclusiva prevista dalla Guida all'Erbologia.
 
-#### In quale Stato di Salute si trova? 1d15
+</details>
+
+<details><summary><strong>In quale Stato di Salute si trova? 1d15</strong></summary>
+
 
 Questo dado viene effettuato soltanto se il risultato precedente è una Pianta in
 Germinazione, Vegetazione, Riproduzione o Senescenza.
 **1d15**
-• **1-11:** In salute
-• **12-15:** Morente
+- **1-11:** In salute
+- **12-15:** Morente
 
 > **Nota.**
 >
@@ -282,11 +277,11 @@ possono ruolare e narrare la situazione secondo coerenza, sfruttandola come spun
 gioco.
 
 Una volta stabilite tutte le caratteristiche dell'incontro, il PG può:
-• tentare il Riconoscimento e
+- tentare il Riconoscimento e
 l'Interazione e, quando ne possiede i requisiti,
 procedere al Trattamento;
-• rinunciare a interagire con la Pianta e proseguire normalmente la role;
-• se sta svolgendo una Ricerca Attiva, continuare verso il Secondo incontro.
+- rinunciare a interagire con la Pianta e proseguire normalmente la role;
+- se sta svolgendo una Ricerca Attiva, continuare verso il Secondo incontro.
 Se il PG acquisisce l'esemplare e vuole continuare la Ricerca portandolo con sé, deve
 disporre della Valigia Magica.
 
@@ -301,9 +296,9 @@ Ostilità e Legalità rimangono sempre due caratteristiche indipendenti.
 >
 Se viene incontrata una Pianta **Sempre ostile**, si applicano le normali regole della
 Guida all'Erbologia:
-• i PG privi della Sapienza Erbologica necessaria vengono attaccati;
-• i PG che possono tentare l'Interazione seguono i requisiti previsti dalla Guida;
-• soltanto chi possiede i requisiti necessari può successivamente procedere al Trattamento.
+- i PG privi della Sapienza Erbologica necessaria vengono attaccati;
+- i PG che possono tentare l'Interazione seguono i requisiti previsti dalla Guida;
+- soltanto chi possiede i requisiti necessari può successivamente procedere al Trattamento.
 Quando si verifica effettivamente un attacco è necessario l'intervento del Narratore.
 
 > **Perché?**
@@ -316,6 +311,9 @@ alla ricerca.
 continua a spostarsi e a effettuare altri incontri. Se il PG rinuncia invece ad acquisire la
 Pianta trovata, può continuare la Ricerca Attiva senza doverla trasportare con sé.
 
+</details>
+
+<a id="secondo"></a>
 ### Secondo incontro
 
 Il Secondo incontro è disponibile esclusivamente durante una **Ricerca Attiva**.
@@ -337,24 +335,29 @@ decidere di interrompere la Ricerca.
 Dopo il successo deve determinare la Classificazione, la specie e il numero di esemplari.
 Ogni esemplare trovato possiede poi una propria Fase Vitale e un proprio Stato di Salute.
 
-#### Qual è la Classificazione e quanti esemplari trovo? 1d15 + 1d5
+<details><summary><strong>Qual è la Classificazione e quanti esemplari trovo? 1d15 + 1d5</strong></summary>
+
 
 **1d15 - Classificazione**
-• **1-2:** X
-• **3-5:** XX
-• **6-8:** XXX
-• **9-12:** XXXX
-• **13-15:** XXXXX
+- **1-2:** X
+- **3-5:** XX
+- **6-8:** XXX
+- **9-12:** XXXX
+- **13-15:** XXXXX
 **1d5 - Numero di esemplari**
 Il risultato indica quanti esemplari della stessa specie vengono incontrati.
 Se la Classificazione estratta non è disponibile nella Zona, rilanciare soltanto il dado della
 Classificazione.
 
-#### Quale Pianta trovo?
+</details>
+
+<details><summary><strong>Quale Pianta trovo?</strong></summary>
+
 
 Consultare la lista della Zona di Ricerca e utilizzare la Classificazione ottenuta.
 
-### Zone di Ricerca
+<details><summary><strong>Zone di Ricerca</strong></summary>
+
 
 Lago Nero
 Foresta Proibita
@@ -369,21 +372,29 @@ Coste Magiche Inglesi
 Foreste del Mondo Magico 🌴
 Coste del Mondo Magico 🌴
 
-#### In quale Fase Vitale si trovano? 1d9 per esemplare
+</details>
+
+</details>
+
+<details><summary><strong>In quale Fase Vitale si trovano? 1d9 per esemplare</strong></summary>
+
 
 Per **ogni esemplare** effettuare separatamente:
-• **1-2:** Germinazione
-• **3-4:** Vegetazione
-• **5-6:** Riproduzione
-• **7-8:** Senescenza
-• **9:** Seme
+- **1-2:** Germinazione
+- **3-4:** Vegetazione
+- **5-6:** Riproduzione
+- **7-8:** Senescenza
+- **9:** Seme
 I Semi seguono la normale regola di Interazione autoconclusiva.
 
-#### In quale Stato di Salute si trovano? 1d15 per esemplare
+</details>
+
+<details><summary><strong>In quale Stato di Salute si trovano? 1d15 per esemplare</strong></summary>
+
 
 Per ogni esemplare che **non sia un Seme**:
-• **1-11:** In salute
-• **12-15:** Morente
+- **1-11:** In salute
+- **12-15:** Morente
 
 > **Nota.**
 >
@@ -394,15 +405,18 @@ gioco.
 Più esemplari della stessa specie costituiscono un gruppo e seguono, quando applicabili, le
 regole delle Orde.
 Dopo il Secondo incontro il PG può:
-• tentare Riconoscimento, Interazione e, quando possibile, Trattamento degli esemplari;
-• rinunciare all'Interazione;
-• terminare la role;
-• continuare verso il Terzo incontro.
+- tentare Riconoscimento, Interazione e, quando possibile, Trattamento degli esemplari;
+- rinunciare all'Interazione;
+- terminare la role;
+- continuare verso il Terzo incontro.
 Se acquisisce uno o più esemplari e vuole continuare la Ricerca portandoli con sé, deve
 disporre dello spazio necessario nella Valigia Magica.
 Le regole relative a Piante Sempre ostili, Legalità e intervento del Narratore rimangono
 identiche a quelle del Primo incontro.
 
+</details>
+
+<a id="terzo"></a>
 ### Terzo incontro
 
 Il Terzo incontro rappresenta l'ultimo incontro disponibile nella stessa Ricerca Attiva.
@@ -422,23 +436,28 @@ Anche in questo caso il **+2 della Ricerca Attiva non si applica**.
 Il Terzo incontro aumenta ulteriormente le probabilità di trovare Piante di Classificazione
 elevata e può generare Orde fino a 10 esemplari.
 
-#### Qual è la Classificazione e quanti esemplari trovo? 1d15 + 1d10
+<details><summary><strong>Qual è la Classificazione e quanti esemplari trovo? 1d15 + 1d10</strong></summary>
+
 
 **1d15 - Classificazione**
-• **1:** X
-• **2-3:** XX• **4-6:** XXX
-• **7-10:** XXXX
-• **11-15:** XXXXX
+- **1:** X
+- **2-3:** XX• **4-6:** XXX
+- **7-10:** XXXX
+- **11-15:** XXXXX
 **1d10 - Numero di esemplari**
 Il risultato indica quanti esemplari della stessa specie vengono incontrati.
 Se la Classificazione estratta non è disponibile nella Zona, rilanciare soltanto il dado della
 Classificazione.
 
-#### Quale Pianta trovo?
+</details>
+
+<details><summary><strong>Quale Pianta trovo?</strong></summary>
+
 
 Consultare la lista della Zona di Ricerca e utilizzare la Classificazione ottenuta.
 
-### Zone di Ricerca
+<details><summary><strong>Zone di Ricerca</strong></summary>
+
 
 Lago Nero
 Foresta Proibita
@@ -453,21 +472,29 @@ Coste Magiche Inglesi
 Foreste del Mondo Magico 🌴
 Coste del Mondo Magico 🌴
 
-#### In quale Fase Vitale si trovano? 1d9 per esemplare
+</details>
+
+</details>
+
+<details><summary><strong>In quale Fase Vitale si trovano? 1d9 per esemplare</strong></summary>
+
 
 Per **ogni esemplare** effettuare separatamente:
-• **1-2:** Germinazione
-• **3-4:** Vegetazione
-• **5-6:** Riproduzione
-• **7-8:** Senescenza
-• **9:** Seme
+- **1-2:** Germinazione
+- **3-4:** Vegetazione
+- **5-6:** Riproduzione
+- **7-8:** Senescenza
+- **9:** Seme
 I Semi seguono la normale regola di Interazione autoconclusiva.
 
-#### In quale Stato di Salute si trovano? 1d15 per esemplare
+</details>
+
+<details><summary><strong>In quale Stato di Salute si trovano? 1d15 per esemplare</strong></summary>
+
 
 Per ogni esemplare che **non sia un Seme**:
-• **1-11:** In salute
-• **12-15:** Morente
+- **1-11:** In salute
+- **12-15:** Morente
 
 > **Nota.**
 >
@@ -481,6 +508,9 @@ Il PG può tentare Riconoscimento, Interazione e, quando ne possiede i requisiti
 Trattamento; può rinunciare agli esemplari trovati oppure terminare normalmente la role.Le regole relative a Orde, Sempre ostili, Legalità e intervento del Narratore rimangono quelle
 indicate dalla Guida all'Erbologia.
 
+</details>
+
+<a id="pianteesotiche"></a>
 ## Piante Esotiche
 
 Le Piante contrassegnate con **🌴** sono Piante Magiche Esotiche, il cui habitat
@@ -488,8 +518,8 @@ naturale si trova al di fuori del Regno Unito.
 Non possono essere incontrate attraverso le normali Zone di Ricerca britanniche.
 Per cercarle il PG deve raggiungere una destinazione estera attraverso uno dei
 Trasporti Magici previsti dal gioco e svolgere la Ricerca nelle:
-• Foreste del Mondo Magico;
-• Coste del Mondo Magico.
+- Foreste del Mondo Magico;
+- Coste del Mondo Magico.
 Ogni sezione geografica contiene un mix di specie Esotiche proprie della zona e di Piante
 diffuse anche nel Regno Unito quando compatibili con clima e habitat.
 Le specie Esotiche tipiche della regione possiedono una probabilità maggiore di essere
