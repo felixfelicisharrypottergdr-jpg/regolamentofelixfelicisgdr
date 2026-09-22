@@ -31,8 +31,12 @@ specie. Il capitolo esplora anche le ferite causate dal contatto con piante magi
 irritazioni alle lesioni profonde e alle reazioni sistemiche. In sintesi, cataloga le diverse
 tipologie di danni fisici derivanti dall'incontro con il mondo naturale magico.
 
-****Ferite da Creature
-Magiche****
+**
+
+**Ferite da Creature
+Magiche**
+
+**
 
 **Creature
 XX**

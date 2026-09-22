@@ -375,7 +375,7 @@ particolarmente difficili possono prevedere requisiti o malus differenti, specif
 specchietto;
 - è estremamente semplice ottenere la Fiducia delle Creature **mai ostili**: qualsiasi
 tentativo di Fiducia riesce autoconclusivamente e non è necessario lanciare il dado.
-Svolgere questa azione costa ****-1 Fatica****.
+Svolgere questa azione costa **-1 Fatica**.
 
 ## Infondere Fiducia nella Creatura Magica: 1d30
 
@@ -534,7 +534,7 @@ CREATURA**
 In questa fase il PG cerca di comprendere la natura del problema che affligge la Creatura a
 partire dai sintomi, dalle ferite e dagli altri elementi osservabili nella scena.
 Il dado può essere lanciato autonomamente dal PG nelle free role.
-Svolgere questa azione costa ****-1 Fatica****.
+Svolgere questa azione costa **-1 Fatica**.
 
 ## Dado Cura 1: Scoperta del problema - 1d35
 
@@ -591,7 +591,7 @@ con la condizione della Creatura, utilizzando magia, Pozioni, Oggetti, strumenti
 magici o altre risorse effettivamente a propria disposizione.
 La riuscita del trattamento viene determinata dal relativo dado e **non dipende da una
 valutazione qualitativa del post**.
-Svolgere questa azione costa ****-1 Fatica****.
+Svolgere questa azione costa **-1 Fatica**.
 
 ## Dado Cura 2: Cura del problema - 1d35
 
@@ -631,7 +631,7 @@ Problema.
 **1d35:** 1 - Empatia + Voto nella singola Creatura/Lv. Custode delle Creature (+2 se
 PG Studente con Custode I) + Classificazione Creatura ± bonus/malus Scoperta del
 Problema + Uso di Oggetti/Conoscenze su 35
-****Se la Creatura è una Femmina in Gravidanza:**** a ogni tentativo di Cura del
+**Se la Creatura è una Femmina in Gravidanza:** a ogni tentativo di Cura del
 Problema il PG lancia anche **1d10**:
 • **1:** muoiono sia la madre sia il feto;
 • **2-5:** muore il feto;
@@ -732,7 +732,7 @@ Le Creature addomesticate diventano parte della riserva del PG, che può dunque 
 loro un nome per dare a ciascuna di esse una sua identità e distinguerla dalle altre.
 OFFGame può altresì dar loro delle caratteristiche comportamentali e caratteriali puramente
 di colore.
-Svolgere questa azione costa ****-2 Fatica****.
+Svolgere questa azione costa **-2 Fatica**.
 
 ## Addomesticare una Creatura: 1d35
 
@@ -767,7 +767,7 @@ Possibilità
 **XXXX**: -2 possibilità
 **XXXXX**: -3 possibilità
 Aggiungere eventuale bonus da "Cura del problema"
-****Formula:**** 1 - Empatia + Voto nella singola Creatura/Lv. Addestratore di
+**Formula:** 1 - Empatia + Voto nella singola Creatura/Lv. Addestratore di
 Creature (+2 se PG Studente con Addestratore I) + Classificazione Creatura + Bonus Cura
 del Problema + Uso di Oggetti/Conoscenze su 35
 

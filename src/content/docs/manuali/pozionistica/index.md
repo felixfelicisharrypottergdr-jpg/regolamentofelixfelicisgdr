@@ -904,7 +904,7 @@ La preparazione degli Ingredienti è corretta se il PG non sbaglia la preparazio
 tipologia di Ingrediente; vien da sé che sbagliarne anche solo uno significa compromettere la
 riuscita della Pozione e ottenere dei malus nella durata dei suoi effetti e dei suoi
 bonus/malus.
-Svolgere questa azione costa ****-0,5 Fatica****.
+Svolgere questa azione costa **-0,5 Fatica**.
 
 ## Preparazione degli Ingredienti: 1d14 per Classificazione di Ingrediente
 
@@ -1073,7 +1073,7 @@ sono alte le possibilità di eseguire correttamente ogni passaggio della prepara
 Pozione.
 Si lancia un unico dado per ogni passaggio della preparazione della Pozione a meno che
 non venga specificato diversamente dal Narratore nei singoli casi.
-Svolgere questa azione costa ****-1 Fatica****.
+Svolgere questa azione costa **-1 Fatica**.
 
 ## Produzione: 1d30
 
@@ -1191,7 +1191,7 @@ effetto.
 Il PG esegue correttamente l'Uso della Bacchetta a partire dal proprio livello di Tecnica e del
 suo livello di Tocco Magico: più il livello di tutti questi elementi è alto, più sono alte le
 possibilità di gestire correttamente l'ultimo passaggio per la creazione della Pozione.
-Svolgere questa azione costa ****-0,5 Fatica****.
+Svolgere questa azione costa **-0,5 Fatica**.
 
 ## Uso della Bacchetta: 1d15
 
@@ -1272,7 +1272,7 @@ o bonus di tempi/post.
 La formula per stabilire *SE *l'Imbottigliamento e Pulizia del calderone riesce ed il
 corrispettivo numero di post necessari a terminare la Profuzione di ogni Pozione è la
 seguente:
-Svolgere questa azione costa ****-2 Fatica****.
+Svolgere questa azione costa **-2 Fatica**.
 
 ## Imbottigliamento e Pulizia del calderone - tempi di produzione Pozione: 1d10
 
@@ -1407,7 +1407,7 @@ che sono al massimo 3.
 Lo spazio occupato da una Pozione suddivisa in dosi distillate può essere occupato da dosi
 di Pozioni diverse.
 Questa azione deve essere svolta per ogni dose di Pozione che si desidera distillare e ha un
-costo di ****-1 Fatica****.
+costo di **-1 Fatica**.
 
 ## Distillazione: 1d10
 

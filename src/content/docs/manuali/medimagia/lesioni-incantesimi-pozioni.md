@@ -626,7 +626,7 @@ PG che falliscono la Smaterializzazione e, lanciando 1d30, pescano un risultato
 | 81-95% | Perdita di funzionalità delle articolazioni, Perdita di coscienza |
 | 96%+ | Coma |
 
-****Traumi da Pozioni****
+**Traumi da Pozioni**
 
 ## Pozioni Offensive
 
