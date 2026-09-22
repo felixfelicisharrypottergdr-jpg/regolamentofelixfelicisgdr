@@ -16,7 +16,6 @@ const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 const index = await buildFelixIndex();
 const ingredients = entry.data.producedIngredients.map((item) => ({ ...item, linked: item.ingredientId ? index.get(item.ingredientId) : undefined }));
-const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
 const unlinkedIngredients = ingredients.filter((item) => !item.linked);
 const pageHeadings = [...headings, ...(unlinkedIngredients.length ? [{ depth: 2, slug: 'ingredienti-non-collegati', text: 'Ingredienti non collegati' }] : []), { depth: 2, slug: 'valori', text: 'Valori' }];
 ---

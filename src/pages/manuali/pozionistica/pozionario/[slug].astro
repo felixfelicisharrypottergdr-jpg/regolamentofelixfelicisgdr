@@ -17,12 +17,10 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 const index = await buildFelixIndex();
-const diseases = entry.data.preventsDiseases.map((id) => index.get(id)).filter(Boolean);
 const ingredientRows = entry.data.ingredients.map((item) => ({
   ...item,
   linked: item.ingredientId ? index.get(item.ingredientId) : undefined,
 }));
-const related = entry.data.relatedFelixIds.map((id) => index.get(id)).filter(Boolean);
 const ingredientTableRows = ingredientRows.map((item) => ({
   ingredient: item.linked ? { text: item.name, href: item.linked.url } : { text: item.name, muted: true },
   amount: item.amount ?? '—',
