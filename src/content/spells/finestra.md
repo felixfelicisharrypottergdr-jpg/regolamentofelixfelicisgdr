@@ -27,4 +27,10 @@ migration:
       item: "Finestra*"
 ---
 
+Consente di rompere un vetro senza far rumore e senza generare frammenti pericolosi.
+<details><summary><strong>Specifiche</strong></summary>
 
+**Durata:** istantanea
+**Parametro del bersaglio intaccato:** //
+
+</details>

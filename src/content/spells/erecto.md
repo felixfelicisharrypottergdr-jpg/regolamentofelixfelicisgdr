@@ -26,4 +26,12 @@ migration:
       item: "Erecto"
 ---
 
+Consente di erigere in maniera stabile un oggetto o un insieme di oggetti, come una
+tenda da campeggio o un tendone da cerimonia.
 
+<details><summary><strong>Specifiche</strong></summary>
+
+**Durata:** istantanea
+**Parametro del bersaglio intaccato:** //
+
+</details>
