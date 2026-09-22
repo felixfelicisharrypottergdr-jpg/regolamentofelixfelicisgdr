@@ -26,34 +26,39 @@ migration:
       item: "Seconda Fioritura"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 Seconda Fioritura può essere utilizzata in due diversi contesti:
-• in Serra-Cubicolo, per prolungare eccezionalmente la vita di una Pianta del PG giunta alla conclusione della propria Senescenza o che l'abbia appena terminata;
-• durante una Ricerca Casuale, per tentare di salvare una Pianta incontrata in stato Morente.
+- in Serra-Cubicolo, per prolungare eccezionalmente la vita di una Pianta del PG giunta alla conclusione della propria Senescenza o che l'abbia appena terminata;
+- durante una Ricerca Casuale, per tentare di salvare una Pianta incontrata in stato Morente.
 
-## Rinascita della Senescenza
+<details><summary><strong>Rinascita della Senescenza</strong></summary>
+
 
 Normalmente una Pianta in Senescenza può completare i propri ultimi Cicli di Produzione prima di morire definitivamente.
 Quando una Pianta del PG raggiunge la conclusione della propria Senescenza, oppure ha appena completato il proprio ultimo Ciclo di Produzione e dovrebbe quindi essere dichiarata morta, Seconda Fioritura permette all'Erbologo di richiamarne un'ultima volta la linfa e prolungarne eccezionalmente il ciclo vitale.
 Ai fini di questa Maestria, la Pianta che abbia appena terminato la Senescenza può quindi essere considerata ancora utilizzabile prima che venga definitivamente dichiarata morta e rimossa dalla Serra-Cubicolo.
 
-• Livello I
+- Livello I
 *Ultima Fioritura:* la Pianta recupera 1 Ciclo di Produzione della propria Senescenza prima della morte definitiva.
 *Ultimo Rigoglio:* la quantità di Ingredienti ottenuta da questo ultimo Ciclo viene moltiplicata x2.
 *Fatica Consumata:* alla prima role ambientata successivamente al suo utilizzo, il PG consuma 3 Fatica.
 
-• Livello II
+- Livello II
 *Rinascita Parziale:* la Pianta recupera 1 Ciclo di Produzione della propria Senescenza prima della morte definitiva.
 *Ultimo Rigoglio:* la quantità di Ingredienti ottenuta da questo ultimo Ciclo viene moltiplicata x3.
 *Fatica Consumata:* alla prima role ambientata successivamente al suo utilizzo, il PG consuma 2 Fatica.
 
-• Livello III
+- Livello III
 *Rinascita Completa:* la Pianta viene riportata all'inizio della propria Senescenza e può effettuare nuovamente entrambi i 2 Cicli di Produzione normalmente previsti da questa Fase Vitale.
 *Ultimo Rigoglio:* nell'ultimo dei due Cicli di Produzione, immediatamente precedente alla morte definitiva, la quantità di Ingredienti ottenuta viene moltiplicata x4.
 *Fatica Consumata:* alla prima role ambientata successivamente al suo utilizzo, il PG consuma 1 Fatica.
 
-## Salvezza dal Declino
+</details>
+
+<details><summary><strong>Salvezza dal Declino</strong></summary>
+
 
 Durante una Ricerca Casuale, Seconda Fioritura permette all'Erbologo di intervenire su una Pianta incontrata in stato *Morente*, richiamandone la linfa prima che il suo organismo collassi definitivamente.
 Questo utilizzo è distinto dalla Rinascita della Senescenza e segue le regole previste dall'Efficacia della Maestria.
@@ -70,15 +75,19 @@ Questo tentativo può essere effettuato fino a due volte per ogni Ricerca Casual
 Ogni incontro con una Pianta Morente che resta tale costituisce un tentativo separato: fallire il dado consuma comunque uno dei due utilizzi disponibili.
 *Fatica Consumata:* 2 Fatica per ogni utilizzo
 
-• Livello III
+- Livello III
 La Pianta Morente viene automaticamente e autoconclusivamente stabilizzata e riportata a uno stato non più Morente.
 Questo effetto può essere utilizzato ad ogni incontro con una Pianta Morente durante la Ricerca Casuale.
 *Fatica Consumata:* 1 Fatica per ogni utilizzo.
 
 **Effetti della Salvezza**
 Una Pianta salvata tramite Salvezza dal Declino:
-• non viene più considerata Morente;
-• può proseguire normalmente l'incontro;
-• può essere sottoposta alle normali fasi erbologiche previste dalla Ricerca;
-• conserva la propria Fase Vitale e le proprie caratteristiche originarie: Seconda Fioritura la salva dalla morte, ma non la ringiovanisce.
-• se successivamente diventerà una Pianta del PG e arriverà naturalmente alla fine della propria vita, potrà beneficiare normalmente e una sola volta della Seconda Fioritura della propria Senescenza.
+- non viene più considerata Morente;
+- può proseguire normalmente l'incontro;
+- può essere sottoposta alle normali fasi erbologiche previste dalla Ricerca;
+- conserva la propria Fase Vitale e le proprie caratteristiche originarie: Seconda Fioritura la salva dalla morte, ma non la ringiovanisce.
+- se successivamente diventerà una Pianta del PG e arriverà naturalmente alla fine della propria vita, potrà beneficiare normalmente e una sola volta della Seconda Fioritura della propria Senescenza.
+
+</details>
+
+</details>
