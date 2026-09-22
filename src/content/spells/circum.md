@@ -27,4 +27,11 @@ migration:
       item: "Circumrota*"
 ---
 
+Consente di ruotare e far girare oggetti su loro stessi.
 
+<details><summary><strong>Specifiche</strong></summary>
+
+**Durata:** istantanea
+**Parametro del bersaglio intaccato:** //
+
+</details>

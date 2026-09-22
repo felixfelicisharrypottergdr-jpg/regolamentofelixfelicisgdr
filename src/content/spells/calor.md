@@ -26,4 +26,12 @@ migration:
       item: "Calor"
 ---
 
+Evoca un getto d'aria calda capace di asciugare abiti e capelli nel giro di pochi secondi.
+Funziona anche sul pelo di animali e Creature.
 
+<details><summary><strong>Specifiche</strong></summary>
+
+**Durata:** istantanea
+**Parametro del bersaglio intaccato:** //
+
+</details>

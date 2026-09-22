@@ -29,4 +29,14 @@ migration:
       item: "Colloportus"
 ---
 
+Chiude porte, finestre o contenitori mediante l'uso della magia.
+E' possibile aprire oggetti chiusi con *Colloportus* tramite gli incantesimi
+Alohomora o
+Aperio.
 
+<details><summary><strong>Specifiche</strong></summary>
+
+**Durata:** finchè l’incantesimo non viene annullato
+**Parametro del bersaglio intaccato:** //
+
+</details>
