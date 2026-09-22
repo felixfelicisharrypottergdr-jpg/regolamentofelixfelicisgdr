@@ -42,6 +42,7 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
     </p>
     <p class="felix-search-status" role="status" aria-live="polite" data-search-status></p>
     <div class="felix-search-results" data-search-results></div>
+    <button type="button" class="felix-search-more" data-search-more hidden>Mostra altri risultati</button>
   </div>
 </dialog>
 
@@ -53,6 +54,7 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
     const input = dialog?.querySelector('[data-felix-search-input]');
     const status = dialog?.querySelector('[data-search-status]');
     const results = dialog?.querySelector('[data-search-results]');
+    const moreButton = dialog?.querySelector('[data-search-more]');
     const hint = dialog?.querySelector('[data-search-hint]');
     const typeButtons = [...(dialog?.querySelectorAll('[data-search-type]') || [])];
     const applicabilityButtons = [...(dialog?.querySelectorAll('[data-search-applicability]') || [])];
@@ -60,6 +62,8 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
     let activeApplicability = '';
     let pagefindPromise;
     let searchTimer;
+    let lastSearchResults = [];
+    let visibleLimit = 24;
 
     const loadPagefind = async () => {
       if (!pagefindPromise) {
@@ -114,10 +118,25 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
       return article;
     };
 
+    const renderSearchResults = async () => {
+      const slice = lastSearchResults.slice(0, visibleLimit);
+      const data = await Promise.all(slice.map((item) => item.data()));
+      results?.replaceChildren(...data.map(renderResult));
+      if (moreButton instanceof HTMLButtonElement) {
+        moreButton.hidden = visibleLimit >= lastSearchResults.length;
+        moreButton.textContent = moreButton.hidden
+          ? 'Mostra altri risultati'
+          : `Mostra altri risultati (${Math.min(24, lastSearchResults.length - visibleLimit)})`;
+      }
+    };
+
     const runSearch = async () => {
       const query = input?.value.trim() || '';
       if (!query) {
+        lastSearchResults = [];
+        visibleLimit = 24;
         results?.replaceChildren();
+        if (moreButton instanceof HTMLButtonElement) moreButton.hidden = true;
         setStatus('');
         if (hint) hint.hidden = false;
         return;
@@ -131,11 +150,14 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
         if (activeApplicability) filters.applicability = activeApplicability;
         const options = Object.keys(filters).length ? { filters } : {};
         const search = await pagefind.search(query, options);
-        const data = await Promise.all(search.results.slice(0, 24).map((item) => item.data()));
-        results?.replaceChildren(...data.map(renderResult));
+        lastSearchResults = search.results;
+        visibleLimit = 24;
+        await renderSearchResults();
         setStatus(`${search.results.length} ${search.results.length === 1 ? 'risultato' : 'risultati'} per “${query}”`);
       } catch (error) {
+        lastSearchResults = [];
         results?.replaceChildren();
+        if (moreButton instanceof HTMLButtonElement) moreButton.hidden = true;
         setStatus('L’indice di ricerca viene generato durante la build del sito. In modalità di sviluppo può non essere ancora disponibile.');
       }
     };
@@ -157,6 +179,10 @@ const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/
       if (event.target === dialog) dialog.close();
     });
     input?.addEventListener('input', queueSearch);
+    moreButton?.addEventListener('click', async () => {
+      visibleLimit += 24;
+      await renderSearchResults();
+    });
 
     typeButtons.forEach((button) => button.addEventListener('click', () => {
       activeType = button.dataset.searchType || '';
