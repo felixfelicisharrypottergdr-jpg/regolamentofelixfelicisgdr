@@ -30,23 +30,24 @@ migration:
       item: "Sincronia Sensoriale"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
-## Effetti
 
-• *Livello I:* la Maestria viene considerata riuscita al Livello I. L'Evocatore riceve soltanto sprazzi visivi intermittenti e sfocati di ciò che vede il Bersaglio. L'audio e gli altri sensi sono assenti.
+**Effetti**
+
+- *Livello I:* la Maestria viene considerata riuscita al Livello I. L'Evocatore riceve soltanto sprazzi visivi intermittenti e sfocati di ciò che vede il Bersaglio. L'audio e gli altri sensi sono assenti.
 Se utilizzata da vicino, la Sincronia dura fino a 1 post dell'Evocatore.
 
-• *Livello II:* la Maestria viene considerata riuscita al Livello II. L'Evocatore vede e sente attraverso il Bersaglio, ma le immagini possono risultare leggermente disturbate e i suoni ovattati. Non percepisce tatto, olfatto né eventuali percezioni magiche.
+- *Livello II:* la Maestria viene considerata riuscita al Livello II. L'Evocatore vede e sente attraverso il Bersaglio, ma le immagini possono risultare leggermente disturbate e i suoni ovattati. Non percepisce tatto, olfatto né eventuali percezioni magiche.
 Se utilizzata da vicino, la Sincronia dura fino a 2 post consecutivi dell'Evocatore.
 
-• *Livello III:* la Maestria viene considerata riuscita al 100%. L'Evocatore percepisce ciò che il Bersaglio vede, sente, tocca e odora. Può inoltre cogliere eventuali percezioni magiche che il Bersaglio stia ottenendo in quel momento attraverso Conoscenze o capacità attive.
+- *Livello III:* la Maestria viene considerata riuscita al 100%. L'Evocatore percepisce ciò che il Bersaglio vede, sente, tocca e odora. Può inoltre cogliere eventuali percezioni magiche che il Bersaglio stia ottenendo in quel momento attraverso Conoscenze o capacità attive.
 Se utilizzata da vicino, la Sincronia dura fino a 3 post consecutivi dell'Evocatore.
 
 **Modalità di utilizzo**
 La Sincronia Sensoriale può essere utilizzata da vicino oppure a distanza.
-• *Da vicino:* l'Evocatore deve essere in grado di vedere direttamente il Bersaglio al momento dell'attivazione. La Sincronia segue la normale durata prevista dal Livello posseduto.
-• *A distanza:* l'Evocatore deve possedere un Oggetto appartenuto personalmente al Bersaglio. In questo caso la Sincronia dura sempre e soltanto 1 post dell'Evocatore, indipendentemente dal Livello della Maestria.
+- *Da vicino:* l'Evocatore deve essere in grado di vedere direttamente il Bersaglio al momento dell'attivazione. La Sincronia segue la normale durata prevista dal Livello posseduto.
+- *A distanza:* l'Evocatore deve possedere un Oggetto appartenuto personalmente al Bersaglio. In questo caso la Sincronia dura sempre e soltanto 1 post dell'Evocatore, indipendentemente dal Livello della Maestria.
 Per utilizzare un Oggetto appartenuto al Bersaglio, questo deve essere stato ottenuto ONGame attraverso un'azione effettivamente giocata. Non può essere posseduto per semplice Background, dichiarazione retroattiva o accordo OFFGame non giocato.
 L'acquisizione dell'Oggetto deve essere convalidata dal Narratore, che può trasformare la relativa role in Role Masterata oppure confermarne direttamente il possesso.
 
@@ -56,25 +57,25 @@ Il suo corpo rimane immobile e non può compiere altre Azioni Principali finché
 La Sincronia viene sempre stabilita con successo e il primo post di utilizzo non richiede alcun dado di Concentrazione.
 A partire dall'eventuale secondo post consecutivo in cui mantiene attiva la Sincronia, l'Evocatore deve verificare di riuscire a conservare la concentrazione.
 Mantiene la connessione se estrae un risultato compreso fra 1 e Volontà dopo aver lanciato:
-• *Livello I:* 1d50;
-• *Livello II:* 1d40;
-• *Livello III:* 1d30.
+- *Livello I:* 1d50;
+- *Livello II:* 1d40;
+- *Livello III:* 1d30.
 In caso di fallimento, la Sincronia termina immediatamente.
 La Sincronia termina inoltre se l'Evocatore decide volontariamente di interromperla, perde conoscenza o si trova in una condizione che gli impedisce completamente di mantenere la concentrazione.
 
 Interruzioni ONGame
 Se, mentre mantiene attiva la Sincronia, l'Evocatore viene disturbato o interrotto ONGame, subisce un Malus alla Volontà utilizzata per il dado di Concentrazione:
-• *Livello I:* -3 Volontà;
-• *Livello II:* -2 Volontà;
-• *Livello III:* -1 Volontà.
+- *Livello I:* -3 Volontà;
+- *Livello II:* -2 Volontà;
+- *Livello III:* -1 Volontà.
 Il Narratore può aumentare il Malus qualora l'interruzione sia particolarmente intensa o renda più difficile mantenere il collegamento sensoriale.
 Il Malus viene applicato esclusivamente al dado di Concentrazione relativo al post in cui si verifica l'interruzione.
 
 **Fatica Consumata**
 Per ogni Post di utilizzo, il PG Evocatore consuma:
-• *Livello I:* 2 Fatica
-• *Livello II:* 1,5 Fatica
-• *Livello III:* 1 Fatica.
+- *Livello I:* 2 Fatica
+- *Livello II:* 1,5 Fatica
+- *Livello III:* 1 Fatica.
 
 **Specifiche OFFGame**
 La Maestria può essere attivata in qualsiasi momento compatibile con le condizioni previste per il suo utilizzo.
@@ -91,9 +92,9 @@ Quando la Sincronia viene invece attivata a distanza, non è possibile percepire
 Accorgersi dell'invasione
 Una volta stabilita la Sincronia, il Bersaglio può percepire la presenza estranea collegata ai propri sensi.
 Può effettuare un solo tentativo per ciascuna attivazione della Maestria e riesce se estrae un risultato compreso fra 1 e Volontà + 1 Possibilità per ogni Livello di Occlumanzia posseduto dopo aver lanciato:
-• *Livello I:* 1d30;
-• *Livello II:* 1d40;
-• *Livello III:* 1d50.
+- *Livello I:* 1d30;
+- *Livello II:* 1d40;
+- *Livello III:* 1d50.
 Con esito positivo, il Bersaglio comprende di essere vittima di un'invasione mentale.
 Con esito negativo, non è consapevole della Sincronia in corso.
 Accorgersi dell'invasione non interrompe automaticamente la Maestria.
@@ -101,9 +102,9 @@ Accorgersi dell'invasione non interrompe automaticamente la Maestria.
 Resistere all'invasione
 Soltanto un Bersaglio che si sia accorto della Sincronia può tentare di chiudere la propria mente all'Evocatore.
 Può effettuare un solo tentativo per ciascuna attivazione della Maestria e riesce se estrae un risultato compreso fra 1 e Volontà + 1 Possibilità per ogni Livello di Occlumanzia posseduto dopo aver lanciato:
-• *Livello I:* 1d30;
-• *Livello II:* 1d40;
-• *Livello III:* 1d50.
+- *Livello I:* 1d30;
+- *Livello II:* 1d40;
+- *Livello III:* 1d50.
 Con esito positivo, la Sincronia termina immediatamente e l'Evocatore non può più percepire attraverso i sensi del Bersaglio.
 Con esito negativo, la connessione prosegue normalmente fino alla propria naturale conclusione.
 L'interruzione non annulla retroattivamente quanto l'Evocatore abbia già percepito.
@@ -113,3 +114,5 @@ Rilevare la connessione in corso
 PG presenti nella stessa scena del Bersaglio possono accorgersi di una Sincronia già stabilita effettuando il normale dado di Tracciatura (Linguaggio Magico).
 Questa possibilità è distinta dalla Tracciatura effettuata per accorgersi preventivamente del tentativo di attacco: può essere utilizzata anche quando il collegamento è stato stabilito a distanza.
 Se il Bersaglio viene avvertito da un altro PG della presenza del collegamento, viene considerato consapevole dell'invasione e può quindi tentare direttamente di resistervi, purché la Sincronia sia ancora attiva.
+
+</details>
