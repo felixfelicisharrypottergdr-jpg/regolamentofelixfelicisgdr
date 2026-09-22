@@ -57,15 +57,15 @@ si viene convocati.
 ## Quale Missione viene assegnata ai PG?
 
 Si lancia un dado per stabilire di che genere di incarico si tratta.
-• È possibile tentare nuove Missioni rinunciando a quella ricevuta (assegnata all’ultimo
+- È possibile tentare nuove Missioni rinunciando a quella ricevuta (assegnata all’ultimo
 momento ad altri PPNG Auror) fino a un massimo di 3 volte per role, a patto che ogni
 tentativo venga ruolato ONGame. Questo significa che, sebbene di base i PG possano dare
 per scontato di avere sempre una missione in corso senza bisogno di lanciare dadi per
 ottenerla, qualora decidano di abbandonarla e cercarne una nuova, non potranno farlo
 semplicemente con un tiro di dado: dovranno invece interpretare e sviluppare attivamente
 nel gioco questa scelta.
-• E' possibile occuparsi di una sola Missione per role.
-• Non c'è un limite di post per svolgere la Missione interamente, salvo diverse specifiche.
+- E' possibile occuparsi di una sola Missione per role.
+- Non c'è un limite di post per svolgere la Missione interamente, salvo diverse specifiche.
 
 **Le Missioni**
 Per stabilire a quale missione si è assegnati, bisogna lanciare 1d5.
@@ -93,18 +93,19 @@ quella da cui si attinge sia stata completata con successo.
 Soltanto in questo caso non è richiesto lanciare 1d5 per determinare il tipo di Missione da
 svolgere.
 
-#### 1. Inseguimento : inseguire fuggitivi o criminali in fuga
+<details><summary><strong>1. Inseguimento : inseguire fuggitivi o criminali in fuga</strong></summary>
+
 
 Questa missione prevede l’inseguimento di un bersaglio già identificato: può trattarsi di
 criminali in fuga oppure di creature scappate al controllo dei magizoologi che stanno
 seminando il caos.
 I PG dovranno rilevarne i movimenti, avviare un inseguimento attivo e tentare di bloccarli o
 catturarli prima che riescano a dileguarsi.
-• Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
+- Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
 appropriate, possono essere utilizzate nello stesso post e i rispettivi bonus si sommano
-• Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
-• Quando una formula prevede la divisione di un valore, il risultato viene sempre arrotondato
+- Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
+- Quando una formula prevede la divisione di un valore, il risultato viene sempre arrotondato
 per difetto
 Il luogo deve essere uno dei seguenti, scelto liberamente dai player o mediante un lancio di
 un dado (1d12).
@@ -138,9 +139,9 @@ totale del valore più alto fra Acume e Percezione + (il valore più alto fra Sa
 e Sapienza Difensiva)/5 + Bonus Oggetti + Bonus Conoscenza + Bonus Pozione.
 **Bonus Conoscenze o Pozioni:** utilizzando Conoscenze o Pozioni appropriate
 (consumando Fatica o risorse dalla Borsa) si ottiene:
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (se almeno un PG ha successo):* i PG riescono a individuare la direzione di
@@ -155,9 +156,9 @@ complessi o ambienti pericolosi.
 totale della propria Destrezza + Bonus Oggetti + Bonus Conoscenza + Bonus Pozione.
 **Bonus Conoscenze o Pozioni:** utilizzando Conoscenze o Pozioni appropriate
 (consumando Fatica o risorse dalla Borsa) si ottiene:
-• Conoscenza Scolastica o Pozione Standard: +3 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +5 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +7 possibilità
+- Conoscenza Scolastica o Pozione Standard: +3 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +5 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +7 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.*Successo (se almeno un PG ha successo):* i PG riescono a rimanere sulle tracce dei
 bersagli e si passa alla Fase III.
@@ -169,18 +170,18 @@ Auror.
 **Descrizione:** il PG tenta di bloccare uno o più bersagli per catturarli.
 **Esecuzione:** il PG lancia 1d30 e riesce se estrae un numero compreso fra 1 e il
 totale ottenuto con la formula appropriata al tipo di bersaglio:
-• *Destrezza + Fatica - Destrezza Bersaglio Umano + Bonus Oggetti + Bonus Conoscenza
+- *Destrezza + Fatica - Destrezza Bersaglio Umano + Bonus Oggetti + Bonus Conoscenza
 + Bonus Pozione*, se il bersaglio è umano;
-• *Empatia + Sapienza Magizoologica/5 + Lv Amico delle Creature - Destrezza Bersaglio
+- *Empatia + Sapienza Magizoologica/5 + Lv Amico delle Creature - Destrezza Bersaglio
 Creatura + Bonus Oggetti + Bonus Conoscenza + Bonus Pozione*, se il bersaglio è una
 Creatura. In questo caso si utilizza la Destrezza indicata nello specchietto della Creatura.
 Se sono presenti più bersagli con valori di Destrezza differenti, ciascun PG utilizza nella
 propria formula la Destrezza del bersaglio sul quale sta intervenendo.
 **Bonus Conoscenze o Pozioni:** utilizzando Conoscenze o Pozioni appropriate
 (consumando Fatica o risorse dalla Borsa) si ottiene:
-• Conoscenza Scolastica o Pozione Standard: +3 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +5 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +10 possibilità
+- Conoscenza Scolastica o Pozione Standard: +3 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +5 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +10 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (se almeno un PG ha successo):* i bersagli vengono catturati. La Missione
@@ -198,19 +199,19 @@ Destrezza del bersaglio: 10 + 1d8 → esce 5 → Totale Destrezza = 15
 **Fase I – Intercettazione**
 I PG cercano di rilevare la direzione di fuga. Si muovono fra vicoli stretti e botteghe chiuse,
 attenti a ogni segnale.
-• **PG1** ha Acume 12 e Sapienza Offensiva 15
+- **PG1** ha Acume 12 e Sapienza Offensiva 15
 → 12 + (15/5 = 3) + 3 Pozione Oltre Ogni Previsione = **18 possibilità su 40**
 Lancia 1d40, esce 22 → **fallisce**
-• **PG2** ha Percezione 14 e Sapienza Offensiva 10
+- **PG2** ha Percezione 14 e Sapienza Offensiva 10
 → 14 + (10/5 = 2) + 5 Conoscenza Avanzata = **21 possibilità su 40**Lancia 1d40, esce 12 → **riesce**
 **PG2** scova un incantesimo di occultamento mal cancellato sul retro di un negozio.
 Poiché almeno un PG ha avuto successo, si prosegue alla **Fase II**.
 **Fase II – Inseguimento Attivo**
 I PG si lanciano tra le strade e i tetti, inseguendo il sospetto che corre a perdifiato,
 spingendo via passanti e rovesciando casse.
-• **PG1** ha Destrezza 13 + 7 Pozione Eccezionale = **20 possibilità su 30**
+- **PG1** ha Destrezza 13 + 7 Pozione Eccezionale = **20 possibilità su 30**
 Lancia 1d30, esce 16 → **riesce**
-• **PG2** ha Destrezza 11
+- **PG2** ha Destrezza 11
 Non usa bonus.
 → **11 possibilità su 30**
 Lancia 1d30, esce 28 → **fallisce**
@@ -225,17 +226,20 @@ Lancia 1d30, esce 6 → **riesce**
 facendolo precipitare tra i bidoni. Il sospetto viene subito immobilizzato.
 La Missione è completata con successo.
 
-#### 2. Irruzione e Arresto : entrare con la forza in luoghi sospetti e procedere all’arresto di maghi oscuri o contrabbandieri
+</details>
+
+<details><summary><strong>2. Irruzione e Arresto : entrare con la forza in luoghi sospetti e procedere all’arresto di maghi oscuri o contrabbandieri</strong></summary>
+
 
 Questa missione prevede l’irruzione in un luogo sospetto - magazzini, rifugi, case
 abbandonate, scantinati, ecc. - con l’obiettivo di interrompere attività illecite (come
 contrabbando, uso di magia oscura, prigionia illegale, tortura o raduni di Maghi Oscuri,
 vendita di sostanze illegali, ecc.) e procedere all’arresto dei responsabili.
-• Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
+- Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
 appropriate, possono essere utilizzate nello stesso post e i rispettivi bonus si sommano
-• Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
-• Quando una formula prevede la divisione di un valore, il risultato viene sempre arrotondato
+- Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
+- Quando una formula prevede la divisione di un valore, il risultato viene sempre arrotondato
 per difetto
 Il luogo deve essere uno dei seguenti, scelto liberamente dai player o mediante un lancio di
 un dado (1d8).
@@ -262,9 +266,9 @@ allarmi o punti di accesso.
 valore più alto fra Acume e Percezione + (il valore più alto fra Sapienza Offensiva e
 Sapienza Difensiva)/5 + Bonus Oggetti + Bonus Conoscenza + Bonus Pozione.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (se tutti i PG hanno successo):* si passa alla Fase II senza penalità.
@@ -282,8 +286,8 @@ e Resistenza - eventuale Malus di 5 derivante dalla Fase I + Bonus Oggetti + Bon
 Conoscenza + Bonus Pozione.
 È possibile utilizzare incantesimi, Conoscenze e Pozioni.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (se tutti i PG hanno successo):* si accede alla Fase III. Se tutti i PG hanno
@@ -302,13 +306,13 @@ numero compreso fra 1 e il valore più alto fra Sapienza Offensiva e Sapienza Di
 Potenza - Destrezza del Bersaglio + Bonus Oggetti + Bonus Conoscenza + Bonus Pozione
 + eventuale Bonus/Malus della Fase II.
 Il modificatore della Fase II è:
-• +5 se tutti i PG hanno superato sia la Fase I sia la Fase II;
-• 0 se la Fase II è riuscita ma la Fase I era fallita;
-• -5 se anche un solo PG ha fallito la Fase II.
+- +5 se tutti i PG hanno superato sia la Fase I sia la Fase II;
+- 0 se la Fase II è riuscita ma la Fase I era fallita;
+- -5 se anche un solo PG ha fallito la Fase II.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +3 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +5 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +10 possibilità
+- Conoscenza Scolastica o Pozione Standard: +3 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +5 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +10 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo:* ogni Bersaglio è considerato catturato se almeno uno dei PG che lo sta
@@ -326,9 +330,9 @@ degli scantinati di Notturn Alley.
 *Destrezza Bersaglio A:* 10 + 1d8 → esce 6 → 16
 *Destrezza Bersaglio B:* 10 + 1d8 → esce 3 → 13
 **Fase I – Valutazione e Preparazione**
-• PG1: Acume 14, Sapienza Difensiva 10, Conoscenza Extra +3
+- PG1: Acume 14, Sapienza Difensiva 10, Conoscenza Extra +3
 14 + (10/5 = 2) + 3 = **19 possibilità su 40**Lancia 1d40, esce 17 → **riesce**
-• PG2: Percezione 10, Sapienza Offensiva 15, Pozione Standard +1
+- PG2: Percezione 10, Sapienza Offensiva 15, Pozione Standard +1
 10 + (15/5 = 3) + 1 = **14 possibilità su 40**
 Lancia 1d40, esce 21 → **fallisce**
 Poiché almeno un PG ha fallito, tutti ricevono -5 nella Fase II.
@@ -341,11 +345,11 @@ Resistenza 11 - 5 + 5 Pozione Eccezionale = **11 possibilità su 30**
 Lancia 1d30, esce 9 → **riesce**
 Poiché almeno un PG ha fallito, tutti ricevono -5 nella Fase III.
 **Fase III – Confronto e Arresto**
-• **PG1** affronta Bersaglio A:
+- **PG1** affronta Bersaglio A:
 Sapienza Offensiva 14 + Potenza 12 - Destrezza 16 - 5 Malus Fase II + 5 Conoscenza Extra
 = **10 possibilità su 40**
 Lancia 1d40, esce 27 → **fallisce**
-• **PG2** affronta Bersaglio B:
+- **PG2** affronta Bersaglio B:
 Sapienza Difensiva 13 + Potenza 11 - Destrezza 13 - 5 Malus Fase II + 5 Pozione Oltre Ogni
 Previsione = **11 possibilità su 40**
 Lancia 1d40, esce 9 → **riesce**
@@ -353,16 +357,19 @@ Solo il Bersaglio B viene catturato. Il Bersaglio A riesce a fuggire da un passa
 secondario.
 La Missione è **fallita**.
 
-#### 3. Scorta e Protezione : accompagnare e proteggere streghe, maghi o oggetti magici di rilievo durante spostamenti rischiosi.
+</details>
+
+<details><summary><strong>3. Scorta e Protezione : accompagnare e proteggere streghe, maghi o oggetti magici di rilievo durante spostamenti rischiosi.</strong></summary>
+
 
 Questa missione prevede che il PG debba accompagnare in sicurezza una persona, un
 gruppo o un oggetto magico durante uno spostamento in zone ad alto rischio. I pericoli
 possono includere agguati, creature, trappole magiche o maledizioni.
-• Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
+- Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
 appropriate, possono essere utilizzate nello stesso post e i rispettivi bonus si sommano
 quando la prova prevede un Bonus Conoscenza o Pozione
-• Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
+- Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
 Il luogo in cui avviene lo spostamento può essere scelto dai player o determinato con un
 lancio di 1d5:
 
@@ -494,30 +501,33 @@ Lo Scortato perde 5 Resistenza.
 **Stato dello Scortato:** Resistenza 16 - 5 = **11**.
 **Fase II – Tratto intermedio e coordinamento**• PG1: Destrezza 14 + Acume 12 = **26 possibilità su 40**
 Lancia 1d40, esce 32 → **fallisce**
-• PG2: Destrezza 13 + Acume 15 = **28 possibilità su 40**
+- PG2: Destrezza 13 + Acume 15 = **28 possibilità su 40**
 Lancia 1d40, esce 14 → **riesce**
 Poiché almeno un PG ha fallito, si determina l'Imprevisto.
 1d5 → esce 3 → un osservatore ostile individua il gruppo.
 Tutti i PG ricevono -5 nella Fase III.
 **Fase III – Consegna e Conclusione**
-• PG1: Destrezza 14 + Acume 12 - 5 = **21 possibilità su 50**
+- PG1: Destrezza 14 + Acume 12 - 5 = **21 possibilità su 50**
 Lancia 1d50, esce 34 → **fallisce**
-• PG2: Destrezza 13 + Acume 15 - 5 = **23 possibilità su 50**
+- PG2: Destrezza 13 + Acume 15 - 5 = **23 possibilità su 50**
 Lancia 1d50, esce 18 → **riesce**
 Poiché anche un solo PG ha fallito, l'Oggetto viene sottratto dai predoni e la Missione è
 fallita.
 
-#### 4. Missione sotto Copertura : infiltrarsi tra criminali, sette oscure o mercati illegali per ottenere informazioni o prove
+</details>
+
+<details><summary><strong>4. Missione sotto Copertura : infiltrarsi tra criminali, sette oscure o mercati illegali per ottenere informazioni o prove</strong></summary>
+
 
 Questa missione richiede l’infiltrazione in un ambiente criminale per raccogliere prove o
 ottenere informazioni, mantenendo una copertura credibile nel tempo. Le tre fasi
 rappresentano momenti diversi della missione: l’ingresso, il radicamento e la raccolta finale
 di informazioni o prove. Ogni Fase influenza direttamente la successiva.
-• Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
+- Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
 appropriate, possono essere utilizzate nello stesso post e i rispettivi bonus si sommano
-• Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
-• Quando una formula prevede la divisione di un valore, il risultato viene sempre arrotondato
+- Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
+- Quando una formula prevede la divisione di un valore, il risultato viene sempre arrotondato
 per difetto
 Il luogo in cui avviene la missione può essere scelto dai player o determinato con un lancio
 di 1d10:
@@ -542,10 +552,10 @@ presenta nel luogo scelto.
 Volontà + Dialettica + (il valore più alto fra Sapienza Mentale e Sapienza Trasfigurativa)/5 +
 Bonus Oggetti + eventuale Bonus Transmuto + eventuale Bonus Polisucco.
 **Bonus:**
-• Transmuto: +5 possibilità
-• Polisucco Standard: +7 possibilità
-• Polisucco Oltre Ogni Previsione: +10 possibilità
-• Polisucco Eccezionale: +15 possibilità
+- Transmuto: +5 possibilità
+- Polisucco Standard: +7 possibilità
+- Polisucco Oltre Ogni Previsione: +10 possibilità
+- Polisucco Eccezionale: +15 possibilità
 Transmuto e Polisucco possono essere utilizzati nello stesso post, se appropriati, e i
 rispettivi bonus si sommano.
 **Nota:** ONGame l'uso di Transmuto o della Polisucco avviene continuativamente nel
@@ -561,9 +571,9 @@ sospetti, interagendo con i membri e guadagnandosi la loro fiducia.
 Volontà + Punti Sinistri + Sapienza Mentale/2 + Dialettica + Bonus Oggetti + Bonus
 Conoscenza + Bonus Pozione + Bonus/Malus personale della Fase I.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (ogni PG per sé):* il PG si ambienta completamente e riceve +3 nella
@@ -579,8 +589,8 @@ Il PG può tentare di sottrarre prove fisiche prima della Raccolta di Informazio
 *Esecuzione:* lanciando 1d30, il PG riesce se estrae un risultato compreso fra 1 e
 Destrezza + Bonus Oggetti + Bonus Conoscenza + Bonus Pozione.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (ogni PG per sé):* il PG ottiene +10 nel proprio successivo tiro di Raccolta
@@ -597,9 +607,9 @@ eventuale +10 per le prove rubate + Bonus Oggetti + Bonus Conoscenza + Bonus Poz
 Il modificatore personale derivante dalla Fase II è +3 in caso di successo oppure -3 in caso
 di fallimento.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (ogni PG per sé):* il PG ottiene una prova schiacciante o informazioni vitali
@@ -616,46 +626,49 @@ anche da quelli che hanno fallito.
 sotterranei del Ministero della Magia.
 Luogo della missione: 1d10 → esce 10 → **Ministero della Magia**.
 **Fase I – Ingresso e Creazione della Copertura**
-• PG1: Volontà 14 + Dialettica 10 + Sapienza Mentale 15/5 = 3 + Polisucco Eccezionale 15
+- PG1: Volontà 14 + Dialettica 10 + Sapienza Mentale 15/5 = 3 + Polisucco Eccezionale 15
 = **42 possibilità su 50**
 Lancia 1d50, esce 31 → **riesce**
-• PG2: Volontà 12 + Dialettica 9 + Sapienza Mentale 10/5 = 2 + Polisucco Standard 7
+- PG2: Volontà 12 + Dialettica 9 + Sapienza Mentale 10/5 = 2 + Polisucco Standard 7
 = **30 possibilità su 50**
 Lancia 1d50, esce 38 → **fallisce**
 PG1 riceve +5 nella propria Fase II; PG2 riceve -5.**Fase II – Permanenza e Integrazione**
-• PG1: Volontà 14 + Punti Sinistri 6 + Sapienza Mentale 15/2 = 7 + Dialettica 10 + 5
+- PG1: Volontà 14 + Punti Sinistri 6 + Sapienza Mentale 15/2 = 7 + Dialettica 10 + 5
 = **42 possibilità su 40**
 La soglia raggiunge il massimo del dado: la prova è automaticamente riuscita.
-• PG2: Volontà 12 + Punti Sinistri 8 + Sapienza Mentale 10/2 = 5 + Dialettica 9 - 5
+- PG2: Volontà 12 + Punti Sinistri 8 + Sapienza Mentale 10/2 = 5 + Dialettica 9 - 5
 = **29 possibilità su 40**
 Lancia 1d40, esce 34 → **fallisce**
 PG1 riceve +3 nella propria Fase III; PG2 riceve -3.
 **Fase III – Raccolta e Uscita**
 *Tentativo facoltativo di rubare le prove:*
-• PG1: Destrezza 15 + Pozione Eccezionale 5 = **20 possibilità su 30**
+- PG1: Destrezza 15 + Pozione Eccezionale 5 = **20 possibilità su 30**
 Lancia 1d30, esce 11 → **riesce** → +10 alla Raccolta di Informazioni.
-• PG2: Destrezza 13
+- PG2: Destrezza 13
 Lancia 1d30, esce 17 → **fallisce**.
 PG2 viene scoperto e non può effettuare il tiro successivo.
 *Raccolta di Informazioni:*
-• PG1: Punti Sinistri 6 + Volontà 14 + Sapienza Mentale 15/5 = 3 + 3 dalla Fase II + 10 dalle
+- PG1: Punti Sinistri 6 + Volontà 14 + Sapienza Mentale 15/5 = 3 + 3 dalla Fase II + 10 dalle
 prove rubate
 = **36 possibilità su 40**
 Lancia 1d40, esce 29 → **riesce**
 PG1 ottiene prove decisive e riesce a uscire in sicurezza. Poiché almeno un PG ha
 completato con successo la Raccolta di Informazioni, la Missione è completata per entrambi.
 
-#### 5. Sventare uno Scontro : prevenire o interrompere uno scontro clandestino o un conflitto tra maghi o gruppi criminali.
+</details>
+
+<details><summary><strong>5. Sventare uno Scontro : prevenire o interrompere uno scontro clandestino o un conflitto tra maghi o gruppi criminali.</strong></summary>
+
 
 Gli Auror giungono su segnalazione o per puro caso sul luogo di uno scontro magico già in
 atto: bande di maghi oscuri, duellanti clandestini, liti fra insospettabili o gruppi rivali si stanno
 affrontando in un luogo isolato o nascosto. La situazione è già degenerata e i PG devono
 intervenire rapidamente per contenere il conflitto, evitare vittime e arrestare i colpevoli.
-• Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
-• Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
+- Gli incantesimi o le Conoscenze utilizzate hanno sempre riuscita al 100%
+- Si può utilizzare al massimo una Conoscenza e una Pozione per post. Se entrambe sono
 appropriate, possono essere utilizzate nello stesso post e i rispettivi bonus si sommano
-• Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
-• Quando una formula prevede la divisione di un valore, il risultato viene sempre arrotondato
+- Si possono usare Oggetti o altro dalla Borsa per ottenere i bonus indicati nel Prezzario
+- Quando una formula prevede la divisione di un valore, il risultato viene sempre arrotondato
 per difetto
 Il luogo in cui avviene lo scontro può essere scelto dai player o determinato con un lancio di
 1d13:
@@ -681,9 +694,9 @@ rapidamente i responsabili principali e il punto migliore da cui intervenire.
 valore più alto fra Percezione e Acume + (il valore più alto fra Sapienza Arcaica e Sapienza
 Divinatoria)/5 + Destrezza/2 + Bonus Oggetti + Bonus Conoscenza + Bonus Pozione.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (se almeno un PG ha successo):* i PG comprendono subito la situazione e
@@ -707,9 +720,9 @@ Sapienza Offensiva/2 + Destrezza + Bonus Oggetti + Bonus Conoscenza + Bonus Pozi
 modificano direttamente i relativi Parametri e non vengono sommati nuovamente alla
 formula.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (se tutti i PG hanno successo):* i PG riescono a contenere lo scontro e si
@@ -726,9 +739,9 @@ Bonus Oggetti + Bonus Conoscenza + Bonus Pozione.
 Eventuali modificatori alla Destrezza ancora attivi vengono applicati al Parametro prima del
 calcolo.
 **Bonus Conoscenze o Pozioni:**
-• Conoscenza Scolastica o Pozione Standard: +1 possibilità
-• Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
-• Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
+- Conoscenza Scolastica o Pozione Standard: +1 possibilità
+- Conoscenza Extra o Pozione Oltre Ogni Previsione: +3 possibilità
+- Conoscenza Avanzata o Pozione Eccezionale: +5 possibilità
 Se vengono utilizzate nello stesso post una Conoscenza e una Pozione appropriate,
 entrambi i bonus vengono applicati.
 *Successo (se almeno un PG ha successo):* i principali responsabili vengono arrestati
@@ -744,13 +757,13 @@ altri Auror.
 I PG stanno rispondendo a una segnalazione di un duello clandestino degenerato in uno
 scontro tra bande nel retro di un vicolo a Notturn Alley (1d13 → esce 3).
 **Fase I – Valutazione Rapida**
-• PG1:
+- PG1:
 Percezione 12, Acume 15 → usa Acume 15
 Sapienza Divinatoria 10/5 = 2
 Destrezza 10/2 = 5Conoscenza Extra +3
 Totale = 15 + 2 + 5 + 3 = **25 possibilità su 40**
 Lancia 1d40, esce 14 → **riesce**
-• PG2:
+- PG2:
 Percezione 16, Acume 13 → usa Percezione 16
 Sapienza Arcaica 15/5 = 3
 Destrezza 14/2 = 7
@@ -760,13 +773,13 @@ Lancia 1d40, esce 34 → **fallisce**
 Poiché almeno un PG ha avuto successo, la Fase I è riuscita e tutti ricevono +5 nella Fase
 II. Nessun PG subisce il malus di -3 Destrezza e Resistenza.
 **Fase II – Contenimento**
-• PG1 usa incanti difensivi:
+- PG1 usa incanti difensivi:
 Sapienza Difensiva 12/2 = 6
 Resistenza 14
 Bonus Fase I +5
 Totale = **25 possibilità su 40**
 Lancia 1d40, esce 18 → **riesce**
-• PG2 usa un approccio offensivo:
+- PG2 usa un approccio offensivo:
 Sapienza Offensiva 10/2 = 5
 Destrezza 14
 Pozione Oltre Ogni Previsione +3
@@ -776,14 +789,14 @@ Lancia 1d40, esce 24 → **riesce**
 Poiché tutti i PG hanno avuto successo, lo scontro viene contenuto e si passa alla Fase III
 senza compromissioni.
 **Fase III – Risoluzione e Arresti**
-• PG1:
+- PG1:
 Sapienza Difensiva 12/5 = 2
 Destrezza 10
 Acume 15
 Conoscenza Avanzata +5
 Totale = **32 possibilità su 50**
 Lancia 1d50, esce 29 → **riesce**
-• PG2:
+- PG2:
 Sapienza Offensiva 10/5 = 2
 Destrezza 14
 Acume 13
@@ -792,3 +805,5 @@ Lancia 1d50, esce 41 → **fallisce**
 Poiché almeno un PG ha avuto successo, la Missione è completata.
 PG1 riesce a sigillare le uscite laterali e a immobilizzare i principali responsabili, mentre uno
 dei maghi affrontati da PG2 riesce a smaterializzarsi.
+
+</details>
