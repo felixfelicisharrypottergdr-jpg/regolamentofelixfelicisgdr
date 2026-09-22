@@ -34,7 +34,7 @@ e sugli esseri viventi. Può essere usato sulle superfici, con delle limitazioni
 E' possibile annullare la trasfigurazione con un Reparifarge più forte del Gommosus
 utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -72,3 +72,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 PG
+
+</details>

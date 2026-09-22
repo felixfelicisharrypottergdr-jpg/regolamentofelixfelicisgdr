@@ -38,7 +38,7 @@ Dall'estrazione è escluso l'Incantesimo [Avada Kedavra](/manuali/incantesimi/av
 Funziona anche su altri esseri viventi, che saranno indotti ad attaccarsi da soli se non
 utilizzano la bacchetta magica per attaccare.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -60,7 +60,7 @@ ed Illusioni, Offensivi, Oscuri, Trasfigurativi), e poi **1dIncantesimi** per st
 quale incantesimo si tratta. I dadi dipendono ovviamente dalle Conoscenze possedute dal
 PG bersaglio.
 **Rendersi conto di essere vittime di un Incantesimo Mentale**
-• Il PG bersaglio si accorge di essere vittima di un Incantesimo Mentale se, lanciando 1d30,
+- Il PG bersaglio si accorge di essere vittima di un Incantesimo Mentale se, lanciando 1d30,
 estrae un numero compreso fra 1-Volontà. PG con
 Occlumanzia aggiungono 1 possibilità per ogni livello
 di Occlumanzia posseduto.• I PG che vi interagiscono possono accorgersi che il PG Bersaglio è vittima di un'illusione
@@ -103,3 +103,5 @@ Se la Forza dell'Incantesimo precedentemente evocato è...
 - 33%: -3 Parametri sopra per 4 post del PG bersaglio dal termine dell'Incantesimo
 *Incantesimo lanciato da PG Adulti con Sapienza Mentale 1+*Se la Forza dell'Incantesimo precedentemente evocato è...
 - 100%: nessuno
+
+</details>

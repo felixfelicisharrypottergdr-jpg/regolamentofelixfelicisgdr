@@ -37,7 +37,7 @@ dellaLegge di Gamp sulla Trasfigurazione degli elementi.
 La copia svanisce col passare del tempo o utilizzando su di essa l'incantesimo
 [Reparifarge](/manuali/incantesimi/reparifarge/) più forte del Geminio utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -54,3 +54,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: max 4 copie per 4 post
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 - 100%: max 5 copie per 5 post
+
+</details>

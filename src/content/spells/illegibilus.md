@@ -36,7 +36,7 @@ dura diverso tempo a meno che non venga annullata mediante l'uso di un
 [Finite Incantatem](/manuali/incantesimi/finiteincantatem/) con più Forza della
 Fattura.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -59,3 +59,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 **Accorgersi della presenza della fattura**
 Un PG può accorgersi accorgersi che il testo è stato manomesso con la magia e agire di
 conseguenza agendo come spiegato nella Guida alla Tracciatura.
+
+</details>

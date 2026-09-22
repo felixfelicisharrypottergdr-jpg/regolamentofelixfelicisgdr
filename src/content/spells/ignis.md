@@ -35,7 +35,7 @@ Evoca un fuoco di colore blu che scalda senza bruciare; utile per riscaldarsi al
 asciugarsi se bagnati e trovarne ristoro. Può essere spento soltanto utilizzando su di esso
 [Reparifarge](/manuali/incantesimi/reparifarge/) o con lo scorrere del tempo.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -53,3 +53,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: se stesso + 3; 4 post dell'evocatore
 *Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 - 100%: se stesso + 4; 5 post dell'evocatore
+
+</details>

@@ -44,11 +44,11 @@ Non funziona sugli esseri viventi.
 
 > **Nota.**
 >
-• PG con [Spezzaincantesimi](/manuali/incantesimi/spezzaincantesimi/) o
+- PG con [Spezzaincantesimi](/manuali/incantesimi/spezzaincantesimi/) o
 [Esorcista](/manuali/incantesimi/esorcista/) fra le Conoscenze possono provare ad
 eliminare la maledizione dall'oggetto prima che si moltiplichi.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -84,7 +84,9 @@ Se la maledizione viene lanciata su un oggetto che si trova in uno spazio aperto
 in uno spazio chiuso che si può riempire, gli oggetti continueranno a moltiplicarsi per un
 certo numero di post che dipende dalla riuscita della maledizione da parte dell'evocatore.
 Gli oggetti continuano a moltiplicarsi per...
-• 100%: 10 post di tutti i partecipanti alla role in cui l'oggetto maledetto viene toccato
-• 66%: 8 post di tutti i partecipanti alla role in cui l'oggetto maledetto viene toccato
-• 33%: 5 post di tutti i partecipanti alla role in cui l'oggetto maledetto viene
+- 100%: 10 post di tutti i partecipanti alla role in cui l'oggetto maledetto viene toccato
+- 66%: 8 post di tutti i partecipanti alla role in cui l'oggetto maledetto viene toccato
+- 33%: 5 post di tutti i partecipanti alla role in cui l'oggetto maledetto viene
 toccato
+
+</details>

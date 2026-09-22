@@ -38,7 +38,7 @@ ancora qualche tempo.
 
 > **Nota.**
 >
-• *Glacius Maxima* può funzionare anche come scudo e riesce a schermare
+- *Glacius Maxima* può funzionare anche come scudo e riesce a schermare
 incantesimi avversari ed elementi fisici soltanto se il blocco di ghiaccio che viene generato a
 protezione di qualcuno/qualcosa ed ha più Forza dell'incantesimo combattuto.• Poiché il ghiaccio che viene creato è ghiaccio fisico e non magico, è possibile annullare
 l'incantesimo soltanto sciogliendo il ghiaccio o attendendo che si rompa/sciolga da
@@ -49,7 +49,7 @@ solo.
 PG che utilizzano incantesimi di ghiaccio ONGame contraggono la
 Falangelatese, lanciando 1d10, pescano 1.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -81,3 +81,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 - 66%: 5 post del bersaglio
 - 33%: 4 post del bersaglio
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*- 100%: 7 post del bersaglio
+
+</details>

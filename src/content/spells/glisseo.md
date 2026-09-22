@@ -33,7 +33,7 @@ Trasforma il pavimento ai piedi dell'avversario in un pendio scivoloso;
 è utile per far scivolare l'avversario o fargli perdere l'equilibrio, rallentando la sua corsa.
 E' possibile annullare la trasfigurazione con un Reparifarge più forte del Glisseo utilizzato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -51,3 +51,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 4 post dell'evocatore*Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 post dell'evocatore
+
+</details>

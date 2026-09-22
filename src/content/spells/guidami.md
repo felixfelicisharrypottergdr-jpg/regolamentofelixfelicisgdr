@@ -29,6 +29,8 @@ migration:
 Trasforma la bacchetta in una bussola. Essa, infatti, tende a
 muoversi sempre verso il nord; utile per orientarsi in luoghi sconosciuti.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** 5 post dell’evocatore
+
+</details>

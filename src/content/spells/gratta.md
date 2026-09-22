@@ -30,8 +30,10 @@ migration:
 Consente di animare pentole, padelle e utensili di vario tipo
 perché si lavino da soli.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
 **Parametro del bersaglio intaccato:** //
+
+</details>

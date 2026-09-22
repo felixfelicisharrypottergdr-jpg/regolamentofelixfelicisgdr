@@ -38,7 +38,7 @@ La sagoma del PG bersaglio si illuminerà di un alone azzurrognolo e quest’ult
 improvvisamente appesantito e come ricoperto da un’ombra: sa, quindi, di essere stato
 individuato perché riconoscerà l’effetto dell’Incantesimo Homenum Revelio su di sé.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -78,3 +78,5 @@ Se la Potenza dell'Incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Arcaica 1+*
 Se la Potenza dell'Incantesimo precedentemente evocato è...
 -100%: max 5
+
+</details>

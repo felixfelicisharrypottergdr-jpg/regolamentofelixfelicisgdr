@@ -35,7 +35,7 @@ forma umana sente frantumarsi e ricomporsi tutte le ossa del suo corpo e i musco
 e allungarsi. Tutto ciò gli provoca dolore e sofferenza che permane anche al termine del
 processo e per tutto il tempo che rimane de-trasfigurato.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -61,3 +61,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 - 33%: -60% dei suoi Parametri Fisici, Sociali e Magici per 6 post del bersaglio*Incantesimo lanciato da PG Adulti con Sapienza Trasfigurativa 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: -30% dei suoi Parametri Fisici, Sociali e Magici per 3 post del bersaglio
+
+</details>

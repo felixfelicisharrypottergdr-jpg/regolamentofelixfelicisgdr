@@ -39,7 +39,7 @@ Il PG colpito da questo incantesimo non può camminare, correre o schivare incan
 essendogli impedito di assumere una posizione eretta. Può tuttavia lanciare incantesimi dal
 suo posto: la Destrezza sarà affetta dal malus previsto.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** varia
 
@@ -59,3 +59,5 @@ Se la Potenza dell'incantesimo precedentemente evocato è...
 *Incantesimo lanciato da PG Adulti con Sapienza Oscura 1+*
 Se la Potenza dell'incantesimo precedentemente evocato è...
 - 100%: 5 post del bersaglio
+
+</details>

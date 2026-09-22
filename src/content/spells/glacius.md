@@ -38,7 +38,7 @@ più potenti quanto è abile l'evocatore.
 PG che utilizzano incantesimi di ghiaccio ONGame contraggono la
 Falangelatese, lanciando 1d10, pescano 1.
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
 
 **Durata:** istantanea
 
@@ -53,3 +53,5 @@ Se la Forza dell'incantesimo precedentemente evocato è...
 - 100%: 90 Forza
 *Incantesimo lanciato da PG Adulti con Sapienza Elementale 1+*
 - 100%: 100 Forza
+
+</details>
