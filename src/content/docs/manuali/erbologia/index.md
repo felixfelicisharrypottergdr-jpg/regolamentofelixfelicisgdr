@@ -981,6 +981,6 @@ compierle personalmente.
 
 ## Continua la consultazione
 
-- [Tecniche e Incantesimi Erbologici](/manuali/erbologia/tecniche/)
-- [Come leggere l'Erbario](/manuali/erbologia/erbario-guida/)
-- [Erbario completo — 92 Piante](/manuali/erbologia/erbario/)
+- [Tecniche e Incantesimi Erbologici](tecniche/)
+- [Come leggere l'Erbario](erbario-guida/)
+- [Erbario completo — 92 Piante](erbario/)
