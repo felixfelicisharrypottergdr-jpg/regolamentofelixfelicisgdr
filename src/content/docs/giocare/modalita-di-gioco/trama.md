@@ -29,6 +29,7 @@ migration:
 prototypeExcerpt: false
 ---
 
+<a id="trama"></a>
 # Trama
 
 Tutto ciò che viene ruolato in un determinato periodo, in termini di Eventi ma anche di Free Role a questi collegate, fa parte di un più grande filo rosso che lega quanto accade e viene definito **Trama**.
