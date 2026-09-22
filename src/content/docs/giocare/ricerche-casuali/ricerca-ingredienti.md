@@ -18,16 +18,6 @@ migration:
       section: "Ricerca Casuale degli Ingredienti"
 ---
 
-**INDICE**
-
-• Ricerca casuale degli Ingredienti
-
-• Lista degli Ingredienti trovabili nel Regno
-Unito
-
-• Aiutante per la Ricerca Casuale di
-Ingredienti
-
 Ogni Pozione o Oggetto Magico nasce dall'uso di diversi ingredienti che, mescolati insieme,
 portano alla sua creazione.
 I PG possono scegliere di comprare Pozioni o Oggetti già pronti ad efficacia standard o
@@ -47,7 +37,7 @@ Il PG Adulto o Studente interessato, dopo aver segnalato la chiusura della free 
 può lanciare da sé dei dadi in base a quanto segue e riscattare un
 certo numero di ingredienti da inserire autonomamente nella propria
 Dispensa.
-• Gli Ingredienti contrassegnati da sono Illegali: la loro vendita
+- Gli Ingredienti contrassegnati da sono Illegali: la loro vendita
 ed utilizzo rappresenta un'Azione Illegale.
 Sono un'eccezione gli Ingredienti Illegali contrassegnati dal simbolo ( ✔): questi Ingredienti, infatti, sono
 utilizzabili - ma solo ai fini della creazione di Pozioni - dai PG Pozionisti di mestiere. In
@@ -65,12 +55,13 @@ tramite la ricerca dedicata.
 
 > **Nota.**
 >
-• L'Alchimista, lo Zoppo e il Ricercatore sono disposti ad
+- L'Alchimista, lo Zoppo e il Ricercatore sono disposti ad
 acquistare i vostri ingredienti in cambio di Galeoni.
-• Le Piante Magiche X, oltre ad essere utili come Ingredienti, se ingerite in purezza
+- Le Piante Magiche X, oltre ad essere utili come Ingredienti, se ingerite in purezza
 garantiscono specifici effetti sui PG come stabilito dalle specifiche di ciascuna
 Pianta Magica.
 
+<a id="ricercagredienti"></a>
 ## Ricerca casuale degli Ingredienti
 
 Per completare la raccolta di Ingredienti al termine della role bisogna lanciare due gruppi di
@@ -156,9 +147,11 @@ basso) e ottiene 35, che in lista corrisponde a una dose di Radice di Mandragola
 Una volta completati i lanci il PG può compilare in autonomia la propria
 Dispensa.
 
+<a id="ingredientiuk"></a>
 ## Lista degli ingredienti trovabili nel Regno Unito
 
-#### Ingredienti X : 1d92
+<details><summary><strong>Ingredienti X : 1d92</strong></summary>
+
 
 1 Aculeo di Istrice
 2 Ala di Pipistrello
@@ -257,7 +250,10 @@ Dispensa.
 91 Zanna di Drakul ( ✔)
 92 Zanna di Serpente
 
-#### Ingredienti XX : 1d30
+</details>
+
+<details><summary><strong>Ingredienti XX : 1d30</strong></summary>
+
 
 1 Ala di Fata
 2 Bava di Ghoul
@@ -289,7 +285,10 @@ Dispensa.
 29 Zanna di Avvincino
 30 Zanna di Chizpurfle
 
-#### Ingredienti XXX : 1d49
+</details>
+
+<details><summary><strong>Ingredienti XXX : 1d49</strong></summary>
+
 
 1 Aculeo di Knarl
 2 Ala di Doxy
@@ -340,7 +339,10 @@ Dispensa.
 48 Veleno di Lobalug ( ✔)
 49 Zanna di Geranio Zannuto
 
-#### Ingredienti XXXX : 1d42
+</details>
+
+<details><summary><strong>Ingredienti XXXX : 1d42</strong></summary>
+
 
 1 Acqua di testa di Kappa
 2 Artiglio di Grifone
@@ -385,7 +387,10 @@ Dispensa.
 ✔)
 42 Zanna di Pianta Vampiro
 
-#### Ingredienti XXXXX : 1d37
+</details>
+
+<details><summary><strong>Ingredienti XXXXX : 1d37</strong></summary>
+
 
 1 Aculeo di Tentacula Velenosa
 2 Algabranchia
@@ -465,6 +470,9 @@ Mandragola;
 Bubotubero;
 - 1 ingrediente di classificazione XX: Bulbo di Bulbo Balzellante.
 
+</details>
+
+<a id="ricerca"></a>
 ## Aiutante per la Ricerca Casuale di Ingredienti
 
 Questo Aiutante interattivo ti aiuterà a generare i codici per lanciare dadi perfetti per la
