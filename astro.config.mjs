@@ -802,7 +802,23 @@ export default defineConfig({
               label: 'Manuale degli Incantesimi',
               items: [
                 { label: 'Catalogo dei 212 Incantesimi', link: '/manuali/incantesimi/' },
-                { label: 'Guida e note generali', slug: 'manuali/incantesimi-guida' },
+                {
+                  label: 'Guida e note generali',
+                  items: [
+                    { label: 'Panoramica', slug: 'manuali/incantesimi-guida' },
+                    { label: 'Il Generatore', link: '/manuali/incantesimi-guida/#generatore' },
+                    { label: 'Note sulla Trasfigurazione', link: '/manuali/incantesimi-guida/#notetrasfi' },
+                    { label: 'Dimensioni del bersaglio', link: '/manuali/incantesimi-guida/#dimensioni' },
+                    {
+                      label: 'Il Limbo',
+                      items: [
+                        { label: 'Il Limbo', link: '/manuali/incantesimi-guida/#limbo' },
+                        { label: 'Ruolare nel Limbo', link: '/manuali/incantesimi-guida/#ruolarelimbo' },
+                      ],
+                    },
+                    { label: 'Trasfigurare umani in animali', link: '/manuali/incantesimi-guida/#trasfigurareumanianimali' },
+                  ],
+                },
               ],
             },
             {
