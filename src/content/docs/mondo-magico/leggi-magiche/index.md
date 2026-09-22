@@ -1247,7 +1247,9 @@ La formula per i Dadi è la seguente. Vince il round la parte che estrae l'esito
 
 >
 
-****PG Accusa, PG Imputato o** Difensore in carica**: 1dVolontà+Dialettica+Bonus Persuasore+Bonus "ti vengo incontro" **oppure** + Bonus Vittoria.
+**
+
+**PG Accusa, PG Imputato o** Difensore in carica**: 1dVolontà+Dialettica+Bonus Persuasore+Bonus "ti vengo incontro" **oppure** + Bonus Vittoria.
 
 Il risultato ottenuto si somma al Bonus dato dal Prestigio.
 

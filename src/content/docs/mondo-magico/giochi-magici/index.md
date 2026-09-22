@@ -185,7 +185,9 @@ Non c'è alcun cambiamento ai punteggi ottenuti fino a quel momento, tuttavia qu
 
 Ogni PG deve lanciare dei dadi prima di ogni suo post. Per ogni post, il PG deve lanciare:
 
-• **Primo post (turno): **7d9**** per stabilire su quale anello si piazzano le proprie Gobbiglie. In questo turno, i PG non guadagnano punti. Inoltre, non è possibile provare a far retrocedere le Gobbiglie dell'avversario.
+• **Primo post (turno): **7d9**
+
+** per stabilire su quale anello si piazzano le proprie Gobbiglie. In questo turno, i PG non guadagnano punti. Inoltre, non è possibile provare a far retrocedere le Gobbiglie dell'avversario.
 **Posizioni:**
 *1-2:* 1° anello
 *3-4:* 2° anello

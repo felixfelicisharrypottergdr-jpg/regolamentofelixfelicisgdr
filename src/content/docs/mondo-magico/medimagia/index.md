@@ -754,7 +754,7 @@ La fase di Diagnosi consiste nell'individuare tutti i Sintomi di un paziente per
 
 Qualsiasi PG può tentare di individuare i Sintomi di un paziente, ma il successo dipende dalle sue competenze. Un Medimago con alto livello di Diagnosta avrà maggiori possibilità di rilevare tutti i Sintomi rispetto a un PG con conoscenze mediche limitate. In alcuni casi, è il Narratore a fornire direttamente i Sintomi al Medimago ONGame, senza bisogno di ruolare attivamente la fase di Diagnosi. Inoltre, un PG può tentare di eseguire una Diagnosi su se stesso, con minori probabilità di successo rispetto a un intervento esterno.
 
-Eseguire una Diagnosi, quindi svolgere l'Azione, costa -****2 Fatica****. I PG con **Sapienza Medimagica 25** consumano 0 Fatica, come specificato nella Conoscenza Avanzata Diagnosta.
+Eseguire una Diagnosi, quindi svolgere l'Azione, costa -**2 Fatica**. I PG con **Sapienza Medimagica 25** consumano 0 Fatica, come specificato nella Conoscenza Avanzata Diagnosta.
 
 ## Diagnosi dei Sintomi - da 1 a 5d40
 
@@ -823,7 +823,7 @@ OFFGame, la Terapia si svolge attraverso il lancio di dadi come spiegato di segu
 - Tutti i Passaggi richiesti per la cura di un Sintomo **possono essere eseguiti all’interno di un singolo post**.
 - È possibile tentare di curare **fino a 3 Sintomi per ogni post**.
 
-Eseguire una Terapia, quindi svolgere l'Azione, costa -****0,5 Fatica per ogni Sintomo****, a prescindere che venga curato o meno con successo. I PG con **Sapienza Medimagica 25** consumano 0 Fatica, come specificato nella Conoscenza Avanzata Terapista.
+Eseguire una Terapia, quindi svolgere l'Azione, costa -**0,5 Fatica per ogni Sintomo**, a prescindere che venga curato o meno con successo. I PG con **Sapienza Medimagica 25** consumano 0 Fatica, come specificato nella Conoscenza Avanzata Terapista.
 
 ## Terapia: Trattamento Sintomi (X-XXX):
 
@@ -881,7 +881,7 @@ A livello di narrazione ONGame, questa procedura rappresenta un intervento medic
 - Tutti i Passaggi richiesti per la cura di un Sintomo **possono essere eseguiti all’interno di un singolo post**.
 - È possibile tentare di curare **fino a 3 Sintomi per ogni post**.
 
-Eseguire una Chirurgia, quindi svolgere l'Azione, costa -****1 Fatica per ogni Sintomo****, a prescindere che venga curato o meno con successo. I PG con **Sapienza Medimagica 25** consumano 0 Fatica, come specificato nella Conoscenza Avanzata Chirurgo.
+Eseguire una Chirurgia, quindi svolgere l'Azione, costa -**1 Fatica per ogni Sintomo**, a prescindere che venga curato o meno con successo. I PG con **Sapienza Medimagica 25** consumano 0 Fatica, come specificato nella Conoscenza Avanzata Chirurgo.
 
 ## Chirurgia: Trattamento Sintomi XXXX-XXXXX
 
@@ -1044,7 +1044,9 @@ Quindi, il costo delle cure varia in base al metodo di guarigione scelto dal PG,
 
 **1) Guarigione Attiva**
 Se il PG decide di guarire i propri Sintomi attraverso la Guarigione attiva, i costi variano in base al metodo di guarigione scelto:
-• **Rivolgersi al San Mungo (o all'Infermeria di Hogwarts): ****il PG paga solo il 50%** del costo base di ciascun Sintomo, arrotondato per difetto, grazie al supporto del Ministero della Magia.
+• **Rivolgersi al San Mungo (o all'Infermeria di Hogwarts): **
+
+**il PG paga solo il 50%** del costo base di ciascun Sintomo, arrotondato per difetto, grazie al supporto del Ministero della Magia.
 • **Automedicazione o cura fuori dal San Mungo:** il PG **non paga** il costo dei Sintomi, ma deve acquistare tutto l'occorrente necessario (Componenti del Rimedio ONGame) per curarsi. Se decide di farsi curare da un PG Medimago che opera al di fuori del San Mungo o non Medimago di Mestiere, questo potrebbe decidere di far pagare al PG malato una somma per i propri servigi.
 
 **2) Guarigione Passiva**
