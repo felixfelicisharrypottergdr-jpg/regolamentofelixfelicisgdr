@@ -355,9 +355,23 @@ export default defineConfig({
               label: 'Modalità di Gioco',
               items: [
                 { label: 'Panoramica', slug: 'giocare/modalita-di-gioco' },
-                { label: 'Eventi', slug: 'giocare/modalita-di-gioco/eventi' },
+                {
+                  label: 'Eventi',
+                  items: [
+                    { label: 'Panoramica', slug: 'giocare/modalita-di-gioco/eventi' },
+                    { label: 'Ambient', link: '/giocare/modalita-di-gioco/eventi/#ambient' },
+                    { label: 'Quest', link: '/giocare/modalita-di-gioco/eventi/#quest' },
+                  ],
+                },
                 { label: 'Trama', slug: 'giocare/modalita-di-gioco/trama' },
-                { label: 'Sondaggi e Indizi', slug: 'giocare/modalita-di-gioco/sondaggi-e-indizi' },
+                {
+                  label: 'Sondaggi e Indizi',
+                  items: [
+                    { label: 'Panoramica', slug: 'giocare/modalita-di-gioco/sondaggi-e-indizi' },
+                    { label: 'Sondaggi', link: '/giocare/modalita-di-gioco/sondaggi-e-indizi/#sondaggi' },
+                    { label: 'Indizi', link: '/giocare/modalita-di-gioco/sondaggi-e-indizi/#indizi' },
+                  ],
+                },
                 { label: 'Classificazione degli Eventi', slug: 'giocare/modalita-di-gioco/classificazione-eventi' },
               ],
             },
@@ -366,12 +380,71 @@ export default defineConfig({
               items: [
                 { label: 'Le Role', slug: 'giocare/le-role' },
                 { label: 'Free Role', slug: 'giocare/le-role/free-role' },
-                { label: 'Role Masterate', slug: 'giocare/le-role/role-masterate' },
+                {
+                  label: 'Role Masterate',
+                  items: [
+                    { label: 'Panoramica', slug: 'giocare/le-role/role-masterate' },
+                    { label: 'Richieste al Narratore', link: '/giocare/le-role/role-masterate/#richieste' },
+                  ],
+                },
               ],
             },
             { label: 'Le Azioni', slug: 'giocare/le-azioni' },
-            { label: 'Dadi e risultati', slug: 'giocare/dadi-e-risultati' },
-            { label: 'Meccaniche di gioco', slug: 'giocare/meccaniche-di-gioco' },
+            {
+              label: 'Dadi e casualità',
+              items: [
+                { label: 'Panoramica', slug: 'giocare/dadi-e-risultati' },
+                { label: 'Perché i dadi?', link: '/giocare/dadi-e-risultati/#perchèidadi' },
+                { label: 'Lancio dei dadi', link: '/giocare/dadi-e-risultati/#lanciodadi' },
+                { label: 'Quando lanciarli', link: '/giocare/dadi-e-risultati/#quandolancio' },
+                { label: 'Player o Narratore?', link: '/giocare/dadi-e-risultati/#playernarr' },
+                { label: 'Player', link: '/giocare/dadi-e-risultati/#lancioplayer' },
+                { label: 'Narratore', link: '/giocare/dadi-e-risultati/#lancionarr' },
+                { label: 'Aumentare/diminuire possibilità', link: '/giocare/dadi-e-risultati/#aumdimposs' },
+                { label: 'Facce del dado', link: '/giocare/dadi-e-risultati/#faccedado' },
+                { label: 'Risultato del dado', link: '/giocare/dadi-e-risultati/#risultatodado' },
+                { label: 'Interpretare gli esiti', link: '/giocare/dadi-e-risultati/#interpretare' },
+              ],
+            },
+            {
+              label: 'Meccaniche di gioco',
+              items: [
+                { label: 'Panoramica', slug: 'giocare/meccaniche-di-gioco' },
+                {
+                  label: 'Spiare una role',
+                  items: [
+                    { label: 'Panoramica', link: '/giocare/meccaniche-di-gioco/#spiare' },
+                    { label: 'Role pubblica', link: '/giocare/meccaniche-di-gioco/#spiarepubblico' },
+                    { label: 'Fallire lo spionaggio', link: '/giocare/meccaniche-di-gioco/#fallirespiare' },
+                    { label: 'Accesso Limitato', link: '/giocare/meccaniche-di-gioco/#ficcanasare' },
+                    { label: 'Fallire il ficcanasare', link: '/giocare/meccaniche-di-gioco/#fallireficcanasare' },
+                  ],
+                },
+                { label: 'Agire alle spalle', link: '/giocare/meccaniche-di-gioco/#agirespalle' },
+                { label: 'PG Colto alle Spalle', link: '/giocare/meccaniche-di-gioco/#coltospalle' },
+                { label: 'Intuire una menzogna', link: '/giocare/meccaniche-di-gioco/#intuiremente' },
+                {
+                  label: 'Rubare, scippare, rapinare',
+                  items: [
+                    { label: 'Panoramica', link: '/giocare/meccaniche-di-gioco/#rubarescipparerapinare' },
+                    { label: 'Rubare', link: '/giocare/meccaniche-di-gioco/#rubare' },
+                    { label: 'Fallire il furto', link: '/giocare/meccaniche-di-gioco/#fallirerubare' },
+                    { label: 'Scippare', link: '/giocare/meccaniche-di-gioco/#scippare' },
+                    { label: 'Fallire lo scippo', link: '/giocare/meccaniche-di-gioco/#fallirescippare' },
+                    { label: 'Rapinare', link: '/giocare/meccaniche-di-gioco/#rapinare' },
+                  ],
+                },
+                {
+                  label: 'Duello verbale',
+                  items: [
+                    { label: 'Panoramica', link: '/giocare/meccaniche-di-gioco/#verbale' },
+                    { label: 'Affrontare un duello', link: '/giocare/meccaniche-di-gioco/#duelloverbale' },
+                    { label: 'Perdere il duello', link: '/giocare/meccaniche-di-gioco/#fallireverbale' },
+                  ],
+                },
+                { label: 'Sensi Magici', link: '/giocare/meccaniche-di-gioco/#capirespecifico' },
+              ],
+            },
             {
               label: 'Guida agli Scontri',
               items: [
