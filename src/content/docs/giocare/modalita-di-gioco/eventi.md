@@ -31,6 +31,7 @@ migration:
 prototypeExcerpt: false
 ---
 
+<a id="eventi"></a>
 # Eventi
 
 Mentre le Free Role e le Role Masterate sono role perlopiù autogestite dai Player e costituiscono ciò che si può chiamare il **gioco libero** dei PG, gli Eventi sono role o situazioni di gioco gestite dal Narratore che offrono opportunità non disponibili nelle giocate autonome.
@@ -41,6 +42,7 @@ Trattandosi di giocate in cui l'intervento esterno è molto importante, se non d
 
 Gli Eventi possono essere di due tipi: **Ambient** e **Quest**.
 
+<a id="ambient"></a>
 ## Ambient
 
 Gli Ambient sono interventi del Narratore che danno un'**ambientazione** con cui i PG possono interagire e all'interno della quale possono ruolare.
@@ -54,6 +56,7 @@ In queste role i PG possono fare qualsiasi cosa, scrivendo post oppure mini-post
 
 La fonte cita come esempi di Ambient *Dulcis in fundo* e *Grifondoro VS Tassorosso*.
 
+<a id="quest"></a>
 ## Quest
 
 Le Quest sono Eventi gestiti dal Narratore durante i quali possono accadere avvenimenti capaci di arricchire o modificare l'Ambientazione e di dare ai PG opportunità fuori dal comune: premi, spunti di gioco, incontri con PNG, misteri, nemici, alleanze e altro ancora.
