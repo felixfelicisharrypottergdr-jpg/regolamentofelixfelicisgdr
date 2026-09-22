@@ -26,7 +26,8 @@ migration:
       item: "Maestro delle Fatture"
 ---
 
-## Specifiche
+<details><summary><strong>Specifiche</strong></summary>
+
 
 **Requisiti**
 Per utilizzare la Maestria il PG deve possedere almeno 10 Punti Sinistri.
@@ -34,8 +35,8 @@ Il requisito rappresenta la disponibilità dell'utilizzatore ad alimentare volon
 
 **Conoscenze compatibili**
 La Maestria può essere utilizzata esclusivamente:
-• sugli Incantesimi classificati come Fatture conosciuti dal PG;
-• sulle Pozioni Fatturanti create personalmente dal PG.
+- sugli Incantesimi classificati come Fatture conosciuti dal PG;
+- sulle Pozioni Fatturanti create personalmente dal PG.
 Non può essere utilizzata sulle Maledizioni né su altre tipologie di Incantesimi o Pozioni.
 
 **Utilizzare Maestro delle Fatture**
@@ -43,7 +44,8 @@ L'utilizzo della Maestria su una Fattura vale come *Azione Bonus* e deve essere 
 La modifica di una Pozione Fatturante durante la sua preparazione non richiede invece l'utilizzo di un'Azione Bonus aggiuntiva.
 Salvo dove specificato diversamente, ogni singola evocazione o preparazione può ricevere una sola modifica derivante da Maestro delle Fatture.
 
-## Fatture
+<details><summary><strong>Fatture</strong></summary>
+
 
 La modifica riguarda esclusivamente quella singola evocazione e non può essere applicata più di una volta alla stessa Fattura.
 
@@ -90,7 +92,10 @@ La modifica riguarda esclusivamente quella singola evocazione e non può essere 
 > Livello III: riuscita certa
 
 
-## Pozioni Fatturanti
+</details>
+
+<details><summary><strong>Pozioni Fatturanti</strong></summary>
+
 
 Il Maestro può utilizzare la propria capacità anche durante la creazione di una Pozione Fatturante.
 La modifica viene impressa durante la fase di Uso della Bacchetta, quando il PG infonde la propria magia nel preparato, e può essere applicata soltanto a Pozioni create personalmente.
@@ -148,3 +153,7 @@ La perdita non viene applicata durante la preparazione, ma nella prima Role ONGa
 Una volta applicata la perdita complessiva, il PG calcola la percentuale di Salute perduta attraverso Maestro delle Fatture rispetto alla propria Salute totale.
 I Sintomi manifestati corrispondono a quelli previsti dallo specchietto Esorcismo dell'Enciclopedia Medimagica, nella fascia percentuale corrispondente alla Salute persa.
 I Sintomi ottenuti devono essere curati seguendo le normali regole della Medimagia.
+
+</details>
+
+</details>
