@@ -28,4 +28,23 @@ migration:
       item: "Aperio*"
 ---
 
-Aperio* ✔
+Apre porte e contenitori precedentemente chiusi con o senza la magia tramite
+un'esplosione di media intensità. E' più potente di
+Alohomora per cui ha più probabilità di riuscire ad
+aprire porte o contenitori precedentemente incantati con la magia; tuttavia, essendo
+generatore di un'esplosione, nell'utilizzarlo vi è il rischio di rompere ciò che contiene o una
+sua parte.
+
+<details><summary><strong>Specifiche</strong></summary>
+
+**Durata:** istantanea
+**Parametro del bersaglio intaccato:** //
+
+- PG che lo utilizzano per scassinare/aprire oggetti o porte di nascosto da un altro PG o da
+un PNG del gioco deve rivolgersi al Narratore.
+- PG esposti direttamente all'esplosione provocata da Aperio effettuano un <u>Tiro Salvezza
+di Riflessi con CD 7</u>. In caso di successo riescono ad accorgersi per tempo
+dell'imminente esplosione e possono reagire prima che questa avvenga; in caso di
+fallimento, l'esplosione avviene prima che riescano a reagire.
+
+</details>
