@@ -33,6 +33,7 @@ migration:
 prototypeExcerpt: false
 ---
 
+<a id="freerole"></a>
 # Free Role
 
 Sono tutte quelle role in cui, in assenza del Narratore, i Player ruolano autogestendosi. Sono le role più “semplici” in termini di meccaniche, ma questo non significa che non possano essere sorprendenti o avvincenti. Sono molto utili per favorire l'interazione tra PG, arricchire la loro storia e approfondire altri aspetti psicologici e caratteriali.
