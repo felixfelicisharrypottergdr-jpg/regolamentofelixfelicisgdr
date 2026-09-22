@@ -84,10 +84,10 @@ nello stesso contesto, senza tirare un dado per determinare il nuovo Accordo da 
 
 Le giocate sono interamente autogestite dai giocatori, senza intervento diretto del Narratore.
 I PG determinano:
-• la zona di provenienza degli “avversari”, lanciando **1d3**: 1
+- la zona di provenienza degli “avversari”, lanciando **1d3**: 1
 Verde, 2 Giallo, 3 Rosso;
-• quali documenti, risorse o delegati sono coinvolti;
-• eventuali ostacoli o pressioni esterne.
+- quali documenti, risorse o delegati sono coinvolti;
+- eventuali ostacoli o pressioni esterne.
 I tiri di dado servono a introdurre casualità e determinare esiti concreti, permettendo un
 intreccio realistico e coerente della narrazione.I PG devono tenere conto della localizzazione geografica e della
 situazione politica per ambientare correttamente
@@ -130,15 +130,15 @@ Paesi Baltici, Moldavia, Benelux, Gran Bretagna, Francia
 
 ## Ulteriori specifiche
 
-• Di norma, i tiri necessari per determinare il successo o il fallimento delle Fasi dell’Accordo
+- Di norma, i tiri necessari per determinare il successo o il fallimento delle Fasi dell’Accordo
 spettano ai PG Diplomatici coinvolti. Se nella role è presente più di un PG Diplomatico,
 ciascuno effettua il proprio lancio. Le condizioni di successo/fallimento vengono indicate
 nella descrizione dell’Accordo e possono dipendere, a seconda dei casi, dall’esito di almeno
 uno, di tutti o della maggioranza dei Diplomatici partecipanti.
-• Se nella role partecipano più PG non Diplomatici appartenenti a Categorie Magiche
+- Se nella role partecipano più PG non Diplomatici appartenenti a Categorie Magiche
 diverse, il Diplomatico può scegliere a ogni Fase quale bonus applicare tra quelli disponibili:
 non è obbligatorio mantenere lo stesso bonus per tutta la missione.
-• Se nella role partecipano più PG non Diplomatici, ciascun PG Diplomatico può beneficiare
+- Se nella role partecipano più PG non Diplomatici, ciascun PG Diplomatico può beneficiare
 del bonus di supporto di **un solo collaboratore per ogni singola Fase**. I collaboratori
 possono tuttavia **alternarsi tra una Fase e l’altra**: se appartengono a CategorieMagiche differenti, il Diplomatico sceglierà di volta in volta quale bonus applicare; se
 appartengono alla stessa Categoria, il relativo bonus resta unico per quella Fase
@@ -147,21 +147,22 @@ indipendentemente dal numero di PG presenti.
 Diplomatico può beneficiare del supporto di un massimo di **due PG non Diplomatici
 diversi**, purché appartenenti a Categorie Magiche differenti. Due PG della stessa
 Categoria non possono cumulare due volte il medesimo bonus.
-• Tutte le divisioni previste dalle formule si arrotondano **per difetto**.
-• PG non Diplomatici Intracciabili possono sfruttare il Bonus della Categoria affine al
+- Tutte le divisioni previste dalle formule si arrotondano **per difetto**.
+- PG non Diplomatici Intracciabili possono sfruttare il Bonus della Categoria affine al
 Parametro più alto nella loro Scheda PG (es. se il Parametro più alto è Volontà, allora userà
 il bonus dei Voluntas).
 
-#### 1. Trattativa e Mediazione
+<details><summary><strong>1. Trattativa e Mediazione</strong></summary>
+
 
 **Descrizione:** negoziare un accordo vantaggioso con una controparte. Il Diplomatico
 deve prepararsi studiando informazioni riservate, coordinare una strategia e affrontare
 direttamente l’avversario in una serie di scambi persuasivi.
-• L’uso di Conoscenze, in questo caso, è solo di colore: i loro effetti non portano vantaggi
+- L’uso di Conoscenze, in questo caso, è solo di colore: i loro effetti non portano vantaggi
 concreti ai PG né svantaggi ai PNG. Lo stesso vale per l’utilizzo di Conoscenze diverse da
 quelle specificate (se previste).
-• È possibile utilizzare oggetti dalla Borsa per ottenere bonus, consumandone gli utilizzi.
-• È possibile bere pozioni che agiscono unicamente sul PG che la beve, fornendo bonus in
+- È possibile utilizzare oggetti dalla Borsa per ottenere bonus, consumandone gli utilizzi.
+- È possibile bere pozioni che agiscono unicamente sul PG che la beve, fornendo bonus in
 base a quanto segue, purché la Pozione scelta agisca
 sul Parametro desiderato:
 → Pozione Standard: +1 Parametro
@@ -178,9 +179,9 @@ Il tiro ha successo se il risultato è compreso fra **1** e **Acume + (Totale Sa
 Magiche/2) - Malus + Eventuale Bonus Non Diplomatico**.
 **Malus:** la qualità e la completezza delle informazioni dipendono dal contesto politico
 del Paese (colore della zona):
-• **Verde:** 0 → situazione trasparente e cooperativa; i fascicoli sono
+- **Verde:** 0 → situazione trasparente e cooperativa; i fascicoli sono
 completi e affidabili
-• **Giallo:** 10 → instabilità o divisioni interne; i dossier sono parziali o
+- **Giallo:** 10 → instabilità o divisioni interne; i dossier sono parziali o
 contraddittori• **Rosso:** 20 → clima ostile o caotico; i rapporti risultano incompleti,
 manipolati o falsificati
 **Bonus Non Diplomatico (prova di supporto):**
@@ -192,22 +193,22 @@ Affini/5)**.
 Gli esempi che seguono rappresentano possibili modalità narrative di intervento per
 ciascuna Categoria (il PG può proporre altre azioni coerenti con competenze e indole della
 Categoria):
-• *Acumen:* smaschera alterazioni magiche o ricostruisce documenti corrotti →
+- *Acumen:* smaschera alterazioni magiche o ricostruisce documenti corrotti →
 **+5** alla soglia del Diplomatico
-• *Animus:* verifica sul territorio la veridicità dei rapporti → riduce il Malus di **5**;
+- *Animus:* verifica sul territorio la veridicità dei rapporti → riduce il Malus di **5**;
 se il Malus è già 0, concede **+5** alla soglia
-• *Ars:* chiarisce rapporti scientifici incompleti (medimagia/pozioni) → **+1d10**
+- *Ars:* chiarisce rapporti scientifici incompleti (medimagia/pozioni) → **+1d10**
 alla soglia (tira 1d10 e somma)
-• *Numen:* protegge il Diplomatico durante l’analisi dei fascicoli → il Diplomatico può
+- *Numen:* protegge il Diplomatico durante l’analisi dei fascicoli → il Diplomatico può
 lanciare due volte e tenere il risultato più basso
-• *Sensus:* coglie segnali ambientali o presagi utili → consente un rilancio se il primo
+- *Sensus:* coglie segnali ambientali o presagi utili → consente un rilancio se il primo
 tiro fallisce
-• *Voluntas:* intercetta segnali di inganno/manipolazione e rafforza la sicurezza del
+- *Voluntas:* intercetta segnali di inganno/manipolazione e rafforza la sicurezza del
 Diplomatico → **+5** alla soglia
 **Esito:**
-• **Successo (se almeno un Diplomatico ha successo):** informazioni chiare →
+- **Successo (se almeno un Diplomatico ha successo):** informazioni chiare →
 **+5** alla soglia della Fase II per ogni Diplomatico che ha avuto successo
-• **Fallimento (se tutti i Diplomatici falliscono):** dubbi e dati incompleti → **-5**
+- **Fallimento (se tutti i Diplomatici falliscono):** dubbi e dati incompleti → **-5**
 alla soglia della Fase II per tutti i Diplomatici
 **Fase II – Strategia**
 **Descrizione:** prima di entrare nel vivo della trattativa, i PG coordinano l’approccio e
@@ -223,7 +224,7 @@ soglia della Fase II.
 **Esito:**• **Successo (se almeno un Diplomatico ha successo):** strategia chiara e coordinata
 → **+5** al risultato di ciascun tiro della Fase III per ogni Diplomatico che ha avuto
 successo
-• **Fallimento (se tutti i Diplomatici falliscono):** lacune strategiche → **-5** al
+- **Fallimento (se tutti i Diplomatici falliscono):** lacune strategiche → **-5** al
 risultato di ciascun tiro della Fase III per tutti i Diplomatici
 **Fase III – Cuore della Trattativa**
 **Descrizione:** confronto diretto tra Diplomatico e Avversario. I PG mettono in campo
@@ -234,9 +235,9 @@ uno dell’Avversario.
 Al termine dei 3 round, si sommano i **Punti Influenza (PI)** ottenuti dal Diplomatico.
 *1) Lancio del Diplomatico*
 Prima del tiro, il Diplomatico sceglie un approccio:
-• **Logica**: argomentazioni razionali e dati concreti → usa **Acume**
-• **Pressione**: intimidazione o sfruttamento di punti deboli → usa **Volontà**
-• **Empatia**: persuasione emotiva e comprensione dell’avversario → usa
+- **Logica**: argomentazioni razionali e dati concreti → usa **Acume**
+- **Pressione**: intimidazione o sfruttamento di punti deboli → usa **Volontà**
+- **Empatia**: persuasione emotiva e comprensione dell’avversario → usa
 **Empatia**
 Tiro del Diplomatico (per round):
 → **1dParametro scelto** ± Bonus/Malus Fase II + Eventuale Bonus Non Diplomatico
@@ -252,9 +253,9 @@ della zona:
 **Giallo**: Acume 30, Volontà 25, Empatia 20
 **Rosso**: Acume 20, Volontà 30, Empatia 25
 **Esito del round (PI):**
-• Vittoria (Diplomatico > Avversario): **+2 PI**
-• Pareggio: **+1 PI**
-• Sconfitta: **0 PI**
+- Vittoria (Diplomatico > Avversario): **+2 PI**
+- Pareggio: **+1 PI**
+- Sconfitta: **0 PI**
 **Risultato finale (somma PI):**
 Se nella role sono presenti più PG Diplomatici, **dividere i PI totali per il numero di PG
 Diplomatici** (media, arrotondata per difetto).0–2 PI: trattativa fallita, nessun accordo → i PG non ottengono Prestigio dalla Missione del
@@ -313,17 +314,20 @@ Avversario: 1d25, esce **3**
 Esito: vittoria (12 > 3) → **+2 PI**
 Totale PI = 0 + 2 + 2 = **4 PI** → accordo minimo.
 
-#### 2. Networking e Influenza Sociale
+</details>
+
+<details><summary><strong>2. Networking e Influenza Sociale</strong></summary>
+
 
 **Descrizione:** gestione di rapporti sociali durante eventi pubblici. I PG devono attirare
 l’attenzione di figure influenti, lasciare una buona impressione con comportamento e discorsi
 mirati, e infine consolidare il legame in una relazione strategica. L’obiettivo è costruire
 opportunità future e rafforzare il prestigio del gruppo attraverso abilità sociali e organizzative.
-• L’uso di Conoscenze, in questo caso, è solo di colore: i loro effetti non portano vantaggi
+- L’uso di Conoscenze, in questo caso, è solo di colore: i loro effetti non portano vantaggi
 concreti ai PG né svantaggi ai PNG. Lo stesso vale per l’utilizzo di Conoscenze diverse da
 quelle specificate (se previste).
-• È possibile utilizzare oggetti dalla Borsa per ottenere bonus, consumandone gli utilizzi.
-• È possibile bere pozioni che agiscono unicamente sul PG che la beve, fornendo bonus in
+- È possibile utilizzare oggetti dalla Borsa per ottenere bonus, consumandone gli utilizzi.
+- È possibile bere pozioni che agiscono unicamente sul PG che la beve, fornendo bonus in
 base a quanto segue, purché la Pozione scelta agisca
 sul Parametro desiderato:
 → Pozione Standard: +1 Parametro
@@ -344,8 +348,8 @@ lanciare **1d40** con la stessa soglia (usando Volontà + Dialettica del Diploma
 riesce, il PG non Diplomatico “aggancia” un contatto utile e avvicina il Diplomatico a
 qualcuno della cerchia dell’influente (in modo coerente con la Categoria e la scena).
 **Esito:**
-• **Successo (se almeno un lancio ha successo):** si passa alla Fase II
-• **Fallimento (se nessun lancio ha successo):** l’ospite nota i PG ma li ignora o si
+- **Successo (se almeno un lancio ha successo):** si passa alla Fase II
+- **Fallimento (se nessun lancio ha successo):** l’ospite nota i PG ma li ignora o si
 allontana. I PG possono ritentare la Fase I, ma un ulteriore insuccesso rischia di far circolare
 voci sulla loro insistenza, impedendo il completamento dell’Accordo: in questo caso i PG non
 ottengono Prestigio dalla Missione del FantaWiz "Il Diplomatico".
@@ -370,9 +374,9 @@ PG, utilizzato nella Fase III.
 impressione, aggiunge alla soglia del Diplomatico: **Dialettica del non Diplomatico +
 (Volontà del non Diplomatico/2)**.
 **Malus Zona:** come in Fase I (0 / 5 / 10).**Esito:**
-• **Successo (per ogni Diplomatico che ha successo):** **+5** al risultato del
+- **Successo (per ogni Diplomatico che ha successo):** **+5** al risultato del
 Diplomatico in Fase III
-• **Fallimento (per ogni Diplomatico che fallisce):** si passa comunque alla Fase III, ma
+- **Fallimento (per ogni Diplomatico che fallisce):** si passa comunque alla Fase III, ma
 il Diplomatico applica **-5** al proprio risultato in Fase III
 **Fase III – Stringere una relazione utile**
 **Descrizione:** dopo aver conquistato attenzione e una buona impressione, il
@@ -390,16 +394,16 @@ Il risultato più alto vince il confronto. In caso di pareggio, il Diplomatico n
 **Bonus Non Diplomatico:** il PG non Diplomatico non interviene direttamente nel
 dialogo, ma lavora sul contorno (logistica, diversivi, credibilità, gestione tensioni). In Fase III
 sceglie **uno** dei due effetti:
-• *Supporto attivo:* il non Diplomatico lavora sul contorno della trattativa, rafforzando la
+- *Supporto attivo:* il non Diplomatico lavora sul contorno della trattativa, rafforzando la
 posizione del Diplomatico attraverso logistica, credibilità, informazioni o circostanze
 favorevoli → **+5 al risultato** del Diplomatico.
-• *Supporto protettivo:* il non Diplomatico lavora sul contorno per indebolire la
+- *Supporto protettivo:* il non Diplomatico lavora sul contorno per indebolire la
 posizione dell’Avversario, gestendo tensioni, diversivi o elementi esterni alla trattativa →
 **−5 al risultato** dell’Avversario.
 **Esito:**
-• **Successo (se almeno un Diplomatico vince il confronto):** la relazione si consolida:
+- **Successo (se almeno un Diplomatico vince il confronto):** la relazione si consolida:
 interlocutore favorevole e disponibile a collaborazioni future
-• **Fallimento (se tutti i Diplomatici perdono il confronto):** relazione fredda o ostile: la
+- **Fallimento (se tutti i Diplomatici perdono il confronto):** relazione fredda o ostile: la
 Ricerca Accordi fallisce. Inoltre, il PG che fallisce (anche se un altro Diplomatico ha portato il
 gruppo al successo in un’altra circostanza narrativa) non ottiene Prestigio dal
 Completamento della Missione del FantaWiz "Il Diplomatico"
@@ -424,17 +428,20 @@ Fase II (+5) = **42**
 Avversario (Zona Verde): 1d20 esce 19
 Esito: Diplomatico vince → relazione consolidata, accordo completato.
 
-#### 3. Gestione Scandali
+</details>
+
+<details><summary><strong>3. Gestione Scandali</strong></summary>
+
 
 **Descrizione:** gestione di uno scandalo che minaccia la reputazione del Ministero o
 dei suoi membri. È necessario raccogliere informazioni sull’origine e sulla gravità del caso,
 elaborare una narrazione ufficiale credibile e intervenire pubblicamente per convincere
 l’opinione pubblica e consolidare la fiducia delle altre istituzioni.
-• L’uso di Conoscenze, in questo caso, è solo di colore: i loro effetti non portano vantaggi
+- L’uso di Conoscenze, in questo caso, è solo di colore: i loro effetti non portano vantaggi
 concreti ai PG né svantaggi ai PNG. Lo stesso vale per l’utilizzo di Conoscenze diverse da
 quelle specificate (se previste).
-• È possibile utilizzare oggetti dalla Borsa per ottenere bonus, consumandone gli utilizzi.
-• È possibile bere pozioni che agiscono unicamente sul PG che la beve, fornendo bonus in
+- È possibile utilizzare oggetti dalla Borsa per ottenere bonus, consumandone gli utilizzi.
+- È possibile bere pozioni che agiscono unicamente sul PG che la beve, fornendo bonus in
 base a quanto segue, purché la Pozione scelta agisca
 sul Parametro desiderato:
 → Pozione Standard: +1 Parametro
@@ -451,21 +458,21 @@ internazionali.
 stabilirne la gravità. Poi scegliere uno scandalo fra quelli in lista (oppure tirare un ulteriore
 dado, se previsto dalla narrazione).
 1) *Gravità Minore*
-• Voci di corridoio su decisioni ministeriali poco popolari
-• Piccoli incidenti o comportamenti inopportuni di funzionari minori
-• Diffusione di informazioni di scarso impatto strategico
+- Voci di corridoio su decisioni ministeriali poco popolari
+- Piccoli incidenti o comportamenti inopportuni di funzionari minori
+- Diffusione di informazioni di scarso impatto strategico
 2) *Gravità Media*
-• Accuse di favoritismi, corruzione o gestione impropria di risorse
-• Informazioni parzialmente sensibili diffuse a Ministeri stranieri
-• Rottura di accordi minori con partner diplomatici
+- Accuse di favoritismi, corruzione o gestione impropria di risorse
+- Informazioni parzialmente sensibili diffuse a Ministeri stranieri
+- Rottura di accordi minori con partner diplomatici
 3) *Gravità Alta*
-• Fuga di documenti segreti su missioni in corso o programmi sperimentali
-• Coinvolgimento di funzionari di alto rango o del corpo diplomatico
-• Indizi di attività illegali o collusioni con fazioni ostili
+- Fuga di documenti segreti su missioni in corso o programmi sperimentali
+- Coinvolgimento di funzionari di alto rango o del corpo diplomatico
+- Indizi di attività illegali o collusioni con fazioni ostili
 4) *Gravità Critica*
-• Scandalo che mette a rischio trattati internazionali o relazioni con più Ministeri
-• Diffusione di prove compromettenti su operazioni coperte dal segreto di stato
-• Sospetti diretti di tradimento o sabotaggio dall’interno del Ministero
+- Scandalo che mette a rischio trattati internazionali o relazioni con più Ministeri
+- Diffusione di prove compromettenti su operazioni coperte dal segreto di stato
+- Sospetti diretti di tradimento o sabotaggio dall’interno del Ministero
 **Malus Gravità (valore da sottrarre alla soglia):**
 Gravità Minore: 0
 Gravità Media: 3
@@ -477,19 +484,19 @@ Il tiro ha successo se il risultato è compreso fra **1** e **(Parametro scelto)
 (Popolarità/2) + Lv. Persuasore + Eventuale Bonus Non Diplomatico - Malus Gravità**.
 **Bonus Non Diplomatico:** esempi di intervento per Categoria (il PG può proporre
 alternative coerenti):
-• *Acumen:* incrocio dati e deduzione cause → **+5** alla soglia
-• *Animus:* rete informativa sul territorio → **+1d10** alla soglia
-• *Ars:* rete informativa (medimagi/pozionisti) → **+1d10** alla soglia
-• *Numen:* dettagli riservati tramite Auror/funzionari → **+1d10** alla soglia
-• *Sensus:* lettura emozioni/menzogne, Terzo Occhio → **+5** alla soglia (se si
+- *Acumen:* incrocio dati e deduzione cause → **+5** alla soglia
+- *Animus:* rete informativa sul territorio → **+1d10** alla soglia
+- *Ars:* rete informativa (medimagi/pozionisti) → **+1d10** alla soglia
+- *Numen:* dettagli riservati tramite Auror/funzionari → **+1d10** alla soglia
+- *Sensus:* lettura emozioni/menzogne, Terzo Occhio → **+5** alla soglia (se si
 usa Percezione)
-• *Voluntas:* sangue freddo e credibilità → **+5** alla soglia
+- *Voluntas:* sangue freddo e credibilità → **+5** alla soglia
 → Se il bonus fornito da un Non Diplomatico potenzia un parametro **non** utilizzato
 dal Diplomatico, quel bonus si converte in **+3** alla soglia (valore medio).**Esito:**
-• **Successo (se almeno un Diplomatico ha successo):** origine e impatto chiariti →
+- **Successo (se almeno un Diplomatico ha successo):** origine e impatto chiariti →
 **+5** alla soglia della Fase II e **+5** al risultato della Fase III per ogni
 Diplomatico che ha avuto successo
-• **Fallimento (se tutti i Diplomatici falliscono):** informazioni incomplete → **-5**
+- **Fallimento (se tutti i Diplomatici falliscono):** informazioni incomplete → **-5**
 alla soglia della Fase II e **-5** al risultato della Fase III per tutti i Diplomatici
 **Fase II – Contenimento e narrazione ufficiale**
 I PG elaborano una versione controllata dei fatti da diffondere a Ministeri, media e figure di
@@ -502,9 +509,9 @@ Non Diplomatico - Malus Gravità ± Bonus/Malus Fase I**.
 **Bonus Non Diplomatico:** se il PG non Diplomatico aiuta ONgame il Diplomatico,
 concede **+ (Acume del non Diplomatico/2)** alla soglia.
 **Esito:**
-• **Successo (se almeno un Diplomatico ha successo):** narrativa credibile →
+- **Successo (se almeno un Diplomatico ha successo):** narrativa credibile →
 **+5** al risultato della Fase III per ogni Diplomatico che ha avuto successo
-• **Fallimento (se tutti falliscono):** narrativa incoerente → **-5** al risultato della
+- **Fallimento (se tutti falliscono):** narrativa incoerente → **-5** al risultato della
 Fase III per tutti i Diplomatici
 **Fase III – Convincimento e consolidamento**
 I PG affrontano colloqui o rilasciano interviste per consolidare la versione ufficiale e
@@ -523,9 +530,9 @@ Gravità Alta: 1d50
 Gravità Critica: 1d60**Bonus Non Diplomatico:** se il PG non Diplomatico aiuta ONgame il Diplomatico,
 concede **+ (Volontà del non Diplomatico/2)** al risultato del Diplomatico.
 **Esito:**
-• **Successo (se almeno un Diplomatico vince il confronto):** messaggio efficace →
+- **Successo (se almeno un Diplomatico vince il confronto):** messaggio efficace →
 Accordo completato con successo
-• **Fallimento (se tutti i Diplomatici perdono il confronto):** la reputazione resta
+- **Fallimento (se tutti i Diplomatici perdono il confronto):** la reputazione resta
 danneggiata → il PG che fallisce non ottiene Prestigio dal Completamento della Missione del
 FantaWiz "Il Diplomatico"
 
@@ -556,13 +563,16 @@ Totale = 12 + 3 + 3 + 10 + 5 = **33**
 Opinione pubblica: Gravità Alta → 1d50 esce **22**
 Esito: Diplomatico vince → missione completata.
 
-#### 4. Coordinazione Interministeriale
+</details>
+
+<details><summary><strong>4. Coordinazione Interministeriale</strong></summary>
+
 **Descrizione:** garantire che più uffici o dipartimenti collaborino efficacemente su un
 obiettivo comune, prevenendo conflitti interni, inefficienze ed errori dovuti a comunicazioni
 incomplete. Il Diplomatico funge da coordinatore strategico e supervisore delle operazioni.
-• L’uso di Conoscenze e Pozioni, in questo caso, è solo di colore: i loro effetti non portano
+- L’uso di Conoscenze e Pozioni, in questo caso, è solo di colore: i loro effetti non portano
 vantaggi concreti ai PG né svantaggi ai PNG.
-• È possibile utilizzare oggetti dalla Borsa per ottenere bonus, consumandone gli utilizzi.
+- È possibile utilizzare oggetti dalla Borsa per ottenere bonus, consumandone gli utilizzi.
 *Nota:* in questo caso, della Zona Verde fa parte la Gran Bretagna; i PG possono
 scegliere di ambientare l’Accordo all’interno del Ministero della Magia inglese.
 Nelle sole Fasi II e III, ciascun Diplomatico può ricevere contemporaneamente il supporto di
@@ -578,17 +588,17 @@ Il tiro ha successo se il risultato è compreso fra **1** e **Acume + Volontà +
 (Popolarità/2) + Eventuale Bonus Non Diplomatico - Malus Colore**.
 **Bonus Non Diplomatico:** se il non Diplomatico aiuta ONgame, aggiunge alla soglia
 **uno** tra:
-• metà Acume del non Diplomatico
-• metà Volontà del non Diplomatico
-• metà Popolarità del non Diplomatico
+- metà Acume del non Diplomatico
+- metà Volontà del non Diplomatico
+- metà Popolarità del non Diplomatico
 **Malus Colore:**
 **Verde:** 10
 **Giallo:** 20
 **Rosso:** 30
 **Esito:**
-• **Successo (se almeno un Diplomatico ha successo):** comprensione chiara →
+- **Successo (se almeno un Diplomatico ha successo):** comprensione chiara →
 **+5** alla soglia della Fase II per ogni Diplomatico che ha avuto successo
-• **Fallimento (se tutti i Diplomatici falliscono):** visione incompleta → **-5** alla
+- **Fallimento (se tutti i Diplomatici falliscono):** visione incompleta → **-5** alla
 soglia della Fase II per tutti i Diplomatici
 **Fase II – Assegnazione compiti e coordinamento**
 Il Diplomatico distribuisce incarichi ai diversi team, ottimizzando tempi e risorse e
@@ -597,20 +607,20 @@ assicurando che tutti procedano verso l’obiettivo comune senza conflitti inter
 Non Diplomatico ± Bonus/Malus Fase I - Malus Colore**.
 **Bonus Non Diplomatico:** se il non Diplomatico aiuta ONgame, può fornire vantaggi
 concreti (sceglierne uno coerente con la scena):
-• *Acumen:* analizza competenze dei team → **+5** alla soglia
-• *Animus:* supporto logistico/risorse Animus → **+5** alla soglia
-• *Ars:* supporto logistico/risorse Ars → **+5** alla soglia
-• *Numen:* supporto logistico/risorse Numen → **+5** alla soglia
-• *Sensus:* intercetta malumori e conflitti → consente un rilancio in caso di fallimento
-• *Voluntas:* motiva i team → **+1d10** alla soglia (tira 1d10 e somma)
+- *Acumen:* analizza competenze dei team → **+5** alla soglia
+- *Animus:* supporto logistico/risorse Animus → **+5** alla soglia
+- *Ars:* supporto logistico/risorse Ars → **+5** alla soglia
+- *Numen:* supporto logistico/risorse Numen → **+5** alla soglia
+- *Sensus:* intercetta malumori e conflitti → consente un rilancio in caso di fallimento
+- *Voluntas:* motiva i team → **+1d10** alla soglia (tira 1d10 e somma)
 **Malus Colore:**
 **Verde:** 2
 **Giallo:** 5
 **Rosso:** 10
 **Esito:**
-• **Successo (se tutti i Diplomatici hanno successo):** incarichi chiari e coordinati →
+- **Successo (se tutti i Diplomatici hanno successo):** incarichi chiari e coordinati →
 **+5** alla soglia della Fase III
-• **Fallimento (se anche un solo Diplomatico fallisce):** assegnazione confusa →
+- **Fallimento (se anche un solo Diplomatico fallisce):** assegnazione confusa →
 **-5** alla soglia della Fase III per tutti i Diplomatici
 **Fase III – Supervisione e convergenza delle azioni**
 Il Diplomatico monitora l’avanzamento dei lavori e interviene per riallineare i team in caso di
@@ -623,13 +633,13 @@ Colore**.
 alla soglia.
 **Bonus Non Diplomatico:** se il non Diplomatico aiuta ONgame nella supervisione,
 aggiunge alla soglia del Diplomatico:
-• metà Acume (se monitora senza intervenire direttamente)
-• metà Volontà (se interviene direttamente)
+- metà Acume (se monitora senza intervenire direttamente)
+- metà Volontà (se interviene direttamente)
 **Malus Colore:** come in Fase I (10 / 20 / 30).
 **Esito:**
-• **Successo (se almeno un Diplomatico riesce):** azioni convergenti → **+5** a
+- **Successo (se almeno un Diplomatico riesce):** azioni convergenti → **+5** a
 tutti i tiri del prossimo Accordo ambientato nella stessa zona
-• **Fallimento (se tutti i Diplomatici falliscono):** ritardi e conflitti → **-5** a tutti i tiri
+- **Fallimento (se tutti i Diplomatici falliscono):** ritardi e conflitti → **-5** a tutti i tiri
 del prossimo Accordo ambientato nella stessa zonaIl modificatore del precedente Accordo di Coordinazione si applica alle prove a soglia
 aumentando o diminuendo la soglia; nelle prove contrapposte e nei round della Fase III degli
 altri Accordi si applica invece al risultato del Diplomatico. Non modifica mai il dado o il
@@ -660,3 +670,5 @@ Fase II 5 + (6+5) - 10 = **46**
 Lancio **1d100**: esce **42** → successo
 Esito: prossimo Accordo nella stessa zona con modificatore **+5**, applicato secondo
 le modalità indicate sopra.
+
+</details>
