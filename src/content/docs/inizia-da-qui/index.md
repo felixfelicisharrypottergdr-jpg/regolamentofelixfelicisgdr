@@ -12,99 +12,82 @@ searchAliases:
 applicability:
   - student
   - adult
-quickLinks:
-  - label: "Cosa siamo"
-    href: "inizia-da-qui/cosa-siamo/"
-    description: "La premessa di gioco: che cos'è FELIX FELICIS e che tipo di esperienza vogliamo costruire insieme."
-  - label: "Ambientazione"
-    href: "https://felixfelicisharrypottergdr.forumfree.it/?f=65091917"
-    description: "Scopri il mondo in cui giocherai e il punto da cui parte la storia attuale."
-  - label: "Regole Generali"
-    href: "inizia-da-qui/regole-generali/"
-    description: "Le poche regole che è davvero importante conoscere prima di cominciare a giocare."
-  - label: "Lo Staff"
-    href: "inizia-da-qui/staff/"
-    description: "Chi gestisce il gioco, di cosa si occupa e a chi puoi rivolgerti quando hai un dubbio."
-  - label: "Voglio creare un PG Studente"
-    href: "il-personaggio/pg-studente/"
-    description: "Vivi Hogwarts, studia magia, conquista la Coppa delle Case e costruisci il tuo percorso scolastico."
-  - label: "Voglio creare un PG Adulto"
-    href: "il-personaggio/pg-adulto/"
-    description: "Entra nel Mondo Magico adulto: scegli Categoria, Mestiere, Sapienze e il modo in cui vuoi lasciare il segno."
+
 migration:
   status: native
   sources: []
 prototypeExcerpt: false
 ---
+<section class="felix-start-hero" aria-label="Benvenuto nel regolamento">
+  <p class="felix-start-eyebrow">Nuovo Player · Il punto di partenza</p>
+  <p class="felix-start-lead">Non devi leggere tutto il Regolamento prima di iniziare a giocare.</p>
+  <p>Questo è un manuale da <strong>consultare mentre giochi</strong>, non un libro da imparare a memoria: alcune regole servono subito, altre soltanto quando il tuo Personaggio incontrerà una determinata situazione.</p>
+</section>
 
-Benvenutə su **FELIX FELICIS GdR**.
+## Prima di creare il Personaggio
 
-Se questa è la prima pagina del Regolamento che apri, la cosa più importante da sapere è molto semplice:
+Segui queste tre letture iniziali. Per cominciare sono sufficienti: il resto del Regolamento può essere scoperto gradualmente.
 
-> **non devi leggere tutto il Regolamento prima di iniziare a giocare.**
+<ol class="felix-start-steps">
+  <li>
+    <span class="felix-start-step-number" aria-hidden="true">01</span>
+    <div><h3><a href="cosa-siamo/">Cosa siamo</a></h3><p>Scopri che tipo di gioco è FELIX FELICIS, come si scrive insieme e quale atmosfera vogliamo ricreare.</p><a class="felix-start-inline-link" href="cosa-siamo/">Leggi la premessa <span aria-hidden="true">→</span></a></div>
+  </li>
+  <li>
+    <span class="felix-start-step-number" aria-hidden="true">02</span>
+    <div><h3><a href="https://felixfelicisharrypottergdr.forumfree.it/?f=65091917">Ambientazione</a></h3><p>Inquadra il Mondo Magico e il momento della storia in cui entrerà il tuo Personaggio.</p><a class="felix-start-inline-link" href="https://felixfelicisharrypottergdr.forumfree.it/?f=65091917">Apri l'Ambientazione <span aria-hidden="true">↗</span></a></div>
+  </li>
+  <li>
+    <span class="felix-start-step-number" aria-hidden="true">03</span>
+    <div><h3><a href="regole-generali/">Regole Generali</a></h3><p>Leggi le norme fondamentali per giocare insieme e sapere come comportarti nelle role.</p><a class="felix-start-inline-link" href="regole-generali/">Apri le Regole <span aria-hidden="true">→</span></a></div>
+  </li>
+</ol>
 
-Questo sito è pensato soprattutto come un **manuale da consultare**. Alcune regole servono subito; molte altre ti serviranno soltanto quando il tuo Personaggio farà qualcosa che le coinvolge. Non è necessario imparare a memoria Incantesimi, Pozioni, Creature, sistemi di combattimento, Leggi Magiche o ogni possibilità disponibile prima ancora di creare il tuo primo PG.
+<div class="felix-start-tip" role="note"><strong>Da ricordare</strong><span>Non serve conoscere già ogni Incantesimo, Pozione o sistema di combattimento. La ricerca del sito ti aiuterà a trovare le regole nel momento in cui ti occorrono.</span></div>
 
-## Prima di tutto: orientati
+## Poi scegli la storia che vuoi vivere
 
-Per capire se il gioco fa per te e arrivare alla creazione del Personaggio con le informazioni davvero necessarie, ti consigliamo questo percorso iniziale:
+Puoi giocare un <strong>PG Studente</strong> oppure un <strong>PG Adulto</strong>: non cambia soltanto l'età, ma anche il modo in cui il Personaggio cresce e prende parte alla vita del gioco.
 
-1. leggi **Cosa siamo**, per capire che tipo di GdR è FELIX FELICIS e quale atmosfera cerchiamo;
-2. dai un'occhiata all'**Ambientazione**, per sapere in quale momento del Mondo Magico entrerà il tuo Personaggio;
-3. leggi le **Regole Generali**, che contengono le norme fondamentali per giocare insieme.
+<section class="felix-start-tracks" aria-label="Percorsi per la creazione del Personaggio">
+  <article class="felix-start-track">
+    <div class="felix-start-track-top"><p class="felix-start-track-eyebrow">Vita a Hogwarts</p><h3>PG Studente</h3><p>Lezioni, Piano di Studi, Coppa delle Case, Cariche scolastiche e Trama dell'Anno vista dagli studenti.</p><a class="felix-start-cta" href="../il-personaggio/pg-studente/">Vai alla guida per Studenti <span aria-hidden="true">→</span></a></div>
+    <details class="felix-start-details"><summary>Mostra i passaggi per iniziare</summary>
+      <ol>
+        <li><a href="../il-personaggio/pg-studente/">Scopri come si gioca un PG Studente.</a></li>
+        <li><a href="../il-personaggio/pg-studente/creare-un-pg-studente/">Leggi come creare il tuo PG.</a></li>
+        <li><a href="../il-personaggio/parametri/">Consulta i Parametri.</a></li>
+        <li>Esplora <a href="../il-personaggio/pg-studente/studiare-ad-hogwarts/">Studiare ad Hogwarts</a> e le <a href="../il-personaggio/pg-studente/modalita-di-gioco/">Modalità di gioco</a>.</li>
+        <li>Procedi sul forum con lo <a href="https://felixfelicisharrypottergdr.forumfree.it/?t=79197665">Smistamento</a> e la creazione della Scheda.</li>
+      </ol>
+    </details>
+  </article>
+  <article class="felix-start-track">
+    <div class="felix-start-track-top"><p class="felix-start-track-eyebrow">Vita nel Mondo Magico</p><h3>PG Adulto</h3><p>Mestieri, Categorie Magiche, Sapienze, carriera e dinamiche sociali e narrative fuori da Hogwarts.</p><a class="felix-start-cta" href="../il-personaggio/pg-adulto/">Vai alla guida per Adulti <span aria-hidden="true">→</span></a></div>
+    <details class="felix-start-details"><summary>Mostra i passaggi per iniziare</summary>
+      <ol>
+        <li><a href="../il-personaggio/pg-adulto/">Scopri come si gioca un PG Adulto.</a></li>
+        <li><a href="../il-personaggio/pg-adulto/creare-un-pg-adulto/">Leggi come creare il tuo PG.</a></li>
+        <li>Esplora <a href="../il-personaggio/pg-adulto/creare-un-pg-adulto/categorie-magiche/">Categorie Magiche</a> e <a href="../il-personaggio/pg-adulto/lavorare/mestieri/">Mestieri</a>.</li>
+        <li>Consulta <a href="../il-personaggio/parametri/">Parametri</a>, <a href="../conoscenze-e-sapienze/sapienze/">Sapienze</a> ed eventualmente <a href="../conoscenze-e-sapienze/sapienze/crescita-a-debito/">Crescita a Debito</a>.</li>
+        <li>Scopri le <a href="../il-personaggio/pg-adulto/modalita-di-gioco/">Modalità di gioco dei PG Adulti</a>.</li>
+      </ol>
+    </details>
+  </article>
+</section>
 
-Per cominciare, basta questo.
+Nessuno dei due percorsi richiede di decidere subito ogni sviluppo futuro: il Personaggio crescerà e cambierà durante il gioco.
 
-Tutto il resto del Regolamento può essere scoperto gradualmente.
+## Come consultare il resto del Regolamento
 
-## Poi scegli che storia vuoi vivere
+<div class="felix-start-directory" role="list">
+  <a role="listitem" href="../il-personaggio/"><strong>Il Personaggio</strong><span>Creazione, caratteristiche, Parametri e crescita.</span></a>
+  <a role="listitem" href="../giocare/"><strong>Giocare</strong><span>Role, Azioni, dadi, Scontri e procedure.</span></a>
+  <a role="listitem" href="../conoscenze-e-sapienze/"><strong>Conoscenze e Sapienze</strong><span>Ciò che il PG sa fare e come può migliorarlo.</span></a>
+  <a role="listitem" href="../manuali/"><strong>Manuali</strong><span>Incantesimi, Pozioni, Piante, Creature e discipline specialistiche.</span></a>
+  <a role="listitem" href="../mondo-magico/"><strong>Mondo Magico</strong><span>Vita quotidiana, commercio, trasporti, Quidditch e istituzioni.</span></a>
+</div>
 
-Su FELIX FELICIS puoi giocare due grandi tipi di Personaggio. Non sono semplicemente due età diverse: offrono esperienze, opportunità e sistemi di crescita differenti.
+Per una domanda specifica usa la <strong>ricerca globale</strong>: puoi cercare direttamente “Fatica”, un Incantesimo, una Pozione o una procedura senza sapere già in quale capitolo si trovi.
 
-### Voglio creare un PG Studente
-
-Un **PG Studente** vive soprattutto a Hogwarts. Frequenta le lezioni, sviluppa il proprio Piano di Studi, partecipa alla Coppa delle Case, può ricoprire Cariche scolastiche e vivere la Trama dell'Anno dal punto di vista degli studenti.
-
-Il percorso consigliato è:
-
-1. scopri [come si gioca un PG Studente](../il-personaggio/pg-studente/);
-2. leggi [come creare un PG Studente](../il-personaggio/pg-studente/creare-un-pg-studente/);
-3. consulta i [Parametri](../il-personaggio/parametri/) per capire cosa descrivono;
-4. guarda [Studiare ad Hogwarts](../il-personaggio/pg-studente/studiare-ad-hogwarts/) e le [Modalità di gioco](../il-personaggio/pg-studente/modalita-di-gioco/) per capire quali possibilità avrai una volta entratə a scuola;
-5. sul forum, procedi con lo [Smistamento](https://felixfelicisharrypottergdr.forumfree.it/?t=79197665) e con la creazione della Scheda.
-
-Non è necessario conoscere già tutte le Conoscenze scolastiche o tutti i sistemi di Hogwarts: potrai consultarli quando entreranno davvero in gioco.
-
-### Voglio creare un PG Adulto
-
-Un **PG Adulto** vive nel Mondo Magico al di fuori della scuola. Può lavorare, sviluppare Sapienze, entrare nelle dinamiche politiche e sociali dell'ambientazione, partecipare agli eventi legati a Mestiere e Categoria e costruire una carriera.
-
-Il percorso consigliato è:
-
-1. scopri [come si gioca un PG Adulto](../il-personaggio/pg-adulto/);
-2. leggi [come creare un PG Adulto](../il-personaggio/pg-adulto/creare-un-pg-adulto/);
-3. scegli la [Categoria Magica](../il-personaggio/pg-adulto/creare-un-pg-adulto/categorie-magiche/) e il [Mestiere](../il-personaggio/pg-adulto/lavorare/mestieri/);
-4. consulta [Parametri](../il-personaggio/parametri/), [Sapienze](../conoscenze-e-sapienze/sapienze/) e, se ti interessa partire con un PG già più sviluppato, [Crescita a Debito](../conoscenze-e-sapienze/sapienze/crescita-a-debito/);
-5. guarda le [Modalità di gioco dei PG Adulti](../il-personaggio/pg-adulto/modalita-di-gioco/) per capire che tipo di storie puoi costruire.
-
-Anche qui non serve scegliere subito ogni possibile sviluppo futuro del Personaggio. Il PG può crescere e cambiare mentre giochi.
-
-## E tutto il resto del Regolamento?
-
-Consultalo **quando ti serve**.
-
-- **Il Personaggio** raccoglie tutto ciò che riguarda creazione, Parametri, crescita e caratteristiche dei PG.
-- **Giocare** spiega Role, Azioni, dadi, Scontri e procedure di gioco.
-- **Conoscenze e Sapienze** spiega ciò che i Personaggi sanno fare e come possono migliorarlo.
-- **Manuali** contiene Incantesimi, Creature, Piante, Pozioni, Ingredienti e discipline specialistiche.
-- **Mondo Magico** raccoglie vita quotidiana, commercio, trasporti, Quidditch, leggi e istituzioni.
-
-Puoi anche usare la **ricerca globale** in qualsiasi momento: se durante una role ti chiedi “come funziona la Fatica?”, “posso usare questa Pozione?” o “cosa succede se compio un'Azione illegale?”, non serve ricordare dove fosse scritto. Cerca direttamente quello che ti serve.
-
-## Hai un dubbio?
-
-Non devi risolvere tutto da solə.
-
-La pagina **Staff** è sempre raggiungibile dall'header del Regolamento. Lì trovi chi si occupa dei diversi aspetti del gioco e a chi conviene rivolgerti per dubbi su Regolamento, Schede, Narratore, accrediti o problemi tecnici.
-
-E soprattutto: **puoi iniziare anche senza sentirti espertə del Regolamento**. Imparerai molte cose semplicemente giocando.
+<nav class="felix-start-help" aria-label="Supporto ai nuovi giocatori"><div><strong>Hai un dubbio?</strong><p>Per Regolamento, Schede, Narratore, accrediti o problemi tecnici puoi rivolgerti allo Staff. Non è necessario conoscere tutto prima di iniziare.</p></div><a href="staff/">Conosci lo Staff <span aria-hidden="true">→</span></a></nav>
