@@ -1832,4 +1832,4 @@ Il modo in cui il PG può procedere con la fase "Uso della Bacchetta" è spiegat
 
 Il Pozionario comprende **136 Pozioni strutturate**, ricercabili e filtrabili.
 
-[Apri il Pozionario →](/manuali/pozionistica/pozionario/)
+[Apri il Pozionario →](pozionario/)
