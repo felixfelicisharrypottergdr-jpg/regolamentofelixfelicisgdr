@@ -18,67 +18,6 @@ migration:
 
 # Parametri Sociali
 
-**INDICE**
-
-• Dialettica
-
-○ Crescita della Dialettica
-
-• Popolarità
-
-○ Popolarità dei PG Studenti
-
-○ Popolarità dei PG Adulti
-
-• Stima dei Docenti e Prestigio
-
-○ La Stima dei Docenti dei PG Studenti
-
-○ Il Prestigio dei PG Adulti
-
-• Punti Bontà e Malvagità
-
-○ Legame con l’Allineamento del PG Studente
-
-○ Punti Bontà
-
-○ Punti Malvagità
-
-○ Come si guadagnano Punti Bontà e Malvagità
-
-○ Relazione tra Punti Bontà e Malvagità
-
-*- La Soglia di Neutralità*
-
-• Punti Virtuosi e Sinistri
-
-○ Legame con l'Allineamento del PG Adulto
-
-○ Punti Virtuosi
-
-○ Punti Sinistri
-
-○ Se non sono né Virtuoso né Sinistro?
-
-○ Come si guadagnano Punti Virtuosi e Sinistri
-
-○ Relazione tra Punti Virtuosi e Sinistri
-
-*- La Soglia di Neutralità*
-
-• Guadagnare, perdere, recuperare Parametri Sociali
-
-• Da PG Studente a PG Adulto: che fine fanno i miei Parametri Sociali?
-
-*- Popolarità*
-
-*- Stima dei Docenti e Prestigio*
-
-*- Punti Bontà e Malvagità, Punti Virtuosi e Sinistri*
-
-I Parametri Sociali riguardano la sfera sociale del PG, il modo in cui si interfaccia agli altri e in cui vive all'interno della società del Mondo Magico.
-Essi sono la Dialettica, la Popolarità, la Stima dei Docenti per i PG Studenti ed il Prestigio per i PG Adulti, i Punti Bontà e Malvagità per i PG Studenti e i Punti Virtuosi e Sinistri per i PG Adulti.
-
 ## Dialettica
 
 La Dialettica definisce la capacità del PG di saper utilizzare le parole a suo favore, interpretare i fatti secondo il suo punto di vista e risultare credibile, manifestando charme e ascendenza.
@@ -86,10 +25,12 @@ Essa, contrariamente ai Parametri Magici, non è collegata a nessuna Sapienza. A
 Avere bassa Dialettica, dunque, implica l'entrare facilmente in soggezione e in imbarazzo, non saper gestire le proprie emozioni né saper celare eventuali timori, rimorsi o sensi di colpa.
 La scala della Dialettica inizia da 1 e arriva fino a **10 per i PG Studenti**, mentre per i **PG Adulti non ha un limite**.
 
+<a id="crescitadial"></a>
 ### Crescita della Dialettica
 È possibile acquistare Punti Dialettica spendendo Galeoni: l'idea è che i PG svolgano corsi di oratoria, dialettica e public speaking tenuti dal Ministero della Magia, seminari di Hogwarts o proposti da altri enti magici, oppure che studino per conto loro l'arte dell'orazione e della comunicazione. Il prezzo aumenta sempre di più, poiché migliorare diventa sempre più dispendioso e complesso nel corso del tempo, e maggior è l'abilità, maggiore sarà la fatica per migliorarla.
 
-## Costo Dialettica
+<details><summary><strong>Costo Dialettica</strong></summary>
+
 1: ottenuta alla creazione della Scheda PG
 2: 50 Galeoni
 3: 100 Galeoni
@@ -99,47 +40,56 @@ La scala della Dialettica inizia da 1 e arriva fino a **10 per i PG Studenti**, 
 
 I Punti Dialettica possono essere acquistati nella propria Lista della Spesa.
 
+</details>
+
 ## Popolarità
 
 La Popolarità indica quanto un PG è noto agli altri PG all'interno di Hogwarts o del Mondo Magico.
 
+<a id="popstudenti"></a>
 ### Popolarità dei PG Studenti
 Per quanto riguarda i PG Studenti, essa consente al PG di avere accesso a informazioni, conoscenze, modalità di gioco ed eventi esclusivi sulla base di quanto il PG è Popolare. In generale, ndica quanto un PG è conosciuto all'interno di Hogwarts dagli altri PG e dai PNG.
 Tuttavia, più la Popolarità del PG è alta, più sono alte le possibilità di essere scoperti da Prefetti e Docenti nel caso in cui il PG compia un'infrazione del Regolamento Scolastico.
 
+<a id="popadulti"></a>
 ### Popolarità dei PG Adulti
 Per quanto riguarda i PG Adulti, più è alta, più è consentito l'accesso a determinati servizi. Più è bassa, più i PG riescono a commettere azioni illegali passando inosservati. In generale, indica quanto un PG è conosciuto all'interno del Mondo Magico dagli altri PG, oppure nel proprio ambito lavorativo.
 Tuttavia, più la Popolarità del PG è alta, più sono alte le possibilità di essere scoperti a compiere Azioni Illegali.
 Nelle rispettive sezioni (Crescita Popolarità dei PG Studenti eCrescita Popolarità dei PG Adulti) sono presenti degli schemi dove è descritto cosa un PG Studente o Adulto può assumere di un altro PG Studente o Adulto soltanto basandosi sulla sua Popolarità.
 Alle regole standard sono applicate tre eccezioni:
-• i due PG hanno già ruolato assieme e, necessariamente, si conoscono;
-• tra i due PG esiste una relazione da background descritta nelle rispettive Schede PG e, necessariamente, si conoscono;
-• una casualità che dipende dalla Popolarità del PG che si vuole dire di conoscere, e che fornisce al PG più o meno informazioni sulla base del risultato di un lancio di dado descritto nelle rispettive sezioni.
+- i due PG hanno già ruolato assieme e, necessariamente, si conoscono;
+- tra i due PG esiste una relazione da background descritta nelle rispettive Schede PG e, necessariamente, si conoscono;
+- una casualità che dipende dalla Popolarità del PG che si vuole dire di conoscere, e che fornisce al PG più o meno informazioni sulla base del risultato di un lancio di dado descritto nelle rispettive sezioni.
 
+<a id="stimaprest"></a>
 ## Stima dei Docenti e Prestigio
 
 La Stima dei Docenti ed il Prestigio indicano in che modo e quindi con che reputazione i PG sono conosciuti tra le mura di Hogwarts o nel loro ambito lavorativo.
 
+<a id="stimastudenti"></a>
 ### La Stima dei Docenti dei PG Studenti
 La Stima dei Docenti è un Parametro Sociale esclusivo dei PG Studenti e descrive il modo in cui un PG Studente è conosciuto presso l'istituzione scolastica, la sua reputazione agli occhi di chi vive tra le mura di Hogwarts. A differenza della Popolarità, che riguara quanto un PG Studente è più o meno famoso, e quindi conosciuto, tra i suoi compagni ed il Personale Scolastico, la Stima dei Docenti riguarda invece il *modo* in cui il PG è conosciuto, sulla base dei giudizi che circolano su di lui nei corridoi: se è un buono o un cattivo studente, se è una persona affidabile, se fa il suo dovere oppure è soltanto uno scansafatiche eccetera.
 PG con alta Stima dei Docenti ottengono più Punti Casa per ogni post che scrivono ma, considerata la grande fiducia che Docenti e Prefetti riservano in loro, più è alta la Stima dei Docenti di un PG che infrange il Regolamento Scolastico, più sono alti i Punti Casa persi se viene scoperto a commettere un'infrazione.
 
+<a id="prestigioadulti"></a>
 ### Il Prestigio del PG Adulti
 Il Prestigio è un Parametro Sociale riservato ai PG Adulti lavoratori che misura il successo lavorativo, dà un'idea di quali responsabilità il mestiere comporti e stabilisce quanto questo influisce sulle sue possibilità. Un PG Adulto che svolge un mestiere deve adempiere ad alcuni doveri e ottenere dei risultati: un Auror che fa scappare un ricercato può scontentare il Dipartimento, un Diplomatico capace di strappare un accordo vantaggioso può invece far felice il suo Ufficio.
 Il Prestigio è un'informazione legata al PG e conosciuta automaticamente da tutti i PG che svolgono lo stesso Mestiere; per gli altri, è legata alla conoscenza diretta del PG o tramite il meccanismo della Popolarità Adulti.
 Si misura su una scala che va da 0 a 100 e viene aggiornato unicamente dal Narratore.
 
+<a id="bonmal"></a>
 ## Punti Bontà e Malvagità
 
 Nel corso della loro permanenza a Hogwarts, i PG Studenti possono guadagnare **Punti Bontà** e **Punti Malvagità**, due Parametri Sociali che rappresentano la loro **tendenza** a compiere azioni Legali o Caotiche, piuttosto che a esprimere semplicemente una personalità "buona" o "cattiva". Questi Punti non vanno quindi interpretati come misura della bontà o della malvagità del personaggio nella sua quotidianità, ma come **indicatore della sua propensione** a compiere azioni corrette o scorrette quando si trova nella posizione di poter scegliere.
 In termini di gioco, questi Parametri sono requisiti per alcune Missioni del FantaHogwarts, ma possono essere usati anche come condizioni per ottenere Punti Post, Punti Casa, Popolarità, Stima dei Docenti e altri vantaggi, durante Role Masterate, Trame Speciali o Eventi.
 Ogni PG Studente parte da 0 Punti Bontà e 0 Punti Malvagità e può guadagnarne (o perderne) senza limiti, nel rispetto delle condizioni imposte dalla Soglia di Neutralità, che regola l’equilibrio tra i due Parametri e impedisce accumuli eccessivi di entrambi in simultanea.
 
+<a id="legameallistudenti"></a>
 ### Legame con l’Allineamento del PG Studente
 I Punti Bontà e Malvagità sono soltanto relativamente collegati all’Allineamento semplificato dei PG Studenti, che può essere:
-• Legale (incline all’ordine, al rispetto delle regole e all’altruismo);
-• Neutrale (equilibrato, flessibile, guidato dal contesto);
-• Caotico (ribelle, incline alla disobbedienza o alla scorrettezza).
+- Legale (incline all’ordine, al rispetto delle regole e all’altruismo);
+- Neutrale (equilibrato, flessibile, guidato dal contesto);
+- Caotico (ribelle, incline alla disobbedienza o alla scorrettezza).
 A differenza dei PG Adulti, i PG Studenti **non possiedono un allineamento completo** secondo la classica struttura a 9 Allineamentidei GdR (Legale/Neutrale/Caotico+Buono/Neutrale/Malvagio). L’Allineamento dei PG Studenti si basa unicamente sull’asse **Legale–Neutrale–Caotico**, in quanto si ritiene che durante l’adolescenza la morale profonda del personaggio non sia ancora del tutto formata, mentre il suo approccio al rispetto delle regole e alla convivenza sociale è già più evidente.
 I **Punti Bontà** e **Malvagità** non riflettono dunque un allineamento buono o malvagio, ma rappresentano **l’inclinazione del PG** verso azioni legali o caotiche che potrebbero, col tempo, definire la sua moralità da adulto. In altre parole, un PG Studente potrà accumulare sia Punti Bontà che Punti Malvagità in proporzioni variabili, ma quanto più uno dei due Parametri sarà elevato, tanto più questo influenzerà l’Allineamento completo che il PG dovrà scegliere una volta diventato Adulto.
 Un personaggio con molti Punti Bontà sarà naturalmente spinto, in età adulta, verso un allineamento Buono (Legale Buono, Neutrale Buono o Caotico Buono); al contrario, un personaggio con molti Punti Malvagità tenderà verso un allineamento Malvagio (Legale Malvagio, Neutrale Malvagio o Caotico Malvagio). Un PG con un equilibrio tra i due Parametri potrebbe invece evolversi verso un Allineamento Neutrale più sfaccettato.
@@ -163,14 +113,16 @@ I Punti Malvagità indicano la propensione di un PG a compiere "Azioni Caotiche"
 Anche in questo caso, un alto numero di Punti Malvagità non significa che il personaggio sia cattivo per indole, ma che ha più volte scelto – per convinzione, per istinto o per convenienza – di agire contro le regole o gli altri.
 Ciò non esclude che possa talvolta comportarsi in modo etico o aiutare un compagno, ad esempio se ne riconosce il valore o se l’atto lo favorisce in altro modo.
 
+<a id="guadagnobonmal"></a>
 ### Come si guadagnano Punti Bontà e Malvagità
 
 I Punti Bontà e Malvagità si ottengono principalmente tramite:
-• **Missioni del FantaHogwarts**, completando obiettivi coerenti con uno dei due archetipi morali;
-• **Role Masterate e Eventi**, quando le azioni del PG si distinguono per un alto impatto Legale o Caotico (a discrezione del Narratore);
-• **Scelte di gioco**, premiate o penalizzate in base al contesto.
+- **Missioni del FantaHogwarts**, completando obiettivi coerenti con uno dei due archetipi morali;
+- **Role Masterate e Eventi**, quando le azioni del PG si distinguono per un alto impatto Legale o Caotico (a discrezione del Narratore);
+- **Scelte di gioco**, premiate o penalizzate in base al contesto.
 In alcuni casi, i Punti possono anche essere persi se il personaggio compie atti che contraddicono il Parametro accumulato. Ad esempio, un PG con molti Punti Bontà che decide deliberatamente di ferire un innocente potrebbe perdere parte del proprio punteggio.
 
+<a id="relazionebonmal"></a>
 ### Relazione tra Punti Bontà e Malvagità
 Nel mondo di gioco, i PG Studenti si trovano in una fase di crescita personale e morale. La loro etica non è ancora completamente formata, e per questo motivo possono sviluppare contemporaneamente sia Punti Bontà che Punti Malvagità, almeno fino a un certo punto.
 Le spettro dell'Allineamento dei PG Studenti è ridotto e semplificato rispetto a quello dei PG Adulti, in quanto gli adolescenti tendono a comportarsi in maniera un po' più casuale e spesso non strettamente legata alla propria moralità, quanto più al proprio carattere.
@@ -178,8 +130,8 @@ Il sistema morale dei PG Studenti è stato concepito per riflettere l’instabil
 
 **LA SOGLIA DI NEUTRALITA'**
 La "Soglia di Neutralità" regola l'equilibrio tra inclinazioni Legali e Caotiche di un PG che accumula sia Punti Bontà che Punti Malvagità. Quando un PG raggiunge i **20 punti** in una delle due categorie, supera questa soglia. Superato il limite, ogni punto guadagnato nella categoria che ha superato la Soglia comporta la perdita di punti nell'altra, impedendo una crescita indefinita in entrambe le direzioni. Questo riflette l'idea che un PG non può essere completamente neutrale se si dedica costantemente a un comportamento buono o cattivo. Un PG può tuttavia scegliere di restare neutrale, senza superare mai la soglia di 20 nè con i Punti Bontà, nè con i Punti Malvagità. Un PG neutrale può scegliere di non affiliarsi a nessuna delle fazioni, ma non può essere parte di entrambe.
-• **Fino a raggiungere la Soglia di Neutralità** (ovvero **20 Punti Bontà e/o Malvagità**), i PG possono guadagnare Punti Bontà e Malvagità senza penalità, accumulando punti in entrambe le categorie senza che l'una influisca sull'altra.
-• Tuttavia, **superato il limite di 20 punti**, entra in gioco un nuovo sistema.
+- **Fino a raggiungere la Soglia di Neutralità** (ovvero **20 Punti Bontà e/o Malvagità**), i PG possono guadagnare Punti Bontà e Malvagità senza penalità, accumulando punti in entrambe le categorie senza che l'una influisca sull'altra.
+- Tuttavia, **superato il limite di 20 punti**, entra in gioco un nuovo sistema.
 Quando un PG supera i **20 punti** in una delle due categorie, definisce la propria tendenza morale, scegliendo tra il bene (legale) e il male (caotico). Da quel momento, si applica la seguente regola:
 - **Ogni punto guadagnato nel parametro che ha superato i 20** comporta la **perdita di un punto** nell'altra categoria. Ad esempio, se un PG ha 21 Punti Bontà, ogni nuovo punto in Bontà farà perdere un punto Malvagità. Un personaggio non può più accumulare punti in entrambe le categorie senza che una diminuisca.
 - Inoltre, **superato il limite di 20 punti in una categoria**, il parametro opposto non può più superare i 20 punti. Quando un PG ha preso una direzione morale netta, non può più oscillare liberamente tra il bene e il male.
@@ -194,7 +146,8 @@ Questo accade solo se un PG decide di invertire la propria moralità, passando d
 
 - I PG che desiderano mantenere una **posizione neutrale** **non possono mai superare i 20 punti** in nessuna delle due categorie. In altre parole, per rimanere neutrali, i PG devono mantenere un equilibrio tra i Punti Bontà e Malvagità, senza inclinarsi troppo verso l'una o l'altra direzione, preservando così il proprio "equilibrio" morale e la neutralità.
 
-## Esempio:
+<details><summary><strong>Esempio:</strong></summary>
+
 
 > **Esempio.**
 > Immaginiamo due PG, Harry e Draco, che durante il gioco accumulano Punti Bontà e Punti Malvagità.
@@ -203,16 +156,20 @@ Harry ha **10 Punti Bontà e 10 Punti Malvagità**. Durante la sua avventura, le
 **Draco:**
 Draco ha accumulato **30 Punti Malvagità e 10 Punti Bontà** e ha superato la Soglia di Neutralità, orientandosi verso scelte malvagie. Decide di diventare più buono, quindi inizia a fare scelte morali positive senza voler cambiare la sua moralità bruscamente, quindi gioca il cambiamento ONGame. Inizia a guadagnare Punti Bontà fino a raggiungere **20 Punti Bontà**, mentre la Malvagità rimane invariata. Da quel momento, ogni punto guadagnato in Bontà oltre i 20 causerà la perdita di un punto in Malvagità (1:1). Ad esempio, se Draco guadagna 5 Punti Bontà, i suoi Punti Malvagità scendono di 5 unità, passando da 30 a 25 Punti Malvagità. Fino a quando i suoi Punti Malvagità non scendono a 20, non può guadagnare più punti in Bontà. Quando i Punti Malvagità arrivano a 20, Draco può continuare a guadagnare Bontà senza che la Malvagità possa più aumentare, completando il suo cambio graduale verso una moralità buona.
 
+</details>
+
+<a id="virtsin"></a>
 ## Punti Virtuosi e Sinistri
 
 Nel corso della loro vita adulta, i PG possono guadagnare Punti Virtuosi e Punti Sinistri, due Parametri Sociali che rappresentano la loro tendenza a compiere azioni Virtuose o Sinistre, piuttosto che a esprimere semplicemente una personalità "buona" o "cattiva". Questi Punti non vanno interpretati come misura della bontà o della malvagità del personaggio nella sua quotidianità, ma come indicatore della sua propensione a compiere azioni virtuose o sinistre quando si trova nella posizione di poter scegliere.
 In termini di gioco, oltre ad essere dei requisiti per alcune Missioni del FantaWiz, possono essere usati anche come condizioni per ottenere Punti Post, questi Parametri permettono anche di creare una connessione con i Proprietari delle Locande e
-• avere accesso a club esclusivi;
-• ottenere sempre più Galeoni in cambio di ingredienti o oggetti;
-• ottenere informazioni sull'ambientazione o sui PG o PNG del gioco;
-• ottenere indizi riguardanti futuri eventi di gioco.
+- avere accesso a club esclusivi;
+- ottenere sempre più Galeoni in cambio di ingredienti o oggetti;
+- ottenere informazioni sull'ambientazione o sui PG o PNG del gioco;
+- ottenere indizi riguardanti futuri eventi di gioco.
 Ogni PG Adulto parte da 0 Punti Virtuosi e Sinistri e può arrivare in entrambi i casi ad un massimo di 30, dopo i quali si diranno "appartenenti" alla fazione di cui hanno sviluppato 30 punti Virtuosi e/o Sinistri, definendosi PG Virtuosi e PG Sinistri.
 
+<a id="legameallineamento"></a>
 ### Legame con l'Allineamento del PG Adulto
 Nel caso dei **PG Adulti**, l'**Allineamento** è **strettamente collegato** ai Punti Virtuosi e Sinistri. Questo significa che, a seconda dell'Allineamento scelto dal personaggio, ci sono dei **limiti **al numero di punti che possono essere accumulati in ciascuna delle due categorie. Tali limiti sono determinati dalla coerenza con l'orientamento morale del PG, e il superamento di questi limiti richiederà una modifica ufficiale dell'Allineamento del personaggio.
 Infatti:
@@ -235,7 +192,8 @@ Essi, trovandosi di fronte a PG con alti punti Virtuosi, sono più inclini a dif
 **Vantaggi dei Punti Virtuosi**
 Essere un Auror o un Giornalista aggiunge +1 di bonus alle possibilità del dado.
 
-## Se il tuo PG ha:
+<details><summary><strong>Se il tuo PG ha:</strong></summary>
+
 
 **• 0-5 Punti Virtuosi:**
 Il PG, su 1d10, ottiene Indizi ambientativi dal Locandiere del "Paiolo Magico” o Informazioni personali su PG o PNG dal Proprietario di “Florian Fortebraccio” se pesca **1**;
@@ -253,9 +211,11 @@ Il PG, su 1d10, ottiene Indizi ambientativi dal Locandiere del "Paiolo Magico”
 Il PG, su 1d10, ottiene Indizi ambientativi dal Locandiere del "Paiolo Magico” o Informazioni personali su PG o PNG dal Proprietario di “Florian Fortebraccio” se pesca **1-9**.
 **• 30 Punti Virtuosi: **
 Il PG diventa un PG Virtuoso. Diventare un PG Virtuoso permette di:
-• Ottenere un buon numero di Galeoni dal Ricercatore per lo scambio di ingredienti e merci magiche legali;
-• Ottenere autoconclusivamente Indizi ambientativi dal Locandiere del “Paiolo Magico”;
-• Ottenere autoconclusivamente Informazioni personali su PG o PNG dal Proprietario di “Florian Fortebraccio”.
+- Ottenere un buon numero di Galeoni dal Ricercatore per lo scambio di ingredienti e merci magiche legali;
+- Ottenere autoconclusivamente Indizi ambientativi dal Locandiere del “Paiolo Magico”;
+- Ottenere autoconclusivamente Informazioni personali su PG o PNG dal Proprietario di “Florian Fortebraccio”.
+
+</details>
 
 ### Punti Sinistri
 I Punti Sinistri indicano la propensione di un PG a compiere Azioni Sinistre, cioè sleali, scorrette, dannose o egoistiche, a prescindere dalla motivazione. Anche in questo caso, un alto numero di Punti Sinistri non significa che il personaggio sia cattivo di natura, ma che ha scelto – per convinzione, per istinto o per convenienza – di agire contro le regole o a discapito degli altri. Ciò non esclude che possa talvolta comportarsi in modo virtuoso, per esempio per raggiungere uno scopo personale o per approfittare di una situazione.
@@ -264,7 +224,8 @@ Essi, trovandosi di fronte a PG con alti punti Sinistri, sono più inclini a dif
 **Vantaggi dei Punti Sinistri**
 Essere un Intracciabile aggiunge +1 di bonus alle possibilità del dado.
 
-## Se il tuo PG ha:
+<details><summary><strong>Se il tuo PG ha:</strong></summary>
+
 
 **• 0-5 Punti Sinistri: **
 Il PG, su 1d10, ottiene Indizi Ambientativi dal Locandiere della “Tana del Lupo” o Informazioni personali su PG o PNG dalla Proprietaria di “La Luna Nera” se pesca **1**;
@@ -282,10 +243,13 @@ Il PG, su 1d10, ottiene Indizi Ambientativi dal Locandiere della “Tana del Lup
 Il PG, su 1d10, ottiene Indizi Ambientativi dal Locandiere della “Tana del Lupo” o Informazioni personali su PG o PNG dalla Proprietaria di “La Luna Nera” se pesca **1-9**;
 **• 30 Punti Sinistri:**
 Il PG diventa un PG Sinistro. Diventare un PG Sinistro permette di:
-• Ottenere un buon numero di Galeoni dall'Alchimista per lo scambio di ingredienti e merci;
-• Ottenere autoconclusivamente Indizi ambientativi dal Locandiere della “Tana del Lupo”;
-• Ottenere autoconclusivamente Informazioni personali su PG o PNG dalla Proprietaria di “La Luna Nera”.
+- Ottenere un buon numero di Galeoni dall'Alchimista per lo scambio di ingredienti e merci;
+- Ottenere autoconclusivamente Indizi ambientativi dal Locandiere della “Tana del Lupo”;
+- Ottenere autoconclusivamente Informazioni personali su PG o PNG dalla Proprietaria di “La Luna Nera”.
 
+</details>
+
+<a id="novirtsin"></a>
 ### Se non sono né Virtuoso né Sinistro?
 Il Ricercatore, l'Alchimista e le Locande del Paiolo Magico e della Tana del Lupo non sono gli unici posti in cui è possibile reperire informazioni o Oggetti Magici: esistono invece dei PNG Neutrali che non richiedono uno specifico requisito di Punti Virtuosi o Sinistri per concedere i propri privilegi, PNG come i proprietari delle Locande Neutrali la "Testa di Porco" e "i Tre Manici di Scopa" o "Lo Zoppo" per la vendita di Ingredienti.
 In questi Luoghi Neutrali infatti chiunque ha le stesse probabilità di ottenere Oggetti, Pozioni o Galeoni dando qualcosa in cambio:
@@ -296,12 +260,14 @@ Il PG ottiene informazioni *Informazioni personali su PG o PNG: se, lanciando un
 **• Lo Zoppo**
 Acquista dai PG Ingredienti o Merci Legali e Illegali, in quest'ultimo caso a loro rischio e pericolo.
 
+<a id="guadagnovirtsin"></a>
 ### Come si guadagnano Punti Virtuosi e Sinistri
 I Punti Virtuosi e Sinistri si ottengono principalmente tramite:
-• **Missioni del FantaWiz**, completando obiettivi coerenti con uno dei due archetipi morali;
-• **Role Masterate e Eventi**, quando le azioni del PG si distinguono per un alto impatto Virtuoso o Sinistro (a discrezione del Narratore);
-• **Scelte di gioco**, premiate o penalizzate in base al contesto.
+- **Missioni del FantaWiz**, completando obiettivi coerenti con uno dei due archetipi morali;
+- **Role Masterate e Eventi**, quando le azioni del PG si distinguono per un alto impatto Virtuoso o Sinistro (a discrezione del Narratore);
+- **Scelte di gioco**, premiate o penalizzate in base al contesto.
 
+<a id="relazionevirtsin"></a>
 ### Relazione tra Punti Virtuosi e Sinistri
 Le spettro dell'Allineamento è vasto e mentre il Legale Buono e il Caotico Malvagio costituiscono i due opposti della scala morale, il Legale Neutrale, il Legale Malvagio, il Neutrale Puro, il Caotico Buono o il Caotico Neutrale costituiscono delle vie di mezzo in cui bene e male si scontrano, si amalgamano e prendono sfumature l'uno dall'altro.
 I Punti Virtuosi e Punti Sinistri rappresentano la propensione del PG a seguire comportamenti legati a moralità elevata o discutibile, e sono quindi strettamente legati all’Allineamento scelto. Per questo motivo, ogni PG Adulto può sviluppare contemporaneamente Punti Virtuosi e Sinistri nel modo che ritiene più opportuno, fino alla Soglia di Neutralità.
@@ -309,8 +275,8 @@ I Punti Virtuosi e Punti Sinistri rappresentano la propensione del PG a seguire 
 **LA SOGLIA DI NEUTRALITA'**
 Un PG che accumula sia Punti Virtuosi che Punti Sinistri inizia a definire il proprio orientamento morale, dimostrando una predisposizione a compiere azioni considerate buone (Virtuose) o cattive (Sinistre). Questo sistema permette al PG di sviluppare la propria identità morale man mano che accumula punti in base alle sue scelte. Tuttavia, quando il PG raggiunge i **20 Punti Virtuosi o Sinistri**, supera quella che viene chiamata "**Soglia di Neutralità**".
 Questa dinamica serve a rappresentare il concetto che un personaggio che si dedica costantemente a un tipo di comportamento (buono o cattivo) non può essere considerato completamente neutrale. Inoltre, non può far parte contemporaneamente di entrambe le fazioni (buoni o cattivi), anche se può mantenere una posizione neutrale se lo desidera. In pratica, un PG Neutrale può scegliere di non affiliarsi a nessuna delle due fazioni, ma non può essere membro di entrambe.
-• **Fino a raggiungere la Soglia di Neutralità** (ovvero 20 Punti Virtuosi e/o Sinistri), i PG possono guadagnare Punti Virtuosi e Sinistri senza penalità, accumulando punti in entrambi i Parametri senza che l'uno influisca sull'altro;
-• Tuttavia, superato il limite di **20 punti Sinistri o Virtuosi**, entra in gioco un nuovo sistema.
+- **Fino a raggiungere la Soglia di Neutralità** (ovvero 20 Punti Virtuosi e/o Sinistri), i PG possono guadagnare Punti Virtuosi e Sinistri senza penalità, accumulando punti in entrambi i Parametri senza che l'uno influisca sull'altro;
+- Tuttavia, superato il limite di **20 punti Sinistri o Virtuosi**, entra in gioco un nuovo sistema.
 Quando un PG supera i 20 punti in uno dei due Parametri, definisce la propria tendenza morale, scegliendo tra il bene (legale) e il male (caotico). Da quel momento, si applica la seguente regola:
 - **Ogni punto guadagnato nel parametro che ha superato i 20 **comporta la perdita di **un punto** nell'altro Parametro. Ad esempio, se un PG ha 21 Punti Virtuosi, ogni nuovo punto Virtuoso gli farà perdere un punto Sinistro. Un personaggio non può più accumulare punti in entrambe le categorie senza che una diminuisca.
 - Inoltre, **superato il limite di 20 punti in un Parametro**, il parametro opposto non può più superare i 20 punti. Quando un PG ha preso una direzione morale netta, non può più oscillare liberamente tra il bene e il male.
@@ -334,7 +300,8 @@ In ogni caso, i Punti Virtuosi e Sinistri hanno un limite massimo di **30 Punti 
 
 - I PG che vogliono mantenere una **posizione neutrale** **non devono mai superare i 20 Punti Virtuosi o Sinistri**. La neutralità per i PG Adulti richiede disciplina morale e coerenza, e si traduce in un costante bilanciamento tra le due tendenze. Ciò significa, allo stesso tempo, l'impossibilità di appartenere ad una delle due Fazioni.
 
-## Esempi:
+<details><summary><strong>Esempi:</strong></summary>
+
 
 > **Esempio.**
 >
@@ -347,6 +314,9 @@ Draco è un PG Caotico Malvagio. Le sue azioni hanno costruito una lunga scia di
 Tuttavia, in quanto personaggio di allineamento Caotico Malvagio, Draco non può superare i 20 Punti Virtuosi. Così facendo, ha infranto i limiti imposti dal suo allineamento. La sua attuale ipotetica configurazione di punteggio (25 Virtuosi e 30 Sinistri) lo pone in una posizione di incoerenza morale. Adesso è chiamato a fare una scelta: potrà decidere di cambiare Allineamento e avviare una transizione narrativa verso una forma più neutrale o persino buona, riducendo gradualmente i suoi Punti Sinistri mentre guadagna Punti Virtuosi, fino a ristabilire un equilibrio coerente. In alternativa, potrà rivolgersi allo Staff e richiedere la rimozione immediata dei Punti Virtuosi in eccesso, rinnegando la sua recente bontà e tornando alla malvagità pura.
 In ogni caso, la sua situazione ipotetica non sarebbe concessa: ha superato la Soglia di Neutralità con i propri Punti Sinistri e supererebbe la soglia di Punti Virtuosi concessa dal proprio Allineamento, e la sua evoluzione morale dovrà essere riflessa nelle scelte narrative a venire. Questo esempio dimostra cosa accade quando un personaggio legato a una fazione malvagia inizia a compiere atti virtuosi senza badare alle conseguenze morali, trovandosi poi costretto a ridefinire la propria identità.
 
+</details>
+
+<a id="guadagnareperdesociali"></a>
 ## Guadagnare, perdere, recuperare Parametri Sociali
 
 I Parametri Sociali possono **aumentare, diminuire o essere temporaneamente compromessi** in base alle azioni del personaggio e al modo in cui queste vengono percepite nel contesto narrativo.
@@ -368,6 +338,7 @@ I parametri possono calare a causa di:
 - Alcuni eventi narrativi, come processi, confessioni pubbliche, atti di redenzione o scandali possono influenzare drasticamente più parametri contemporaneamente.
 La gestione dei Parametri Sociali è strettamente legata alla **credibilità narrativa** e alla **coerenza del personaggio**. Ogni cambiamento, anche minimo, è importante e ha conseguenze nel mondo di gioco: per questo motivo, lo Staff si riserva di valutare ogni richiesta o proposta in base al contesto della role e delle situazioni di gioco.
 
+<a id="fine"></a>
 ## Da PG Studente a PG Adulto: che fine fanno i miei Parametri Sociali?
 
 Un PG Studente che, terminato il percorso di studi ad Hogwarts dopo gli esami M.A.G.O., continua a giocare su Felix Felicis come PG Adulto subisce necessariamente una variazione dei propri Parametri Sociali: la sua Popolarità, la sua reputazione, la sua moralità come Studente cambieranno per via del complesso passaggio nel mondo degli adulti.
