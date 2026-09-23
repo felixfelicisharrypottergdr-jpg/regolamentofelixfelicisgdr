@@ -33,7 +33,7 @@ la ricerca di Fiducia da parte della Creatura).
 • La procedura va eseguita **per ogni esemplare di Creatura Magica** con cui si vuole
 interagire. Con "**Amico delle Creature**" fra le Conoscenze, il PG sblocca la peculiare
 capacità di poter infondere Fiducia **contemporaneamente** a più Creature. PG senza
-questa Conoscenza possono farlo soltanto usando strumenti speciali (vedi sotto "Orde" ).
+questa Conoscenza possono farlo soltanto usando strumenti speciali (vedi [Le Orde](../#le-orde)).
 • Alcune Creature possono essere **sempre ostili** o **mai ostili**, di
 conseguenza:
 - le Creature **sempre ostili** attaccano automaticamente i PG che non possiedono i
@@ -150,3 +150,11 @@ pescano 1-3.
 • PG che allevano (il dado va lanciato assieme ad ogni dado di Produzione degli Ingredienti)
 una Creatura Magica XXXX o XXXXX contraggono l'Ira se,
 lanciando 1d20, pescano 1.
+
+
+## Continua la consultazione
+
+- [Riconoscimento della Creatura Magica](../#riconoscimento-della-creatura-magica)
+- [Cura della Creatura](../#cura)
+- [Domesticazione](../domesticazione/)
+- [Guida alla Magizoologia](../)

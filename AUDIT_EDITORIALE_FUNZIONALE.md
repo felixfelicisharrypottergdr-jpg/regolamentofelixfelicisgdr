@@ -892,3 +892,16 @@ Il commit funzionale finale `dab7918ecb41dd38528185a84077f641e2bb63e0` ha supera
 - build Astro;
 - audit del sito renderizzato;
 - generazione artifact GitHub Pages.
+
+
+## 23 settembre 2026 — Magizoologia: procedure con fonte unica
+
+Le pagine `manuali/magizoologia/fiducia/` e `manuali/magizoologia/domesticazione/` sono il riferimento unico per le rispettive procedure. Nella guida generale i blocchi duplicati sono sostituiti da rimandi alle pagine e ai lanci.
+
+- Il confronto integrale prima della modifica conferma identità dei testi, salvo i caratteri di elenco corrotti (`â¢`) già corretti nelle pagine dedicate.
+- Restano invariati regole, valori, esempi, eccezioni, UUID e URL delle pagine.
+- Nella guida si conservano i titoli Fiducia, Infondere Fiducia nella Creatura Magica: 1d30, Domesticazione e Addomesticare una Creatura: 1d35 per mantenere i punti di accesso esistenti.
+- I riferimenti “vedi sotto” nelle pagine dedicate diventano link a Orde e Tecniche. Sono aggiunti collegamenti di ritorno alla guida e alle fasi collegate.
+- I conteggi e le percentuali delle sezioni precedenti descrivono l'audit storico: la duplicazione fra guida, Fiducia e Domesticazione è risolta da questo intervento.
+
+Il controllo editoriale dopo l'intervento rileva 140 gruppi di paragrafi duplicati complessivi (prima: 150), senza errori strutturali. Le altre sezioni non sono state riorganizzate.

@@ -160,4 +160,12 @@ Parametro Empatia.
 delle Creature come riuscisse a leggerle nella mente.
 • Si ricorda che possedere la Conoscenza Avanzata Custode delle Creature Magiche
 sblocca le abilità: "Insieme per sempre", "Creature Medimaghe", "Richiamare le Creature
-Magiche" e "Salvataggio del Padrone" (vedi sotto).
+Magiche" e "Salvataggio del Padrone" (vedi [Tecniche e Incantesimi Magizoologici](../tecniche/)).
+
+
+## Continua la consultazione
+
+- [Fiducia](../fiducia/)
+- [Cura della Creatura](../#cura)
+- [Allevamento](../#allevamento)
+- [Guida alla Magizoologia](../)

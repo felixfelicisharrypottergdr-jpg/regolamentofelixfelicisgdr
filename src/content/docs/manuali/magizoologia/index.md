@@ -30,7 +30,7 @@ Creatura?*
 
 ○ Il Generatore: La Magizoologia
 
-○ Fiducia
+○ [Fiducia](fiducia/)
 
 *- Cosa succede se fallisco la fase di
 Fiducia?*
@@ -45,7 +45,7 @@ Creatura*
 *- Convalescenza della
 Creatura*
 
-○ Domesticazione
+○ [Domesticazione](domesticazione/)
 
 *- Cosa succede se non riesco ad
 addomesticare la Creatura?*
@@ -347,140 +347,11 @@ attende l'inserimento del risultato realmente ottenuto.
 
 ## Fiducia
 
-**Tool interattivo:** La Magizoologia Facile
-Il PG riesce ad infondere Fiducia nella Creatura Magica a partire dal proprio livello di
-conoscenze: più il livello è alto, più sono alte le possibilità di infondere fiducia nella Creatura
-Magica a partire dalla teoria precedentemente studiata e in più Creature magiche
-contemporaneamente.
-Più la Classificazione della Creatura è bassa, inoltre, più sono alte le possibilità di riuscire ad
-avere la sua Fiducia.
-Di conseguenza, agli esiti sottostanti va aggiunto un certo numero di possibilità in base al
-livello della Creatura con la quale si vuole interagire.
-• La procedura va eseguita **per ogni PG** che si trova ad interagire con la Creatura.
-Soltanto PG con "**Amico delle Creature**" possono estendere la Fiducia ricevuta da
-sé agli altri membri del suo gruppo ma soltanto perché non siano ostili nei loro confronti (non
-possono cioè anche portarle nella propria Riserva senza prima aver eseguito personalmente
-la ricerca di Fiducia da parte della Creatura).
-• La procedura va eseguita **per ogni esemplare di Creatura Magica** con cui si vuole
-interagire. Con "**Amico delle Creature**" fra le Conoscenze, il PG sblocca la peculiare
-capacità di poter infondere Fiducia **contemporaneamente** a più Creature. PG senza
-questa Conoscenza possono farlo soltanto usando strumenti speciali (vedi sotto "Orde" ).
-• Alcune Creature possono essere **sempre ostili** o **mai ostili**, di
-conseguenza:
-- le Creature **sempre ostili** attaccano automaticamente i PG che non possiedono i
-requisiti necessari per interagire con loro. Con **Sapienza Magizoologica 1-15** è
-possibile tentare la fase di Fiducia; con **Sapienza Magizoologica 16+**, dopo aver
-ottenuto la Fiducia, è possibile procedere alla Domesticazione. Eventuali specie
-particolarmente difficili possono prevedere requisiti o malus differenti, specificati nel relativo
-specchietto;
-- è estremamente semplice ottenere la Fiducia delle Creature **mai ostili**: qualsiasi
-tentativo di Fiducia riesce autoconclusivamente e non è necessario lanciare il dado.
-Svolgere questa azione costa **-1 Fatica**.
+La procedura completa è nella pagina [Fiducia](fiducia/): requisiti, costo in Fatica, bonus, esempi e conseguenze del fallimento.
 
 ## Infondere Fiducia nella Creatura Magica: 1d30
 
-**Lancio 1d30**: la Fiducia avviene correttamente se il PG pesca un esito favorevole,
-con tante più possibilità quanto alto è il voto posseduto dallo Studente nella singola Creatura
-o, per i PG Adulti, il valore previsto dalla propria preparazione e dall'eventuale livello di
-**Amico delle Creature Magiche**. Al totale previsto si aggiungono ulteriori possibilità in
-base alla Classificazione della Creatura e all'Empatia del PG, più l'eventuale uso di
-Oggetti/Conoscenze che forniscono un bonus in possibilità per questo lancio.
-**Attenzione:** se la Creatura trovata è nella Fase Vitale Uovo/Cucciolo, la Fiducia è
-autoconclusiva.**Possibilità in base al Voto nella singola Creatura (PG Studenti)**
-**T:** infonde Fiducia nella Creatura se 1-5
-**D:** infonde Fiducia nella Creatura se 1-6
-**S:** infonde Fiducia nella Creatura se 1-7
-**A:** infonde Fiducia nella Creatura se 1-8
-**O:** infonde Fiducia nella Creatura se 1-9
-**E:** infonde Fiducia nella Creatura se 1-10
-**PG Studente con Amico delle Creature Magiche I:** +2 possibilità al limite previsto dal
-proprio voto nella singola Creatura
-**Possibilità per PG Adulti**
-**PG Adulto senza Amico delle Creature Magiche, che non ha frequentato CDCM:**
-infonde Fiducia nella Creatura se 1-7
-**PG Adulto senza Amico delle Creature Magiche, che ha frequentato CDCM:** infonde
-Fiducia nella Creatura se 1-11
-**PG Adulto con Amico delle Creature Magiche I:** infonde Fiducia nella Creatura se
-1-12
-**PG Adulto con Amico delle Creature Magiche II:** infonde Fiducia nella Creatura se
-1-13
-**PG Adulto con Amico delle Creature Magiche III:** infonde Fiducia nella Creatura se
-1-14
-**PG Adulto con Amico delle Creature Magiche IV:** infonde Fiducia nella Creatura se
-1-15
-**PG Adulto con Amico delle Creature Magiche V:** infonde Fiducia nella Creatura se
-1-16
-**Possibilità in aggiunta per livello di Classificazione della Creature:**
-**X:** +3 possibilità
-**XX**: +2 possibilità
-**XXX**: //
-**XXXX**: -2 possibilità
-**XXXXX**: -3 possibilità
-**Possibilità in aggiunta per Empatia:**
-Empatia/2, arrotondando per difetto
-**Se il PG non ha riconosciuto la Creatura:** -5 possibilità al totale
-**1d30:** se 1 - Voto nella singola Creatura/Lv. Amico delle Creature (+2 se PG
-Studente con Amico I) + Classificazione Creatura + (Empatia/2) + Uso di
-Oggetti/Conoscenze su 30
-La Fiducia diventa **autoconclusiva** se la somma raggiunge o supera il totale del
-dado (**30**).
-
-• Un PG Studente si trova ad avere a che fare con un Ippogrifo (Classificazione XXX). Ha
-voto **“O” nella Conoscenza dell'Ippogrifo** (infonde Fiducia nella Creatura se 1-9) e
-**Empatia 12** → (Empatia/2 = +6). La Creatura è XXX → nessun modificatore.
-**Totale=** 1-9 + 6 = **15 possibilità**. Pertanto, il PG infonde Fiducia con un
-risultato da **1 a 15 su 1d30**.
-Il PG che lo ha fra le Conoscenze, sa che bisogna prima inchinarsi per stabilire un contatto
-di Fiducia. Se il PG pesca un possibilità, l'Ippogrifo si inchinerà, altrimenti si rifiuterà. Se
-ottiene un successo, l’Ippogrifo si inchina al PG e riconosce la sua sicurezza; se fallisce, si
-rifiuta e resta diffidente.
-• Un **Graphorn** (XXXX) sembra pronto ad attaccare i PG intrusi. Uno dei PG
-possiede **Amico delle Creature Magiche II** (infonde Fiducia nella Creatura se 1-13),
-**Empatia 10** → (Empatia/2 = +5) e la Classificazione XXXX dà −2 possibilità.
-**Totale= **1-13 + 5 − 2 = **16 possibilità**. Pertanto, il PG infonde Fiducia con un
-risultato da **1 a 16 su 1d30**.
-In caso si esito positivo, riesce a infondere Fiducia e il Graphorn non lo attacca. Se fallisce
-(17–30), lancia 1d4 per determinare l’esito: 1–3 il Graphorn si allontana, 4 diventa ostile e
-serve il Narratore.
-
-In caso di fallimento il PG può tentare la fase di Fiducia tutte le volte che vuole, ma...
-
-**COSA SUCCEDE SE FALLISCO LA
-FASE DI FIDUCIA?**
-L'esito negativo della fase di Fiducia può portare a diverse conseguenze a seconda della
-Fase Vitale in cui si trova la Creatura Magica:
-• **Uovo **â¢ la Fiducia è **autoconclusiva **(non è necessario lanciare alcun
-dado);
-• **Creatura Infante** â¢ se il risultato del dado è negativo, lanciare **1d4**: se
-1-2-3 la Creatura resta ed ignora i PG, se 4 si allontana;
-• **Creatura Adolescente** â¢ se il risultato del dado è negativo, lanciare **1d4**:
-se 1-2 la Creatura resta ed ignora i PG, se 3 la Creatura si allontana, se 4 diventa ostile;
-• **Creatura Adulta** â¢ se il risultato del dado è negativo, lanciare **1d4**: se 1-2
-la Creatura si allontana, se 3-4 diventa ostile;
-• **Creatura Anziana** â¢ se il risultato del dado è negativo, lanciare **1d4**: se
-1-2-3 la Creatura si allontana, se 4 la Creatura ha avuto modo di ripensarci e l’interazione
-diventa positiva.
-
-> **Nota.**
->
-• Nel caso in cui la Creatura diventi ostile, il PG deve chiamare il Narratore che seguirà il
-proseguo della role fino alla successiva fase dell'interazione.
-Il PG che ottiene dalla Creatura ostilità, dopo aver eventualmente scongiurato il pericolo,
-può provare a placarla una seconda volta lanciando un nuovo dado Fiducia (con un malus di
--3 possibilità) oppure utilizzando strumenti o altre tecniche che possano aumentarne le
-possibilità, come la Mimica-Limbica, l'Imitazione o l'incantesimo Imposium.
-Placare una Creatura ostile significa avere successo nella fase di Fiducia.• Ciò che è specificato nella fase di Fiducia vale anche per provare ad interagire con alcuni
-Esseri e Spiriti senza scatenare la loro ostilità, salvo diverse specifiche negli specchietti delle
-singole Creature.
-
-> **Nota.**
->
-•PG Studenti e Adulti subiscono ONGame una ferita da taglio per via di una Creatura
-Magica contraggono l'Artigliatite se, lanciando 1d15,
-pescano 1-3.
-• PG che allevano (il dado va lanciato assieme ad ogni dado di Produzione degli Ingredienti)
-una Creatura Magica XXXX o XXXXX contraggono l'Ira se,
-lanciando 1d20, pescano 1.
+Consulta il [lancio di Fiducia e i relativi esempi](fiducia/#infondere-fiducia-nella-creatura-magica-1d30).
 
 ## Cura
 
@@ -712,155 +583,11 @@ Convalescenza e riprende dal **13° post** una volta che la Creatura è guarita.
 
 ## Domesticazione
 
-**Tool interattivo:** La Magizoologia Facile
-La fase di Domesticazione è quella fase in cui il PG, dopo aver ottenuto la Fiducia della
-Creatura, decide di portarla con sé nella propria Riserva per accudirla e sfruttarne le
-capacità ed i vantaggi.
-**Non è necessario** svolgere questa fase per le Creature che nascono all'interno della
-propria Riserva, ovvero per le Creature che vengono trovate durante la Ricerca in fase di
-Uovo/Cucciolo oppure per le Creature Uovo/Cucciolo nate dalla Fase di Riproduzione di una
-Creatura già Addomesticata.
-Maggiore è l'Empatia e la conoscenza del PG sulla Creatura di riferimento, maggiore è la
-possibilità di addomesticarla quanto prima.
-Più è alta la Classificazione della Creatura di riferimento, maggiore è il rischio di farla
-arrabbiare.
-Il PG che ottiene un esito favorevole da questa fase, riesce ad addomesticare
-completamente la Creatura, che adesso gli è fedele e ubbidiente; a portarla con sé nella sua
-Riserva o all'interno della sua Valigia Magica; a indurla a placarsi se sta combattendo con
-altre Creature.
-Le Creature addomesticate diventano parte della riserva del PG, che può dunque attribuire
-loro un nome per dare a ciascuna di esse una sua identità e distinguerla dalle altre.
-OFFGame può altresì dar loro delle caratteristiche comportamentali e caratteriali puramente
-di colore.
-Svolgere questa azione costa **-2 Fatica**.
+La procedura completa è nella pagina [Domesticazione](domesticazione/): requisiti, costo in Fatica, tentativi successivi, conseguenze e gestione delle Creature addomesticate.
 
 ## Addomesticare una Creatura: 1d35
 
-**Lancio di 1d35:** il PG riesce ad addomesticare una Creatura Magica se pesca un
-esito compreso fra 1 e la sua Empatia + Bonus legato al voto nella singola Creatura/valore
-Adulto o Livello di Addestratore di Creature + Classificazione, aggiungendo se ottenuto ilbonus da Cura del Problema + l'eventuale uso di Oggetti/Conoscenze che forniscono un
-bonus in possibilità per questo lancio.
-**Base:** 1-Empatia su 1d35
-**Aumento possibilità in base al Voto nella singola Creatura (PG Studenti)**
-**T:** //
-**D:** //
-**S:** +1 possibilità
-**A:** +2 possibilità
-**O:** +3 possibilità
-**E:** +4 possibilità
-**PG Studente con Addestratore di Creature Magiche I:** +2 possibilità al valore
-previsto dal proprio voto nella singola Creatura
-**Possibilità per PG Adulti**
-**PG Adulto senza Addestratore di Creature, che non ha frequentato CDCM:** +1
-possibilità
-**PG Adulto senza Addestratore di Creature, che ha frequentato CDCM:** +1d4
-Possibilità
-**PG Adulto con Addestratore di Creature Lv I:** +5 possibilità
-**PG Adulto con Addestratore di Creature Lv II:** +6 possibilità
-**PG Adulto con Addestratore di Creature Lv III:** +7 possibilità
-**PG Adulto con Addestratore di Creature Lv IV:** +8 possibilità
-**PG Adulto con Addestratore di Creature Lv V:** +9 possibilità
-**Possibilità in aggiunta per livello di Classificazione della Creatura**
-**X:** +3 possibilità
-**XX**: +2 possibilità
-**XXX**: //
-**XXXX**: -2 possibilità
-**XXXXX**: -3 possibilità
-Aggiungere eventuale bonus da "Cura del problema"
-**Formula:** 1 - Empatia + Voto nella singola Creatura/Lv. Addestratore di
-Creature (+2 se PG Studente con Addestratore I) + Classificazione Creatura + Bonus Cura
-del Problema + Uso di Oggetti/Conoscenze su 35
-
-• Un **PG Studente** prova ad addomesticare un **Ippogrifo** (Classificazione
-XXX).
-- **Empatia 12** → 1-12;
-- voto **E** nella Conoscenza dell’Ippogrifo → **+4 possibilità** (tabella
-Domesticazione);
-- Classificazione XXX → **0**; nessun bonus da Cura/oggetti.
-**Totale =** 1-12 (Empatia) + 4 (Voto) + 0 (Classificazione) = **16**. Pertanto, il
-PG riesce ad addomesticare l’Ippogrifo con un risultato da **1 a 16 su 1d35**.• Un **PG Adulto con Addestratore di Creature Magiche II** prova ad addomesticare
-un **Jarvey** (Classificazione XXX). **Empatia 15** → 1-15;
-- **Addestratore II** → **+6 possibilità**;
-- Classificazione XXX → **0**; nessun bonus da Cura/oggetti.
-**Totale =** 1-15 (Empatia) + 6 (Addestratore II) + 0 (Classificazione) = **21**.
-Pertanto, il PG riesce ad addomesticare il Jarvey con un risultato da **1 a 21 su 1d35**.
-• Un **PG Adulto che ha frequentato CDCM, senza Addestratore di Creature
-Magiche**, tenta di dare ordini a delle **Fate** (Classificazione XX).
-- **Empatia 20** → 1-20;
-- **Adulto con CDCM, senza Addestratore** → **+1d4** possibilità. Il PG lancia
-1d4 e ottiene **2**;
-- Classificazione XX → **+2**; nessun bonus da Cura/oggetti.
-**Totale =** 1-20 (Empatia) + 2 (risultato 1d4) + 2 (Classificazione) = **24**.
-Pertanto, impartisce ordini alle Fate con un risultato da **1 a 24 su 1d35**.
-
-**COSA SUCCEDE SE NON RIESCO
-AD ADDOMESTICARE LA CREATURA?**
-Se il tentativo di addomesticare la Creatura **fallisce**, il PG può riprovare ad
-addomesticarla dopo 5 post qualsiasi del PG (nella stessa role o in altre role) o dopo una
-settimana di tempo OFFGame.
-Inoltre, il PG deve lanciare un dado nel caso in cui si tratta di una **Creatura non già
-addomesticata e quindi che non è ancora parte della propria Riserva**. L'esito negativo
-della fase di Domesticazione può portare a diverse conseguenze a seconda della Fase
-Vitale in cui si trova la Creatura Magica:
-• **Creatura Infante** â¢ se il risultato del dado è negativo, lanciare **1d7**: con
-risultato 7 diventa ostile;
-• **Creatura Adolescente** â¢ se il risultato del dado è negativo, lanciare **1d5**:
-con risultato 5 diventa ostile;
-• **Creatura Adulta** â¢ se il risultato del dado è negativo, lanciare **1d5**: con
-con risultato 4-5 diventa ostile;
-• **Creatura Anziana** â¢ se il risultato del dado è negativo, lanciare **1d5**: con
-risultato 5 la Creatura ha avuto modo di ripensarci e la Domesticazione diventa positiva.
-
-> **Nota.**
->
-• Nel caso in cui la Creatura diventi ostile, il PG deve chiamare il Narratore che seguirà il
-proseguo della role fino alla successiva fase dell'interazione.
-Il PG che ottiene dalla Creatura ostilità, dopo essersi eventualmente difeso, può provare a
-placarla lanciando un nuovo dado Fiducia (con un malus di -3 possibilità) oppure utilizzando
-strumenti o altre tecniche che possano aumentarne le possibilità, come la Mimica-Limbica,
-l'Imitazione o l'incantesimo Imposium.
-• Ciò che è specificato nella fase di Addomesticazione vale anche per provare ad interagire
-con alcuni Esseri e Spiriti senza scatenare la loro ostilità, salvo diverse specifiche negli
-specchietti delle singole Creature.
-
-> **Nota.**
->
-•PG Studenti e Adulti subiscono ONGame una ferita da taglio per via di una Creatura
-Magica contraggono l'Artigliatite se, lanciando 1d15,
-pescano 1-3.
-• PG che allevano (il dado va lanciato assieme ad ogni dado di Produzione degli Ingredienti)
-una Creatura Magica XXXX o XXXXX contraggono l'Ira se,
-lanciando 1d20, pescano 1.
-
-**E' necessario tenere a mente le seguenti indicazioni nel momento in cui si svolge la fase
-di Domesticazione di una Creatura Magica:**
-• Non è necessario lanciare il dado della Domesticazione quando si vuole accudire un Uovo.
-• La Domesticazione è utile anche se la Creatura che fa già parte della propria Riserva litiga
-o assume atteggiamenti ostili nei confronti del padrone o di altre Creature. In questo caso
-non è necessario ripetere la fase di Fiducia.
-• Una Creatura addomesticata può essere addestrata per
-rendersi utile ai Medimagi e curare delle vite.
-• **Vendere, abbandonare, donare o in generale liberarsi** una Creatura Infante,
-Adolescente, Adulta o Anziana **già addomesticata** (ossia già accolta in
-Riserva/Valigia) per fare posto ad un'altra comporta un malus di -5 Empatia per i successivi
-10 utilizzi utili del Parametro Empatia, a meno che essa non sia un Uovo o non venga
-venduta prima di essere Addomesticata ai PNG commercianti.
-• E' possibile **donare ad un altro PG** una Creatura trovata dalla quale si è ottenuta
-Fiducia se il PG donatore non possiede una Riserva o una Valigia Magica oppure non
-vuole/non può occuparsi della Creatura di cui ha ottenuto la Fiducia.
-Il PG a cui viene donata dovrà prima ottenere la sua Fiducia con un bonus di +5 possiblità
-per essersi già fidata del donatore.
-• Uccidere senza ragione una Creatura già addomesticata (ossia già accolta in Riserva) per
-fare posto ad un'altra comporta un malus di -15 Empatia per i successivi 20 utilizzi del
-Parametro Empatia.
-
-> **Nota.**
->
-• Con **Sapienza Magizoologica 25** il PG è in grado di capire alla perfezione i versi
-delle Creature come riuscisse a leggerle nella mente.
-• Si ricorda che possedere la Conoscenza Avanzata Custode delle Creature Magiche
-sblocca le abilità: "Insieme per sempre", "Creature Medimaghe", "Richiamare le Creature
-Magiche" e "Salvataggio del Padrone" (vedi sotto).
+Consulta il [lancio di Domesticazione e i relativi esempi](domesticazione/#addomesticare-una-creatura-1d35).
 
 ## Allevamento
 
