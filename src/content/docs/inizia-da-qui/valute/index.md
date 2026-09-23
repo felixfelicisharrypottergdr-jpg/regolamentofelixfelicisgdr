@@ -99,22 +99,38 @@ Nel caso di Quest o Eventi, quindi role non gestite interamente dai player, è i
 
 <a id="galeoni"></a>
 ## I Galeoni
-I Galeoni (abbreviato G) sono una delle altre valute di gioco che si può ottenere giocando. Sono una valuta particolare, poiché ha una duplice valenza: da una parte rappresentano la valuta corrente, e quindi la moneta con cui i PG pagano ONGame, dell'Inghilterra magica: 1 Galeone d'oro corrisponde a 17 Falci d'argento e una Falce a 29 Zellini di bronzo; 1 Galeone al cambio corrente corrisponde a circa 6 Euro. ONGame, i PG ne guadagnano in vari modi ed ogni player può decidere in autonomia la situazione economica del proprio personaggio, che non corrisponde alla quantità effettiva di Galeoni presenti nella Scheda PG.
-Dall'altro lato, i Galeoni sono una vera e propria valuta di gioco che può essere spesa per acquistare beni di ogni tipo come risorse, oggetti, potenziamenti o servigi, ma anche per pagamenti obbligatori come possono esserlo le cure mediche.
-Per praticità, su Felix Felicis tutti i prezzi e gli importi sono espressi solo in Galeoni: eventuali Falci e Zellini indicati nei prezzi sono indicativi e usati solo per rendere la narrazione più ricca.
+
+I Galeoni (G) hanno una doppia funzione: sono la moneta corrente dell'Inghilterra magica **ONGame**, ma anche una valuta di gioco che il player può spendere per beni, risorse, Oggetti Magici, potenziamenti, servigi o pagamenti obbligatori, come le cure mediche.
+
+**Nel Mondo Magico**, 1 Galeone d'oro equivale a 17 Falci d'argento e 1 Falce a 29 Zellini di bronzo. Un Galeone corrisponde indicativamente a circa 6 Euro. Ogni player può decidere in autonomia la situazione economica del proprio PG: **la ricchezza narrata ONGame non coincide necessariamente con i Galeoni registrati nella Scheda PG**.
+
+**Nelle meccaniche di gioco**, tutti i prezzi e gli importi sono espressi soltanto in Galeoni. Eventuali Falci e Zellini possono comparire nella narrazione, ma sono indicativi.
 
 <a id="guadgal"></a>
 ### Come guadagnare Galeoni
-Ogni PG Studente o Adulto, può guadagnare Galeoni in tre modi diversi:
-- attraverso il gioco attivo, proporzionalmente al numero di post che scrive ogni mese;
-- in particolari situazioni ONGame, come ricompense per la partecipazione a Quest o per aver compiuto particolari azioni;
-- partecipando o vincendo i contest proposti OFFGame.
-Attenzione: nel caso di **role in solitaria**, ovvero che prevedono il coinvolgimento di un solo player, sarà possibile richiedere i Galeoni **soltanto per il primo post** della giocata stessa.
+
+Ogni PG Studente o Adulto può guadagnare Galeoni in tre modi:
+
+- **Gioco attivo:** in base al numero di post validi scritti ogni mese;
+- **Ricompense ONGame:** per esempio durante Quest o per particolari azioni compiute dal PG;
+- **Contest OFFGame:** partecipando o vincendo i contest proposti.
+
+> **Attenzione.**
+>
+> Nelle **role in solitaria**, cioè con un solo player coinvolto, si possono richiedere Galeoni **soltanto per il primo post** della giocata.
 
 <a id="guadagnomens"></a>
 #### Il guadagno mensile
-Ogni PG guadagna Galeoni proporzionalmente al numero di post di almeno 2000 caratteri realizzati tra le 00:00 del primo giorno del mese e le 23:59 dell'ultimo giorno del mese.
-Il guadagno è spiegato nella tabella che segue. La prima colonna indica il numero di post realizzati, nella seconda e nella quarta colonna il guadagno per quel post relativo a un PG Studente e a un PG Adulto rispettivamente, nella terza e nella quinta colonna il guadagno cumulato sino a quel momento per un PG Studente e un PG Adulto rispettivamente.
+
+Ogni PG guadagna Galeoni in proporzione ai **post di almeno 2000 caratteri** scritti fra le **00:00 del primo giorno del mese** e le **23:59 dell'ultimo giorno**.
+
+<div class="felix-reference-strip" role="group" aria-label="Guadagno mensile: numeri essenziali">
+  <div><span>Minimo per post</span><strong>2000 caratteri</strong></div>
+  <div><span>Totale dopo 10 post</span><strong>100 G / 200 G</strong><span>Studente / Adulto</span></div>
+  <div><span>Dall'11° post</span><strong>+1 G per post</strong></div>
+</div>
+
+La tabella indica, per ciascun post valido del mese, **il guadagno del singolo post** e **il totale progressivo**, distinti fra PG Studenti e PG Adulti.
 
 <div class="felix-currency-table" role="region" tabindex="0" aria-label="Guadagno mensile in Galeoni per Studenti e Adulti">
 <table><caption>Guadagno per post valido nel mese</caption><thead><tr><th scope="col">Post numero</th><th scope="col">Galeoni Studente</th><th scope="col">Guadagno cumulato</th><th scope="col">Galeoni Adulto</th><th scope="col">Guadagno cumulato</th></tr></thead><tbody><tr><th scope="row">1</th><td>30</td><td>30</td><td>65</td><td>65</td></tr>
@@ -131,29 +147,14 @@ Il guadagno è spiegato nella tabella che segue. La prima colonna indica il nume
 </div>
 <p class="felix-mobile-table-hint">Su schermi stretti, scorri la tabella lateralmente per vedere tutte le colonne.</p>
 
-> **Esempio.**
+> **Esempi di calcolo.**
 >
-> Un PG Studente realizza 6 post in un mese: il suo guadagno è pari a 89 Galeoni.
+> - **Studente, 6 post:** 89 G complessivi (83 G dopo il quinto post + 6 G per il sesto).
+> - **Adulto, 6 post:** 185 G complessivi (175 G dopo il quinto post + 10 G per il sesto).
+> - **Studente, 15 post:** 105 G complessivi (100 G per i primi dieci post + 5 G per i cinque successivi).
+> - **Adulto, 18 post:** 208 G complessivi (200 G per i primi dieci post + 8 G per gli otto successivi).
 >
-> | Post numero | Galeoni Studente | Guadagno cumulato | Galeoni Adulto | Guadagno cumulato |
-> | ---: | ---: | ---: | ---: | ---: |
-> | 5 | 8 | 83 | 15 | 175 |
-> | **6** | 6 | **89** | 10 | 185 |
-> | 7 | 4 | 93 | 6 | 191 |
->
-> Un PG Adulto realizza 6 post in un mese: il suo guadagno è pari a 185 Galeoni.
->
-> | Post numero | Galeoni Studente | Guadagno cumulato | Galeoni Adulto | Guadagno cumulato |
-> | ---: | ---: | ---: | ---: | ---: |
-> | 5 | 8 | 83 | 15 | 175 |
-> | **6** | 6 | 89 | 10 | **185** |
-> | 7 | 4 | 93 | 6 | 191 |
->
-> L'undicesimo, il dodicesimo post e così via, valgono 1 Galeone ciascuno sia per un PG Studente che per un PG Adulto.
->
-> Un PG Studente realizza 15 post in un mese: il suo guadagno è pari a 105 Galeoni, 100 fino al decimo e 1 per ciascuno dei 5 post oltre il decimo.
->
-> Un PG Adulto realizza 18 post in un mese: il suo guadagno è pari a 208 Galeoni, 200 fino al decimo e 1 per ciascuno degli 8 post dopo il decimo.
+> Dall'undicesimo post in poi, **ogni post vale 1 Galeone**, sia per gli Studenti sia per gli Adulti.
 
 <aside class="felix-why" aria-labelledby="felix-why-galeoni">
   <p class="felix-why-kicker">Perché questa regola?</p>
@@ -165,23 +166,24 @@ Il guadagno è spiegato nella tabella che segue. La prima colonna indica il nume
 
 <a id="richgal"></a>
 ### Come richiedere Galeoni
-La richiesta dei Galeoni di ogni PG è a carico del player. Durante il mese, esso può tener traccia del proprio giocato nella propria Camera Blindata in questa sezione, dettagliando il numero di post e i riferimenti secondo quanto indicato.
-**Come?**
-Vanno segnati i link diretti ai **singoli post** (e non di interi topic/role). Per reperire il link del singolo post, è necessario cliccare sulla data e ora di invio del post, che appare in grigio in cima al post non appena questo viene inviato. In questo modo, il link del browser assumerà il formato tipo:
 
->
+La richiesta dei Galeoni di ogni PG è a carico del player. Per farla, tieni traccia dei post nella tua [Camera Blindata](https://felixfelicisharrypottergdr.forumfree.it/?f=65051027).
+
+1. **Durante il mese**, inserisci nella Camera Blindata il resoconto del tuo giocato, con il numero di post e i relativi riferimenti.
+2. **Per ogni post**, copia il suo link diretto cliccando sulla **data e ora di pubblicazione** (in grigio, in cima al post). Non inserire il link generico al topic o alla role.
+3. **Entro la fine del mese**, completa il resoconto, così da rendere disponibili i Galeoni spettanti il prima possibile. Le richieste tardive sono accolte nel mese successivo.
+
+**Esempio di link diretto a un singolo post:**
 
 ```text
 https://felixfelicisharrypottergdr.forumfree.it/?t=XXXXX#entryYYYYY
 ```
 
-
-Questo è il link da inserire, per ogni post scritto, nella propria Camera Blindata. Nei primi giorni del nuovo mese, lo Staff consulta le Camere Blindate di ciascun PG attivo e provvede ad aggiornare la somma di Galeoni nelle Schede PG.
-Per praticità e per avere i Galeoni che spettano disponibili il prima possibile, è opportuno completare il resoconto entro la fine del mese: le richieste tardive vengono accolte nel mese successivo.
+Nei primi giorni del nuovo mese, lo Staff consulta le Camere Blindate dei PG attivi e aggiorna il totale dei Galeoni nelle rispettive Schede PG.
 
 > **Nota.**
 >
-La richiesta non vale come pegno: finché i Galeoni non sono stati accreditati in Scheda, non è possibile spenderli anche se si sa di aver già guadagnato quella somma. Per praticità di gestione, è consigliato fare acquisti tenendo conto della cifra effettivamente segnata in Scheda.
+> La richiesta non vale come pegno: **i Galeoni si possono spendere solo dopo l'accredito in Scheda PG**, anche se si conosce già la somma guadagnata. Per gli acquisti, considera sempre il saldo effettivamente registrato.
 
 <a id="felixtoken"></a>
 ## I Felix Token
