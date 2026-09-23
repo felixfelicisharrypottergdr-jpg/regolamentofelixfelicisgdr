@@ -15,6 +15,7 @@ migration:
   sources:
     - document: "5. Le Sapienze"
       section: "Le Sapienze Fisiche"
+applicability: [adult]
 ---
 
 <a id="fisiche"></a>

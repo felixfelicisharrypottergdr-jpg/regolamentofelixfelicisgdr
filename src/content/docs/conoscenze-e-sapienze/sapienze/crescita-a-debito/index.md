@@ -12,6 +12,7 @@ migration:
   sources:
     - document: "5. Le Sapienze"
       section: "Crescita a Debito"
+applicability: [adult]
 ---
 
 # Crescita a Debito

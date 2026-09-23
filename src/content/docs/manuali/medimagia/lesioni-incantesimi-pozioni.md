@@ -11,6 +11,7 @@ migration:
     - document: "10.4 Enciclopedia Medimagica"
       section: "Lesioni da Incantesimi e Traumi da Pozioni"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # III. Lesioni da Incantesimi e Traumi da Pozioni

@@ -8,7 +8,7 @@ searchAliases:
   - "gobbiglie"
   - "scacchi magici"
   - "burrobirra"
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: revised

@@ -11,6 +11,7 @@ migration:
     - document: "10.4 Enciclopedia Medimagica"
       section: "Incidenti da Manufatti"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # IV. Incidenti da Manufatti

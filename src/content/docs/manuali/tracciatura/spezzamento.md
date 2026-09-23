@@ -30,6 +30,7 @@ migration:
     - document: "10.8 Tracciatura"
       section: "Spezzamento"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 # Spezzamento
 

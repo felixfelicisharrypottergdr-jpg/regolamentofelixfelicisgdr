@@ -4,7 +4,7 @@ title: "Vendere Merci Magiche"
 description: "Regole per vendere Merci Magiche."
 contentType: rule
 searchAliases: ["come vendere", "vendere oggetti", "vendita merci"]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: verified

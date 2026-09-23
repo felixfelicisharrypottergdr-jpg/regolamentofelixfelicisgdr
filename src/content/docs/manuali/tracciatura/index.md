@@ -30,6 +30,7 @@ migration:
     - document: "10.8 Tracciatura"
       section: "Guida alla Tracciatura"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 # Tracciatura
 

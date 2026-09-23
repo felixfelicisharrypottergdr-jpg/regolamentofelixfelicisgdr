@@ -10,6 +10,7 @@ migration:
     - document: "10.6 Magizoologia"
       section: "Tecniche e Incantesimi Magizoologici"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # Tecniche e Incantesimi Magizoologici

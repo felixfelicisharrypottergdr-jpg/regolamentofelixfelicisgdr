@@ -4,7 +4,7 @@ title: "Iniziare una Causa ONGame"
 description: "Procedura per avviare una Causa ONGame."
 contentType: rule
 searchAliases: ["avviare causa", "fare causa", "accusa imputato"]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: verified

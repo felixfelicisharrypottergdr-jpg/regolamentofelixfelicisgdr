@@ -4,7 +4,7 @@ title: "Difensori e Opportunità di Gioco"
 description: "Ruolo dei Difensori nel Patteggiamento, nel Processo e nelle Sedute Straordinarie."
 contentType: rule
 searchAliases: ["avvocato", "difesa legale", "difensore"]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: verified

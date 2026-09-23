@@ -35,6 +35,7 @@ quickLinks:
 migration:
   status: native
   sources: []
+applicability: [student, adult]
 ---
 
 I **Manuali** raccolgono discipline e compendi consultabili del Regolamento. Ogni famiglia mantiene la propria struttura, i propri Valori e le proprie relazioni con le altre parti del gioco.

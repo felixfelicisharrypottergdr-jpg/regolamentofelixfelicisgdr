@@ -12,6 +12,7 @@ migration:
   sources:
     - document: "5. Le Sapienze"
       section: "Definizione di Sapienza"
+applicability: [adult]
 ---
 
 # Cosa sono le Sapienze

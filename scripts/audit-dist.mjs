@@ -91,6 +91,24 @@ for (const file of htmlFiles) {
   const sourceRel = rel(file);
   const html = htmlCache.get(sourceRel);
   const pagePath = browserPathForHtml(file);
+  // Ogni pagina consultabile deve restare reperibile con almeno un filtro PG.
+  const applicability = attrs(html, '[A-Za-z][A-Za-z0-9:-]*', 'data-pagefind-filter')
+    .filter((value) => value.startsWith('applicability:'))
+    .map((value) => value.slice('applicability:'.length));
+  if (sourceRel !== '404.html' && !applicability.length) {
+    errors.push(`${sourceRel}: applicabilità PG mancante nella ricerca.`);
+  }
+  if (applicability.some((value) => !['PG Studente', 'PG Adulto'].includes(value))) {
+    errors.push(`${sourceRel}: applicabilità PG non valida.`);
+  }
+  const expectedAudience = sourceRel.startsWith('il-personaggio/pg-studente/modalita-di-gioco/fantahogwarts/missioni/')
+    ? 'PG Studente'
+    : sourceRel.startsWith('il-personaggio/pg-adulto/modalita-di-gioco/fantawiz/missioni/')
+      || sourceRel.startsWith('conoscenze-e-sapienze/maestrie/') ? 'PG Adulto' : null;
+  if (expectedAudience && (new Set(applicability).size !== 1 || applicability[0] !== expectedAudience)) {
+    errors.push(`${sourceRel}: filtro PG errato, atteso ${expectedAudience}.`);
+  }
+
   const ids = fragmentTargets(html);
   const rawIds = attrs(html, '[A-Za-z][A-Za-z0-9:-]*', 'id');
   const duplicateIds = [...new Set(rawIds.filter((value, index) => value && rawIds.indexOf(value) !== index))];

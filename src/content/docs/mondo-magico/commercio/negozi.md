@@ -9,7 +9,7 @@ searchAliases:
   - "hogsmeade"
   - "notturn alley"
   - "negozi"
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: revised

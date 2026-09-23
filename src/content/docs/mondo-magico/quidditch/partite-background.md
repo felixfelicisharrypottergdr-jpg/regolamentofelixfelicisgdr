@@ -7,7 +7,7 @@ searchAliases:
   - "quidditch background"
   - "partite background"
   - "punteggio ruolo"
-applicability: []
+applicability: [student]
 prototypeExcerpt: false
 migration:
   status: revised

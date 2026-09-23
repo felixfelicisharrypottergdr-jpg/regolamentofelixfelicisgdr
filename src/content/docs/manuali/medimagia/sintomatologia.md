@@ -11,6 +11,7 @@ migration:
     - document: "10.4 Enciclopedia Medimagica"
       section: "Sintomatologia di Base"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # I. Sintomatologia di Base

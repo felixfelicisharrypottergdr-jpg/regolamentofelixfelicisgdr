@@ -11,6 +11,7 @@ migration:
     - document: "10.4 Enciclopedia Medimagica"
       section: "Avvelenamento da Piante e Pozioni"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # V. Avvelenamento da Piante e Pozioni

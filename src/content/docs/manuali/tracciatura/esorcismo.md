@@ -30,6 +30,7 @@ migration:
     - document: "10.8 Tracciatura"
       section: "Esorcismo"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 # Esorcismo
 

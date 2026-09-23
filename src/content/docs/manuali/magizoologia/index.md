@@ -10,6 +10,7 @@ migration:
     - document: "10.6 Magizoologia"
       section: "Guida alla Magizoologia"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 Magizoologia

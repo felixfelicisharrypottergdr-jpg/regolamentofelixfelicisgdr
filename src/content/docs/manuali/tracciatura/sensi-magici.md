@@ -24,6 +24,7 @@ migration:
     - document: "10.8 Tracciatura"
       section: "I Sensi Magici"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 # I Sensi Magici
 

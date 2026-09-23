@@ -14,6 +14,7 @@ migration:
     - document: "10.1 Manuale di Incantesimi"
       section: "Materiale generale"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # Guida e Note del Manuale degli Incantesimi

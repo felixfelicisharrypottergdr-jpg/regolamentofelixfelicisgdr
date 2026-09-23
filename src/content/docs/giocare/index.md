@@ -4,7 +4,7 @@ title: "Giocare"
 description: "Role, Azioni, dadi, Scontri, Ricerche Casuali e regole operative di gioco."
 contentType: landing
 searchAliases: [come si gioca, role, azioni, dadi, scontri]
-applicability: []
+applicability: [student, adult]
 quickLinks:
   - label: "Le Role"
     href: "/giocare/le-role/"

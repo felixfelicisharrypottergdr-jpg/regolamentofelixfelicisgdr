@@ -8,7 +8,7 @@ searchAliases:
   - "criminali"
   - "fuga"
   - "produzione illegale"
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: revised

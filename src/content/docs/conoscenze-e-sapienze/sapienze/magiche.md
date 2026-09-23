@@ -14,6 +14,7 @@ migration:
   sources:
     - document: "5. Le Sapienze"
       section: "Le Sapienze Magiche"
+applicability: [adult]
 ---
 
 <a id="magiche"></a>

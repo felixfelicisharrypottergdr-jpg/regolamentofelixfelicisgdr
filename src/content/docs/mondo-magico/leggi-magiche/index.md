@@ -10,7 +10,7 @@ searchAliases:
   - "corollario"
   - "magisprudenza"
   - "wizengamot"
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: revised

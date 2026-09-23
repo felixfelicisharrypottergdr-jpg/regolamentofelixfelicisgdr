@@ -4,7 +4,7 @@ title: "Mondo Magico"
 description: "Vita, attività, servizi, istituzioni e ordinamento del Mondo Magico."
 contentType: landing
 searchAliases: [vivere nel mondo magico]
-applicability: []
+applicability: [student, adult]
 quickLinks:
   - label: "Trasporti Magici"
     href: "/mondo-magico/trasporti/"

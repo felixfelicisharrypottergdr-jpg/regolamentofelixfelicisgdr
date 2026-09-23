@@ -10,7 +10,7 @@ searchAliases:
   - "fabbricare oggetti"
   - "gringott"
   - "negozi"
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: revised

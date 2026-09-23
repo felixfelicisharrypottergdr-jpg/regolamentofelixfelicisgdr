@@ -10,6 +10,7 @@ migration:
     - document: "10.9 Ingredienti"
       section: "Guida agli Ingredienti"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 Ingredienti

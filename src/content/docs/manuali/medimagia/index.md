@@ -11,6 +11,7 @@ migration:
     - document: "10.4 Enciclopedia Medimagica"
       section: "guida, tecniche e incantesimi"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # Enciclopedia Medimagica

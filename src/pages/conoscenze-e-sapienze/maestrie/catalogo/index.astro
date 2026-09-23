@@ -12,7 +12,7 @@ const masteries=(await getCollection('masteries'))
 const parameters=[...new Set(masteries.map((entry)=>entry.data.parameter))].sort((a,b)=>a.localeCompare(b,'it'));
 ---
 <StarlightPage frontmatter={{title:'Catalogo delle Maestrie',description:'Consulta le 36 Maestrie e filtrale per Sapienza Magica e Parametro di riferimento.'}}>
-  <SearchMetadata type="Catalogo" macroarea="Conoscenze e Sapienze" aliases={['maestrie','catalogo maestrie','specializzazioni sapienze']} />
+  <SearchMetadata type="Catalogo" macroarea="Conoscenze e Sapienze" filters={{ applicability: 'PG Adulto' }} aliases={['maestrie','catalogo maestrie','specializzazioni sapienze']} />
 
   <FelixCatalog searchLabel="Cerca una Maestria" searchPlaceholder="Nome, Sapienza, Parametro o effetto..." count={masteries.length} countLabel="Maestrie">
     <label class="felix-filter-control" slot="filters">

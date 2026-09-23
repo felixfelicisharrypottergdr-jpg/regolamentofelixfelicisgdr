@@ -10,6 +10,7 @@ migration:
     - document: "10.6 Magizoologia"
       section: "Bestiario — indicazioni generali"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # Bestiario

@@ -4,7 +4,7 @@ title: "La Magisprudenza"
 description: "Termini, Difensori e procedure per Causa ONGame, Patteggiamento e Processo."
 contentType: rule
 searchAliases: ["diritto magico", "causa", "tribunale", "giustizia magica"]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: migrated

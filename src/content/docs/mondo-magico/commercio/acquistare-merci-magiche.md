@@ -4,7 +4,7 @@ title: "Acquistare Merci Magiche"
 description: "Regole per acquistare la Merce disponibile nei Negozi del Mondo Magico."
 contentType: rule
 searchAliases: ["come comprare", "acquistare oggetti", "merce magica"]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: verified

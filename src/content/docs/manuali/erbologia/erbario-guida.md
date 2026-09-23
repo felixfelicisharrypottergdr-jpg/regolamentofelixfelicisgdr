@@ -10,6 +10,7 @@ migration:
     - document: "10.5 Erbologia"
       section: "Erbario — indicazioni generali"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # Erbario

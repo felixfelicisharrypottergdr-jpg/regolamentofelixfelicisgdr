@@ -114,6 +114,11 @@ if (!isHome && (trail.length === 0 || trail[trail.length - 1]?.label !== title))
     <span data-pagefind-meta="macroarea">{macroarea}</span>
     <span data-pagefind-filter={`macroarea:${macroarea}`}></span>
     {aliases.length > 0 && <span data-pagefind-meta="aliases">{aliases.join(' · ')}</span>}
+  </div>
+)}
+
+{applicability.length > 0 && (
+  <div class="felix-pagefind-meta" aria-hidden="true" data-pagefind-ignore>
     {applicability.map((item: string) => (
       <span data-pagefind-filter={`applicability:${item === 'student' ? 'PG Studente' : 'PG Adulto'}`}></span>
     ))}

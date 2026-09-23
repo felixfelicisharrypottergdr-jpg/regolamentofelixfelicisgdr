@@ -4,7 +4,7 @@ title: "Pozionistica"
 description: "Guida completa all'uso, riconoscimento, preparazione, produzione, conservazione e creazione delle Pozioni."
 contentType: landing
 searchAliases: [pozioni, pozionario, pozionisti, preparazione pozioni, laboratori]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: revised

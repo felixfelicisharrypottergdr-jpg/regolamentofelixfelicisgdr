@@ -10,5 +10,6 @@ migration:
   status: native
   sources: []
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 

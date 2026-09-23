@@ -10,7 +10,7 @@ searchAliases:
   - "san mungo"
   - "sintomi"
   - "guarigione"
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: revised

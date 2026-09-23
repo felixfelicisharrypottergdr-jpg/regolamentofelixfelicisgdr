@@ -4,7 +4,7 @@ title: "Struttura del Patteggiamento"
 description: "Procedura di Patteggiamento per un Imputato che si dichiara Colpevole."
 contentType: rule
 searchAliases: ["accordo legale", "imputato colpevole"]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: verified

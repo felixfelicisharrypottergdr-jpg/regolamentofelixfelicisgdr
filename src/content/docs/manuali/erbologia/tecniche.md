@@ -10,6 +10,7 @@ migration:
     - document: "10.5 Erbologia"
       section: "Tecniche e Incantesimi Erbologici"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # Tecniche e Incantesimi Erbologici

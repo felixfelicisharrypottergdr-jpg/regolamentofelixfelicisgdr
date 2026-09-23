@@ -10,6 +10,7 @@ migration:
     - document: "10.5 Erbologia"
       section: "Guida all'Erbologia"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 Erbologia

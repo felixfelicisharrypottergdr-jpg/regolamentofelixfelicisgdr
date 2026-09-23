@@ -11,6 +11,7 @@ migration:
     - document: "10.4 Enciclopedia Medimagica"
       section: "Ferite da Creature e Piante Magiche"
 prototypeExcerpt: false
+applicability: [student, adult]
 ---
 
 # VI. Ferite da Creature e Piante Magiche

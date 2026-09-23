@@ -4,7 +4,7 @@ title: "Struttura del Processo"
 description: "Procedura del Processo davanti al Wizengamot."
 contentType: rule
 searchAliases: ["processo wizengamot", "imputato non colpevole"]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: verified

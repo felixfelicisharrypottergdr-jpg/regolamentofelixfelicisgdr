@@ -4,7 +4,7 @@ title: "La Gringott"
 description: "Camere Blindate, denaro magico e babbano e Prestiti."
 contentType: rule
 searchAliases: ["banca magica", "prestito", "camere blindate", "galeoni"]
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: verified

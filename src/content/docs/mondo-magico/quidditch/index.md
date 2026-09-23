@@ -7,7 +7,7 @@ searchAliases:
   - "quidditch"
   - "regolamento quidditch"
   - "partita quidditch"
-applicability: []
+applicability: [student, adult]
 prototypeExcerpt: false
 migration:
   status: revised

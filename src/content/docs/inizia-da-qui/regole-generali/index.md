@@ -10,6 +10,7 @@ migration:
   sources:
     - document: "1. Le Regole del Gioco"
       section: "Regole Generali"
+applicability: [student, adult]
 ---
 
 
