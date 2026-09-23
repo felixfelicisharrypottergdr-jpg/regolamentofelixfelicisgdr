@@ -3563,3 +3563,325 @@ body:not(:has(.felix-home-content)) .main-pane>.content-panel:first-child .sl-co
     padding:1.05rem 1rem!important;
   }
 }
+
+
+/* UX-PROSE-2 — semantic reading system for migrated long-form content */
+
+/* Il contenuto migrato deve sembrare un manuale consultabile, non una trascrizione.
+   La colonna di lettura resta stretta; tabelle, cataloghi e componenti strutturati
+   possono invece sfruttare tutta la larghezza disponibile. */
+.felix-content-wrap .sl-markdown-content > p,
+.felix-content-wrap .sl-markdown-content > ul,
+.felix-content-wrap .sl-markdown-content > ol,
+.felix-content-wrap .sl-markdown-content > blockquote,
+.felix-content-wrap .sl-markdown-content > details {
+  max-width: 74ch;
+}
+.felix-content-wrap .sl-markdown-content > p {
+  margin: .9rem 0;
+  color: #3f352c;
+  font-size: 1rem;
+  line-height: 1.78;
+}
+.felix-content-wrap .sl-markdown-content > p + p {
+  margin-top: 1.08rem;
+}
+.felix-content-wrap .sl-markdown-content > h2 + p,
+.felix-content-wrap .sl-markdown-content > h3 + p,
+.felix-content-wrap .sl-markdown-content > h4 + p {
+  margin-top: .5rem;
+}
+.felix-content-wrap .sl-markdown-content > h2 {
+  margin-top: 3rem !important;
+  margin-bottom: .9rem !important;
+}
+.felix-content-wrap .sl-markdown-content > h3 {
+  margin-top: 2.15rem !important;
+  margin-bottom: .65rem !important;
+}
+.felix-content-wrap .sl-markdown-content > h4 {
+  margin-top: 1.6rem !important;
+  margin-bottom: .48rem !important;
+}
+
+/* La prima frase dopo un titolo è già marcata dal processor come section lead.
+   Viene resa come breve introduzione visiva alla sezione. */
+.felix-content-wrap .sl-markdown-content .felix-section-lead {
+  max-width: 68ch;
+  margin: .45rem 0 1.15rem !important;
+  padding-left: .9rem;
+  border-left: 2px solid rgba(157, 112, 47, .38);
+  color: #5d5043 !important;
+  font-size: 1.035rem;
+  line-height: 1.72 !important;
+}
+
+/* I paragrafi composti soltanto da un grassetto vengono trattati come micro-titoli,
+   evitando che sembrino frasi casualmente in bold dentro il wall of text. */
+.felix-content-wrap .sl-markdown-content .felix-minor-heading {
+  max-width: 72ch;
+  margin: 1.35rem 0 .45rem !important;
+  color: #68441f !important;
+  font-family: 'Federo', Arial, sans-serif;
+  font-size: .82rem;
+  line-height: 1.35 !important;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+.felix-content-wrap .sl-markdown-content .felix-minor-heading strong {
+  color: inherit !important;
+}
+
+/* Etichette interne come “Parametro affine” o esempi inline diventano punti
+   di scansione, senza creare nuovi box pesanti. */
+.felix-content-wrap .sl-markdown-content .felix-keyline,
+.felix-content-wrap .sl-markdown-content .felix-inline-example {
+  max-width: 72ch;
+  margin: .75rem 0 !important;
+  padding: .58rem .78rem;
+  border-left: 3px solid rgba(145, 105, 54, .46);
+  background: rgba(179, 140, 78, .065);
+  color: #4c4035 !important;
+  line-height: 1.67 !important;
+}
+.felix-content-wrap .sl-markdown-content .felix-inline-example {
+  border-left-color: #6f866f;
+  background: rgba(93, 124, 94, .075);
+}
+
+/* Liste: meno “muro”, più scansione. */
+.felix-content-wrap .sl-markdown-content > ul,
+.felix-content-wrap .sl-markdown-content > ol {
+  margin: .85rem 0 1.25rem !important;
+  padding: .74rem 1rem .78rem 2rem !important;
+  border-left: 2px solid rgba(157, 111, 47, .22);
+  background: rgba(255, 255, 255, .12);
+  line-height: 1.66;
+}
+.felix-content-wrap .sl-markdown-content > ul > li,
+.felix-content-wrap .sl-markdown-content > ol > li {
+  margin: .38rem 0 !important;
+  padding-left: .18rem;
+}
+.felix-content-wrap .sl-markdown-content .felix-scan-list {
+  border-left-color: rgba(143, 101, 41, .5);
+  background: rgba(181, 139, 72, .075);
+}
+.felix-content-wrap .sl-markdown-content .felix-effect-list {
+  border-left-color: rgba(81, 113, 117, .55);
+  background: rgba(73, 111, 116, .07);
+}
+
+/* Sistema semantico dei callout.
+   Il processor assegna is-note / is-example / is-principle / is-warning. */
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout {
+  position: relative;
+  max-width: 72ch;
+  margin: 1.25rem 0 1.55rem !important;
+  padding: 1rem 1.15rem 1.05rem 1.28rem !important;
+  border: 1px solid rgba(115, 92, 63, .18);
+  border-left-width: 4px;
+  border-radius: 6px;
+  background: #f7f1e5;
+  box-shadow: 0 5px 18px rgba(72, 52, 31, .055);
+  color: #40362d !important;
+}
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout > p {
+  max-width: 66ch;
+  margin: .52rem 0;
+  color: inherit !important;
+  line-height: 1.68;
+}
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout > p:first-child {
+  margin-top: 0;
+  font-family: 'Federo', Arial, sans-serif;
+  font-size: .78rem;
+  letter-spacing: .045em;
+}
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout > p:first-child strong {
+  color: inherit !important;
+}
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout > p:last-child {
+  margin-bottom: 0;
+}
+
+/* Nota — blu petrolio: informazione importante ma non allarme. */
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-note {
+  border-color: rgba(74, 112, 123, .28);
+  border-left-color: #557f8b;
+  background: linear-gradient(90deg, rgba(79, 119, 130, .095), rgba(255,255,255,.14));
+}
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-note > p:first-child {
+  color: #456d78 !important;
+}
+
+/* Esempio — verde salvia: applicazione pratica, distinta dalla regola. */
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-example {
+  border-color: rgba(88, 119, 88, .27);
+  border-left-color: #718c70;
+  background: linear-gradient(90deg, rgba(102, 137, 101, .095), rgba(255,255,255,.14));
+}
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-example > p:first-child {
+  color: #567254 !important;
+}
+
+/* Principio — viola polvere: cornice concettuale, non procedurale. */
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-principle {
+  border-color: rgba(113, 92, 133, .27);
+  border-left-color: #806b92;
+  background: linear-gradient(90deg, rgba(118, 96, 140, .09), rgba(255,255,255,.14));
+}
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-principle > p:first-child {
+  color: #6d587f !important;
+}
+
+/* Attenzione — mattone: riservato ai rischi e alle eccezioni da non saltare. */
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-warning {
+  border-color: rgba(155, 79, 62, .27);
+  border-left-color: #a45f4e;
+  background: linear-gradient(90deg, rgba(165, 83, 63, .09), rgba(255,255,255,.14));
+}
+.felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-warning > p:first-child {
+  color: #8d4e40 !important;
+}
+
+/* I blockquote non classificati restano volutamente sobri: possono essere citazioni
+   o contenuto legacy di cui non conosciamo ancora la semantica. */
+.felix-content-wrap .sl-markdown-content blockquote:not(.felix-callout) {
+  max-width: 72ch;
+  margin: 1.1rem 0 1.35rem;
+  padding: .8rem 1rem;
+  border-left: 2px solid #b08a50;
+  background: rgba(174, 136, 78, .055);
+  color: #554a40;
+}
+
+/* Details: trasformati in vere sezioni richiudibili, con summary ben visibile. */
+.felix-content-wrap .sl-markdown-content details {
+  max-width: 78ch;
+  margin: 1.1rem 0 1.45rem !important;
+  border: 1px solid rgba(116, 82, 39, .19) !important;
+  border-radius: 6px !important;
+  background: rgba(255, 252, 244, .34) !important;
+  box-shadow: 0 3px 12px rgba(69, 48, 26, .035);
+}
+.felix-content-wrap .sl-markdown-content details > summary {
+  padding: .82rem 2.5rem .82rem .95rem !important;
+  background: rgba(151, 107, 48, .07) !important;
+  color: #65431f !important;
+  font-size: .86rem !important;
+  line-height: 1.4;
+}
+.felix-content-wrap .sl-markdown-content details[open] > summary {
+  border-bottom: 1px solid rgba(116, 82, 39, .14);
+}
+.felix-content-wrap .sl-markdown-content details > *:not(summary) {
+  max-width: 70ch;
+}
+
+/* Il WHY mantiene il ruolo più forte fra i box esplicativi, ma con testo e contrasto
+   coerenti con il nuovo sistema semantico. */
+.felix-content-wrap .sl-markdown-content .felix-why {
+  border-color: #d0b986 !important;
+  border-left-color: #9b6c26 !important;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.48), rgba(255,255,255,.08)),
+    #f3e6ca !important;
+}
+.felix-content-wrap .sl-markdown-content .felix-why h3 {
+  color: #50371d !important;
+}
+.felix-content-wrap .sl-markdown-content .felix-why p {
+  color: #41362c !important;
+}
+
+/* Enfasi nel testo: meno nerissimo, più gerarchia leggibile. */
+.felix-content-wrap .sl-markdown-content strong {
+  color: #4c321f;
+  font-weight: 700;
+}
+.felix-content-wrap .sl-markdown-content em {
+  color: #55473a;
+}
+.felix-content-wrap .sl-markdown-content a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: .17em;
+}
+
+/* Dark mode: i callout conservano la stessa semantica cromatica senza diventare
+   pannelli luminosi incollati sulla superficie scura. */
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content > p {
+  color: #d5cabd;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content .felix-section-lead {
+  color: #bfb2a3 !important;
+  border-left-color: rgba(205, 164, 94, .4);
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content .felix-minor-heading {
+  color: #d4b373 !important;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content > ul,
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content > ol {
+  background: rgba(255,255,255,.025);
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content blockquote.felix-callout {
+  color: #ddd2c4 !important;
+  background: rgba(255,255,255,.035);
+  box-shadow: none;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-note {
+  background: rgba(64, 103, 113, .12);
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-example {
+  background: rgba(78, 108, 78, .12);
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-principle {
+  background: rgba(100, 79, 119, .13);
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content blockquote.felix-callout.is-warning {
+  background: rgba(133, 69, 55, .13);
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content details {
+  background: rgba(255,255,255,.025) !important;
+  border-color: rgba(209, 168, 99, .17) !important;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content details > summary {
+  background: rgba(194, 145, 73, .07) !important;
+  color: #d7b77c !important;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content strong {
+  color: #ecd29d;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content em {
+  color: #cec1b2;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content .felix-why {
+  border-color: rgba(202, 160, 88, .34) !important;
+  border-left-color: #b4863d !important;
+  background: rgba(151, 107, 45, .12) !important;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content .felix-why h3 {
+  color: #e2c387 !important;
+}
+:root[data-theme='dark'] .felix-content-wrap .sl-markdown-content .felix-why p {
+  color: #d7cabc !important;
+}
+
+@media (max-width: 720px) {
+  .felix-content-wrap .sl-markdown-content > p,
+  .felix-content-wrap .sl-markdown-content > ul,
+  .felix-content-wrap .sl-markdown-content > ol,
+  .felix-content-wrap .sl-markdown-content > blockquote,
+  .felix-content-wrap .sl-markdown-content > details,
+  .felix-content-wrap .sl-markdown-content .felix-section-lead,
+  .felix-content-wrap .sl-markdown-content .felix-minor-heading {
+    max-width: none;
+  }
+  .felix-content-wrap .sl-markdown-content > p {
+    font-size: .98rem;
+    line-height: 1.72;
+  }
+  .felix-content-wrap .sl-markdown-content blockquote.felix-callout {
+    padding: .9rem .95rem !important;
+  }
+}
