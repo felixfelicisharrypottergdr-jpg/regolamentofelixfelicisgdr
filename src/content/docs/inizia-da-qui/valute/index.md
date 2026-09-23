@@ -61,15 +61,31 @@ I Parametri extra perenni acquistati verranno inseriti nella Scheda PG di fianco
 
 <a id="guadpp"></a>
 ### Come guadagnare Punti Post
-Si ottiene **1 Punto Post per ogni post di almeno 2000 caratteri** scritto in gioco, escludendo dal conteggio i caratteri che non riguardano la narrazione vera e propria (es.: l'elenco degli Oggetti che il PG porta con sè segnalato nello Spoiler del post).
+
+<div class="felix-reference-strip" role="group" aria-label="Punti Post: regole essenziali">
+  <div><span>Post valido</span><strong>Almeno 2000 caratteri</strong></div>
+  <div><span>Ricompensa ordinaria</span><strong>1 PP per post</strong></div>
+  <div><span>Role in solitaria</span><strong>Solo il primo post</strong></div>
+</div>
+
+Si ottiene **1 Punto Post per ogni post di almeno 2000 caratteri** scritto in gioco. Dal conteggio sono esclusi i caratteri che non riguardano la narrazione vera e propria, come l'elenco degli Oggetti che il PG porta con sé segnalato nello Spoiler del post.
+
 In alcune circostanze particolari, come Eventi o Quest, si possono ottenere più Punti Post per ogni post o si possono vincere come ricompensa.
+
 Nel caso di **role in solitaria**, ovvero che prevedono il coinvolgimento di un solo player, sarà possibile richiedere i Punti Post **soltanto per il primo post** della giocata stessa.
 
 <a id="minipost"></a>
 #### Mini-post
-Sempre in alcuni casi particolari, su indicazione del Narratore, potrebbe essere richiesta la scrittura di ***mini-post*** invece che di classici post. I mini-post sono dei post più brevi, in cui è necessario scrivere soltanto un minimo di 500 caratteri. Nelle situazioni di gioco in cui è richiesta una certa dinamicità e velocità delle azioni e degli scambi tra PG (come per esempio le partite di Quidditch), potrebbe essere prevista la scrittura di mini-post per rendere la giocata più interattiva e vivace.
-I mini-post funzionano, a livello di gioco, esattamente come i post: tutte le regole che valgono per i post, valgono anche per i mini-post. L'unica attenzione da fare è che servono 3 mini-post per ottenere ciò che normalmente si ottiene da 1 post: si guadagna **1 PP ogni 3 mini-post**, allo stesso modo si possono ottenere i Galeoni previsti per un singolo post ogni 3 mini-post scritti e si recupera 1 Fatica ogni 3 mini-post in cui non si svolgono azioni magiche che ne consumano.
-Nel caso in cui, durante una giocata, non si riuscissero a scrivere abbastanza mini-post per completare il "tris" di mini-post per l'ottenimento dei premi, è possibile "congelare" il conteggio di mini-post e proseguirlo nella prossima occasione in cui sarà necessario scriverli.
+
+In alcuni casi particolari, su indicazione del Narratore, potrebbe essere richiesta la scrittura di **mini-post** invece che di post ordinari. I mini-post richiedono **almeno 500 caratteri** e sono previsti per le situazioni che necessitano di maggiore dinamicità e velocità degli scambi, come le partite di Quidditch.
+
+Le normali regole dei post valgono anche per i mini-post. Per ottenere ciò che normalmente si ottiene da un post, però, ne servono **3**:
+
+- **Punti Post:** 1 PP ogni 3 mini-post;
+- **Galeoni:** il guadagno previsto per un singolo post ogni 3 mini-post;
+- **Fatica:** recupero di 1 Fatica ogni 3 mini-post in cui non si svolgono azioni magiche che ne consumano.
+
+Se durante una giocata non si raggiungono 3 mini-post, è possibile **congelare il conteggio** e proseguirlo alla prossima occasione in cui sarà necessario scriverli.
 
 <a id="richpp"></a>
 ### Come richiedere Punti Post
@@ -79,7 +95,7 @@ Nel caso di Quest o Eventi, quindi role non gestite interamente dai player, è i
 
 > **Nota.**
 >
-La richiesta non vale come pegno: finché i Punti Post non sono stati accreditati in Scheda, non è possibile spenderli anche se si sa di aver già guadagnato quella somma. Per praticità di gestione, è consigliato fare conversioni tenendo conto della cifra effettivamente segnata in Scheda.
+> La richiesta non vale come pegno: finché i Punti Post non sono stati accreditati in Scheda, non è possibile spenderli anche se si sa di aver già guadagnato quella somma. Per praticità di gestione, è consigliato fare conversioni tenendo conto della cifra effettivamente segnata in Scheda.
 
 <a id="galeoni"></a>
 ## I Galeoni
@@ -139,11 +155,13 @@ Il guadagno è spiegato nella tabella che segue. La prima colonna indica il nume
 >
 > Un PG Adulto realizza 18 post in un mese: il suo guadagno è pari a 208 Galeoni, 200 fino al decimo e 1 per ciascuno degli 8 post dopo il decimo.
 
-> **Perché?**
-> **... questa scansione dei Galeoni invece di una lineare?**
-Per mantenere il guadagno dei Galeoni equilibrato anche con grandi variazioni di gioco effettivo.
-In questo modo, un giocatore che ha poche possibilità di scrivere nell'arco di un mese può comunque vantare un buon guadagno, garantito dai primi post che sono molto remunerativi, e, di contro, un giocatore in grado di scrivere moltissimo non rende il suo personaggio incoerentemente straricco nel giro di poco tempo.
-Per quanto il guadagno dei Galeoni misuri in un certo modo l'attività di gioco, bisogna sempre tener presente che corrispondono a una valuta reale nel mondo dei personaggi e il cui guadagno deve quindi avere una certa base di senso.
+<aside class="felix-why" aria-labelledby="felix-why-galeoni">
+  <p class="felix-why-kicker">Perché questa regola?</p>
+  <h3 id="felix-why-galeoni">Perché questa scansione dei Galeoni invece di una lineare?</h3>
+  <p>Per mantenere il guadagno dei Galeoni equilibrato anche con grandi variazioni di gioco effettivo.</p>
+  <p>In questo modo, un giocatore che ha poche possibilità di scrivere nell'arco di un mese può comunque vantare un buon guadagno, garantito dai primi post che sono molto remunerativi, e, di contro, un giocatore in grado di scrivere moltissimo non rende il suo personaggio incoerentemente straricco nel giro di poco tempo.</p>
+  <p>Per quanto il guadagno dei Galeoni misuri in un certo modo l'attività di gioco, bisogna sempre tener presente che corrispondono a una valuta reale nel mondo dei personaggi e il cui guadagno deve quindi avere una certa base di senso.</p>
+</aside>
 
 <a id="richgal"></a>
 ### Come richiedere Galeoni
